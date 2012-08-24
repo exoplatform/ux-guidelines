@@ -1,0 +1,652 @@
+<html>
+   <head>
+      <title>Hover reveal Actions Pattern</title>
+      
+      
+      <!-- Le styles -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+      <link href="../css/docs.css" rel="stylesheet">
+      <link href="../css/uxp-pattern.css" rel="stylesheet">
+     <style type="text/css">
+      </style>
+   </head>
+   <body>
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li class="active"><a href="#pattern">Patterns</a></li>
+              <li><a href="#component">Component</a></li>
+              <li><a href="#style">Style</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+<div class="container">
+  <h1>Hover reveal Actions Pattern</h1>
+  <p class="lead">Hiding tools by default and revealing them on demand to make content cleaner</p>
+</div>
+</header>
+<div class="container">
+      <div class="row-fluid">
+      <div class="span3">
+           <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+        <li class="nav-header">Description</li>
+      	<li><a href="#Overview">Overview</a></li>
+      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
+      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
+      	
+      	<li class="divider"></li>
+      	
+    	<li class="nav-header">What's the Solution?</li>
+    	<li><a href="#S1">Object with few actions</a></li>     	
+        <li><a href="#S2">Object with multiple actions</a></li>
+      	<li class="divider"></li>
+      	
+      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+        </ul>
+     </div><!-- well -->
+     </div> <!-- span -->
+
+    <divspan class="span9">
+      <p><span></span></p>
+      <h3><a name="Overview"></a><span>Overview</span></h3>
+        <p>Hover-Reveal Tools allow users to interact directly with the content. Instead of making Contextual Tools always visible, we can show them on demand by mouse over an object.<br>
+        Hiding tools by default and revealing them on demand decreases the visual noise in the user interface and makes content cleaner and less cluttered.<br>
+        When using Hover-Reveal Tools, discoverability might be an issue. As tools are shown only when hovering over elements, it might be difficult to discover this functionality.</p>
+
+      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+
+      <p><span>Hover reveal tool makes user interface cleaner and provide quick and smart way to do actions on site contents.</span></p>
+
+      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
+
+      <p><li>Use when doing actions quickly on objects</li>
+      <li>Use when there are similar objects that having same actions.</li>
+      <li>Use when desiring to have simple user interface.</li> </span></p>
+
+     <h3><span>What's the Solution?</span></h3>
+      <p><span>Hover reveal action tool is displayed when mouse over a specific object. Depending on the characteristic of the object, the effects may be different. Group by the number of actions, we can have 2 main kind of objects:
+      object with few actions and object with multiple actions</span></p>
+
+     <h3><a name="S1"></a>Object with few actions</h3>
+     <p>With the object having few actions, the action link/button/icon can be displayed directly when mouse over
+     The samples below are suitable in case the number of actions less than 4.</p>
+     
+  <p>Hover reveal a content in case few number action links</p>
+ <table>
+         <tbody>
+            <tr class="hover-action">
+               <td class="content-sample">Sample Content 1</td>
+               <td class="td-hover"><a href="#">Edit</a> <a>|</a> <a href="#">Delete</a> <a>|</a> <a href="#">Share</a></td>
+              
+            </tr>
+        <tr class="hover-action">
+               <td class="content-sample">Sample Content 2</td>
+               <td class="td-hover"><a href="#">Edit</a> <a>|</a> <a href="#">Delete</a> <a>|</a> <a href="#">Share</a></td>
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 3</td>
+               <td class="td-hover"><a href="#">Edit</a> <a>|</a> <a href="#">Delete</a> <a>|</a> <a href="#">Share</a></td>
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 4</td>
+               <td class="td-hover"><a href="#">Edit</a> <a>|</a> <a href="#">Delete</a> <a>|</a> <a href="#">Share</a></td>
+            </tr>
+           <tr class="hover-action">
+               <td class="content-sample">Sample Content 5</td>
+               <td class="td-hover"><a href="#">Edit</a> <a>|</a> <a href="#">Delete</a> <a>|</a> <a href="#">Share</a></td>
+            </tr>
+</tbody>
+</table>
+<p>In details:</p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Hover effect</td>
+               <td>Background-color:#F8F8F8</td>
+            </tr>
+            <tr>
+               <td>Text Link</td>
+               <td>color: #0088cc;<br>
+                   text-decoration: none;</td>
+            </tr>
+            <tr>
+               <td>Link Hover</td>
+               <td> color: #005580;<br>
+                 text-decoration: underline;</td>
+            </tr>
+            <tr>
+               <td>Font Family</td>
+               <td>Helvetica Neue</td>
+            </tr>
+            <tr>
+               <td>Font Size</td>
+               <td>13px</td>
+            </tr>
+         </tbody>
+      </table>
+
+<p>Hover reveal a content in case few number action icons</p>
+<table>
+         <tbody>
+            <tr class="hover-action">
+               <td class="content-sample">Sample Content 1</td>
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>
+              
+            </tr>
+        <tr class="hover-action">
+               <td class="content-sample">Sample Content 2</td>
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 3</td>
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 4</td>
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
+            </tr>
+           <tr class="hover-action">
+               <td class="content-sample">Sample Content 5</td>
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
+            </tr>
+</tbody>
+</table>
+<p>In details:</p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Hover effect</td>
+               <td>Background-color:#F8F8F8</td>
+            </tr>
+            <tr>
+               <td>Icon</td>
+               <td>icon glyphs</td>
+            </tr>            
+         </tbody>
+      </table>
+
+<p>
+<p>
+<pre class="prettyprint linenums">
+<ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-name"</span><span class="tag">&gt;&lt;/i&gt;</span></li></ol></pre>
+</p>
+<p>To display a specific icon, put a correct icon title at "icon-name". There are 140 icon glyphs provided by Glyphicons for reference:</p>
+<table>
+<TR>
+<td class="td-text">
+	    <li><i class="icon-glass"></i> icon-glass</li>
+            <li><i class="icon-music"></i> icon-music</li>
+            <li><i class="icon-search"></i> icon-search</li>
+            <li><i class="icon-envelope"></i> icon-envelope</li>
+            <li><i class="icon-heart"></i> icon-heart</li>
+            <li><i class="icon-star"></i> icon-star</li>
+            <li><i class="icon-star-empty"></i> icon-star-empty</li>
+            <li><i class="icon-user"></i> icon-user</li>
+            <li><i class="icon-film"></i> icon-film</li>
+            <li><i class="icon-th-large"></i> icon-th-large</li>
+            <li><i class="icon-th"></i> icon-th</li>
+            <li><i class="icon-th-list"></i> icon-th-list</li>
+            <li><i class="icon-ok"></i> icon-ok</li>
+            <li><i class="icon-remove"></i> icon-remove</li>
+            <li><i class="icon-zoom-in"></i> icon-zoom-in</li>
+            <li><i class="icon-zoom-out"></i> icon-zoom-out</li>
+            <li><i class="icon-off"></i> icon-off</li>
+            <li><i class="icon-signal"></i> icon-signal</li>
+            <li><i class="icon-cog"></i> icon-cog</li>
+            <li><i class="icon-trash"></i> icon-trash</li>
+            <li><i class="icon-home"></i> icon-home</li>
+            <li><i class="icon-file"></i> icon-file</li>
+            <li><i class="icon-time"></i> icon-time</li>
+            <li><i class="icon-road"></i> icon-road</li>
+            <li><i class="icon-download-alt"></i> icon-download-alt</li>
+            <li><i class="icon-download"></i> icon-download</li>
+            <li><i class="icon-upload"></i> icon-upload</li>
+            <li><i class="icon-inbox"></i> icon-inbox</li></td>
+<td class="td-text"> <li><i class="icon-play-circle"></i> icon-play-circle</li>
+            <li><i class="icon-repeat"></i> icon-repeat</li>
+            <li><i class="icon-refresh"></i> icon-refresh</li>
+            <li><i class="icon-list-alt"></i> icon-list-alt</li>
+            <li><i class="icon-lock"></i> icon-lock</li>
+            <li><i class="icon-flag"></i> icon-flag</li>
+            <li><i class="icon-headphones"></i> icon-headphones</li>
+            <li><i class="icon-volume-off"></i> icon-volume-off</li>
+            <li><i class="icon-volume-down"></i> icon-volume-down</li>
+            <li><i class="icon-volume-up"></i> icon-volume-up</li>
+            <li><i class="icon-qrcode"></i> icon-qrcode</li>
+            <li><i class="icon-barcode"></i> icon-barcode</li>
+            <li><i class="icon-tag"></i> icon-tag</li>
+            <li><i class="icon-tags"></i> icon-tags</li>
+            <li><i class="icon-book"></i> icon-book</li>
+            <li><i class="icon-bookmark"></i> icon-bookmark</li>
+            <li><i class="icon-print"></i> icon-print</li>
+            <li><i class="icon-camera"></i> icon-camera</li>
+            <li><i class="icon-font"></i> icon-font</li>
+            <li><i class="icon-bold"></i> icon-bold</li>
+            <li><i class="icon-italic"></i> icon-italic</li>
+            <li><i class="icon-text-height"></i> icon-text-height</li>
+            <li><i class="icon-text-width"></i> icon-text-width</li>
+            <li><i class="icon-align-left"></i> icon-align-left</li>
+            <li><i class="icon-align-center"></i> icon-align-center</li>
+            <li><i class="icon-align-right"></i> icon-align-right</li>
+            <li><i class="icon-align-justify"></i> icon-align-justify</li>
+            <li><i class="icon-list"></i> icon-list</li></td>
+<td class="td-text"> <li><i class="icon-indent-left"></i> icon-indent-left</li>
+            <li><i class="icon-indent-right"></i> icon-indent-right</li>
+            <li><i class="icon-facetime-video"></i> icon-facetime-video</li>
+            <li><i class="icon-picture"></i> icon-picture</li>
+            <li><i class="icon-pencil"></i> icon-pencil</li>
+            <li><i class="icon-map-marker"></i> icon-map-marker</li>
+            <li><i class="icon-adjust"></i> icon-adjust</li>
+            <li><i class="icon-tint"></i> icon-tint</li>
+            <li><i class="icon-edit"></i> icon-edit</li>
+            <li><i class="icon-share"></i> icon-share</li>
+            <li><i class="icon-check"></i> icon-check</li>
+            <li><i class="icon-move"></i> icon-move</li>
+            <li><i class="icon-step-backward"></i> icon-step-backward</li>
+            <li><i class="icon-fast-backward"></i> icon-fast-backward</li>
+            <li><i class="icon-backward"></i> icon-backward</li>
+            <li><i class="icon-play"></i> icon-play</li>
+            <li><i class="icon-pause"></i> icon-pause</li>
+            <li><i class="icon-stop"></i> icon-stop</li>
+            <li><i class="icon-forward"></i> icon-forward</li>
+            <li><i class="icon-fast-forward"></i> icon-fast-forward</li>
+            <li><i class="icon-step-forward"></i> icon-step-forward</li>
+            <li><i class="icon-eject"></i> icon-eject</li>
+            <li><i class="icon-chevron-left"></i> icon-chevron-left</li>
+            <li><i class="icon-chevron-right"></i> icon-chevron-right</li>
+            <li><i class="icon-plus-sign"></i> icon-plus-sign</li>
+            <li><i class="icon-minus-sign"></i> icon-minus-sign</li>
+            <li><i class="icon-remove-sign"></i> icon-remove-sign</li>
+            <li><i class="icon-ok-sign"></i> icon-ok-sign</li></td>
+<td class="td-text"><li><i class="icon-question-sign"></i> icon-question-sign</li>
+            <li><i class="icon-info-sign"></i> icon-info-sign</li>
+            <li><i class="icon-screenshot"></i> icon-screenshot</li>
+            <li><i class="icon-remove-circle"></i> icon-remove-circle</li>
+            <li><i class="icon-ok-circle"></i> icon-ok-circle</li>
+            <li><i class="icon-ban-circle"></i> icon-ban-circle</li>
+            <li><i class="icon-arrow-left"></i> icon-arrow-left</li>
+            <li><i class="icon-arrow-right"></i> icon-arrow-right</li>
+            <li><i class="icon-arrow-up"></i> icon-arrow-up</li>
+            <li><i class="icon-arrow-down"></i> icon-arrow-down</li>
+            <li><i class="icon-share-alt"></i> icon-share-alt</li>
+            <li><i class="icon-resize-full"></i> icon-resize-full</li>
+            <li><i class="icon-resize-small"></i> icon-resize-small</li>
+            <li><i class="icon-plus"></i> icon-plus</li>
+            <li><i class="icon-minus"></i> icon-minus</li>
+            <li><i class="icon-asterisk"></i> icon-asterisk</li>
+            <li><i class="icon-exclamation-sign"></i> icon-exclamation-sign</li>
+            <li><i class="icon-gift"></i> icon-gift</li>
+            <li><i class="icon-leaf"></i> icon-leaf</li>
+            <li><i class="icon-fire"></i> icon-fire</li>
+            <li><i class="icon-eye-open"></i> icon-eye-open</li>
+            <li><i class="icon-eye-close"></i> icon-eye-close</li>
+            <li><i class="icon-warning-sign"></i> icon-warning-sign</li>
+            <li><i class="icon-plane"></i> icon-plane</li>
+            <li><i class="icon-calendar"></i> icon-calendar</li>
+            <li><i class="icon-random"></i> icon-random</li>
+            <li><i class="icon-comment"></i> icon-comment</li>
+            <li><i class="icon-magnet"></i> icon-magnet</li></td>
+<td class="td-text">
+    <li><i class="icon-chevron-up"></i> icon-chevron-up</li>
+            <li><i class="icon-chevron-down"></i> icon-chevron-down</li>
+            <li><i class="icon-retweet"></i> icon-retweet</li>
+            <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
+            <li><i class="icon-folder-close"></i> icon-folder-close</li>
+            <li><i class="icon-folder-open"></i> icon-folder-open</li>
+            <li><i class="icon-resize-vertical"></i> icon-resize-vertical</li>
+            <li><i class="icon-resize-horizontal"></i> icon-resize-horizontal</li>
+            <li><i class="icon-hdd"></i> icon-hdd</li>
+            <li><i class="icon-bullhorn"></i> icon-bullhorn</li>
+            <li><i class="icon-bell"></i> icon-bell</li>
+            <li><i class="icon-certificate"></i> icon-certificate</li>
+            <li><i class="icon-thumbs-up"></i> icon-thumbs-up</li>
+            <li><i class="icon-thumbs-down"></i> icon-thumbs-down</li>
+            <li><i class="icon-hand-right"></i> icon-hand-right</li>
+            <li><i class="icon-hand-left"></i> icon-hand-left</li>
+            <li><i class="icon-hand-up"></i> icon-hand-up</li>
+            <li><i class="icon-hand-down"></i> icon-hand-down</li>
+            <li><i class="icon-circle-arrow-right"></i> icon-circle-arrow-right</li>
+            <li><i class="icon-circle-arrow-left"></i> icon-circle-arrow-left</li>
+            <li><i class="icon-circle-arrow-up"></i> icon-circle-arrow-up</li>
+            <li><i class="icon-circle-arrow-down"></i> icon-circle-arrow-down</li>
+            <li><i class="icon-globe"></i> icon-globe</li>
+            <li><i class="icon-wrench"></i> icon-wrench</li>
+            <li><i class="icon-tasks"></i> icon-tasks</li>
+            <li><i class="icon-filter"></i> icon-filter</li>
+            <li><i class="icon-briefcase"></i> icon-briefcase</li>
+            <li><i class="icon-fullscreen"></i> icon-fullscreen</li>
+</td>
+</TR>
+
+</table>
+</p>
+<p>Hover reveal a content in case few number action buttons</p>
+<table>
+         <tbody>
+            <tr class="hover-action">
+               <td class="content-sample">Sample Content 1</td>
+               <td class="td-hover"><a href="#"><button class="btn btn-mini" type="button">Edit</button></a> <a href="#"><button class="btn btn-mini" type="button">Delete</button></a> <a href="#"><button class="btn btn-mini" type="button">Share</button></a></td>
+              
+            </tr>
+        <tr class="hover-action">
+               <td class="content-sample">Sample Content 2</td>
+               <td class="td-hover"><a href="#"><button class="btn btn-mini" type="button">Edit</button></a> <a href="#"><button class="btn btn-mini" type="button">Delete</button></a> <a href="#"><button class="btn btn-mini" type="button">Share</button></a></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 3</td>
+               <td class="td-hover"><a href="#"><button class="btn btn-mini" type="button">Edit</button></a> <a href="#"><button class="btn btn-mini" type="button">Delete</button></a> <a href="#"><button class="btn btn-mini" type="button">Share</button></a></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 4</td>
+               <td class="td-hover"><a href="#"><button class="btn btn-mini" type="button">Edit</button></a> <a href="#"><button class="btn btn-mini" type="button">Delete</button></a> <a href="#"><button class="btn btn-mini" type="button">Share</button></a></td>              
+            </tr>
+           <tr class="hover-action">
+               <td class="content-sample">Sample Content 5</td>
+               <td class="td-hover"><a href="#"><button class="btn btn-mini" type="button">Edit</button></a> <a href="#"><button class="btn btn-mini" type="button">Delete</button></a> <a href="#"><button class="btn btn-mini" type="button">Share</button></a></td>              
+            </tr>
+</tbody>
+</table>
+<p>In details:</p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Hover effect</td>
+               <td>Background:#F8F8F8</td>
+            </tr>
+            <tr>
+               <td>Button</td>
+               <td>.btn-mini {<br>padding: 2px 6px;<br>font-size: 11px;<br>line-height: 14px;}</td>
+            </tr>
+            <tr>
+               <td>Button hover</td>
+               <td>.btn:hover {<br>color: #333333;<br>text-decoration: none;<br>background-color: #e6e6e6;<br>background-position: 0 -15px;}
+               </td>
+            </tr>
+            <tr>
+               <td>Button focus</td>
+               <td>.btn:focus {<br>outline: thin dotted #333;<br>outline: 5px auto -webkit-focus-ring-color;<br>outline-offset: -2px;}</td>
+        
+            </tr>
+         </tbody>
+      </table>
+     <h3><a name="S2"></a>Object with multiple actions</h3>
+     <p>With the object having multiple actions, all actions can be put in a drop list menu and only the link/button/icon to show the menu is displayed when mouse over<br>These are samples in details:</p>
+     <p>Hover reveal a content in case multiple actions displayed in a combo box</p>
+<table>
+         <tbody>
+            <tr class="hover-action">
+               <td class="content-sample">Sample Content 1</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Moderation<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div>
+       </div></div></td>
+              
+            </tr>
+        <tr class="hover-action">
+               <td class="content-sample">Sample Content 2</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Moderation<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 3</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Moderation<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 4</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Moderation<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div></td>              
+            </tr>
+           <tr class="hover-action">
+               <td class="content-sample">Sample Content 5</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Moderation<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div></td>              
+            </tr>
+</tbody>
+</table>
+<p>In details:</p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Hover effect</td>
+               <td>Background:#F8F8F8</td>
+            </tr>
+            <tr>
+               <td>Button Droplist</td>
+               <td>.btn-mini {<br>padding: 2px 6px;<br>font-size: 11px;<br>line-height: 14px;}</td>
+            </tr>
+            <tr>
+               <td>Button hover</td>
+               <td>.btn:hover {<br>color: #333333;<br>text-decoration: none;<br>background-color: #e6e6e6;<br>background-position: 0 -15px;}
+               </td>
+            </tr>
+            <tr>
+               <td>Button focus</td>
+               <td>.btn:focus {<br>outline: thin dotted #333;<br>outline: 5px auto -webkit-focus-ring-color;<br>outline-offset: -2px;}</td>
+        
+            </tr>
+            <tr>
+               <td>Dropdown menu</td>
+               <td>dropdown-menu a {<br>clear: both;<br>color: #333333;<br>display: block;<br>font-weight: normal;<br>line-height: 20px;<br>padding: 3px 20px;<br>white-space: nowrap;}<br>
+               a:hover<br>{color: #ffffff;<br>background-color: #999999;<br>border-color: #999999; </td>
+            </tr>
+           </tbody>
+      </table>
+<p>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn-group"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-mini"</span><span class="tag">&gt;</span><span class="pln">Action</span><span class="tag">&lt;/button&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-mini dropdown-toggle"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"dropdown"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln"> </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"caret"</span><span class="tag">&gt;&lt;/span&gt;</li><li class="L4"><span class="pln"> </span><span class="tag">&lt;/button&gt;</span></li><li class="L5"><span class="pln"> </span><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"dropdown-menu"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln"> </span><span class="com">&lt;&#033;-- dropdown menu links --&gt;</span></li><li class="L7"><span class="pln"> </span><span class="tag">&lt;/ul&gt;</span></li><li class="L8"><span class="tag">&lt;/div&gt;</span></li></ol></pre></p>
+
+<p>Hover reveal a content in case multiple actions displayed in an icon</p>
+<table>
+         <tbody>
+            <tr class="hover-action">
+               <td class="content-sample">Sample Content 1</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <div data-toggle="dropdown"><i class="icon-wrench"></i></div>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div>
+       </div></div></td>
+              
+            </tr>
+        <tr class="hover-action">
+               <td class="content-sample">Sample Content 2</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <div data-toggle="dropdown"><i class="icon-wrench"></i></div>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div>
+       </div></div></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 3</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <div data-toggle="dropdown"><i class="icon-wrench"></i></div>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div>
+       </div></div></td>              
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 4</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <div data-toggle="dropdown"><i class="icon-wrench"></i></div>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div>
+       </div></div></td>              
+            </tr>
+           <tr class="hover-action">
+               <td class="content-sample">Sample Content 5</td>
+               <td class="td-hover"><div class="button"><div class="btn-toolbar"><div class="btn-group">
+          <div data-toggle="dropdown"><i class="icon-wrench"></i></div>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Move</a></li>
+            <li><a href="#">Merge</a></li>
+          </ul>
+        </div>
+       </div></div></td>              
+            </tr>
+</tbody>
+</table>
+<p>In details:</p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Hover effect</td>
+               <td>Background-color:#F8F8F8</td>
+            </tr>
+            <tr>
+               <td>Icon</td>
+               <td>icon glyphs</td>
+            </tr>
+           <tr>
+               <td>Dropdown menu</td>
+               <td>dropdown-menu a {<br>clear: both;<br>color: #333333;<br>display: block;<br>font-weight: normal;<br>line-height: 20px;<br>padding: 3px 20px;<br>white-space: nowrap;}<br>
+               a:hover<br>{color: #ffffff;<br>background-color: #999999;<br>border-color: #999999; </td>
+            </tr>
+         </tbody>
+      </table>
+    
+      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+     <p><span>Because of the main benefit of hover reveal actions - decreasing the visual noise in the user interface and making content cleaner and less cluttered, this pattern should be used to make the professionalism and convenience of applications.
+</span></p>
+<hr>
+      <footer>
+       <p><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></p>
+      </footer>
+</div>
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="../js/application.js"></script>
+
+
+   </body>
+</html>

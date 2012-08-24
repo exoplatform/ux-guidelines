@@ -1,0 +1,37 @@
+/*!
+ * This CSS is defined to make the dynamic demo for UXP pattern sample
+ * Copyright 2012 eXo PLatform
+*/
+
+.hover-action a {display: none}
+.hover-action div.button {display: none}
+.hover-action:hover {background:#F8F8F8}
+.hover-action:hover a {display: inline-block; font-size:13}
+.hover-action:hover div.button {display: block}
+.td-hover { 
+  text-align: right;
+  vertical-align: top;
+  height: 40px;
+  width: 200px;
+}
+.table-hover
+{
+background-color:#FFFFF;
+}
+.content-sample {
+  font-size: 16px;
+  color: #CCCCCC;
+  width: 200px;
+}
+
+.td-text{
+  font-size: 13px;
+}
+
+div.button .dropdown-menu {
+	text-align: left;
+}
+
+.hover-action:hover div.button a {
+	display: block;
+}

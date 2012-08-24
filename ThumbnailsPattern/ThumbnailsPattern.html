@@ -1,0 +1,329 @@
+<html>
+   <head>
+      <title>Thumbnails Pattern</title>
+      <!-- Le styles -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/docs.css" rel="stylesheet">
+     <link href="../css/uxp-pattern.css" rel="stylesheet">
+     <style type="text/css">
+     </style>
+   </head>
+   <body data-target=".bs-docs-sidebar" data-spy="scroll" data-twttr-rendered="true">
+
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li class="active"><a href="#pattern">Patterns</a></li>
+              <li><a href="#component">Component</a></li>
+              <li><a href="#style">Style</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+<!-- Masthead
+================================================== -->
+
+<header class="jumbotron subhead" id="overview">
+<div class="container">
+  <h1>Thumbnails Pattern</h1>
+  <p class="lead">Thumbnails are reduced-size images that make easy to recognize and organise them. Thumbnails can be used to display pictures in a gallery, image attachments, files in a folder, avatars...</p>
+</div>
+</header>
+<div class="container">
+      <div class="row-fluid">
+      <div class="span3">
+           <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+        <li class="nav-header">Description</li>
+      	<li><a href="#Overview">Overview</a></li>
+      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
+      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
+      	
+      	<li class="divider"></li>
+      	
+    	<li class="nav-header">What's the Solution?</li>
+    	<li><a href="#S1">Thumbnails Size</a></li>
+      	<li class="divider"></li>      	
+        <li><a href="#S2">Thumbnails Style</a></li>
+        <li><a href="#S2.1">Thumbnails with rounded border</a></li>
+      	<li><a href="#S2.2">Thumbnails with rounded corner</a></li>
+        <li class="divider"></li>      	
+        <li><a href="#S3">Thumbnails Usage</a></li>
+        <li><a href="#S3.1">Avatar Thumbnails</a></li>
+      	<li><a href="#S3.2">Image Attachment Thumbnails</a></li>
+      	<li><a href="#S3.3">Image Collection Thumbnails</a></li>
+      	<li><a href="#S3.4">Thumbnails in Folder</a></li>
+      	<li class="divider"></li>
+      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+        </ul>
+     </div><!-- well -->
+     </div> <!-- span -->
+
+    <div class="span9">
+      <p><span></span></p>
+      <h3><a name="Overview"></a><span>Overview</span></h3>
+       <p>Thumbnails are reduced-size images that make easy to recognize and organise them. Thumbnails can be used to display pictures in a gallery, image attachments, files in a folder, avatars...
+	</p>
+      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+      <p>The user needs to get an overview of multiple pictures without having to download each of the full size images.</p>
+
+       <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
+       <p>Thumbnails can be used  to present images in cases:</p>
+       <li>Images on an activies stream</li>
+       <li>Images in a gallery</li>
+       <li>Image attachments in topic, question</li>
+       <li>Files displayed as thumbnails in a folder</li>
+       <li>Avatar of users or spaces</li>
+       <p>Thumbnails allows multiple images display at once that provides an overview of image collection and users can select an expected one to view  or download with original size.
+       In case images are used for avatar or picture representative, thumbnails defines an ideal and consistent size for all uploaded images. </p>
+
+      <h3><span>What's the Solution?</span></h3>
+      <h3><a name="S1"></a><span>Thumbnails Size</span></h3>
+      <p>There are some standard size for thumbnail that can be used for different purpose such as mini avatar, normal avatar, image attachment, thumbnails in gallery …</p>
+      <p>Square thumbnails sample:</p>
+      <p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Size(weightxHeight)</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>28x28</td>
+               <td>Very Small</td>
+            </tr>
+            <tr>
+               <td>41x41</td>
+               <td>Small</td>
+            </tr>
+            <tr>
+               <td>69x69</td>
+               <td>Medium</td>
+            </tr>
+            <tr>
+               <td>118x118</td>
+               <td>Large</td>
+            </tr>
+            <tr>
+               <td>160x160</td>
+               <td>Extra Large</td>
+            </tr>
+         </tbody>
+      </table>
+</p>
+      <p>Rectangle thumbnails sample:</p>
+      <p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Size(weightxHeight)</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>60x40</td>
+               <td>Small</td>
+            </tr>
+            <tr>
+               <td>80x60</td>
+               <td>Medium</td>
+            </tr>
+            <tr>
+               <td>160x120</td>
+               <td>Large</td>
+            </tr>
+            <tr>
+               <td>260x180</td>
+               <td>Extra Large</td>
+            </tr>
+             <tr>
+               <td>360x268</td>
+               <td>SuperLarge</td>
+            </tr>
+         </tbody>
+      </table>
+</p>
+	<p>Besides, a thumbnails size can be flexible with height fixed, the width is resized correspondent ratio.<br>
+	A thumbnails can be clicked or non-clickable. In details:</p>
+      <h3><a name="S2"></a><span>Thumbnails Style</span></h3>
+      <h4><a name="S2.1"></a><span>Thumbnails with rounded border</span></h4>
+      <p>This kind of thumbnail style can be used for image thumbnail in gallery, folder or attachment.<br>Sample:</p>
+       <ul class="thumbnails">
+         <li class="span3">
+          <a class="thumbnail" href="#">
+          <img src="http://placehold.it/260x180" alt="">
+          </a>
+          </li>
+          <li class="span3">
+          <a class="thumbnail" href="#">
+          <img src="http://placehold.it/260x180" alt="">
+          </a>
+          </li>
+          <li class="span3">
+          <a class="thumbnail" href="#">
+          <img src="http://placehold.it/260x180" alt="">
+          </a>
+          </li>
+       </ul>     
+	<p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Border Size</td>
+               <td>1px</td>
+            </tr>
+            <tr>
+               <td>Border Color</td>
+               <td>#DDDDDD</td>
+            </tr>
+            <tr>
+               <td>Border Radius</td>
+               <td>Extra and Super Large: 4px 4px 4px 4px <br>Large: 3px 3px 3px 3px<br>Medium: 2px 2px 2px 2px<br>Small: 1px 1px 1px 1px</td>
+            </tr>
+            <tr>
+               <td>Border Hover</td>
+               <td>Color: #0088CC;
+		box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);</td>
+            </tr>
+         </tbody>
+      </table>
+</p>
+      <h4><a name="S2.2"></a><span>Thumbnails with rounded corner</span></h3>
+      <p>This kind of thumbnail style can be used for avatar, profile image...<br>Sample:</p>
+
+	<p><img class="img-rounded" src="http://placehold.it/140x140"> <img class="img-rounded" src="http://placehold.it/140x140">  <img class="img-rounded" src="http://placehold.it/140x140"></p>
+	  <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-rounded"</span><span class="tag">&gt;</span></li></ol></pre>
+      <p>Depending on the thumbnails size the round size may be different. In details:</p>
+      <p><table class="table table-bordered table-striped">
+         <tbody>
+            <tr>
+               <td>Extra and Super Large</td>
+               <td>4px 4px 4px 4px</td>
+            </tr>
+            <tr>
+               <td>Large</td>
+               <td>3px 3px 3px 3px</td>
+            </tr>
+            <tr>
+               <td>Medium</td>
+               <td>2px 2px 2px 2px</td2>
+            </tr>
+            <tr>
+               <td>Small</td>
+               <td>1px 1px 1px 1px</td>
+            </tr>
+         </tbody>
+      </table>
+</p>
+
+      <h3><a name="S3"></a><span>Thumbnails Usage</span></h3>
+      <h4><a name="S3.1"></a><span>Avatar Thumbnails</span></p>
+      <p>The thumbnails with rounded corners is used for avatar display.</p>
+      <p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Size</th>
+               <th>Sample</th>
+               <th>Description</th>
+            </tr>
+            <tr>
+               <td>118x118</td>
+               <td><img src="images/image00.png"/></td>
+	       <td>This size can be used for forum, answers, space picture</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>69x69</td>
+               <td><img src="images/image05.png"/></td>
+               <td>This size can be used for medium avatar usage such as profile gadget.</td>
+            </tr>
+            <tr>
+               <td>41x41</td>
+               <td><img src="images/image06.png"/></td>
+               <td>This size can be used for small avatar usage such as displaying at comment panel of a question, file ...</td>
+            </tr>
+            <tr>
+               <td>28x28</td>
+               <td><img src="images/image04.png"/></td>
+               <td>This size can be used for very small avatar usage such as avatar of like list, avatar of user’s comment...</td>
+            </tr>
+         </tbody>
+      </table></p>
+      <h4><a name="S3.2"></a><span>Image Attachment Thumbnails</span></h3>
+      <p>The thumbnails with rounded borders can be used for image attachments in a topic, question... the height is fixed 80px, the width is resized automatically based on the original size of images.</p>
+      <p><img src="images/image03.jpg"/></p>
+      <h4><a name="S3.3"></a><span>Image Collection Thumbnails</span></h3>
+      <p>The thumbnail with rounded borders can be used to share images on intranet activity stream and news feed.<br>
+	In case 2 images:</p>
+<ul class="thumbnails">
+         <li class="span3">
+          <a class="thumbnail" href="#">
+          <img src="http://placehold.it/260x180" alt="">
+          </a>
+          </li>
+          <li class="span3">
+          <a class="thumbnail" href="#">
+          <img src="http://placehold.it/260x180" alt="">
+          </a>
+          </li>
+        </ul>
+	<p>In case 3-5 images:</p>
+	<p><img src="images/image01.png"/></p>
+	<p>In case 6 images or more than 6 images</p>
+	<p><img src="images/image07.png"/></p>
+      <h4><a name="S3.4"></a><span>Thumbnails in Folders</span></h4>
+      <p>This can be used for images in a folder. The image can be resized until its width or height obtains the maximum of the thumbnails size, the other is resized correspondingly.<br>The default border size is 64x64px</p>
+      <p><img src="images/image02.jpg"/></p><br>
+
+     <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+     <p>To obtain the consistency and professionalism of thumbnails usage among products. </p>
+
+ <hr>
+      <footer>
+       <p><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></p>
+      </footer>
+</div>
+
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="../js/application.js"></script>
+
+
+   </body>
+</html>

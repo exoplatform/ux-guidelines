@@ -1,0 +1,283 @@
+<html>
+   <head>
+      <title>Message Pattern</title>
+      <!-- Le styles -->
+       <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/docs.css" rel="stylesheet">
+     <link href="../css/uxp-pattern.css" rel="stylesheet">
+     <style type="text/css">
+     </style>
+   </head>
+   <body>
+
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li class="active"><a href="#pattern">Patterns</a></li>
+              <li><a href="#component">Component</a></li>
+              <li><a href="#style">Style</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+<div class="container">
+  <h1>Message Pattern</h1>
+  <p class="lead">How to dialog with users and how display different kind of messages to them. What and when should they be used ? </p>
+</div>
+</header>
+
+<div class="container">
+
+      <div class="row-fluid">
+      <div class="span3">
+           <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+        <li class="nav-header">Description</li>
+      	<li><a href="#Overview">Overview</a></li>
+      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
+      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
+      	
+      	<li class="divider"></li>
+      	
+    	<li class="nav-header">What's the Solution?</li>
+    	<li><a href="#S1">Message Pop-up Template</a></li>
+      	<li><a href="#S2">Message Pop-up Style</a></li>
+            	
+      	<li class="divider"></li>
+      	
+        <li><a href="#S3">How to dialogue efficiently with users</a></li>
+      	<li><a href="#S3.1">Error Message</a></li>
+      	<li><a href="#S3.2">Warning Message</a></li>
+        <li><a href="#S3.3">Information Message</a></li>
+        <li><a href="#S3.4">Confirmation Message</a></li>
+      	
+      	<li class="divider"></li>
+      	
+      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+        </ul>
+     </div><!-- well -->
+     </div> <!-- span -->
+
+    <div class="span9">
+      <p><span></span></p>
+      <h3><a name="Overview"></a><span>Overview</span></h3>
+         A message is a short communication transmitted by words and signals. It is a feedback to end users. In eXo products, messages are grouped 4 types:
+	<li>Error</li>
+	<li>Warning</li>
+	<li>Information</li>
+	<li>Confirmation</li>
+	The main purpose of the document is to provide a pattern of each kind of message.
+
+      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+
+      <p><span>Displaying a message to an user is a way to communicate with him, so as any communication it’s important to take care about the message and the way it will be displayed.<br> This pattern provides a guide to avoid creating unclear messages to users and correctly differentiate each kind of message.</span></p>
+
+      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
+	<p>Normally, a function includes a lot of cases to show messages to end users. During the development process, the developers and testers must be able to take cover all of them. It is a need to clarify what kind a message is to display it with correct content and template.</p>
+
+      <h3><span>What's the Solution?</span></h3>
+      <p><span>Messages in eXo products are grouped in 4 types:
+      <li>Error</li>
+      <li>Warning</li>
+      <li>Information</li>
+      <li>Confirmation</li>
+
+      <h3><a name="S1"></a><span>Message pop-up templates</span></h3>
+      <h4>Error Message Pop-up</h4>
+      <p><img src="images/image02.jpg" /></p>
+      <li>An error pop-up has a header title “Error”</li>
+      <li>An error message is displayed with an error icon. The number of error icons are the number of found error problem.</li>
+      <li>[OK] or [X] is to close the pop-up.</li>
+      <br>
+      <h4>Warning message pop-up</h4>
+      <p><img src="images/image00.jpg" /></p>
+      <li>A warning pop-up has a header title “Warning”</li>
+      <li>A warning message is displayed with a warning icon. The number of error icons are the number of found warning problem.</li>
+      <li>[OK] or [X] is to close the pop-up</li>
+      <br>
+      <h4>Information message pop-up</h4>
+       <p><img src="images/image04.jpg" /></p>
+       <li>An information pop-up has a header title “Information”</li>
+       <li>An information message is displayed with a information icon. The number of information icons are the number of notification.</li>
+       <li>[OK] or [X] is to close the pop-up</li>
+       <br>
+       <h4>Confirmation message pop-up</h4>
+       <p><img src="images/image05.jpg" /></p>
+       <li>An confirmation pop-up has a header title “Confirmation”</li>
+       <li>An confirmation message is displayed with a confirmation icon. Normally, only question is asked for user’s confirmation.</li>
+       <li>[X] is to close the pop-up</li>
+       <li>[Cancel] is to discard the confirmation.</li>
+       <li>[OK] is to accept the confirmation.</li>
+       <p><b>The priority to display messages is: Error - Warning - Information.</b><br>
+       For example, a form is submitted. There are 4 found problems: 2 errors and 2 warnings. The error pop up displays firstly. After errors are corrected, the warning pop-up display to users.</p>
+       
+       <h3><a name="S2"></a><span>Message Pop-up Style</h3>
+       <p>The content of  a message is put in white text box with style sheet:</p><br>
+       <table class="table table-bordered table-striped">
+         <tbody>
+            <tr>
+               <td>Font Style</td>
+               <td>Verdana</td>
+            </tr>
+            <tr>
+               <td>Font Size</td>
+               <td>12</td>
+            </tr>
+            <tr>
+               <td>Font Color</td>
+               <td>#4C4C4C</td>
+            </tr>
+            <tr>
+               <td>Icon</td>
+               <td>icon-error, icon-information, icon-confirm, icon-warning</td>
+            </tr>
+         </tbody>
+      </table>
+      <td>The style of the message pop up must follow the pop up template standard:</p>
+      <table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Pop-up Title</td>
+               <td>Font Family: Verdana<br>Font Size: 12px<br>Font Weight: Bold<br>Text Color: #4D4D4D<br>Background: gradient</td>
+            </tr>
+            <tr>
+               <td>Pop-up Body</td>
+               <td>Background:#EDEDED</td>
+            </tr>
+            <tr>
+               <td>Text Content</td>
+               <td>Font Family: Veranda<br>Font Size: 12px<br>Font Weight: Normal<br>Text Color:#4D4D4D</td>
+            </tr>
+            <tr>
+               <td>White Box Border</td>
+               <td>#E1E1E1</td>
+            </tr>
+            <tr><td>Button</td>
+            <td>Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
+            </tr>
+         </tbody>
+      </table>
+      <p>Depending on the message types, the pop-up displays correspondingly.</p>
+      <h3><a name="S3"></a><span>How to dialogue efficiently with users</h3>
+	<h4><a name="S3.1"></a>Error Message</h4>
+	<p><b>What is error message?</b></p>
+	<p>An error message alerts users of a problem that has already occurred.<br>Effective error messages inform users that a problem occurred, explain why it happened, and provide a solution so users can fix the problem</p>
+	<p><b>Characteristic of a good message</b></p>
+	<p>A good error message should be relevant, brief, clear, specific, courteous and rare on:</p>
+	<p><b>A problem</b>: States that a problem occurred<br>E.g: Your connection is time out</p>
+	<p><b>A cause</b>: Explain why the probelm occurred<br>E.g: Your chosen User name already exists</p>
+	<p><b>A solution</b>:Provides a solution so that users can fix the problem.<br>E.g:Please input a valid email format such as yourname@example.com</p>
+	<p><b>What should be avoided in an error message?</b></p>
+	<p>Unnecessary error message<br>E.g: This file has been already deleted<br>This error message should be elimiated because the action was successful from the user's point of view. It should be an information rather than an error.</p>
+	<p>Avoid too long and over communication error message<br>Most of users would like to scan rather than read many things in detail. So, avoid too long error message to explain a problem or provide a link in a error message and request users to read it.</p>
+	<p>Error messags that blame users<br>E.g: You have input an invalid user naem.<br>This kind of error message will make user fell rude.</p>
+	<p>Programmer error messages<br>Eg: Messages intended to help the program's developers find bugs are left in the release version of the program.<br>These error messages have no meaning or value to users</p>
+	<p>Handing unknown error<br>Any unknown error display that will make users feel your application is not reliable. Try to hand and provide a detailed message about invalid action.
+	<p>Avoid Troubleshootings</p>
+	<li>Avoid creating troubleshooting problems. Don't rely on a single error message to report a problem with several different detectable causes.</li>
+	<li>Use a different error message for each detectable cause. For example, if a file cannot be opened for several reasons, provide a separate supplemental instruction for each reason.</li>
+	<li>Use a message with multiple causes only when the specific cause can't be determined. In this case, present the solutions in order of likelihood of fixing the problem. Doing so helps users solve the problem more efficiently.</li>
+	<p>Incorrect:</p>
+	<img src="images/image01.png"/>
+	<p>Correct:</p>
+	<img src="images/image03.png"/>
+	<h4><a name="S3.2"></a>Warning Message</h4>
+	<p><b>What is Warning Message?</b><br>A warning message is to alert users of a condition that might cause a problem in the future.</p>
+
+	<p><b>Characteristic of a good warning message</b></p>
+	<p></p>Involve risk. Good warnings alert users of something significant.<br>E.g:Are you sure to want to delete the driver and all its data?</p>
+	<p>Have immediate relevance<br>E.g:The account will be blocked with 5 times incorrect password input to prevent hackers!</p>
+	<p>Lead to action. There is something users must do or be aware of as the result of the warning. Warnings without actions just make users feel paranoid.<br>E.g: Your account will be blocked! The message will make users confused and don't understand why?</p>
+	<p>Be clear and specific. Read the warning message, users can know:</p>
+	<li>The source of the warning. E.g Use the title to know where the warning came from</li>
+	<li>The specific condition and potential problem.</li>
+	<li>What the user should do about it.</li>
+	<li>What happens if the user doesn't do anything.</li>
+	<br>
+	<p><b>What should be avoided in a warning message?</b></p>
+	<p>Redundant message<br>Overwarning that makes your program feel hazardous and look lije it was designed by lawyers.</p>
+	<br>
+	<h4><a name="S3.3"></a>Information Message</h4>
+	<p><b>What is Information Message?</b></p>
+	<p>An information message is to alert users useful and relevant, but never critical information. It like a notification to let user know a specific information.<br>E.g: Your account has been registered successfully. Please go to your email address box to activate your account.</p>
+	<p><b>Characteristic of a good information message</b></p>
+	<li>Useful. The information let user know something new or has been done successfully.</li>
+	<li>Asynchronous. The information is not an immediate, action required in information message can be postponed.</li>
+	<li>Relevant. The information is helpful that user may already know.</li><br>
+	<p><b>What should be avoided in an information message?</b></p>
+	<li>Redundant. The message includes many redundant information<br> E.g: In Answers, submit a question successfully, there is a information pop up display that does not close automatically. So, users have to click OK to close the pop-up that is inconvenient. </li>
+	<li>Annoying. The message displays too much that is not necessary.<br> E.g: These selected files have been deleted successfully.</li>
+	<li>Actionable. The information does not require immediate action</li>
+	<br>
+	<h4><a name="S3.4"></a>Confirmation Message</h4>
+	<p><b>What is Confirmation Message?</b></p>
+	<p>A confirmation message is to ask if the user wants to proceed with an action.<br>The display of a confirmation can be in a default browser pop-up or in a customized pop up window like the same template above.<br>With the deletion confirmation that may damage to huge data such as delete a forum, all its topics/post will be lost. The confirmation should be a warning that display in a pop up (like the template above) rather than using browser pop-up to warn the importance of the current action.
+       </p>
+	<p><b>Characteristic of a good confirmation message</b></p>
+	<li>Obvious result display of an action initiated by the user.</li>
+	<li>Relevant verification if the user wants to proceed with the action.</li>
+	<li>Simple question and two or more responses.</li>
+	<p>If a confirmation involves risk, it can be considered a warning as well. It is great to use a customized pop-up window rather than a default browser pop-up.</p>
+
+	<p><b>What should be avoided in a confirmation message?</b></p>
+	<li>Unnecessary confirmation.<br>E.g: Are you sure to rename the file?</li>
+	<li>Annoying confirmation.<br>E.g: There is no change on the form. However, when clicking on close form. there is confirmation "Are you sure to close the form? "</li>
+	<li>Redundant confirmation<br>E.g: Some actions we can redo, recover the old content by revision or from the trash, it is no need to have deletion confirmation </li>
+	<br>	
+     <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+     <p>Messages is a way an application talk to end users. So, messages play an important role to make the success of an application.<br>
+	Currently, the way to display messages in eXo is inconsistent and incorrect. This pattern is a useful reference to differentiate message types.<br>
+	We need to use this pattern to improve message system in eXo. The consistency of message content, style sheet and design will make eXo products look more professional.</p>
+
+ <hr>
+      <footer>
+       <p><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></p>
+      </footer>
+</div>
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="../js/application.js"></script>
+
+
+   </body>
+</html>

@@ -1,0 +1,325 @@
+<html>
+   <head>
+      <title>Pop-up Window Pattern</title>
+      
+      
+      <!-- Le styles -->
+     <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/docs.css" rel="stylesheet">
+     <link href="../css/uxp-pattern.css" rel="stylesheet">
+     <style type="text/css">
+      </style>
+   </head>
+   <body>
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li class="active"><a href="#pattern">Patterns</a></li>
+              <li><a href="#component">Component</a></li>
+              <li><a href="#style">Style</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+<div class="container">
+  <h1>Pop-up Window Pattern</h1>
+  <p class="lead">Using popups can be useful and a nice way to display advanced information. How and when Popups is used?</p>
+</div>
+</header>
+
+<div class="container">
+
+      <div class="row-fluid">
+      <div class="span3">
+           <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+        <li class="nav-header">Description</li>
+      	<li><a href="#Overview">Overview</a></li>
+      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
+      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
+      	
+      	<li class="divider"></li>
+      	
+    	<li class="nav-header">What's the Solution?</li>
+    	<li><a href="#S1">Pop-up Size</a></li>
+      	<li><a href="#S1.1">Flexible Pop-up</a></li>
+      	<li><a href="#S1.2">Fixed Default Pop-up</a></li>
+      	<li><a href="#S1.3">Auto Resize</a></li>
+      	
+      	<li class="divider"></li>
+      	
+        <li><a href="#S2">Pop-up Style</a></li>
+      	<li><a href="#S2.1">Pop-up by default</a></li>
+      	<li><a href="#S2.2">Pop-up with Block Tab</a></li>
+      	<li><a href="#S2.3">Pop-up with Text Tab</a></li>
+      	<li><a href="#S2.4">Pop-up with Steps</a></li>
+      	
+      	<li class="divider"></li>
+      	
+      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+        </ul>
+     </div><!-- well -->
+     </div> <!-- span -->
+
+    <div class="span9">
+      <p><span></span></p>
+      <h3><a name="Overview"></a><span>Overview</span></h3>
+    	<p>Pop-up window is a form displays when selecting an option or doing an action by mouse click or key board press.<br>
+	Pop-up windows can be used to perform specific functions or simply notify necessary information to users.<br>
+	This pattern provides a guide to use and display pop-up to obtain the consistency among applications. For example,  when is a function interacted via pop-up? How does a pop up look? </p>
+
+      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+      <p>Pop-up is useful and fast way to interact with a function, it is also to display advanced options over one element on the screen without having to lost the content.</p>
+
+      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>      <p>Use when a content is suitable to display in a pop-up</p>
+      <li>Data input and display are short</li>
+      <li>Interact with simple function</li>
+      <li>Common action that is used by different application</li>
+      <li>Can be grouped in different tab logically</li>
+      <p>Use when there is expectation to keep current page while interacting with more functions. </p>
+      <h3><span>What's the Solution?</span></h3>
+      <h3><a name="S1"></a><span>Pop-up Size</span></h3>
+      <p><span>There are 2 options to define the pop up size
+      <li>Flexible Pop-up</li>
+      <li>Fixed Default Pop-up</li>
+      <h4><a name="S1.1"></a><span>Flexible Pop-up</span></h4>
+      <p>Keep the pop up size flexible depending on its elements to obtain good display and logical arrangement.<br>The size from the edge of the content to the edge of the pop up should be <b>20px maximum</b>.
+</p>
+      <h4><a name="S1.2"></a><span>Fixed Default Pop-up</span></h4>
+      <p>Use the same default pop-up size for different products</p>
+      <p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Size(Pixel)</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>310x150</td>
+               <td>Very Small Size. This can be used for functions that have 1 or 2 elements and short content display. This is minimum size that a pop up should have.</td>
+            </tr>
+            <tr>
+               <td>450x262</td>
+               <td>Small Size. This can be used for displaying functions that have 2-4 elements and short content display</td>
+            </tr>
+            <tr>
+               <td>550x320</td>
+               <td>Medium Size. This can be used for displaying functions that has 2-5 elements, medium content display, messages notification.</td>
+            </tr>
+            <tr>
+               <td>650x378</td>
+               <td>Large Size. This can be used for displaying functions that has 3-7 elements, long display.</td>
+            </tr>
+            <tr>
+               <td>750x436</td>
+               <td>Very Large Size. This can be used for displaying functions that has 5-10 elements, long content display</td>
+            </tr>
+         </tbody>
+      </table>
+
+
+      </p>
+      <h4><a name="S1.3"></a><span>Auto Resize</span></h4>
+     <p>This is a nice feature that pop ups should to have to allow users to adjust the pop up size by them self.</p>
+	<p><img src="images/image03.png"/></p>
+	<p>A re-size icon can be put at the right bottom of a pop up that allows to drag and drop to define the size.The pop-up can be make to be bigger or smaller.<br>However, depending on the elements on the pop up, there should be a limitation to make sure the pop up still usable with minimum size.</p>
+
+       <h3><a name="S2"></a><span>Pop-up Style</span></h3>
+      <h4><a name="S2.1"></a><span>Pop-up by default</span></h4>
+      <p>This pop-up can be used for functions that all its elements can be displayed at once. The content is put in white text box</p>
+      <p><img src="images/image02.jpg" /></p>
+      <p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Pop-up Title</td>
+               <td>Font Family: Verdana<br>Font Size: 12px<br>Font Weight: Bold<br>Text Color: #4D4D4D<br>Background: gradient</td>
+            </tr>
+            <tr>
+               <td>Pop-up Body</td>
+               <td>Background: #EDEDED</td>
+            </tr>
+            <tr>
+               <td>Text Content, Label</td>
+               <td>Font Family: Veranda<br>Font Size: 12px<br>Font Weight: Normal<br>Text Color: #4D4D4D</td>
+            </tr>
+            <tr>
+               <td>Text in the Fields</td>
+               <td>Font Family: Verdana<br>Size: 11 px<br>Color:#999999</td>
+            </tr>
+            <tr><td>White Box Border</td>
+            <td>Border:#E1E1E1</td>
+	     </tr>
+	     <tr><td>Button</td>
+            <td>Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
+	     </tr>
+         </tbody>
+      </table>
+</p>
+      <h4><a name="S2.2"></a><span>Pop-up with Block Tabs</span></h4>
+      <p>This pop up with block tabs allows to display more content that can be grouped by tabs. The function on each tab may be independent together.</p>
+      <p><img src="images/image01.jpg"/></p>
+      
+      <p>Different tabs have the same height and width when switching.The content is put in white text box.<br>
+
+      <table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Pop-up Title</td>
+               <td>Font Family: Verdana<br>Font Size: 12px<br>Font Weight: Bold<br>Text Color: #4D4D4D<br>Background: gradient</td>
+            </tr>
+            <tr>
+               <td>Pop-up Body</td>
+               <td>Background: #EDEDED</td>
+            </tr>
+            <tr>
+               <td>Text Content, Tab Title, Label</td>
+               <td>Font Family: Veranda<br>Font Size: 12px<br>Font Weight: Normal<br>Text Color: #4D4D4D</td>
+            </tr>
+            <tr>
+               <td>Text in the Fields</td>
+               <td>Font Family: Verdana<br>Size: 11 px<br>Color: #999999</td>
+            </tr>
+            <tr>
+               <td>White Box Border</td>
+               <td>Border:#E1E1E1</td>
+            </tr>
+            <tr>
+               <td>Button</td>
+               <td>Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
+            </tr>
+         </tbody>
+      </table>
+
+      </p>
+
+      <h4><a name="S2.3"></a><span>Pop-up with Text Tabs</span></h4>
+      <p>This pop up with text tabs allows to display more content that can be grouped by text tabs. Similarly to pop up with block tab, the function on each tab may be independent together.<br>Text tabs may suitable the content that having a lot  text such as quick help, guides, rules...</p>
+      <p><img src="images/image00.jpg"/></p>
+      <p>Different tabs have the same height and width when switching.The content is put in white text box.</p>
+      <p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Text Tab Selected</td>
+               <td>Font Family: Verdana<br>Font Size: 12px<br>Font Weight: Bold<br>Text Color: #4D4D4D<br>Background: gradient</td>
+            </tr>
+            <tr>
+               <td>Text Tab Mouse Hover</td>
+               <td>Font: Verdana<br>Size: 12px<br>Color:#246BB2<br>Text-Decoration: Underline</td>
+            </tr>
+            <tr>
+               <td>Text Tab by Default</td>
+               <td>Font: Verdana<br>Size: 12px<br>Color:#246BB2</td>
+            </tr>
+            <tr>
+               <td>Pop-up Body</td>
+               <td>Background: #EDEDED</td>
+            </tr>
+            <tr>
+               <td>White Box Border</td>
+               <td>Border:#E1E1E1</td>
+            </tr>
+            <tr>
+               <td>Button</td>
+               <td>Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
+            </tr>
+         </tbody>
+      </table>
+</p>
+
+      <h4><a name="S2.4"></a><span>Pop-up with Steps</span></h4>
+      <p>This pop up with steps can be used for a function that requests following many steps to finish.<br>In pop up with steps, the function on each steps is dependent together. You can only go to step 2 unless step 1 is completed correctly.</p>
+      <p><img src="images/image04.jpg"/></p>
+      <p>The content is put in white text box. Each steps has its correspondent title.</p>
+      <p>      
+     <table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Pop-up Title</td>
+               <td>Font Family: Verdana<br>Font Size: 12px<br>Font Weight: Bold<br>Text Color: #4D4D4D<br>Background: gradient</td>
+            </tr>
+            <tr>
+               <td>Pop-up Body</td>
+               <td>Background: #EDEDED</td>
+            </tr>
+            <tr>
+               <td>Text Content, Step, Title, Label</td>
+               <td>Font Family: Veranda<br>Font Size: 12px<br>Font Weight: Normal<br>Text Color: #4D4D4D</td>
+            </tr>
+            <tr>
+               <td>Step Number</td>
+               <td>Font Family: Arial<br>Font Size: 14px<br>Font Weight: Bold<br>Text Color: #4D4D4D</td>
+            </tr>
+             <tr>
+               <td>Text in the Field</td>
+               <td>Font Family: Verdana<br>Size: 11 px<br>Color: #999999</td>
+            </tr>
+            <tr>
+               <td>White Box Border</td>
+               <td>Border:#E1E1E1</td>
+            </tr>
+            <tr>
+               <td>Button(Steps, Action button)</td>
+               <td>Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
+            </tr>
+            </tbody>
+      </table>
+     </p>
+     <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+     <p>To obtain the consistency among applications in the way using and displaying actions/functions in pop-ups. This pattern let the designers know which functions they should put in page, which functions should be in pop-up. The consistency of pop-up style sheet and design makes your products look more professional.</p>
+
+ <hr>
+      <footer>
+       <p><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></p>
+      </footer>
+</div>
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster --><script src="../lib/bootstrap/js/jquery.js"></script><script src="../lib/bootstrap/js/google-code-prettify/prettify.js"></script><script src="../lib/bootstrap/js/bootstrap.js"></script>
+
+
+   </body>
+</html>
