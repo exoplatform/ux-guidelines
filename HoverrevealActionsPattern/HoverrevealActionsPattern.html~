@@ -156,24 +156,24 @@
          <tbody>
             <tr class="hover-action">
                <td class="content-sample">Sample Content 1</td>
-               <td class="td-hover"><a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="icon-edit"> </i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="icon-trash"></i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Share"><i class="icon-share"></i></a></td>
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>
               
             </tr>
         <tr class="hover-action">
                <td class="content-sample">Sample Content 2</td>
-               <td class="td-hover"><a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="icon-edit"> </i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="icon-trash"></i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Share"><i class="icon-share"></i></a></td>              
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
             </tr>
          <tr class="hover-action">
                <td class="content-sample">Sample Content 3</td>
-               <td class="td-hover"><a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="icon-edit"> </i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="icon-trash"></i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Share"><i class="icon-share"></i></a></td>              
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
             </tr>
          <tr class="hover-action">
                <td class="content-sample">Sample Content 4</td>
-               <td class="td-hover"><a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="icon-edit"> </i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="icon-trash"></i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Share"><i class="icon-share"></i></a></td>              
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
             </tr>
            <tr class="hover-action">
                <td class="content-sample">Sample Content 5</td>
-               <td class="td-hover"><a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="icon-edit"> </i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="icon-trash"></i></a> <a href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Share"><i class="icon-share"></i></a></td>              
+               <td class="td-hover"><a href="#"><i class="icon-edit" title="Edit"> </i></a> <a href="#"><i class="icon-trash" title="Delete"></i></a> <a href="#"><li class="icon-share" title="Share"></li></a></td>              
             </tr>
 </tbody>
 </table>
@@ -347,15 +347,13 @@
             <li><i class="icon-filter"></i> icon-filter</li>
             <li><i class="icon-briefcase"></i> icon-briefcase</li>
             <li><i class="icon-fullscreen"></i> icon-fullscreen</li>
-	</td>
-	</TR>
-	</table>
-	</p>
-	<p>Trigger the tooltip via JavaScript:</p>
-	<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#example'</span><span class="pun">).</span><span class="pln">tooltip</span><span class="pun">(</span><span class="pln">options</span><span class="pun">)</span></li></ol></pre>
+</td>
+</TR>
 
-	<p>Hover reveal a content in case few number action buttons</p>
-	<table>
+</table>
+</p>
+<p>Hover reveal a content in case few number action buttons</p>
+<table>
          <tbody>
             <tr class="hover-action">
                <td class="content-sample">Sample Content 1</td>
@@ -648,10 +646,7 @@
     <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function () {
-    $("[rel=tooltip]").tooltip();
-  });
-</script>
+
+
    </body>
 </html>
