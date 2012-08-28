@@ -137,7 +137,7 @@
      </div>
      </div>
      <div class="bs-docs-example" style="padding-bottom: 24px;">
-       <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Pop-up by default demo</a>
+       <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Pop-up with block demo</a>
      </div>
 
       <p><table class="table table-bordered table-striped">
