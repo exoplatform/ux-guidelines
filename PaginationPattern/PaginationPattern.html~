@@ -328,7 +328,7 @@
             </tr>
             <tr>
                <td>Button</td>
-               <td>.btn-group , .btn-mini.dropdown-toggle</td> 
+               <td>.btn-group .btn-mini.dropdown-toggle</td> 
             </tr>
           
          </tbody>
@@ -358,7 +358,7 @@
          <tbody>
             <tr>
                <td>Text Link</td>
-               <td>body , a , a:hover</td>	
+               <td>body  a  a:hover</td>	
             </tr>
           </tbody>
       </table></p>

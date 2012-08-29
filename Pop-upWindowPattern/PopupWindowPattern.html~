@@ -137,36 +137,36 @@
      </div>
      </div>
      <div class="bs-docs-example" style="padding-bottom: 24px;">
-       <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Pop-up with block demo</a>
+       <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Pop-up by default demo</a>
      </div>
 
       <p><table class="table table-bordered table-striped">
          <thead>
             <tr>
                <th>Object</th>
-               <th>Style</th>
+               <th>class=""</th>
             </tr>
          </thead>
          <tbody>
             <tr>
-               <td>Modal Header</td>
-               <td>Font Family: Helvetica Neue<br>Font Size: 24px<br>Line Height: 40px <br> Border Bottom: 1px solid #EEEEEE<br> Padding: 9px 15px</td>
+               <td>Pop-up</td>
+               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
             </tr>
             <tr>
-               <td>Modal Body</td>
-               <td>Font Family: Helvetica Neue<br>Font Size: 13px<br> Font Color: #333333</td>
+               <td>Label</td>
+               <td>.label</td>
             </tr>
             <tr>
-               <td>Text Content, Label</td>
-               <td>Font Family: Helvetica Neue<br>Font Size: 13px<br>Font Weight: Normal<br>Text Color: #4D4D4D</td>
+               <td>Text field</td>
+               <td>.input-large</td>
             </tr>
             <tr>
-               <td>Text box</td>
-               <td>Background Color: #FFFFFF<br>Border: 1px solid #CCCCCC<br>Border-Radius: 3px 3px 3px 3px<br>Box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075)</td>
+               <td>Checkbox</td>
+               <td>.checkbox input[type="checkbox"]</td>
             </tr>
             <tr><td>Button</td>
-            <td>Background Color: #F5F5F5<br>Background Image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6)<br>Border-color: #E6E6E6 #E6E6E6 #B3B3B3<br>Border Radius: 4px 4px 4px 4px<br>Border Style: solid<br>Border Width: 1px<br>Box Shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05)<br> Font Size: 13px<br> Line-height: 18px <br> Text Align: center<br> Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
-            <tr><td>Button Primary</td><td>Background Color: #0074CC<br>Background Image: -moz-linear-gradient(center top , #0088CC, #0055CC)<br>         Border Color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)<br>Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
+            <td>.button , .btn-primary , .btn-primary: hover</td>
+            <tr><td>x button</td><td>.close , .close:hover</td>
 	     </tr>
          </tbody>
       </table>
@@ -250,37 +250,42 @@
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Pop-up with Tabs demo</a>
      </div>
-      <p><table class="table table-bordered table-striped">
+ <p><table class="table table-bordered table-striped">
          <thead>
             <tr>
                <th>Object</th>
-               <th>Style</th>
+               <th>class=""</th>
             </tr>
          </thead>
          <tbody>
             <tr>
-               <td>Modal Header</td>
-               <td>Font Family: Helvetica Neue<br>Font Size: 24px<br>Line Height: 40px <br> Border Bottom: 1px solid #EEEEEE<br> Padding: 9px 15px</td>
+               <td>Pop-up</td>
+               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
             </tr>
-            <tr><td>Tab</td><td>Border:1px solid transparent<br>Border Radius: 4px 4px 0 0<br>Line Height: 18px<br>Text link color: #0088CC<br>Background-color: #FFFFFF<br>Border Color: #DDDDDD #DDDDDD transparent<br> Border Style: solid<br> Border-width: 1px</td>
+            <tr><td>Tab</td>
+            <td>.nav-tabs , .active , a, a:hover</td>
             </tr>
-              
+
             <tr>
-               <td>Modal Body</td>
-               <td>Font Family: Helvetica Neue<br>Font Size: 13px<br> Font Color: #333333</td>
+               <td>Label</td>
+               <td>.label</td>
             </tr>
             <tr>
-               <td>Text Content, Label</td>
-               <td>Font Family: Helvetica Neue<br>Font Size: 13px<br>Font Weight: Normal<br>Text Color: #4D4D4D</td>
+               <td>Text field</td>
+               <td>.input-large</td>
+            </tr>
+            <tr>
+               <td>Checkbox</td>
+               <td>.checkbox input[type="checkbox"]</td>
             </tr>
             <tr><td>Button</td>
-            <td>Background Color: #F5F5F5<br>Background Image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6)<br>Border-color: #E6E6E6 #E6E6E6 #B3B3B3<br>Border Radius: 4px 4px 4px 4px<br>Border Style: solid<br>Border Width: 1px<br>Box Shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05)<br> Font Size: 13px<br> Line Height: 18px <br> Text Align: center<br> Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
-            <tr><td>Button Primary</td><td>Background Color: #0074CC<br>Background Image: -moz-linear-gradient(center top , #0088CC, #0055CC)<br>         Border Color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)<br>Mouse on: Dark gradient<br>Mouse out: Light gradient</td>
+            <td>.button , .btn-primary , .btn-primary: hover</td>
+            <tr><td>x button</td><td>.close , .close:hover</td>
 	     </tr>
          </tbody>
       </table>
 </p>
-
+      
      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
      <p>To obtain the consistency among applications in the way using and displaying actions/functions in pop-ups. This pattern let the designers know which functions they should put in page, which functions should be in pop-up. The consistency of pop-up style sheet and design makes your products look more professional.</p>
 
