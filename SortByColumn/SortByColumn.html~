@@ -143,7 +143,7 @@
 	<tfoot></tfoot>
 	</table>
 	<br>
-The standard sort by column</center>
+The standard sort by column. The column title can be clicked to sort data up or down.</center>
 </span>
 </p>
 <p>In details:</p>
@@ -157,7 +157,7 @@ The standard sort by column</center>
          <tbody>
             <tr>
                <td>Table</td>
-               <td>.table-bordered .table-striped .sortable</td>
+               <td>table-bordered, table-striped,sortable</td>
             </tr>
             <tr>
                <td>Sort Icon</td>
