@@ -323,7 +323,7 @@
 
 <div id="myModal3" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
 <div class="modal-header">
-<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+<button class="close" aria-hidden="true" data-dismiss="modal" type="button">x</button>
 <h3>Confirmation</h3>
 </div>
 <div class="modal-body">
@@ -339,6 +339,25 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Confirmation Message Pop-up</a>
 </div>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>class=""</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Pop-up</td>
+               <td>.modal .modal-header .modal-body .modal-footer</td>
+            </tr>
+            <tr>
+               <td>Button</td>
+               <td>.btn .btn-primary</td>
+            </tr>
+           <tr><td>Label</td><td>.label
+         </tbody>
+      </table>
        <h5>How to Use</h5>
 <p><b>What is Confirmation Message?</b></p>
 	<p>A confirmation message is to ask if the user wants to proceed with an action.<br>The display of a confirmation can be in a default browser pop-up or in a customized pop up window like the same template above.<br>With the deletion confirmation that may damage to huge data such as delete a forum, all its topics/post will be lost. The confirmation should be a warning that display in a pop up (like the template above) rather than using browser pop-up to warn the importance of the current action.

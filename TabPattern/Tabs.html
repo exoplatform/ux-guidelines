@@ -1,0 +1,306 @@
+<html>
+   <head>
+      <title>Tab Pattern</title>
+      <!-- Le styles -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/docs.css" rel="stylesheet">
+     <link href="../css/uxp-pattern.css" rel="stylesheet">
+     <style type="text/css">
+     </style>
+   </head>
+   <body data-target=".bs-docs-sidebar" data-spy="scroll" data-twttr-rendered="true">
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li class="active"><a href="#pattern">Patterns</a></li>
+              <li><a href="#component">Component</a></li>
+              <li><a href="#style">Style</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div> 
+      </div>
+    </div>
+    
+
+<!-- Masthead
+================================================== -->
+
+<header class="jumbotron subhead" id="overview">
+<div class="container">
+  <h1>Tab Pattern</h1>
+  <p class="lead">A long content can be divided and displayed in different tabs. How to tab a content?</p>
+</div>
+</header>
+
+<div class="container">
+
+      <div class="row-fluid">
+      <div class="span3">
+           <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+        <li class="nav-header">Description</li>
+      	<li><a href="#Overview">Overview</a></li>
+      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
+      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
+      	
+      	<li class="divider"></li>
+      	
+    	<li class="nav-header">What's the Solution?</li>
+    	<li><a href="#S1">Template</a></li>
+        <li><a href="#S2">Status</a></li>
+      	<li><a href="#S3">Rules</a></li>
+      	
+      	<li class="divider"></li>
+      	
+      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+        </ul>
+     </div><!-- well -->
+     </div> <!-- span -->
+
+    <div class="span9">
+      <p><span></span></p>
+      <h3><a name="Overview"></a><span>Overview</span></h3>
+       <span>A tab is a resource you can use in the same browser to open up another content. The content of a page that is grouped in different tabs, can be viewed easily.</span>
+      </ol>
+
+      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+
+      <p><span>Switching among tabs helps users to browse more content flexibly without scrolling mouse down or going to the other page.</span></p>
+
+      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
+      <p>Tabs should be used in cases:
+      <li>The content of a page or a pop up is long</li>
+      <li>There are more 2 sections </li>
+      The content of each tab can be viewed separate from each other.</p>
+      <h3><span>What's the Solution?</span></h3>
+      <p>Provide a horizontal bar or vertical bar of the content area with buttons or links representing tabs. The being viewed tab has its own visual to differentiate with others. <br>The content of each tab is displayed in the same area with similar structure.</p>
+      <h3><a name="S1"></a><span>Template</span></h3>
+<p>The standard horizontal tabs on the top</p>
+<div class="bs-docs-example">
+<div class="tabbable" style="margin-bottom: 18px;">
+<ul class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#tab1">Section 1</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#tab2">Section 2</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#tab3">Section 3</a>
+</li>
+</ul>
+<div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+<div id="tab1" class="tab-pane active">
+<p>I'm in Section 1.</p>
+</div>
+<div id="tab2" class="tab-pane">
+<p>Howdy, I'm in Section 2.</p>
+</div>
+<div id="tab3" class="tab-pane">
+<p>What up girl, this is Section 3.</p>
+</div>
+</div>
+</div>
+</div>
+
+<p>The standard horizontal tabs at the bottom</p>
+<div class="bs-docs-example">
+<div class="tabbable tabs-below">
+<div class="tab-content">
+<div id="A" class="tab-pane">
+<p>I'm in Section A.</p>
+</div>
+<div id="B" class="tab-pane">
+<p>Howdy, I'm in Section B.</p>
+</div>
+<div id="C" class="tab-pane active">
+<p>What up girl, this is Section C.</p>
+</div>
+</div>
+<ul class="nav nav-tabs">
+<li class="">
+<a data-toggle="tab" href="#A">Section 1</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#B">Section 2</a>
+</li>
+<li class="active">
+<a data-toggle="tab" href="#C">Section 3</a>
+</li>
+</ul>
+</div>
+</div>
+
+<p>The standard vertical tabs on the left<p>
+<div class="bs-docs-example">
+<div class="tabbable tabs-left">
+<ul class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#lA">Section 1</a>
+</li>
+<li>
+<a data-toggle="tab" href="#lB">Section 2</a>
+</li>
+<li>
+<a data-toggle="tab" href="#lC">Section 3</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="lA" class="tab-pane active">
+<p>I'm in Section A.</p>
+</div>
+<div id="lB" class="tab-pane">
+<p>Howdy, I'm in Section B.</p>
+</div>
+<div id="lC" class="tab-pane">
+<p>What up girl, this is Section C.</p>
+</div>
+</div>
+</div>
+</div>
+<p>The standard horizontal tabs on the right</p><br>
+<div class="bs-docs-example">
+<div class="tabbable tabs-right">
+<ul class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#rA">Section 1</a>
+</li>
+<li>
+<a data-toggle="tab" href="#rB">Section 2</a>
+</li>
+<li>
+<a data-toggle="tab" href="#rC">Section 3</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="rA" class="tab-pane active">
+<p>I'm in Section A.</p>
+</div>
+<div id="rB" class="tab-pane">
+<p>Howdy, I'm in Section B.</p>
+</div>
+<div id="rC" class="tab-pane">
+<p>What up girl, this is Section C.</p>
+</div>
+</div>
+</div>
+</div>
+<p>In details:</p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>class=""</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Tab default</td>
+               <td>tabbable, nav, nav-tabs</td>
+            </tr>
+            <tr>
+               <td>Tab at the bottom</td>
+               <td>tabbable, tabs-below, nav, nav-tabs</td>
+            </tr>
+             <tr>
+               <td>Tab on the right</td>
+               <td>tabbable, tabs-left, nav, nav-tabs</td>
+            </tr>
+            <tr>
+               <td>Tab on the left</td>
+               <td>tabbable, tabs-right, nav, nav-tabs</td>
+            </tr>
+            </tbody>
+      </table>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tabbable tabs-below"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tab-content"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln"> ...</span></li><li class="L3"><span class="pln"></span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;ul</span><span class="pln"></span><span class="atn">class</span><span class="pun">=</span><span class="atv">"nav nav-tabs"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln"> ...</span></li><li class="L6"><span class="pln"> </span><span class="tag">&lt;/ul&gt;</span></li><li class="L7"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+<h3><a name="S2"></a><span>Status</span></h3>
+A tab has 2 main statuses:
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Status</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Default status</td>
+               <td>The tabs can be clicked to view its content. There is css effect when mouse hover on it.</td>
+            </tr>
+            <tr>
+               <td>Being viewed status</td>
+               <td>The tab is being viewed, its content is displayed. There is no css effect when mouse hover on it.</td></td>
+            </tr>
+           </tbody>
+      </table>
+      <h3><a name="S3"></a><span>Rules</span></h3>
+        <table class="table table-bordered table-striped">
+           <tbody>
+            <tr>
+               <td>TR-01</td>
+               <td>Different tabs have the same css style</td>
+            </tr>
+            <tr>
+               <td>TR-02</td>
+               <td>Tab content is displayed in the same area</td>
+            </tr>
+            <tr>
+               <td>TR-03</td>
+               <td>Tab title is limited with 20 words</td>
+            </tr>
+            <tr>
+               <td>TR-04</td>
+               <td>By default, there is only one tab being viewed at once</td>
+            </tr>
+            <tr>
+               <td>TR-05</td>
+               <td>No page load when a tab is clicked</td>
+            </tr>
+         </tbody>
+      </table>
+
+     <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+     <p>Tabs allow to group a long page content logically that makes easy for users to view and interact with.
+Besides, the same usage makes the consistency among products in the way displaying data in pages or pop-ups.
+</p>
+
+ <hr>
+      <footer>
+       <p><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></p>
+      </footer>
+</div>
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="../js/application.js"></script>
+    <script type="text/javascript" src="../js/sorttable.js"></script>
+    <script type="text/javascript" src="../js/table.js"></script>
+   </body>
+</html>
