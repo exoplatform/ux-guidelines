@@ -80,7 +80,7 @@
 
       <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
 
-      <p><span>Displaying a message to an user is a way to communicate with him, so as any communication it’s important to take care about the message and the way it will be displayed.<br> This pattern provides a guide to avoid creating unclear messages to users and correctly differentiate each kind of message.</span></p>
+      <p><span>Displaying a message to an user is a way to communicate with him, so as any communication it is important to take care about the message and the way it will be displayed.<br> This pattern provides a guide to avoid creating unclear messages to users and correctly differentiate each kind of message.</span></p>
 
       <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
 	<p>Normally, a function includes a lot of cases to show messages to end users. During the development process, the developers and testers must be able to take cover all of them. It is a need to clarify what kind a message is to display it with correct content and template.</p>
@@ -189,7 +189,7 @@
 
 <div id="myModal" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
 <div class="modal-header">
-<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+<button class="close" aria-hidden="true" data-dismiss="modal" type="button">x</button>
 <h3>Warning</h3>
 </div>
 <div class="modal-body">
@@ -244,7 +244,7 @@
           <h5>Template</h5>
 <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
 <div class="modal-header">
-<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+<button class="close" aria-hidden="true" data-dismiss="modal" type="button">x</button>
 <h3>Information</h3>
 </div>
 <div class="modal-body">
@@ -258,7 +258,7 @@
 
 <div id="myModal2" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
 <div class="modal-header">
-<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+<button class="close" aria-hidden="true" data-dismiss="modal" type="button">x</button>
 <h3>Information</h3>
 </div>
 <div class="modal-body">

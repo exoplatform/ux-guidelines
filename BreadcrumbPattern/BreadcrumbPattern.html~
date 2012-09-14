@@ -125,7 +125,7 @@
             </tr>
             <tr>
                <td>Text Link</td>
-               <td>.body, a , a:hover, a:active</td>
+               <td>body, a , a:hover, a:active</td>
             </tr>
             <tr>
                <td>Breadcrum divider</td>
