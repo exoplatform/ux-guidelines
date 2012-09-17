@@ -3,8 +3,8 @@ uxp-patterns-website
 UXP WEBSITE DEMO
 
 GOAL: 
--To expose few UXP pattern to everyone
--To create a "knowledge" database for UXP stuff based in a first time on our UXP Pattern.
+- To expose few UXP pattern to everyone
+- To create a "knowledge" database for UXP stuff based in a first time on our UXP Pattern.
 
 ROADMAP:
 - Make the HomePage clearer and more beautiful
@@ -24,12 +24,12 @@ PLAN:
 - Continue to compose the other pattern.
 
 HOW TO DOWNLOAD:
-Github HTTP: https://github.com/exoplatform/uxp-patterns-website.git
-Github SSH: git@github.com:exoplatform/uxp-patterns-website
-Github Zip: https://github.com/exoplatform/uxp-patterns-website/zipball/master
+- Github HTTP: https://github.com/exoplatform/uxp-patterns-website.git
+- Github SSH: git@github.com:exoplatform/uxp-patterns-website
+- Github Zip: https://github.com/exoplatform/uxp-patterns-website/zipball/master
 
 DEMO ONLINE WEBSITE:
-http://exoplatform.github.com/uxp-patterns-website/
+- http://exoplatform.github.com/uxp-patterns-website/
 
 
 
