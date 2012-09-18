@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Getting-UXP Pattern Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <script src="js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script><script src="js/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-146052-10']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+
+  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html"><img src="img/global.logo.png"/></a></li>
+              <li><a href="Patterns.html">Patterns</a></li>
+              <li><a href="Components.html">Component</a></li>
+              <li><a href="Style.html">Style</a></li>
+              <li><a href="Javascript.html">Javascript</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Getting started</h1>
+    <p class="lead">Overview of UXP Pattern Website, its contents, and how to get started with a simple template.</p>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#download-bootstrap"><i class="icon-chevron-right"></i> Download source</a></li>
+          <li class=""><a href="#file-structure"><i class="icon-chevron-right"></i> File structure</a></li>
+          <li><a href="#contents"><i class="icon-chevron-right"></i> What's included</a></li>
+          <li><a href="#html-template"><i class="icon-chevron-right"></i> HTML template</a></li>
+          <li><a href="#what-next"><i class="icon-chevron-right"></i> What next?</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+
+        <!-- Download
+        ================================================== -->
+        <section id="download-bootstrap">
+          <div class="page-header">
+            <h1>1.Download Source</h1>
+          </div>
+          <p class="lead">Before downloading, be sure that you have basis knowleadge on HTML, JS and CSS. Text Editor, Quanta Plus, Sublime Text are useful code editors to modify the file content.</p>
+          <div class="row-fluid">
+            <p>Get the original files for all CSS and JavaScript,along with a local copy of the docs by downloading the latest version directly from GitHub</p>
+              <p><a class="btn btn-large btn-primary" href="https://github.com/exoplatform/uxp-patterns-website/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download UXP Pattern Website</a></p>
+         </div>
+        </section>
+
+
+
+        <!-- File structure
+        ================================================== -->
+        <section id="file-structure">
+          <div class="page-header">
+            <h1>2. File structure</h1>
+          </div>
+          <p class="lead">Within the download you'll find the following file structure and contents, logically grouping common assets and providing both compiled and minified variations.</p>
+          <p>Once downloaded, unzip the compressed folder to see the structure of UXP Patterns Website (based on Bootstrap). You'll see something like this:</p>
+<pre class="prettyprint"><span class="pln">  exoplatform-uxp-patterns-website</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">├──</span><span class="pln"> css</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bootstrap</span><span class="pun">.</span><span class="pln">css
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bootstrap</span><span class="pun">.</span><span class="pln">min</span><span class="pun">.</span><span class="pln">css
+  </span><span class="pun">├──</span><span class="pln"> js</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bootstrap</span><span class="pun">.</span><span class="pln">js
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bootstrap</span><span class="pun">.</span><span class="pln">min</span><span class="pun">.</span><span class="pln">js
+  </span><span class="pun">├──</span><span class="pln"> img</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> glyphicons</span><span class="pun">-</span><span class="pln">halflings</span><span class="pun">.</span><span class="pln">png
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> glyphicons</span><span class="pun">-</span><span class="pln">halflings</span><span class="pun">-</span><span class="pln">white</span><span class="pun">.</span><span class="pln">png
+  </span><span class="pun">└──</span><span class="pln"> README</span><span class="pun">.</span><span class="pln">md</span></pre>
+<p>All CSS, JS files are based on (<code>bootstrap.*</code>), as well as compiled and minified CSS and JS (<code>bootstrap.min.*</code>).<p>Please note that most JavaScript plugins require jQuery to be included. Besides, there some free javacripts are also applied in UXP Pattern Website to create some dynamic samples</p>
+        </section>
+
+
+
+        <!-- Contents
+        ================================================== -->
+        <section id="contents">
+          <div class="page-header">
+            <h1>3. What's included</h1>
+          </div>
+          <p class="lead">UXP Patterns Website are completely based on Bootstrap with the main content below</p>
+          <h4><a href="index.html">Pattern</a></h4>
+          <p>Based on Twitter Bootstrap, we provide uxp patterns for specific functions or objects that can be applied in common to obtain the conistency among products</p>
+          <h4><a href="Component.html">Component</a></h4>
+          <p>Details for some basic components that are applied in UXP Pattern Website, provided by Twitter Bootstrap.</p>
+          <h4><a href="Style.html">Style</a></h4>
+          <p>Basic css for html elements that are applied in UXP Pattern Website.</p>
+          <h4><a href="Javascript.html">Javascript</a></h4>
+          <p>Similar to Components, these Javascript plugins are interactive components for things like tooltips, popovers, modals, and more.</p>
+
+         </section>
+
+        <!-- HTML template
+        ================================================== -->
+        <section id="html-template">
+          <div class="page-header">
+            <h1>4. Basic HTML template</h1>
+          </div>
+          <p class="lead">UXP Patterns Website has basic HTML templated provided by Bootstrap</p>
+          <p><strong>Typical HTML file</strong>:</p>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="dec">&lt;!DOCTYPE html&gt;</span></li><li class="L1"><span class="tag">&lt;html&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;head&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;title&gt;</span><span class="pln">Bootstrap 101 Template</span><span class="tag">&lt;/title&gt;</span></li><li class="L4"><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></li><li class="L5"><span class="pln">  </span><span class="tag">&lt;body&gt;</span></li><li class="L6"><span class="pln">    </span><span class="tag">&lt;h1&gt;</span><span class="pln">Hello, world!</span><span class="tag">&lt;/h1&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"http://code.jquery.com/jquery-latest.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L8"><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></li><li class="L9"><span class="tag">&lt;/html&gt;</span></li></ol></pre>
+          <p>To make this <strong>a Bootstrapped template</strong>, just include the appropriate CSS and JS files:</p>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="dec">&lt;!DOCTYPE html&gt;</span></li><li class="L1"><span class="tag">&lt;html&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;head&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;title&gt;</span><span class="pln">Bootstrap 101 Template</span><span class="tag">&lt;/title&gt;</span></li><li class="L4"><span class="pln">    </span><span class="com">&lt;!-- Bootstrap --&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;link</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"css/bootstrap.min.css"</span><span class="pln"> </span><span class="atn">rel</span><span class="pun">=</span><span class="atv">"stylesheet"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></li><li class="L7"><span class="pln">  </span><span class="tag">&lt;body&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;h1&gt;</span><span class="pln">Hello, world!</span><span class="tag">&lt;/h1&gt;</span></li><li class="L9"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"http://code.jquery.com/jquery-latest.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"js/bootstrap.min.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></li><li class="L2"><span class="tag">&lt;/html&gt;</span></li></ol></pre>
+          <p><strong>And you're set!</strong> With those two files added, you can begin to develop any site or application with Bootstrap.</p>
+        </section>
+
+
+        <!-- Next
+        ================================================== -->
+        <section id="what-next">
+          <div class="page-header">
+            <h1>What next?</h1>
+          </div>
+          <p class="lead">Based on the development of Bootstrap, UXP Pattern Website will be updated correspondingly. More patterns will be added and customized following Bootstrap style</p>
+          </section>
+
+      </div>
+    </div>
+<hr>
+    <footer>
+        <p><font size="-1"><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></font></p>
+      </footer>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/widgets.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/bootstrap-affix.js"></script>
+    <script src="js/application.js"></script>
+
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+
+  
+
+</body></html>
