@@ -1,9 +1,13 @@
-<html>
-   <head>
-      <title>Hover reveal Actions Pattern</title>
-      
-      
-      <!-- Le styles -->
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Hover Reveal Actions Pattern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
       <link href="../css/bootstrap.css" rel="stylesheet">
       <link href="../css/bootstrap.min.css" rel="stylesheet"> 
       <link href="../css/bootstrap-responsive.css" rel="stylesheet">
@@ -11,18 +15,32 @@
       <link href="../css/prettify.css" rel="stylesheet">
       <link href="../css/docs.css" rel="stylesheet">
       <link href="../css/uxp-pattern.css" rel="stylesheet">
-     <style type="text/css">
-      </style>
-   </head>
-   <body>
-<div class="navbar navbar-fixed-top">
+      <style type="text/css"></style>
+
+
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    
+  </head>
+
+  <body>
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
@@ -31,11 +49,10 @@
               <li><a href="../Style.html">Style</a></li>
               <li><a href="../Javascript.html">Javascript</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
     </div>
-    
 
 <!-- Masthead
 ================================================== -->
@@ -80,9 +97,9 @@
 
       <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
 
-      <p><li>Use when doing actions quickly on objects</li>
+      <p><ul><li>Use when doing actions quickly on objects</li>
       <li>Use when there are similar objects that having same actions.</li>
-      <li>Use when desiring to have simple user interface.</li> </span></p>
+      <li>Use when desiring to have simple user interface.</li></ul> </span></p>
 
      <h3><span>What's the Solution?</span></h3>
       <p><span>Hover reveal action tool is displayed when mouse over a specific object. Depending on the characteristic of the object, the effects may be different. Group by the number of actions, we can have 2 main kind of objects:
@@ -618,5 +635,5 @@
     $("[rel=tooltip]").tooltip();
   });
 </script>
-   </body>
-</html>
+
+</body></html>

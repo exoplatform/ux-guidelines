@@ -1,28 +1,43 @@
-<html>
-   <head>
-      <title>Modal Pop-up Pattern</title>
-      
-      
-      <!-- Le styles -->
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Popup Window Pattern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
      <link href="../css/bootstrap.css" rel="stylesheet">
-      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
-      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
-      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+     <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+     <link href="../css/prettify.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
-     <style type="text/css">
-      </style>
-   </head>
-   <body>
-<div class="navbar navbar-fixed-top">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    
+  </head>
+
+  <body>
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
@@ -31,11 +46,10 @@
               <li><a href="../Style.html">Style</a></li>
               <li><a href="../Javascript.html">Javascript</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
     </div>
-    
 
 <!-- Masthead
 ================================================== -->
@@ -81,10 +95,11 @@
       <p>Pop-up is useful and fast way to interact with a function, it is also to display advanced options over one element on the screen without having to lose the content.</p>
 
       <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3><p>Use when a content is suitable to display in a pop-up</p>
-      <li>Data input and display are short</li>
+      <ul>
+	  <li>Data input and display are short</li>
       <li>Interact with simple function</li>
       <li>Common action that is used by different application</li>
-      <li>Can be grouped in different tab logically</li>
+      <li>Can be grouped in different tab logically</li></ul>
       <p>Use when there is expectation to keep current page while interacting with more functions. </p>
       <h3><span>What's the Solution?</span></h3>
       <h3><a name="S1"></a><span>Pop-up Size</span></h3>
@@ -298,9 +313,9 @@
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<script type="text/javascript" src="../js/widgets.js"></script>
     <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="../js/prettify.js"></script>
     <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
     <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
     <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
@@ -314,7 +329,4 @@
     <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
-
-
-   </body>
-</html>
+</body></html>

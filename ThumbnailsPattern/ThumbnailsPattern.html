@@ -1,27 +1,41 @@
-<html>
-   <head>
-      <title>Thumbnails Pattern</title>
-      <!-- Le styles -->
-      <link href="../css/bootstrap.css" rel="stylesheet">
+<!DOCTYPE HTML> 
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Thumbnail Pattern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+     <link href="../css/bootstrap.css" rel="stylesheet">
       <link href="../css/bootstrap.min.css" rel="stylesheet"> 
       <link href="../css/bootstrap-responsive.css" rel="stylesheet">
       <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="../css/prettify.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
-     <style type="text/css">
-     </style>
-   </head>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    
+  </head>
+
    <body data-target=".bs-docs-sidebar" data-spy="scroll" data-twttr-rendered="true">
 
-<div class="navbar navbar-fixed-top">
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
@@ -30,10 +44,11 @@
               <li><a href="../Style.html">Style</a></li>
               <li><a href="../Javascript.html">Javascript</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
     </div>
+
 <!-- Masthead
 ================================================== -->
 
@@ -83,11 +98,12 @@
 
        <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
        <p>Thumbnails can be used  to present images in cases:</p>
+	   <ul>
        <li>Images on an activies stream</li>
        <li>Images in a gallery</li>
        <li>Image attachments in topic, question</li>
        <li>Files displayed as thumbnails in a folder</li>
-       <li>Avatar of users or spaces</li>
+       <li>Avatar of users or spaces</li></ul>
        <p>Thumbnails allows multiple images display at once that provides an overview of image collection and users can select an expected one to view  or download with original size.
        In case images are used for avatar or picture representative, thumbnails defines an ideal and consistent size for all uploaded images. </p>
 
@@ -237,7 +253,7 @@
 </p>
 
       <h3><a name="S3"></a><span>Thumbnails Usage</span></h3>
-      <h4><a name="S3.1"></a><span>Avatar Thumbnails</span></p>
+      <h4><a name="S3.1"></a><span>Avatar Thumbnails</span></p></h4>
       <p>The thumbnails with rounded corners is used for avatar display.</p>
       <p><table class="table table-bordered table-striped">
          <thead>

@@ -1,27 +1,43 @@
-<html>
-   <head>
-      <title>Message Pattern</title>
-      <!-- Le styles -->
-       <link href="../css/bootstrap.css" rel="stylesheet">
-      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
-      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
-      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="../css/prettify.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Messages Pattern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+     <link href="../css/bootstrap.css" rel="stylesheet">
+     <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+     <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+     <link href="../css/prettify.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
-     <style type="text/css">
-     </style>
-   </head>
-   <body>
 
-<div class="navbar navbar-fixed-top">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    
+  </head>
+
+  <body>
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
@@ -30,11 +46,10 @@
               <li><a href="../Style.html">Style</a></li>
               <li><a href="../Javascript.html">Javascript</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
     </div>
-    
 
 <!-- Masthead
 ================================================== -->
@@ -73,10 +88,10 @@
       <p><span></span></p>
       <h3><a name="Overview"></a><span>Overview</span></h3>
          A message is a short communication transmitted by words and signals. It is a feedback to end users. In eXo products, messages are grouped 4 types:
-	<li>Error</li>
+	<ul><li>Error</li>
 	<li>Warning</li>
 	<li>Information</li>
-	<li>Confirmation</li>
+	<li>Confirmation</li></ul>
 	The main purpose of the document is to provide a pattern of each kind of message.
 
       <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
@@ -88,10 +103,10 @@
 
       <h3><span>What's the Solution?</span></h3>
       <p><div>Messages can be grouped in 4 types:
-      <li>Error</li>
+      <ul><li>Error</li>
       <li>Warning</li>
       <li>Information</li>
-      <li>Confirmation</li>
+      <li>Confirmation</li></ul>
        <p><b>The priority to display messages is: Error - Warning - Information.</b><br>
        For example, a form is submitted. There are 4 found problems: 2 errors and 2 warnings. The error pop up displays firstly. After errors are corrected, the warning pop-up display to users.</p>
       <h3><a name="S1"></a><span>Error Message</span></h3>
@@ -106,7 +121,7 @@
 <p>Your email address is incorrect. Please input a valid one!</p>
 </div>
 <div class="modal-footer">
-<a class="btn btn-danger" href="#">OK</a>
+<a class="btn btn-danger" data-dismiss="modal" href="#">OK</a>
 </div>
 </div>
 
@@ -120,7 +135,7 @@
 <p>Your email address is incorrect. Please input a valid one!</p>
 </div>
 <div class="modal-footer">
-<a class="btn btn-danger" href="#">OK</a>
+<a class="btn btn-danger" data-dismiss="modal" href="#">OK</a>
 </div>
 </div>
 
@@ -163,9 +178,11 @@
 	<p>Programmer error messages<br>Eg: Messages intended to help the program's developers find bugs are left in the release version of the program.<br>These error messages have no meaning or value to users</p>
 	<p>Handing unknown error<br>Any unknown error display that will make users feel your application is not reliable. Try to hand and provide a detailed message about invalid action.
 	<p>Avoid Troubleshootings</p>
+	<ul>
 	<li>Avoid creating troubleshooting problems. Don't rely on a single error message to report a problem with several different detectable causes.</li>
 	<li>Use a different error message for each detectable cause. For example, if a file cannot be opened for several reasons, provide a separate supplemental instruction for each reason.</li>
 	<li>Use a message with multiple causes only when the specific cause can't be determined. In this case, present the solutions in order of likelihood of fixing the problem. Doing so helps users solve the problem more efficiently.</li>
+	</ul>
 	<p>Incorrect:</p>
 	<img src="images/image01.png"/>
 	<p>Correct:</p>
@@ -184,7 +201,7 @@
 <p>Your account will be blocked in case there is more than 10 times incorrect password input.</p>
 </div>
 <div class="modal-footer">
-<a class="btn btn-warning" href="#">OK</a>
+<a class="btn btn-warning" data-dismiss="modal" href="#">OK</a>
 </div>
 </div>
 
@@ -198,7 +215,7 @@
 <p>Your account will be blocked in case there is more than 10 times incorrect password input.</p>
 </div>
 <div class="modal-footer">
-<a class="btn btn-warning" href="#">OK</a>
+<a class="btn btn-warning" data-dismiss="modal" href="#">OK</a>
 </div>
 </div>
 
@@ -233,11 +250,12 @@
 	<p>Have immediate relevance<br>E.g:The account will be blocked with 5 times incorrect password input to prevent hackers!</p>
 	<p>Lead to action. There is something users must do or be aware of as the result of the warning. Warnings without actions just make users feel paranoid.<br>E.g: Your account will be blocked! The message will make users confused and don't understand why?</p>
 	<p>Be clear and specific. Read the warning message, users can know:</p>
+	<ul>
 	<li>The source of the warning. E.g Use the title to know where the warning came from</li>
 	<li>The specific condition and potential problem.</li>
 	<li>What the user should do about it.</li>
 	<li>What happens if the user doesn't do anything.</li>
-	<br>
+	</ul>
 	<p><b>What should be avoided in a warning message?</b></p>
 	<p>Redundant message<br>Overwarning that makes your program feel hazardous and look lije it was designed by lawyers.</p>
 	
@@ -253,7 +271,7 @@
 <p>Your resgistration is completed. Please check your email inbox to activate your account!</p>
 </div>
 <div class="modal-footer">
-<a class="btn btn-info" href="#">OK</a>
+<a class="btn btn-info" data-dismiss="modal" href="#">OK</a>
 </div>
 </div>
 
@@ -267,7 +285,7 @@
 <p>Your resgistration is completed. Please check your email inbox to activate your account!</p>
 </div>
 <div class="modal-footer">
-<a class="btn btn-info" href="#">OK</a>
+<a class="btn btn-info" data-dismiss="modal" href="#">OK</a>
 </div>
 </div>
 
@@ -297,14 +315,15 @@
        <h5>How to Use</h5>
 <p><b>What is Information Message?</b></p>
 	<p>An information message is to alert users useful and relevant, but never critical information. It like a notification to let user know a specific information.<br>E.g: Your account has been registered successfully. Please go to your email address box to activate your account.</p>
-	<p><b>Characteristic of a good information message</b></p>
+	<p><b>Characteristic of a good information message:</b></p>
+	<ul>
 	<li>Useful. The information let user know something new or has been done successfully.</li>
 	<li>Asynchronous. The information is not an immediate, action required in information message can be postponed.</li>
 	<li>Relevant. The information is helpful that user may already know.</li><br>
 	<p><b>What should be avoided in an information message?</b></p>
 	<li>Redundant. The message includes many redundant information<br> E.g: In Answers, submit a question successfully, there is a information pop up display that does not close automatically. So, users have to click OK to close the pop-up that is inconvenient. </li>
 	<li>Annoying. The message displays too much that is not necessary.<br> E.g: These selected files have been deleted successfully.</li>
-	<li>Actionable. The information does not require immediate action</li>
+	<li>Actionable. The information does not require immediate action</li></ul>
 <h3><a name="S4"></a><span>Confirmation Message</span></h3>
           <h5>Template</h5>
          <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
@@ -318,7 +337,7 @@
 </div>
 <div class="modal-footer">
 <button class="btn" data-dismiss="modal">Cancel</button>
-<button class="btn btn-primary">OK</button>
+<button class="btn btn-primary" data-dismiss="modal">OK</button>
 </div>
 </div>
 
@@ -333,7 +352,7 @@
 </div>
 <div class="modal-footer">
 <button class="btn" data-dismiss="modal">Cancel</button>
-<button class="btn btn-primary">OK</button>
+<button class="btn btn-primary" data-dismiss="modal">OK</button>
 </div>
 </div>
 
@@ -364,15 +383,18 @@
 	<p>A confirmation message is to ask if the user wants to proceed with an action.<br>The display of a confirmation can be in a default browser pop-up or in a customized pop up window like the same template above.<br>With the deletion confirmation that may damage to huge data such as delete a forum, all its topics/post will be lost. The confirmation should be a warning that display in a pop up (like the template above) rather than using browser pop-up to warn the importance of the current action.
        </p>
 	<p><b>Characteristic of a good confirmation message</b></p>
+	<ul>
 	<li>Obvious result display of an action initiated by the user.</li>
 	<li>Relevant verification if the user wants to proceed with the action.</li>
-	<li>Simple question and two or more responses.</li>
+	<li>Simple question and two or more responses.</li></ul>
 	<p>If a confirmation involves risk, it can be considered a warning as well. It is great to use a customized pop-up window rather than a default browser pop-up.</p>
 
 	<p><b>What should be avoided in a confirmation message?</b></p>
+	<ul>
 	<li>Unnecessary confirmation.<br>E.g: Are you sure to rename the file?</li>
 	<li>Annoying confirmation.<br>E.g: There is no change on the form. However, when clicking on close form. there is confirmation "Are you sure to close the form? "</li>
 	<li>Redundant confirmation<br>E.g: Some actions we can redo, recover the old content by revision or from the trash, it is no need to have deletion confirmation </li>
+	</ul>
 	<br>
      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
      <p>Messages is a way an application talk to end users. So, messages play an important role to make the success of an application.<br>
@@ -387,9 +409,9 @@
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" src="../js/widgets.js"></script>
     <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="../js/prettify.js"></script>
     <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
     <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
     <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
@@ -405,5 +427,4 @@
     <script type="text/javascript" src="../js/application.js"></script>
 
 
-   </body>
-</html>
+</body></html>
