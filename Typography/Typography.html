@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Typography-UXP Pattern Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/docs.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+       <script src="../js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script><script src="../js/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-146052-10']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</head>
+
+  </head>
+
+  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li><a href="../Patterns.html">Patterns</a></li>
+              <li><a href="../Components.html">Component</a></li>
+              <li class="active"><a href="../Style.html">Style</a></li>
+              <li><a href="../Javascript.html">Javascript</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Typography</h1>
+    <p class="lead">Basic CSS for Headings, Body Copy, Emphasis, Abbreviations, Addresses, Blockquote, Lists, Code. </p></div>
+</header>
+  <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="row"><div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Headings</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Body Copy</a></li>
+          <li class=""><a href="#S3"><i class="icon-chevron-right"></i> Emphasis</a></li>
+	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i> Abbreviations</a></li>
+          <li class=""><a href="#S5"><i class="icon-chevron-right"></i> Addresses</a></li>
+          <li class=""><a href="#S6"><i class="icon-chevron-right"></i> Blockquotes</a></li>
+          <li class=""><a href="#S7"><i class="icon-chevron-right"></i> Lists</a></li>
+          <li class=""><a href="#S8"><i class="icon-chevron-right"></i> Code</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+        <!-- Headings================================================== -->
+        <section id="S1">
+          <div class="page-header">
+            <h1>Headings</h1>
+          </div>
+          <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available. Besides, the cover title or page title can be defined by large font size</p>
+          <div class="bs-docs-example">
+            <h1>h1. Heading 1</h1>
+            <h2>h2. Heading 2</h2>
+            <h3>h3. Heading 3</h3>
+            <h4>h4. Heading 4</h4>
+            <h5>h5. Heading 5</h5>
+            <h6>h6. Heading 6</h6>
+          </div>
+          <div class="bs-docs-example">
+            <div class="hero-unit"><h1>Cover Title</h1>
+          </div>
+          </div>
+<p>All headings are defined in <b>bootstrap.css</b>. The main difference in details:
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Heading</th>
+               <th>Font Size</th>
+               <th>Apply For</th>
+
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>.hero unit h1</td>
+               <td>60px</td>
+               <td>Cover Title, Page Title, Product Title</td>
+            </tr>
+            <tr>
+               <td>h1</td>
+               <td>36px</td>
+               <td>Top level heading, Main subject</td>
+            </tr>
+            <tr>
+               <td>h2</td>
+               <td>30px</td>
+               <td>Important subject</td>
+            </tr>
+            <tr>
+               <td>h3</td>
+               <td>24px</td>
+               <td>Sub important subject</td>
+            </tr>
+            <tr>
+               <td>h4</td>
+               <td>18px</td>
+               <td>Main content heading of a sub important subject</td>
+            </tr>
+            <tr>
+               <td>h5</td>
+               <td>14px</td>
+               <td>Sub of content heading of a sub import subject </td>
+            </tr>
+            <tr>
+               <td>h6</td>
+               <td>12px</td>
+               <td>Minor heading notices</td>
+            </tr>
+         </tbody>
+      </table>
+      <p>The header tags are important to SEO because the main content of a heading are consisdered as keyterm for search engine. There are some notices:
+      <ul>
+      <li>Use and apply correct header tags.</li>
+      <li>Never jump from h1 to h3, h2 to h4.</li>
+      <li>No need to use all h1...h6 in a page.</li>
+      <li>Use only 1 Header cover.</li>
+      <li>Use only 1 h1 in case there is no heading cover with bigger size.</li>
+      <li>Concise content for heading title to help decide the keyterm easily.</li>
+
+      </ul>
+      </p>
+        </section>
+
+        <!-- Body Copy ================================================== -->
+        <section id="S2">
+           <div class="page-header">
+            <h1>Body Copy</h1>
+          </div>
+         <p>By default, font style of a page inherit body css style. In detail:
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>Style</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><code>font-size</code></td>
+               <td>13</td>
+            </tr>
+            <tr>
+               <td><code>line-height</code></td>
+               <td>18</td>
+            </tr>
+            <tr>
+               <td><code>font-family</code></td>
+               <td>"Helvetica Neue",Helvetica,Arial,sans-serif</td>
+            </tr>
+            <tr>
+               <td><code>color</code></td>
+               <td>#333333</td>
+            </tr>
+         </tbody>
+      </table>
+         </p>
+	<div class="bs-docs-example">
+	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula</p></div>
+	<pre class="prettyprint"><span class="tag">&lt;p&gt;</span><span class="pln">...</span><span class="tag">&lt;/p&gt;</span></pre>
+	<h2>Lead body copy</h2>
+	<p>Make a paragraph stand out by adding<code>.lead</code> This can be used for main contain description or cover description...</p>
+	<div class="bs-docs-example">
+	<p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula</p>
+	</div>
+	<pre class="prettyprint"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"lead"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/p&gt;</span></pre>
+        <p>To obtain the consistency among product main pages, <code>.hero unit</code> can be used for product title and <code>.lead</code>can be used for product description.</p>
+         <div class="bs-docs-example">
+            <div class="hero-unit" align="right"><h1>Product Title</h1>
+            <p class="lead" align="right">Short description about the product</p>
+	</div>
+	 </section>
+        <section id="S3">
+          <div class="page-header">
+            <h1>Emphasis</h1>
+         <p>Make use of HTML's default emphasis tags with lightweight styles.</p></div>
+	<h2><code>&lt;small&gt;</code></h2>
+	<p>For de-emphasizing inline or blocks of text, or explaination for any word at the end of a page, <small>use the small tag.</small>
+        </p>
+       <div class="bs-docs-example">
+       <p>
+       <small>This line of text is meant to be treated as fine print.</small>
+       </p>
+       </div>
+       <pre class="prettyprint"><span class="tag">&lt;p&gt;&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;&lt;/p&gt;</span></pre>
+         <h2>Bold</h2>
+          <p>For emphasizing a snippet of text with <strong>important</strong></p>
+          <div class="bs-docs-example">
+            <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+          </div>
+          <pre class="prettyprint"><span class="tag">&lt;strong&gt;</span>rendered as bold text<span class="tag">&lt;/strong&gt;</span></pre>
+
+          <h2>Italics</h2>
+          <p>For emphasizing a snippet of text with <em>stress</em></p>
+          <div class="bs-docs-example">
+            <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+          </div>
+          <pre class="prettyprint"><span class="tag">&lt;em&gt;</span>rendered as italicized text<span class="tag">&lt;/em&gt;</span></pre>
+
+          <p><span class="label label-info">Heads up!</span> Feel free to use <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> in HTML5. <code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
+          <h2>Emphasis classes</h2>
+          <p>Convey meaning through color with a handful of emphasis utility classes.</p>	
+        <table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>.class</th>
+               <th>Apply for</th>
+            </tr>
+         </thead>
+         <tbody>
+         <tr>
+         <td><code>.muted</code></td>
+         <td><span class="muted">Minor information or informal explanation.</span></td>
+          </tr>
+            <tr>
+               <td><code>.text-warning</code></td>
+               <td><span class="text-warning">Warning information that users have to take a notice when using products.</span></td>
+            </tr>
+            <tr>
+               <td><code>.text-error</code></td>
+               <td><span class="text-error">Error information that users may face to when using products.</span></td>
+            </tr>
+            <tr>
+               <td><code>.text-info</code></td>
+               <td><span class="text-info">Information that is important such as new feature, version information...</span></td>
+            </tr>
+            <tr>
+               <td><code>.text-success</code></td>
+               <td><span class="text-success">Archievement information that need to be highlight.</span></td>
+            </tr>
+         </tbody>
+      </table>
+      <pre class="prettyprint linenums">
+	&lt;p class="muted"&gt;Minor information or informal explanation.&lt;/p&gt;
+	&lt;p class="text-warning"&gt;Warning information that users have to take a notice when using products.&lt;/p&gt;
+	&lt;p class="text-error"&gt;information that users may face to when using products.&lt;/p&gt;
+	&lt;p class="text-info"&gt;Aeneaation that is important such as new feature, version information...&lt;/p&gt;
+	&lt;p class="text-success"&gt;Archievement information that need to be highlight..&lt;/p&gt;
+	</pre>
+       </section>
+
+       <section id="S4">
+        <div class="page-header">
+          <h1 id="headings">Abbreviations</h1></div>
+         <p>Stylized implemenation of HTML's <code>&lt;abbr&gt;</code> element for abbreviations and acronyms to show the expanded version on hover. Abbreviations with a <code>title</code> attribute have a light dotted bottom border and a help cursor on hover, providing additional context on hover.</p>
+
+          <h2><code>&lt;abbr&gt;</code></h2>
+          <p>For expanded text on long hover of an abbreviation, include the <code>title</code> attribute.</p>
+          <div class="bs-docs-example">
+            <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+          </div>
+          <pre class="prettyprint">&lt;abbr title="attribute"&gt;attr&lt;/abbr&gt;</pre>
+
+          <h2><code>&lt;abbr class="initialism"&gt;</code></h2>
+          <p>Add <code>.initialism</code> to an abbreviation for a slightly smaller font-size.</p>
+          <div class="bs-docs-example">
+            <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> is the best thing since sliced bread.</p>
+          </div>
+          <pre class="prettyprint">&lt;abbr title="HyperText Markup Language" class="initialism"&gt;HTML&lt;/abbr&gt;</pre>
+        </section>
+
+       <section id="S5">
+          <div class="page-header">
+            <h1 id="headings">Addresses</h1>
+          </div>
+         <p>Present contact information for the nearest ancestor or the entire body of work.</p>
+
+          <h2><code>&lt;address&gt;</code></h2>
+          <p>Preserve formatting by ending all lines with <code>&lt;br&gt;</code>.</p>
+          <div class="bs-docs-example">
+            <address>
+              <strong>Twitter, Inc.</strong><br>
+              795 Folsom Ave, Suite 600<br>
+              San Francisco, CA 94107<br>
+              <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+            <address>
+              <strong>Full Name</strong><br>
+              <a href="mailto:#">first.last@gmail.com</a>
+            </address>
+          </div>
+	<pre class="prettyprint linenums">
+	&lt;address&gt;
+  	&lt;strong&gt;Twitter, Inc.&lt;/strong&gt;&lt;br&gt;
+  	795 Folsom Ave, Suite 600&lt;br&gt;
+  	San Francisco, CA 94107&lt;br&gt;
+  	&lt;abbr title="Phone"&gt;P:&lt;/abbr&gt; (123) 456-7890
+	&lt;/address&gt;
+
+	&lt;address&gt;
+  	&lt;strong&gt;Full Name&lt;/strong&gt;&lt;br&gt;
+  	&lt;a href="mailto:#"&gt;first.last@gmail.com&lt;/a&gt;
+	&lt;/address&gt;</pre>
+	</section>
+
+       <section id="S6">
+          <div class="page-header">
+            <h1>Blockquotes</h1>
+          </div>
+      
+          <p>For quoting blocks of content from another source within your document.</p>
+
+          <h2>Default blockquote</h2>
+          <p>Wrap <code>&lt;blockquote&gt;</code> around any <abbr title="HyperText Markup Language">HTML</abbr> as the quote. For straight quotes we recommend a <code>&lt;p&gt;</code>.</p>
+          <div class="bs-docs-example">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            </blockquote>
+          </div>
+<pre class="prettyprint linenums">
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+&lt;/blockquote&gt;
+</pre>
+
+          <h2>Blockquote options</h2>
+          <p>Style and content changes for simple variations on a standard blockquote.</p>
+
+          <h2>Naming a source</h2>
+          <p>Add <code>&lt;small&gt;</code> tag for identifying the source. Wrap the name of the source work in <code>&lt;cite&gt;</code>.</p>
+          <div class="bs-docs-example">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+            </blockquote>
+          </div>
+<pre class="prettyprint linenums">
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+  &lt;small&gt;Someone famous &lt;cite title="Source Title"&gt;Source Title&lt;/cite&gt;&lt;/small&gt;
+&lt;/blockquote&gt;
+</pre>
+
+          <h2>Alternate displays</h2>
+          <p>Use <code>.pull-right</code> for a floated, right-aligned blockquote.</p>
+          <div class="bs-docs-example" style="overflow: hidden;">
+            <blockquote class="pull-right">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+            </blockquote>
+          </div>
+<pre class="prettyprint linenums">
+&lt;blockquote class="pull-right"&gt;
+  ...
+&lt;/blockquote&gt;
+</pre>
+
+       </section>
+
+        <section id="S7">
+          <div class="page-header">
+            <h1>Lists</h1>
+          </div>
+       <h2>Unordered</h2>
+          <p>A list of items in which the order does <em>not</em> explicitly matter.</p>
+          <div class="bs-docs-example">
+            <ul>
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Consectetur adipiscing elit</li>
+              <li>Integer molestie lorem at massa</li>
+              <li>Facilisis in pretium nisl aliquet</li>
+              <li>Nulla volutpat aliquam velit
+                <ul>
+                  <li>Phasellus iaculis neque</li>
+                  <li>Purus sodales ultricies</li>
+                  <li>Vestibulum laoreet porttitor sem</li>
+                  <li>Ac tristique libero volutpat at</li>
+                </ul>
+              </li>
+              <li>Faucibus porta lacus fringilla vel</li>
+              <li>Aenean sit amet erat nunc</li>
+              <li>Eget porttitor lorem</li>
+            </ul>
+          </div>
+<pre class="prettyprint linenums">
+&lt;ul&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+          <h2>Ordered</h2>
+          <p>A list of items in which the order <em>does</em> explicitly matter.</p>
+          <div class="bs-docs-example">
+            <ol>
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Consectetur adipiscing elit</li>
+              <li>Integer molestie lorem at massa</li>
+              <li>Facilisis in pretium nisl aliquet</li>
+              <li>Nulla volutpat aliquam velit</li>
+              <li>Faucibus porta lacus fringilla vel</li>
+              <li>Aenean sit amet erat nunc</li>
+              <li>Eget porttitor lorem</li>
+            </ol>
+          </div>
+<pre class="prettyprint linenums">
+&lt;ol&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+
+        <h2>Unstyled</h2>
+        <p>A list of items with no <code>list-style</code> or additional left padding.</p>
+        <div class="bs-docs-example">
+          <ul class="unstyled">
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipiscing elit</li>
+            <li>Integer molestie lorem at massa</li>
+            <li>Facilisis in pretium nisl aliquet</li>
+            <li>Nulla volutpat aliquam velit
+              <ul>
+                <li>Phasellus iaculis neque</li>
+                <li>Purus sodales ultricies</li>
+                <li>Vestibulum laoreet porttitor sem</li>
+                <li>Ac tristique libero volutpat at</li>
+              </ul>
+            </li>
+            <li>Faucibus porta lacus fringilla vel</li>
+            <li>Aenean sit amet erat nunc</li>
+            <li>Eget porttitor lorem</li>
+          </ul>
+        </div>
+<pre class="prettyprint linenums">
+&lt;ul class="unstyled"&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+        <h2>Description</h2>
+        <p>A list of terms with their associated descriptions.</p>
+        <div class="bs-docs-example">
+          <dl>
+            <dt>Description lists</dt>
+            <dd>A description list is perfect for defining terms.</dd>
+            <dt>Euismod</dt>
+            <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+            <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+            <dt>Malesuada porta</dt>
+            <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+          </dl>
+        </div>
+<pre class="prettyprint linenums">
+&lt;dl&gt;
+  &lt;dt&gt;...&lt;/dt&gt;
+  &lt;dd&gt;...&lt;/dd&gt;
+&lt;/dl&gt;
+</pre>
+
+        <h2>Horizontal description</h2>
+        <p>Make terms and descriptions in <code>&lt;dl&gt;</code> line up side-by-side.</p>
+        <div class="bs-docs-example">
+          <dl class="dl-horizontal">
+            <dt>Description lists</dt>
+            <dd>A description list is perfect for defining terms.</dd>
+            <dt>Euismod</dt>
+            <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+            <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+            <dt>Malesuada porta</dt>
+            <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+            <dt>Felis euismod semper eget lacinia</dt>
+            <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+          </dl>
+        </div>
+<pre class="prettyprint linenums">
+&lt;dl class="dl-horizontal"&gt;
+  &lt;dt&gt;...&lt;/dt&gt;
+  &lt;dd&gt;...&lt;/dd&gt;
+&lt;/dl&gt;
+</pre>
+        <p>
+          <span class="label label-info">Heads up!</span>
+          Horizontal description lists will truncate terms that are too long to fit in the left column fix <code>text-overflow</code>. In narrower viewports, they will change to the default stacked layout.
+        </p>
+        </section>
+       <section id="S8">
+          <div class="page-header">
+            <h1>Code</h1>
+          </div>
+          <h2>Inline</h2>
+          <p>Wrap inline snippets of code with <code>&lt;code&gt;</code>.</p>
+<div class="bs-docs-example">
+  For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+</div>
+<pre class="prettyprint linenums">
+For example, &lt;code&gt;&lt;section&gt;&lt;/code&gt; should be wrapped as inline.
+</pre>
+
+          <h2>Basic block</h2>
+          <p>Use <code>&lt;pre&gt;</code> for multiple lines of code. Be sure to escape any angle brackets in the code for proper rendering.</p>
+<div class="bs-docs-example">
+  <pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+</div>
+<pre class="prettyprint linenums" style="margin-bottom: 9px;">
+&lt;pre&gt;
+  &amp;lt;p&amp;gt;Sample text here...&amp;lt;/p&amp;gt;
+&lt;/pre&gt;
+</pre>
+          <p><span class="label label-info">Heads up!</span> Be sure to keep code within <code>&lt;pre&gt;</code> tags as close to the left as possible; it will render all tabs.</p>
+          <p>You may optionally add the <code>.pre-scrollable</code> class which will set a max-height of 350px and provide a y-axis scrollbar.</p>
+	</section>
+      </div>
+    </div>
+<hr>
+    <footer>
+        <p><font size="-1"><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></font></p>
+      </footer>
+
+  </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+
+  
+
+</body></html>
