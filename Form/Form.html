@@ -83,30 +83,31 @@
           <div class="page-header">
             <h1> Default Style</h1>
           </div>
-           <p>Individual form controls receive styling, but without any required base class on the <code>&lt;form&gt;</code> or large changes in markup. Results in stacked, left-aligned labels on top of form controls.</p>
+           <p>With the default <code>&lt;form&gt;</code> style, results in stacked, left-aligned labels on top of form controls.</p>
           <form class="bs-docs-example">
             <legend>Legend</legend>
             <label>Label name</label>
-            <input type="text" placeholder="Type something…">
+            <input type="text" placeholder="Type something...">
             <span class="help-block">Example block-level help text here.</span>
             <label class="checkbox">
               <input type="checkbox"> Check me out
             </label>
             <button type="submit" class="btn">Submit</button>
           </form>
-<pre class="prettyprint linenums">
-&lt;form&gt;
-  &lt;legend&gt;Legend&lt;/legend&gt;
-  &lt;label&gt;Label name&lt;/label&gt;
-  &lt;input type="text" placeholder="Type something…"&gt;
-  &lt;span class="help-block"&gt;Example block-level help text here.&lt;/span&gt;
-  &lt;label class="checkbox"&gt;
-    &lt;input type="checkbox"&gt; Check me out
-  &lt;/label&gt;
-  &lt;button type="submit" class="btn"&gt;Submit&lt;/button&gt;
-&lt;/form&gt;
-</pre>
+	<pre class="prettyprint linenums">
+	&lt;form&gt;
+ 	 &lt;legend&gt;Legend&lt;/legend&gt;
+ 	 &lt;label&gt;Label name&lt;/label&gt;
+  	&lt;input type="text" placeholder="Type something…"&gt;
+  	&lt;span class="help-block"&gt;Example block-level help text here.&lt;/span&gt;
+  	&lt;label class="checkbox"&gt;
+    	&lt;input type="checkbox"&gt; Check me out
+  	&lt;/label&gt;
+  	&lt;button type="submit" class="btn"&gt;Submit&lt;/button&gt;
+	&lt;/form&gt;
+	</pre>
       </p>
+      <p>The default style is simple. For specific cases, there are optional layouts.</p>
         </section>
 
         <!-- Body Copy ================================================== -->
@@ -119,15 +120,23 @@
           <h2>Search form</h2>
           <p>Add <code>.form-search</code> to the form and <code>.search-query</code> to the <code>&lt;input&gt;</code> for an extra-rounded text input.</p>
           <form class="bs-docs-example form-search">
-            <input class="input-medium search-query" type="text">
-            <button type="submit" class="btn">Search</button>
+             <form class="form-search">
+    <div class="input-append">
+    <input type="text" class="span2 search-query">
+    <button type="submit" class="btn">Search</button>
+    </div>
+      </form>
           </form>
-	<pre class="prettyprint linenums">
+
+       	<pre class="prettyprint linenums">
 	&lt;form class="form-search"&gt;
- 	 &lt;input type="text" class="input-medium search-query"&gt;
+	&lt;div class="input-append">
+ 	 &lt;input type="text" class="span2 search-query"&gt;
  	 &lt;button type="submit" class="btn"&gt;Search&lt;/button&gt;
+	&lt;/div&gt;
 	&lt;/form&gt;
 	</pre>
+	Search form style is good choice for simple search function.
 	<h2>Inline form</h3>
           <p>Add <code>.form-inline</code> for left-aligned labels and inline-block controls for a compact layout.</p>
           <form class="bs-docs-example form-inline">
@@ -138,8 +147,8 @@
             </label>
             <button type="submit" class="btn">Sign in</button>
           </form>
-<pre class="prettyprint linenums">
-&lt;form class="form-inline"&gt;
+    <pre class="prettyprint linenums">
+   &lt;form class="form-inline"&gt;
   &lt;input type="text" class="input-small" placeholder="Email"&gt;
   &lt;input type="password" class="input-small" placeholder="Password"&gt;
   &lt;label class="checkbox"&gt;
@@ -148,7 +157,7 @@
   &lt;button type="submit" class="btn"&gt;Sign in&lt;/button&gt;
 &lt;/form&gt;
 </pre>
-
+<p>The inline form is suitable with simple function that are expected to display in one line to save space such as login, newsletter...</p>
           <h2>Horizontal form</h2>
           <p>Right align labels and float them to the left to make them appear on the same line as controls. Requires the most markup changes from a default form:</p>
           <ul>
@@ -204,7 +213,7 @@
   &lt;/div&gt;
 &lt;/form&gt;
 </pre>
-
+With horizontal form, all form elements are displayed in well order.
         </section>
 
         <section id="S3">
@@ -214,7 +223,7 @@
         <p>Examples of standard form controls supported in an example form layout.</p>
 
           <h2>Inputs</h2>
-          <p>Most common form control, text-based input fields. Includes support for all HTML5 types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.</p>
+          <p>Most common form control, text-based input fields. Includes support for all HTML5 types: <strong>text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel,</strong> and <strong>color.</strong></p>
           <p>Requires the use of a specified <code>type</code> at all times.</p>
           <form class="bs-docs-example form-inline">
             <input type="text" placeholder="Text input">
@@ -357,9 +366,6 @@
 	&lt;input class="input-xlarge" type="text" placeholder=".input-xlarge"&gt;
 	&lt;input class="input-xxlarge" type="text" placeholder=".input-xxlarge"&gt;
 	</pre>
-          <p>
-            <span class="label label-info">Heads up!</span> In future versions, we'll be altering the use of these relative input classes to match our button sizes. For example, <code>.input-large</code> will increase the padding and font-size of an input.
-          </p>
 
           <h3>Grid sizing</h3>
           <p>Use <code>.span1</code> to <code>.span12</code> for inputs that match the same sizes of the grid columns.</p>
