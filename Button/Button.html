@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Button UXP Pattern Website</title>
+    <title>Button-UXP Pattern Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -83,46 +83,177 @@
           <div class="page-header">
             <h1> Default Button</h1>
           </div>
-          <p>Updating...</p>
-      </p>
-        </section>
+        <p>Button styles can be applied to anything with the <code>.btn</code> class applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements for the best rendering.</p>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Button</th>
+                <th>class=""</th>
+                <th>Description</th>
+                <th>Apply For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn">Default</button></td>
+                <td><code>btn</code></td>
+                <td>Standard gray button with gradient</td>
+                <td>Normal action buttons such as Add New, Edit, Delete...</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-primary">Primary</button></td>
+                <td><code>btn btn-primary</code></td>
+                <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
+                <td>Primary action button expected to do such as Save, Ok,  Accept...</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-info">Info</button></td>
+                <td><code>btn btn-info</code></td>
+                <td>Used as an alternative to the default styles</td>
+                <td>Buttons on information page or pop-up such as Ok, View details...</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-success">Success</button></td>
+                <td><code>btn btn-success</code></td>
+                <td>Indicates a successful or positive action</td>
+                <td>Buttons on successful information page or pop-up such as Ok, Share...</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-warning">Warning</button></td>
+                <td><code>btn btn-warning</code></td>
+                <td>Indicates caution should be taken with this action</td>
+		<td>Button on warning page or pop-up such as Ok, More details... </td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-danger">Danger</button></td>
+                <td><code>btn btn-danger</code></td>
+                <td>Indicates a dangerous or potentially negative action</td>
+                <td>Button on error page or pop-up such as Ok, Help, View details... </td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-inverse">Inverse</button></td>
+                <td><code>btn btn-inverse</code></td>
+                <td>Alternate dark gray button, not tied to a semantic action or use</td>
+                <td>In case inverse color is applied for a page or pop-up, inverse buttons can be applied correspondingly </td>
+              </tr>
+             </tbody>
+          </table>
+         </section>
 
-        <!-- Body Copy ================================================== -->
+        <!-- Button Size ================================================== -->
         <section id="S2">
            <div class="page-header">
             <h1>Button Size</h1>
           </div>
-         <p>Updating...</p>
+         <p>Fancy larger or smaller buttons? Add <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code> for additional sizes.</p>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Button</th>
+                <th>class=""</th>
+                <th>Description</th>
+                <th>Apply For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn btn-large">Large</button></td>
+                <td><code>btn btn-large</code></td>
+                <td>Font size: 15px</td>
+                <td>Action buttons that expected to attrach attention such as Join with Us, View detail for hot update, advertises...</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn">Default</button></td>
+                <td><code>btn</code></td>
+                <td>Font size: 13px<br>Line-height: 18px</td>
+                <td>Default button for all actions in page or pop-up.</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-small">Small</button></td>
+                <td><code>btn btn-small</code></td>
+                <td>Font size: 11px<br>Line-height: 16px</td>
+                <td>A function may include some sub-functions. With sub-function in form, small buttons can be used.</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-mini">Mini</button></td>
+                 <td><code>btn btn-small</code></td>
+                <td>Font size: 11px<br>Line-height: 14px</td>
+                <td>Hover reveal actions, repeated actions in a table</td>
+              </tr>
+             </tbody>
+          </table>    
+	<pre class="prettyprint linenums">
+	&lt;p&gt;
+	  &lt;button class="btn btn-large" type="button"&gt;Large&lt;/button&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+	  &lt;button class="btn" type="button"&gt;Default&lt;/button&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+	  &lt;button class="btn btn-small" type="button"&gt;Small&lt;/button&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+ 	 &lt;button class="btn btn-mini" type="button"&gt;Mini&lt;/button&gt;
+	&lt;/p&gt;
+	</pre>
+          <p>Create block level buttons&mdash;those that span the full width of a parent&mdash; by adding <code>.btn-block</code>.</p>
+          <div class="bs-docs-example">
+            <div class="well" style="max-width: 400px; margin: 0 auto 10px;">
+              <button type="button" class="btn btn-large btn-block btn-primary">Block level button</button>
+              <button type="button" class="btn btn-large btn-block">Block level button</button>
+            </div>
+          </div>
+<pre class="prettyprint linenums">
+&lt;button class="btn btn-large btn-block btn-primary" type="button"&gt;Block level button&lt;/button&gt;
+&lt;button class="btn btn-large btn-block" type="button"&gt;Block level button&lt;/button&gt;
+</pre>
+<p>Depending on special goals, the block level button can be used to draw user attention to do specific action.</p>
         </section>
 
         <section id="S3">
           <div class="page-header">
             <h1>Disabled state</h1>
           </div>
-         <p>Updating...</p>
+	<p>Make buttons look unclickable by fading them back 50%. </p>
+	<p>The disabled state can be used in case some action buttons are not available. E.g the Next button is disabled until the current input form is completed.</p>
+          <h2>Anchor element</h2>
+          <p>Add the <code>.disabled</code> class to <code>&lt;a&gt;</code> buttons.</p>
+          <p class="bs-docs-example">
+            <a href="#" class="btn btn-large disabled">Link</a>
+          </p>
+	<pre class="prettyprint linenums">&lt;a href="#" class="btn btn-large disabled"&gt;Link&lt;/a&gt;</pre>
+          <h2>Button element</h2>
+          <p>Add the <code>disabled</code> attribute to <code>&lt;button&gt;</code> buttons.</p>
+          <p class="bs-docs-example">
+            <button type="button" class="btn btn-large" disabled>Button</button>
+          </p>
+	<pre class="prettyprint linenums">&lt;button type="button" class="btn btn-large" disabled&gt;Button&lt;/button&gt;</pre>
         </section>
 
        <section id="S4">
         <div class="page-header">
           <h1 id="headings">One class, multiple tags</h1></div>
-         <p>Updating...</p>
-        </section>
+          <p>Use the <code>.btn</code> class on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
+          <form class="bs-docs-example">
+            <a class="btn" href="">Link</a>
+            <button class="btn" type="submit">Button</button>
+            <input class="btn" type="button" value="Input">
+            <input class="btn" type="submit" value="Submit">
+          </form>
+	<pre class="prettyprint linenums">
+	&lt;a class="btn" href=""&gt;Link&lt;/a&gt;
+	&lt;button class="btn" type="submit"&gt;Button&lt;/button&gt;
+	&lt;input class="btn" type="button" value="Input"&gt;
+	&lt;input class="btn" type="submit" value="Submit"&gt;
+	</pre>
+          <p>As a best practice, try to match the element for your context to ensure matching cross-browser rendering. If you have an <code>input</code>, use an <code>&lt;input type="submit"&gt;</code> for your button.</p>
 
-       <section id="S5">
-          <div class="page-header">
-            <h1 id="headings">Form control states</h1>
-          </div>
-         <p>Updating...</p>
+       
         </section>
-     
-    </div>
-<hr>
+	     <hr>
     <footer>
         <p><font size="-1"><center>&copy; eXo Platform 2012<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></font></p>
       </footer>
-
-  </div>
-
 
     <!-- Le javascript
     ================================================== -->
