@@ -4199,7 +4199,7 @@ input[type="submit"].btn.btn-mini {
   font-size: 20px;
   font-weight: 200;
   color: #777777;
-  text-shadow: 0 1px 0 #ffffff;
+/*  text-shadow: 0 1px 0 #ffffff;*/
 }
 
 .navbar .brand:hover {
