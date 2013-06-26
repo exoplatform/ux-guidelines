@@ -5,12 +5,14 @@ UXP WEBSITE DEMO
 GOAL: 
 - To expose few UXP pattern to everyone
 - To create a "knowledge" database for UXP stuff based in a first time on our UXP Pattern.
+- To customize UXP pattern website based on Bootstrap with Platform 4 Style.
 
 ROADMAP:
 - Make the HomePage clearer and more beautiful
 - Adapt HTML of patterns to make them very clear and easy to read
 - Adapt pattern to directly use Twitter Bootstrap component (for exemple, for the pagination or for modal errors...)
 - Continue to export other patterns.
+- Customize the UXP pattern website following Platform 4 Style
 
 A repository named uxp-patterns-website is used to keep track all the work.
 
@@ -22,6 +24,7 @@ DONE:
 PLAN:
 - Update and improve the website based on feedbacks
 - Continue to compose the other pattern.
+- Update overall the UXP pattern website following Platform 4 Style.
 
 HOW TO DOWNLOAD:
 - Github HTTP: https://github.com/exoplatform/uxp-patterns-website.git
