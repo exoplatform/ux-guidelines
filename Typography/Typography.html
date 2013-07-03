@@ -88,20 +88,23 @@
           <div class="page-header">
             <h1>Headings</h1>
           </div>
-          <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available. Besides, the cover title or page title can be defined by large font size</p>
+          <p>Typography is about the typefaces such as font style, font size, color and the space around and through them to create a whole design.<br>
+Good typography makes good design for a application. Each typeface has specific purpose in use that help to recognize the role or the importance of a specific content.<br>
+Each application has general typography commonly in use to show its own style and also obtain the consistency and professionalism. Therefore, the typography should be applied to overall application.<br>
+All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are available. Besides, the cover title or page title can be defined by large font size</p>
           <div class="bs-docs-example">
             <h1>h1. Heading 1</h1>
             <h2>h2. Heading 2</h2>
             <h3>h3. Heading 3</h3>
             <h4>h4. Heading 4</h4>
             <h5>h5. Heading 5</h5>
-            <h6>h6. Heading 6</h6>
           </div>
           <div class="bs-docs-example">
             <div class="hero-unit"><h1>Cover Title</h1>
           </div>
           </div>
-<p>All headings are defined in <b>bootstrap.css</b>. The main difference in details:
+<p>All headings are defined in <b>bootstrap.css</b> that customized bt <b>plf4.css</b>. The main difference in details:
+
 <table class="table table-bordered table-striped">
          <thead>
             <tr>
@@ -130,36 +133,116 @@
             <tr>
                <td>h3</td>
                <td>24px</td>
-               <td>Sub important subject</td>
+               <td>Sub main important subject</td>
             </tr>
             <tr>
                <td>h4</td>
                <td>18px</td>
-               <td>Main content heading of a sub important subject</td>
+               <td>Main heading of sub important subject</td>
             </tr>
             <tr>
                <td>h5</td>
                <td>14px</td>
-               <td>Sub of content heading of a sub import subject </td>
+               <td>Sub content heading of a sub import subject</td>
             </tr>
-            <tr>
-               <td>h6</td>
-               <td>12px</td>
-               <td>Minor heading notices</td>
-            </tr>
+           
          </tbody>
       </table>
-      <p>The header tags are important to SEO because the main content of a heading are consisdered as keyterm for search engine. There are some notices:
+      <p>The header tags are important to SEO because the main content of a heading are considered as key term for search engine. There are some notices:
       <ul>
       <li>Use and apply correct header tags.</li>
       <li>Never jump from h1 to h3, h2 to h4.</li>
-      <li>No need to use all h1...h6 in a page.</li>
+      <li>No need to use all h1...h5 in a page.</li>
       <li>Use only 1 Header cover.</li>
       <li>Use only 1 h1 in case there is no heading cover with bigger size.</li>
       <li>Concise content for heading title to help decide the keyterm easily.</li>
 
       </ul>
       </p>
+
+<p>In special case the font size can be smaller depending its purpose:</p>
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Font Size</th>
+               <th>Apply For</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><code>13px</code></td>
+               <td>Default font size for body copy, default menu, default button.</td>
+            </tr>
+            <tr>
+               <td><code>12px</code></td>
+               <td>Minor content notice, specific purpose in use.</td>
+            </tr>
+            <tr>
+               <td><code>11px</code></td>
+               <td>Mini text content, special purpose in use</td>
+            </tr>           
+         </tbody>
+      </table>
+
+<table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Font Color</th>
+               <th>Title</th>
+               <th>Apply For</th>
+
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><h1><font color="#3333333">#333333</font></h1></td>
+               <td>Dark Gray</td>
+               <td>Default color for all title, text, text input, label</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#808080">#808080</font></h1></td>
+               <td>Medium Gray</td>
+               <td>Navigation text color, special purpose in use</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#999999">#999999</font></h1></td>
+               <td>Light Gray</td>
+               <td>Default gray color for small text, sub title, text field explanation</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#2F5E92">#2F5E92</font></h1></td>
+               <td>Electric Blue</td>
+               <td>Special title, text, hover, press, hyper-link or selected link</td>
+            </tr>
+           </tbody>
+      </table>
+<div class="bs-docs-example">
+<table class="table table-bordered table-striped">
+         <tbody>
+            <tr>
+               <td><h3>Wiki Home</h3></td>
+               <td>Title Blue</td>
+               <td>Helvetica Neue - Bold  - 24px - #2F5E92 - Drop Shadow</td>
+            </tr>
+            <tr>
+               <td><h4>My Draft</h4></td>
+               <td>Title Normal</td>
+               <td>Helvetica Neue - Bold  - 18px - #333333 - Drop Shadow </td>
+            </tr>
+            <tr>
+               <td>Mobile Team Organization</td>
+               <td>Normal</td>
+               <td>Helvetica Neue - Regular  - 13px - #333333</td>
+            </tr>
+            <tr>
+               <td><font color="#999999">Added by <a>Khemais Menzli</a> at Oct 25, 2012 10:11 AM</font></td>
+               <td>Minor</td>
+               <td>Helvetica Neue - Regular  - 12px - #999999 -  #2F5E92</td>
+            </tr>
+           </tbody>
+      </table>
+</div>
+
         </section>
 
         <!-- Body Copy ================================================== -->
@@ -195,10 +278,12 @@
          </tbody>
       </table>
          </p>
+
 	<div class="bs-docs-example">
 	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula</p></div>
 	<pre class="prettyprint"><span class="tag">&lt;p&gt;</span><span class="pln">...</span><span class="tag">&lt;/p&gt;</span></pre>
-	<h2>Lead body copy</h2>
+<p>The other base css, Platform 4 Style is not changed in compare with Bootstrap:</p>	
+<h2>Lead body copy</h2>
 	<p>Make a paragraph stand out by adding<code>.lead</code> This can be used for main contain description or cover description...</p>
 	<div class="bs-docs-example">
 	<p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula</p>
@@ -239,7 +324,7 @@
 
           <p><span class="label label-info">Heads up!</span> Feel free to use <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> in HTML5. <code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
           <h2>Emphasis classes</h2>
-          <p>Convey meaning through color with a handful of emphasis utility classes.</p>	
+          <p>Convey meaning through color with a handful of emphasis utility classes. This css style is not applied in Platform 4. However, it can be resused from Bootrap.</p>	
         <table class="table table-bordered table-striped">
          <thead>
             <tr>
