@@ -72,19 +72,21 @@
    <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row"><div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Default Button</a></li>
+          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Button Style</a></li>
           <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Button Size</a></li>
           <li class=""><a href="#S3"><i class="icon-chevron-right"></i> Disabled state</a></li>
 	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i> One class, multiple tags</a></li>
+  	  <li class=""><a href="#S5"><i class="icon-chevron-right"></i> Button Sample</a></li>
         </ul>
       </div>
       <div class="span9">
         <!-- Headings================================================== -->
         <section id="S1">
           <div class="page-header">
-            <h1> Default Button</h1>
+            <h1> Button Style</h1>
           </div>
         <p>Button styles can be applied to anything with the <code>.btn</code> class applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements for the best rendering.</p>
+<p>Based on Boostrap, there 2 main style of Platform 4.
           <table class="table table-bordered table-striped">
             <thead>
               <tr>
@@ -99,43 +101,13 @@
                 <td><button type="button" class="btn">Default</button></td>
                 <td><code>btn</code></td>
                 <td>Standard gray button with gradient</td>
-                <td>Normal action buttons such as Add New, Edit, Delete...</td>
+                <td>By default, most buttons such as Add New, Edit, Delete, Cancel ...have this style.</td>
               </tr>
               <tr>
                 <td><button type="button" class="btn btn-primary">Primary</button></td>
                 <td><code>btn btn-primary</code></td>
                 <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
-                <td>Primary action button expected to do such as Save, Ok,  Accept...</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-info">Info</button></td>
-                <td><code>btn btn-info</code></td>
-                <td>Used as an alternative to the default styles</td>
-                <td>Buttons on information page or pop-up such as Ok, View details...</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-success">Success</button></td>
-                <td><code>btn btn-success</code></td>
-                <td>Indicates a successful or positive action</td>
-                <td>Buttons on successful information page or pop-up such as Ok, Share...</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-warning">Warning</button></td>
-                <td><code>btn btn-warning</code></td>
-                <td>Indicates caution should be taken with this action</td>
-		<td>Button on warning page or pop-up such as Ok, More details... </td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-danger">Danger</button></td>
-                <td><code>btn btn-danger</code></td>
-                <td>Indicates a dangerous or potentially negative action</td>
-                <td>Button on error page or pop-up such as Ok, Help, View details... </td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-inverse">Inverse</button></td>
-                <td><code>btn btn-inverse</code></td>
-                <td>Alternate dark gray button, not tied to a semantic action or use</td>
-                <td>In case inverse color is applied for a page or pop-up, inverse buttons can be applied correspondingly </td>
+                <td>Primary action button expected to do such as Save, Ok, Accept...They are normally placed at the first position in a row of buttons.</td>
               </tr>
              </tbody>
           </table>
@@ -160,26 +132,26 @@
               <tr>
                 <td><button type="button" class="btn btn-large">Large</button></td>
                 <td><code>btn btn-large</code></td>
-                <td>Font size: 15px</td>
-                <td>Action buttons that expected to attrach attention such as Join with Us, View detail for hot update, advertises...</td>
+                <td>Font size: 14px <br>Button-height: 30px </td>
+                <td>Primary or main actions are expected to do.</td>
               </tr>
               <tr>
                 <td><button type="button" class="btn">Default</button></td>
                 <td><code>btn</code></td>
-                <td>Font size: 13px<br>Line-height: 18px</td>
+                <td>Font size: 13px <br>Button-height: 28px</td>
                 <td>Default button for all actions in page or pop-up.</td>
               </tr>
               <tr>
                 <td><button type="button" class="btn btn-small">Small</button></td>
                 <td><code>btn btn-small</code></td>
-                <td>Font size: 11px<br>Line-height: 16px</td>
-                <td>A function may include some sub-functions. With sub-function in form, small buttons can be used.</td>
+                <td>Font size: 12px<br>Button-height: 26px<br></td>
+                <td>Button for sub-function in page or pop-up.</td>
               </tr>
               <tr>
                 <td><button type="button" class="btn btn-mini">Mini</button></td>
-                 <td><code>btn btn-small</code></td>
-                <td>Font size: 11px<br>Line-height: 14px</td>
-                <td>Hover reveal actions, repeated actions in a table</td>
+                 <td><code>btn btn-mini</code></td>
+                <td>Font size: 11px<br>Button-height: 20px</td>
+                <td>Hover reveal actions, repeated actions in a table.</td>
               </tr>
              </tbody>
           </table>    
@@ -251,6 +223,98 @@
 
        
         </section>
+<section id="S5">
+<div class="page-header">
+          <h1 id="headings">Button Sample</h1></div>
+<p>Based on Bootstrap, there are some button sample that customized by The Platform Team:
+<table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Sample</th>
+                <th>Title</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="actionIcon" data-original-title="Tooltip" rel="tooltip" href="#" data-placement="bottom">
+               <i class="uiIconMiniArrowRight uiIconLightGray"></i>
+	      </a></td>
+               <td>Button with small icon</td>
+                <td>Button Height: 20px</td>
+              </tr>
+              <tr>
+                <td><div class="uiActionWithLabel" style="font-size:12px">
+		<i class="uiIconEditMini uiIconLightGray"></i>
+		 Edit
+	      </div></td>
+                <td>Icon button with label small </td>
+                <td>Button-height: 26px  - Font size: 12px  - Icon size: 14px</td>
+              </tr>
+               <tr>
+                <td><div class="uiActionWithLabel">
+              <i class="uiIconSetting uiIconLightGray"></i>
+             Settings
+            </div></td>
+                <td>Icon button with label default </td>
+                <td>Button-height: 28px  - Font size: 13px  - Icon size: 16px</td>
+              </tr>
+              <tr>
+                <td><div class="uiActionWithLabel">More<i class="uiIconMiniArrowDown uiIconLightGray"  style="font-size:12px"></i></div>
+                <td>Dropdown Select button small </td>
+                <td>Button-height: 26px  - Font size: 12px  - Icon size: 7px</td>
+              </tr>
+  <tr>
+                <td><div class="uiActionWithLabel">More <i class="uiIconArrowDown uiIconLightGray"></i></td>
+                <td>Dropdown Select button default </td>
+                <td>Button-height: 28px  - Font size: 13px  - Icon size: 9px</td>
+              </tr>
+              <tr>
+                <td><div class="btn-group">
+<a class="btn active" data-placement="bottom" rel="tooltip"data-original-title="Admin">
+<i class="uiIconEcmsViewDefault uiIconEcmsViewAdmin"></i></a><a class="btn " data-placement="bottom" rel="tooltip"data-original-title="List">
+<i class="uiIconEcmsViewDefault uiIconEcmsViewList"></i></a><a class="btn " data-placement="bottom" rel="tooltip" data-original-title="Web">
+<i class="uiIconEcmsViewDefault uiIconEcmsViewWeb"></i>
+</a>
+</div></td>
+                <td>Icon button radio </td>
+                <td>Button-height: 26px</td>
+              </tr>
+		<tr>
+                <td><ul class="btn-group">
+<li class="btn active">
+<a>Opt 1</a>
+</li>
+<li class="btn">
+<a>Opt 2</a>
+</li>
+</ul>
+<ul class="fakeContainer btn-group " style="visibility: hidden; position: absolute;"></ul>
+</div></td>
+                   <td>Text button radio </td>
+                <td>Button-height: 26px for font size 12px - 28px for font size 13x </td>
+              </tr>
+	      <tr>
+                <td><div id="UIEditorTabs" class="btn-group pull-left clearfix">
+<button class="btn" onclick="" type="button">
+<i class="uiIconWikiRickText"></i>
+Rich Text
+</button>
+<button class="btn" onclick="" type="button">
+<i class="uiIconWatchPage"></i>
+Preview
+</button>
+<button class="btn" onclick="" type="button">
+<i class="uiIconWikiHelp"></i>
+Help
+</button>
+</div></td>    <td>Group button </td>
+                <td>Button-height: 28px Font size: 13px </td>
+              </tr>					
+             </tbody>
+          </table>    
+
+</section>
 	     <hr>
     <footer>
         <p><font size="-1"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></font></p>
