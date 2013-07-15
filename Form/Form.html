@@ -7,6 +7,28 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+    <script src="../js/iphone-style-checkboxes.js"></script>
+
     <!-- Le styles -->
       <link href="../css/bootstrap.css" rel="stylesheet">
       <link href="../css/bootstrap.min.css" rel="stylesheet"> 
@@ -71,7 +93,7 @@
         <div class="row"><div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
           <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Default Style</a></li>
-          <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Optional layouts</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Special Fields</a></li>
           <li class=""><a href="#S3"><i class="icon-chevron-right"></i> Supported form controls</a></li>
 	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i> Extending form controls</a></li>
           <li class=""><a href="#S5"><i class="icon-chevron-right"></i> Form control states</a></li>
@@ -89,22 +111,29 @@
             <label>Label name</label>
             <input type="text" placeholder="Type something...">
             <span class="help-block">Example block-level help text here.</span>
-            <label class="checkbox">
-              <input type="checkbox"> Check me out
-            </label>
+            <p>
+            <span class="uiCheckbox">
+            <input type="checkbox" class="checkbox"> 
+            <span>Check me out</span>
+            </p>
+            <div>
             <button type="submit" class="btn">Submit</button>
+            </div>
           </form>
 	<pre class="prettyprint linenums">
-	&lt;form&gt;
- 	 &lt;legend&gt;Legend&lt;/legend&gt;
- 	 &lt;label&gt;Label name&lt;/label&gt;
-  	&lt;input type="text" placeholder="Type something…"&gt;
-  	&lt;span class="help-block"&gt;Example block-level help text here.&lt;/span&gt;
-  	&lt;label class="checkbox"&gt;
-    	&lt;input type="checkbox"&gt; Check me out
-  	&lt;/label&gt;
-  	&lt;button type="submit" class="btn"&gt;Submit&lt;/button&gt;
-	&lt;/form&gt;
+&lt;legend&gt;Legend&lt;/legend&gt;
+  &lt;label&gt;Label name&lt;/label&gt;
+   &lt;input type="text" placeholder="Type something…"&gt;
+   &lt;span class="help-block"&gt;Example block-level help text here.&lt;/span&gt;
+   &lt;p&gt;
+  	&lt;span class="uiCheckbox"&gt;
+          &lt;input type="checkbox"&gt; class="checkbox"&gt;
+          &lt;span&gt;Check me out&lt;/span&gt;
+  	&lt;/span&gt;
+   &lt;/p&gt; 
+&lt;div&gt;
+   &lt;button type="submit" class="btn"&gt;Submit&lt;/button&gt;
+&lt;/div&gt;
 	</pre>
       </p>
       <p>The default style is simple. For specific cases, there are optional layouts.</p>
@@ -113,105 +142,118 @@
         <!-- Body Copy ================================================== -->
         <section id="S2">
            <div class="page-header">
-            <h1>Optional layouts</h1>
+            <h1>Special Fields</h1>
           </div>
-         <p>Included with Bootstrap are three optional form layouts for common use cases.</p>
+         <p>Based on Bootstraps, there are some special fields with Platform 4 style</p>
 
-          <h2>Search form</h2>
-          <p>Add <code>.form-search</code> to the form and <code>.search-query</code> to the <code>&lt;input&gt;</code> for an extra-rounded text input.</p>
-          <form class="bs-docs-example form-search">
-             <form class="form-search">
-    <div class="input-append">
-    <input type="text" class="span2 search-query">
-    <button type="submit" class="btn">Search</button>
-    </div>
-      </form>
-          </form>
-
+          <h2>Search Field</h2>
+          <p>Add the <code>&lt;input&gt;</code> inside the class <code>uiSearchInput</code>.
+        
+        <form class="bs-docs-example form-inline">
+        <div class="uiSearchInput">
+	<input id="inputValue" type="text" placeholder="Search">
+	</div>  
+        </form>
+        
        	<pre class="prettyprint linenums">
-	&lt;form class="form-search"&gt;
-	&lt;div class="input-append">
- 	 &lt;input type="text" class="span2 search-query"&gt;
- 	 &lt;button type="submit" class="btn"&gt;Search&lt;/button&gt;
-	&lt;/div&gt;
-	&lt;/form&gt;
-	</pre>
-	Search form style is good choice for simple search function.
-	<h2>Inline form</h3>
-          <p>Add <code>.form-inline</code> for left-aligned labels and inline-block controls for a compact layout.</p>
+&lt;div class="uiSearchInput"&gt;
+  &lt;input type="text" placeholder="Search"&gt;
+&lt;div&gt;</pre>
+	
+	This search tyle is good choice for simple search function.
+
+	<h2>Text Field with Button</h2>
+          <p>Add <code>button</code> and <code>input</code> inside the class <code>input-append</code>.</p>
           <form class="bs-docs-example form-inline">
-            <input type="text" class="input-small" placeholder="Email">
-            <input type="password" class="input-small" placeholder="Password">
-            <label class="checkbox">
-              <input type="checkbox"> Remember me
-            </label>
-            <button type="submit" class="btn">Sign in</button>
+            <div class="input-append">
+	<input type="text">
+	<button class="btn" type="button">Action</button>
+	</div>
           </form>
     <pre class="prettyprint linenums">
-   &lt;form class="form-inline"&gt;
-  &lt;input type="text" class="input-small" placeholder="Email"&gt;
-  &lt;input type="password" class="input-small" placeholder="Password"&gt;
-  &lt;label class="checkbox"&gt;
-    &lt;input type="checkbox"&gt; Remember me
-  &lt;/label&gt;
-  &lt;button type="submit" class="btn"&gt;Sign in&lt;/button&gt;
-&lt;/form&gt;
+ &lt;input class="input-append" &gt;
+    &lt;input type="text"&gt;
+    &lt;button class="btn" type="button"&gt;Action&lt;/button&gt;
 </pre>
 <p>The inline form is suitable with simple function that are expected to display in one line to save space such as login, newsletter...</p>
-          <h2>Horizontal form</h2>
-          <p>Right align labels and float them to the left to make them appear on the same line as controls. Requires the most markup changes from a default form:</p>
-          <ul>
-            <li>Add <code>.form-horizontal</code> to the form</li>
-            <li>Wrap labels and controls in <code>.control-group</code></li>
-            <li>Add <code>.control-label</code> to the label</li>
-            <li>Wrap any associated controls in <code>.controls</code> for proper alignment</li>
-          </ul>
+          <h2>Big Title Text Field</h2>
+          <p>This text field has big size that can be used for special purpose e.g sign in, wiki title...</p>
+
           <form class="bs-docs-example form-horizontal">
-            <legend>Legend</legend>
-            <div class="control-group">
-              <label class="control-label" for="inputEmail">Email</label>
+<div class="controls">          
+  <div class="uiLargeTextField">
+     <div class="input-xxxlarge"> 
+	<input type="text" placeholder="Untitled">
+     </div>
+</div>
+	</div>	
+	</form>
+
+<pre class="prettyprint linenums">
+&lt;div class="controls"&gt;
+ &lt;div class="input-xlarge"&gt;
+      &lt;div class="uiLargeTextField"&gt;
+            &lt;div class="input-xxxlarge"&gt;
+            &lt;input type="text" placeholder="Untitled"&gt;
+            &lt;/div&gt;
+       &lt;/div&gt;
+    &lt;/div&gt; 
+&lt;/div&gt; 
+</pre>
+
+    <form class="bs-docs-example form-horizontal">
               <div class="controls">
-                <input type="text" id="inputEmail" placeholder="Email">
+           <p> <div class="input-xlarge">
+	      <div class="uiLargeTextField">
+                <div class="uiUsername">
+                <input type="text" placeholder="Username">
+		</div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label" for="inputPassword">Password</label>
-              <div class="controls">
-                <input type="password" id="inputPassword" placeholder="Password">
+            </div>  </p>
+          <p>  <div class="input-xlarge">          	
+	      <div class="uiLargeTextField">
+              <div class="uiPassword">       
+                 <input type="password" placeholder="Password">
+		</div>
               </div>
-            </div>
-            <div class="control-group">
-              <div class="controls">
-                <label class="checkbox">
-                  <input type="checkbox"> Remember me
-                </label>
-                <button type="submit" class="btn">Sign in</button>
+            </div></p>
+          <p>
+            <span class="uiCheckbox">
+               <input type="checkbox" class="checkbox">
+                <span>Remember me</span>
+             </span></p>
+            <button type="submit" class="uiLargeButton"">Sign in</button>
               </div>
-            </div>
+            
           </form>
 <pre class="prettyprint linenums">
-&lt;form class="form-horizontal"&gt;
-  &lt;div class="control-group"&gt;
-    &lt;label class="control-label" for="inputEmail"&gt;Email&lt;/label&gt;
-    &lt;div class="controls"&gt;
-      &lt;input type="text" id="inputEmail" placeholder="Email"&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="control-group"&gt;
-    &lt;label class="control-label" for="inputPassword"&gt;Password&lt;/label&gt;
-    &lt;div class="controls"&gt;
-      &lt;input type="password" id="inputPassword" placeholder="Password"&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="control-group"&gt;
-    &lt;div class="controls"&gt;
-      &lt;label class="checkbox"&gt;
-        &lt;input type="checkbox"&gt; Remember me
-      &lt;/label&gt;
-      &lt;button type="submit" class="btn"&gt;Sign in&lt;/button&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/form&gt;
+&lt;div class="controls"&gt;
+&lt;p&gt; 
+ &lt;div class="input-xlarge"&gt;
+      &lt;div class="uiLargeTextField"&gt;
+            &lt;div class="uiUsername"&gt;
+            &lt;input type="text" placeholder="Username"&gt;
+            &lt;/div&gt;
+       &lt;/div&gt;
+    &lt;/div&gt; 
+&lt;/p&gt;   
+&lt;p&gt;  
+  &lt;div class="input-xlarge"&gt;
+      &lt;div class="uiLargeTextField"&gt;
+            &lt;div class="uiPassword"&gt;
+            &lt;input type="password" placeholder="Password"&gt;
+            &lt;/div&gt;
+       &lt;/div&gt;
+    &lt;/div&gt; 
+&lt;/p&gt;  
+&lt;p&gt;
+ &lt;span class="uiCheckbox"&gt;
+      &lt;input type="checkbox"&gt; 
+      &lt;span&gt;Remember me&lt;/span&gt;
+ &lt;/span&gt;
+&lt;/p&gt;
+ &lt;button type="submit" class="btn"&gt;Sign in&lt;/button&gt;
+ &lt;/div&gt;     
 </pre>
 With horizontal form, all form elements are displayed in well order.
         </section>
@@ -244,63 +286,72 @@ With horizontal form, all form elements are displayed in well order.
           <h2>Checkboxes and radios</h2>
           <p>Checkboxes are for selecting one or several options in a list while radios are for selecting one option from many.</p>
           <h3>Default (stacked)</h3>
+
           <form class="bs-docs-example">
-            <label class="checkbox">
-              <input type="checkbox" value="">
-              Option one is this and that&mdash;be sure to include why it's great
-            </label>
+          
+            <span class="uiCheckbox">
+               <input type="checkbox" class="checkbox">
+                <span>Option one is this and that&mdash;be sure to include why it's great</span>
+             </span>
             <br>
-            <label class="radio">
-              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-              Option one is this and that&mdash;be sure to include why it's great
-            </label>
-            <label class="radio">
+            <span class="uiRadio">
+              <input type="radio"checked name="optionsRadios" id="optionsRadios1" value="option1">
+             <span> Option one is this and that&mdash;be sure to include why it's great</span>
+             </span>
+             <span class="uiRadio"> 
               <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-              Option two can be something else and selecting it will deselect option one
-            </label>
+             <span>Option two can be something else and selecting it will deselect option one</span>
+            </span>
           </form>
 <pre class="prettyprint linenums">
-&lt;label class="checkbox"&gt;
-  &lt;input type="checkbox" value=""&gt;
-  Option one is this and that&mdash;be sure to include why it's great
-&lt;/label&gt;
-
-&lt;label class="radio"&gt;
+&lt;span class="uiCheckbox"&gt;
+  &lt;input type="checkbox" class="checkbox"&gt;
+  &lt;span&gt;Option one is this and that&mdash;be sure to include why it's great&lt;/span&gt;
+&lt;/span&gt;
+&lt;br&gt;
+&lt;span class="uiRadio"&gt;
   &lt;input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked&gt;
-  Option one is this and that&mdash;be sure to include why it's great
-&lt;/label&gt;
-&lt;label class="radio"&gt;
+  &lt;span&gt;Option one is this and that&mdash;be sure to include why it's great&lt;span&gt;
+&lt;/span&gt;
+&lt;span class="uiRadio"&gt;
   &lt;input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"&gt;
-  Option two can be something else and selecting it will deselect option one
-&lt;/label&gt;
+  &lt;span&gt;Option two can be something else and selecting it will deselect option one&lt;/span&gt;
+&lt;/span&gt;
 </pre>
+<h2>Switch Radio</h2>
+<p> By using the <code>iphone-style-checkboxes.js</code>that is provided by The Platform Team, there is nice switch radio:
+<form class="bs-docs-example">
+<div class="spaceRole">
+	<input id="rememberme" class="yesno" type="checkbox" data-no="No" data-yes="Yes" value="true" name="rememberme" style="visibility: hidden;" checked="checked" tabindex="3"/>
+	<label class="rememberTxt" for="rememberme">Remember My Login</label>
+</div>
+<script type="text/javascript">
+$("div.spaceRole").click(function()
+{
+  var input = $(this).find("#rememberme");
+  var remembermeOpt = input.attr("value") == "true" ? "false" : "true";
+  input.attr("value", remembermeOpt);
+});
+var yeslabel;
+var nolabel;
+$("div.spaceRole").children('input:checkbox').each(function () {
+	yeslabel = $(this).data("yes");
+	nolabel = $(this).data("no");
+	$(this).iphoneStyle({
+		checkedLabel:yeslabel,
+		uncheckedLabel:nolabel});
+	
+	$(this).change(function()
+	{
+		$(this).closest("div.spaceRole").trigger("click");
+	});
+});
+</script>
+</form>
 
-          <h3>Inline checkboxes</h3>
-          <p>Add the <code>.inline</code> class to a series of checkboxes or radios for controls appear on the same line.</p>
-          <form class="bs-docs-example">
-            <label class="checkbox inline">
-              <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
-            </label>
-            <label class="checkbox inline">
-              <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
-            </label>
-            <label class="checkbox inline">
-              <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
-            </label>
-          </form>
-<pre class="prettyprint linenums">
-&lt;label class="checkbox inline"&gt;
-  &lt;input type="checkbox" id="inlineCheckbox1" value="option1"&gt; 1
-&lt;/label&gt;
-&lt;label class="checkbox inline"&gt;
-  &lt;input type="checkbox" id="inlineCheckbox2" value="option2"&gt; 2
-&lt;/label&gt;
-&lt;label class="checkbox inline"&gt;
-  &lt;input type="checkbox" id="inlineCheckbox3" value="option3"&gt; 3
-&lt;/label&gt;
-</pre>
 
-          <h2>Selects</h2>
+
+<h2>Selects</h2>
           <p>Use the default option or specify a <code>multiple="multiple"</code> to show multiple options at once.</p>
           <form class="bs-docs-example">
             <select>
@@ -580,28 +631,6 @@ With horizontal form, all form elements are displayed in well order.
       </footer>
 
   </div>
-
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="../js/widgets.js"></script>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/prettify.js"></script>
-    <script src="../js/bootstrap-transition.js"></script>
-    <script src="../js/bootstrap-alert.js"></script>
-    <script src="../js/bootstrap-modal.js"></script>
-    <script src="../js/bootstrap-dropdown.js"></script>
-    <script src="../js/bootstrap-scrollspy.js"></script>
-    <script src="../js/bootstrap-tab.js"></script>
-    <script src="../js/bootstrap-tooltip.js"></script>
-    <script src="../js/bootstrap-popover.js"></script>
-    <script src="../js/bootstrap-button.js"></script>
-    <script src="../js/bootstrap-collapse.js"></script>
-    <script src="../js/bootstrap-carousel.js"></script>
-    <script src="../js/bootstrap-typeahead.js"></script>
-    <script src="../js/bootstrap-affix.js"></script>
-    <script src="../js/application-update.js"></script>
 
 
     <!-- Analytics

@@ -4406,12 +4406,12 @@ textarea[disabled] {
   margin: 0;
 }
 .uiSearchInput input[type="text"] {
-  background: #ffffff url(/eXoResources/skin/images/SearchInput/Search.png) no-repeat right -1px;
+  background: #ffffff url(../img/plf4-icons/Search.png) no-repeat right -1px;
   margin: 0;
   padding-right: 24px;
 }
 .uiSearchInput input[type="text"]:hover {
-  background: #ffffff url(/eXoResources/skin/images/SearchInput/Search.png) no-repeat right -28px;
+  background: #ffffff url(../img/plf4-icons/Search.png) no-repeat right -28px;
 }
 /************ uiTreeExplorer ****************/
 .uiTreeExplorer {
@@ -10567,3 +10567,45 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .checkBoxArea .checkboxContainer{width:18px;}
 .checkBoxArea .pull-left.item3+.pull-left{margin-left:0;}
 .checkBoxArea .textLabel{margin-left:20px;}.checkBoxArea .textLabel span{margin-right:5px;}
+
+.uiLargeTextField input{height:33px;width:100%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;margin-bottom:4px;color:#333333;font-size:18px;}
+
+
+.uiUsername input[type="text"] {
+  background: #ffffff url(../img/plf4-icons/username.png) no-repeat left -6px;
+  margin: 0;
+  padding-left: 47px;
+}
+.uiUsername input[type="text"]:hover {
+  background: #ffffff url(../img/plf4-icons/username.png) no-repeat left -47px;
+}
+
+.uiPassword input[type="password"] {
+  background: #ffffff url(../img/plf4-icons/password.png) no-repeat left -6px;
+  margin: 0;
+  padding-left: 47px;
+}
+.uiPassword input[type="password"]:hover {
+  background: #ffffff url(../img/plf4-icons/password.png) no-repeat left -47px;
+}
+
+.uiLargeButton {
+    background-color: #567AB6;
+    background-image: linear-gradient(to bottom, #638ACD, #426393);
+    background-repeat: repeat-x;
+    border: 1px solid #224886;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: white;
+    cursor: pointer;
+    font-family: "Helvetica Neue Bold",Helvetica,Lucida,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 43px;
+    outline: medium none;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0 -2px 0 rgba(23, 33, 37, 0.25);
+    width: 270px;
+}
+g
