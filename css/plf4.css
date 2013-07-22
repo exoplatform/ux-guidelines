@@ -8214,16 +8214,27 @@ table {
   width: 26px;
   height: 26px;
 }
-.avatarMini {
+.avatarXMini {
   width: 20px;
   height: 20px;
 }
-.avatarMini img {
+.avatarXMini img {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   width: 20px;
   height: 20px;
+}
+.avatarMini {
+  width: 16px;
+  height: 16px;
+}
+.avatarMini img {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
 }
 .avatarLargeWithBorder {
   background-color: #f9f9f9;

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Avatar-UXP Pattern Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/docs.css" rel="stylesheet">
+      <link href="../css/plf4.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+	<script src="../js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script><script src="../js/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-146052-10']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+ 	 </head>
+
+  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="brand" href="#">UXP Pattern for GateIn UXP</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li><a href="../Patterns.html">Patterns</a></li>
+              <li><a href="../Components.html">Component</a></li>
+              <li class="active"><a href="../Style.html">Style</a></li>
+              <li><a href="../Javascript.html">Javascript</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Avatar</h1>
+    <p class="lead">Basic CSS for avatar, how to display avatar in different styles?</p></div>
+</header>
+
+ <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="row"><div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Style</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Size</a></li>
+           </ul>
+      </div>
+      <div class="span9">
+        <!-- Headings================================================== -->
+        <section id="S1">
+      <div class="page-header">
+            <h1>Style</h1>
+          </div>
+<p>Based on Bootstrap, there are some PLF 4 avatar styles. In detail:</p>
+	    <h2>Circle Border Avatar</h3>
+          <p>Add class <code>.avatarCircle</code> to <code>&lt;img&gt;</code> element to have circle avatar style.</p>
+          <p>This style is useful in case you want to display a square picture as a circle one for specific goal. E.g: User avatar for the main activity sharing</p>
+
+ 	   <div class="bs-docs-example bs-docs-example-images">
+          <img src="../img/user-default.jpg" class="avatarCircle" alt="User Default Avatar"> <img src="../img/James.png" class="avatarCircle" alt="James"> <img src="../img/space-default.jpg" class="avatarCircle" alt="Space Default Avatar"> <img src="../img/exo_icon.jpg" class="avatarCircle" alt="eXo">
+          </div>
+	<pre class="prettyprint linenums">&lt;img src="..." class="avatarCircle"&gt;</pre>
+        </section>
+  <h2> Rounded Corner Avatar</h3>
+          <p>Add class <code>.avatarMedium</code> to <code>&lt;a&gt;</code> element that includes <code>&lt;img&gt;</code> to have rounded corner avatar style.</p>
+          <p>This style is default one for avatar with different size.</p>
+
+ 	   <div class="bs-docs-example bs-docs-example-images">
+         <a class="avatarMedium"> <img src="../img/user-default.jpg" alt="User Default Avatar"> <img src="../img/James.png" alt="James"> <img src="../img/space-default.jpg" alt="Space Default Avatar"> <img src="../img/exo_icon.jpg" alt="eXo"></a>
+          </div>
+	<pre class="prettyprint linenums">&lt;a="avatarMedium"&gt;&lt;img src="..."&gt;&lt;/a&gt;</pre>
+      
+    <h2> Rounded Corner Avatar With Border</h3>
+    <p>Add class <code>.avatarLargeWithBorder</code> to <code>&lt;img&gt;</code> element to have rounded corner avatar with border style.</p>
+          <p>It is used in some case to make the avatar look more clear and formal.</p>
+	<div class="bs-docs-example bs-docs-example-images">
+         <img src="../img/exo_icon.jpg" class="avatarLargeWithBorder" alt="eXo"> <img src="../img/user-default.jpg" class="avatarLargeWithBorder" alt="User Default Avatar"> <img src="../img/space-default.jpg" class="avatarLargeWithBorder" alt="Space Default Avatar">
+          </div>
+	<pre class="prettyprint linenums">&lt;a="avatarXLarge"&gt;&lt;img src="..."&gt;&lt;/a&gt;</pre>
+    <section id="S2">
+           <div class="page-header">
+ <h1>Size</h1>
+<div>
+<section>
+<table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Sample</th>
+                <th>Title</th>
+                <th>class=""</th>
+                <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> <a class="avatarXLarge"><img src="http://placehold.it/120x120"></a></td>
+                <td>xLarge </td>
+                <td><code>avatarXLarge</code></td>
+                <td>120x120px - radius: 4px-4px-4px-4px</td>
+           </tr>
+              <tr>
+               <td> <a class="avatarLarge"><img src="http://placehold.it/100x100"></a></td>
+                <td>xLarge </td>
+                <td><code>avatarLarge</code></td>
+                <td>100x100px - radius: 4px-4px-4px-4px </td>
+              
+              </tr>
+		<tr>
+                <td><a class="avatarXMedium"><img src="http://placehold.it/75x75"></a></td>
+                <td>xMedium</td>
+                <td><code>avatarXMedium</code></td>
+                <td>75x75px - radius: 3px-3px-3px-3px</td>
+                
+              </tr>
+		<tr>
+                <td><a class="avatarMedium"><img src="http://placehold.it/50x50"></a></td>
+                <td>Medium</td>
+                <td><code>avatarMedium</code></td>
+                <td>50x50px - radius: 3px-3px-3px-3px</td>
+              </tr>
+		<tr>
+                <td><a class="avatarXSmall"><img src="http://placehold.it/36x36"></a></td>
+                <td>xSmall</td>
+                <td><code>avatarXSmall</code></td>
+                <td>36x36px - radius: 2px-2px-2px-2px</td>
+               
+              </tr> 
+		<tr>
+                <td><a class="avatarSmall"><img src="http://placehold.it/26x26"></a></td>
+                <td>Small</td>
+                <td><code>avatarSmall</code></td>
+                <td>26x26px - radius: 2px-2px-2px-2px </td>
+              </tr>
+		<tr>
+                <td><a class="avatarXMini"><img src="http://placehold.it/20x20"></a></td>
+                <td>xMini</td>
+                <td><code>avatarXMini</code></td>
+                <td>20x20px - radius: 2px-2px-2px-2px </td>
+              </tr>
+		<tr>
+                <td><a class="avatarMini"><img src="http://placehold.it/16x16"></a></td>
+                <td>Mini</td>
+                <td><code>avatarMini</code></td>
+                <td>16x16px - radius: 2px-2px-2px-2px</td>
+              </tr>
+             </tbody>
+          </table>
+	<div class="bs-docs-example bs-docs-example-images">
+         <a class="avatarXLarge"> <img src="../img/James.png"></a> <a class="avatarLarge"> <img src="../img/James.png"></a> <a class="avatarXMedium"> <img src="../img/James.png"></a> <a class="avatarMedium"> <img src="../img/James.png"></a> <a class="avatarXSmall"> <img src="../img/James.png"></a> <a class="avatarSmall"> <img src="../img/James.png"></a> <a class="avatarXMini"> <img src="../img/James.png"></a> <a class="avatarMini"> <img src="../img/James.png"></a> 
+          </div>
+  </section>
+     <hr>
+    <footer>
+        <p><font size="-1"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></font></p>
+      </footer>
+  </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+
+  
+
+</body></html>
