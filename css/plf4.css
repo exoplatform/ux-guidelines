@@ -641,7 +641,7 @@ a:hover [class^="uiIcon"],
 [class^="uiIcon"]:hover,
 .uiActionBar [class^="uiIcon"]:hover,
 .uiIconBlue {
-  background-image: url("../img/plf4-icons//uiIconsBlue.png");
+  background-image: url("../img/plf4-icons/uiIconsBlue.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIcon"],
@@ -897,7 +897,7 @@ a:hover .uiIconClose {
 .uiIconGeneralDrive {
   background-position: 0px -100px;
 }
-.uiIconForum,
+.uiIconDiscuss,
 .uiIconUIForms {
   background-position: -20px -100px;
 }
@@ -2475,35 +2475,35 @@ a:hover [class^="uiIcon64x64"] {
 }
 /************** IconLibrary-FolderType-32x32 *************/
 .uiIcon32x32FolderDefault {
-  background-position: 0px -396px;
+  background-position: 0px -364px;
 }
 .uiIcon32x32FolderWebcontentBlue {
-  background-position: -36px -396px;
+  background-position: -36px -364px;
 }
 .uiIcon32x32FolderPrivate {
-  background-position: -72px -396px;
+  background-position: -72px -364px;
 }
 .uiIcon32x32FolderFavorite {
-  background-position: -108px -396px;
+  background-position: -108px -364px;
 }
 .uiIcon32x32FolderDocument {
-  background-position: -144px -396px;
+  background-position: -144px -364px;
 }
 .uiIcon32x32FolderNtUnstruct,
 .uiIcon32x32nt_unstructured {
-  background-position: -180px -396px;
+  background-position: -180px -364px;
 }
 .uiIcon32x32FolderJs {
-  background-position: -216px -396px;
+  background-position: -216px -364px;
 }
 .uiIcon32x32FolderWeb {
-  background-position: -252px -396px;
+  background-position: -252px -364px;
 }
 .uiIcon32x32FolderSound {
-  background-position: -288px -396px;
+  background-position: -288px -364px;
 }
 .uiIcon32x32FolderPublic {
-  background-position: -324px -396px;
+  background-position: -324px -364px;
 }
 .uiIcon32x32FolderGraphic {
   background-position: 0px -432px;
@@ -2516,35 +2516,35 @@ a:hover [class^="uiIcon64x64"] {
 }
 /************** IconLibrary-FolderType-48x48 *************/
 .uiIcon48x48FolderDefault {
-  background-position: 0px -572px;
+  background-position: 0px -524px;
 }
 .uiIcon48x48FolderWebcontentBlue {
-  background-position: -52px -572px;
+  background-position: -52px -524px;
 }
 .uiIcon48x48FolderPrivate {
-  background-position: -104px -572px;
+  background-position: -104px -524px;
 }
 .uiIcon48x48FolderFavorite {
-  background-position: -156px -572px;
+  background-position: -156px -524px;
 }
 .uiIcon48x48FolderDocument {
-  background-position: -208px -572px;
+  background-position: -208px -524px;
 }
 .uiIcon48x48FolderNtUnstruct,
 .uiIcon48x48nt_unstructured {
-  background-position: -260px -572px;
+  background-position: -260px -524px;
 }
 .uiIcon48x48FolderJs {
-  background-position: -312px -572px;
+  background-position: -312px -524px;
 }
 .uiIcon48x48FolderWeb {
-  background-position: -364px -572px;
+  background-position: -364px -524px;
 }
 .uiIcon48x48FolderSound {
-  background-position: -416px -572px;
+  background-position: -416px -524px;
 }
 .uiIcon48x48FolderPublic {
-  background-position: -468px -572px;
+  background-position: -468px -524px;
 }
 .uiIcon48x48FolderGraphic {
   background-position: 0px -624px;
@@ -8676,20 +8676,20 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .iconLinkSmall{background:url("/ecmexplorer/skin/images/Icons/IconSmallLink.png") no-repeat scroll right bottom transparent;height:16px;width:20px;display:block;}
 .iconLockedsmall{background:url("/ecmexplorer/skin/images/Icons/IconSmallLock.png") no-repeat scroll right top transparent;float:left;height:16px;width:20px;}
 .UITaggingForm .dropdown-menu .active>a,.UITaggingForm .dropdown-menu .active>a:hover{color:white;background:#517abe;}
-.dropdown-menu li>.menuItemSelected{background-color:#517ABE;background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;color:white;}.dropdown-menu li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("/eXoWCMResources/skin/images/Icons/uiIconsEcmsWhite.png");}
+.dropdown-menu li>.menuItemSelected{background-color:#517ABE;background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;color:white;}.dropdown-menu li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li>.menuItemSelected{background-color:#F5F5F5;background-image:linear-gradient(to bottom, #ffffff, #e6e6e6);background-repeat:repeat-x;border:1px solid #C7C7C7;border-radius:3px 3px 3px 3px;color:#333333;padding:4px 6px;}.UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
 .UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li>.menuItemSelected{background-color:#517ABE;background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;color:white;}.UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .UIJCRExplorerPortlet .UIJCRExplorer .UIDocumentWorkspace{min-height:auto;}.UIJCRExplorerPortlet .UIJCRExplorer .UIDocumentWorkspace .UIDocumentInfo{min-height:auto;}
 .changeTypeLink{font-weight:normal;cursor:pointer;}.changeTypeLink:hover{text-decoration:underline;}
 
-[class^="uiIconForum"] {
+[class^="uiIconForum"],.uiIconForumDarkGray{
   display: inline-block;
   width: 16px;
   height: 16px;
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("/forum/skin/DefaultSkin/images/Icons/uiIconsForumDarkGray.png");
+  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumDarkGray.png");
   background-repeat: no-repeat;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
@@ -8707,7 +8707,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiIconForumBlue,
 a:hover > [class^="uiIconForum"],
 a:hover [class^="uiIconForum"] {
-  background-image: url("/forum/skin/DefaultSkin/images/Icons/uiIconsForumBlue.png");
+  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumBlue.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconForum"],
@@ -8715,7 +8715,7 @@ a:hover [class^="uiIconForum"] {
 .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconForum"],
 .uiActionBar [class^="uiIconForum"],
 .uiIconForumLightGray {
-  background-image: url("/forum/skin/DefaultSkin/images/Icons/uiIconsForumLightGray.png");
+  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumLightGray.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconForum"],
@@ -8733,7 +8733,7 @@ a:hover [class^="uiIconForum"] {
 .btn-primary [class^="uiIconForum"],
 .btn-primary:hover [class^="uiIconForum"],
 .uiIconForumWhite {
-  background-image: url("/forum/skin/DefaultSkin/images/Icons/uiIconsForumWhite.png");
+  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumWhite.png");
 }
 [class^="uiIconForumColor"] {
   display: inline-block;
@@ -8742,14 +8742,14 @@ a:hover [class^="uiIconForum"] {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-bottom;
-  background-image: url("/forum/skin/DefaultSkin/images/Icons/uiIconsForumColor.png");
+  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumColor.png");
   background-repeat: no-repeat;
 }
 .dropdown > a:hover > [class^="uiIconForumColor"],
 [class^="uiIconForumColor"]:hover,
 a:hover > [class^="uiIconForumColor"],
 i:hover [class^="uiIconForumColor"] {
-  background-image: url("/forum/skin/DefaultSkin/images/Icons/uiIconsForumColor.png");
+  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumColor.png");
 }
 .uiIconForumPending {
   background-position: 0 0;
@@ -9697,11 +9697,11 @@ i:hover [class^="uiIconForumColor"] {
 }
 
 
-[class^="uiIconSoc"]{background-image:url("/social-resources/skin/images/Icons/uiIconsSocDarkGray.png");}
-.uiActionWithLabel:hover>[class^="uiIconSoc"],.actionIcon:hover>[class^="uiIconSoc"],.nav-pills>.active>a>[class^="uiIconSoc"],.nav-list>.active>a>[class^="uiIconSoc"],.navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.dropdown-menu>li>a:hover>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn:hover [class^="uiIconSoc"],a:hover [class^="uiIconSoc"],[class^="uiIconSoc"]:hover,.uiActionBar [class^="uiIconSoc"]:hover,.uiIconSocBlue{background-image:url("/social-resources/skin/images/Icons/uiIconsSocBlue.png");}
-.dropdown-menu>li>a>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconSoc"],.uiDropDownCal li a [class^="uiIconSoc"],.uiActionBar [class^="uiIconSoc"],.uiIconSocLightGray{background-image:url("/social-resources/skin/images/Icons/uiIconsSocLightGray.png");}
-.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn-primary [class^="uiIconSoc"],.btn-primary:hover [class^="uiIconSoc"],.uiDropDownCal a:hover [class^="uiIconSoc"],.uiDropDownCal .active a:hover [class^="uiIconSoc"],.eventAllDay [class^="uiIconSoc"],.eventDayContainer [class^="uiIconSoc"],.uiIconSocWhite{background-image:url("/social-resources/skin/images/Icons/uiIconsSocWhite.png");}
-.activityTimeLine [class^="uiIcon"],.activityTimeLine [class^="uiIcon"]:hover{background-image:url("/social-resources/skin/images/Icons/uiIconsSocWhite.png");}
+[class^="uiIconSoc"],.uiIconSocDarkGray{background-image:url("../img/plf4-icons/social-icons/uiIconsSocDarkGray.png");}
+.uiActionWithLabel:hover>[class^="uiIconSoc"],.actionIcon:hover>[class^="uiIconSoc"],.nav-pills>.active>a>[class^="uiIconSoc"],.nav-list>.active>a>[class^="uiIconSoc"],.navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.dropdown-menu>li>a:hover>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn:hover [class^="uiIconSoc"],a:hover [class^="uiIconSoc"],[class^="uiIconSoc"]:hover,.uiActionBar [class^="uiIconSoc"]:hover,.uiIconSocBlue{background-image:url("../img/plf4-icons/social-icons/uiIconsSocBlue.png");}
+.dropdown-menu>li>a>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconSoc"],.uiDropDownCal li a [class^="uiIconSoc"],.uiActionBar [class^="uiIconSoc"],.uiIconSocLightGray{background-image:url("../img/plf4-icons/social-icons/uiIconsSocLightGray.png");}
+.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn-primary [class^="uiIconSoc"],.btn-primary:hover [class^="uiIconSoc"],.uiDropDownCal a:hover [class^="uiIconSoc"],.uiDropDownCal .active a:hover [class^="uiIconSoc"],.eventAllDay [class^="uiIconSoc"],.eventDayContainer [class^="uiIconSoc"],.uiIconSocWhite{background-image:url("../img/plf4-icons/social-icons/uiIconsSocWhite.png");}
+.activityTimeLine [class^="uiIcon"],.activityTimeLine [class^="uiIcon"]:hover{background-image:url("../img/plf4-icons/social-icons/uiIconsSocWhite.png");}
 .uiIconSocAddFile{background-position:0px 0px;}
 .uiIconSocLastestReply{background-position:-20px 0px;}
 .uiIconSocTotateToRight{background-position:-40px 0px;}
@@ -9999,7 +9999,7 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiWikiMovePageForm .sideBarContent .barContent{margin:10px 0;font-weight:bold;}
 .uiWikiMovePageForm .sideBarContent .sideContent{border:1px solid #e1e1e1;background:#f7f7f7;height:270px;overflow:auto;}
 .uiWikiMovePageForm .uiWikiLocationContainer{margin:10px 0 0;}.uiWikiMovePageForm .uiWikiLocationContainer label{width:122px;padding-top:4px;}
-[class^="uiIconWiki"]{background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiDarkGray.png");}
+[class^="uiIconWiki"],.uiIconWikiDarkGray {background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiDarkGray.png");}
 .actionIcon:hover>i>[class^="uiIconWiki"],.uiActionWithLabel:hover>i>[class^="uiIconWiki"],.nav-pills>.active>a>[class^="uiIconWiki"],.nav-list>.active>a>[class^="uiIconWiki"],.navbar-inverse .nav>.active>a>[class^="uiIconWiki"],.dropdown-menu>li>a:hover>[class^="uiIconWiki"],.dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconWiki"],.btn:hover [class^="uiIconWiki"],a:hover [class^="uiIconWiki"],[class^="uiIconWiki"]:hover,.uiActionBar [class^="uiIconWiki"]:hover,.uiIconWikiBlue{background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiBlue.png");}
 .dropdown-menu>li>a>[class^="uiIconWiki"],.dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconWiki"],.uiDropDownCal li a [class^="uiIconWiki"],.uiActionBar [class^="uiIconWiki"],.uiIconWikiLightGray{background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiLightGray.png");}
 .uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconWiki"],.btn-primary [class^="uiIconWiki"],.btn-primary:hover [class^="uiIconWiki"],.uiDropDownCal a:hover [class^="uiIconWiki"],.uiDropDownCal .active a:hover [class^="uiIconWiki"],.eventAllDay [class^="uiIconWiki"],.eventDayContainer [class^="uiIconWiki"],.uiIconWikiWhite{background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiWhite.png");}
@@ -10137,9 +10137,9 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiSEOForm .formContainer .ResizeSideBar{float:right;width:14px;}
 .uiSEOForm .formContainer .ResizeSideBar .ResizeButton{background:url("/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/ShowLeftContent.gif") no-repeat scroll center center transparent;cursor:pointer;width:14px;display:block;margin:auto;position:static;}
 .uiSEOForm .formContainer .ResizeSideBar .ShowRightContent{background:url("/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/ResizeButton.gif") no-repeat scroll center center transparent;cursor:pointer;height:14px;width:14px;display:block;margin:auto;position:static;}
-[class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsDarkGray.png");}
+[class^="uiIconEcms"],.uiIconEcmsDarkGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsDarkGray.png");}
 .uiActionWithLabel:hover>[class^="uiIconEcms"],.actionIcon:hover>[class^="uiIconEcms"],.nav-pills>.active>a>[class^="uiIconEcms"],.nav-list>.active>a>[class^="uiIconEcms"],.navbar-inverse .nav>.active>a>[class^="uiIconEcms"],.dropdown-menu>li>a:hover>[class^="uiIconEcms"],.dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconEcms"],.btn:hover [class^="uiIconEcms"],a:hover [class^="uiIconEcms"],[class^="uiIconEcms"]:hover,.uiActionBar [class^="uiIconEcms"]:hover,.uiIconEcmsBlue{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
-.dropdown-menu>li>a>[class^="uiIconEcms"],.dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconEcms"],.uiActionBar [class^="uiIconEcms"],.uiIconEcmsLightGrey{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsLightGray.png");}
+.dropdown-menu>li>a>[class^="uiIconEcms"],.dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconEcms"],.uiActionBar [class^="uiIconEcms"],.uiIconEcmsLightGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsLightGray.png");}
 .uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconEcms"],.btn-primary [class^="uiIconEcms"],.btn-primary:hover [class^="uiIconEcms"],.uiDropDownCal a:hover [class^="uiIconEcms"],.uiDropDownCal .active a:hover [class^="uiIconEcms"],.eventAllDay [class^="uiIconEcms"],.eventDayContainer [class^="uiIconEcms"],.uiIconEcmsWhite{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .uiIconEcmsGeneralDrive,.uiIconEcmsDriveManager{background-position:0px 0px;}
 .uiIconEcmsGroupDrive,.uiIconEcms16x16DriveGroup{background-position:-20px 0px;}
@@ -10234,9 +10234,11 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiIconEcmsVote{background-position:-20px -80px;}
 .dropdown-menu>li>a .actionIcon:hover .uiIconEcmsEditDocument,.uiActionBar .actionIcon:hover .uiIconEcmsEditDocument,.dropdown-menu>li>a .uiIconEcmsEditDocument:hover,.uiActionBar .uiIconEcmsEditDocument:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsManageActions,.uiActionBar .actionIcon:hover .uiIconEcmsManageActions,.dropdown-menu>li>a .uiIconEcmsManageActions:hover,.uiActionBar .uiIconEcmsManageActions:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsWatchDocument,.uiActionBar .actionIcon:hover .uiIconEcmsWatchDocument,.dropdown-menu>li>a .uiIconEcmsWatchDocument:hover,.uiActionBar .uiIconEcmsWatchDocument:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsManageCategories,.uiActionBar .actionIcon:hover .uiIconEcmsManageCategories,.dropdown-menu>li>a .uiIconEcmsManageCategories:hover,.uiActionBar .uiIconEcmsManageCategories:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsUpload,.uiActionBar .actionIcon:hover .uiIconEcmsUpload,.dropdown-menu>li>a .uiIconEcmsUpload:hover,.uiActionBar .uiIconEcmsUpload:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsComment,.uiActionBar .actionIcon:hover .uiIconEcmsComment,.dropdown-menu>li>a .uiIconEcmsComment:hover,.uiActionBar .uiIconEcmsComment:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsVote,.uiActionBar .actionIcon:hover .uiIconEcmsVote,.dropdown-menu>li>a .uiIconEcmsVote:hover,.uiActionBar .uiIconEcmsVote:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsAddCategory,.uiActionBar .actionIcon:hover .uiIconEcmsAddCategory,.dropdown-menu>li>a .uiIconEcmsAddCategory:hover,.uiActionBar .uiIconEcmsAddCategory:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsTaggingDocument,.uiActionBar .actionIcon:hover .uiIconEcmsTaggingDocument,.dropdown-menu>li>a .uiIconEcmsTaggingDocument:hover,.uiActionBar .uiIconEcmsTaggingDocument:hover{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
 .uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsEditDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsEditDocument:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageActions,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageActions:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsWatchDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsWatchDocument:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageCategories,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageCategories:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsUpload,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsUpload:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsComment,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsComment:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsVote,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsVote:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsTaggingDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsTaggingDocument:hover{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
-[class^="uiIconEcms24x24"]{background-image:url("/eXoWCMResources/skin/images/Icons/uiIconsEcms24x24DarkGray.png");width:24px;height:24px;line-height:24px;}
-[class^="uiIconEcms24x24"]:hover,.driveLabel:hover [class^="uiIconEcms24x24"],.uiIconEcmsBlue{background-image:url("/eXoWCMResources/skin/images/Icons/uiIconsEcms24x24Blue.png");}
-.uiIconEcms24x24LightGray{background-image:url("/eXoWCMResources/skin/images/Icons/uiIconsEcms24x24LightGray.png");}
+[class^="uiIconEcms24x24"],.uiIconEcms24x24DarkGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24DarkGray.png");width:24px;height:24px;line-height:24px;}
+[class^="uiIconEcms24x24"]:hover,.driveLabel:hover [class^="uiIconEcms24x24"],.uiIconEcms24x24Blue{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24Blue.png");}
+.uiIconEcms24x24LightGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24LightGray.png");}
+
+.uiIconEcms24x24White{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24White.png");}
 .uiIconEcms24x24DriveGeneral{background-position:0px 0px;}
 .uiIconEcms24x24DriveGroup{background-position:-28px 0px;}
 .uiIconEcms24x24DrivePersonal{background-position:-56px 0px;}
@@ -10293,7 +10295,7 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .edittingToolBarContainer,.edittingContent{display:none;float:right;position:relative;right:0;top:0;width:160px;z-index:1;}.edittingToolBarContainer .edittingToolBar,.edittingContent .edittingToolBar{background:#4f72ac;padding:5px;-webkit-border-radius:3px 3px 0px 0px;-moz-border-radius:3px 3px 0px 0px;border-radius:3px 3px 0px 0px;position:absolute;right:-1px;top:-36px;}.edittingToolBarContainer .edittingToolBar .btn-group .btn,.edittingContent .edittingToolBar .btn-group .btn{padding:3px 5px;border:1px solid #3a5e9a;background:#4f72ac;box-shadow:none;margin-left:-5px;}.edittingToolBarContainer .edittingToolBar .btn-group .btn:hover,.edittingContent .edittingToolBar .btn-group .btn:hover{background-color:#567ab6;background-image:-moz-linear-gradient(top, #638acd, #426393);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#638acd), to(#426393));background-image:-webkit-linear-gradient(top, #638acd, #426393);background-image:-o-linear-gradient(top, #638acd, #426393);background-image:linear-gradient(to bottom, #638acd, #426393);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff638acd', endColorstr='#ff426393', GradientType=0);box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset,0 1px 2px rgba(0, 0, 0, 0.05);}
 .edittingToolBarContainer .edittingToolBar .btn-group>.btn:first-child,.edittingContent .edittingToolBar .btn-group>.btn:first-child{margin-left:0px;}
 .edittingToolBarContainer .edittingToolBar [class^="uiIcon"],.edittingContent .edittingToolBar [class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
-.edittingToolBarContainer .edittingToolBar [class^="uiIconEcms"],.edittingContent .edittingToolBar [class^="uiIconEcms"]{background-image:url("/eXoWCMResources/skin/images/Icons/uiIconsEcmsWhite.png");}
+.edittingToolBarContainer .edittingToolBar [class^="uiIconEcms"],.edittingContent .edittingToolBar [class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .edittingToolBarContainer .edittingToolBar .edittingCurrentState .publishText,.edittingContent .edittingToolBar .edittingCurrentState .publishText,.edittingToolBarContainer .edittingToolBar .edittingCurrentState .draftText,.edittingContent .edittingToolBar .edittingCurrentState .draftText{color:white;margin:3px 10px 0px 3px;font-weight:bold;display:block;}
 .edittingToolBarContainer .edittingToolBar .edittingCurrentState .draftText,.edittingContent .edittingToolBar .edittingCurrentState .draftText{color:#94aed7;}
 .edittingContent .edittingToolBar{-webkit-border-radius:0px 0px 0px 3px;-moz-border-radius:0px 0px 0px 3px;border-radius:0px 0px 0px 3px;top:0px;}
@@ -10319,13 +10321,12 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiTreeList{margin-left:250px;}
 
 
-[class^="uiIconCal"]{margin-top:0;background-image:url("/calendar/skin/DefaultSkin/images/Icons/uiIconsCalLightGray.png");}
-.nav-pills>.active>a>[class^="uiIconCal"],.nav-list>.active>a>[class^="uiIconCal"],.navbar-inverse .nav>.active>a>[class^="uiIconCal"],.dropdown-menu>li>a:hover>[class^="uiIconCal"],.dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn:hover [class^="uiIconCal"],a:hover [class^="uiIconCal"],[class^="uiIconCal"]:hover,.UICalendarPortlet .actionIcon:hover [class^="uiIconCal"],.uiCalendarPortlet .actionIcon:hover [class^="uiIconCal"]{background-image:url("/calendar/skin/DefaultSkin/images/Icons/uiIconsCalBlue.png");}
-.dropdown-menu li a>[class^="uiIconCal"],.dropdown-menu .active a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu a [class^="uiIconCal"],.uiDropDownCal li a [class^="uiIconCal"],.uiDropDownCal .active a [class^="uiIconCal"]{background-image:url("/calendar/skin/DefaultSkin/images/Icons/uiIconsCalLightGray.png");}
-.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn-primary [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.uiDropDownCal>li>a:hover>[class^="uiIconCal"],.uiDropDownCal>.active>a>[class^="uiIconCal"],[class^="uiIconCal"].uiIconWhite,.uiDayView [class^="uiIconCal"],.uiWeekView [class^="uiIconCal"],.uiMonthView [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"]:hover,.uiIconCalWhite{background-image:url("/calendar/skin/DefaultSkin/images/Icons/uiIconsCalWhite.png");}
-.uiEventCategoryManager [class^="uiIcon"]{background-image:url("/eXoResources/skin/images/Icons/uiIconsLightGray.png");}
+[class^="uiIconCal"],.uiIconCalDarkGray{margin-top:0;background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalDarkGray.png");}
+.nav-pills>.active>a>[class^="uiIconCal"],.nav-list>.active>a>[class^="uiIconCal"],.navbar-inverse .nav>.active>a>[class^="uiIconCal"],.dropdown-menu>li>a:hover>[class^="uiIconCal"],.dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn:hover [class^="uiIconCal"],a:hover [class^="uiIconCal"],[class^="uiIconCal"]:hover,.UICalendarPortlet .actionIcon:hover [class^="uiIconCal"],.uiCalendarPortlet .actionIcon:hover [class^="uiIconCal"],.uiIconCalBlue{background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalBlue.png");}
+.dropdown-menu li a>[class^="uiIconCal"],.dropdown-menu .active a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu a [class^="uiIconCal"],.uiDropDownCal li a [class^="uiIconCal"],.uiDropDownCal .active a [class^="uiIconCal"],.uiIconCalLightGray{background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalLightGray.png");}
+.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn-primary [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.uiDropDownCal>li>a:hover>[class^="uiIconCal"],.uiDropDownCal>.active>a>[class^="uiIconCal"],[class^="uiIconCal"].uiIconWhite,.uiDayView [class^="uiIconCal"],.uiWeekView [class^="uiIconCal"],.uiMonthView [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"]:hover,.uiIconCalWhite{background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalWhite.png");}
+.uiEventCategoryManager [class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsLightGray.png");}
 .uiIconCalnullPriority,.uiIconCalnonePriority{display:none;}
-.uiIconCalWatchMini{background-position:0 0;}
 .uiIconCalSettingMini{background-position:-80px -20px;}
 .uiIconCalExportCalendar{background-position:0 0;}
 .uiIconCalImportCalendar{background-position:-20px 0;}
@@ -10333,11 +10334,11 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiIconCalCreateTask{background-position:-60px 0;}
 .uiIconCalAddCalendar{background-position:-80px 0;}
 .uiIconCalRemoteCalendar{background-position:-100px 0;}
-.uiIconCalEventCategory{background-position:-192px 0;}
+.uiIconCalEventCategory{background-position:-200px 0;}
 .uiIconCalInviteUser{background-position:-140px 0;}
 .uiIconCalRejectUser{background-position:-160px 0;}
 .uiIconCalPlus,.uiIconCalSimplePlus{background-position:0 -19px;}
-.uiIconCalRefresh{background-position:-288px 0;}
+.uiIconCalRefresh{background-position:-280px 0;}
 .uiIconCalTaskMini{background-position:-20px -21px;}
 .uiIconCalClockMini{background-position:-40px -21px;}
 .uiIconCalCheckinMini{background-position:-60px -21px;}
@@ -10364,7 +10365,7 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .calendarWorkingWorkspace{padding:20px;}.calendarWorkingWorkspace .uiActionBar{margin:0 0 15px 0;}
 .uiCalNotification{min-width:250px;position:absolute;right:30px;top:124px;z-index:2;}.uiCalNotification .pull-left+.text,.uiCalNotification .title{margin-left:32px;line-height:18px;}
 .uiCalNotification i{width:16px;height:16px;}
-.uiCalNotification .uiIconBell{background-image:url("/calendar/skin/DefaultSkin/images/Icons/icon-bell.png");background-position:0px 0px;}.uiCalNotification .uiIconBell:hover{background-image:url("/calendar/skin/DefaultSkin/images/Icons/icon-bell.png");background-position:0px 0px;}
+.uiCalNotification .uiIconBell{background-image:url("../img/plf4-icons/calendar-icons/icon-bell.png");background-position:0px 0px;}.uiCalNotification .uiIconBell:hover{background-image:url("../img/plf4-icons/calendar-icons/icon-bell.png");background-position:0px 0px;}
 .uiCalNotification .description{color:#808080;}
 .uiCalendars.defaultCalendarTab{margin-top:0;}.uiCalendars.defaultCalendarTab .settingNotice{margin:0 0 10px 0;}
 .uiCalendarViewContainer .table{margin-bottom:0;}
@@ -10619,4 +10620,715 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
     text-shadow: 0 -2px 0 rgba(23, 33, 37, 0.25);
     width: 270px;
 }
-g
+
+[class^="uiIconPLF"],.uiIconPLFDarkGray{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	*margin-right:.3em;
+	line-height:16px;
+	vertical-align:text-top;
+	background-image:url("../img/plf4-icons/uiIconsPLFDarkGray.png");
+	background-repeat:no-repeat
+}
+
+.uiDropdownWithIcon .dropdown-menu>li>a>[class^="uiIconPLF"]{
+	background-image:url("../img/plf4-icons/uiIconsPLFLightGray.png")
+}
+
+a:hover [class^="uiIconPLF"],[class^="uiIconPLF"]:hover,.uiIconPLFBlue{
+	background-image:url("../img/plf4-icons/uiIconsPLFBlue.png")
+}
+
+.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconPLF"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconPLF"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconPLF"],.uiIconPLFWhite{
+	background-image:url("../img/plf4-icons/uiIconsPLFWhite.png")
+}
+
+.uiIconPLFLightGray{
+	background-image:url("../img/plf4-icons/uiIconsPLFLightGray.png")
+}
+
+.uiIconPLFProfile{
+	background-position:0 0
+}
+
+.uiIconPLFActivityStream{
+	background-position:-20px 0
+}
+
+.uiIconPLFMyConnection{
+	background-position:-40px 0
+}
+
+.uiIconPLFDashboard{
+	background-position:-60px 0
+}
+
+.uiIconPLFLogout{
+	background-position:-80px 0
+}
+
+.uiIconPLFEventTask{
+	background-position:-100px 0
+}
+
+.uiIconPLFBlog{
+	background-position:-120px 0
+}
+
+.uiIconPLFCalendar{
+	background-position:-140px 0
+}
+
+.uiIconPLFDocuments{
+	background-position:-160px 0
+}
+
+.uiIconPLFMan{
+	background-position:-180px 0
+}
+
+.uiIconPLFNotifications{
+	background-position:-40px -20px
+}
+
+.uiIconPLFTaskNeeds-action{
+	background-position:-100px -20px
+}
+
+.uiIconPLFTaskIn-process{
+	background-position:-120px -20px
+}
+
+.uiIconPLFTaskDone{
+	background-position:-140px -20px
+}
+.uiIconPLFTaskCanceled{
+	background-position:-160px -20px
+}
+.uiIconPLFEvent{
+	background-position:-80px -20px
+}
+
+.uiIconPLFDiscussion{
+	background-position:0 -40px
+}
+
+[class^="uiIconPLF24x24"]{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	*margin-right:.3em;
+	line-height:24px;
+	vertical-align:middle;
+	background-image:url("../img/plf4-icons/uiIconsPLF24x24White.png");
+	background-repeat:no-repeat
+}
+
+a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
+	background-image:url("../img/plf4-icons/uiIconsPLF24x24White.png")
+}
+
+.UIToolbarContainerLight [class^="uiIconPLF24x24"],.UIToolbarContainerLight a:hover [class^="uiIconPLF24x24"],.UIToolbarContainerLight [class^="uiIconPLF24x24"]:hover{
+	background-image:url("../img/plf4-icons/uiIconsPLF24x24DarkGray.png")
+}
+
+.uiIconPLF24x24Edit{
+	background-position:0 0
+}
+
+.uiIconPLF24x24Setting,.uiIconPLF24x24Setup{
+	background-position:-28px 0
+}
+
+.uiIconPLF24x24Add{
+	background-position:-56px 0
+}
+
+.uiIconPLF24x24Search{
+	background-position:-84px 0
+}
+
+.uiIconPLF24x24Help{
+	background-position:-112px 0
+}
+
+.UIToolbarContainer{
+	position:relative
+}
+
+.UIToolbarContainer .UserInfoPortletTDContainer,.UIToolbarContainer .UIHelpPlatformToolbarPortletTDContainer,.UIToolbarContainer .SearchPortletTDContainer,.UIToolbarContainer .UICreatePlatformToolBarPortletIDTDContainer,.UIToolbarContainer .UISetupPlatformToolBarPortletIDTDContainer,.UIToolbarContainer .AdminToolBarPortletTDContainer{
+	float:right!important
+}
+
+.UIToolbarContainer .uiCreate .uiAction{
+	margin-right:1px;
+	text-align:right
+}
+
+.UIToolbarContainer .uiCreate .uiAction .btn:last-child{
+	margin-right:15px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput{
+	margin-bottom:15px;
+	padding:0 10px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .createName{
+	margin-bottom:10px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput table label{
+	white-space:nowrap
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .btn-group{
+	font-size:13px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .btn-group li>a.selected{
+	background-color:#517abe;
+	background-image:-moz-linear-gradient(top,#628acc,#3763aa);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#628acc),to(#3763aa));
+	background-image:-webkit-linear-gradient(top,#628acc,#3763aa);
+	background-image:-o-linear-gradient(top,#628acc,#3763aa);
+	background-image:linear-gradient(to bottom,#628acc,#3763aa);
+	background-repeat:repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff628acc',endColorstr='#ff3763aa',GradientType=0);
+	color:#fff
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiFormScrollMenu{
+	margin-left:5px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiFormScrollMenu div>span:first-child{
+	display:inline-block;
+	overflow-x:hidden;
+	text-overflow:ellipsis;
+	width:111px;
+	vertical-align:middle;
+	text-align:left
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiFormScrollMenu .scroll-menu .dropdown-menu{
+	width:170px;
+	max-height:362px;
+	overflow:auto
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiFormScrollMenu .scroll-menu .dropdown-menu li a{
+	overflow:hidden;
+	text-overflow:ellipsis
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiForumFilter{
+	margin-left:5px;
+	margin-top:5px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiForumFilter .titleForum{
+	display:inline-block;
+	overflow-x:hidden;
+	text-overflow:ellipsis;
+	width:111px;
+	vertical-align:middle;
+	text-align:left
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiForumFilter .filterMenu>ul{
+	overflow-y:auto;
+	overflow-x:hidden;
+	max-height:440px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiForumFilter .filterMenu .dropdown-menu{
+	width:250px
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiForumFilter .filterMenu .filterInput{
+	margin:10px;
+	width:91%
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiForumFilter .filterMenu .category{
+	background:#f7f7f7;
+	border-bottom:1px solid #cfcfcf;
+	border-top:1px solid #cfcfcf;
+	-webkit-box-shadow:0 -15px 17px #f1f1f1 inset;
+	-moz-box-shadow:0 -15px 17px #f1f1f1 inset;
+	box-shadow:0 -15px 17px #f1f1f1 inset;
+	color:#333;
+	font-weight:bold;
+	padding:5px 10px;
+	text-overflow:ellipsis;
+	overflow-x:hidden
+}
+
+.UIToolbarContainer .uiCreate .uiFormInput .uiForumFilter .filterMenu .forum li a{
+	text-overflow:ellipsis;
+	overflow-x:hidden
+}
+
+.UIToolbarContainer .NormalContainerBlock .ToolbarContainer{
+	background:none;
+	height:41px;
+	border:none
+}
+
+.UIToolbarContainer .NormalContainerBlock .ToolbarContainer .TRContainer{
+	height:41px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon{
+	background:none;
+	padding-left:2px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon .uiDropdownWithIcon{
+	background:none
+}
+
+.UIToolbarContainer .uiDropdownWithIcon>a{
+	padding:0 10px 0 11px;
+	line-height:41px;
+	display:inline-block;
+	color:white;
+	cursor:pointer
+}
+
+.UIToolbarContainer .uiDropdownWithIcon>a>i.uiIconPLF24x24Edit,.UIToolbarContainer .uiDropdownWithIcon>a>i.uiIconPLF24x24Setup{
+	margin-right:5px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon>a:hover,.UIToolbarContainer .uiDropdownWithIcon .uiDropdownWithIcon.open>a{
+	background:none
+}
+
+.UIToolbarContainer .uiDropdownWithIcon>.dropdown-menu{
+	margin-top:8px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon.pull-left>.dropdown-menu{
+	margin-top:8px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon.pull-left>.dropdown-menu:before{
+	content:'';
+	display:inline-block;
+	border-left:7px solid transparent;
+	border-right:7px solid transparent;
+	border-bottom:7px solid #ccc;
+	border-bottom-color:#ccc;
+	position:absolute;
+	top:-7px;
+	left:9px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon.pull-left>.dropdown-menu:after{
+	content:'';
+	display:inline-block;
+	border-left:6px solid transparent;
+	border-right:6px solid transparent;
+	border-bottom:6px solid #fff;
+	position:absolute;
+	top:-6px;
+	left:10px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon.pull-right>.dropdown-menu:before{
+	content:'';
+	display:inline-block;
+	border-left:7px solid transparent;
+	border-right:7px solid transparent;
+	border-bottom:7px solid #ccc;
+	border-bottom-color:#ccc;
+	position:absolute;
+	top:-7px;
+	right:9px
+}
+
+.UIToolbarContainer .uiDropdownWithIcon.pull-right>.dropdown-menu:after{
+	content:'';
+	display:inline-block;
+	border-left:6px solid transparent;
+	border-right:6px solid transparent;
+	border-bottom:6px solid #fff;
+	position:absolute;
+	top:-6px;
+	right:10px
+}
+
+.UIToolbarContainer .uiSearchPlatformToolBarPortlet>input[type=text]{
+	margin:-2px 0 0 12px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiCreateForm{
+	min-width:200px;
+	padding:0 10px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiCreateForm .form-horizontal{
+	padding-top:5px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiCreateForm .control-label{
+	width:70px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiCreateForm .controls{
+	margin-left:90px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiCreateForm .uiAction{
+	margin:0 -10px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .quickAddEventContainer{
+	padding:0 10px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .form-horizontal .control-label{
+	width:105px;
+	text-align:left
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .form-horizontal .controls{
+	margin-left:110px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .form-horizontal .title .control-label{
+	width:65px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .form-horizontal .title .controls{
+	margin-left:71px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .form-horizontal .title input[type="text"]{
+	width:222px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .choiceOption .control-label{
+	font-weight:bold
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .uiSelectbox{
+	margin-bottom:0
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .selectboxMini .uiSelectbox{
+	width:87px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .selectboxMini .uiSelectbox .selectbox{
+	width:90px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .selectboxMedium .uiSelectbox{
+	width:181px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .selectboxMedium .uiSelectbox .selectbox{
+	width:184px
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .uiAction{
+	text-align:right
+}
+
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .uiAction .btn:last-child{
+	margin-right:15px
+}
+
+.UIToolbarContainer .uiAdminToolbarPortlet .seoImgBlock{
+	padding:5px
+}
+
+.UIToolbarContainer .uiAdminToolbarPortlet .seoImgBlock .UISEOToolbarPorlet .SEOToolbar .Enable{
+	padding:0 5px;
+	margin-left:2px
+}
+
+.UIToolbarContainer .uiAdminToolbarPortlet .seoImgBlock:hover,.UIToolbarContainer .uiAdminToolbarPortlet .seoImgBlock:focus,.UIToolbarContainer .uiAdminToolbarPortlet .dropdown-submenu:hover>.seoImgBlock,.UIToolbarContainer .uiAdminToolbarPortlet .dropdown-menu .active>.seoImgBlock,.UIToolbarContainer .uiAdminToolbarPortlet .dropdown-menu .active>.seoImgBlock:hover{
+	background-color:#517abe;
+	background-image:-moz-linear-gradient(top,#628acc,#3763aa);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#628acc),to(#3763aa));
+	background-image:-webkit-linear-gradient(top,#628acc,#3763aa);
+	background-image:-o-linear-gradient(top,#628acc,#3763aa);
+	background-image:linear-gradient(to bottom,#628acc,#3763aa);
+	background-repeat:repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff628acc',endColorstr='#ff3763aa',GradientType=0);
+	color:white
+}
+
+.UIToolbarContainer .uiAdminToolbarPortlet .quickEditUnchecked{
+	background-image:url(/eXoPlatformResources/skin/platformSkin/images/ToolbarContainer/check.png);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	display:inline-block;
+	width:14px;
+	height:14px;
+	vertical-align:text-bottom
+}
+
+.UIToolbarContainer .uiAdminToolbarPortlet .quickEditChecked{
+	background-image:url(/eXoPlatformResources/skin/platformSkin/images/ToolbarContainer/check.png);
+	background-repeat:top-repeat;
+	background-position:top center;
+	display:inline-block;
+	width:14px;
+	height:14px;
+	vertical-align:text-top
+}
+
+.UIToolbarContainer .homeLink{
+	display:inline-block;
+	padding:8px 10px
+}
+
+.UIToolbarContainer .uiUserToolBarPortlet>a>img{
+	width:26px;
+	height:26px;
+	max-width:none;
+	border-radius:2px
+}
+
+.UIToolbarContainer #HomeLink{
+	padding:4px 10px 0
+}
+
+.UIToolbarContainerDark .NormalContainerBlock .ToolbarContainer{
+	background-color:#535353;
+	background-image:-moz-linear-gradient(top,#5b5b5b,#474747);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#5b5b5b),to(#474747));
+	background-image:-webkit-linear-gradient(top,#5b5b5b,#474747);
+	background-image:-o-linear-gradient(top,#5b5b5b,#474747);
+	background-image:linear-gradient(to bottom,#5b5b5b,#474747);
+	background-repeat:repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5b5b5b',endColorstr='#ff474747',GradientType=0);
+	border-bottom:1px solid #2c3440
+}
+
+.UIToolbarContainerDark .uiDropdownWithIcon{
+	background:url(/eXoPlatformResources/skin/platformSkin/images/ToolbarContainer/line.png) no-repeat top left
+}
+
+.UIToolbarContainerDark .uiDropdownWithIcon>a{
+	color:white
+}
+
+.UIToolbarContainerDark .uiDropdownWithIcon>a:hover,.UIToolbarContainerDark .uiDropdownWithIcon .uiDropdownWithIcon.open>a{
+	background:#3f3f3f
+}
+
+.UIToolbarContainerLight .NormalContainerBlock .ToolbarContainer{
+	background-color:#e7e7e7;
+	background-image:-moz-linear-gradient(top,#f4f4f4,#d4d4d4);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#f4f4f4),to(#d4d4d4));
+	background-image:-webkit-linear-gradient(top,#f4f4f4,#d4d4d4);
+	background-image:-o-linear-gradient(top,#f4f4f4,#d4d4d4);
+	background-image:linear-gradient(to bottom,#f4f4f4,#d4d4d4);
+	background-repeat:repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff4f4f4',endColorstr='#ffd4d4d4',GradientType=0);
+	border-bottom:1px solid #ccc
+}
+
+.UIToolbarContainerLight .uiDropdownWithIcon{
+	background:url(/eXoPlatformResources/skin/platformSkin/images/ToolbarContainer/line.png) no-repeat bottom left
+}
+
+.UIToolbarContainerLight .uiDropdownWithIcon>a{
+	color:#4c4c4c
+}
+
+.UIToolbarContainerLight .uiDropdownWithIcon>a:hover,.UIToolbarContainerLight .uiDropdownWithIcon .uiDropdownWithIcon.open>a{
+	background:rgba(128,128,128,0.3);
+	color:#333
+}
+
+.progressBarFrame{
+	margin:0 0 25px 0;
+	line-height:24px
+}
+
+.progressBarFrame>div{
+	margin:3px 0 0 0
+}
+
+.progressBarFrame .fileNameLabel{
+	float:left;
+	font-weight:bold;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:170px
+}
+
+.TDContainer{
+	vertical-align:top
+}
+
+.LeftNavigationTDContainer{
+	width:250px;
+	box-shadow:0 0 1px rgba(0,0,0,0.2) inset;
+	background:#f5f5f5;
+	border-right:1px solid #c7c7c7;
+	vertical-align:top;
+	padding:0
+}
+
+.RightBodyTDContainer{
+	padding:0;
+	vertical-align:top;
+	background:url(/eXoResources/skin/images/ShareImages/Background/texture.jpg) repeat left top
+}
+
+.OfficeLeftTDContainer{
+	padding:40px 0 0 40px
+}
+
+.OfficeMiddleTDContainer{
+	padding:40px!important
+}
+
+.OfficeRightTDContainer{
+	width:285px!important;
+	padding:40px 20px 40px 0
+}
+
+#header{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px
+}
+
+#footer{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px
+}
+
+.QuickEditUnchecked{
+	background:url("/eXoPlatformResources/skin/platformSkin/UIToolbarContainer/background/ToolbarContainer.png") no-repeat scroll left -48px transparent
+}
+
+.QuickEditChecked{
+	background:url("/eXoPlatformResources/skin/platformSkin/UIToolbarContainer/background/ToolbarContainer.png") no-repeat scroll left -69px transparent;
+	padding-left:24px!important
+}
+
+.MonitoringLeftTDContainer,.MonitoringMiddleTDContainer,.MonitoringRightTDContainer{
+	padding:40px 0 0 40px
+}
+
+[class^="uiIconAns"],.uiIconAnsDarkGray {
+    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsDarkGray.png");
+}
+.uiActionWithLabel:hover > [class^="uiIconAns"], .actionIcon:hover > [class^="uiIconAns"], .nav-pills > .active > a > [class^="uiIconAns"], .nav-list > .active > a > [class^="uiIconAns"], .navbar-inverse .nav > .active > a > [class^="uiIconAns"], .dropdown-menu > li > a:hover > [class^="uiIconAns"], .dropdown-menu > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconAns"], .actionIcon.active [class^="uiIconAns"], .btn:hover [class^="uiIconAns"], a:hover > [class^="uiIconAns"], [class^="uiIconAns"]:hover, .uiActionBar [class^="uiIconAns"]:hover, .uiIconAnsBlue {
+    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsBlue.png");
+}
+.dropdown-menu > li > a > [class^="uiIconAns"], .dropdown-menu > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconAns"], .uiDropDownCal li a [class^="uiIconAns"], .uiActionBar [class^="uiIconAns"], .answerToolbar [class^="uiIconAns"], .uiIconAnsLightGray {
+    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsLightGray.png");
+}
+.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconAns"], .btn-primary [class^="uiIconAns"], .btn-primary:hover [class^="uiIconAns"], .uiIconAnsWhite {
+    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsWhite.png");
+}
+[class^="uiIconAnwserColor"] {
+    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnswerColor.png");
+}
+.uiIconAnsSubmitQuestion, .uiIconAnsAddNewQuestion {
+    background-position: -20px 0;
+}
+.uiIconAnsManageCategory {
+    background-position: 0 0;
+}
+.uiIconAnsSentMail {
+    background-position: -60px 0;
+}
+.uiIconAnsManageQuestion {
+    background-position: -40px 0;
+}
+.uiIconAnsThumbDownMini {
+    background-position: -20px -20px;
+}
+.uiIconAnsThumbUpMini {
+    background-position: 0 -20px;
+}
+.uiIconAnsAnswer {
+    background-position: -40px -20px;
+}
+.uiIconAnsApprove {
+    background-position: -100px 0;
+}
+.uiIconAnsDisapprove {
+    background-position: -120px 0;
+}
+.uiIconAnsPromote {
+    background-position: -180px 0;
+}
+.uiIconAnsEnable {
+    background-position: -140px 0;
+}
+.uiIconAnsDisable {
+    background-position: -160px 0;
+}
+.uiIconAnwserColorBusy {
+    background-position: -102px 0;
+}
+
+[class^="uiIconColor"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  *margin-right: .3em;
+  line-height: 16px;
+  vertical-align: text-bottom;
+  background-image: url("../img/plf4-icons/uiIconsColor.png");
+  background-repeat: no-repeat;
+}
+.dropdown > a:hover > [class^="uiIconColor"],
+[class^="uiIconColor"]:hover,
+a:hover > [class^="uiIconColor"],
+i:hover [class^="uiIconColor"] {
+  background-image: url("../img/plf4-icons/uiIconsColor.png");
+}
+.uiIconColorError {
+  background-position: 0 0;
+}
+.uiIconColorWarning {
+  background-position: -20px 0;
+}
+.uiIconColorInfo {
+  background-position: -40px 0;
+}
+.uiIconColorValidate {
+  background-position: -60px 0;
+}
+.uiIconColorQuestion {
+  background-position: -80px 0;
+}
+.uiIconColorMiniSquareBlank{
+  background-position: -100px 0;
+}
+.uiIconColorMiniSquarePlus{
+  background-position: -120px 0;
+}
+.uiIconColorMiniSquareMinus {
+  background-position: -140px 0;
+}
+.uiIconColorBell {
+  background-position: -160px 0;
+}
+.uiIconColorStarGray {
+  background-position:   0px -20px;
+}
+.uiIconColorStarYellow{
+  background-position: -20px -20px;
+}
+
