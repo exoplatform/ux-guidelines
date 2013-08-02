@@ -57,7 +57,7 @@
 <header class="jumbotron subhead" id="overview">
 <div class="container">
   <h1>Modal Pop-up Pattern</h1>
-  <p class="lead">Using popups can be useful and a nice way to display advanced information. How and when Popups is used?</p>
+  <p class="lead">Using popups can be useful and a nice way to display advanced information. How and when Popups is used with PLF 4 style?</p>
 </div>
 </header>
 
@@ -78,6 +78,8 @@
     	<li><a href="#S1">Pop-up Size</a></li>
       	<li><a href="#S2">Pop-up by default</a></li>
       	<li><a href="#S3">Pop-up with Block Tab</a></li>
+ 	<li><a href="#S4">Pop-up with Border Content</a></li>
+        <li><a href="#S5">Pop-up without Button</a></li>
       	<li class="divider"></li>
       	
       	<li><a href="#WUTP">Why Use This Pattern?</a></li>
@@ -90,7 +92,7 @@
       <h3><a name="Overview"></a><span>Overview</span></h3>
     	<p>Pop-up is a form displays when selecting an option or doing an action by mouse click or key board press.<br>
 	Pop-up can be used to perform specific functions or simply notify necessary information to users.<br>
-	This pattern provides a guide to use and display modal pop-up to obtain the consistency among applications. For example, when is a function interacted via pop-up? How does a pop up look? </p>
+	This pattern provides a guide to use and display modal pop-up to obtain the consistency among applications.</p>
 
       <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
       <p>Pop-up is useful and fast way to interact with a function, it is also to display advanced options over one element on the screen without having to lose the content.</p>
@@ -302,7 +304,234 @@
          </tbody>
       </table>
 </p>
+      <h4><a name="S4"></a><span>Pop-up with Border Content</span></h4>
+      <p> The main content of this popup  is displayed in a border. In case the content is long, the scroll bar is displayed directly in border.</p>
+
+  <p>Static sample</p>
+       <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+      <div class="modal-header">
+      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
+      <h3>Modal header</h3>
+      </div>
+      <div class="modal-body">
       
+      <ul id="myTab" class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#home">Home</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#profile">Profile</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#settings">Settings</a>
+</li>
+</ul>
+</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+<div id="home" class="tab-pane fade active in">
+<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+</div>
+<div id="profile" class="tab-pane fade">
+<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+</div>
+<div id="settings" class="tab-pane fade">
+<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+</div>
+</div>
+      </div>
+      <div class="modal-footer">
+      <a class="btn" href="#">Close</a>
+      <a class="btn btn-primary" href="#">Save changes</a>
+      </div>
+      </div>
+<div id="myModal1" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
+      <div class="modal-header">
+     <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
+     <h3 id="myModalLabel">Modal header</h3>
+     </div>
+       <div class="modal-body">
+<ul id="myTab" class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#home1">Home</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#profile1">Profile</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#settings1">Settings</a>
+</li>
+</ul>
+</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+<div id="home1" class="tab-pane fade active in">
+<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+</div>
+<div id="profile1" class="tab-pane fade">
+<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+</div>
+<div id="settings1" class="tab-pane fade">
+<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+</div>
+</div></div> 
+     <div class="modal-footer">
+     <button class="btn" data-dismiss="modal">Close</button>
+     <button class="btn btn-primary">Save changes</button>
+     </div>
+     </div>
+     <div class="bs-docs-example" style="padding-bottom: 24px;">
+       <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Pop-up with Border Content demo</a>
+     </div>
+ <p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>class=""</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Pop-up</td>
+               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
+            </tr>
+            <tr><td>Tab</td>
+            <td>.nav-tabs , .active , a , a:hover</td>
+            </tr>
+
+            <tr>
+               <td>Label</td>
+               <td>.label</td>
+            </tr>
+            <tr>
+               <td>Text field</td>
+               <td>.input-large</td>
+            </tr>
+            <tr>
+               <td>Checkbox</td>
+               <td>.checkbox input[type="checkbox"]</td>
+            </tr>
+            <tr><td>Button</td>
+            <td>.button , .btn-primary , .btn-primary: hover</td>
+            <tr><td>x button</td><td>.close , .close:hover</td>
+	     </tr>
+         </tbody>
+      </table>
+</p>
+     <h4><a name="S5"></a><span>Pop-up without Button</span></h4>
+      <p>This pop up is without action buttons. In some case, there are no button in the pop up, this style can be used.</p>
+
+  <p>Static sample</p>
+       <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+      <div class="modal-header">
+      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
+      <h3>Modal header</h3>
+      </div>
+      <div class="modal-body">
+      
+      <ul id="myTab" class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#home">Home</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#profile">Profile</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#settings">Settings</a>
+</li>
+</ul>
+</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+<div id="home" class="tab-pane fade active in">
+<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+</div>
+<div id="profile" class="tab-pane fade">
+<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+</div>
+<div id="settings" class="tab-pane fade">
+<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+</div>
+</div>
+      </div>
+      <div class="modal-footer">
+      <a class="btn" href="#">Close</a>
+      <a class="btn btn-primary" href="#">Save changes</a>
+      </div>
+      </div>
+<div id="myModal1" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
+      <div class="modal-header">
+     <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
+     <h3 id="myModalLabel">Modal header</h3>
+     </div>
+       <div class="modal-body">
+<ul id="myTab" class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#home1">Home</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#profile1">Profile</a>
+</li>
+<li class="">
+<a data-toggle="tab" href="#settings1">Settings</a>
+</li>
+</ul>
+</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+<div id="home1" class="tab-pane fade active in">
+<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+</div>
+<div id="profile1" class="tab-pane fade">
+<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+</div>
+<div id="settings1" class="tab-pane fade">
+<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+</div>
+</div></div> 
+     <div class="modal-footer">
+     <button class="btn" data-dismiss="modal">Close</button>
+     <button class="btn btn-primary">Save changes</button>
+     </div>
+     </div>
+     <div class="bs-docs-example" style="padding-bottom: 24px;">
+       <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Pop-up without Button demo</a>
+     </div>
+ <p><table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Object</th>
+               <th>class=""</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Pop-up</td>
+               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
+            </tr>
+            <tr><td>Tab</td>
+            <td>.nav-tabs , .active , a , a:hover</td>
+            </tr>
+
+            <tr>
+               <td>Label</td>
+               <td>.label</td>
+            </tr>
+            <tr>
+               <td>Text field</td>
+               <td>.input-large</td>
+            </tr>
+            <tr>
+               <td>Checkbox</td>
+               <td>.checkbox input[type="checkbox"]</td>
+            </tr>
+            <tr><td>Button</td>
+            <td>.button , .btn-primary , .btn-primary: hover</td>
+            <tr><td>x button</td><td>.close , .close:hover</td>
+	     </tr>
+         </tbody>
+      </table>
+</p>
      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
      <p>To obtain the consistency among applications in the way using and displaying actions/functions in pop-ups. This pattern let the designers know which functions they should put in page, which functions should be in pop-up. The consistency of pop-up style sheet and design makes your products look more professional.</p>
 
