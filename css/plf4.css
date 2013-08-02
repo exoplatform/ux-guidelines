@@ -3411,7 +3411,7 @@ a:hover [class^="uiIconApp"],
 }
 /******* Trung nq ****/
 .btn-group.uiDropdownWithIcon .btn .spiter {
-  background: url("/eXoResources/skin/images/Dropdown/ButtonGroups/background/split-white.png") no-repeat;
+  background: url("../img/plf4-icons/backgrounds/split-white.png") no-repeat;
   display: inline-block;
   height: 27px;
   margin: -6px 5px -4px;
@@ -3419,7 +3419,7 @@ a:hover [class^="uiIconApp"],
   width: 2px;
 }
 .btn-group.uiDropdownWithIcon .btn.btn-primary .spiter {
-  background: url("/eXoResources/skin/images/Dropdown/ButtonGroups/background/split.png") no-repeat;
+  background: url("../img/plf4-icons/backgrounds/split.png") no-repeat;
 }
 .uiTabSelector .btn-group {
   margin: 5px 0 5px -27%;
@@ -8484,7 +8484,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiActionBar .tab-content{position:relative;z-index:3;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}
 .uiActionBar .listHiddenActionsContainer .actionIcon{margin:0px;border:none;}.uiActionBar .listHiddenActionsContainer .actionIcon:hover{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;box-shadow:none;}.uiActionBar .listHiddenActionsContainer .actionIcon:hover>[class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
 .uiActionBar .listHiddenActionsContainer .actionIcon:hover>[class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
-.uiActionBar .uiViewBarContainer{position:absolute;right:10px;top:4px;}.uiActionBar .uiViewBarContainer .noneDrivesButton{padding:3px 6px;color:#333333;}
+.uiActionBar .uiViewBarContainer{position:absolute;right:10px;top:4px;} .noneDrivesButton, .noneDrivesButton:hover{padding:3px 6px;color:#333333;}
 .uiActionBar .uiViewBarContainer .actionIcon{margin-left:2px;}
 .uiActionBar .uiViewBarContainer .showDrivesButton{padding:3px 6px;color:#333333;box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.15) inset;background-color:#ECECEC;border:1px solid #C7C7C7;border-radius:3px 3px 3px 3px;}.uiActionBar .uiViewBarContainer .showDrivesButton>[class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
 .uiActionBar .uiViewBarContainer .showDrivesButton>[class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
@@ -11332,3 +11332,28 @@ i:hover [class^="uiIconColor"] {
   background-position: -20px -20px;
 }
 
+
+.btn.btn-mini {
+	font-size: 11px;
+}
+
+.btn.btn-small{
+	font-size: 12px;
+}
+
+.btn.btn-extra{
+	font-size: 14px;
+	padding: 6px 12px;
+}
+
+.btn-extra .caret{
+	border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 6px;
+}
+
+.btn-mini .caret{
+	border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+}

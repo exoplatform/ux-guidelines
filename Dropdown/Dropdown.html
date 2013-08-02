@@ -174,7 +174,7 @@
           </div>
             <p>Add an extra level of dropdown menus, appearing on hover like those of OS X, with some simple markup additions. Add <code>.dropdown-submenu</code> to any <code>li</code> in an existing dropdown menu for automatic styling.</p>
           <div class="bs-docs-example">
-            <div class="dropdown clearfix">
+            <div class="dropdown uiDropdownWithIcon clearfix">
               <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
@@ -249,9 +249,19 @@
 </pre>
 
           <h3>Works with all button sizes</h3>
-          <p>Button dropdowns work at any size:  <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code>.</p>
+          <p>Button dropdowns work at any size: <code>.btn-extra</code>, <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code>.</p>
           <div class="bs-docs-example">
             <div class="btn-toolbar" style="margin: 0;">
+			  <div class="btn-group">
+                <button class="btn btn-extra dropdown-toggle" data-toggle="dropdown">Extra button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
               <div class="btn-group">
                 <button class="btn btn-large dropdown-toggle" data-toggle="dropdown">Large button <span class="caret"></span></button>
                 <ul class="dropdown-menu">
@@ -283,9 +293,175 @@
                 </ul>
               </div><!-- /btn-group -->
             </div><!-- /btn-toolbar -->
+			<div class="btn-toolbar" style="margin-top: 10;"><!-- btn-toolbar primary -->
+			  <div class="btn-group">
+                <button class="btn btn-extra dropdown-toggle btn-primary" data-toggle="dropdown">Extra button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-large dropdown-toggle btn-primary" data-toggle="dropdown">Large button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-small dropdown-toggle btn-primary" data-toggle="dropdown">Small button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+	        </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-mini dropdown-toggle btn-primary" data-toggle="dropdown">Mini button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+            </div><!-- /btn-toolbar -->
          </div>
+		 
+		 <h3>Split button dropdowns</h3>
+          <p>Split button dropdowns work at any size: <code>.btn-extra</code>, <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code>.</p>
+          <div class="bs-docs-example">
+            <div class="btn-toolbar" style="margin: 0;">
+			  <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle btn-extra">
+					<span>Extra button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle">
+					<span>Large button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle btn-small">
+					<span>Small button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+	        </div><!-- /btn-group -->
+              <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle btn-mini">
+					<span>Min button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+
+			</div>
+			<div class="btn-toolbar" style="margin: 10px 0;">
+			  <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle btn-extra btn-primary">
+					<span>Extra button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle btn-primary">
+					<span>Large button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle btn-small btn-primary">
+					<span>Small button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+	        </div><!-- /btn-group -->
+              <div class="btn-group uiDropdownWithIcon">
+                <div data-toggle="dropdown" class="btn dropdown-toggle btn-mini btn-primary">
+					<span>Min button</span>
+					<span class="spiter"></span> 
+					<span class="caret"></span>
+				</div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+
+			</div>
+		  </div>
+		 
          <h3>Works with other button style</h3>
-          <p>Button dropdowns work at any size:  <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code>.</p>
+          <p>Dropdown can be applied with other button style  </p>
           <div class="bs-docs-example">
             <div class="uiActionWithLabel">More<i class="uiIconArrowDown uiIconLightGray"></i> </div>
                 <ul class="dropdown-menu">
