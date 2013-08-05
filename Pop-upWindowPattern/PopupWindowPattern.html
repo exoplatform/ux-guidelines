@@ -108,52 +108,61 @@
       <h4><a name="S1"></a><span>Pop-up Size</span></h4>
       <p>Modal provides a pop-up with fixed width <b>560px</b>. The height of pop up is automatic resized depending on the content and height of the screen. There is a scroll bar in case the content is longer than the display screen.
       <p><b>Static sample of modal pop up</b></p>
-      <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
-      <div class="modal-header">
-      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
-      <h3>Modal header</h3>
-      </div>
-      <div class="modal-body">
-      <p>One fine body...</p>
-      </div>
-      <div class="modal-footer">
-      <a class="btn" href="#">Close</a>
-      <a class="btn btn-primary" href="#">Save changes</a>
-      </div>
+      <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<p>One fine body...</p>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>
       <h4><a name="S2"></a><span>Pop-up by default</span></h4>
       <p>This pop-up can be used for functions that all its elements can be displayed at once. </p>
       <p>Static sample</p>
-       <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
-      <div class="modal-header">
-      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
-      <h3>Modal header</h3>
-      </div>
-      <div class="modal-body">
-      <p><label>Label name: <input class="input-large" type="text" placeholder="input text..."> </label>
-      <span class="help-block">Example block-level help text here.</span>
-      <label class="checkbox"><input type="checkbox">Check me out</label></p>
-      </div>
-      <div class="modal-footer">
-      <a class="btn" href="#">Close</a>
-      <a class="btn btn-primary" href="#">Save changes</a>
-      </div>
+	  <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div class="form-horizontal resizable">
+				<div class="control-group">	
+					<label for="label" class="control-label">Label name:</label>
+					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
+				</div>
+				<span class="help-block">Example block-level help text here.</span>
+				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
+			</div>
+			<div class="uiAction uiActionBorder"> 
+				<button class="btn" onclick="" type="button">Save</button>
+				<button class="btn" onclick="" type="button">Cancel</button>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>
 
-      <div id="myModal" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
-      <div class="modal-header">
-     <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
-     <h3 id="myModalLabel">Modal header</h3>
-     </div>
-       <div class="modal-body">
-      <p><label>Label name: <input class="input-large" type="text" placeholder="input text..."> </label>
-      <span class="help-block">Example block-level help text here.</span>
-      <label class="checkbox"><input type="checkbox">Check me out</label></p>
-      </div>
-     <div class="modal-footer">
-     <button class="btn" data-dismiss="modal">Close</button>
-     <button class="btn btn-primary">Save changes</button>
-     </div>
+      <div id="myModal" class="modal hide fade UIPopupWindow uiPopup UIDragObject NormalStyle" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div class="form-horizontal resizable">
+				<div class="control-group">	
+					<label for="label" class="control-label">Label name:</label>
+					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
+				</div>
+				<span class="help-block">Example block-level help text here.</span>
+				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
+			</div>
+			<div class="uiAction uiActionBorder"> 
+				<button class="btn" onclick="" type="button">Save</button>
+				<button class="btn" onclick="" type="button">Cancel</button>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
      </div>
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Pop-up by default demo</a>
@@ -194,77 +203,87 @@
       <p>This pop up with block tabs allows to display more content that can be grouped by tabs. The function on each tab may be independent together.</p>
 
   <p>Static sample</p>
-       <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
-      <div class="modal-header">
-      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
-      <h3>Modal header</h3>
+  
+		
+		
+		<div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+			<div class="popupHeader ClearFix">
+				<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+				<span class="PopupTitle popupTitle">Popup header</span>
+			</div>
+			<div class="PopupContent popupContent">
+
+			<div id="UIViewTemplate_UITemplateContainer" class="UITabPane uiTabNormal">
+				<ul id="myTab" class="nav nav-tabs">
+					<li onclick="" class="active">
+						<a href="#tab-home" data-toggle="tab">Home</a>
+					</li>
+					<li onclick="" class="">
+						<a href="#tab-propties" data-toggle="tab">Propties</a>
+					</li>
+					<li onclick="" class="">
+						<a href="#tab-settings" data-toggle="tab">Settings</a>
+					</li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div id="tab-home" class="tab-pane fade in active form-horizontal resizable">
+						<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+					</div>
+					<div id="tab-propties" class="tab-pane fade form-horizontal resizable">
+						<p> Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park. </p>
+					</div>
+					<div id="tab-settings" class="tab-pane fade form-horizontal resizable">
+						<p> Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr. </p>
+					</div>
+				</div>
+			</div>
+			<div class="uiAction"> 
+				<button class="btn" onclick="" type="button">Save</button>
+				<button class="btn" onclick="" type="button">Cancel</button>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>
-      <div class="modal-body">
-      
-      <ul id="myTab" class="nav nav-tabs">
-<li class="active">
-<a data-toggle="tab" href="#home">Home</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#profile">Profile</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#settings">Settings</a>
-</li>
-</ul>
-</li>
-</ul>
-<div id="myTabContent" class="tab-content">
-<div id="home" class="tab-pane fade active in">
-<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-</div>
-<div id="profile" class="tab-pane fade">
-<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-</div>
-<div id="settings" class="tab-pane fade">
-<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-</div>
-</div>
-      </div>
-      <div class="modal-footer">
-      <a class="btn" href="#">Close</a>
-      <a class="btn btn-primary" href="#">Save changes</a>
-      </div>
-      </div>
-<div id="myModal1" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
-      <div class="modal-header">
-     <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
-     <h3 id="myModalLabel">Modal header</h3>
-     </div>
-       <div class="modal-body">
-<ul id="myTab" class="nav nav-tabs">
-<li class="active">
-<a data-toggle="tab" href="#home1">Home</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#profile1">Profile</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#settings1">Settings</a>
-</li>
-</ul>
-</li>
-</ul>
-<div id="myTabContent" class="tab-content">
-<div id="home1" class="tab-pane fade active in">
-<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-</div>
-<div id="profile1" class="tab-pane fade">
-<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-</div>
-<div id="settings1" class="tab-pane fade">
-<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-</div>
-</div></div> 
-     <div class="modal-footer">
-     <button class="btn" data-dismiss="modal">Close</button>
-     <button class="btn btn-primary">Save changes</button>
-     </div>
+  
+		
+       
+		<div id="myModal1" class="modal hide fade UIPopupWindow uiPopup UIDragObject NormalStyle" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
+			<div class="popupHeader ClearFix">
+				<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+				<span class="PopupTitle popupTitle">Popup header</span>
+			</div>
+			<div class="PopupContent popupContent">
+
+				<div id="UIViewTemplate_UITemplateContainer" class="UITabPane uiTabNormal">
+					<ul id="myTab" class="nav nav-tabs">
+						<li onclick="" class="active">
+							<a href="#tab-home" data-toggle="tab">Home</a>
+						</li>
+						<li onclick="" class="">
+							<a href="#tab-propties" data-toggle="tab">Propties</a>
+						</li>
+						<li onclick="" class="">
+							<a href="#tab-settings" data-toggle="tab">Settings</a>
+						</li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div id="tab-home" class="tab-pane fade in active form-horizontal resizable">
+							<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+						</div>
+						<div id="tab-propties" class="tab-pane fade form-horizontal resizable">
+							<p> Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park. </p>
+						</div>
+						<div id="tab-settings" class="tab-pane fade form-horizontal resizable">
+							<p> Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr. </p>
+						</div>
+					</div>
+				</div>
+				<div class="uiAction"> 
+					<button class="btn" onclick="" type="button">Save</button>
+					<button class="btn" onclick="" type="button">Cancel</button>
+				</div>
+			</div>
+			<span class="uiIconResize pull-right uiIconLightGray"></span>
      </div>
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Pop-up with Tabs demo</a>
@@ -308,42 +327,21 @@
       <p> The main content of this popup  is displayed in a border. In case the content is long, the scroll bar is displayed directly in border.</p>
 
   <p>Static sample</p>
-       <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
-      <div class="modal-header">
-      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
-      <h3>Modal header</h3>
-      </div>
-      <div class="modal-body">
-      
-      <ul id="myTab" class="nav nav-tabs">
-<li class="active">
-<a data-toggle="tab" href="#home">Home</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#profile">Profile</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#settings">Settings</a>
-</li>
-</ul>
-</li>
-</ul>
-<div id="myTabContent" class="tab-content">
-<div id="home" class="tab-pane fade active in">
-<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-</div>
-<div id="profile" class="tab-pane fade">
-<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-</div>
-<div id="settings" class="tab-pane fade">
-<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-</div>
-</div>
-      </div>
-      <div class="modal-footer">
-      <a class="btn" href="#">Close</a>
-      <a class="btn btn-primary" href="#">Save changes</a>
-      </div>
+       <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div class="form-horizontal resizable">
+				<div class="control-group">	
+					<label for="label" class="control-label">Label name:</label>
+					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
+				</div>
+				<span class="help-block">Example block-level help text here.</span>
+				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
+			</div>
+		</div>
       </div>
 <div id="myModal1" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
       <div class="modal-header">
@@ -422,42 +420,25 @@
       <p>This pop up is without action buttons. In some case, there are no button in the pop up, this style can be used.</p>
 
   <p>Static sample</p>
-       <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
-      <div class="modal-header">
-      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
-      <h3>Modal header</h3>
-      </div>
-      <div class="modal-body">
-      
-      <ul id="myTab" class="nav nav-tabs">
-<li class="active">
-<a data-toggle="tab" href="#home">Home</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#profile">Profile</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#settings">Settings</a>
-</li>
-</ul>
-</li>
-</ul>
-<div id="myTabContent" class="tab-content">
-<div id="home" class="tab-pane fade active in">
-<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-</div>
-<div id="profile" class="tab-pane fade">
-<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-</div>
-<div id="settings" class="tab-pane fade">
-<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-</div>
-</div>
-      </div>
-      <div class="modal-footer">
-      <a class="btn" href="#">Close</a>
-      <a class="btn btn-primary" href="#">Save changes</a>
-      </div>
+       <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div class="form-horizontal resizable">
+				<div class="control-group">	
+					<label for="label" class="control-label">Label name:</label>
+					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
+				</div>
+				<span class="help-block">Example block-level help text here.</span>
+				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
+			</div>
+			<div class="uiAction uiActionBorder"> 
+				<button class="btn" onclick="" type="button">Save</button>
+				<button class="btn" onclick="" type="button">Cancel</button>
+			</div>
+		</div>
       </div>
 <div id="myModal1" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
       <div class="modal-header">
