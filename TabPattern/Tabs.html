@@ -170,30 +170,65 @@
 			<h4><a name="S2"></a><span>Gray Tab in Page</span></h4>
 <p>This kind of tab is used in page with gray color style.</p>
 <div class="bs-docs-example">
-<div class="tabbable" style="margin-bottom: 18px;">
-<ul class="nav nav-tabs">
-<li class="active">
-<a data-toggle="tab" href="#tab1">Section 1</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#tab2">Section 2</a>
-</li>
-<li class="">
-<a data-toggle="tab" href="#tab3">Section 3</a>
-</li>
-</ul>
-<div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
-<div id="tab1" class="tab-pane active">
-<p>I'm in Section 1.</p>
-</div>
-<div id="tab2" class="tab-pane">
-<p>Howdy, I'm in Section 2.</p>
-</div>
-<div id="tab3" class="tab-pane">
-<p>What up girl, this is Section 3.</p>
-</div>
-</div>
-</div>
+	
+	
+	<div class="uiTabNormal uiTabGrayInPage">
+    <ul class="nav nav-tabs uiTabsContainer">
+		<li class="active">
+			<a href="#tab1_4" data-toggle="tab">Tab 1</a>
+		</li>                                                                                           
+		<li>
+			<a href="#tab1_4" data-toggle="tab">Tab 2</a>
+		</li>                                                                                           
+		<li class="last">
+			<a href="#tab1_4" data-toggle="tab">Tab 3</a>
+		</li>                                                                                           
+		<li class="dropdown pull-right listHiddenTabsContainer" style="display: none;">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<!-- <li><a data-toggle="tab" href="#dropdown1_4">Tab demo1</a></li> -->
+				</ul>
+		</li>
+	</ul>
+	<div class="tab-content" id="uiActionsBarContainer">
+		<div class="tab-pane fade in active" id="tab1_4">
+			<ul class="nav nav-pills">
+				 <li>
+					 <a class="actionIcon"><i class="uiIconEcmsAddDocument"></i> New Content</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddFolder"></i> New Folder</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddLocalizationLink"></i> Add Translation</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddSymLink"></i> Add Symlink</a>
+				 </li>
+				 <li style="display: block;" class="pull-right listHiddenActionsContainer">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+					<ul id="ListHideContainer" class="dropdown-menu">
+						<li>
+							<a class="actionIcon"><i class="uiIconEcmsContentNavigation"></i> Content Navigation</a>
+						</li>
+						<li>
+							 <a class="actionIcon"><i class="uiIconEcmsImportNode"></i> Import</a>
+						 </li>
+						 <li>
+							 <a class="actionIcon"><i class="uiIconEcmsManageActions"></i> Actions</a>
+						 </li>
+					</ul>
+				 </li>
+			</ul>
+			<div class="resizable">
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
 </div>
 
 
