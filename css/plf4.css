@@ -11273,12 +11273,22 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
 	border-radius:5px
 }
 
-#footer{
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	-ms-border-radius:10px;
-	-o-border-radius:10px;
-	border-radius:10px
+
+#footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../img/footer.png");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    clear: both;
+    height:40px;
+    margin-top: -64px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
 }
 
 .QuickEditUnchecked{
