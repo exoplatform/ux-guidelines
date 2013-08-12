@@ -11424,3 +11424,13 @@ i:hover [class^="uiIconColor"] {
     border-right-width: 3px;
     border-top-width: 3px;
 }
+
+.uiTabGrayInPage .tab-content .listHiddenActionsContainer .caret {
+    border-top-color: #777777;
+    margin-top: 8px;
+	opacity: 1;
+}
+
+.uiTabGrayInPage .tab-content .listHiddenActionsContainer a:hover .caret {
+    border-top-color: #4f72ac;
+}
