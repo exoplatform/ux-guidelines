@@ -44,11 +44,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <a class="brand" href="#">eXo UX Guidelines</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="index.html"><img src="img/global.logo.png"/></a></li>
-              <li class="active"><a href="getting-started.html">Getting Stared</a></li>             
+              <li class="active"><a href="getting-started.html">Getting Started</a></li>             
               <li><a href="Patterns.html">Patterns</a></li>
               <li><a href="Components.html">Component</a></li>
               </ul>
@@ -92,7 +91,7 @@
           <p class="lead">Before downloading, be sure that you have basis knowleadge on HTML, JS and CSS. Notepad++,Text Editor, Quanta Plus, Sublime Text are useful code editors to modify the file content.</p>
           <div class="row-fluid">
             <p>Get the original files for all CSS and JavaScript,along with a local copy of the docs by downloading the latest version directly from GitHub</p>
-              <p><a class="btn btn-large btn-primary" href="https://github.com/exoplatform/uxp-patterns-website/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download UXP Pattern Website</a></p>
+              <p><a class="btn btn-large btn-primary" href="https://github.com/exoplatform/uxp-patterns-website/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download eXo UX Guidelines</a></p>
          </div>
         </section>
 
@@ -105,8 +104,8 @@
             <h1>2. File structure</h1>
           </div>
           <p class="lead">Within the download you'll find the following file structure and contents, logically grouping common assets and providing both compiled and minified variations.</p>
-          <p>Once downloaded, unzip the compressed folder to see the structure of UXP Patterns Website (based on Bootstrap). You'll see something like this:</p>
-<pre class="prettyprint"><span class="pln">  exoplatform-uxp-patterns-website</span><span class="pun">/</span><span class="pln">
+          <p>Once downloaded, unzip the compressed folder to see the structure of eXo UX Guidelines (based on Bootstrap). You'll see something like this:</p>
+<pre class="prettyprint"><span class="pln">  exo-ux-guidelines </span><span class="pun">/</span><span class="pln">
   </span><span class="pun">├──</span><span class="pln"> css</span><span class="pun">/</span><span class="pln">
   </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bootstrap</span><span class="pun">.</span><span class="pln">css
   </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bootstrap</span><span class="pun">.</span><span class="pln">min</span><span class="pun">.</span><span class="pln">css
@@ -120,7 +119,7 @@
   </span><span class="pun">└──</span><span class="pln"> README</span><span class="pun">.</span><span class="pln">md</span></pre>
 <p>All CSS, JS files are based on (<code>bootstrap.*</code>), as well as compiled and minified CSS and JS (<code>bootstrap.min.*</code>).
 <p>(<code>plf4.css</code>) is the customized Bootstrap CSS that is applied for the Platform 4, done by The eXo Platform Team.
-<p>Please note that most JavaScript plugins require jQuery to be included. Besides, there some free javacripts are also applied in UXP Pattern Website to create some dynamic samples</p>
+<p>Please note that most JavaScript plugins require jQuery to be included. Besides, there some free javacripts are also applied in eXo UX Guidelines to create some dynamic samples</p>
         </section>
 
 
@@ -134,9 +133,9 @@
           <h4><a href="index.html">Pattern</a></h4>
           <p>Based on Twitter Bootstrap, we provide uxp patterns with Platform 4 style for specific functions or objects that can be applied in common to obtain the conistency among products</p>
           <h4><a href="Component.html">Component</a></h4>
-          <p>Details for some basic components that are applied in UXP Pattern Website, provided by Twitter Bootstrap under Platform 4 style.</p>
+          <p>Details for some basic components that are applied in eXo UX Guidelines, provided by Twitter Bootstrap under Platform 4 style.</p>
           <h4><a href="Style.html">Style</a></h4>
-          <p>Basic css for html elements that are applied in UXP Pattern Website.</p>
+          <p>Basic css for html elements that are applied in eXo UX Guidelines.</p>
           <h4><a href="Javascript.html">Javascript</a></h4>
           <p>Similar to Components, these Javascript plugins are interactive components for things like tooltips, popovers, modals, and more.</p>
          </section>
@@ -147,7 +146,7 @@
           <div class="page-header">
             <h1>4. Basic HTML template</h1>
           </div>
-          <p class="lead">UXP Patterns Website has basic HTML templated provided by Bootstrap</p>
+          <p class="lead">eXo UX Guidelines has basic HTML templated provided by Bootstrap</p>
           <p><strong>Typical HTML file</strong>:</p>
 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="dec">&lt;!DOCTYPE html&gt;</span></li><li class="L1"><span class="tag">&lt;html&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;head&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;title&gt;</span><span class="pln">Bootstrap Template</span><span class="tag">&lt;/title&gt;</span></li><li class="L4"><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></li><li class="L5"><span class="pln">  </span><span class="tag">&lt;body&gt;</span></li><li class="L6"><span class="pln">    </span><span class="tag">&lt;h1&gt;</span><span class="pln">Hello, world!</span><span class="tag">&lt;/h1&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"http://code.jquery.com/jquery-latest.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L8"><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></li><li class="L9"><span class="tag">&lt;/html&gt;</span></li></ol></pre>
           <p>To make this <strong>a Bootstrapped Platform 4 style template</strong>, just include the appropriate CSS and JS files of Bootstrap and the customized CSS that is provided by The Platform 4 Team:</p>
@@ -164,7 +163,7 @@
           <div class="page-header">
             <h1>What next?</h1>
           </div>
-          <p class="lead">Based on the development of Bootstrap, the PLatform Style, UXP Pattern Website will be updated correspondingly. More patterns will be added and customized following Bootstrap and Platform style</p>
+          <p class="lead">Based on the development of Bootstrap, the PLatform Style, eXo UX Guidelines will be updated correspondingly. More patterns will be added and customized following Bootstrap and Platform style</p>
           </section>
 
       </div>
