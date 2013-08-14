@@ -351,6 +351,7 @@
     <button class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('9ebdd876-ceb4-4cc0-b4bc-c1d23906964e#UIWikiSelectPageForm','Cancel',true)" href="javascript:void(0);" type="button">Cancel</button>
   </div>
   </form>
+  <span class="uiIconResize pull-right uiIconLightGray"></span>
 </div>
 		</div>
       </div>
@@ -436,20 +437,68 @@
 			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
 			<span class="PopupTitle popupTitle">Popup header</span>
 		</div>
-		<div class="PopupContent popupContent">
-			<div class="form-horizontal resizable">
-				<div class="control-group">	
-					<label for="label" class="control-label">Label name:</label>
-					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
+		<div class="PopupContent popupContent uiGroupMembershipSelector">
+			<div class="row-fluid">
+				<div class="span6">
+					<div class="uiBox selectGroup noRounded">
+						<h6 class="title">Select Group</h6>
+						<div class="uiTrees scrollArea">
+							<div class="treeContainer jsContainer">
+								<div class="homeNode clearfix">
+									<a style="display: block;" rel="tooltip" href="#" class="actionIcon pull-left" data-original-title="Up Level"><i class="uiIconUpLevel uiIconLightGray"></i></a>
+								</div>
+								<ul class="nodeGroup">
+									<li class="node">
+										<a onclick="" title="Group 1" class="uiIconNode collapseIcon nodeSelected" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 1 </a>																 
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 2" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 2 </a>											
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 3" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 3 </a>											
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 4" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 4 </a>											
+									</li>
+								</ul>
+							</div>	
+						</div>
+					</div>
 				</div>
-				<span class="help-block">Example block-level help text here.</span>
-				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
-			</div>
-			<div class="uiAction uiActionBorder"> 
-				<button class="btn" onclick="" type="button">Save</button>
-				<button class="btn" onclick="" type="button">Cancel</button>
+				<div class="span6">
+					<div class="uiBox noRounded childGoup">
+						<h6 class="title">
+						  Select Membership
+						</h6>
+						<div class="uiContentBox">
+						  <ul>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="*">*</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 1">Membership 1</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 2">Membership 2</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 3">Membership 3</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 4">Membership 4</a>
+							</li>
+						  </ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>
 <div id="myModal1" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
       <div class="modal-header">

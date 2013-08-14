@@ -4513,7 +4513,7 @@ textarea[disabled] {
   padding-left: 22px;
 }
 .uiTreeExplorer .expandIcon {
-  background: url("/eXoResources/skin/images/Tree/uiIconTreePlus.gif") no-repeat left center;
+  background: url("../img/plf4-icons/uiIconTreePlus.gif") no-repeat left center;
   width: auto;
   height: auto;
   padding-left: 15px;
@@ -4521,11 +4521,11 @@ textarea[disabled] {
   margin: 0px;
 }
 .uiTreeExplorer .collapseIcon {
-  background: url("/eXoResources/skin/images/Tree/uiIconTreeMinus.gif") no-repeat left center;
+  background: url("../img/plf4-icons/uiIconTreeMinus.gif") no-repeat left center;
   padding-left: 15px;
 }
 .uiTreeExplorer .emptyIcon {
-  background: url("/eXoResources/skin/images/Tree/uiIconTreeSquare.gif") no-repeat left center;
+  background: url("../img/plf4-icons/uiIconTreeSquare.gif") no-repeat left center;
   padding-left: 15px;
 }
 /*=============== uiTree =============*/
@@ -4575,17 +4575,17 @@ textarea[disabled] {
   font-weight: bold;
 }
 .uiTrees .collapseIcon {
-  background: url("/eXoResources/skin/images/Tree/uiIconTreePlus.gif") no-repeat left center;
+  background: url("../img/plf4-icons/uiIconTreePlus.gif") no-repeat left center;
   width: auto;
   height: auto;
   padding-left: 15px;
   margin: 0px;
 }
 .uiTrees .expandIcon {
-  background: url("/eXoResources/skin/images/Tree/uiIconTreeMinus.gif") no-repeat left center;
+  background: url("../img/plf4-icons/uiIconTreeMinus.gif") no-repeat left center;
 }
 .uiTrees .uiIconEmpty {
-  background: url("/eXoResources/skin/images/Tree/uiIconTreeSquare.gif") no-repeat left center;
+  background: url("../img/plf4-icons/uiIconTreeSquare.gif") no-repeat left center;
 }
 .uiBox > .uiTrees {
   border: none;
