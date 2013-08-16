@@ -118,85 +118,27 @@
       <p><span>In full pagination mode, data are grouped by pages. Each page contains a number of items that are defined by user option or in Setting by administrator</span></p>
       <h4><a name="S1.1"></a><span>Template </span></h4>
       <p>
-      <div class="pagination">
-	<ul>
-	<li class="disabled">
-	<a href="#">&laquo;</a>
-	</li>
-	<li class="active">
-	<a href="#">1</a>
-	</li>
-	<li>
-	<a href="#">2</a>
-	</li>
-	<li>
-	<a href="#">3</a>
-	</li>
-	<li>
-	<a href="#">4</a>
-	</li>
-	<li>
-	<a href="#">&raquo;</a>
-	</li>
-	</ul>
-	</div>
-	<div class="pagination">
-<ul>
-<li>
-<a href="#">&laquo;</a>
-</li>
-<li>
-<a href="#">10</a>
-</li>
-<li class="active">
-<a href="#">11</a>
-</li>
-<li>
-<a href="#">12</a>
-</li>
-<li>
-<a href="#">&raquo;</a>
-</li>
-</ul>
-</div>
-	<div class="pagination">
-	<ul>
-	<li>
-	<a href="#">&laquo;</a>
-	</li>
-	<li class="active">
-	<a href="#">10</a>
-	</li>
-	<li class="disabled">
-	<a href="#">...</a>
-	</li>
-	<li>
-	<a href="#">20</a>
-	</li>
-	<li>
-	<a href="#">&raquo;</a>
-	</li>
-	</ul>
-	</div>
-	<div class="pagination pagination-centered">
-	<ul>
-	<li class="active">
-	<a href="#">1</a>
-	</li>
-	<li>
-	<a href="#">2</a>
-	</li>
-	<li>
-	<a href="#">3</a>
-	</li>
-	<li>
-	<a href="#">4</a>
-	</li>
-	<li>
-	<a href="#">5</a>
-	</li>
-	</ul>
-	</div>
+      <div class="pagination uiPageIterator">
+		<ul>
+		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+		  <li class="active"><a href="">1</a></li>
+		  <li><a href="">2</a></li>
+		  <li><a href="">3</a></li>
+		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+		</ul>
+	  </div>
+	<div class="pagination uiPageIterator">
+		<ul>
+		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+		  <li class="active"><a href="">1</a></li>
+		  <li><a href="">2</a></li>
+		  <li><a href="">3</a></li>
+		  <li class="disabled"><a href="#">...</a></li>
+		  <li><a href="">20</a></li>
+		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+		</ul>
+	  </div>
+	
       <p><b>Stateful page links</b></p>
       <p>Links are customizable and work in a number of circumstances with the right class. <code>.disabled</code> for unclickable links and <code>.active</code> for current page.</p>
       <p><b>Flexible alignment</b></p>
@@ -244,7 +186,11 @@
             <tbody>
             <tr>
                <td>Previous/Next button(disabled)</td>
-               <td><div class="pagination"><ul><li class="disabled"><a href="#">&laquo;</a></li></ul></div></td>
+               <td><div class="pagination uiPageIterator">
+					<ul>
+						<li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+					</ul>
+				</div></td>
 	       <td><p>Previous/Next button is disabled with dark gradient background when the active page is the first/last one.</p>
                    <p>Tooltip: No tooltip</p>
                    <p>Background: transparent</p>
@@ -252,20 +198,24 @@
             </tr>
             <tr>
                <td>Standard Page selector</td>
-               <td><div class="pagination"><ul><li><a href="#"><font size="2">2</font></a></li></ul></div></td>
+               <td>
+					<div class="pagination uiPageIterator">
+						<ul><li><a href="">2</a></li></ul>
+					</div>
+				</td>
                <td><p>Standard page selector buttons are enabled when they are not selected.</p>
                <p>Tooltip: No tooltip</p></td>
             </tr>
             <tr>
                <td>Current Active page</td>
-               <td> <div class="pagination"><ul><li class="active"><a href="#"><font size="2">1</font></a></li></td>
+               <td> <div class="pagination uiPageIterator"><ul><li class="active"><a href="#"><font size="2">1</font></a></li></td>
                <td><p>Current active button is disabled with dark gradient background when it is selected (being viewed)</p>
                <p>Tooltip: No tooltip</p>
                </td>
             </tr>
             <tr>
                <td>Previous/Next button(enabled)</td>
-               <td><div class="pagination"><ul><li><a href="#">&raquo;</a></li></ul></div></td>
+               <td><div class="pagination uiPageIterator"><ul><li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li></ul></div></td>
                <td><p>Previous/Next button is enabled when the active page is not the first/last one.</p>
                <p>Previous/Next button is to select the previous/next page of the current active page.</p>
                <p>Tooltip: Previous/ Next</p>
@@ -287,12 +237,40 @@
             </tr>
             <tr>
                <td>FR-03</td>
-               <td>Minimum button number is 4 <p> <div class="pagination"><ul><li class="disabled"><a href="#">&laquo;</a></li><li class="active"><a href="#"><font size=2>1</font></a></li><li><a href="#"><font size=2>2</font></a></li><li><a href="#">&raquo;</a></li></ul></div></p></td>
+               <td>Minimum button number is 4 <p> <div class="pagination uiPageIterator">
+				<ul>
+				  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+				  <li class="active"><a href="">1</a></li>
+				  <li><a href="">2</a></li>
+				  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+				</ul>
+			  </div></p></td>
             </tr>
             <tr>
                <td>FPR04</td>
-               <td>Maximum button number is 7<p><div class="pagination"><ul><li><a href="#">&laquo;</a></li><li class="active"><a href="#"><font size=2>1</font></a></li><li><a href="#"><font size=2>2</font></a></li><li><a href="#"><font size=2>3</font></a></li><li class="disabled"><a href="#">...</a></li><li><a href="#"><font size=2>20</font></a></li><li><a href="#">&raquo;</a></li></ul><br><br>
-               <ul><li><a href="#">&laquo;</a></li><li class="active"><a href="#"><font size=2>1</font></a></li><li><a href="#"><font size=2>2</font></a></li><li><a href="#"><font size=2>3</font></a></li><li><a href="#"><font size=2>4</font></a></li><li><a href="#"><font size=2>5</font></a></li><li><a href="#">&raquo;</a></li></ul></div></p><br><br></td>
+               <td>Maximum button number is 7<div class="pagination uiPageIterator">
+		<ul>
+		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+		  <li class="active"><a href="">1</a></li>
+		  <li><a href="">2</a></li>
+		  <li><a href="">3</a></li>
+		  <li class="disabled"><a href="#">...</a></li>
+		  <li><a href="">20</a></li>
+		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+		</ul>
+	  </div>
+	  <div class="pagination uiPageIterator">
+		<ul>
+		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+		  <li class="active"><a href="">1</a></li>
+		  <li><a href="">2</a></li>
+		  <li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+		  <li><a href="">5</a></li>
+		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+		</ul>
+	  </div>
+	  </td>
             </tr>
             <tr>
                <td>FPR05</td>
@@ -307,20 +285,30 @@
       <h4><a name="S1.5"></a><span>Item per page</span></h4>
       <p>The default number of item per page of each product should be displayed fully on the desktop screen to avoid t redundant blank space. The default may be fixed with 10 or 20. However, it is nice to have the option to change the number items displaying per page.</p>
       <p>
-      <table><tr><td><font size="2">Page size:</font></td>
-      <td><font size="2"><div class="btn-toolbar"><div class="btn-group">
-          <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">10 <span class="caret"></span></button>
-          <ul class="dropdown-menu">
-            <li><a href="#">20 </a></li>
-            <li><a href="#">30 </a></li>
-            <li><a href="#">40 </a></li>
-            <li><a href="#">50 </a></li>
-            <li><a href="#">100 </a></li>
-          </ul>
-        </div>
-       </div></font></td></tr>
-       </table>
-      
+	  <div class="pagination uiPageIterator clearfix">
+		  <table><tr><td width='90px'><font size="2">Page size:</font></td>
+			<td>
+				<select id="" onchange="window.location.href=this.options[this.selectedIndex].value; return false;" class="selectbox pull-left">
+		
+				  <option selected="" value="">5</option>
+				
+				  <option value="">10</option>
+				
+				  <option value="">15</option>
+				
+				  <option value="">20</option>
+				
+				  <option value="">30</option>
+				
+				  <option value="">60</option>
+				
+				  <option value="">100</option>
+		
+				</select>
+			</td>
+			</tr>
+		   </table>
+		</div>
 	</p>
        <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn-group"</span><span class="tag">></span></li><li class="L1"><span class="pln"> ...</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"dropdown-menu pull-right"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln"> </span><span class="com">&lt;&#033;-- dropdown menu links --&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;/ul&gt;</span></li><li class="L5"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
 	

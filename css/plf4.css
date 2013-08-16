@@ -506,7 +506,7 @@ h3 {
   padding: 3px 0;
 }
 .uiPopup .popupMessage > li span[class*="Icon"] {
-  background: url(/eXoResources/skin/images/PopupMessage/icons.png) no-repeat;
+  background: url(../img/plf4-icons/icons.png) no-repeat;
   padding-left: 20px;
   line-height: 16px;
   height: 16px;
@@ -523,7 +523,7 @@ h3 {
   background-position: left -34px;
 }
 .uiPopup .popupMessage > li span.confirmationIcon {
-  background-position: left -50px;
+  background-position: left -51px;
 }
 .uiPopup .popupMessage > li.collapseItem > ul {
   display: block;
@@ -540,11 +540,7 @@ h3 {
   border: 1px solid #cccccc;
   margin: 0;
 }
-.uiPopup .singleMessage > li span[class*="Icon"] {
-  font-weight: normal;
-  display: block;
-  margin: 10px 10px 20px;
-}
+
 .dropdown-menu {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -4086,6 +4082,9 @@ textarea[disabled] {
 .uiGrid.table {
   border: 1px solid #cfcfcf;
 }
+.uiGrid.table.table-bordered {
+  border-left: none;
+}
 .uiGrid.table thead tr:first-child {
   -webkit-box-shadow: 0px 1px 2px -1px rgba(13, 13, 13, 0.2);
   -moz-box-shadow: 0px 1px 2px -1px rgba(13, 13, 13, 0.2);
@@ -4367,7 +4366,7 @@ textarea[disabled] {
 .table + .pageIteratorBorder .uiPageIterator {
   margin: 0;
 }
-.uiPageIterator > .selectbox {
+.uiPageIterator .selectbox {
   width: 60px;
   box-shadow: 0 0 0 transparent inset;
   height: 26px;
@@ -11442,5 +11441,16 @@ i:hover [class^="uiIconColor"] {
 
 .uiTabGrayInPage .tab-content .listHiddenActionsContainer a:hover .caret {
     border-top-color: #4f72ac;
+}
+
+
+.uiGrid.table td, .uiGrid.table th {
+    border-left: 1px solid #CFCFCF;
+    font-size: 13px;
+    padding: 8px 18px;
+    vertical-align: middle;
+}
+.table-condensed th, .table-condensed td {
+    padding: 4px 5px !important;
 }
 

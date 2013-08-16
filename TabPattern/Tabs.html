@@ -144,15 +144,15 @@
 	
 	
 	<div class="uiTabNormal uiTabGrayInPage">
-    <ul class="nav nav-tabs uiTabsContainer">
+    <ul class="nav nav-tabs">
 		<li class="active">
 			<a href="#tab1_4" data-toggle="tab">Tab 1</a>
 		</li>                                                                                           
 		<li>
-			<a href="#tab1_4" data-toggle="tab">Tab 2</a>
+			<a href="#tab2_4" data-toggle="tab">Tab 2</a>
 		</li>                                                                                           
 		<li class="last">
-			<a href="#tab1_4" data-toggle="tab">Tab 3</a>
+			<a href="#tab3_4" data-toggle="tab">Tab 3</a>
 		</li>                                                                                           
 		<li class="dropdown pull-right listHiddenTabsContainer" style="display: none;">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
@@ -161,7 +161,7 @@
 				</ul>
 		</li>
 	</ul>
-	<div class="tab-content" id="uiActionsBarContainer">
+	<div class="tab-content">
 		<div class="tab-pane fade in active" id="tab1_4">
 			<ul class="nav nav-pills">
 				 <li>
@@ -193,13 +193,78 @@
 			</ul>
 			
 		</div>
+		<div class="tab-pane fade" id="tab2_4">
+			<ul class="nav nav-pills">
+				 <li>
+					 <a class="actionIcon"><i class="uiIconEcmsAddDocument"></i> Action 5</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddFolder"></i> Action 6</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddLocalizationLink"></i> Action 7</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddSymLink"></i> Action 8</a>
+				 </li>
+				 <li style="display: block;" class="pull-right listHiddenActionsContainer">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+					<ul id="ListHideContainer" class="dropdown-menu">
+						<li>
+							<a class="actionIcon"><i class="uiIconEcmsContentNavigation"></i> Content Navigation</a>
+						</li>
+						<li>
+							 <a class="actionIcon"><i class="uiIconEcmsImportNode"></i> Import</a>
+						 </li>
+						 <li>
+							 <a class="actionIcon"><i class="uiIconEcmsManageActions"></i> Actions</a>
+						 </li>
+					</ul>
+				 </li>
+			</ul>
+			
+		</div>
+		<div class="tab-pane fade" id="tab3_4">
+			<ul class="nav nav-pills">
+				 <li>
+					 <a class="actionIcon"><i class="uiIconEcmsAddDocument"></i> Action 9</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddFolder"></i> Action 10</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddLocalizationLink"></i> Action 11</a>
+				 </li>
+				 <li >
+					 <a class="actionIcon"><i class="uiIconEcmsAddSymLink"></i> Action 12</a>
+				 </li>
+				 <li style="display: block;" class="pull-right listHiddenActionsContainer">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+					<ul id="ListHideContainer" class="dropdown-menu">
+						<li>
+							<a class="actionIcon"><i class="uiIconEcmsContentNavigation"></i> Content Navigation</a>
+						</li>
+						<li>
+							 <a class="actionIcon"><i class="uiIconEcmsImportNode"></i> Import</a>
+						 </li>
+						 <li>
+							 <a class="actionIcon"><i class="uiIconEcmsManageActions"></i> Actions</a>
+						 </li>
+					</ul>
+				 </li>
+			</ul>
+			
+		</div>
 	</div>
 	
 </div>	
 	
 	
 </div>
-<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tabbable tabs-below"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tab-content"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln"> ...</span></li><li class="L3"><span class="pln"></span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;ul</span><span class="pln"></span><span class="atn">class</span><span class="pun">=</span><span class="atv">"nav nav-tabs"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln"> ...</span></li><li class="L6"><span class="pln"> </span><span class="tag">&lt;/ul&gt;</span></li><li class="L7"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+
+<pre class="prettyprint linenums"><ol class="linenums"><li><span class="tag">&lt;div</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"uiTabGrayInPage uiTabNormal"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;ul</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"nav nav-tabs"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab1"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Tab 1</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab2"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Tab 2</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"last"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab3"</span><span class="atn">&nbsp;data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">&nbsp;Tab 3</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/ul&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-content"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab1"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade in active"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab2"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab3"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
 
 <h4><a name="S3"></a><span>White Tab in Page</span></h4>
 <p>This kind of tab is used in page with white color style.</p>
