@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Tooltip and Popover-eXo UX Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+     <link href="../css/docs.css" rel="stylesheet">
+     <link href="../css/plf4.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+	<script src="../js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script><script src="../js/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-146052-10']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+ 	 </head>
+
+  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li><a href="../getting-started.html">Getting Started</a></li>
+              <li><a href="../Patterns.html" >Patterns</a></li>
+              <li class="active"><a href="../Components.html">Components</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Tooltip and Popover </h1>
+    <p class="lead">Basic style of tooltip and popover when mousing on a specific item.</p></div>
+</header>
+
+ <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="row"><div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Tooltip</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Popover</a></li>
+	 </ul>
+      </div>
+      <div class="span9">
+        <!-- Headings================================================== -->
+        <section id="S1">
+          <div class="page-header">
+            <h1> Tooltip</h1>
+          </div>
+         <p>Tooltip is used to provide an explanation for specific items. E.g: icon action, text, image explantion...</p>
+          <div class="bs-docs-example">
+           <a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Edit">
+               	<i class="uiIconViewUserInfo uiIconLightGray"></i>
+              </a>
+           
+              <a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Delete">
+               	<i class="uiIconDeleteUser uiIconLightGray"></i>
+              </a>
+          </div>
+<pre class="prettyprint linenums">
+&lt;a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Edit"&gt;
+  &lt;i class="uiIconViewUserInfo uiIconLightGray"&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+&lt;a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Delete"&gt;
+  &lt;i class="uiIconDeleteUser uiIconLightGray"&gt;&lt;/i&gt;
+&lt;/a&gt;
+</pre>
+<div class="bs-docs-example">
+The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="eXo Platform 4">PLF 4</a> includes Portal, <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Enterprise Content Management System">ECMS</a>,<a data-placement="bottom" rel="tooltip" title="" data-toggle="tooltip" href="#" data-original-title="Knowledge Suite"> KS</a>,<a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Collaboration Suite"> CS</a>, and Social.
+</div>
+<pre class="prettyprint linenums">
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="eXo Platform 4"&gt;PLF4&lt;/a&gt;
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Enterprise Content Management System"&gt;ECMS&lt;/a&gt;
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Knowledge Suite"&gt;KS&lt;/a&gt;
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Collaboration Suite"&gt;CS&lt;/a&gt;
+</pre>
+
+<h4>4 directions</h4>
+<p> By changing the value of data-placement to define <code>top</code>, <code>right</code>, <code>bottom</code> or <code>left</code>.
+<div class="bs-docs-example">
+<a title="" data-placement="top" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Top">Tooltip on top ---</a>
+<a title="" data-placement="right" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Right">Tooltip on right ---</a>
+<a title="" data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Bottom">Tooltip on bottom ---</a>
+<a title="" data-placement="left" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Left">Tooltip on left</a>
+</div>
+        </section>
+  <section id="S2">
+           <div class="page-header">
+            <h1> Popover</h1>
+          </div>
+          <p>Popover is used to provide short description about specific items such as help, item detail information...</p>
+          <div class="bs-docs-example">
+           <div class="parentPosition" style="display:inline-block;">
+<i class="uiIconQuestion uiIconLightGray"></i>
+<div class="gotPosition" style="position: absolute;">
+<div class="popover right bbcodePopupContent" style="width: 230px; top: -63.4px; left: 10px; display: none;">
+<span class="arrow" style="top: 30%;"></span>
+<div class="popover-content">This is a sample piece of BBCode to use as an example for this particular BBCode. For example, to demonstrate the use of the [b] tag, enter [b]Some Text[/b].</div>
+</div>
+</div>
+</div></div>
+ 	<pre class="prettyprint linenums">&lt;div class=" "&gt; &lt;i class="uiIconQuestion uiIconLightGray"&gt;&lt;/div&gt;</pre>
+         
+	</section>
+<h4>4 directions</h4>
+<p>Four options are available: top, right, bottom, and left aligned.</p>
+<div class="bs-docs-example">
+<a>Popover on Top ---</a>
+<a>Popover on Right ---</a>
+<a>Popover on Bottom ---</a>
+<a>Popover on Left</a>
+</div>
+	</section>
+</div>
+<p>
+<div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
+</div>
+</p>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+
+  
+   <script type="text/javascript">
+      $(document).ready(function () {
+    $("[rel=tooltip]").tooltip();
+  });
+</script>
+</body></html>

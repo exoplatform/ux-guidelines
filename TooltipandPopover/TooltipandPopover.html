@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Miscellaneous-eXo UX Guidelines</title>
+    <title>Tooltip and Popover-eXo UX Guidelines</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -62,133 +62,87 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Miscellaneous </h1>
-    <p class="lead">Lightweight utility components</p></div>
+    <h1>Tooltip and Popover </h1>
+    <p class="lead">Basic style of tooltip and popover when mousing on a specific item.</p></div>
 </header>
 
  <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row"><div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Well</a></li>
-          <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Close icon</a></li>
-	   <li class=""><a href="#S3"><i class="icon-chevron-right"></i> Helper classes</a></li>
-        </ul>
+          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Tooltip</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Popover</a></li>
+	 </ul>
       </div>
       <div class="span9">
         <!-- Headings================================================== -->
         <section id="S1">
           <div class="page-header">
-            <h1> Well</h1>
+            <h1> Tooltip</h1>
           </div>
-         <p>Use the well as a simple effect on an element to give it an inset effect.</p>
+         <p>Tooltip is used to provide an explanation for specific items. E.g: icon action, text, image explantion...</p>
           <div class="bs-docs-example">
-            <div class="well">
-              Look, I'm in a well!
-            </div>
+           <a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Edit">
+               	<i class="uiIconViewUserInfo uiIconLightGray"></i>
+              </a>
+           
+              <a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Delete">
+               	<i class="uiIconDeleteUser uiIconLightGray"></i>
+              </a>
           </div>
 <pre class="prettyprint linenums">
-&lt;div class="well"&gt;
-  ...
-&lt;/div&gt;
+&lt;a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Edit"&gt;
+  &lt;i class="uiIconViewUserInfo uiIconLightGray"&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+&lt;a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Delete"&gt;
+  &lt;i class="uiIconDeleteUser uiIconLightGray"&gt;&lt;/i&gt;
+&lt;/a&gt;
 </pre>
+<div class="bs-docs-example">
+The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="eXo Platform 4">PLF 4</a> includes Portal, <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Enterprise Content Management System">ECMS</a>,<a data-placement="bottom" rel="tooltip" title="" data-toggle="tooltip" href="#" data-original-title="Knowledge Suite"> KS</a>,<a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Collaboration Suite"> CS</a>, and Social.
+</div>
+<pre class="prettyprint linenums">
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="eXo Platform 4"&gt;PLF4&lt;/a&gt;
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Enterprise Content Management System"&gt;ECMS&lt;/a&gt;
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Knowledge Suite"&gt;KS&lt;/a&gt;
+&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Collaboration Suite"&gt;CS&lt;/a&gt;
+</pre>
+
+<h4>4 directions</h4>
+<p> By changing the value of data-placement to define <code>top</code>, <code>right</code>, <code>bottom</code> or <code>left</code>.
+<div class="bs-docs-example">
+<a title="" data-placement="top" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Top">Tooltip on top ---</a>
+<a title="" data-placement="right" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Right">Tooltip on right ---</a>
+<a title="" data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Bottom">Tooltip on bottom ---</a>
+<a title="" data-placement="left" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Tooltip on Left">Tooltip on left</a>
+</div>
         </section>
-<h2>Optional classes</h2>
-          <p>Control padding and rounded corners with two optional modifier classes.</p>
-          <div class="bs-docs-example">
-            <div class="well well-large">
-              Look, I'm in a well!
-            </div>
-          </div>
-<pre class="prettyprint linenums">
-&lt;div class="well well-large"&gt;
-  ...
-&lt;/div&gt;
-</pre>
-          <div class="bs-docs-example">
-            <div class="well well-small">
-              Look, I'm in a well!
-            </div>
-          </div>
-<pre class="prettyprint linenums">
-&lt;div class="well well-small"&gt;
-  ...
-&lt;/div&gt;
-</pre>
-        <section id="S2">
+  <section id="S2">
            <div class="page-header">
-            <h1> Close icon</h1>
+            <h1> Popover</h1>
           </div>
-          <p>Use the generic close icon for dismissing content like modals and alerts.</p>
+          <p>Popover is used to provide short description about specific items such as help, item detail information...</p>
           <div class="bs-docs-example">
-            <p><button class="close" style="float: none;">&times;</button></p>
-          </div>
-          <pre class="prettyprint linenums">&lt;button class="close"&gt;&amp;times;&lt;/button&gt;</pre>
-          <p>iOS devices require an href="#" for click events if you rather use an anchor.</p>
-          <pre class="prettyprint linenums">&lt;a class="close" href="#"&gt;&amp;times;&lt;/a&gt;</pre>
-	<p>The other way using x icon</p>
-	<div class="bs-docs-example">
-            <p><i class="icon-remove"></i></p>
-	</div>
- 	<pre class="prettyprint linenums">&lt;i class="icon-remove"&gt; &lt;/a&gt;</pre>
+           <div class="parentPosition" style="display:inline-block;">
+<i class="uiIconQuestion uiIconLightGray"></i>
+<div class="gotPosition" style="position: absolute;">
+<div class="popover right bbcodePopupContent" style="width: 230px; top: -63.4px; left: 10px; display: none;">
+<span class="arrow" style="top: 30%;"></span>
+<div class="popover-content">This is a sample piece of BBCode to use as an example for this particular BBCode. For example, to demonstrate the use of the [b] tag, enter [b]Some Text[/b].</div>
+</div>
+</div>
+</div></div>
+ 	<pre class="prettyprint linenums">&lt;div class=" "&gt; &lt;i class="uiIconQuestion uiIconLightGray"&gt;&lt;/div&gt;</pre>
          
 	</section>
-	<section id="S3">
-           <div class="page-header">
-            <h1> Helper classes</h1>
-          </div>
-         <p>Simple, focused classes for small display or behavior tweaks.</p>
-
-          <h4>.pull-left</h4>
-          <p>Float an element left</p>
-<pre class="prettyprint linenums">
-class="pull-left"
-</pre>
-<pre class="prettyprint linenums">
-.pull-left {
-  float: left;
-}
-</pre>
-
-          <h4>.pull-right</h4>
-          <p>Float an element right</p>
-<pre class="prettyprint linenums">
-class="pull-right"
-</pre>
-<pre class="prettyprint linenums">
-.pull-right {
-  float: right;
-}
-</pre>
-
-          <h4>.muted</h4>
-          <p>Change an element's color to <code>#999</code></p>
-<pre class="prettyprint linenums">
-class="muted"
-</pre>
-<pre class="prettyprint linenums">
-.muted {
-  color: #999;
-}
-</pre>
-
-          <h4>.clearfix</h4>
-          <p>Clear the <code>float</code> on any element</p>
-<pre class="prettyprint linenums">
-class="clearfix"
-</pre>
-<pre class="prettyprint linenums">
-.clearfix {
-  *zoom: 1;
-  &:before,
-  &:after {
-    display: table;
-    content: "";
-  }
-  &:after {
-    clear: both;
-  }
-}
-</pre>
+<h4>4 directions</h4>
+<p>Four options are available: top, right, bottom, and left aligned.</p>
+<div class="bs-docs-example">
+<a>Popover on Top ---</a>
+<a>Popover on Right ---</a>
+<a>Popover on Bottom ---</a>
+<a>Popover on Left</a>
+</div>
 	</section>
 </div>
 <p>
@@ -235,5 +189,9 @@ class="clearfix"
     </script>
 
   
-
+   <script type="text/javascript">
+      $(document).ready(function () {
+    $("[rel=tooltip]").tooltip();
+  });
+</script>
 </body></html>
