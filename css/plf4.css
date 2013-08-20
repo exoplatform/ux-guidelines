@@ -513,6 +513,11 @@ h3 {
   color: #333333;
   font-weight: bold;
 }
+
+.uiPopup  .singleMessage > li span[class*="Icon"] {
+  font-weight: normal;
+}
+
 .uiPopup .popupMessage > li span.errorIcon {
   background-position: left 0px;
 }
