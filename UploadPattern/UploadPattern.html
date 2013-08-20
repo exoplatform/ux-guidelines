@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Upload Pattern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/prettify.css" rel="stylesheet">
+      <link href="../css/docs.css" rel="stylesheet">
+      <link href="../css/plf4.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    
+  </head>
+
+  <body>
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
+              <li><a href="../getting-started.html">Getting Started</a></li>
+              <li class="active" ><a href="../Patterns.html" >Patterns</a></li>
+              <li><a href="../Components.html">Components</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Upload Pattern</h1>
+    <p class="lead">Basic style and behavior for uploading file function.</div>
+</header>
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3">
+        <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+        <li class="nav-header">Description</li>
+      	<li><a href="#Overview">Overview</a></li>
+      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
+      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
+      	
+      	<li class="divider"></li>
+      	
+    	<li class="nav-header">What's the Solution?</li>
+    	<li><a href="#S1">Template</a></li>      	
+        <li><a href="#S2">Markup</a></li>
+      	<li><a href="#S3">Status</a></li>
+      	<li><a href="#S4">Rules</a></li>
+      	      	
+      	<li class="divider"></li>
+      	
+      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+        </ul>
+     </div><!-- well -->
+     </div> <!-- span -->
+      <div class="span9">
+      <p><span></span></p>
+      <h3><a name="Overview"></a><span>Overview</span></h3>
+       <p>Upload function allows to attaching files to specific content or changing the avatar of a page or personal image.</p>
+
+      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+
+      <p><span>The user needs may want attach related material to their content such as event, topic, post, wiki... or upload files for storage or sharing. The upload function is a tool to do this.</span></p>
+
+      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
+
+      <p><span>With any systems that need to upload files from local for changing avatar, file storge, file sharing, importing data, upload function must be used.</span></p>
+      
+      <h3><span>What's the Solution?</span></h3>
+      <h4><a name="S1"></a><span>Template</span></h4>
+      <p>Default Upload pop-up:One file can be selected at once:</p>
+<div class="bs-docs-example">
+      <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Upload-1.png">
+ </div>
+      <p>When a file is selected, it is automatically uploaded. The cancel icon is to cancel the being uploaded file:</p>
+<div class="bs-docs-example">
+      <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Upload-2.png">
+ </div>
+<p>While a file is being uploaded, the Select File button is available to select 1 more file to uplad. So, multiple files may be in progress like below:</p>
+<div class="bs-docs-example">
+      <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Upload-3.png">
+ </div>
+
+<p>Uploaded files:</p>
+<div class="bs-docs-example">
+      <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Upload-4.png">
+ </div>
+<p>More file can be selected to continue uploading:</p>
+<div class="bs-docs-example">
+      <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Upload-5.png">
+ </div>
+
+<h4><a name="S2"></a><span>Markup</span></h4>
+<p>HTML is your standard unordered list with links.</p>
+<pre class="prettyprint linenums"><ol class="linenums">
+...
+</pre>
+<div class="bs-docs-example" style="padding-bottom: 24px;">
+<a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Upload Demo</a>
+</div>
+<h4><a name="S3"></a><span>Status</span></h4>
+      <p>
+      <table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Status</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>No file is uploaded by default</td>
+               <td>The Upload popup is displayed with default style.</td>
+            </tr>
+            <tr>
+               <td>A file is being uploaded</td>
+               <td>There is a file name is displayed with progress bar that show the percentage of uploading.There is cancel button to stop uploading process</td>    
+            </tr>      
+           <tr>
+               <td>A file is uploaded completely</td>
+               <td>The progress bar is disappeared. There is a trash icon to remove the uploaded file. </td>
+            </tr>
+            
+         </tbody>
+      </table>
+     </p>
+
+      <h4><a name="S4"></a><span>Rules</span></h4>
+      <p>
+      <table class="table table-bordered table-striped">
+          <tbody>
+            <tr>
+               <td>RP-01</td>
+               <td>Rate button or symbol is easy to see.</td>
+            </tr>
+            <tr>
+               <td>RP-02</td>
+               <td>The rate result of a user is calculated once.</td>
+            </tr>
+            <tr>
+               <td>RP-03</td>
+               <td>Depending on configuration, it is possible to rate again. The old rate result is replaced by the new one.</td>
+            </tr>
+            <tr>
+               <td>RP-04</td>
+               <td>The display of rate stars must be matched with its status.</td>
+            </tr>
+            <tr>
+               <td>RP-05</td>
+               <td>The label of "My rating" must be matched with its value. </td>
+            </tr>
+            <tr>
+               <td>RP-06</td>
+               <td>Rate result is near the title of a content</td>
+            </tr>
+                <tr>
+               <td>RP-07</td>
+               <td>Rate function is available to online logged-in user only.</td>
+            </tr>
+	      </tbody>
+      </table>
+
+     </p>
+<h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+     <p><span>To have real research of end users on the quality of your content or products. The pattern is to make sure the consistency among applications.
+</span></p>
+</div><p>
+<div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
+</div>
+</p>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/prettify.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.js"></script>  
+
+</body></html>
