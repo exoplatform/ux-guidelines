@@ -11467,6 +11467,7 @@ i:hover [class^="uiIconColor"] {
     padding: 4px 5px !important;
 }
 
+
 .prettyprint {
     background-color: #F5F5F5;
     border: 1px solid rgba(0, 0, 0, 0.15);
@@ -11572,6 +11573,7 @@ i:hover [class^="uiIconColor"] {
     text-align: center;
 }
 
+
 .goUp {
     background-color: #F9F9F9;
     background-image: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
@@ -11581,6 +11583,7 @@ i:hover [class^="uiIconColor"] {
     bottom: 45px;
     box-shadow: 0 1px 2px 0 #FFFFFF;
     padding: 6px 4px 6px 10px;
+
 }
 
 .uiMiniCalendar .calendarTimeInput {
@@ -11676,3 +11679,4 @@ i:hover [class^="uiIconColor"] {
     background-position: 0 -140px;
     margin-top: 2px;
 }
+
