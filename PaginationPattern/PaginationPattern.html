@@ -112,7 +112,7 @@
 	  </ul>
       </span></p>
 
-      <h3><span>What's the Solution?</span></h3>
+      <h3><span >What's the Solution?</span></h3>
 
       <h3><a name="S1"></a><span>Full pagination</span></h3>
       <p><span>In full pagination mode, data are grouped by pages. Each page contains a number of items that are defined by user option or in Setting by administrator</span></p>
@@ -120,11 +120,11 @@
       <p>
       <div class="pagination uiPageIterator">
 		<ul>
-		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page" title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
 		  <li class="active"><a href="">1</a></li>
 		  <li><a href="">2</a></li>
 		  <li><a href="">3</a></li>
-		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page" title="Next Page"><i class="uiIconNextArrow"></i></a></li>
 		</ul>
 	  </div>
 	<div class="pagination uiPageIterator">
@@ -146,84 +146,7 @@
       <h4><a name="S1.2"></a><span>Markup </span></h4>
       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pagination"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;ul&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">></span><span class="pln">Prev</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span>  </li><li class="L3"><span class="pln"> </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><spanclass="pun">=</span><span class="atv">"active"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">1</span><span class="tag">&lt;/a&gt;</span></li><li class="L5"><span class="pln"> </span><span class="tag">&lt;/li&gt;</span></li><li class="L6"><span class="pln"> </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">2</span><span class="tag">&lt;/a&gt;&lt;/li></span></li><li class="L7"><span class="pln"> </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">3</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span></li><li class="L8"><span class="pln"> </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">4</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span></li><li class="L9"><span class="pln"> </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">Next</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span></li><li class="L0"><span class="pln"> </span><span class="tag">&lt;/ul&gt;</span></li><li class="L1"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
 
-      <p> <table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-            <tr>
-               <td>Pagination Standard</td>
-               <td>.pagination , a</td>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pagination Active</td>
-               <td>.pagination , .active a</td>
-            </tr>
-            <tr>
-               <td>Pagination Hover</td>
-               <td>.pagination , a:hover</td>
-            </tr>
-             <tr>
-               <td>Text Link</td>
-               <td>body , a </td>
-            </tr>
-           </tr>
-         </tbody>
-      </table></p>
-      <h4><a name="S1.3"></a><span>Status</span></h4>
-      <p>
-	 <table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Status</th>
-               <th>Sample</th>
-               <th>Description</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-               <td>Previous/Next button(disabled)</td>
-               <td><div class="pagination uiPageIterator">
-					<ul>
-						<li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
-					</ul>
-				</div></td>
-	       <td><p>Previous/Next button is disabled with dark gradient background when the active page is the first/last one.</p>
-                   <p>Tooltip: No tooltip</p>
-                   <p>Background: transparent</p>
-	       </td>
-            </tr>
-            <tr>
-               <td>Standard Page selector</td>
-               <td>
-					<div class="pagination uiPageIterator">
-						<ul><li><a href="">2</a></li></ul>
-					</div>
-				</td>
-               <td><p>Standard page selector buttons are enabled when they are not selected.</p>
-               <p>Tooltip: No tooltip</p></td>
-            </tr>
-            <tr>
-               <td>Current Active page</td>
-               <td> <div class="pagination uiPageIterator"><ul><li class="active"><a href="#"><font size="2">1</font></a></li></td>
-               <td><p>Current active button is disabled with dark gradient background when it is selected (being viewed)</p>
-               <p>Tooltip: No tooltip</p>
-               </td>
-            </tr>
-            <tr>
-               <td>Previous/Next button(enabled)</td>
-               <td><div class="pagination uiPageIterator"><ul><li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li></ul></div></td>
-               <td><p>Previous/Next button is enabled when the active page is not the first/last one.</p>
-               <p>Previous/Next button is to select the previous/next page of the current active page.</p>
-               <p>Tooltip: Previous/ Next</p>
-               </td>
-            </tr> 
-         </tbody>
-      </table>
-</p>
+
       <h4><a name="S1.4"></a><span>Rules</span></h4>
       <p><table class="table table-bordered table-striped">
            <tbody>
@@ -312,25 +235,7 @@
 	</p>
        <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn-group"</span><span class="tag">></span></li><li class="L1"><span class="pln"> ...</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"dropdown-menu pull-right"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln"> </span><span class="com">&lt;&#033;-- dropdown menu links --&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;/ul&gt;</span></li><li class="L5"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
 	
-      <p><table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Text</td>
-               <td>body</td>
-            </tr>
-            <tr>
-               <td>Button</td>
-               <td>.btn-group , .btn-mini.dropdown-toggle</td> 
-            </tr>
-          
-         </tbody>
-      </table></p>
+    
       <p>Depending on the characteristics of the content display, there is defination for suitable maximum number of item per page.<br>
       The number of items per page will be loaded depending on the value of the Maximum selected page size.<br>
       The number of pagination button will be changed depending on the number of item per page.</p>
@@ -342,24 +247,14 @@
 	<center>
 	<a name="GoUp"><img src="images/More.jpg"></a>
 	<div id="image"></div><br>
-	<div><a href="javascript:image();"><b></b>Show More...</b></a></div>
+	<div><button class="btn btn-primary" style="width: 686px;"  href="javascript:image();"><b></b>Show More...</b></a></button>
 	</center><br>
        <p>Show More...link is hiden and Go Up link is displayed in case all contents are loaded</p>
-       <center><a href="#GoUp">Go Up...</a></center><br>
-      <p><table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-             </thead>
-         <tbody>
-            <tr>
-               <td>Text Link</td>
-               <td>body , a , a:hover</td>	
-            </tr>
-          </tbody>
-      </table></p>
+       <center  href="#GoUp"><a href="javascript:void(0);" class="goUp" onclick="" rel="tooltip" data-original-title="">
+		 <i class="uiIconGoUp uiIconLightGray"></i>
+		</a>Go Up...</center>
+	   
+      
       <h4><a name="S2.2"></a><span>Status</span></h4>
       <p><table class="table table-bordered table-striped">
          <thead>
