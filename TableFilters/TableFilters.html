@@ -116,7 +116,7 @@
 	<tr>
 		<td valign="top">Filter:</td>
 		<td><select class="input-medium" onchange="Table.filter(this,this)"><option value="">All</option><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></td>
-		<td><input type="text" class="input-medium" placeholder="Enter a name" name="filter" onkeyup="Table.filter(this,this)"></td>
+		<td><input style="margin: 0px;" type="text" class="input-medium" placeholder="Enter a name" name="filter" onkeyup="Table.filter(this,this)"></td>
 		<td><select class="input-medium" onchange="Table.filter(this,this)"><option value="function(){return true;}">All</option><option value="function(val){return parseFloat(val.replace(/\$/,''))>1;}">&gt; $1</option><option parseFloat(val.replace(/\$/,''))<=1;}">&lt;= $1</option></td>
 	</tr>
 </thead>
