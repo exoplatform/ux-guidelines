@@ -11481,6 +11481,7 @@ i:hover [class^="uiIconColor"] {
     word-wrap: break-word;
 }
 
+
 .attachmentContentImage .imageAttachmentBox {
     display: inline-block;
     height: 128px;
@@ -11679,4 +11680,5 @@ i:hover [class^="uiIconColor"] {
     background-position: 0 -140px;
     margin-top: 2px;
 }
+
 
