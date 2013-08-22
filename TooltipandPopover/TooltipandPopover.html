@@ -15,6 +15,11 @@
       <link href="../css/prettify.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
+	 
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -89,24 +94,34 @@
                	<i class="uiIconDeleteUser uiIconLightGray"></i>
               </a>
           </div>
-<pre class="prettyprint linenums">
-&lt;a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Edit"&gt;
-  &lt;i class="uiIconViewUserInfo uiIconLightGray"&gt;&lt;/i&gt;
-&lt;/a&gt;
 
-&lt;a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Delete"&gt;
-  &lt;i class="uiIconDeleteUser uiIconLightGray"&gt;&lt;/i&gt;
-&lt;/a&gt;
-</pre>
+		  <div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	
+			  <a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Edit">
+               	<i class="uiIconViewUserInfo uiIconLightGray"></i>
+              </a>
+           
+              <a data-placement="bottom" rel="tooltip" class="actionIcon" data-original-title="Delete">
+               	<i class="uiIconDeleteUser uiIconLightGray"></i>
+              </a>
+	
+	]]></script>
+</div>
 <div class="bs-docs-example">
 The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="eXo Platform 4">PLF 4</a> includes Portal, <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Enterprise Content Management System">ECMS</a>,<a data-placement="bottom" rel="tooltip" title="" data-toggle="tooltip" href="#" data-original-title="Knowledge Suite"> KS</a>,<a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Collaboration Suite"> CS</a>, and Social.
 </div>
-<pre class="prettyprint linenums">
-&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="eXo Platform 4"&gt;PLF4&lt;/a&gt;
-&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Enterprise Content Management System"&gt;ECMS&lt;/a&gt;
-&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Knowledge Suite"&gt;KS&lt;/a&gt;
-&lt;a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Collaboration Suite"&gt;CS&lt;/a&gt;
-</pre>
+
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	
+		<a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="eXo Platform 4">PLF 4</a>
+		<a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Enterprise Content Management System">ECMS</a>
+		<a data-placement="bottom" rel="tooltip" title="" data-toggle="tooltip" href="#" data-original-title="Knowledge Suite"> KS</a>
+		<a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data-original-title="Collaboration Suite"> CS</a>
+	
+	]]></script>
+</div>
 
 <h4>4 directions</h4>
 <p> By changing the value of data-placement to define <code>top</code>, <code>right</code>, <code>bottom</code> or <code>left</code>.
@@ -135,19 +150,30 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
 			</div>
 		</div>
 	</div>
- 	<pre class="prettyprint linenums">
-&lt;div= class= "parentPosition" style="display:inline-block;"onmouseout="(function(elm) {$(elm).find('.bbcodePopupContent:first').hide();})(this)"	onmouseover="(function(elm) {$(elm).find('.bbcodePopupContent:first').show();})(this)" &gt;
-  &lt;div class=" "&gt; &lt;i class="uiIconQuestion uiIconLightGray"&gt;&lt;/div&gt;
-    &lt;div class=""gotPosition" style="position: relative; display:block"&gt;
-       &lt;class="popover right bbcodePopupContent" style="width: 230px; top: -48.4px; left: 10px; display: none;"&gt;
- 	  &lt;span class="arrow" style="top: 30%&gt;&lt;/span&gt;
-	    &lt;div class="popover-content"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.&lt;/div&gt;
-	   &lt;/div&gt;
-     &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</pre>
-         </section>
+
+
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	
+		<div class="bs-docs-example">
+           <div class="parentPosition" style="display:inline-block;"
+			onmouseout="(function(elm) {$(elm).find('.popupOverContent:first').hide();})(this)"
+			onmouseover="(function(elm) {$(elm).find('.popupOverContent:first').show();})(this)" >
+			<i class="uiIconQuestion uiIconLightGray"></i>
+		    <div class="gotPosition" style="position: relative; display:block">
+				<div class="popover right popupOverContent" style="width: 230px; top: -48.4px; left: 10px; display: none;">
+					<span class="arrow" style="top: 30%;"></span>
+					<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	]]></script>
+</div>
+
+
+	</section>
 <h4>4 directions</h4>
 <p>Four options are available: top, right, bottom, and left aligned.</p>
 <div class="bs-docs-example">
@@ -223,6 +249,7 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
     <script src="../js/bootstrap-typeahead.js"></script>
     <script src="../js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
+		<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 
 
     <!-- Analytics

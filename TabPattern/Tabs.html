@@ -11,10 +11,17 @@
       <link href="../css/bootstrap.min.css" rel="stylesheet"> 
       <link href="../css/bootstrap-responsive.css" rel="stylesheet">
       <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="../css/prettify.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
+	 
+	 <!-- syntaxhighlighter -->
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+	 
+	 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -107,37 +114,68 @@
 <p>This kind of tab is used in pop-up.</p>
 <div class="bs-docs-example">
 <div class="tabbable" style="margin-bottom: 18px;">
-<div id="UIViewTemplate_UITemplateContainer" class="uiTabPane uiTabNormal">
-					<ul id="myTab" class="nav nav-tabs">
-						<li class="active">
-							<a href="#tab-home" data-toggle="tab">Home</a>
-						</li>
-						<li>
-							<a href="#tab-properties" data-toggle="tab">Properties</a>
-						</li>
-						<li>
-							<a href="#tab-settings" data-toggle="tab">Settings</a>
-						</li>
-					</ul>
-					<div id="myTabContent" class="tab-content">
-						<div id="tab-home" class="tab-pane fade in active ">
-							<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-						</div>
-						<div id="tab-properties" class="tab-pane fade ">
-							<p> Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park. </p>
-						</div>
-						<div id="tab-settings" class="tab-pane fade ">
-							<p> Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr. </p>
-						</div>
-					</div>
-				</div>
+	<div id="UIViewTemplate_UITemplateContainer" class="uiTabPane uiTabNormal">
+		<ul id="myTab" class="nav nav-tabs">
+			<li class="active">
+				<a href="#tab-home" data-toggle="tab">Home</a>
+			</li>
+			<li>
+				<a href="#tab-properties" data-toggle="tab">Properties</a>
+			</li>
+			<li>
+				<a href="#tab-settings" data-toggle="tab">Settings</a>
+			</li>
+		</ul>
+		<div id="myTabContent" class="tab-content">
+			<div id="tab-home" class="tab-pane fade in active ">
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+			</div>
+			<div id="tab-properties" class="tab-pane fade ">
+				<p> Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park. </p>
+			</div>
+			<div id="tab-settings" class="tab-pane fade ">
+				<p> Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr. </p>
+			</div>
+		</div>
+	</div>
 </div>
 </div>
 
-	<pre class="prettyprint linenums"><ol class="linenums"><li><span class="tag">&lt;div</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"uiTabPane uiTabNormal"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;ul</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"myTab"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"nav nav-tabs"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;href</span><span class="pun">=</span><span class="atv">"#tab-home"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Home</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;href</span><span class="pun">=</span><span class="atv">"#tab-properties"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Properties</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;href</span><span class="pun">=</span><span class="atv">"#tab-settings"</span><span class="atn">&nbsp;data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">&nbsp;Settings</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/ul&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"myTabContent"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-content"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab-home"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade in active "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab-properties"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab-settings"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	
+
+		<div id="UIViewTemplate_UITemplateContainer" class="uiTabPane uiTabNormal">
+		<ul id="myTab" class="nav nav-tabs">
+			<li class="active">
+				<a href="#tab-home" data-toggle="tab">Home</a>
+			</li>
+			<li>
+				<a href="#tab-properties" data-toggle="tab">Properties</a>
+			</li>
+			<li>
+				<a href="#tab-settings" data-toggle="tab">Settings</a>
+			</li>
+		</ul>
+		<div id="myTabContent" class="tab-content">
+			<div id="tab-home" class="tab-pane fade in active ">
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+			</div>
+			<div id="tab-properties" class="tab-pane fade ">
+				<p> Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park. </p>
+			</div>
+			<div id="tab-settings" class="tab-pane fade ">
+				<p> Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr. </p>
+			</div>
+		</div>
+	</div>
+
+	
+	]]></script>
+</div>
 
 
-			
 			<h4><a name="S2"></a><span>Gray Tab in Page</span></h4>
 <p>This kind of tab is used in page with gray color style.</p>
 <div class="bs-docs-example">
@@ -263,7 +301,126 @@
 </div>
 
 
-<pre class="prettyprint linenums"><ol class="linenums"><li><span class="tag">&lt;div</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"uiTabGrayInPage uiTabNormal"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;ul</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"nav nav-tabs"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab1"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Tab 1</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab2"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Tab 2</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"last"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab3"</span><span class="atn">&nbsp;data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">&nbsp;Tab 3</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/ul&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-content"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab1"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade in active"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab2"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab3"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	
+	<div class="uiTabNormal uiTabGrayInPage">
+		<ul class="nav nav-tabs">
+			<li class="active">
+				<a href="#tab1_4" data-toggle="tab">Tab 1</a>
+			</li>                                                                                           
+			<li>
+				<a href="#tab2_4" data-toggle="tab">Tab 2</a>
+			</li>                                                                                           
+			<li class="last">
+				<a href="#tab3_4" data-toggle="tab">Tab 3</a>
+			</li>                                                                                           
+			<li class="dropdown pull-right listHiddenTabsContainer" style="display: none;">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<!-- <li><a data-toggle="tab" href="#dropdown1_4">Tab demo1</a></li> -->
+					</ul>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane fade in active" id="tab1_4">
+				<ul class="nav nav-pills">
+					 <li>
+						 <a class="actionIcon"><i class="uiIconEcmsAddDocument"></i> Action 1</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddFolder"></i> Action 2</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddLocalizationLink"></i> Action 3</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddSymLink"></i> Action 4</a>
+					 </li>
+					 <li style="display: block;" class="pull-right listHiddenActionsContainer">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+						<ul id="ListHideContainer" class="dropdown-menu">
+							<li>
+								<a class="actionIcon"><i class="uiIconEcmsContentNavigation"></i> Content Navigation</a>
+							</li>
+							<li>
+								 <a class="actionIcon"><i class="uiIconEcmsImportNode"></i> Import</a>
+							 </li>
+							 <li>
+								 <a class="actionIcon"><i class="uiIconEcmsManageActions"></i> Actions</a>
+							 </li>
+						</ul>
+					 </li>
+				</ul>
+				
+			</div>
+			<div class="tab-pane fade" id="tab2_4">
+				<ul class="nav nav-pills">
+					 <li>
+						 <a class="actionIcon"><i class="uiIconEcmsAddDocument"></i> Action 5</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddFolder"></i> Action 6</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddLocalizationLink"></i> Action 7</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddSymLink"></i> Action 8</a>
+					 </li>
+					 <li style="display: block;" class="pull-right listHiddenActionsContainer">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+						<ul id="ListHideContainer" class="dropdown-menu">
+							<li>
+								<a class="actionIcon"><i class="uiIconEcmsContentNavigation"></i> Content Navigation</a>
+							</li>
+							<li>
+								 <a class="actionIcon"><i class="uiIconEcmsImportNode"></i> Import</a>
+							 </li>
+							 <li>
+								 <a class="actionIcon"><i class="uiIconEcmsManageActions"></i> Actions</a>
+							 </li>
+						</ul>
+					 </li>
+				</ul>
+				
+			</div>
+			<div class="tab-pane fade" id="tab3_4">
+				<ul class="nav nav-pills">
+					 <li>
+						 <a class="actionIcon"><i class="uiIconEcmsAddDocument"></i> Action 9</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddFolder"></i> Action 10</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddLocalizationLink"></i> Action 11</a>
+					 </li>
+					 <li >
+						 <a class="actionIcon"><i class="uiIconEcmsAddSymLink"></i> Action 12</a>
+					 </li>
+					 <li style="display: block;" class="pull-right listHiddenActionsContainer">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+						<ul id="ListHideContainer" class="dropdown-menu">
+							<li>
+								<a class="actionIcon"><i class="uiIconEcmsContentNavigation"></i> Content Navigation</a>
+							</li>
+							<li>
+								 <a class="actionIcon"><i class="uiIconEcmsImportNode"></i> Import</a>
+							 </li>
+							 <li>
+								 <a class="actionIcon"><i class="uiIconEcmsManageActions"></i> Actions</a>
+							 </li>
+						</ul>
+					 </li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	]]></script>
+</div>
+
 
 
 <h4><a name="S3"></a><span>White Tab in Page</span></h4>
@@ -295,7 +452,36 @@
 	</div>
 </div>
 
-<pre class="prettyprint linenums"><ol class="linenums"><li><span class="tag">&lt;div</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"uiTabInPage uiTabNormal"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;ul</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"nav nav-tabs"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab1"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Tab 1</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab2"</span><span class="atn">data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Tab 2</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span><span class="tag">&lt;a</span><span class="atn">&nbsp;data-target</span><span class="pun">=</span><span class="atv">"#tab3"</span><span class="atn">&nbsp;data-tonggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">&nbsp;Tab 3</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/ul&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-content"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab1"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade in active"</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab2"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div</span><span class="atn">&nbsp;id</span><span class="pun">=</span><span class="atv">"tab3"</span><span class="atn">&nbsp;class</span><span class="pun">=</span><span class="atv">"tab-pane fade "</span><span class="tag">&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span><span class="atn">...</span><span class="tag">&lt;/p&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&nbsp;&nbsp;&lt;/div&gt;</span></li><li><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	
+	<div id="UITabPane" class="uiTabNormal uiTabInPage">
+		<ul class="nav nav-tabs">
+			<li class="active">
+				<a data-target="#tab1" data-toggle="tab">Tab 1</a>
+			</li>
+			<li>
+				<a data-target="#tab2" data-toggle="tab">Tab 2</a>
+			</li>
+			<li>
+				<a data-target="#tab3" data-toggle="tab">Tab 3</a>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane fade in active" id="tab1">
+				The Content of Tab 1 ...
+			</div>
+			<div class="tab-pane fade" id="tab2">
+				The Content of Tab 2 ...
+			</div>
+			<div class="tab-pane fade" id="tab3">
+				The Content of Tab 3 ...
+			</div>
+		</div>
+	</div>
+	
+	]]></script>
+</div>
 
 <h4><a name="S4"></a><span>Status</span></h4>
 A tab has 2 main statuses:
@@ -373,5 +559,8 @@ Besides, the same usage makes the consistency among products in the way displayi
     <script type="text/javascript" src="../js/application.js"></script>
     <script type="text/javascript" src="../js/sorttable.js"></script>
     <script type="text/javascript" src="../js/table.js"></script>
+	<!-- syntaxhighlighter -->
+	
+	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
    </body>
    </html>

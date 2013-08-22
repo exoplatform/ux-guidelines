@@ -132,7 +132,7 @@
 
 	<div id="myModal1" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
 				<span class="PopupTitle popupTitle">
 					Error
 				</span>
@@ -146,7 +146,7 @@
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
 				</div>
 			</div>
 		</div>
@@ -231,7 +231,7 @@
 
 <div id="myModal" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
 				<span class="PopupTitle popupTitle">
 					Warning
 				</span>
@@ -245,7 +245,7 @@
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
 				</div>
 			</div>
 		</div>
@@ -317,7 +317,7 @@
 
 <div id="myModal2" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
 				<span class="PopupTitle popupTitle">
 					Infomation
 				</span>
@@ -331,7 +331,7 @@
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
 					
 				</div>
 			</div>
@@ -400,7 +400,7 @@
 
 <div id="myModal3" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
 				<span class="PopupTitle popupTitle">
 					Confirmation
 				</span>
@@ -414,8 +414,8 @@
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
-					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">Cancel</a>
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">Cancel</a>
 				</div>
 			</div>
 		</div>
@@ -489,7 +489,7 @@
 						 </ul>
 						 </br>
 						 <a class="" href="#warning" data-toggle="collapse">
-							<i class="uiIconArrowDown"></i><span class="warningIcon"> 3 Warnings </span>
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
 						</a>
 						<ul class="collapse" id="warning">
 							<li>- The field "First Name" is required.
@@ -527,23 +527,23 @@
 				</span>
 			</div>
 			<div class="PopupContent popupContent">	
-				<ul class="singleMessage popupMessage resizable">
+				<ul class="multipleMessage popupMessage resizable">
 					<li>
-						<a href="" data-toggle="collapse">
-							 <i class="uiIconArrowDown"></i>
+						<a class="" href="#error3" data-toggle="collapse">
+							 <i class="uiIconArrowRight"></i>
 							 <span class="errorIcon">
 								1 Error
 							 </span>
 						</a>
-						<ul class="collapse in" id="">
-							<li>- Your email address has incorrect syntax
+						<ul class="collapse" id="error3">
+							<li>- Your email address is incorrect. Please input a valid one!
 							</li>
 						 </ul>
 						 </br>
-						 <a href="" data-toggle="collapse">
-							<i class="uiIconArrowDown"></i><span class="warningIcon"> 3 Warning. </span>
+						 <a class="" href="#warning3" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
 						</a>
-						<ul class="collapse in" id="">
+						<ul class="collapse" id="warning3">
 							<li>- The field "First Name" is required.
 							</li>
 							<li>- The field "Last Name" is required.
@@ -552,9 +552,14 @@
 							</li>
 						 </ul>
 						</br>
-						<a href="" data-toggle="collapse">
-							<i class="uiIconArrowRight"></i><span class="infoIcon"> 2 Infomation. </span>
+						<a class="" href="#info3" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
 						</a>
+						<ul class="collapse" id="info3">
+							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
+							</li>
+						 </ul>
+						
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
@@ -572,13 +577,13 @@
 				</span>
 			</div>
 			<div class="PopupContent popupContent">	
-				<ul class="singleMessage popupMessage resizable">
+				<ul class="multipleMessage popupMessage resizable">
 					<li>
 						
-						 <a href="" data-toggle="collapse">
-							<i class="uiIconArrowDown"></i><span class="warningIcon"> 3 Warning. </span>
+						 <a class="" href="#warning1" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
 						</a>
-						<ul class="collapse in" id="">
+						<ul class="collapse" id="warning1">
 							<li>- The field "First Name" is required.
 							</li>
 							<li>- The field "Last Name" is required.
@@ -587,9 +592,14 @@
 							</li>
 						 </ul>
 						</br>
-						<a href="" data-toggle="collapse">
-							<i class="uiIconArrowRight"></i><span class="infoIcon"> 2 Infomation. </span>
+						<a class="" href="#info1" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
 						</a>
+						<ul class="collapse" id="info1">
+							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
+							</li>
+						 </ul>
+						
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
@@ -606,19 +616,17 @@
 				</span>
 			</div>
 			<div class="PopupContent popupContent">	
-				<ul class="singleMessage popupMessage resizable">
+				<ul class="multipleMessage popupMessage resizable">
 					<li>
-						<a href="" data-toggle="collapse">
-							 <i class="uiIconArrowDown"></i>
-							 <span class="errorIcon">
-								1 Error
-							 </span>
+						
+						<a class="" href="#info2" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
 						</a>
-						<ul class="collapse in" id="">
-							<li>- Your email address has incorrect syntax
+						<ul class="collapse" id="info2">
+							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
 							</li>
 						 </ul>
-						 
+						
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
@@ -626,7 +634,6 @@
 				</div>
 			</div>
 		</div>
-
 
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Multiple Message Pop-up</a>
@@ -660,6 +667,6 @@ We need to use this pattern to ensure the message popup system to display correc
     <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
-
+	<script type="text/javascript" src="../js/uiPopupMessage.js"></script>
 
 </body></html>

@@ -11459,13 +11459,16 @@ i:hover [class^="uiIconColor"] {
     padding: 4px 5px !important;
 }
 
-.goUp {
-    background-color: #F9F9F9;
-    background-image: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
-    background-repeat: repeat-x;
-    border: 1px solid #CFCFCF;
-    border-radius: 3px 3px 3px 3px;
-    bottom: 45px;
-    box-shadow: 0 1px 2px 0 #FFFFFF;
-    padding: 6px 4px 6px 10px;
+.prettyprint {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    font-size: 12.025px;
+    line-height: 18px;
+    margin: 0 0 9px;
+    padding: 8.5px;
+    word-break: break-all;
+    word-wrap: break-word;
 }
+

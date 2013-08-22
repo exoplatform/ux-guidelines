@@ -121,7 +121,7 @@
       <p>Static sample</p>
 	  <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
 		<div class="popupHeader ClearFix">
-			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<a class="uiIconClose pull-right" aria-hidden="true" ></a>
 			<span class="PopupTitle popupTitle">Popup header</span>
 		</div>
 		<div class="PopupContent popupContent">
@@ -156,8 +156,8 @@
 				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
 			</div>
 			<div class="uiAction uiActionBorder"> 
-				<button class="btn" onclick="" type="button">Save</button>
-				<button class="btn" onclick="" type="button">Cancel</button>
+				<button class="btn" onclick="" type="button" data-dismiss="modal">Save</button>
+				<button class="btn" onclick="" type="button" data-dismiss="modal">Cancel</button>
 			</div>
 		</div>
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
@@ -277,8 +277,8 @@
 					</div>
 				</div>
 				<div class="uiAction"> 
-					<button class="btn" onclick="" type="button">Save</button>
-					<button class="btn" onclick="" type="button">Cancel</button>
+					<button class="btn" onclick="" type="button" data-dismiss="modal">Save</button>
+					<button class="btn" onclick="" type="button" data-dismiss="modal">Cancel</button>
 				</div>
 			</div>
 			<span class="uiIconResize pull-right uiIconLightGray"></span>
@@ -601,4 +601,5 @@
     <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
+	<script type="text/javascript" src="../js/uiPopupWindow.js"></script>
 </body></html>
