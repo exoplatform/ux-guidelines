@@ -5457,15 +5457,20 @@ textarea[disabled] {
   width: 105px;
 }
 .uiVoteForm .voteFormContainer .uiIconNormalVote {
-  background: url('/eXoResources/skin/images/Vote/uiIconVote.png') no-repeat center -2px;
+  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -2px;
   width: 17px;
 }
 .uiVoteForm .voteFormContainer .uiIconOverVote {
-  background: url('/eXoResources/skin/images/Vote/uiIconVote.png') no-repeat center -53px;
+  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -53px;
   width: 17px;
 }
 .uiVoteForm .voteFormContainer .uiIconRatedVote {
-  background: url('/eXoResources/skin/images/Vote/uiIconVote.png') no-repeat center -27px;
+  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -27px;
+  width: 17px;
+}
+
+.uiVoteForm .voteFormContainer .uiIconVoted{
+  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -80px;
   width: 17px;
 }
 /******** Vote of View1 **************/
@@ -8591,7 +8596,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiThumbnailsView .actionIconsContainer .selectedBox .nodeLabel{background:#cfcfcf;}
 .uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel{background:#2f5e92;}.uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel>a{color:#ffffff;}
 .uiThumbnailsView .actionIconsContainer .bgThumbnailImage{padding:5px;background:#fff;box-shadow:1px 1px 3px 1px rgba(25, 44, 48, 0.2);display:inline-block;}
-.uiThumbnailsView .actionIconsContainer .loadingProgressIcon{width:64px;height:64px;background:url('/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/LoadingProgress.gif') no-repeat center center;position:relative;margin:auto;}.uiThumbnailsView .actionIconsContainer .loadingProgressIcon img{display:none;max-width:116px;max-height:116px;margin:auto;border:1px solid #afafaf;}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon{width:64px;height:64px;background:url('/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/LoadingProgress.gif') no-repeat center center;position:relative;margin:auto;}.uiThumbnailsView .actionIconsContainer .loadingProgressIcon img{max-width:116px;max-height:116px;margin:auto;}
 .uiThumbnailsView .actionIconsContainer .nodeLabel{width:148px;height:148px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin-bottom:5px;}
 .uiThumbnailsView .actionIconsContainer .actionIcon{width:50px;height:50px;margin:9px auto 0px auto;}
 .uiThumbnailsView .actionIconsContainer .thumbnailImage{width:128px;height:128px;border:none;text-align:center;display:table-cell;vertical-align:middle;padding:10px;}
@@ -10377,7 +10382,7 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiThumbnailsView .actionIconsContainer .selectedBox .nodeLabel{background:#cfcfcf;}
 .uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel{background:#2f5e92;}.uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel>a{color:#ffffff;}
 .uiThumbnailsView .actionIconsContainer .bgThumbnailImage{padding:5px;background:#fff;box-shadow:1px 1px 3px 1px rgba(25, 44, 48, 0.2);display:inline-block;}
-.uiThumbnailsView .actionIconsContainer .loadingProgressIcon{width:64px;height:64px;background:url('/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/LoadingProgress.gif') no-repeat center center;position:relative;margin:auto;}.uiThumbnailsView .actionIconsContainer .loadingProgressIcon img{display:none;max-width:116px;max-height:116px;margin:auto;border:1px solid #afafaf;}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon{width:64px;height:64px;background:url('/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/LoadingProgress.gif') no-repeat center center;position:relative;margin:auto;}.uiThumbnailsView .actionIconsContainer .loadingProgressIcon img{max-width:116px;max-height:116px;margin:auto;}
 .uiThumbnailsView .actionIconsContainer .nodeLabel{width:148px;height:148px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin-bottom:5px;}
 .uiThumbnailsView .actionIconsContainer .actionIcon{width:50px;height:50px;margin:9px auto 0px auto;}
 .uiThumbnailsView .actionIconsContainer .thumbnailImage{width:128px;height:128px;border:none;text-align:center;display:table-cell;vertical-align:middle;padding:10px;}
@@ -11472,3 +11477,94 @@ i:hover [class^="uiIconColor"] {
     word-wrap: break-word;
 }
 
+.attachmentContentImage .imageAttachmentBox {
+    display: inline-block;
+    height: 128px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    width: 128px;
+}
+
+.attachmentContentImage .imageAttachmentBox .imgAttach {
+    line-height: 125px;
+}
+
+.attachmentContentImage .imageAttachmentBox .imgAttach img {
+    max-height: 128px;
+    max-width: 128px;
+}
+
+.attachmentContentImage .imageAttachmentBox .actionAttachImg {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: none;
+    height: 128px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 128px;
+}
+
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p {
+    margin: 45px 0 0;
+}
+
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p + p {
+    margin-top: 0;
+}
+
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p a {
+    color: #FFFFFF;
+}
+
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover {
+    font-weight: bold;
+	
+}
+
+.attachmentContentImage .imageAttachmentBox:hover .actionAttachImg {
+    display: block;
+}
+
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconSearch, .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconDownload{
+	background-image: url("../img/plf4-icons/uiIconsWhite.png");
+}
+
+.uiThumbnailsView .actionIconsContainer .actionIconBox {
+    cursor: pointer;
+    float: left;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0 !important;
+    width: 148px;
+}
+
+.uiThumbnailsView .actionIconsContainer .nodeLabel {
+    border-radius: 3px 3px 3px 3px;
+    height: 148px;
+    margin-bottom: 5px;
+    width: 148px;
+}
+
+.uiThumbnailsView .actionIconsContainer .thumbnailImage {
+    border: medium none;
+    display: table-cell;
+    height: 128px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 128px;
+}
+
+.uiThumbnailsView .actionIconsContainer .bgThumbnailImage {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 1px 3px 1px rgba(25, 44, 48, 0.2);
+    display: inline-block;
+    padding: 5px;
+}
+
+.uiThumbnailsView .actionIconsContainer .thumbnailImage {
+    text-align: center;
+}
