@@ -11575,6 +11575,7 @@ i:hover [class^="uiIconColor"] {
 }
 
 
+
 .goUp {
     background-color: #F9F9F9;
     background-image: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
@@ -11680,5 +11681,4 @@ i:hover [class^="uiIconColor"] {
     background-position: 0 -140px;
     margin-top: 2px;
 }
-
 
