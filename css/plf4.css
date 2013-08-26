@@ -11568,3 +11568,14 @@ i:hover [class^="uiIconColor"] {
 .uiThumbnailsView .actionIconsContainer .thumbnailImage {
     text-align: center;
 }
+
+.goUp {
+    background-color: #F9F9F9;
+    background-image: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
+    background-repeat: repeat-x;
+    border: 1px solid #CFCFCF;
+    border-radius: 3px 3px 3px 3px;
+    bottom: 45px;
+    box-shadow: 0 1px 2px 0 #FFFFFF;
+    padding: 6px 4px 6px 10px;
+}
