@@ -68,7 +68,8 @@
         <li class="nav-header">Description</li>
       	<li><a href="#Overview">Overview</a></li>
       	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
-      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
+      	<li><a href="#WTUTP">
+ to Use This Pattern?</a></li>
       	
       	<li class="divider"></li>
       	
@@ -86,21 +87,20 @@
      </div> <!-- span -->
       <div class="span9">
       <p><span></span></p>
-      <h3><a name="Overview"></a><span>Overview</span></h3>
-       <p>Breadcrumb  is a navigation aid used in user interfaces. It allows users to keep track of their locations within programs or documents.<br>
-	The main purpose of the document is to provide a pattern of breadcrumbs.</p>
 
-      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+<h3><a name="Overview"></a><span>Overview</span></h3>
+<p><h7>Breadcrumb  is a navigation aid used in user interfaces. It allows users to keep track of their locations within programs or documents.
+The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p>
 
-      <p><span>The user needs to be able to navigate up (towards the root page) and have an understanding of where he is in relation to the rest of the site.</span></p>
+<h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+<p><h7>The user needs to be able to navigate up (towards the root page) and have an understanding of where he is in relation to the rest of the site.</h7></p>
 
-      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
+<h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
+<p><h7>Breadcrumbs should be used when the structure of the website follows a strict hierarchical structure of similar formatted content. Especially, when the structure of the site is parted into sections which can be divided into more subsections and so on. In case the user cannot easily navigate through the hierarchy via other local navigation methods, breadcrumbs is useful.</h7></p>
 
-      <p><span>Breadcrumbs should be used when the structure of the website follows a strict hierarchical structure of similar formatted content. Especially, when the structure of the site is parted into sections which can be divided into more subsections and so on. In case the user cannot easily navigate through the hierarchy via other local navigation methods, breadcrumbs is useful.</span></p>
-      
-      <h3><span>What's the Solution?</span></h3>
-      <h4><a name="S1"></a><span>Template</span></h4>
-      <p>The standard breadcrumb template:</p>
+<h3><span>What's the Solution?</span></h3>
+<h4><a name="S1"></a><span>Template</span></h4>
+<p><h7>The standard breadcrumb template:</h7></p>
 <div class="bs-docs-example">
       <ul class="breadcrumb">
          <li class="active">Home</li>
@@ -123,7 +123,7 @@
     </ul>
 </div>
 <h4><a name="S2"></a><span>Markup</span></h4>
-<p>HTML is your standard unordered list with links.</p>
+<p><h7>HTML is your standard unordered list with links.</h7></p>
 <pre class="prettyprint linenums"><ol class="linenums">
 <li class="L0"><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"breadcrumb"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;li&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">  &lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">Home</span><span class="tag">&lt;/a&gt;</span><span class="pln"> </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"uiIconMiniArrowRight"</span><span class="tag">&gt;</span><span class="pln">&nbsp;</span><span class="tag">&lt;/span&gt;</span></li><li class="L3"><span class="pln"> </span><span class="tag">&lt;/li&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;li></span></li><li class="L5"><span class="pln"> </span><span class="tag">  &lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">></span><span class="pln">Library</span><span class="tag"></a></span><span class="pln"> </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"uiIconMiniArrowRight"</span><span class="tag">></span><span class="pln">&nbsp;</span><span class="tag">&lt;/span&gt;</span></li><li class="L6"><span class="pln"> </span><span class="tag">&lt/li&gt;</span></li><li class="L7"><span class="pln"> </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">></span><span class="pln">Data</span><span class="tag">&lt;/li&gt</span></li><li class="L8"><span class="tag">&lt;/ul&gt;</span></li></ol>
 </pre>
@@ -134,7 +134,7 @@
          <thead>
             <tr>
                <th>Object</th>
-               <th>class=""</th>
+               <th>Class</th>
             </tr>
          </thead>
          <tbody>
@@ -220,25 +220,13 @@
                <td>BR-10</td>
                <td>There are 2 spaces before and after each breadcrumb divider </td>
             </tr>
-            <tr>
-               <td></td>
-               <td></td>
-            </tr>
-         </tbody>
+          </tbody>
       </table>
 
      </p>
 <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
-     <p><span>Because of 3 main benefits of breadcrumbs:
-     <ul>
-     <li>Provide users information where they are in a site/application</li>
-     <li>Offer shortcut links for users to jump to previously viewed pages</li>
-     <li>Allow users know the structure of a site/application</li>
-     </ul>
-     It should be used in all sub pages. Besides, the consistency of breadcrumbs in use will make eXo products look more professional and statistical.
-
-
-</span></p>
+<p><h7>Because of some main benefits of breadcrumbs:provide users information where they are in a site/application, offer shortcut links for users to jump to previously viewed pages, allow users know the structure of a site/application. It should be used in all sub pages. Besides, the consistency of breadcrumbs in use will make eXo products look more professional and statistical.
+</h7></p>
 </div><p>
 <div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
 </div>

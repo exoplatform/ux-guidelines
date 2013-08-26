@@ -86,29 +86,18 @@
     <div class="span9">
       <p><span></span></p>
       <h3><a name="Overview"></a><span>Overview</span></h3>
-         A message is a short communication transmitted by words and signals. It is a feedback to end users. In eXo products, messages are grouped 4 types:
-	<ul><li>Error</li>
-	<li>Warning</li>
-	<li>Information</li>
-	<li>Confirmation</li></ul>
-	The main purpose of the document is to provide a pattern of each kind of message.
-
+     <p><h7>A message is a short communication transmitted by words and signals. It is a feedback to end users. In eXo products, messages are grouped 4 types:Error, Warning, Information and Confirmation.<br>The main purpose of the document is to provide a pattern of each kind of message.</h7></p>
       <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
-
-      <p><span>Displaying a message to an user is a way to communicate with him, so as any communication it is important to take care about the message and the way it will be displayed.<br> This pattern provides a guide to avoid creating unclear messages to users and correctly differentiate each kind of message.</span></p>
+      <p><h7>Displaying a message to an user is a way to communicate with him, so as any communication it is important to take care about the message and the way it will be displayed.<br> This pattern provides a guide to avoid creating unclear messages to users and correctly differentiate each kind of message.</h7></p>
 
       <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
-	<p>Normally, a function includes a lot of cases to show messages to end users. During the development process, the developers and testers must be able to take cover all of them. It is a need to clarify what kind a message is to display it with correct content and template.</p>
+	<p><h7>Normally, a function includes a lot of cases to show messages to end users. During the development process, the developers and testers must be able to take cover all of them. It is a need to clarify what kind a message is to display it with correct content and template.</h7></p>
 
       <h3><span>What's the Solution?</span></h3>
-      <p><div>Messages can be grouped in 4 types:
-      <ul><li>Error</li>
-      <li>Warning</li>
-      <li>Information</li>
-      <li>Confirmation</li></ul>
-       <h4><a name="S1"></a><span>Error Message</span></h4>
-       <h5>Template</h5>
-       <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+      <p><h7>Messages can be grouped in 4 types: Error, Warning, Information and Confirmation.</h7></p>
+      <p><h4><a name="S1"></a><span>Error Message</span></h4></p>
+      <p><h5>Template</h5></p>
+      <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
 				<span class="PopupTitle popupTitle">
@@ -176,37 +165,33 @@
          </tbody>
       </table>
 
-       <h5>How to Use</h5>
+      <p><h5>How to Use</h5></p>
 <p><b>What is error message?</b></p>
-	<p>An error message alerts users of a problem that has already occurred.<br>Effective error messages inform users that a problem occurred, explain why it happened, and provide a solution so users can fix the problem</p>
-	<p><b>Characteristic of a good message</b></p>
-	<p>A good error message should be relevant, brief, clear, specific, courteous and rare on:</p>
-	<p><b>A problem</b>: States that a problem occurred<br>E.g: Your connection is time out</p>
-	<p><b>A cause</b>: Explain why the probelm occurred<br>E.g: Your chosen User name already exists</p>
-	<p><b>A solution</b>:Provides a solution so that users can fix the problem.<br>E.g:Please input a valid email format such as yourname@example.com</p>
-	<p><b>What should be avoided in an error message?</b></p>
-	<p>Unnecessary error message<br>E.g: This file has been already deleted<br>This error message should be elimiated because the action was successful from the user's point of view. It should be an information rather than an error.</p>
-	<p>Avoid too long and over communication error message<br>Most of users would like to scan rather than read many things in detail. So, avoid too long error message to explain a problem or provide a link in a error message and request users to read it.</p>
-	<p>Error messags that blame users<br>E.g: You have input an invalid user naem.<br>This kind of error message will make user fell rude.</p>
-	<p>Programmer error messages<br>Eg: Messages intended to help the program's developers find bugs are left in the release version of the program.<br>These error messages have no meaning or value to users</p>
-	<p>Handing unknown error<br>Any unknown error display that will make users feel your application is not reliable. Try to hand and provide a detailed message about invalid action.
-	<p>Avoid Troubleshootings</p>
-	<ul>
-	<li>Avoid creating troubleshooting problems. Don't rely on a single error message to report a problem with several different detectable causes.</li>
-	<li>Use a different error message for each detectable cause. For example, if a file cannot be opened for several reasons, provide a separate supplemental instruction for each reason.</li>
-	<li>Use a message with multiple causes only when the specific cause can't be determined. In this case, present the solutions in order of likelihood of fixing the problem. Doing so helps users solve the problem more efficiently.</li>
-	</ul>
-	<p>Incorrect:</p>
+	<p><h7>An error message alerts users of a problem that has already occurred.<br>Effective error messages inform users that a problem occurred, explain why it happened, and provide a solution so users can fix the problem</h7></p>
+	<p><h7><b>Characteristic of a good message</b></h7></p>
+	<p><h7>A good error message should be relevant, brief, clear, specific, courteous and rare on:</h7></p>
+	<p><h7><b>A problem</b>: States that a problem occurred<br>E.g: Your connection is time out</h7></p>
+	<p><h7><b>A cause</b>: Explain why the probelm occurred<br>E.g: Your chosen User name already exists</h7></p>
+	<p><h7><b>A solution</b>:Provides a solution so that users can fix the problem.<br>E.g:Please input a valid email format such as yourname@example.com</h7></p>
+	<p><h7><b>What should be avoided in an error message?</b></h7></p>
+	<p><h7>Unnecessary error message<br>E.g: This file has been already deleted<br>This error message should be elimiated because the action was successful from the user's point of view. It should be an information rather than an error.</h7></p>
+	<p><h7>Avoid too long and over communication error message<br>Most of users would like to scan rather than read many things in detail. So, avoid too long error message to explain a problem or provide a link in a error message and request users to read it.</h7></p>
+	<p><h7>Error messags that blame users<br>E.g: You have input an invalid user naem.<br>This kind of error message will make user fell rude.</h7></p>
+	<p><h7>Programmer error messages<br>Eg: Messages intended to help the program's developers find bugs are left in the release version of the program.<br>These error messages have no meaning or value to users</h7></p>
+	<p><h7>Handing unknown error<br>Any unknown error display that will make users feel your application is not reliable. Try to hand and provide a detailed message about invalid action.</h7></p>
+	<p><h7>Avoid Troubleshootings<br>
+	Avoid creating troubleshooting problems. Don't rely on a single error message to report a problem with several different detectable causes.<br>
+	Use a different error message for each detectable cause. For example, if a file cannot be opened for several reasons, provide a separate supplemental instruction for each reason.<br>
+	Use a message with multiple causes only when the specific cause can't be determined. In this case, present the solutions in order of likelihood of fixing the problem. Doing so helps users solve the problem more efficiently.
+	</h7></p>
+	<h7>Incorrect:</h7>
 	<img src="images/image01.png"/>
 	<p>Correct:</p>
-	<img src="images/image03.png"/>
-	
+	<img src="images/image03.png"/>	
        
-      <h4><a name="S2"></a><span>Warning Message</span></h4>
-        <h5>Template</h5>
-
-		
-		<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+      <p><h4><a name="S2"></a><span>Warning Message</span></h4></p>
+      <p><h5>Template</h5></p>		
+     <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
 				<span class="PopupTitle popupTitle">
@@ -253,45 +238,28 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Warning Message Pop-up</a>
 </div>
-<table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td>.modal .modal-header .modal-body .modal-footer</td>
-            </tr>
-            <tr>
-               <td>Button</td>
-               <td>.btn .btn-warning</td>
-            </tr>
-           <tr><td>Label</td><td>.label .label-warning
-         </tbody>
-      </table>
+<pre class="prettyprint linenums">
+...
+</pre>
+      <p><h5>How to Use</h5></p>
+<p><h7><b>What is Warning Message?</b><br>A warning message is to alert users of a condition that might cause a problem in the future.</h7></p>
 
-       <h5>How to Use</h5>
-<p><b>What is Warning Message?</b><br>A warning message is to alert users of a condition that might cause a problem in the future.</p>
+	<p><h7><b>Characteristic of a good warning message</b></h7></p>
+	<p><h7>Involve risk. Good warnings alert users of something significant.<br>E.g:Are you sure to want to delete the driver and all its data?</h7></p>
+	<p><h7>Have immediate relevance<br>E.g:The account will be blocked with 5 times incorrect password input to prevent hackers!</h7></p>
+	<p><h7>Lead to action. There is something users must do or be aware of as the result of the warning. Warnings without actions just make users feel paranoid.<br>E.g: Your account will be blocked! The message will make users confused and don't understand why?</h7></p>
+	<p><h7>Be clear and specific. Read the warning message, users can know:<br>
+	The source of the warning. E.g Use the title to know where the warning came from<br>
+	The specific condition and potential problem.<br>
+	What the user should do about it.<br>
+	What happens if the user doesn't do anything.
+	</h7></p>
 
-	<p><b>Characteristic of a good warning message</b></p>
-	<p></p>Involve risk. Good warnings alert users of something significant.<br>E.g:Are you sure to want to delete the driver and all its data?</p>
-	<p>Have immediate relevance<br>E.g:The account will be blocked with 5 times incorrect password input to prevent hackers!</p>
-	<p>Lead to action. There is something users must do or be aware of as the result of the warning. Warnings without actions just make users feel paranoid.<br>E.g: Your account will be blocked! The message will make users confused and don't understand why?</p>
-	<p>Be clear and specific. Read the warning message, users can know:</p>
-	<ul>
-	<li>The source of the warning. E.g Use the title to know where the warning came from</li>
-	<li>The specific condition and potential problem.</li>
-	<li>What the user should do about it.</li>
-	<li>What happens if the user doesn't do anything.</li>
-	</ul>
-	<p><b>What should be avoided in a warning message?</b></p>
-	<p>Redundant message<br>Overwarning that makes your program feel hazardous and look lije it was designed by lawyers.</p>
+	<p><h7><b>What should be avoided in a warning message?</b></h7></p>
+	<p><h7>Redundant message<br>Overwarning that makes your program feel hazardous and look lije it was designed by lawyers.</h7></p>
 	
-      <h4><a name="S3"></a><span>Information Message</span></h4>
-          <h5>Template</h5>
+      <p><h4><a name="S3"></a><span>Information Message</span></h4></p>
+      <p><h5>Template</h5></p>
 		<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
@@ -342,39 +310,22 @@
 <a class="btn btn-primary btn-large" href="#myModal2" data-toggle="modal">Launch Info Message Pop-up</a>
 </div>
 
-<table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td>.modal .modal-header .modal-body .modal-footer</td>
-            </tr>
-            <tr>
-               <td>Button</td>
-               <td>.btn .btn-info</td>
-            </tr>
-           <tr><td>Label</td><td>.label .label-info
-         </tbody>
-      </table>
-       <h5>How to Use</h5>
-<p><b>What is Information Message?</b></p>
-	<p>An information message is to alert users useful and relevant, but never critical information. It like a notification to let user know a specific information.<br>E.g: Your account has been registered successfully. Please go to your email address box to activate your account.</p>
-	<p><b>Characteristic of a good information message:</b></p>
-	<ul>
-	<li>Useful. The information let user know something new or has been done successfully.</li>
-	<li>Asynchronous. The information is not an immediate, action required in information message can be postponed.</li>
-	<li>Relevant. The information is helpful that user may already know.</li><br>
-	<p><b>What should be avoided in an information message?</b></p>
-	<li>Redundant. The message includes many redundant information<br> E.g: In Answers, submit a question successfully, there is a information pop up display that does not close automatically. So, users have to click OK to close the pop-up that is inconvenient. </li>
-	<li>Annoying. The message displays too much that is not necessary.<br> E.g: These selected files have been deleted successfully.</li>
-	<li>Actionable. The information does not require immediate action</li></ul>
-<h4><a name="S4"></a><span>Confirmation Message</span></h4>
-          <h5>Template</h5>
+<pre class="prettyprint linenums">
+...
+</pre>       <h5>How to Use</h5>
+<p><h7><b>What is Information Message?</b></h7></p>
+	<p><h7>An information message is to alert users useful and relevant, but never critical information. It like a notification to let user know a specific information.<br>E.g: Your account has been registered successfully. Please go to your email address box to activate your account.</h7></p>
+	<p><h7><b>Characteristic of a good information message:</b><br>
+	Useful. The information let user know something new or has been done successfully.<br>
+	Asynchronous. The information is not an immediate, action required in information message can be postponed.<br>
+	Relevant. The information is helpful that user may already know.</h7></p>
+	
+	<p><h7><b>What should be avoided in an information message?</b></h7></p>
+	<p><h7>Redundant. The message includes many redundant information<br> E.g: In Answers, submit a question successfully, there is a information pop up display that does not close automatically. So, users have to click OK to close the pop-up that is inconvenient. <br>
+	Annoying. The message displays too much that is not necessary.<br> E.g: These selected files have been deleted successfully.<br>
+	Actionable. The information does not require immediate action</h7></p>
+<p><h4><a name="S4"></a><span>Confirmation Message</span></h4></p>
+ <p><h5>Template</h5></p>
          <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
@@ -423,49 +374,29 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Confirmation Message Pop-up</a>
 </div>
-<table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td>.modal .modal-header .modal-body .modal-footer</td>
-            </tr>
-            <tr>
-               <td>Button</td>
-               <td>.btn .btn-primary</td>
-            </tr>
-           <tr><td>Label</td><td>.label
-         </tbody>
-      </table>
+<pre class="prettyprint linenums">
+...
+</pre>
     
 <h5>How to Use</h5>
-<p><b>What is Confirmation Message?</b></p>
-	<p>A confirmation message is to ask if the user wants to proceed with an action.<br>The display of a confirmation can be in a default browser pop-up or in a customized pop up window like the same template above.<br>With the deletion confirmation that may damage to huge data such as delete a forum, all its topics/post will be lost. The confirmation should be a warning that display in a pop up (like the template above) rather than using browser pop-up to warn the importance of the current action.
-       </p>
-	<p><b>Characteristic of a good confirmation message</b></p>
-	<ul>
-	<li>Obvious result display of an action initiated by the user.</li>
-	<li>Relevant verification if the user wants to proceed with the action.</li>
-	<li>Simple question and two or more responses.</li></ul>
-	<p>If a confirmation involves risk, it can be considered a warning as well. It is great to use a customized pop-up window rather than a default browser pop-up.</p>
+<p><h7><b>What is Confirmation Message?</b></h7></p>
+	<p><h7>A confirmation message is to ask if the user wants to proceed with an action.<br>The display of a confirmation can be in a default browser pop-up or in a customized pop up window like the same template above.<br>With the deletion confirmation that may damage to huge data such as delete a forum, all its topics/post will be lost. The confirmation should be a warning that display in a pop up (like the template above) rather than using browser pop-up to warn the importance of the current action.
+       </h7></p>
+	<p><h7><b>Characteristic of a good confirmation message</b><br>
+	Obvious result display of an action initiated by the user.<br>
+	Relevant verification if the user wants to proceed with the action.<br>
+	Simple question and two or more responses.</h7></p>
+<p><h7>If a confirmation involves risk, it can be considered a warning as well. It is great to use a customized pop-up window rather than a default browser pop-up.</h7></p>
 
-	<p><b>What should be avoided in a confirmation message?</b></p>
-	<ul>
-	<li>Unnecessary confirmation.<br>E.g: Are you sure to rename the file?</li>
-	<li>Annoying confirmation.<br>E.g: There is no change on the form. However, when clicking on close form. there is confirmation "Are you sure to close the form? "</li>
-	<li>Redundant confirmation<br>E.g: Some actions we can redo, recover the old content by revision or from the trash, it is no need to have deletion confirmation </li>
-	</ul>
-	<br>
+	<p><h7><b>What should be avoided in a confirmation message?</b><br>
+	Unnecessary confirmation.<br>E.g: Are you sure to rename the file?<br>
+	Annoying confirmation.<br>E.g: There is no change on the form. However, when clicking on close form. there is confirmation "Are you sure to close the form? "<br>
+	Redundant confirmation<br>E.g: Some actions we can redo, recover the old content by revision or from the trash, it is no need to have deletion confirmation 
+	</h7></p>
 
 <h4><a name="S5"></a><span>Multiple Messages</span></h4>
-<p><b>The order priority: Error - Waring - Information - The 1st kind message content is expanded by default. The number of messages are dynamic.</b>
-</p>
-<h5>Template</h5>
+<p><h7>The order priority: <b>Error - Waring - Information.</b> The 1st kind message content is expanded by default. The number of messages are dynamic.</h7></p>
+<p><h5>Template</h5></p>
 
 		<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
@@ -517,7 +448,7 @@
 		</div>
 
 
-<p>The label is Error in case 1 message, it will be Errors in case more than 1 message. Similar to Warning and Information. Each type of messages can be clicked to show/hide flexibly.</p>
+<p><h7>The label is Error in case 1 message, it will be Errors in case more than 1 message. Similar to Warning and Information. Each type of messages can be clicked to show/hide flexibly.</h7></p>
 
 		<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
@@ -568,7 +499,7 @@
 			</div>
 		</div>
 
-<p>In case, there is no problem with one kind of message, for example, there is no error, the Error label is hidden:</p>
+<p><h7>In case, there is no problem with one kind of message, for example, there is no error, the Error label is hidden:</h7></p>
 <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
@@ -607,7 +538,7 @@
 				</div>
 			</div>
 		</div>
-<p>In case 1 kind of multiple messages:</p>
+<p><h7>In case 1 kind of multiple messages:</h7></p>
 <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
@@ -638,10 +569,12 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Multiple Message Pop-up</a>
 </div>
-
+<pre class="prettyprint linenums">
+...
+</pre>
      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
-     <p>Messages is a way an application talk to end users. So, messages play an important role to make the success of an application.
-We need to use this pattern to ensure the message popup system to display correctly, consistently and professionally.</p>
+     <p><h7>Messages is a way an application talk to end users. So, messages play an important role to make the success of an application.
+We need to use this pattern to ensure the message popup system to display correctly, consistently and professionally.</h7></p>
 </div>
 </div>
 <p>
