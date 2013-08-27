@@ -132,6 +132,9 @@ h5 {
 h6 {
   font-size: 13px;
 }
+h7 {
+  line-height: 25px;
+}
 h4 {
   color: #333333;
   font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
