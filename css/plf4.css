@@ -11658,6 +11658,79 @@ i:hover [class^="uiIconColor"] {
     color: #FFCB05;
 }
 
+
+.uiMiniCalendar .calendarTimeInput {
+    background-color: #F0F0F0;
+    border-radius: 0 0 3px 3px;
+    line-height: 18px;
+    padding: 4px 0;
+    text-align: center;
+}
+
+.uiMiniCalendar .calendarTimeInput span {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #CFCFCF;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.075) inset;
+    display: inline-block;
+}
+
+.uiMiniCalendar .calendarTimeInput input[type="text"]:first-child {
+    padding: 0;
+    text-align: right;
+    width: 25px;
+}
+.uiMiniCalendar .calendarTimeInput input[type="text"] {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 transparent;
+    color: #333333;
+    height: 18px;
+    margin: 0;
+    text-align: center;
+    width: 28px;
+}
+
+.UIWCMNavigationPortlet {
+    padding: 0 8px;
+}
+
+.UIWCMNavigationPortlet .UINavigationBar {
+    background: none repeat scroll 0 0 #20263F;
+    height: 32px;
+    padding: 0 8px 0 20px;
+}
+.UIWCMNavigationPortlet ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.UIWCMNavigationPortlet .UINavigationBar .ControlButton {
+    color: #FFFFFF;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+}
+
+.UIWCMNavigationPortlet .UINavigationBar .Button {
+    cursor: pointer;
+    line-height: 32px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.UIWCMNavigationPortlet .UINavigationBar .ControlButton a {
+    color: #C2C2C2;
+}
+
+.UIWCMNavigationPortlet .UINavigationBar .HoverButton .Button {
+    color: #FFCB05;
+}
+
+
 .UIWCMNavigationPortlet .UINavigationBar .HoverButton a {
     color: #FFCB05;
 }
@@ -11679,5 +11752,6 @@ i:hover [class^="uiIconColor"] {
 .accordion .uiIconSelected {
     background-position: 0 -140px;
     margin-top: 2px;
+
 }
 
