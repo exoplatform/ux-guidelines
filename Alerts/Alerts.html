@@ -15,6 +15,11 @@
       <link href="../css/prettify.css" rel="stylesheet">
       <link href="../css/docs.css" rel="stylesheet">
       <link href="../css/plf4.css" rel="stylesheet">
+	  
+	   <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -83,13 +88,19 @@
           </div>
           <p>The notification that alert users of a conditionthat might cause a problem in the future.</p>
           <div class="bs-docs-example">
-            <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Notify-1.png">
+            
+			<div class="alert alert-warning" id="">
+				<i class="uiIconWarning"></i>'Test demo' was not exit. <a href="">Undo</a>
+			</div>
+			
           </div>
-<pre class="prettyprint linenums">
-&lt;div class=""&gt;
-  ...
-&lt;/div&gt;
-</pre>         
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="alert alert-warning" id="">
+	<i class="uiIconWarning"></i>'Test demo' was not exit. <a href="">Undo</a>
+</div>
+]]></script>
+</div>      
         </section>
 
         <section id="S2">
@@ -98,14 +109,20 @@
           </div>
          <p>The notification that alert users about successful action they have done.</p>
           <div class="bs-docs-example">
-           <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Notify-2.png">
-            </div>
-       <pre class="prettyprint linenums">
-&lt;div class=""&gt;
-  ...
-&lt;/div&gt;
-</pre>
-</section>
+            
+			<div class="alert alert-success" id="">
+				<i class="uiIconSuccess"></i>Question <a href="">What's exo ?</a> has been added successfully
+			</div>
+			
+          </div>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="alert alert-success" id="">
+	<i class="uiIconSuccess"></i>Question <a href="">What's exo ?</a> has been added successfully
+</div>
+]]></script>
+</div>      
+        </section>
 
         <section id="S3">
           <div class="page-header">
@@ -114,14 +131,20 @@
         <p>The notification that alert users useful and relevant, but never critical information. It like a notification to let user know a specific information.</p>
         
           <div class="bs-docs-example">
-            <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Notify-3.png">
+            
+			<div class="alert alert-info" id="">
+				<i class="uiIconInfo"></i>There is new comment on your question <a href="">What's exo ?</a>
+			</div>
+			
           </div>
-<pre class="prettyprint linenums">
-&lt;div class=""&gt;
-  ...
-&lt;/div&gt;
-</pre>
-</section>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="alert alert-info" id="">
+	<i class="uiIconInfo"></i>There is new comment on your question <a href="">What's exo ?</a>
+</div>
+]]></script>
+</div>      
+        </section>
 
  <section id="S4">
           <div class="page-header">
@@ -129,14 +152,20 @@
           </div>
         <p>The notification that alerts users of a problem that has already occurred.</p>        
           <div class="bs-docs-example">
-            <img src="http://int.exoplatform.org/portal/rest/jcr/repository/collaboration/Groups/spaces/platform_40/ApplicationData/eXoWiki/WikiHome/Specifications/Functional_Specifications/PLF_4_-_Design/UI_Reference_Guides/Notify-4.png">
+            
+			<div class="alert alert-error" id="">
+				<i class="uiIconError"></i>Your email address is incorect. please try again!
+			</div>
+			
           </div>
-<pre class="prettyprint linenums">
-&lt;div class=""&gt;
-  ...
-&lt;/div&gt;
-</pre>
-</section>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="alert alert-error" id="">
+	<i class="uiIconError"></i>Your email address is incorect. please try again!
+</div>
+]]></script>
+</div>      
+        </section>
  </div>
 <div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
 </div>
@@ -161,6 +190,7 @@
     <script src="../js/bootstrap-typeahead.js"></script>
     <script src="../js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
+	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 
 
     <!-- Analytics

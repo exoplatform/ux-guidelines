@@ -4408,7 +4408,7 @@ textarea[disabled] {
   margin-right: 6px;
 }
 .alert .uiIconWarning {
-  background: url("../img/plf4-icons/uiIconColor.png") no-repeat -20px top;
+  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat -20px top;
 }
 .alert a {
   color: #2f5e92;
@@ -4422,21 +4422,21 @@ textarea[disabled] {
   border-color: #39c522;
 }
 .alert-success .uiIconSuccess {
-  background: url("../img/plf4-icons/uiIconColor.png") no-repeat -60px top;
+  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat -60px top;
 }
 .alert-info {
   background: #dee3fa;
   border-color: #215ab2;
 }
 .alert-info .uiIconInfo {
-  background: url("../img/plf4-icons/uiIconColor.png") no-repeat -40px top;
+  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat -40px top;
 }
 .alert-error {
   background: #f7b5b5;
   border-color: #c72222;
 }
 .alert-error .uiIconError {
-  background: url("../img/plf4-icons/uiIconColor.png") no-repeat left top;
+  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat left top;
 }
 .breadcrumb {
   background: none;
@@ -11187,7 +11187,7 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
 }
 
 .UIToolbarContainerDark .uiDropdownWithIcon{
-	background:url(/eXoPlatformResources/skin/platformSkin/images/ToolbarContainer/line.png) no-repeat top left
+	background:url(../img/plf4-icons/line.png) no-repeat top left
 }
 
 .UIToolbarContainerDark .uiDropdownWithIcon>a{
@@ -11211,7 +11211,7 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
 }
 
 .UIToolbarContainerLight .uiDropdownWithIcon{
-	background:url(/eXoPlatformResources/skin/platformSkin/images/ToolbarContainer/line.png) no-repeat bottom left
+	background:url(../img/plf4-icons/line.png) no-repeat bottom left
 }
 
 .UIToolbarContainerLight .uiDropdownWithIcon>a{
