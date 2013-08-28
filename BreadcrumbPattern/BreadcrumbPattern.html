@@ -15,6 +15,11 @@
       <link href="../css/prettify.css" rel="stylesheet">
       <link href="../css/docs.css" rel="stylesheet">
       <link href="../css/plf4.css" rel="stylesheet">
+  <!-- syntaxhighlighter -->
+      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -54,7 +59,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Breadcrumb Pattern</h1>
-    <p class="lead">A navigation aid to keep track location in an application or website</div>
+    <p class="lead">A navigation aid to keep track location in an application or website.</div>
 </header>
 
   <div class="container">
@@ -99,33 +104,37 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
 <p><h7>Breadcrumbs should be used when the structure of the website follows a strict hierarchical structure of similar formatted content. Especially, when the structure of the site is parted into sections which can be divided into more subsections and so on. In case the user cannot easily navigate through the hierarchy via other local navigation methods, breadcrumbs is useful.</h7></p>
 
 <h3><span>What's the Solution?</span></h3>
-<h4><a name="S1"></a><span>Template</span></h4>
+<p><h4><a name="S1"></a><span>Template</span></h4></p>
 <p><h7>The standard breadcrumb template:</h7></p>
 <div class="bs-docs-example">
       <ul class="breadcrumb">
          <li class="active">Home</li>
-        </ul>
-          <ul class="breadcrumb">
-        <li>
-           <a href="#">Home</a>
-             <span class="uiIconMiniArrowRight"></span>
-             </li>
-           <li class="active">Library</li>
-            </ul>
+      </ul>
       <ul class="breadcrumb">
-       <li>
-       <a href="#">Home</a><span class="uiIconMiniArrowRight"></span>
-       </li>
-       <li>
-        <a href="#">Library</a><span class="uiIconMiniArrowRight"></span>
-        </li>
-      <li class="active">Data</li>
-    </ul>
+        <li><a href="#">Home</a><span class="uiIconMiniArrowRight"></span></li>
+        <li class="active">Library</li>
+      </ul>
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a><span class="uiIconMiniArrowRight"></span></li>
+        <li><a href="#">Library</a><span class="uiIconMiniArrowRight"></span></li>
+        <li class="active">Data</li>
+      </ul>
 </div>
-<h4><a name="S2"></a><span>Markup</span></h4>
-<p><h7>HTML is your standard unordered list with links.</h7></p>
-<pre class="prettyprint linenums"><ol class="linenums">
-<li class="L0"><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"breadcrumb"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;li&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">  &lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">Home</span><span class="tag">&lt;/a&gt;</span><span class="pln"> </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"uiIconMiniArrowRight"</span><span class="tag">&gt;</span><span class="pln">&nbsp;</span><span class="tag">&lt;/span&gt;</span></li><li class="L3"><span class="pln"> </span><span class="tag">&lt;/li&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;li></span></li><li class="L5"><span class="pln"> </span><span class="tag">  &lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">></span><span class="pln">Library</span><span class="tag"></a></span><span class="pln"> </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"uiIconMiniArrowRight"</span><span class="tag">></span><span class="pln">&nbsp;</span><span class="tag">&lt;/span&gt;</span></li><li class="L6"><span class="pln"> </span><span class="tag">&lt/li&gt;</span></li><li class="L7"><span class="pln"> </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">></span><span class="pln">Data</span><span class="tag">&lt;/li&gt</span></li><li class="L8"><span class="tag">&lt;/ul&gt;</span></li></ol>
+<p><h4><a name="S2"></a><span>Markup</span></h4></p>
+<pre class="prettyprint linenums"><ol class="linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<ul class="breadcrumb">
+	<li class="active">Home</li>
+</ul>
+<ul class="breadcrumb">
+	<li><a href="#">Home</a><span class="uiIconMiniArrowRight"></span></li>
+	<li class="active">Library</li>
+</ul>
+<ul class="breadcrumb">
+	<li><a href="#">Home</a><span class="uiIconMiniArrowRight"></span></li>
+	<li><a href="#">Library</a><span class="uiIconMiniArrowRight"></span></li>
+	<li class="active">Data</li>
+</ul>
+]]></script>
 </pre>
       <p>In details:</p>
       <p>
@@ -196,8 +205,8 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
                <td>Breadcrumbs label length is limited with 20 words</td>
             </tr>
             <tr>
-               <td>BR-5</td>
-               <td>Hyperlink all label except the last one and breadcrumbs icon</td>
+               <td>BR-05</td>
+               <td>Hyperlink all labels except the last one and breadcrumbs icon</td>
             </tr>
             <tr>
                <td>BR-06</td>
@@ -209,7 +218,7 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
             </tr>
             <tr>
                <td>BR-08</td>
-               <td>Breadcrumb length must be auto resized and have a same minimize limitation in compare with its site</td>
+               <td>Breadcrumb length must be auto resized and have a same minimize limitation in compare with its size</td>
             </tr>
             <tr>
                <td>BR-09</td>
@@ -224,7 +233,7 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
 
      </p>
 <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
-<p><h7>Because of some main benefits of breadcrumbs:provide users information where they are in a site/application, offer shortcut links for users to jump to previously viewed pages, allow users know the structure of a site/application. It should be used in all sub pages. Besides, the consistency of breadcrumbs in use will make our products look more professional and statistical.
+<p><h7>Breadrumbs provides users information where they are in a site/application, offers shortcut links for users to jump to previously viewed pages, allows users know the structure of a site/application. So, it should be used in all sub pages. Besides, the consistency of breadcrumbs in use will make our products look more professional and statistical.
 </h7></p>
 </div><p>
 <div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
@@ -233,8 +242,9 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/prettify.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.js"></script>  
-
+  <!-- syntaxhighlighter -->	
+	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 </body></html>
