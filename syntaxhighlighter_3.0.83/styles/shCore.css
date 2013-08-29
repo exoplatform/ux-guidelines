@@ -82,6 +82,10 @@
 .syntaxhighlighter table td.code {
   width: 100% !important;
 }
+
+.syntaxhighlighter table td.code .container .number1{
+  margin-top: -11px !important;
+}
 .syntaxhighlighter table td.code .container {
   position: relative !important;
 }

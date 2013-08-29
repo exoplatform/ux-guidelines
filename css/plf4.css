@@ -516,6 +516,7 @@ h3 {
 
 .uiPopup  .singleMessage > li span[class*="Icon"] {
   font-weight: normal;
+  margin: 10px 7px 20px;
 }
 
 .uiPopup .popupMessage > li span.errorIcon {
@@ -11577,7 +11578,7 @@ i:hover [class^="uiIconColor"] {
     border-radius: 3px 3px 3px 3px;
     bottom: 45px;
     box-shadow: 0 1px 2px 0 #FFFFFF;
-    padding: 6px 4px 6px 10px;
+    padding: 6px 10px 6px 10px;
 }
 
 .uiMiniCalendar .calendarTimeInput {
