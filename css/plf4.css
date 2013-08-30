@@ -11674,3 +11674,8 @@ i:hover [class^="uiIconColor"] {
     background-position: 0 -140px;
     margin-top: 2px;
 }
+
+.uiFormForum .uploadContainer {
+    margin: 0 auto;
+    width: 95%;
+}

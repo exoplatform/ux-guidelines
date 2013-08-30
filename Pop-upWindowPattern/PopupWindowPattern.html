@@ -17,6 +17,13 @@
      <link href="../css/uxp-pattern.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
 
+	 
+	 <!-- syntaxhighlighter -->
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+	 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -116,6 +123,22 @@
 		</div>
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>
+	  
+	  	  <div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	<div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<p>One fine body...</p>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
+    </div>
+		]]></script>
+</div>
+	  
       <h4><a name="S2"></a><span>Pop-up by default</span></h4>
       <p>This pop-up can be used for functions that all its elements can be displayed at once. </p>
       <p>Static sample</p>
@@ -140,6 +163,32 @@
 		</div>
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>
+	  
+	  <div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div class="form-horizontal resizable">
+				<div class="control-group">	
+					<label for="label" class="control-label">Label name:</label>
+					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
+				</div>
+				<span class="help-block">Example block-level help text here.</span>
+				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
+			</div>
+			<div class="uiAction uiActionBorder"> 
+				<button class="btn" onclick="" type="button">Save</button>
+				<button class="btn" onclick="" type="button">Cancel</button>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
+      </div>
+		]]></script>
+</div>
 
       <div id="myModal" class="modal hide fade UIPopupWindow uiPopup UIDragObject NormalStyle" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
 		<div class="popupHeader ClearFix">
@@ -243,7 +292,48 @@
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>
   
-		
+  <div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	<div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+
+			<div id="UIViewTemplate_UITemplateContainer" class="uiTabPane uiTabNormal">
+				<ul id="myTab" class="nav nav-tabs">
+					<li class="active">
+						<a href="#tab-home" data-toggle="tab">Home</a>
+					</li>
+					<li>
+						<a href="#tab-properties" data-toggle="tab">Properties</a>
+					</li>
+					<li>
+						<a href="#tab-settings" data-toggle="tab">Settings</a>
+					</li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div id="tab-home" class="tab-pane fade in active resizable">
+						<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+					</div>
+					<div id="tab-properties" class="tab-pane fade resizable">
+						<p> Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park. </p>
+					</div>
+					<div id="tab-settings" class="tab-pane fade resizable">
+						<p> Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr. </p>
+					</div>
+				</div>
+			</div>
+			<div class="uiAction"> 
+				<button class="btn" onclick="" type="button">Save</button>
+				<button class="btn" onclick="" type="button">Cancel</button>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
+    </div>
+		]]></script>
+</div>	
        
 		<div id="myModal1" class="modal hide fade UIPopupWindow uiPopup UIDragObject NormalStyle" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
 			<div class="popupHeader ClearFix">
@@ -355,6 +445,124 @@
 </div>
 		</div>
       </div>
+	  
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+
+	<div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div class="uiWikiSelectPageForm">
+				<form method="post" action="" id="UIWikiSelectPageForm" class="UIForm"><div><input type="hidden" value="" name="formOp"><input type="hidden" value="4CCBD6ADAC140A0876B58E405762FA2A" name="gtn:csrf"></div>
+					<div class="resizable">
+						<div class="popupContenRelated">
+							<div style="height:250px" id="UIPageTree" class="uiTreeExplorer"> 
+								<ul class="nodeGroup"> 
+									<li class="node">   
+										<div onclick="" id="portal%2Fintranet%2Fwiki_1" class="collapseIcon">    
+											<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+												<a href="/portal/intranet/wiki/wiki_1"><i class="uiIconFileMini uiIconLightGray"></i> wiki 1</a>    
+											</div>  
+										</div>
+										<ul class="nodeGroup"> 
+											<li class="node">   
+												<div onclick="" id="portal%2Fintranet%2Fwiki_1.1" class="emptyIcon">    
+													<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+														<a href="/portal/intranet/wiki/wiki_1.1"><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.1</a>    
+													</div>  
+												</div> 
+											</li> 
+											<li class="node">   
+												<div onclick="" id="portal%2Fintranet%2Fwiki_1.2" class="collapseIcon">    
+													<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+														<a href="/portal/intranet/wiki/wiki_1.2"><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2</a>    
+													</div>  
+												</div>
+												<ul class="nodeGroup"> 
+													<li class="node">   
+														<div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1" class="collapseIcon">    
+															<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+																<a href="/portal/intranet/wiki/wiki_1.2.1"><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2.1</a>    
+															</div>  
+														</div>
+														<ul class="nodeGroup"> 
+															<li class="node">   
+																<div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1.1" class="emptyIcon">    
+																	<div class="page nodeSelected" onclick="event.cancelBubble=true" id="iconTreeExplorer">         
+																		<span style="cursor:auto"><i class="uiIconFileMini uiIconLightGray"></i>wiki 1.2.1.1</span>    
+																	</div>  
+																</div> 
+															</li>
+														</ul> 
+													</li>
+												</ul> 
+											</li>
+										</ul> 
+									</li> 
+									<li class="node">   
+										<div onclick="" id="portal%2Fintranet%2Fwiki_2" class="expandIcon">    
+											<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+												<a href="/portal/intranet/wiki/wiki_2"><i class="uiIconFileMini uiIconLightGray"></i> wiki 2</a>    
+											</div>  
+										</div> 
+										<ul class="nodeGroup" style="display: none;"> 
+											<li class="node">   
+												<div onclick="" id="portal%2Fintranet%2Fwiki_2.1" class="emptyIcon">    
+													<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+														<a href="/portal/intranet/wiki/wiki_2.1"><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.1</a>    
+													</div>  
+												</div> 
+											</li> 
+											<li class="node">   
+												<div onclick="" id="portal%2Fintranet%2Fwiki_2.2" class="emptyIcon">    
+													<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+														<a href="/portal/intranet/wiki/wiki_2.2"><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.2</a>    
+													</div>  
+												</div> 
+											</li>
+										</ul>
+									</li> 
+									<li class="node">   
+										<div onclick="" id="portal%2Fintranet%2Fwiki_3" class="emptyIcon">    
+											<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+												<a href="/portal/intranet/wiki/wiki_3"><i class="uiIconFileMini uiIconLightGray"></i> wiki 3</a>    
+											</div>  
+										</div> 
+									</li> 
+									<li class="node">   
+										<div onclick="" id="portal%2Fintranet%2Fwiki_4" class="emptyIcon">    
+											<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+												<a href="/portal/intranet/wiki/wiki_4"><i class="uiIconFileMini uiIconLightGray"></i> wiki 4</a>    
+											</div>  
+										</div> 
+									</li> 
+									<li class="node">   
+										<div onclick="" id="portal%2Fintranet%2Fwiki_5" class="emptyIcon">    
+											<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
+												<a href="/portal/intranet/wiki/wiki_5"><i class="uiIconFileMini uiIconLightGray"></i> wiki 5</a>    
+											</div>  
+										</div> 
+									</li>
+								</ul>
+						</div>
+					</div>
+				  </div>
+				  <div class="uiAction">
+					<button class="btn btn-primary" onclick="javascript:eXo.webui.UIForm.submitForm('9ebdd876-ceb4-4cc0-b4bc-c1d23906964e#UIWikiSelectPageForm','SelectPage',true)" href="javascript:void(0);" type="button">Select</button>
+					<button class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('9ebdd876-ceb4-4cc0-b4bc-c1d23906964e#UIWikiSelectPageForm','Cancel',true)" href="javascript:void(0);" type="button">Cancel</button>
+				  </div>
+			  </form>
+			  <span class="uiIconResize pull-right uiIconLightGray"></span>
+			</div>
+		</div>
+    </div>
+	
+	]]></script>
+</div>
+	  
 <div id="myModal1" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;">
       <div class="modal-header">
      <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon-remove"></i></button>
@@ -602,4 +810,5 @@
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
 	<script type="text/javascript" src="../js/uiPopupWindow.js"></script>
+	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 </body></html>
