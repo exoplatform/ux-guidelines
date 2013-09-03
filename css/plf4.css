@@ -150,6 +150,39 @@ h3 {
   /*call titleInfo mixin from wiki-mixins*/
 
 }
+/*****Replace Style*/
+body {
+  padding-top: 50px;
+  background: url("../img/parttern.jpg") repeat 0 0 transparent;
+}
+body > .navbar .brand {
+  float: left;
+  margin-left: 10px;
+  margin-right: 25px;
+  padding: 10px 0 11px;
+}
+.hero-unit {
+  background: url("../img/bg_banner_top.png") repeat 0 0 #354c71;
+  color: #fff;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 77px 120px 30px;
+  -webkit-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
+  -moz-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
+  -o-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
+  -ms-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
+  box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
+}
+.hero-unit h1 {
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 15px;
+}
+.hero-unit p {
+  font-size: 16px;
+  line-height: 26px;
+}
 /*****uiTab*****/
 .uiTabNormal .nav-tabs {
   margin: 0px;
@@ -11740,4 +11773,130 @@ i:hover [class^="uiIconColor"] {
     line-height: 48px;
     margin-left: 0;
     padding-left: 5px;
+}
+.navbar-fixed-top .navbar-inner {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: url("../img/bg_navigation.png") repeat 0 0 #323232;
+  -moz-box-shadow: 0px 2px 4px rgba(13, 13, 13,  .42);
+  -webkit-box-shadow: 0px 2px 4px rgba(13, 13, 13,  .42);
+  box-shadow: 0px 2px 4px rgba(13, 13, 13,  .42);
+  border: none;
+  border-bottom: 1px solid #2d2d2d;
+}
+.navbar-fixed-top  .nav > li {
+  padding: 12px 6px 10px;
+}
+.navbar-fixed-top  .nav > li + li {
+  background: url("../img/divider_nav-top.png") no-repeat left center transparent;
+  padding-left: 7px;
+}
+.navbar-fixed-top .nav > li > a {
+  padding: 0 10px;
+  height: 27px;
+  line-height: 27px;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(24, 33, 37, .2);
+}
+
+.navbar-fixed-top .nav > li:hover > a,
+.navbar-fixed-top .nav > li.active > a,
+.navbar-fixed-top .nav > li.active:hover > a {
+  background-color: #4b6b9a;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.navbar-fixed-top .nav > li.active:hover > a,
+.navbar-fixed-top .nav > li:hover > a {
+}
+.navbar-fixed-top .navbar-search {
+  margin-top: 12px;
+}
+.navbar-fixed-top .navbar-search .search-query {
+  color: #333;
+  border: 1px solid #c8c8c8;
+  background: url("../img/search.png") no-repeat right 5px #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  min-width: 220px;
+}
+.navbar-fixed-top .btn-group {
+  margin: 11px 0 0;
+  padding: 0;
+}
+.navbar-fixed-top .loginAndRegis .btn {
+  border: 1px solid #232c30;
+  color: #fff;
+  text-shadow: none;
+  /*background-position: 0 0;*/
+  background-color: #59636f;
+  background-image: -moz-linear-gradient(top, #697582, #404952);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#697582), to(#404952));
+  background-image: -webkit-linear-gradient(top, #697582, #404952);
+  background-image: -o-linear-gradient(top, #697582, #404952);
+  background-image: linear-gradient(to bottom, #697582, #404952);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff697582', endColorstr='#ff404952', GradientType=0);
+}
+.navbar-fixed-top .loginAndRegis .btn:hover {
+  background: #404952;
+}
+.navbar-fixed-top .loginAndRegis .btn + .btn {
+  margin-left: -1px;
+}
+.navbar-fixed-top .loginAndRegis .btn.btn-regis {
+  background-color: #4e73aa;
+  background-image: -moz-linear-gradient(top, #5a85c5, #3d5882);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5a85c5), to(#3d5882));
+  background-image: -webkit-linear-gradient(top, #5a85c5, #3d5882);
+  background-image: -o-linear-gradient(top, #5a85c5, #3d5882);
+  background-image: linear-gradient(to bottom, #5a85c5, #3d5882);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5a85c5', endColorstr='#ff3d5882', GradientType=0);
+}
+.navbar-fixed-top .loginAndRegis .btn.btn-regis:hover {
+  background: #3d5882;
+}
+/***** Home Overview *****/
+.homeOverview {
+  padding: 30px 0 0;
+}
+.homeOverview .media > .pull-left {
+  margin-right: 20px;
+  padding-top: 9px;
+}
+.homeOverview .media > .media-body h2 {
+  margin-bottom: 5px;
+  line-height: 100%;
+}
+.homeOverview .media > .media-body h2 a {
+  color: #4c4c4c;
+  font-size: 28px;
+
+}
+.homeOverview .media > .media-body p {
+  font-size: 13px;
+  line-height: 18px;
+  display: block;
+  margin-right: 86px;
+  color: #4c4c4c;
+}
+/***** Footer ****/
+#footer {
+  margin: 0;
+  padding: 7px 0 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  color: #808080;
+  background: url("../img/bg_footer.png") repeat-x 0 0 transparent;
 }
