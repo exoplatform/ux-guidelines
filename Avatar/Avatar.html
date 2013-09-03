@@ -15,6 +15,12 @@
       <link href="../css/prettify.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
       <link href="../css/plf4.css" rel="stylesheet">
+    <!-- syntaxhighlighter -->
+      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -87,8 +93,14 @@
  	   <div class="bs-docs-example bs-docs-example-images">
           <img src="../img/user-default.jpg" class="avatarCircle" alt="User Default Avatar"> <img src="../img/James.png" class="avatarCircle" alt="James"> <img src="../img/space-default.jpg" class="avatarCircle" alt="Space Default Avatar"> <img src="../img/exo_icon.jpg" class="avatarCircle" alt="eXo">
           </div>
-	<pre class="prettyprint linenums">&lt;img src="..." class="avatarCircle"&gt;</pre>
-        </section>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<img src="../img/user-default.jpg" class="avatarCircle" alt="User Default Avatar"> 
+<img src="../img/James.png" class="avatarCircle" alt="James"> 
+<img src="../img/space-default.jpg" class="avatarCircle" alt="Space Default Avatar"> 
+<img src="../img/exo_icon.jpg" class="avatarCircle" alt="eXo">
+]]></script>
+</div>	
+ </section>
   <h2> Rounded Corner Avatar</h3>
           <p>Add class <code>.avatarMedium</code> to <code>&lt;a&gt;</code> element that includes <code>&lt;img&gt;</code> to have rounded corner avatar style.</p>
           <p>This style is default one for avatar with different size.</p>
@@ -96,15 +108,28 @@
  	   <div class="bs-docs-example bs-docs-example-images">
          <a class="avatarMedium"> <img src="../img/user-default.jpg" alt="User Default Avatar"> <img src="../img/James.png" alt="James"> <img src="../img/space-default.jpg" alt="Space Default Avatar"> <img src="../img/exo_icon.jpg" alt="eXo"></a>
           </div>
-	<pre class="prettyprint linenums">&lt;a="avatarMedium"&gt;&lt;img src="..."&gt;&lt;/a&gt;</pre>
-      
-    <h2> Rounded Corner Avatar With Border</h3>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+ <a class="avatarMedium"> 
+   <img src="../img/user-default.jpg" alt="User Default Avatar"> 
+   <img src="../img/James.png" alt="James"> 
+   <img src="../img/space-default.jpg" alt="Space Default Avatar"> 
+   <img src="../img/exo_icon.jpg" alt="eXo">
+ </a>
+]]></script>
+</div>
+<h2> Rounded Corner Avatar With Border</h3>
     <p>Add class <code>.avatarLargeWithBorder</code> to <code>&lt;img&gt;</code> element to have rounded corner avatar with border style.</p>
           <p>It is used in some case to make the avatar look more clear and formal.</p>
 	<div class="bs-docs-example bs-docs-example-images">
          <img src="../img/exo_icon.jpg" class="avatarLargeWithBorder" alt="eXo"> <img src="../img/user-default.jpg" class="avatarLargeWithBorder" alt="User Default Avatar"> <img src="../img/space-default.jpg" class="avatarLargeWithBorder" alt="Space Default Avatar">
           </div>
-	<pre class="prettyprint linenums">&lt;a="avatarXLarge"&gt;&lt;img src="..."&gt;&lt;/a&gt;</pre>
+
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<img src="../img/exo_icon.jpg" class="avatarLargeWithBorder" alt="eXo"> 
+<img src="../img/user-default.jpg" class="avatarLargeWithBorder" alt="User Default Avatar"> 
+<img src="../img/space-default.jpg" class="avatarLargeWithBorder" alt="Space Default Avatar">
+]]></script>
+</div>
 <section id="S2">
            <div class="page-header">
  <h1>Size</h1></div>
@@ -175,6 +200,18 @@
 <div class="bs-docs-example bs-docs-example-images">
 <a class="avatarXLarge"> <img src="../img/James.png"></a> <a class="avatarLarge"> <img src="../img/James.png"></a> <a class="avatarXMedium"> <img src="../img/James.png"></a> <a class="avatarMedium"> <img src="../img/James.png"></a> <a class="avatarXSmall"> <img src="../img/James.png"></a> <a class="avatarSmall"> <img src="../img/James.png"></a> <a class="avatarXMini"> <img src="../img/James.png"></a> <a class="avatarMini"> <img src="../img/James.png"></a> 
 </div>
+
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<a class="avatarXLarge"> <img src="../img/James.png"></a> 
+<a class="avatarLarge"> <img src="../img/James.png"></a> 
+<a class="avatarXMedium"> <img src="../img/James.png"></a> 
+<a class="avatarMedium"> <img src="../img/James.png"></a> 
+<a class="avatarXSmall"> <img src="../img/James.png"></a> 
+<a class="avatarSmall"> <img src="../img/James.png"></a> 
+<a class="avatarXMini"> <img src="../img/James.png"></a> 
+<a class="avatarMini"> <img src="../img/James.png"></a> 
+]]></script>
+</div>
   </section>
 
 </div>
@@ -202,8 +239,8 @@
     <script src="../js/bootstrap-typeahead.js"></script>
     <script src="../js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-
-
+   <!-- syntaxhighlighter -->	
+   <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
     <!-- Analytics
     ================================================== -->
     <script>

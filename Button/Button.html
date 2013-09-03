@@ -15,6 +15,11 @@
       <link href="../css/prettify.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
+    <!-- syntaxhighlighter -->
+      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -153,20 +158,13 @@
               </tr>
              </tbody>
           </table>    
-	<pre class="prettyprint linenums">
-	&lt;p&gt;
-	  &lt;button class="btn btn-large" type="button"&gt;Large&lt;/button&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
-	  &lt;button class="btn" type="button"&gt;Default&lt;/button&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
-	  &lt;button class="btn btn-small" type="button"&gt;Small&lt;/button&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
- 	 &lt;button class="btn btn-mini" type="button"&gt;Mini&lt;/button&gt;
-	&lt;/p&gt;
-	</pre>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<button class="btn btn-large" type="button">Large</button>
+<button class="btn" type="button">Default</button>
+<button class="btn btn-small" type="button">Small</button>
+<button class="btn btn-mini" type="button">Mini</button>
+]]></script>
+</div>
           <p>Create block level buttons&mdash;those that span the full width of a parent&mdash; by adding <code>.btn-block</code>.</p>
           <div class="bs-docs-example">
             <div class="well" style="max-width: 400px; margin: 0 auto 10px;">
@@ -174,10 +172,11 @@
               <button type="button" class="btn btn-large btn-block">Block level button</button>
             </div>
           </div>
-<pre class="prettyprint linenums">
-&lt;button class="btn btn-large btn-block btn-primary" type="button"&gt;Block level button&lt;/button&gt;
-&lt;button class="btn btn-large btn-block" type="button"&gt;Block level button&lt;/button&gt;
-</pre>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<button type="button" class="btn btn-large btn-block btn-primary">Block level button</button>
+<button type="button" class="btn btn-large btn-block">Block level button</button>
+]]></script>
+</div>
 <p>Depending on special goals, the block level button can be used to draw user attention to do specific action.</p>
         </section>
 
@@ -192,14 +191,20 @@
           <p class="bs-docs-example">
             <a href="#" class="btn btn-large disabled">Link</a>
           </p>
-	<pre class="prettyprint linenums">&lt;a href="#" class="btn btn-large disabled"&gt;Link&lt;/a&gt;</pre>
-          <h2>Button element</h2>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<a href="#" class="btn btn-large disabled">Link</a>
+]]></script>
+</div>
+	  <h2>Button element</h2>
           <p>Add the <code>disabled</code> attribute to <code>&lt;button&gt;</code> buttons.</p>
           <p class="bs-docs-example">
             <button type="button" class="btn btn-large" disabled>Button</button>
           </p>
-	<pre class="prettyprint linenums">&lt;button type="button" class="btn btn-large" disabled&gt;Button&lt;/button&gt;</pre>
-        </section>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<button type="button" class="btn btn-large" disabled>Button</button>
+]]></script>
+</div>
+  </section>
 
        <section id="S4">
         <div class="page-header">
@@ -211,16 +216,16 @@
             <input class="btn" type="button" value="Input">
             <input class="btn" type="submit" value="Submit">
           </form>
-	<pre class="prettyprint linenums">
-	&lt;a class="btn" href=""&gt;Link&lt;/a&gt;
-	&lt;button class="btn" type="submit"&gt;Button&lt;/button&gt;
-	&lt;input class="btn" type="button" value="Input"&gt;
-	&lt;input class="btn" type="submit" value="Submit"&gt;
-	</pre>
-          <p>As a best practice, try to match the element for your context to ensure matching cross-browser rendering. If you have an <code>input</code>, use an <code>&lt;input type="submit"&gt;</code> for your button.</p>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<a class="btn" href="">Link</a>
+<button class="btn" type="submit">Button</button>
+<input class="btn" type="button" value="Input">
+<input class="btn" type="submit" value="Submit">
+]]></script>
+</div>
+<p>As a best practice, try to match the element for your context to ensure matching cross-browser rendering. If you have an <code>input</code>, use an <code>&lt;input type="submit"&gt;</code> for your button.</p>
+</section>
 
-       
-        </section>
 <section id="S5">
 <div class="page-header">
           <h1 id="headings">Button Sample</h1></div>
@@ -339,7 +344,8 @@ Help
     <script src="../js/bootstrap-typeahead.js"></script>
     <script src="../js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-
+   <!-- syntaxhighlighter -->	
+   <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 
     <!-- Analytics
     ================================================== -->

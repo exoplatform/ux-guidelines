@@ -13,8 +13,13 @@
       <link href="../css/bootstrap-responsive.css" rel="stylesheet">
       <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="../css/prettify.css" rel="stylesheet">
-     <link href="../css/docs.css" rel="stylesheet">
+      <link href="../css/docs.css" rel="stylesheet">
       <link href="../css/plf4.css" rel="stylesheet">
+   <!-- syntaxhighlighter -->
+      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -95,36 +100,19 @@
             </div>
 </div>
 
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
 <div class="dropdown clearfix">
-<ul class="dropdown-menu" id="UICreateList">
-<li>
-<a class="ToolBarActivityIcon" href=""><i class="uiIconPLFEventTask"></i>Event/Task</a>
-</li>
-<li>
-<a class="ToolBarActivityIcon" href=""><i class="uiIconPoll"></i>Poll</a>
-</li>
-<li>
-<a class="ToolBarActivityIcon" href=""><i class="uiIconUIForms"></i>Topic</a>
-</li>
-<li>
-<a class="ToolBarActivityIcon" href=""><i class="uiIconUpload"></i>Upload a File</a>
-</li>
-<li>
-<a class="ToolBarActivityIcon" href=""><i class="uiIconWikiWiki"></i>Wiki Page</a>
-</li>
-</ul>
-
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
+                <li><a tabindex="-1" href="#">Action</a></li>
+                <li><a tabindex="-1" href="#">Another action</a></li>
+                <li><a tabindex="-1" href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1" href="#">Separated link</a></li>
+	</ul>
 </div>
-<pre class="prettyprint linenums">
-&lt;ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu"&gt;
-  &lt;li&gt;&lt;a tabindex="-1" href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a tabindex="-1" href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a tabindex="-1" href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
-  &lt;li class="divider"&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a tabindex="-1" href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</pre>
-        </section>
+]]></script>
+</div>
+ </section>
  <section id="S2">
           <div class="page-header">
  <h1> Dropdown With Icon</h1>
@@ -147,23 +135,23 @@
             </li>
             <li>
               <a href="#"><i class="uiIconExportPdf"></i> Export as PDF</a>
-            </li>
-           
-            <li>
+            </li>                      
          </ul>
             </div>
 
             </div>
-
-<pre class="prettyprint linenums">
-&lt;ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu"&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="uiIconLink"&gt;&lt;/i&gt; Permlink&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="uiIconLock"&gt;&lt;/i&gt; Page Permisison&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="uiIconWatch"&gt;&lt;/i&gt; Watch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="uiIconInformation"&gt;&lt;/i&gt; Page Information&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="uiIconExportPdf"&gt;&lt;/i&gt; Export as PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</pre>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="dropdown clearfix">
+<ul class="dropdown-menu"role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">                         
+	<li><a href="#"><i class="uiIconLink"></i> Permlink </a></li>
+	<li><a href="#"><i class="uiIconLock"></i> Page Permission </a></li>
+        <li><a href="#"><i class="uiIconWatch"></i> Watch</a></li>
+        <li><a href="#"><i class="uiIconInformation"></i> Page Information</a></li>
+        <li><a href="#"><i class="uiIconExportPdf"></i> Export as PDF</a></li>
+</ul>
+</div>
+]]></script>
+</div>
         </section>
 
         <section id="S3">
@@ -191,18 +179,28 @@
               </ul>
             </div>
           </div>
-<pre class="prettyprint linenums">
-&lt;ul class="dropdown-menu" role="menu" aria-labelledby="dLabel"&gt;
-  ...
-  &lt;li class="dropdown-submenu"&gt;
-    &lt;a tabindex="-1" href="#"&gt;More options&lt;/a&gt;
-    &lt;ul class="dropdown-menu"&gt;
-      ...
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</pre>
-	</section>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="dropdown uiDropdownWithIcon clearfix">
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
+	        <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-submenu">
+                  <a href="#">More options</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Second level link</a></li>
+                    <li><a href="#">Second level link</a></li>
+                    <li><a href="#">Second level link</a></li>
+                    <li><a href="#">Second level link</a></li>
+                    <li><a href="#">Second level link</a></li>
+                  </ul>
+                </li>
+	</ul>
+</div>
+]]></script>
+</div>
+</section>
 
         <section id="S4">
           <div class="page-header">
@@ -234,17 +232,31 @@
               </div>
           </div>
 </div>
-<pre class="prettyprint linenums">
-&lt;div class="btn-group"&gt;
-  &lt;a class="btn dropdown-toggle" data-toggle="dropdown" href="#"&gt;
-    Action
-    &lt;span class="caret"&gt;&lt;/span&gt;
-  &lt;/a&gt;
-  &lt;ul class="dropdown-menu"&gt;
-    &lt;!-- dropdown menu links --&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-</pre>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="btn-toolbar" style="margin: 0;">
+	<div class="btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+	</div>
+</div>
+]]></script>
+</div>
 
           <h3>Works with all button sizes</h3>
           <p>Button dropdowns work at any size: <code>.btn-extra</code>, <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code>.</p>
@@ -335,7 +347,7 @@
             </div><!-- /btn-toolbar -->
          </div>
 		 
-		 <h3>Split button dropdowns</h3>
+<h3>Split button dropdowns</h3>
           <p>Split button dropdowns work at any size: <code>.btn-extra</code>, <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code>.</p>
           <div class="bs-docs-example">
             <div class="btn-toolbar" style="margin: 0;">
@@ -459,7 +471,7 @@
 		  </div>
 
 		</div>
-         </section>       
+</section>       
 
 <p>
 <div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
@@ -485,7 +497,8 @@
     <script src="../js/bootstrap-typeahead.js"></script>
     <script src="../js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-
+    <!-- syntaxhighlighter -->	
+    <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 
     <!-- Analytics
     ================================================== -->

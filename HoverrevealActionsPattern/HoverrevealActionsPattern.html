@@ -18,7 +18,11 @@
       <link href="../css/plf4.css" rel="stylesheet">	
       <style type="text/css"></style>
 
-
+   <!-- syntaxhighlighter -->
+      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -45,7 +49,7 @@
             <ul class="nav">
                 <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
               <li><a href="../getting-started.html">Getting Started</a></li>
-              <li class="active" ><a href="../Patterns.html" >Patterns</a></li>
+              <li class="active" ><a href="../Patterns.html">Patterns</a></li>
               <li><a href="../Components.html">Components</a></li>
             </ul>
           </div>
@@ -137,6 +141,15 @@
 </tbody>
 </table>
 </div>
+<pre class="prettyprint linenums">
+<script type="syntaxhighlighter" class="brush: html">
+<![CDATA[
+<a class="actionHover" href="#">Edit</a> <a class="actionHover">|</a> 
+<a class="actionHover" href="#">Delete</a> <a class="actionHover">|</a> 
+<a class="actionHover" href="#">Move</a>
+]]>
+</script>
+</pre>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -185,6 +198,18 @@
 </tbody>
 </table>
 </div>
+<pre class="prettyprint linenums">
+<script type="syntaxhighlighter" class="brush: html">
+<![CDATA[
+<a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit">
+	<i class="uiIconEditMini uiIconLightGray"> </i></a> 
+<a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete">
+	<i class="uiIconTrashMini uiIconLightGray"></i></a> 
+<a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Move">
+	<i class="uiIconMove uiIconLightGray"></i></a>
+]]>
+</script>
+</pre>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -206,14 +231,6 @@
       </table>
 
 <p>
-<p>
-<pre class="prettyprint linenums">
-<ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"uiIconName uiIconColor"</span><span class="tag">&gt;&lt;/i&gt;</span></li></ol></pre>
-</p>
-	</p>
-	<p>Trigger the tooltip via JavaScript:</p>
-	<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#example'</span><span class="pun">).</span><span class="pln">tooltip</span><span class="pun">(</span><span class="pln">options</span><span class="pun">)</span></li></ol></pre>
-
 	<p><h5>Hover reveal a content in case few number action buttons</h5></p>
 	<div class="bs-docs-example"> 
          <table>
@@ -242,6 +259,15 @@
 </tbody>
 </table>
 </div>
+<pre class="prettyprint linenums">
+<script type="syntaxhighlighter" class="brush: html">
+<![CDATA[
+<a class="actionHover" href="#"><button class="btn btn-mini" type="button">Edit</button></a> 
+<a class="actionHover" href="#"><button class="btn btn-mini" type="button">Delete</button></a> 
+<a class="actionHover" href="#"><button class="btn btn-mini" type="button">Move</button></a>
+]]>
+</script>
+</pre>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -290,6 +316,14 @@
 </tbody>
 </table>
 </div>
+<pre class="prettyprint linenums">
+<script type="syntaxhighlighter" class="brush: html">
+<![CDATA[
+<a class="actionHover" href="#"><button class="btn-primary btn btn-mini" type="button">Connect</button></a> 
+<a class="actionHover" href="#"><i class="uiIconClose"></a>
+]]>
+</script>
+</pre>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -385,6 +419,21 @@
 </tbody>
 </table>
 </div>
+<pre class="prettyprint linenums">
+<script type="syntaxhighlighter" class="brush: html">
+<![CDATA[
+<div class="button"><div class="btn-toolbar"><div class="btn-group pull-right">
+<button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Moderation <span class="caret"></span></button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+       <li><a href="#"><i class="uiIconLink"></i> Permlink</a></li>
+       <li><a href="#"><i class="uiIconLock"></i> Page Permisison</a></li>
+       <li><a href="#"><i class="uiIconWatch"></i> Watch</a></li>
+       <li><a href="#"><i class="uiIconInformation"></i> Page Information</a></li>
+       <li><a href="#"><i class="uiIconExportPdf"></i> Export as PDF</a></li>
+  </ul>
+]]>
+</script>
+</pre>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -408,8 +457,6 @@
             </tr>
            </tbody>
       </table>
-<p>
-<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn-group"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-mini"</span><span class="tag">&gt;</span><span class="pln">Action</span><span class="tag">&lt;/button&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-mini dropdown-toggle"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"dropdown"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln"> </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"caret"</span><span class="tag">&gt;&lt;/span&gt;</li><li class="L4"><span class="pln"> </span><span class="tag">&lt;/button&gt;</span></li><li class="L5"><span class="pln"> </span><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"dropdown-menu"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln"> </span><span class="com">&lt;&#033;-- dropdown menu links --&gt;</span></li><li class="L7"><span class="pln"> </span><span class="tag">&lt;/ul&gt;</span></li><li class="L8"><span class="tag">&lt;/div&gt;</span></li></ol></pre></p>
 
 <p><h5>Hover reveal a content in case multiple actions displayed in an icon</h5></p>
 <div class="bs-docs-example"> 
@@ -516,6 +563,24 @@
 </tbody>
 </table>
 </div>
+<pre class="prettyprint linenums">
+<script type="syntaxhighlighter" class="brush: html">
+<![CDATA[
+<div class="dropdown pull-right">
+<div class="dropdown-toggle" data-toggle="dropdown">
+  <a class="actionIcon"><i class="uiIconSetting uiIconLightGray"></i></a>
+</div>
+ <ul class="dropdown-menu pull-left" role="menu" aria-labelledby="dropdownMenu">
+    <li><a href="#"><i class="uiIconLink"></i> Permlink</a></li>
+    <li><a href="#"><i class="uiIconLock"></i> Page Permisison</a></li>
+    <li><a href="#"><i class="uiIconWatch"></i> Watch</a></li>
+    <li><a href="#"><i class="uiIconInformation"></i> Page Information</a></li>
+    <li><a href="#"><i class="uiIconExportPdf"></i> Export as PDF</a></li>
+  </ul>
+</div>
+]]>
+</script>
+</pre>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -567,6 +632,8 @@
     <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
+<!-- syntaxhighlighter -->	
+    <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
   <script type="text/javascript">
       $(document).ready(function () {
     $("[rel=tooltip]").tooltip();

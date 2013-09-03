@@ -14,8 +14,12 @@
       <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="../css/prettify.css" rel="stylesheet">
       <link href="../css/docs.css" rel="stylesheet">
-      <link href="../css/plf4.css" rel="stylesheet">
-
+      <link href="../css/plf4.css" rel="stylesheet">	
+   <!-- syntaxhighlighter -->
+      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -73,11 +77,10 @@
           <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Headings</a></li>
           <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Body Copy</a></li>
           <li class=""><a href="#S3"><i class="icon-chevron-right"></i> Emphasis</a></li>
-	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i> Abbreviations</a></li>
-          <li class=""><a href="#S5"><i class="icon-chevron-right"></i> Addresses</a></li>
-          <li class=""><a href="#S6"><i class="icon-chevron-right"></i> Blockquotes</a></li>
-          <li class=""><a href="#S7"><i class="icon-chevron-right"></i> Lists</a></li>
-          <li class=""><a href="#S8"><i class="icon-chevron-right"></i> Code</a></li>
+	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i> Addresses</a></li>
+          <li class=""><a href="#S5"><i class="icon-chevron-right"></i> Blockquotes</a></li>
+          <li class=""><a href="#S6"><i class="icon-chevron-right"></i> Lists</a></li>
+          <li class=""><a href="#S7"><i class="icon-chevron-right"></i> Code</a></li>
         </ul>
       </div>
       <div class="span9">
@@ -114,32 +117,32 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
          </thead>
          <tbody>
             <tr>
-               <td>.hero unit h1</td>
+               <td><code>.hero unit h1</code></td>
                <td>60px</td>
                <td>Cover Title, Page Title, Product Title</td>
             </tr>
             <tr>
-               <td>h1</td>
+               <td><code>h1</code></td>
                <td>36px</td>
                <td>Top level heading, Main subject</td>
             </tr>
             <tr>
-               <td>h2</td>
+               <td><code>h2</code></td>
                <td>30px</td>
                <td>Important subject</td>
             </tr>
             <tr>
-               <td>h3</td>
+               <td><code>h3</code></td>
                <td>24px</td>
                <td>Sub main important subject</td>
             </tr>
             <tr>
-               <td>h4</td>
+               <td><code>h4</code></td>
                <td>18px</td>
                <td>Main heading of sub important subject</td>
             </tr>
             <tr>
-               <td>h5</td>
+               <td><code>h5</code></td>
                <td>14px</td>
                <td>Sub content heading of a sub import subject</td>
             </tr>
@@ -277,15 +280,22 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
 
 	<div class="bs-docs-example">
 	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula</p></div>
-	<pre class="prettyprint"><span class="tag">&lt;p&gt;</span><span class="pln">...</span><span class="tag">&lt;/p&gt;</span></pre>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<p>...</p>
+]]></script>
+</div>
+	
 <p>The other base css, Platform 4 Style is not changed in compare with Bootstrap:</p>	
 <h2>Lead body copy</h2>
 	<p>Make a paragraph stand out by adding<code>.lead</code> This can be used for main contain description or cover description...</p>
 	<div class="bs-docs-example">
 	<p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula</p>
 	</div>
-	<pre class="prettyprint"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"lead"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/p&gt;</span></pre>
-        <p>To obtain the consistency among product main pages, <code>.hero unit</code> can be used for product title and <code>.lead</code>can be used for product description.</p>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<p class="lead">...</p>
+]]></script>
+</div>
+<p>To obtain the consistency among product main pages, <code>.hero unit</code> can be used for product title and <code>.lead</code>can be used for product description.</p>
          <div class="bs-docs-example">
             <div class="hero-unit" align="right"><h1>Product Title</h1>
             <p class="lead" align="right">Short description about the product</p>
@@ -303,45 +313,31 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
        <small>This line of text is meant to be treated as fine print.</small>
        </p>
        </div>
-       <pre class="prettyprint"><span class="tag">&lt;p&gt;&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;&lt;/p&gt;</span></pre>
-         <h2>Bold</h2>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<small>This line of text is meant to be treated as fine print.</small>
+]]></script>
+</div>
+        <h2>Bold</h2>
           <p>For emphasizing a snippet of text with <strong>important</strong></p>
           <div class="bs-docs-example">
             <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
           </div>
-          <pre class="prettyprint"><span class="tag">&lt;strong&gt;</span>rendered as bold text<span class="tag">&lt;/strong&gt;</span></pre>
-
-          <h2>Italics</h2>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+ <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+]]></script>
+</div>
+     <h2>Italics</h2>
           <p>For emphasizing a snippet of text with <em>stress</em></p>
           <div class="bs-docs-example">
             <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
           </div>
-          <pre class="prettyprint"><span class="tag">&lt;em&gt;</span>rendered as italicized text<span class="tag">&lt;/em&gt;</span></pre>
-
-          <p><span class="label label-info">Heads up!</span> Feel free to use <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> in HTML5. <code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+ <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+]]></script>
+</div>
+  <p><span class="label label-info">Heads up!</span> Feel free to use <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> in HTML5. <code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
            </section>
-
-       <section id="S4">
-        <div class="page-header">
-          <h1 id="headings">Abbreviations</h1></div>
-         <p><h7>Stylized implemenation of HTML's <code>&lt;abbr&gt;</code> element for abbreviations and acronyms to show the expanded version on hover. Abbreviations with a <code>title</code> attribute have a light dotted bottom border and a help cursor on hover, providing additional context on hover.</h7></p>
-
-          <h2><code>&lt;abbr&gt;</code></h2>
-          <p>For expanded text on long hover of an abbreviation, include the <code>title</code> attribute.</p>
-          <div class="bs-docs-example">
-            <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
-          </div>
-          <pre class="prettyprint">&lt;abbr title="attribute"&gt;attr&lt;/abbr&gt;</pre>
-
-          <h2><code>&lt;abbr class="initialism"&gt;</code></h2>
-          <p>Add <code>.initialism</code> to an abbreviation for a slightly smaller font-size.</p>
-          <div class="bs-docs-example">
-            <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> is the best thing since sliced bread.</p>
-          </div>
-          <pre class="prettyprint">&lt;abbr title="HyperText Markup Language" class="initialism"&gt;HTML&lt;/abbr&gt;</pre>
-        </section>
-
-       <section id="S5">
+<section id="S4">
           <div class="page-header">
             <h1 id="headings">Addresses</h1>
           </div>
@@ -361,21 +357,22 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
               <a href="mailto:#">first.last@gmail.com</a>
             </address>
           </div>
-	<pre class="prettyprint linenums">
-	&lt;address&gt;
-  	&lt;strong&gt;Twitter, Inc.&lt;/strong&gt;&lt;br&gt;
-  	795 Folsom Ave, Suite 600&lt;br&gt;
-  	San Francisco, CA 94107&lt;br&gt;
-  	&lt;abbr title="Phone"&gt;P:&lt;/abbr&gt; (123) 456-7890
-	&lt;/address&gt;
-
-	&lt;address&gt;
-  	&lt;strong&gt;Full Name&lt;/strong&gt;&lt;br&gt;
-  	&lt;a href="mailto:#"&gt;first.last@gmail.com&lt;/a&gt;
-	&lt;/address&gt;</pre>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<address>
+	<strong>Twitter, Inc.</strong><br>
+         795 Folsom Ave, Suite 600<br>
+         San Francisco, CA 94107<br>
+         <abbr title="Phone">P:</abbr> (123) 456-7890
+         </address>
+         <address>
+         <strong>Full Name</strong><br>
+         <a href="mailto:#">first.last@gmail.com</a>
+</address>
+]]></script>
+</div>
 	</section>
 
-       <section id="S6">
+       <section id="S5">
           <div class="page-header">
             <h1>Blockquotes</h1>
           </div>
@@ -389,13 +386,13 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             </blockquote>
           </div>
-<pre class="prettyprint linenums">
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
-&lt;/blockquote&gt;
-</pre>
-
-          <h2>Blockquote options</h2>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<blockquote>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+</blockquote>
+]]></script>
+</div>
+  <h2>Blockquote options</h2>
           <p>Style and content changes for simple variations on a standard blockquote.</p>
 
           <h2>Naming a source</h2>
@@ -406,6 +403,13 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
               <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
             </blockquote>
           </div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+</blockquote>
+]]></script>
+</div>
 <pre class="prettyprint linenums">
 &lt;blockquote&gt;
   &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
@@ -421,15 +425,15 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
               <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
             </blockquote>
           </div>
-<pre class="prettyprint linenums">
-&lt;blockquote class="pull-right"&gt;
-  ...
-&lt;/blockquote&gt;
-</pre>
-
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<blockquote class="pull-right">
+...
+</blockquote>
+]]></script>
+</div>
        </section>
 
-        <section id="S7">
+        <section id="S6">
           <div class="page-header">
             <h1>Lists</h1>
           </div>
@@ -454,12 +458,12 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
               <li>Eget porttitor lorem</li>
             </ul>
           </div>
-<pre class="prettyprint linenums">
-&lt;ul&gt;
-  &lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;
-</pre>
-
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<ul>
+ <li>...</li>
+</ul>
+]]></script>
+</div>
           <h2>Ordered</h2>
           <p>A list of items in which the order <em>does</em> explicitly matter.</p>
           <div class="bs-docs-example">
@@ -474,12 +478,12 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
               <li>Eget porttitor lorem</li>
             </ol>
           </div>
-<pre class="prettyprint linenums">
-&lt;ol&gt;
-  &lt;li&gt;...&lt;/li&gt;
-&lt;/ol&gt;
-</pre>
-
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<ol>
+ <li>...</li>
+</ol>
+]]></script>
+</div>
         <h2>Unstyled</h2>
         <p>A list of items with no <code>list-style</code> or additional left padding.</p>
         <div class="bs-docs-example">
@@ -501,12 +505,12 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
             <li>Eget porttitor lorem</li>
           </ul>
         </div>
-<pre class="prettyprint linenums">
-&lt;ul class="unstyled"&gt;
-  &lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;
-</pre>
-
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<u class="unstyled">
+ <li>...</li>
+</ul>
+]]></script>
+</div>
         <h2>Description</h2>
         <p>A list of terms with their associated descriptions.</p>
         <div class="bs-docs-example">
@@ -520,6 +524,13 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
             <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
           </dl>
         </div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<dl>
+  <dl>...</dl>
+  <dd>...</dd>
+</dl> 
+]]></script>
+</div>
 <pre class="prettyprint linenums">
 &lt;dl&gt;
   &lt;dt&gt;...&lt;/dt&gt;
@@ -527,7 +538,7 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
 &lt;/dl&gt;
 </pre>
         </section>
-       <section id="S8">
+       <section id="S7">
           <div class="page-header">
             <h1>Code</h1>
           </div>
@@ -536,21 +547,21 @@ All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h5&gt;</code> are a
 <div class="bs-docs-example">
   For example, <code>&lt;section&gt;</code> should be wrapped as inline.
 </div>
-<pre class="prettyprint linenums">
-For example, &lt;code&gt;&lt;section&gt;&lt;/code&gt; should be wrapped as inline.
-</pre>
-
-          <h2>Basic block</h2>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+]]></script>
+</div>
+     <h2>Basic block</h2>
           <p>Use <code>&lt;pre&gt;</code> for multiple lines of code. Be sure to escape any angle brackets in the code for proper rendering.</p>
 <div class="bs-docs-example">
   <pre><span class="tag">&lt;p&gt;</span>Sample text here...<class="tag">&lt;/p&gt;</class></pre>
 </div>
-<pre class="prettyprint linenums" style="margin-bottom: 9px;">
-&lt;pre&gt;
-  &amp;lt;p&amp;gt;Sample text here...&amp;lt;/p&amp;gt;
-&lt;/pre&gt;
-</pre>
-          <p><span class="label label-info">Heads up!</span> Be sure to keep code within <code>&lt;pre&gt;</code> tags as close to the left as possible; it will render all tabs.</p>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<pre><span class="tag">&lt;p&gt;</span>Sample text here...<class="tag">&lt;/p&gt;</class></pre>
+]]></script>
+</div>
+
+<p><span class="label label-info">Heads up!</span> Be sure to keep code within <code>&lt;pre&gt;</code> tags as close to the left as possible; it will render all tabs.</p>
           <p>You may optionally add the <code>.pre-scrollable</code> class which will set a max-height of 350px and provide a y-axis scrollbar.</p>
 	</section>
 
@@ -580,7 +591,8 @@ For example, &lt;code&gt;&lt;section&gt;&lt;/code&gt; should be wrapped as inlin
     <script src="../js/bootstrap-typeahead.js"></script>
     <script src="../js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-
+    <!-- syntaxhighlighter -->	
+    <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 
     <!-- Analytics
     ================================================== -->
