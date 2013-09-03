@@ -11679,3 +11679,65 @@ i:hover [class^="uiIconColor"] {
     margin: 0 auto;
     width: 95%;
 }
+
+.NaviContent {
+    background: url("../img/BgHeader.png") repeat scroll left top transparent;
+    border-bottom: 1px solid #2D2D2D;
+    border-top: 1px solid #2D2D2D;
+    height: 48px;
+}
+
+.NaviContent .LogoeXo {
+    background: url("../img/LogoeXo.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 35px;
+    line-height: 48px;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 70px;
+}
+.NaviContent a:hover, .NaviContent a {
+    text-decoration: none;
+}
+.NaviContent a {
+    color: #4283C7;
+}
+
+.NaviContent .Navigation ul {
+    font-size: 13px;
+}
+.NaviContent .NaviLeft {
+    text-align: center;
+}
+.NaviContent ul, .NaviContent ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.NaviContent .NaviLeft li {
+    display: inline-block;
+    line-height: 48px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.NaviContent .NaviLeft li a {
+    color: #FFFFFF;
+    padding: 6px 12px;
+}
+
+.NaviLeft li .selected {
+    background: none repeat scroll 0 0 #486A9D;
+    border-radius: 3px 3px 3px 3px;
+    padding: 6px 12px;
+    position: relative;
+}
+
+.NaviContent .NaviLeft li + li {
+    background: url("../img/SplitNaviLeft.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    line-height: 48px;
+    margin-left: 0;
+    padding-left: 5px;
+}
