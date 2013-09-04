@@ -16,6 +16,11 @@
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
+	 
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -128,7 +133,18 @@
 				</div>
 			</div>
 		</div>
-
+		</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="errorIcon">
+					Your email address is incorrect. Please input a valid one!
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>
 
 	<div id="myModal1" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
@@ -226,8 +242,18 @@
 				</div>
 			</div>
 		</div>
-		
-		
+		</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="warningIcon">
+					Your account will be blocked in case there is more than 10 times incorrect password input.
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>		
 
 <div id="myModal" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
@@ -313,7 +339,18 @@
 				</div>
 			</div>
 		</div>
-
+</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="infoIcon">
+					Your resgistration is completed. Please check your email inbox to activate your account!
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>
 
 <div id="myModal2" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
@@ -396,7 +433,18 @@
 				</div>
 			</div>
 		</div>
-
+</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	<ul class="singleMessage popupMessage resizable">
+		<li>
+			<span class="confirmationIcon">
+				Are you sure you want to delete this driver and all its data?
+			</span>
+		</li>
+	</ul>	
+]]></script>
+</div>
 
 <div id="myModal3" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
@@ -613,14 +661,17 @@
 				<ul class="multipleMessage popupMessage resizable">
 					<li>
 						
-						<a class="" href="#info2" data-toggle="collapse">
-							<i class="uiIconArrowDown"></i><span class="infoIcon"> 1 Infomation </span>
+						<a class="" href="#warning5" data-toggle="collapse">
+							<i class="uiIconArrowDown"></i><span class="warningIcon"> 3 Warnings </span>
 						</a>
-						<ul class="collapse in" id="info2">
-							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
+						<ul class="collapse in" id="warning5">
+							<li>- The field "First Name" is required.
+							</li>
+							<li>- The field "Last Name" is required.
+							</li>
+							<li>- Your email address is invalid. Please enter a different address.
 							</li>
 						 </ul>
-						
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
@@ -628,9 +679,90 @@
 				</div>
 			</div>
 		</div>
-
+		</br>
+		<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="multipleMessage popupMessage resizable">
+			<li>
+				<a class="" href="#error4" data-toggle="collapse">
+					 <i class="uiIconArrowDown"></i><span class="errorIcon"> 1 Error </span>
+				</a>
+				<ul class="collapse in" id="error4">
+					<li>- Your email address is incorrect. Please input a valid one!
+					</li>
+				 </ul>
+				 </br>
+				 <a class="" href="#warning4" data-toggle="collapse">
+					<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
+				</a>
+				<ul class="collapse" id="warning4">
+					<li>- The field "First Name" is required.
+					</li>
+					<li>- The field "Last Name" is required.
+					</li>
+					<li>- Your email address is invalid. Please enter a different address.
+					</li>
+				 </ul>
+				</br>
+				<a class="" href="#info4" data-toggle="collapse">
+					<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
+				</a>
+				<ul class="collapse" id="info4">
+					<li>- Your resgistration is completed. Please check your email inbox to activate your account!
+					</li>
+				 </ul>
+				
+			</li>
+		</ul>
+]]></script>
+</div>
+<div id="myModal4" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
+	<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" data-dismiss="modal" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Alert
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="multipleMessage popupMessage resizable">
+					<li>
+						<a class="" href="#error4" data-toggle="collapse">
+							 <i class="uiIconArrowDown"></i><span class="errorIcon"> 1 Error </span>
+						</a>
+						<ul class="collapse in" id="error4">
+							<li>- Your email address is incorrect. Please input a valid one!
+							</li>
+						 </ul>
+						 </br>
+						 <a class="" href="#warning4" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
+						</a>
+						<ul class="collapse" id="warning4">
+							<li>- The field "First Name" is required.
+							</li>
+							<li>- The field "Last Name" is required.
+							</li>
+							<li>- Your email address is invalid. Please enter a different address.
+							</li>
+						 </ul>
+						</br>
+						<a class="" href="#info4" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
+						</a>
+						<ul class="collapse" id="info4">
+							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
+							</li>
+						 </ul>
+						
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+				</div>
+			</div>
+		</div>		
 <div class="bs-docs-example" style="padding-bottom: 24px;">
-<a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Multiple Message Pop-up</a>
+<a class="btn btn-primary btn-large" href="#myModal4" data-toggle="modal">Launch Multiple Message Pop-up</a>
 </div>
 
      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
@@ -662,6 +794,7 @@ We need to use this pattern to ensure the message popup system to display correc
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
 	<script type="text/javascript" src="../js/uiPopupMessage.js"></script>
+		<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 <script type="text/javascript">
       $(document).ready(function () {
     $("[rel=tooltip]").tooltip();

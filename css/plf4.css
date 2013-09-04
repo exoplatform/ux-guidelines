@@ -11577,6 +11577,10 @@ i:hover [class^="uiIconColor"] {
     width: 148px;
 }
 
+.uiThumbnailsView .actionIconsContainer .actionIconBox:hover {
+    background: #f0f0f0;
+}
+
 .uiThumbnailsView .actionIconsContainer .nodeLabel {
     border-radius: 3px 3px 3px 3px;
     height: 148px;

@@ -121,7 +121,7 @@
 							</p>
 							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
 									
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Poor"></i>
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote " data-original-title="Poor"></i>
 							 
 								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Below average"></i>
 							 
@@ -184,7 +184,42 @@
  </div>
 <p>In case rated by current user:</p>
 <div class="bs-docs-example">
-      uiIconRatedVote
+      <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
+		<div class="popupHeader ClearFix">
+			<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
+			<span class="PopupTitle popupTitle">Rate This Topic</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div id="RatingForm" class="RatingForm">
+				<form method="post" action="" id="UIRatingForm" class="UIForm">
+					<div class="uiVoteForm">
+						<div class="voteFormContainer">
+							<p style="margin-left:10px">
+							  My Rating:&nbsp;no value yet
+							</p>
+							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
+									
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Poor"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Below average"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Average"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+
+							</div>
+							<div class="uiAction uiActionBorder">
+								<button type="button" class="btn" onclick="">Close</button>
+							</div>	
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
+	</div>
  </div>
 <h4><a name="S2"></a><span>Markup</span></h4>
 <p>HTML is your standard unordered list with links.</p>
