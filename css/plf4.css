@@ -153,11 +153,12 @@ h3 {
 /*****Replace Style*/
 body {
   padding-top: 50px;
+  padding-bottom: 50px;
   background: url("../img/parttern.jpg") repeat 0 0 transparent;
 }
 body > .navbar .brand {
   float: left;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: 25px;
   padding: 10px 0 11px;
 }
@@ -167,7 +168,7 @@ body > .navbar .brand {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  padding: 77px 120px 30px;
+  padding: 65px 0 55px;
   -webkit-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
   -moz-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
   -o-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
@@ -178,6 +179,7 @@ body > .navbar .brand {
     font-size: 48px;
     line-height: 100%;
     margin-bottom: 15px;
+    text-shadow: 0 2px 3px rgba(71, 71, 71, .25);
 }
 .hero-unit p {
   font-size: 16px;
@@ -11775,14 +11777,30 @@ i:hover [class^="uiIconColor"] {
     padding-left: 5px;
 }
 .navbar-fixed-top .navbar-inner {
+  min-height: 49px;
   padding-left: 10px;
   padding-right: 10px;
   background: url("../img/bg_navigation.png") repeat 0 0 #323232;
-  -moz-box-shadow: 0px 2px 4px rgba(13, 13, 13,  .42);
-  -webkit-box-shadow: 0px 2px 4px rgba(13, 13, 13,  .42);
-  box-shadow: 0px 2px 4px rgba(13, 13, 13,  .42);
+  -moz-box-shadow: 0 2px 3px 0 rgba(13, 13, 13, 0.3);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(13, 13, 13, 0.3);
+  box-shadow: 0 2px 3px 0 rgba(13, 13, 13, 0.3);
   border: none;
   border-bottom: 1px solid #2d2d2d;
+}
+.navbar-fixed-top .btn-navbar {
+  border-color: #232c30;
+  margin-top: 12px;
+  background-color: #363636;
+  background-image: -moz-linear-gradient(top, #444444, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+  background-image: -webkit-linear-gradient(top, #444444, #222222);
+  background-image: -o-linear-gradient(top, #444444, #222222);
+  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+}
+.navbar-fixed-top .btn-navbar:hover {
+  background: #222222;
 }
 .navbar-fixed-top  .nav > li {
   padding: 12px 6px 10px;
@@ -11795,21 +11813,35 @@ i:hover [class^="uiIconColor"] {
   padding: 0 10px;
   height: 27px;
   line-height: 27px;
-  color: #fff;
   text-shadow: 0 1px 1px rgba(24, 33, 37, .2);
-}
-
-.navbar-fixed-top .nav > li:hover > a,
-.navbar-fixed-top .nav > li.active > a,
-.navbar-fixed-top .nav > li.active:hover > a {
-  background-color: #4b6b9a;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+.navbar-fixed-top .nav > li > a
+.navbar-fixed-top .nav > li > a:active,
+.navbar-fixed-top .nav > li > a:focus {
+  background-color: #4b6b9a;
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
+}
+.navbar-fixed-top .nav > li > a,
+.navbar-fixed-top .nav > li > a:hover,
+.navbar-fixed-top .nav > li > a:active,
+.navbar-fixed-top .nav > li > a:focus,
+.navbar-fixed-top .nav > .active > a,
+.navbar-fixed-top .nav > .active > a:hover,
+.navbar-fixed-top .nav > .active > a:focus {
+  color: #fff;
+}
 
+.navbar-fixed-top .nav > li:hover > a,
+.navbar-fixed-top .nav > li.active > a,
 .navbar-fixed-top .nav > li.active:hover > a,
-.navbar-fixed-top .nav > li:hover > a {
+.navbar-fixed-top .nav > li.active:hover > a:active,
+.navbar-fixed-top .nav > li.active:hover > a:focus {
+  background-color: #4b6b9a;
 }
 .navbar-fixed-top .navbar-search {
   margin-top: 12px;
@@ -11868,7 +11900,7 @@ i:hover [class^="uiIconColor"] {
 }
 .homeOverview .media > .pull-left {
   margin-right: 20px;
-  padding-top: 9px;
+  padding-top: 19px;
 }
 .homeOverview .media > .media-body h2 {
   margin-bottom: 5px;
@@ -11883,7 +11915,8 @@ i:hover [class^="uiIconColor"] {
   font-size: 13px;
   line-height: 18px;
   display: block;
-  margin-right: 86px;
+  margin-right: 22px;
+  margin-left: 2px;
   color: #4c4c4c;
 }
 /***** Footer ****/
@@ -11899,4 +11932,63 @@ i:hover [class^="uiIconColor"] {
   text-align: center;
   color: #808080;
   background: url("../img/bg_footer.png") repeat-x 0 0 transparent;
+}
+/**Jumbotron***/
+.jumbotron {
+  background: url("../img/bg_banner_top.png") repeat scroll 0 0 #354C71;
+  padding: 75px 0 65px;
+  margin-bottom: 25px;
+}
+.jumbotron h1 {
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 3px rgba(71, 71, 71, .25);
+}
+.jumbotron p {
+    font-size: 18px;
+    line-height: 24px;
+    text-shadow: none;
+}
+.jumbotron:after {
+  display: none;
+  background: none;
+}
+/*-----------------------------------------------------*/
+/* Fix Bug Responsive */
+@media (max-width: 1199px) {
+  .listPatterns .row h3 + p {
+    display: block;
+    height: 60px;
+  }
+}
+@media (max-width: 979px) {
+  body {
+    padding-bottom: 60px;
+  }
+  .navbar-fixed-top .nav > li {
+    padding: 5px 0!important;
+  }
+  .navbar-fixed-top .nav > li > a {
+    padding: 5px 10px;
+  }
+  .navbar-fixed-top .nav > li + li {
+    background: none;
+  }
+  .navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+  }
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar-fixed-top {
+    margin-bottom: 0;
+  }
+  .hero-unit, .jumbotron {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
