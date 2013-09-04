@@ -11996,3 +11996,7 @@ i:hover [class^="uiIconColor"] {
     padding-right: 20px;
   }
 }
+
+.uiMiniCalendar .actionIconSmall{
+	padding: 2px 2px 0px 2px;
+}
