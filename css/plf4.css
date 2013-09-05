@@ -11333,6 +11333,7 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
     padding-top: 20px;
     position: relative;
     text-align: center;
+    z-index: 1000;
 }
 
 .QuickEditUnchecked{
