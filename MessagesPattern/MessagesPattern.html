@@ -159,26 +159,6 @@
 <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Error Message Pop-up</a>
 </div>
 
- <table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td><code>modal</code>, <code>modal-header</code>, <code>modal-body</code>, <code>modal-footer</code></td>
-            </tr>
-            <tr>
-               <td>Button</td>
-               <td><code>btn</code>, <code>btn-danger</code></td>
-            </tr>
-           <tr><td>Label</td><td><code>label</code>, <code>label-important</code>
-         </tbody>
-      </table>
-
       <p><h5>How to Use</h5></p>
 <p><b>What is error message?</b></p>
 	<p><h7>An error message alerts users of a problem that has already occurred.<br>Effective error messages inform users that a problem occurred, explain why it happened, and provide a solution so users can fix the problem</h7></p>
@@ -198,7 +178,7 @@
 	Use a different error message for each detectable cause. For example, if a file cannot be opened for several reasons, provide a separate supplemental instruction for each reason.<br>
 	Use a message with multiple causes only when the specific cause can't be determined. In this case, present the solutions in order of likelihood of fixing the problem. Doing so helps users solve the problem more efficiently.
 	</h7></p>
-	<h7>Incorrect:</h7>
+	<p>Incorrect:</p>
 	<img src="images/image01.png"/>
 	<p>Correct:</p>
 	<img src="images/image03.png"/>	
@@ -262,9 +242,7 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Warning Message Pop-up</a>
 </div>
-<pre class="prettyprint linenums">
-...
-</pre>
+
       <p><h5>How to Use</h5></p>
 <p><h7><b>What is Warning Message?</b><br>A warning message is to alert users of a condition that might cause a problem in the future.</h7></p>
 
@@ -345,9 +323,7 @@
 <a class="btn btn-primary btn-large" href="#myModal2" data-toggle="modal">Launch Info Message Pop-up</a>
 </div>
 
-<pre class="prettyprint linenums">
-...
-</pre>       <h5>How to Use</h5>
+<h5>How to Use</h5>
 <p><h7><b>What is Information Message?</b></h7></p>
 	<p><h7>An information message is to alert users useful and relevant, but never critical information. It like a notification to let user know a specific information.<br>E.g: Your account has been registered successfully. Please go to your email address box to activate your account.</h7></p>
 	<p><h7><b>Characteristic of a good information message:</b><br>
@@ -420,9 +396,6 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Confirmation Message Pop-up</a>
 </div>
-<pre class="prettyprint linenums">
-...
-</pre>
     
 <h5>How to Use</h5>
 <p><h7><b>What is Confirmation Message?</b></h7></p>
@@ -638,10 +611,10 @@
 			<div class="PopupContent popupContent">	
 				<ul class="multipleMessage popupMessage resizable">
 					<li>
-						<a class="" href="#error" data-toggle="collapse">
+						<a class="" href="#error9" data-toggle="collapse">
 							 <i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
 						</a>
-						<ul class="collapse in" id="error">
+						<ul class="collapse in" id="error9">
 							<li>- The field "First Name" is required.
 							</li>
 							<li>- The field "Last Name" is required.
@@ -650,19 +623,19 @@
 							</li>
 						 </ul>
 						 </br>
-						 <a class="" href="#warning3" data-toggle="collapse">
+						 <a class="" href="#warning9" data-toggle="collapse">
 							<i class="uiIconArrowRight"></i><span class="warningIcon"> 1 Warning </span>
 						</a>
-						<ul class="collapse" id="warning3">
+						<ul class="collapse" id="warning9">
 							<li>- Your password is not strong enough.
 							</li>
 
 						 </ul>
 						</br>
-						<a class="" href="#info3" data-toggle="collapse">
+						<a class="" href="#info9" data-toggle="collapse">
 							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
 						</a>
-						<ul class="collapse" id="info3">
+						<ul class="collapse" id="info9">
 							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
 							</li>
 						 </ul>
@@ -677,9 +650,6 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal4" data-toggle="modal">Launch Multiple Message Pop-up</a>
 </div>
-<pre class="prettyprint linenums">
-...
-</pre>
      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
      <p><h7>Messages is a way an application talk to end users. So, messages play an important role to make the success of an application.
 We need to use this pattern to ensure the message popup system to display correctly, consistently and professionally.</h7></p>
