@@ -8,14 +8,13 @@
     <meta name="author" content="">
     <!-- Le styles -->
      <link href="../css/bootstrap.css" rel="stylesheet">
-
-     <link href="../css/bootstrap.min.css" rel="stylesheet"> 
-     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
-     <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
-	
+	 
 	 <!-- syntaxhighlighter -->
 	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
 	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
@@ -36,22 +35,20 @@
 
     <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-           <div class="nav-collapse">
-            <ul class="nav">
-                <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
-              <li><a href="../getting-started.html">Getting Started</a></li>
-              <li class="active" ><a href="../Patterns.html" >Patterns</a></li>
-              <li><a href="../Components.html">Components</a></li>
-            </ul>
-          </div>
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="../getting-started.html">Getting Started</a></li>
+            <li class="active"><a href="../Patterns.html">Patterns</a></li>
+            <li><a href="../Components.html">Components</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -111,7 +108,6 @@
 <p><h7>This kind of tab is used in pop-up.</h7></p>
 <div class="bs-docs-example">
 <div class="tabbable" style="margin-bottom: 18px;">
-
 	<div id="" class="uiTabPane uiTabNormal">
 		<ul id="myTab" class="nav nav-tabs">
 			<li class="active">
@@ -144,7 +140,7 @@
 	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
 	
 
-		<div id="UIViewTemplate_UITemplateContainer" class="uiTabPane uiTabNormal">
+	<div id="UIViewTemplate_UITemplateContainer" class="uiTabPane uiTabNormal">
 		<ul id="myTab" class="nav nav-tabs">
 			<li class="active">
 				<a href="#tab-home" data-toggle="tab">Home</a>
@@ -171,9 +167,7 @@
 
 	
 	]]></script>
-
 </div>
-
 
 
 			<h4><a name="S2"></a><span>Gray Tab in Page</span></h4>
@@ -193,10 +187,8 @@
 			<a href="#tab3_4" data-toggle="tab">Tab 3</a>
 		</li>                                                                                           
 		<li class="dropdown pull-right listHiddenTabsContainer">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-				<ul class="dropdown-menu">
-					<!-- <li><a data-toggle="tab" href="#dropdown1_4">Tab demo1</a></li> -->
-				</ul>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="margin-top: -2px;">More <b class="caret"></b></a>
+				
 		</li>
 	</ul>
 	<div class="tab-content">
@@ -216,9 +208,7 @@
 				 </li>
 				 <li style="display: block;" class="pull-right listHiddenActionsContainer">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-						<!-- <li><a data-toggle="tab" href="#dropdown1_4">Tab demo1</a></li> -->
-					</ul>
+						
 				 </li>
 			</ul>
 			
@@ -239,9 +229,7 @@
 				 </li>
 				 <li style="display: block;" class="pull-right listHiddenActionsContainer">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-						<!-- <li><a data-toggle="tab" href="#dropdown1_4">Tab demo1</a></li> -->
-					</ul>
+						
 				 </li>
 			</ul>
 			
@@ -262,9 +250,7 @@
 				 </li>
 				 <li style="display: block;" class="pull-right listHiddenActionsContainer">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-						<!-- <li><a data-toggle="tab" href="#dropdown1_4">Tab demo1</a></li> -->
-					</ul>
+						
 				 </li>
 			</ul>
 			
@@ -291,7 +277,6 @@
 			<li class="last">
 				<a href="#tab3_4" data-toggle="tab">Tab 3</a>
 			</li>                                                                                           
-
 			<li class="dropdown pull-right listHiddenTabsContainer" style="display: block;">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
 					<ul class="dropdown-menu">
@@ -316,12 +301,8 @@
 					 </li>
 					 <li style="display: block;" class="pull-right listHiddenActionsContainer">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-
-
 							<ul class="dropdown-menu">
 							<!-- <li><a data-toggle="tab" href="#dropdown1_4">Tab demo1</a></li> -->
-
-
 						</ul>
 					 </li>
 				</ul>
@@ -329,17 +310,13 @@
 			</div>
 			<div class="tab-pane fade" id="tab2_4">
 				<ul class="nav nav-pills">
-
 					 ...
-
 				</ul>
 				
 			</div>
 			<div class="tab-pane fade" id="tab3_4">
 				<ul class="nav nav-pills">
-
 					...
-
 				</ul>
 				
 			</div>
@@ -461,10 +438,9 @@ A tab has 2 main statuses:
 Besides, the same usage makes the consistency among products in the way displaying data in pages or pop-ups.
 </h7></p>
 </div>
-<p>
-<div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
+<div id="footer">
+	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
 </div>
-</p>
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -495,5 +471,4 @@ Besides, the same usage makes the consistency among products in the way displayi
       $(document).ready(function () {
     $("[rel=tooltip]").tooltip();
   });
-
 </script>

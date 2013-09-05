@@ -16,6 +16,11 @@
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
+	 
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -30,22 +35,20 @@
 
     <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-           <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
-              <li><a href="../getting-started.html">Getting Started</a></li>
-              <li class="active" ><a href="../Patterns.html" >Patterns</a></li>
-              <li><a href="../Components.html">Components</a></li>
-            </ul>
-          </div>
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="../getting-started.html">Getting Started</a></li>
+            <li class="active"><a href="../Patterns.html">Patterns</a></li>
+            <li><a href="../Components.html">Components</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -117,15 +120,22 @@
 				</div>
 			</div>
 		</div>
-
+		</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="errorIcon">
+					Your email address is incorrect. Please input a valid one!
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>
 
 	<div id="myModal1" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-
-
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
-
-
 				<span class="PopupTitle popupTitle">
 					Error
 				</span>
@@ -139,11 +149,7 @@
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-
-
 					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
-
-
 				</div>
 			</div>
 		</div>
@@ -210,7 +216,7 @@
 				<ul class="singleMessage popupMessage resizable">
 					<li>
 						<span class="warningIcon">
-							Your account will be blocked in case there is more than 10 times incorrect password input.
+							Your password is not strong enough.
 						</span>
 					</li>
 				</ul>
@@ -219,16 +225,22 @@
 				</div>
 			</div>
 		</div>
-		
-		
+		</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="warningIcon">
+					Your account will be blocked in case there is more than 10 times incorrect password input.
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>		
 
 <div id="myModal" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-
-
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
-
-
 				<span class="PopupTitle popupTitle">
 					Warning
 				</span>
@@ -237,16 +249,12 @@
 				<ul class="singleMessage popupMessage resizable">
 					<li>
 						<span class="warningIcon">
-							Your account will be blocked in case there is more than 10 times incorrect password input.
+							Your password is not strong enough.
 						</span>
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-
-
 					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
-
-
 				</div>
 			</div>
 		</div>
@@ -297,15 +305,22 @@
 				</div>
 			</div>
 		</div>
-
+</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="infoIcon">
+					Your resgistration is completed. Please check your email inbox to activate your account!
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>
 
 <div id="myModal2" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-
-
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
-
-
 				<span class="PopupTitle popupTitle">
 					Infomation
 				</span>
@@ -319,9 +334,7 @@
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-
 					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
-
 					
 				</div>
 			</div>
@@ -369,15 +382,22 @@
 				</div>
 			</div>
 		</div>
-
+</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	<ul class="singleMessage popupMessage resizable">
+		<li>
+			<span class="confirmationIcon">
+				Are you sure you want to delete this driver and all its data?
+			</span>
+		</li>
+	</ul>	
+]]></script>
+</div>
 
 <div id="myModal3" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
 			<div class="popupHeader ClearFix">
-
-
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
-
-
 				<span class="PopupTitle popupTitle">
 					Confirmation
 				</span>
@@ -391,12 +411,8 @@
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
-
-
 					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
 					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">Cancel</a>
-
-
 				</div>
 			</div>
 		</div>
@@ -439,29 +455,22 @@
 				<ul class="multipleMessage popupMessage resizable">
 					<li>
 						<a class="" href="#error" data-toggle="collapse">
-							 <i class="uiIconArrowRight"></i>
-							 <span class="errorIcon">
-								1 Error
-							 </span>
+							 <i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
 						</a>
-						<ul class="collapse" id="error">
-							<li>- Your email address is incorrect. Please input a valid one!
-							</li>
-						 </ul>
-						 </br>
-						 <a class="" href="#warning" data-toggle="collapse">
-
-
-							<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
-
-
-						</a>
-						<ul class="collapse" id="warning">
+						<ul class="collapse in" id="error">
 							<li>- The field "First Name" is required.
 							</li>
 							<li>- The field "Last Name" is required.
 							</li>
 							<li>- Your email address is invalid. Please enter a different address.
+							</li>
+						 </ul>
+						 </br>
+						 <a class="" href="#warning" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 1 Warning </span>
+						</a>
+						<ul class="collapse" id="warning">
+							<li>- Your password is not strong enough.
 							</li>
 						 </ul>
 						</br>
@@ -494,27 +503,25 @@
 			<div class="PopupContent popupContent">	
 				<ul class="multipleMessage popupMessage resizable">
 					<li>
-						<a class="" href="#error3" data-toggle="collapse">
-							 <i class="uiIconArrowRight"></i>
-							 <span class="errorIcon">
-								1 Error
-							 </span>
+						<a class="" href="#error" data-toggle="collapse">
+							 <i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
 						</a>
-						<ul class="collapse" id="error3">
-							<li>- Your email address is incorrect. Please input a valid one!
-							</li>
-						 </ul>
-						 </br>
-						 <a class="" href="#warning3" data-toggle="collapse">
-							<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
-						</a>
-						<ul class="collapse" id="warning3">
+						<ul class="collapse in" id="error">
 							<li>- The field "First Name" is required.
 							</li>
 							<li>- The field "Last Name" is required.
 							</li>
 							<li>- Your email address is invalid. Please enter a different address.
 							</li>
+						 </ul>
+						 </br>
+						 <a class="" href="#warning3" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 1 Warning </span>
+						</a>
+						<ul class="collapse" id="warning3">
+							<li>- Your password is not strong enough.
+							</li>
+
 						 </ul>
 						</br>
 						<a class="" href="#info3" data-toggle="collapse">
@@ -546,15 +553,12 @@
 					<li>
 						
 						 <a class="" href="#warning1" data-toggle="collapse">
-							<i class="uiIconArrowRight"></i><span class="warningIcon"> 3 Warnings </span>
+							<i class="uiIconArrowDown"></i><span class="warningIcon"> 1 Warning </span>
 						</a>
-						<ul class="collapse" id="warning1">
-							<li>- The field "First Name" is required.
+						<ul class="collapse in" id="warning1">
+							<li>- Your password is not strong enough.
 							</li>
-							<li>- The field "Last Name" is required.
-							</li>
-							<li>- Your email address is invalid. Please enter a different address.
-							</li>
+
 						 </ul>
 						</br>
 						<a class="" href="#info1" data-toggle="collapse">
@@ -584,14 +588,18 @@
 				<ul class="multipleMessage popupMessage resizable">
 					<li>
 						
-						<a class="" href="#info2" data-toggle="collapse">
-							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
+						<a class="" href="#error5" data-toggle="collapse">
+							<i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
 						</a>
-						<ul class="collapse" id="info2">
-							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
+						<ul class="collapse in" id="error5">
+							<li>- The field "First Name" is required.
+							</li>
+							<li>- The field "Last Name" is required.
+							</li>
+							<li>- Your email address is invalid. Please enter a different address.
 							</li>
 						 </ul>
-						
+						 
 					</li>
 				</ul>
 				<div class="uiAction uiActionBorder">
@@ -599,9 +607,75 @@
 				</div>
 			</div>
 		</div>
+		</br>
+		<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="multipleMessage popupMessage resizable">
+			<li>
+				<a class="" href="#error5" data-toggle="collapse">
+					<i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
+				</a>
+				<ul class="collapse in" id="error5">
+					<li>- The field "First Name" is required.
+					</li>
+					<li>- The field "Last Name" is required.
+					</li>
+					<li>- Your email address is invalid. Please enter a different address.
+					</li>
+				</ul>
 
+			</li>
+		</ul>
+]]></script>
+</div>
+<div id="myModal4" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
+	<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" data-dismiss="modal" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Alert
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="multipleMessage popupMessage resizable">
+					<li>
+						<a class="" href="#error" data-toggle="collapse">
+							 <i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
+						</a>
+						<ul class="collapse in" id="error">
+							<li>- The field "First Name" is required.
+							</li>
+							<li>- The field "Last Name" is required.
+							</li>
+							<li>- Your email address is invalid. Please enter a different address.
+							</li>
+						 </ul>
+						 </br>
+						 <a class="" href="#warning3" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 1 Warning </span>
+						</a>
+						<ul class="collapse" id="warning3">
+							<li>- Your password is not strong enough.
+							</li>
+
+						 </ul>
+						</br>
+						<a class="" href="#info3" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Infomation </span>
+						</a>
+						<ul class="collapse" id="info3">
+							<li>- Your resgistration is completed. Please check your email inbox to activate your account!
+							</li>
+						 </ul>
+						
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+				</div>
+			</div>
+		</div>		
 <div class="bs-docs-example" style="padding-bottom: 24px;">
-<a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Multiple Message Pop-up</a>
+<a class="btn btn-primary btn-large" href="#myModal4" data-toggle="modal">Launch Multiple Message Pop-up</a>
 </div>
 <pre class="prettyprint linenums">
 ...
@@ -611,10 +685,9 @@
 We need to use this pattern to ensure the message popup system to display correctly, consistently and professionally.</h7></p>
 </div>
 </div>
-<p>
-<div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
+<div id="footer">
+	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
 </div>
-</p>
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -635,13 +708,10 @@ We need to use this pattern to ensure the message popup system to display correc
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
 	<script type="text/javascript" src="../js/uiPopupMessage.js"></script>
-
-	
+		<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 <script type="text/javascript">
       $(document).ready(function () {
     $("[rel=tooltip]").tooltip();
   });
 </script>
-
-
 </body></html>

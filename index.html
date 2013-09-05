@@ -1,113 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>eXo UX Guidelines</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Le styles -->
-      <link href="css/bootstrap.css" rel="stylesheet">
-      <link href="css/bootstrap.min.css" rel="stylesheet"> 
-      <link href="css/bootstrap-responsive.css" rel="stylesheet">
-      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="css/prettify.css" rel="stylesheet">
-      <link href="css/docs.css" rel="stylesheet">
-      <link href="css/uxp-pattern.css" rel="stylesheet">
-      <link href="css/plf4.css" rel="stylesheet"> 
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le fav and touch icons -->
-
-  </head>
-
-  <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-            <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="index.html"><img src="img/global.logo.png"/></a></li>
-              <li><a href="getting-started.html">Getting Started</a></li>
-              <li><a href="Patterns.html">Patterns</a></li>
-              <li><a href="Components.html">Components</a></li>
-              </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>eXo UX Guidelines</h1>
-        <p>This website is a live demonstration of eXo UX Guidelines. As they are all based on Twitter Bootstrap, we decide to customize and create something really cool known as Platform 4 Style for testing all our patterns, components and see them in live demo mode! Enjoy!</p>
-        </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span1">
-        <a href="getting-started.html"><img src="img/icon_start.png"></a>
-        </div>
-       <div class="span3">
-          <h2><a href="getting-started.html">Getting Started</a></h2>
-           <p>Overview of eXo UX Guidelines, its structure and content, and how to get started with a simple template.</p>
-          
-        </div>
-<div class="span1">
-        <a href="Patterns.html"><img src="img/icon_pattern.png"></a>
-        </div>
-        <div class="span3">
-          <h2><a href="Patterns.html">Patterns</a></h2>
-           <p>The patterns for specific functions or objects following Platform 4 style that can be applied to obtain the conistency.</p>
-          
-        </div>
-        <div class="span1">
-<a href="Components.html"><img src="img/icon_component.png"></a>
-        </div>
-        <div class="span3">
-          <h2><a href="Components.html">Components</a></h2>
-           <p>Details for some Platform 4 components,  basic css for html elements based on Bootstrap.</p>        
-       </div>
-      
-       </div><!-- end row 2 -->          
-    
-<div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center></div></div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
-    <script src="js/application.js"></script>
-
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>eXo UX Guidelines</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		<!-- Le styles -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+    	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/prettify.css" rel="stylesheet">
+		<link href="css/docs.css" rel="stylesheet">
+		<link href="css/uxp-pattern.css" rel="stylesheet">
+		<link href="css/plf4.css" rel="stylesheet">
+		
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<!-- Le fav and touch icons -->
+		
+	</head>
+	
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="./index.html" class="brand"><img src="img/global.logo.png"/></a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="getting-started.html">Getting Started</a></li>
+						<li><a href="Patterns.html">Patterns</a></li>
+						<li><a href="Components.html">Components</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+				<!-- <form action="" class="navbar-search pull-right">
+					<input type="text" placeholder="Search" class="search-query span2">
+				</form> -->
+                <!-- <div class="btn-group loginAndRegis pull-right">
+					<a href="#" class="btn btn-login">Sign in</a>
+					<a href="#" class="btn btn-regis">Register</a>
+				</div> -->
+			</div>
+		</div>
+		
+		<!-- Main hero unit for a primary marketing message or call to action -->
+		<div class="hero-unit">
+			<div class="container">
+				<h1>eXo UX Guidelines</h1>
+				<p>This website is a live demonstration of eXo UX Guidelines. As they are all based on Twitter Bootstrap, we decide to customize and create something really cool known as Platform 4 Style for testing all our patterns, components and see them in live demo mode ! Enjoy!</p>
+			</div>
+		</div>
+		
+		<div class="container">
+			
+			<!-- Example row of columns -->
+			<div class="row-fluid homeOverview">
+				<div class="span4">
+					<div class="media">
+						<a class="pull-left" href="getting-started.html"><img src="img/icon_start.png"></a>
+						<div class="media-body">
+							<h2><a href="getting-started.html">Getting Started</a></h2>
+							<p>Overview of eXo UX Guidelines, its structure and content, and how to get started with a simple template.</p>
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="media">
+						<a class="pull-left" href="Patterns.html"><img src="img/icon_pattern.png"></a>
+						<div class="media-body">
+							<h2><a href="Patterns.html">Patterns</a></h2>
+							<p>The patterns for specific functions or objects following Platform 4 style that can be applied to obtain the conistency.</p>
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="media">
+						<a class="pull-left" href="Components.html"><img src="img/icon_component.png"></a>
+						<div class="media-body">
+							<h2><a href="Components.html">Components</a></h2>
+							<p>Details for some Platform 4 components,  basic css for html elements based on Bootstrap.</p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end row 2 -->
+			
+			<div id="footer">
+				Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
+			</div>
+		</div> 
+		<!-- /container -->
+		
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap-transition.js"></script>
+		<script src="js/bootstrap-alert.js"></script>
+		<script src="js/bootstrap-modal.js"></script>
+		<script src="js/bootstrap-dropdown.js"></script>
+		<script src="js/bootstrap-scrollspy.js"></script>
+		<script src="js/bootstrap-tab.js"></script>
+		<script src="js/bootstrap-tooltip.js"></script>
+		<script src="js/bootstrap-popover.js"></script>
+		<script src="js/bootstrap-button.js"></script>
+		<script src="js/bootstrap-collapse.js"></script>
+		<script src="js/bootstrap-carousel.js"></script>
+		<script src="js/bootstrap-typeahead.js"></script>
+		<script src="js/application.js"></script>
+		
+	</body>
 </html>

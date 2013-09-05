@@ -21,17 +21,6 @@
 	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
 	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
 
-
-
-	  
-	  <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
-	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
-
-
-
-
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -45,22 +34,20 @@
 
     <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-           <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
-              <li><a href="../getting-started.html">Getting Started</a></li>
-              <li class="active" ><a href="../Patterns.html" >Patterns</a></li>
-              <li><a href="../Components.html">Components</a></li>
-            </ul>
-          </div>
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="../getting-started.html">Getting Started</a></li>
+            <li  class="active"><a href="../Patterns.html">Patterns</a></li>
+            <li><a href="../Components.html">Components</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -103,27 +90,24 @@
       <div class="span9">
       <p><span></span></p>
       <h3><a name="Overview"></a><span>Overview</span></h3>
-
-
-
-       <p><h7>Upload function allows to attaching files to specific content or changing the avatar of a page or personal image.</h7></p>
+       <p>Upload function allows to attaching files to specific content or changing the avatar of a page or personal image.</p>
 
       <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
 
-      <p><h7>The user needs may want attach related material to their content such as event, topic, post, wiki... or upload files for storage or sharing. The upload function is a tool to do this.</h7></p>
+      <p><span>The user needs may want attach related material to their content such as event, topic, post, wiki... or upload files for storage or sharing. The upload function is a tool to do this.</span></p>
 
       <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
 
-      <p><h7>With any systems that need to upload files from local for changing avatar, file storge, file sharing, importing data, upload function must be used.</h7></p>
+      <p><span>With any systems that need to upload files from local for changing avatar, file storge, file sharing, importing data, upload function must be used.</span></p>
       
       <h3><span>What's the Solution?</span></h3>
-      <p><h4><a name="S1"></a><span>Template</span></h4></p>
-      <p><h7>Default Upload pop-up:One file can be selected at once:</h7></p>
+      <h4><a name="S1"></a><span>Template</span></h4>
+      <p>Default Upload pop-up:One file can be selected at once:</p>
 <div class="bs-docs-example">
 		<div style="width: 420px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
 			<div class="popupHeader ClearFix">
 				<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
-				<span class="PopupTitle popupTitle">Rate This Topic</span>
+				<span class="PopupTitle popupTitle">Attach File</span>
 			</div>
 			<div class="PopupContent popupContent">
 				<div id="AttachFileForm" class="AttachFileForm">
@@ -161,14 +145,14 @@
 			<span class="uiIconResize pull-right uiIconLightGray"></span>
 		</div>
  </div>
-      <p><h7>When a file is selected, it is automatically uploaded. The cancel icon is to cancel the being uploaded file:</h7></p>
+      <p>When a file is selected, it is automatically uploaded. The cancel icon is to cancel the being uploaded file:</p>
 <div class="bs-docs-example">
 		<div style="width: 420px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
 			<div class="popupHeader ClearFix">
 				<a onclick="" title="Close Window" class="uiIconClose pull-right">
 					<div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
 				</a>
-				<span class="PopupTitle popupTitle">Rate This Topic</span>
+				<span class="PopupTitle popupTitle">Attach File</span>
 			</div>
 			<div class="PopupContent popupContent">
 				<div id="AttachFileForm" class="AttachFileForm">
@@ -180,26 +164,27 @@
 									<div class="control-group">
 										<div class="controlUpload">
 											<div class="uiUploadInput" id="upload">
-												
-												<div style="" class="progressBarFrame clearfix">
-													<span class="deleteFileLabel pull-right">
-														<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
-															<i class="uiIconRemove"></i>
-														</a>
-													</span>
-													<div class="fileNameLabel pull-left">exo-tomcat-platform-4...</div>
-													<div class="pull-left percent">20%</div>
-													<div class="progress  progress-striped">
-													  <div style="width:20%" class="bar"></div>
-													</div>			   
-												</div>
-												
 												<div style="" class="uploadContainer" id="uploadContainer430359469-0">  
-													<div class="uploadButton">
-														<label class="btn">Select File</label> 
-														<label style="display:none" class="noFile">No file selected</label>
-														<label style="" class="moreFiles">Select more files</label>
-													</div>	
+													<div style="" class="progressBarFrame clearfix">
+														<span class="deleteFileLabel pull-right">
+															<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
+																<i class="uiIconRemove uiIconLightGray"></i>
+															</a>
+														</span>
+														<div class="fileNameLabel pull-left">exo-tomcat-platform-4...</div>
+														<div class="pull-left percent">20%</div>
+														<div class="progress  progress-striped">
+														  <div style="width:20%" class="bar"></div>
+														</div>			   
+													</div>
+													</div>
+													<div style="" class="uploadContainer" id="uploadContainer430359469-0"> 
+														<div class="uploadButton">
+															<label class="btn">Select File</label> 
+															<label style="display:none" class="noFile">No file selected</label>
+															<label style="" class="moreFiles">Select more files</label>
+														</div>	
+													
 												</div>
 											</div>
 										</div>
@@ -219,9 +204,7 @@
  </div>
 
 
-
 <p>While a file is being uploaded, the Select File button is available to select 1 more file to uplad. So, multiple files may be in progress like below:</p>
-
 <div class="bs-docs-example">
       
 	  <div style="width: 420px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
@@ -229,7 +212,7 @@
 				<a onclick="" title="Close Window" class="uiIconClose pull-right">
 					<div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
 				</a>
-				<span class="PopupTitle popupTitle">Rate This Topic</span>
+				<span class="PopupTitle popupTitle">Attach File</span>
 			</div>
 			<div class="PopupContent popupContent">
 				<div id="AttachFileForm" class="AttachFileForm">
@@ -241,11 +224,11 @@
 									<div class="control-group">
 										<div class="controlUpload">
 											<div class="uiUploadInput" id="upload">
-												
+												<div style="" class="uploadContainer" id="uploadContainer430359469-0">  
 												<div style="" class="progressBarFrame clearfix">
 													<span class="deleteFileLabel pull-right">
 														<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
-															<i class="uiIconRemove"></i>
+															<i class="uiIconRemove uiIconLightGray"></i>
 														</a>
 													</span>
 													<div class="fileNameLabel pull-left">exo-tomcat-platform-4...</div>
@@ -254,10 +237,12 @@
 													  <div style="width:20%" class="bar"></div>
 													</div>			   
 												</div>
+												</div>
+												<div style="" class="uploadContainer" id="uploadContainer430359469-0"> 
 												<div style="" class="progressBarFrame clearfix">
 													<span class="deleteFileLabel pull-right">
 														<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
-															<i class="uiIconRemove"></i>
+															<i class="uiIconRemove uiIconLightGray"></i>
 														</a>
 													</span>
 													<div class="fileNameLabel pull-left">exo-image-ECMS-style...</div>
@@ -266,13 +251,14 @@
 													  <div style="width:50%" class="bar"></div>
 													</div>			   
 												</div>
-												
-												<div style="" class="uploadContainer" id="uploadContainer430359469-0">  
+												</div>
+												<div style="" class="uploadContainer" id="uploadContainer430359469-0"> 
 													<div class="uploadButton">
 														<label class="btn">Select File</label> 
 														<label style="display:none" class="noFile">No file selected</label>
 														<label style="" class="moreFiles">Select more files</label>
 													</div>	
+												
 												</div>
 											</div>
 										</div>
@@ -292,7 +278,7 @@
 	  
  </div>
 
-<p><h7>Uploaded files:</h7></p>
+<p>Uploaded files:</p>
 <div class="bs-docs-example">
       
 	<div style="width: 420px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
@@ -300,7 +286,7 @@
 				<a onclick="" title="Close Window" class="uiIconClose pull-right">
 					<div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
 				</a>
-				<span class="PopupTitle popupTitle">Rate This Topic</span>
+				<span class="PopupTitle popupTitle">Attach File</span>
 			</div>
 			<div class="PopupContent popupContent">
 				<div id="AttachFileForm" class="AttachFileForm">
@@ -315,8 +301,8 @@
 												
 												<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
 												  <div style="" class="selectFileFrame clearfix">		
-														<div class="fileNameLabel">WD-Report-month.txt</div>
-														<div class="removeFile pull-right">
+														<div class="fileNameLabel" style="float: left;">exo-tomcat-platform-4.1.x</div>
+														<div class="removeFile pull-right" style="float: right;">
 															<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
 																<i class="uiIconDelete uiIconLightGray"></i>
 															</a>
@@ -325,8 +311,8 @@
 												</div>
 												<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
 												  <div style="" class="selectFileFrame clearfix">		
-														<div class="fileNameLabel">Icon-Loading.png</div>
-														<div class="removeFile pull-right">
+														<div class="fileNameLabel" style="float: left;">exo-image-ECMS-style4.1.x</div>
+														<div class="removeFile pull-right" style="float: right;">
 															<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
 																<i class="uiIconDelete uiIconLightGray"></i>
 															</a>
@@ -340,6 +326,7 @@
 														<label style="" class="moreFiles">Select more files</label>
 													</div>	
 												</div>
+												
 											</div>
 										</div>
 									</div>
@@ -357,95 +344,91 @@
 		</div>
 	  
  </div>
-<p><h7>More file can be selected to continue uploading:</h7></p>
+<p>More file can be selected to continue uploading:</p>
 <div class="bs-docs-example">
       
-	<div style="width: 420px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
-			<div class="popupHeader ClearFix">
-				<a onclick="" title="Close Window" class="uiIconClose pull-right">
-					<div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
-				</a>
-				<span class="PopupTitle popupTitle">Rate This Topic</span>
-			</div>
-			<div class="PopupContent popupContent">
-				<div id="AttachFileForm" class="AttachFileForm">
-					<span id="UIPopupActionChildPopupAction" class="UIPopupActionChildPopupAction UIKSPopupAction"></span>
-					<div class="uiFormForum uiAttachFileForm">
-						<form method="post" enctype="multipart/form-data" action="/portal/intranet/forum?portal:componentId=c4775064-7711-4230-b877-5078c5b5212d&amp;interactionstate=JBPNS_rO0ABXcsAAt1aWNvbXBvbmVudAAAAAEAEFVJQXR0YWNoRmlsZUZvcm0AB19fRU9GX18*&amp;portal:type=action" id="UIAttachFileForm" class="UIForm"><div><input type="hidden" value="" name="formOp"><input type="hidden" value="AA17AB94C0A8012B35D8BBCC4C81958F" name="gtn:csrf"></div>
-							<div class="resizable">
-								<div class="form-horizontal">
-									<div class="control-group">
-										<div class="controlUpload">
-											<div class="uiUploadInput" id="upload">
-												
-												<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
-												  <div style="" class="selectFileFrame clearfix">		
-														<div class="fileNameLabel">WD-Report-month.txt</div>
-														<div class="removeFile pull-right">
-															<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
-																<i class="uiIconDelete uiIconLightGray"></i>
-															</a>
-														</div>
-												  </div>
+<div style="width: 420px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
+	<div class="popupHeader ClearFix">
+		<a onclick="" title="Close Window" class="uiIconClose pull-right">
+			<div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
+		</a>
+		<span class="PopupTitle popupTitle">Attach File</span>
+	</div>
+	<div class="PopupContent popupContent">
+		<div id="AttachFileForm" class="AttachFileForm">
+			<span id="UIPopupActionChildPopupAction" class="UIPopupActionChildPopupAction UIKSPopupAction"></span>
+			<div class="uiFormForum uiAttachFileForm">
+				<form method="post" enctype="multipart/form-data" action="/portal/intranet/forum?portal:componentId=c4775064-7711-4230-b877-5078c5b5212d&amp;interactionstate=JBPNS_rO0ABXcsAAt1aWNvbXBvbmVudAAAAAEAEFVJQXR0YWNoRmlsZUZvcm0AB19fRU9GX18*&amp;portal:type=action" id="UIAttachFileForm" class="UIForm"><div><input type="hidden" value="" name="formOp"><input type="hidden" value="AA17AB94C0A8012B35D8BBCC4C81958F" name="gtn:csrf"></div>
+					<div class="resizable">
+						<div class="form-horizontal">
+							<div class="control-group">
+								<div class="controlUpload">
+									<div class="uiUploadInput" id="upload">
+										
+										<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
+										  <div style="" class="selectFileFrame clearfix">		
+												<div class="fileNameLabel" style="float: left;">exo-tomcat-platform-4.1.x</div>
+												<div class="removeFile pull-right" style="float: right;">
+													<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
+														<i class="uiIconDelete uiIconLightGray"></i>
+													</a>
 												</div>
-												<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
-												  <div style="" class="selectFileFrame clearfix">		
-														<div class="fileNameLabel">Icon-Loading.png</div>
-														<div class="removeFile pull-right">
-															<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
-																<i class="uiIconDelete uiIconLightGray"></i>
-															</a>
-														</div>
-												  </div>
+										  </div>
+										</div>
+										<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
+										  <div style="" class="selectFileFrame clearfix">		
+												<div class="fileNameLabel" style="float: left;">exo-image-ECMS-style4.1.x</div>
+												<div class="removeFile pull-right" style="float: right;">
+													<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
+														<i class="uiIconDelete uiIconLightGray"></i>
+													</a>
 												</div>
-												<div style="" class="progressBarFrame clearfix">
-													<span class="deleteFileLabel pull-right">
-														<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
-															<i class="uiIconRemove"></i>
-														</a>
-													</span>
-													<div class="fileNameLabel pull-left">exo-image-ECMS-style...</div>
-													<div class="pull-left percent">50%</div>
-													<div class="progress  progress-striped">
-													  <div style="width:50%" class="bar"></div>
-													</div>			   
-												</div>
-												
-												<div style="" class="uploadContainer" id="uploadContainer430359469-0">  
-													<div class="uploadButton">
-														<label class="btn">Select File</label> 
-														<label style="display:none" class="noFile">No file selected</label>
-														<label style="" class="moreFiles">Select more files</label>
-													</div>	
-												</div>
-											</div>
+										  </div>
+										</div>
+										<div style="" class="uploadContainer" id="uploadContainer1526481975-0">
+										<div style="" class="progressBarFrame clearfix">
+											<span class="deleteFileLabel pull-right">
+												<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
+													<i class="uiIconRemove uiIconLightGray"></i>
+												</a>
+											</span>
+											<div class="fileNameLabel pull-left">exo-image-Forum-style...</div>
+											<div class="pull-left percent">50%</div>
+											<div class="progress  progress-striped">
+											  <div style="width:50%" class="bar"></div>
+											</div>			   
+										</div>
+										</div>
+										<div style="" class="uploadContainer" id="uploadContainer430359469-0">  
+											<div class="uploadButton">
+												<label class="btn">Select File</label> 
+												<label style="display:none" class="noFile">No file selected</label>
+												<label style="" class="moreFiles">Select more files</label>
+											</div>	
+										</div>
 										</div>
 									</div>
 								</div>
-								<div class="uiAction uiActionBorder">
-									<button type="button" class="btn" onclick="">Save</button>
-									<button type="button" class="btn" onclick="">Cancel</button>
-								</div>
-							</form>
+							</div>
 						</div>
-					</div>
-				 </div>
+						<div class="uiAction uiActionBorder">
+							<button type="button" class="btn" onclick="">Save</button>
+							<button type="button" class="btn" onclick="">Cancel</button>
+						</div>
+					</form>
+				</div>
 			</div>
-			<span class="uiIconResize pull-right uiIconLightGray"></span>
-		</div>
-	  
-
-	  
+		 </div>
+		 <span class="uiIconResize pull-right uiIconLightGray"></span>
+	</div>
  </div>
-
+ 
 <h4><a name="S2"></a><span>Markup</span></h4>
 <p>HTML is your standard unordered list with links.</p>
-
-
 <div class="prettyprint linenums">
 	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-		<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
-		  <div style="" class="selectFileFrame clearfix">		
+		<div class="uploadContainer" id="">  
+		  <div class="selectFileFrame clearfix">		
 				<div class="fileNameLabel">Icon-Loading.png</div>
 				<div class="removeFile pull-right">
 					<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
@@ -454,29 +437,104 @@
 				</div>
 		  </div>
 		</div>
-		<div style="" class="progressBarFrame clearfix">
-			<span class="deleteFileLabel pull-right">
-				<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
-					<i class="uiIconRemove"></i>
-				</a>
-			</span>
-			<div class="fileNameLabel pull-left">exo-image-ECMS-style...</div>
-			<div class="pull-left percent">50%</div>
-			<div class="progress  progress-striped">
-			  <div style="width:50%" class="bar"></div>
-			</div>			   
+		<div class="uploadContainer" id=""> 
+			<div style="" class="progressBarFrame clearfix">
+				<span class="deleteFileLabel pull-right">
+					<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
+						<i class="uiIconRemove uiIconLightGray"></i>
+					</a>
+				</span>
+				<div class="fileNameLabel pull-left">exo-image-ECMS-style...</div>
+				<div class="pull-left percent">50%</div>
+				<div class="progress  progress-striped">
+				  <div style="width:50%" class="bar"></div>
+				</div>			   
+			</div>
 		</div>
-		
-		<div style="" class="uploadContainer" id="uploadContainer430359469-0">  
+		<div class="uploadContainer" id="">  
 			<div class="uploadButton">
 				<label class="btn">Select File</label> 
 				<label style="display:none" class="noFile">No file selected</label>
-				<label style="" class="moreFiles">Select more files</label>
+				<label class="moreFiles">Select more files</label>
 			</div>	
 		</div>
 ]]></script>
 </div>
 
+<div id="myModal" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1"  style="width: 420px; position: relative;" id="" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle modal hide fade">
+	<div class="popupHeader ClearFix">
+		<a onclick="" title="Close Window" class="uiIconClose pull-right">
+			<div class="ClosePopup" style="width: 16px; height: 16px;" data-dismiss="modal"><span></span></div>
+		</a>
+		<span class="PopupTitle popupTitle">Attach File</span>
+	</div>
+	<div class="PopupContent popupContent">
+		<div id="AttachFileForm" class="AttachFileForm">
+			<span id="UIPopupActionChildPopupAction" class="UIPopupActionChildPopupAction UIKSPopupAction"></span>
+			<div class="uiFormForum uiAttachFileForm">
+				<form method="post" enctype="multipart/form-data" action="/portal/intranet/forum?portal:componentId=c4775064-7711-4230-b877-5078c5b5212d&amp;interactionstate=JBPNS_rO0ABXcsAAt1aWNvbXBvbmVudAAAAAEAEFVJQXR0YWNoRmlsZUZvcm0AB19fRU9GX18*&amp;portal:type=action" id="UIAttachFileForm" class="UIForm"><div><input type="hidden" value="" name="formOp"><input type="hidden" value="AA17AB94C0A8012B35D8BBCC4C81958F" name="gtn:csrf"></div>
+					<div class="resizable">
+						<div class="form-horizontal">
+							<div class="control-group">
+								<div class="controlUpload">
+									<div class="uiUploadInput" id="upload">
+										
+										<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
+										  <div style="" class="selectFileFrame clearfix">		
+												<div class="fileNameLabel" style="float: left;">exo-tomcat-platform-4.1.x</div>
+												<div class="removeFile pull-right" style="float: right;">
+													<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
+														<i class="uiIconDelete uiIconLightGray"></i>
+													</a>
+												</div>
+										  </div>
+										</div>
+										<div style="" class="uploadContainer" id="uploadContainer1526481975-0">  
+										  <div style="" class="selectFileFrame clearfix">		
+												<div class="fileNameLabel" style="float: left;">exo-image-ECMS-style4.1.x</div>
+												<div class="removeFile pull-right" style="float: right;">
+													<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Delete">
+														<i class="uiIconDelete uiIconLightGray"></i>
+													</a>
+												</div>
+										  </div>
+										</div>
+										<div style="" class="uploadContainer" id="uploadContainer1526481975-0">
+										<div style="" class="progressBarFrame clearfix">
+											<span class="deleteFileLabel pull-right">
+												<a data-placement="bottom" rel="tooltip" class="actionIcon" href="#" data-original-title="Cancel">
+													<i class="uiIconRemove uiIconLightGray"></i>
+												</a>
+											</span>
+											<div class="fileNameLabel pull-left">exo-image-Forum-style...</div>
+											<div class="pull-left percent">50%</div>
+											<div class="progress  progress-striped">
+											  <div style="width:50%" class="bar"></div>
+											</div>			   
+										</div>
+										</div>
+										<div style="" class="uploadContainer" id="uploadContainer430359469-0">  
+											<div class="uploadButton">
+												<label class="btn">Select File</label> 
+												<label style="display:none" class="noFile">No file selected</label>
+												<label style="" class="moreFiles">Select more files</label>
+											</div>	
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="uiAction uiActionBorder">
+							<button type="button" class="btn" data-dismiss="modal">Save</button>
+							<button type="button" class="btn" data-dismiss="modal">Cancel</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		 </div>
+		 <span class="uiIconResize pull-right uiIconLightGray"></span>
+	</div>
 
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Upload Demo</a>
@@ -512,61 +570,69 @@
       <p>
       <table class="table table-bordered table-striped">
           <tbody>
- <tr>
-               <td>UP-01</td>
-               <td>Upload button or symbol is easy to see.</td>
+            <tr>
+               <td>RP-01</td>
+               <td>Rate button or symbol is easy to see.</td>
             </tr>
             <tr>
-               <td>UP-02</td>
-               <td>Only one file can be selected at once.</td>
+               <td>RP-02</td>
+               <td>The rate result of a user is calculated once.</td>
             </tr>
             <tr>
-               <td>UP-03</td>
-               <td>Multiple files are being uploaded.</td>
+               <td>RP-03</td>
+               <td>Depending on configuration, it is possible to rate again. The old rate result is replaced by the new one.</td>
             </tr>
             <tr>
-               <td>UP-04</td>
-               <td>The uploading percentage number must be matched with the progress bar status.</td>
+               <td>RP-04</td>
+               <td>The display of rate stars must be matched with its status.</td>
             </tr>
             <tr>
-               <td>UP-05</td>
-               <td>The uploaded files are saved into database only when the Save button are saved.</td>
+               <td>RP-05</td>
+               <td>The label of "My rating" must be matched with its value. </td>
             </tr>
             <tr>
-               <td>UP-06</td>
-               <td>The file title must be cut off with 20 character and "..." in case having long title.</td>
+               <td>RP-06</td>
+               <td>Rate result is near the title of a content</td>
             </tr>
-            	      </tbody>
+                <tr>
+               <td>RP-07</td>
+               <td>Rate function is available to online logged-in user only.</td>
+            </tr>
+	      </tbody>
       </table>
 
      </p>
 <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
-
-
-
-     <p><h7>To have real research of end users on the quality of your content or products. The pattern is to make sure the consistency among applications.
-</h7></p>
-
-
-
+     <p><span>The pattern is to make sure the consistency among applications in the way to uploading files. 
+</span></p>
 </div><p>
-<div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
+<div id="footer">
+	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
 </div>
 </p>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/widgets.js"></script>
     <script type="text/javascript" src="../js/jquery.js"></script>
-	<script type="text/javascript" src="../js/prettify.js"></script>
-	<script type="text/javascript" src="../js/bootstrap.js"></script>  
+    <script type="text/javascript" src="../js/prettify.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="../js/application.js"></script>
 	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
-
-	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
-
 <script type="text/javascript">
       $(document).ready(function () {
     $("[rel=tooltip]").tooltip();
   });
 </script>
-
 </body></html>

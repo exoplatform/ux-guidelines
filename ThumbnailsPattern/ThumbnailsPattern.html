@@ -15,6 +15,10 @@
      <link href="../css/docs.css" rel="stylesheet">
      <link href="../css/uxp-pattern.css" rel="stylesheet">
      <link href="../css/plf4.css" rel="stylesheet">
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,22 +32,20 @@
 
     <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <div class="nav-collapse">
-            <ul class="nav">
-                <li><a href="../index.html"><img src="../img/global.logo.png"/></a></li>
-              <li><a href="../getting-started.html">Getting Started</a></li>
-              <li class="active" ><a href="../Patterns.html" >Patterns</a></li>
-              <li><a href="../Components.html">Components</a></li>
-            </ul>
-          </div>
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="../getting-started.html">Getting Started</a></li>
+            <li class="active"><a href="../Patterns.html">Patterns</a></li>
+            <li><a href="../Components.html">Components</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -106,32 +108,77 @@
       
 		<div class="attachmentContentImage clearfix">
 
-
 			<div class="imageAttachmentBox pull-left">
-				<a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="IMG_0991.JPG">
-					<img alt="IMG_0991.JPG" id="imgViewIMG_0991.JPG" src="images/img.png">
+				<a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Chrysanthemum.jpg">
+					<img alt="IMG_0991.JPG" id="imgViewIMG_0991.JPG" src="images/Chrysanthemum.jpg">
 				</a>
 				<div class="actionAttachImg">
-					<p><a onclick="" href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
-					<p><a onclick=""><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+					<p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+					<p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
 				</div>
 			</div>
 
 			<div class="imageAttachmentBox pull-left">
-				<a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="IMG_0283.JPG">
-					<img alt="IMG_0283.JPG" id="imgViewIMG_0283.JPG" src="images/img.png">
+				<a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Desert.jpg">
+					<img alt="IMG_0284.JPG" id="imgViewIMG_0284.JPG" src="images/Desert.jpg">
 				</a>
 				<div class="actionAttachImg">
-					<p><a onclick="" href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
-					<p><a onclick=""><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+					<p><a  href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+					<p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+				</div>
+			</div>
+			<div class="imageAttachmentBox pull-left">
+				<a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Hydrangeas.jpg">
+					<img alt="IMG_0285.JPG" id="imgViewIMG_0285.JPG" src="images/Hydrangeas.jpg">
+				</a>
+				<div class="actionAttachImg">
+					<p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+					<p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+				</div>
+			</div>
+			<div class="imageAttachmentBox pull-left">
+				<a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Penguins.jpg">
+					<img alt="IMG_0286.JPG" id="imgViewIMG_0286.JPG" src="images/Penguins.jpg">
+				</a>
+				<div class="actionAttachImg">
+					<p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+					<p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
 				</div>
 			</div>
 
 		</div>
 	  
       </div>
+	  
+	  <div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<div class="attachmentContentImage clearfix">
+
+			<div class="imageAttachmentBox pull-left">
+				<a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Chrysanthemum.jpg">
+					<img alt="IMG_0991.JPG" id="imgViewIMG_0991.JPG" src="images/Chrysanthemum.jpg">
+				</a>
+				<div class="actionAttachImg">
+					<p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+					<p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+				</div>
+			</div>
+			<div class="imageAttachmentBox pull-left">
+				...
+			</div>
+			<div class="imageAttachmentBox pull-left">
+				...
+			</div>
+			<div class="imageAttachmentBox pull-left">
+				...
+			</div>
+
+		</div>
+]]></script>
+</div>
+	  
       <h4><a name="S2"></a><span>Thumbnails in Folders</span></h4>
-      <p><h7>This can be used for images in a folder. The image can be resized until its width or height obtains the maximum of the thumbnails size, the other is resized correspondingly.</h7></p>
+      <p>This can be used for images in a folder. The image can be resized until its width or height obtains the maximum of the thumbnails size, the other is resized correspondingly.</p>
       <div class="bs-docs-example">
       
 		<div class="uiThumbnailsView">
@@ -142,7 +189,7 @@
 					<div class="nodeLabel">
 						<div class="thumbnailImage">
 		  
-							<div style="display: block; width: auto; height: auto;" class="loadingProgressIcon">
+							<div style="display: none; width: auto; height: auto;" class="loadingProgressIcon">
 
 									<div style="background-position:center;" class="bgThumbnailImage">
 										<div style="width: 116px; height: 87px;">
@@ -151,11 +198,11 @@
 									</div>
 							</div>
 						
-							<div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: none;"></div>
+							<div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: block;"></div>
 						</div>
 					</div>
-					<div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="IMG_0283.JPG ">
-					  <a style="" class="actionLabel"><span class="nodeName">IMG_0283.JPG</span></a>
+					<div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="EXO_party.JPEG">
+					  <a style="" class="actionLabel"><span class="nodeName">EXO_party.JPEG</span></a>
 					</div>
 				</div>
 				
@@ -184,20 +231,113 @@
 				  </div>
 				  
 			  </div>
+			  
+			  <div ondblclick="" class="actionIconBox" mousedown="">
+				<div unselectable="on" style="height: auto; width: auto; border: none; -moz-user-select: none;">
+					<div class="nodeLabel">
+						<div class="thumbnailImage">
+
+							<div style="display: none; width: auto; height: auto;" class="loadingProgressIcon">
+
+									<div style="background-position:center;" class="bgThumbnailImage">
+										<div style="width: 116px; height: 87px;">
+											<img alt="" src="images/img10.png">
+										</div>
+									</div>
+							</div>
+						
+							<div class="uiIcon64x64FolderDefault uiIcon64x64exo_portalFolder" style="display: block;"></div>
+						</div>
+					</div>
+					<div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="Intranet ">
+					  <a style="" class="actionLabel"><span class="nodeName">Intranet</span></a>
+					</div>
+				  </div>
+				  
+			  </div>
+			  
+			  <div ondblclick="" class="actionIconBox" mousedown="">
+				<div unselectable="on" style="height: auto; width: auto; border: none; -moz-user-select: none;">
+					<div class="nodeLabel">
+						<div class="thumbnailImage">
+
+							<div style="display: block; width: auto; height: auto;" class="loadingProgressIcon">
+
+									<div style="background-position:center;" class="bgThumbnailImage">
+										<div style="width: 116px; height: 87px;">
+											<img alt="" src="images/Chrysanthemum.jpg">
+										</div>
+									</div>
+							</div>
+						
+							<div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: none;"></div>
+						</div>
+					</div>
+					<div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="Chrysanthemum.jpg ">
+					  <a style="" class="actionLabel"><span class="nodeName">Chrysanthemum.jpg</span></a>
+					</div>
+				  </div>
+				  
+			  </div>
 
 		  </div>
 		</div>
 	  
-
       </div>
+	  
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<div class="uiThumbnailsView">
+			<div class="actionIconsContainer clearfix">
+
+			  <div class="actionIconBox" >
+				<div style="height: auto; width: auto; border: none; -moz-user-select: none;">
+					<div class="nodeLabel">
+						<div class="thumbnailImage">
+		  
+							<div style="display: none; width: auto; height: auto;" class="loadingProgressIcon">
+
+									<div style="background-position:center;" class="bgThumbnailImage">
+										<div style="width: 116px; height: 87px;">
+											<img alt="" src="images/img10.png" >
+										</div>
+									</div>
+							</div>
+						
+							<div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: block;"></div>
+						</div>
+					</div>
+					<div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="EXO_party.JPEG">
+					  <a style="" class="actionLabel"><span class="nodeName">EXO_party.JPEG</span></a>
+					</div>
+				</div>
+				
+			  </div>
+			   
+			  <div  class="actionIconBox" >
+				...
+			  </div>
+			  
+			   <div  class="actionIconBox" >
+				...
+			  </div>
+			  
+			   <div  class="actionIconBox" >
+				...
+			  </div>
+
+		  </div>
+		</div>
+	  
+]]></script>
+</div>
      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
      <p><h7>To obtain the consistency and professionalism of thumbnails usage among products.<h7></p>
 
 </div>
-<p>
-<div id="footer"><center>&copy; eXo Platform 2013<br><a href="http://www.exoplatform.com/company/en/home">Website</a> | <a href="http://community.exoplatform.org/">Community</a> | <a href="http://www.exoplatform.com/company/en/resource-center">Resource Center</a> | <a href="http://www.exoplatform.com/company/en/company/contact-us">Contact Us</a> </center>
+<div id="footer">
+	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
 </div>
-</p>
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -217,6 +357,7 @@
     <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="../js/application.js"></script>
+		<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
 
 <script type="text/javascript">
       $(document).ready(function () {
