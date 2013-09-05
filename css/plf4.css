@@ -168,7 +168,7 @@ body > .navbar .brand {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  padding: 65px 0 55px;
+  padding: 65px 20px 55px;
   -webkit-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
   -moz-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
   -o-box-shadow: inset 0px -2px 5px rgba(36, 44, 48, .22);
@@ -267,6 +267,7 @@ body > .navbar .brand {
 .uiTabNormal .nav-tabs li.dropdown > a .caret {
   border-top-color: #777777;
   margin-top: 7px;
+  opacity: 1;
 }
 .uiTabNormal .nav-tabs li.dropdown > a:hover .caret,
 .uiTabNormal .nav-tabs li.dropdown > a:active .caret,
