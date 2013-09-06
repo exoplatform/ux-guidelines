@@ -64,62 +64,48 @@
 </header>
 
 <div class="container">
-      <div class="row-fluid">
-      <div class="span3">
-           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-        <li class="nav-header">Description</li>
-      	<li><a href="#Overview">Overview</a></li>
-      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
-      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
-      	<li class="divider"></li>
-  	<li class="nav-header">What's the Solution?</li>
-    	<li><a href="#S1">FULL PAGINATION</a></li>
-      	<li><a href="#S1.1"> Template</a></li>
-      	<li><a href="#S1.2"> Markup</a></li>
-      	<li><a href="#S1.3"> Status</a></li>
-        <li><a href="#S1.4"> Rules</a></li>
-        <li><a href="#S1.5"> Item per page</a></li>
-      	<li class="divider"></li>
-        <li><a href="#S2">MORE MODE PAGINATION</a></li>
-      	<li><a href="#S2.1"> Template</a></li>
-      	<li><a href="#S2.2"> Status</a></li>
-        <li><a href="#S2.3"> Rules</a></li>
-        <li><a href="#S2.4"> Item per load</a></li>
-      	<li class="divider"></li>
-      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
+          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
+          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
+          <li><a href="#full-pagination"><i class="icon-chevron-right"></i> Full Pagination</a></li>
+          <li><a href="#more-mode-pagination"><i class="icon-chevron-right"></i> More Mode Pagination</a></li>
+          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
         </ul>
-     </div><!-- well -->
-     </div> <!-- span -->
-
+      </div>
     <div class="span9">
-      <p><span></span></p>
-      <h3><a name="Overview"></a><span>Overview</span></h3>
+      <section id="overview">
+          <div class="page-header">
+            <h2>Overview</h2>
+          </div>
       <p><h7>Pagination refers to numbering pages in a document. On the internet, pagination is used for such things as displaying a limited number of results on search engine results pages, or showing a limited number of posts when viewing a forum thread or a wall. Pagination is used in some form in almost every web application to divide returned data and display it on multiple pages. Pagination also includes the logic of preparing and displaying the links to the various pages.<br>
        <b>Full Pagination</b>: Full pagination of pages display as well as the total number of nodes. This is the full mode and the legacy one.<br>
        <b>More Mode Pagination</b>: This mode allows to display more content by scrolling mouse to the bottom or clicking on Show More button at the end of a page.</h7></p>
-     <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
-      <p><h7>The user needs to view data items from a potentially large set of sorted data that will not be easy to display within a single page. </h7></p>
-
-      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
-
-
-      <p><span>In case displaying all data at once, the page may be loaded very slow. Pagination is a good solution to limit quantity of data display and also make data easy to view and control with page index or show more option. With a page or a form having large data to display, pagination is really necessary.</span></p>
-      <p><span>
-	  <ul>
-      <li>Use when the content is too long to display at once</li>
-      <li>Use when the expected content is prefered to find on first few pages</li>
-      <li>Use when the the content is too large to display at once </li>
-	  </ul>
-      </span></p>
-
-      <h3><span >What's the Solution?</span></h3>
-
-
-      <h3><span >What's the Solution?</span></h3>
-      <p><h4><a name="S1"></a><span>Full pagination</span></h4></p>
+       <section id="what">
+          <div class="page-header">
+            <h2>What Problem Does This Solve?</h2>
+          </div>
+       <p><h7>The user needs to view data items from a potentially large set of sorted data that will not be easy to display within a single page. </h7></p>
+    </section>
+    <section id="when">
+          <div class="page-header">
+            <h2>When to Use This Pattern?</h2>
+          </div>
+        <p><h7>In case displaying all data at once, the page may be loaded very slow. Pagination is a good solution to limit quantity of data display and also make data easy to view and control with page index or show more option. With a page or a form having large data to display, pagination is really necessary.<br>
+        Use when the content is too long to display at once.<br>
+        Use when the expected content is prefered to find on first few pages.<br>
+        Use when the the content is too large to display at once 
+	        </h7></p>
+    </section>
+    <section id="full-pagination">
+          <div class="page-header">
+            <h2>What's the Solution?</h2>
+          </div>
+      <p><h3>Full pagination</h3></p>
       <p><h7>In full pagination mode, data are grouped by pages. Each page contains a number of items that are defined by user option or in Setting by administrator</h7></p>
-      <p><h5><a name="S1.1"></a><span>Template</span></h5></p>
+      <p><h4>Template</h4></p>
       <p>
       <div class="pagination uiPageIterator">
 		<ul>
@@ -148,7 +134,7 @@
       <p>Add either of two optional classes to change the alignment of pagination links: <code>.pagination-centered</code> and <code>.pagination-right</code>.</p>
 
 
-      <h4><a name="S1.2"></a><span>Markup </span></h4>
+      <p><h4>Markup</h4></p>
     <div class="prettyprint linenums">
 		<script type="syntaxhighlighter" class="brush: html"><![CDATA[
 	
@@ -168,7 +154,7 @@
 	</div>
 
 
-      <h4><a name="S1.4"></a><span>Rules</span></h4>
+      <p><h4>Rules</h4></p>
       <p><table class="table table-bordered table-striped">
            <tbody>
             <tr>
@@ -291,10 +277,11 @@
       <p>Depending on the characteristics of the content display, there is defination for suitable maximum number of item per page.<br>
       The number of items per page will be loaded depending on the value of the Maximum selected page size.<br>
       The number of pagination button will be changed depending on the number of item per page.</h7></p>
-
-      <h4><a name="S2"></a><span>More Mode Pagination</span></h4>
+</section>
+<section id="more-mode-pagination">      
+      <p><h3>More Mode Pagination</h3></p>
       <p><h7>In More mode, all data can be displayed in 1 page. However, to avoid overloading, only amount of items are loaded by default. If users want more data to display, they can click on Show More link or scroll the mouse down.</h7></p>
-      <h5><a name="S2.1"></a><span>Template</span></h5>
+      <p><h4>Template</h4></p>
       <p><h7>Show More displays when there are more items can be displayed. More 10 contents is loaded per Show More...click<</h7>/p>
 	<center>
 	<a name="GoUp"><img src="images/More.jpg"></a>
@@ -307,7 +294,7 @@
 		</a></center>
 	   
       
-      <h4><a name="S2.2"></a><span>Status</span></h4>
+      <p><h4>Status</h4></p>
       <p><table class="table table-bordered table-striped">
          <thead>
             <tr>
@@ -326,7 +313,7 @@
             </tr>
          </tbody>
       </table></p>
-      <h5><a name="S2.3"></a><span>Rules</span></h5>
+      <p><h4>Rules</h4></p>
       <p><table class="table table-bordered table-striped">
            <tbody>
             <tr>
@@ -348,37 +335,42 @@
          </tbody>
       </table></p>
       
-      <h5><a name="S2.4"></a><span>Item per load</span></h5>
+      <p><h4>Item per load</h4></p>
       <p><h7>With show more mode pagination, all items are loaded in one page. Each click or scroll mouse down shows more items.<br>
          The number of items per click on Show More can be fixed in code or there is option in Settings to define number of items loading at once.<br>
          10 or 20 items per click or scroll mouse down is ideal depending on your item feature.
 </h7></p>
-     <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+<section id="why">
+          <div class="page-header">
+            <h2>Why to Use This Pattern?</h2>
+          </div>
      <p><h7>We need to use this pattern to improve paginations among applications. The consistency of paginations in use will make your products look more professional and statistical.</h7></p>
 </div>
+</section>
 <div id="footer">
-	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
+	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="../js/widgets.js"></script>
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/prettify.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
-    <script type="text/javascript" src="../js/application.js"></script>
-	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+	  <script src="../js/syntaxhighlighter_autoloader.js"></script>
 <script type="text/javascript">
 
       function image() {

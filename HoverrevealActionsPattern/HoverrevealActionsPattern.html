@@ -60,58 +60,56 @@
 <header class="jumbotron subhead" id="overview">
 <div class="container">
   <h1>Hover reveal Actions Pattern</h1>
-  <p class="lead">Hiding tools by default and revealing them on demand to make content cleaner</p>
+  <p class="lead">Hiding tools by default and revealing them on demand to make content cleaner.</p>
 </div>
 </header>
 <div class="container">
-      <div class="row-fluid">
-      <div class="span3">
-           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-        <li class="nav-header">Description</li>
-      	<li><a href="#Overview">Overview</a></li>
-      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
-      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
-      	
-      	<li class="divider"></li>
-      	
-    	<li class="nav-header">What's the Solution?</li>
-    	<li><a href="#S1">Object with few actions</a></li>     	
-        <li><a href="#S2">Object with multiple actions</a></li>
-
-      	<li class="divider"></li>
-      	
-      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+      <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
+          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
+          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
+          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
+          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
         </ul>
-     </div><!-- well -->
-     </div> <!-- span -->
+      </div>
 
-    <divspan class="span9">
-      <p><span></span></p>
-      <h3><a name="Overview"></a><span>Overview</span></h3>
+    <div class="span9">
+ <section id="overview">
+          <div class="page-header">
+            <h2>Overview</h2>
+          </div>
         <p><h7>Hover-Reveal Tools allow users to interact directly with the content. Instead of making Contextual Tools always visible, we can show them on demand by mouse over an object.<br>
         Hiding tools by default and revealing them on demand decreases the visual noise in the user interface and makes content cleaner and less cluttered.<br>
         When using Hover-Reveal Tools, discoverability might be an issue. As tools are shown only when hovering over elements, it might be difficult to discover this functionality.</h7></p>
-
-      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
-
-      <p><h7>Hover reveal tool makes user interface cleaner and provide quick and smart way to do actions on site contents.</h7></p>
-
-      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
-
-      <p><h7>Use when doing actions quickly on objects<br>
+</section>
+<section id="what">
+          <div class="page-header">
+            <h2>What Problem Does This Solve?</h2>
+          </div>
+       <p><h7>Hover reveal tool makes user interface cleaner and provide quick and smart way to do actions on site contents.</h7></p>
+</section>
+<section id="when">
+          <div class="page-header">
+            <h2>When to Use This Pattern?</h2>
+          </div>
+     <p><h7>Use when doing actions quickly on objects<br>
       Use when there are similar objects that having same actions.<br>
       Use when desiring to have simple user interface.</h7></p>
-
-     <h3><span>What's the Solution?</span></h3>
+</section>
+<section id="solution">
+          <div class="page-header">
+            <h2>What's the Solution?</h2>
+          </div>
       <p><h7>Hover reveal action tool is displayed when mouse over a specific object. Depending on the characteristic of the object, the effects may be different. Group by the number of actions, we can have 2 main kind of objects:
       object with few actions and object with multiple actions</h7></p>
-
-     <h4><a name="S1"></a>Object with few actions</h4>
+</section>
+     <h3>Object with few actions</h3>
      <p><h7>With the object having few actions, the action link/button/icon can be displayed directly when mouse over
      The samples below are suitable in case the number of actions less than 4.</h7></p>
      
-  <p><h5>Hover reveal a content in case few number action links</h5></p>
+  <p><h4>Hover reveal a content in case few number action links</h4></p>
 <div class="bs-docs-example"> 
  <table>
          <tbody>
@@ -139,7 +137,7 @@
 </tbody>
 </table>
 </div>
-<pre class="prettyprint linenums">
+<div class="prettyprint linenums">
 <script type="syntaxhighlighter" class="brush: html">
 <![CDATA[
 <a class="actionHover" href="#">Edit</a> <a class="actionHover">|</a> 
@@ -147,7 +145,7 @@
 <a class="actionHover" href="#">Move</a>
 ]]>
 </script>
-</pre>
+</div>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -159,7 +157,7 @@
          <tbody>
             <tr>
                <td>Hover effect</td>
-               <td>Background-color:#F8F8F8</td>
+               <td>Background-color: <code>#F8F8F8</code></td>
             </tr>
             <tr>
                <td>Text Link</td>
@@ -168,7 +166,7 @@
          </tbody>
       </table>
 
-<p><h5>Hover reveal a content in case few number action icons</h5></p>
+<p><h4>Hover reveal a content in case few number action icons</h4></p>
 <div class="bs-docs-example"> 
 <table>
          <tbody>
@@ -196,7 +194,7 @@
 </tbody>
 </table>
 </div>
-<pre class="prettyprint linenums">
+<div class="prettyprint linenums">
 <script type="syntaxhighlighter" class="brush: html">
 <![CDATA[
 <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit">
@@ -207,7 +205,7 @@
 	<i class="uiIconMove uiIconLightGray"></i></a>
 ]]>
 </script>
-</pre>
+</div>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -219,7 +217,7 @@
          <tbody>
             <tr>
                <td>Hover effect</td>
-               <td>Background-color:#F8F8F8</td>
+               <td>Background-color: <code>#F8F8F8<code></td>
             </tr>
             <tr>
                <td>Icon</td>
@@ -237,7 +235,7 @@
 	<p>Trigger the tooltip via JavaScript:</p>
 	<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#example'</span><span class="pun">).</span><span class="pln">tooltip</span><span class="pun">(</span><span class="pln">options</span><span class="pun">)</span></li></ol></pre>
 
-	<p><h5>Hover reveal a content in case few number action buttons</h5></p>
+	<p><h4>Hover reveal a content in case few number action buttons</h4></p>
 	<div class="bs-docs-example"> 
          <table>
          <tbody>
@@ -265,7 +263,7 @@
 </tbody>
 </table>
 </div>
-<pre class="prettyprint linenums">
+<div class="prettyprint linenums">
 <script type="syntaxhighlighter" class="brush: html">
 <![CDATA[
 <a class="actionHover" href="#"><button class="btn btn-mini" type="button">Edit</button></a> 
@@ -273,7 +271,7 @@
 <a class="actionHover" href="#"><button class="btn btn-mini" type="button">Move</button></a>
 ]]>
 </script>
-</pre>
+</div>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -285,7 +283,7 @@
          <tbody>
             <tr>
                <td>Hover effect</td>
-               <td>Background:#F8F8F8</td>
+               <td>Background:<code>#F8F8F8</code></td>
             </tr>
             <tr>
                <td>Button</td>
@@ -322,14 +320,14 @@
 </tbody>
 </table>
 </div>
-<pre class="prettyprint linenums">
+<div class="prettyprint linenums">
 <script type="syntaxhighlighter" class="brush: html">
 <![CDATA[
 <a class="actionHover" href="#"><button class="btn-primary btn btn-mini" type="button">Connect</button></a> 
 <a class="actionHover" href="#"><i class="uiIconClose"></a>
 ]]>
 </script>
-</pre>
+</div>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -341,15 +339,15 @@
          <tbody>
             <tr>
                <td>Hover effect</td>
-               <td>Background:#F8F8F8</td>
+               <td>Background-color:<code>#F8F8F8</code></td>
             </tr>
             <tr>
                <td>Button</td>
-               <td><code>btn</code>, <code>btn:hover</code>, <code>btn:focus</code>, <code>btn-mini</code></td>
+               <td><code>btn</code>, <code>btn-primary</code>, <code>btn:hover</code>, <code>btn:focus</code>, <code>btn-mini</code></td>
             </tr>
             </tbody>
       </table>
-     <h4><a name="S2"></a>Object with multiple actions</h4>
+     <h3>Object with multiple actions</h3>
      <p><h7>With the object having multiple actions, all actions can be put in a drop list menu and only the link/button/icon to show the menu is displayed when mouse over<br>These are samples in details:</h7></p>
      <p><h5>Hover reveal a content in case multiple actions displayed in a combo box</h5></p>
 <div class="bs-docs-example"> 
@@ -425,7 +423,7 @@
 </tbody>
 </table>
 </div>
-<pre class="prettyprint linenums">
+<div class="prettyprint linenums">
 <script type="syntaxhighlighter" class="brush: html">
 <![CDATA[
 <div class="button"><div class="btn-toolbar"><div class="btn-group pull-right">
@@ -439,7 +437,7 @@
   </ul>
 ]]>
 </script>
-</pre>
+</div>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -455,7 +453,7 @@
             </tr>
             <tr>
                <td>Button Droplist</td>
-               <td><code>btn</code>, <code>btn:hover</code>, <code>btn:focus</code>, <code>btn-mini</code></td>
+               <td><code>btn-group</code>, <code>btn-toolbar</code>, <code>btn:hover</code>, <code>btn:focus</code>, <code>btn-mini</code></td>
             </tr>
             <tr>
                <td>Dropdown menu</td>
@@ -464,7 +462,7 @@
            </tbody>
       </table>
 
-<p><h5>Hover reveal a content in case multiple actions displayed in an icon</h5></p>
+<p><h4>Hover reveal a content in case multiple actions displayed in an icon</h4></p>
 <div class="bs-docs-example"> 
 <table>
   <tbody>
@@ -569,7 +567,7 @@
 </tbody>
 </table>
 </div>
-<pre class="prettyprint linenums">
+<div class="prettyprint linenums">
 <script type="syntaxhighlighter" class="brush: html">
 <![CDATA[
 <div class="dropdown pull-right">
@@ -586,7 +584,7 @@
 </div>
 ]]>
 </script>
-</pre>
+</div>
 <p>In details:</p>
 <table class="table table-bordered table-striped">
          <thead>
@@ -598,7 +596,7 @@
          <tbody>
             <tr>
                <td>Hover effect</td>
-               <td>Background-color:#F8F8F8</td>
+               <td>Background-color:<code>#F8F8F8</code></td>
             </tr>
             <tr>
                <td>Icon</td>
@@ -610,33 +608,38 @@
             </tr>
          </tbody>
       </table>
-    
-      <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
-     <p><h7>Because of the main benefit of hover reveal actions - decreasing the visual noise in the user interface and making content cleaner and less cluttered, this pattern should be used to make the professionalism and convenience of applications.
+  <section id="why">
+          <div class="page-header">
+            <h2>Why to Use This Pattern?</h2>
+          </div>  
+<p><h7>Because of the main benefit of hover reveal actions - decreasing the visual noise in the user interface and making content cleaner and less cluttered, this pattern should be used to make the professionalism and convenience of applications.
 </h7></p>
 </div>
+</section>
 <div id="footer">
-	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
+	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
-    <script type="text/javascript" src="../js/application.js"></script>
+    <script type="text/javascript" src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
 <!-- syntaxhighlighter -->	
     <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
   <script type="text/javascript">

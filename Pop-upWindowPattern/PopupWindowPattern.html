@@ -65,51 +65,52 @@
 </header>
 
 <div class="container">
-
-      <div class="row-fluid">
-      <div class="span3">
-           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-        <li class="nav-header">Description</li>
-      	<li><a href="#Overview">Overview</a></li>
-      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
-      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
-      	
-      	<li class="divider"></li>
-      	
-    	<li class="nav-header">What's the Solution?</li>
-    	<li><a href="#S1">Pop-up Size</a></li>
-      	<li><a href="#S2">Pop-up by default</a></li>
-      	<li><a href="#S3">Pop-up with Block Tab</a></li>
- 	<li><a href="#S4">Pop-up with Border Content</a></li>
-        <li><a href="#S5">Pop-up without Button</a></li>
-      	<li class="divider"></li>
-      	
-      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+<div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
+          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
+          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
+          <li><a href="#pop-up-size"><i class="icon-chevron-right"></i> Pop-up Size</a></li>
+          <li><a href="#pop-up-by-default"><i class="icon-chevron-right"></i> Pop-up by Default</a></li>
+          <li><a href="#pop-up-with-block-tab"><i class="icon-chevron-right"></i> Pop-up with Block Tab</a></li>
+          <li><a href="#pop-up-with-border-content"><i class="icon-chevron-right"></i> Pop-up with Border Content</a></li>
+		  <li><a href="#pop-up-without-button"><i class="icon-chevron-right"></i> Pop-up without Button</a></li>
+          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
         </ul>
-     </div><!-- well -->
-     </div> <!-- span -->
-
+      </div>
     <div class="span9">
-      <p><span></span></p>
-      <h3><a name="Overview"></a><span>Overview</span></h3>
-    	<p><h7>Pop-up is a form displays when selecting an option or doing an action by mouse click or key board press.<br>
+      <section id="overview">
+          <div class="page-header">
+            <h2>Overview</h2>
+          </div>
+        	<p><h7>Pop-up is a form displays when selecting an option or doing an action by mouse click or key board press.<br>
 	Pop-up can be used to perform specific functions or simply notify necessary information to users.<br>
 	This pattern provides a guide to use and display modal pop-up to obtain the consistency among applications.</h7></p>
-
-      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
-      <p><h7>Pop-up is useful and fast way to interact with a function, it is also to display advanced options over one element on the screen without having to lose the content.</h7></p>
-
-      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3><p><h7>Use when a content is suitable to display in a pop-up.<br>
+	</section>
+	<section id="what">
+          <div class="page-header">
+            <h2>What Problem Does This Solve?</h2>
+          </div>
+          <p><h7>Pop-up is useful and fast way to interact with a function, it is also to display advanced options over one element on the screen without having to lose the content.</h7></p>
+	</section>
+	<section id="when">
+          <div class="page-header">
+            <h2> When to Use This Pattern?</h2>
+          </div>
+      <p><h7>Use when a content is suitable to display in a pop-up.<br>
       Data input and display are short<br>
       Interact with simple function<br>
       Common action that is used by different application<br>
       Can be grouped in different tab logically<br>
       Use when there is expectation to keep current page while interacting with more functions. </h7></p>
-      <h3><span>What's the Solution?</span></h3>
-      <p><h4><a name="S1"></a><span>Pop-up Size</span></h4></p>
+  </section>
+  <section id="pop-up-size">
+          <div class="page-header">
+            <h2>What's the Solution?</h2>
+          </div>
+     <p><h3>Pop-up Size</h3></p>
       <p><h7>Modal provides a pop-up with fixed width <b>560px</b>. The height of pop up is automatic resized depending on the content and height of the screen. There is a scroll bar in case the content is longer than the display screen.</h7></p>
-      <p><h7><b>Static sample of modal pop up</b></h7></p>
       <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative;  margin: 0 auto 20px; max-width: 100%;">
 		<div class="popupHeader ClearFix">
 			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
@@ -135,11 +136,11 @@
     </div>
 		]]></script>
 </div>
-	  
-<h4><a name="S2"></a><span>Pop-up by default</span></h4>
+	  </section>
+	  <section id="pop-up-by-default">
+       <p><h3>Pop-up by Default</h3></p>
       <p><h7>This pop-up can be used for functions that all its elements can be displayed at once.</h7></p>
-      <p><h7><b>Static sample</b></h7></p>
-	  <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
+      <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
 		<div class="popupHeader ClearFix">
 			<a class="uiIconClose pull-right" aria-hidden="true" ></a>
 			<span class="PopupTitle popupTitle">Popup header</span>
@@ -211,42 +212,12 @@
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Pop-up by default demo</a>
      </div>
-
-      <p><table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
-            </tr>
-            <tr>
-               <td>Label</td>
-               <td>.label</td>
-            </tr>
-            <tr>
-               <td>Text field</td>
-               <td>.input-large</td>
-            </tr>
-            <tr>
-               <td>Checkbox</td>
-               <td>.checkbox input[type="checkbox"]</td>
-            </tr>
-            <tr><td>Button</td>
-            <td>.button , .btn-primary , .btn-primary: hover</td>
-            <tr><td>x button</td><td>.close , .close:hover</td>
-	     </tr>
-         </tbody>
-      </table>
-</p>
-      <h4><a name="S3"></a><span>Pop-up with Block Tabs</span></h4>
+      
+</section>
+<section id="pop-up-with-block-tab">
+      <p><h3>Pop-up with Block Tabs</h3></p>
       <p><h7>This pop up with block tabs allows to display more content that can be grouped by tabs. The function on each tab may be independent together.</h7></p>
-  <p><h7>Static sample</h7></p>		
-		
+  	
 		<div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
 			<div class="popupHeader ClearFix">
 				<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
@@ -370,46 +341,13 @@
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Pop-up with Tabs demo</a>
      </div>
- <p><table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
-            </tr>
-            <tr><td>Tab</td>
-            <td>.nav-tabs , .active , a , a:hover</td>
-            </tr>
-
-            <tr>
-               <td>Label</td>
-               <td>.label</td>
-            </tr>
-            <tr>
-               <td>Text field</td>
-               <td>.input-large</td>
-            </tr>
-            <tr>
-               <td>Checkbox</td>
-               <td>.checkbox input[type="checkbox"]</td>
-            </tr>
-            <tr><td>Button</td>
-            <td>.button , .btn-primary , .btn-primary: hover</td>
-            <tr><td>x button</td><td>.close , .close:hover</td>
-	     </tr>
-         </tbody>
-      </table>
-</p>
-      <h4><a name="S4"></a><span>Pop-up with Border Content</span></h4>
+ 
+</section>
+<section id="pop-up-with-border-content">
+      <p><h3>Pop-up with Border Content</h3></p>
       <p><h7>The main content of this popup  is displayed in a border. In case the content is long, the scroll bar is displayed directly in border.</h7></p>
 
-  <p>Static sample</p>
-       <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
+         <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
 		<div class="popupHeader ClearFix">
 			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
 			<span class="PopupTitle popupTitle">Popup header</span>
@@ -592,45 +530,12 @@
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal2" data-toggle="modal">Launch Pop-up with Border Content demo</a>
      </div>
- <p><table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
-            </tr>
-            <tr><td>Tab</td>
-            <td>.nav-tabs , .active , a , a:hover</td>
-            </tr>
-
-            <tr>
-               <td>Label</td>
-               <td>.label</td>
-            </tr>
-            <tr>
-               <td>Text field</td>
-               <td>.input-large</td>
-            </tr>
-            <tr>
-               <td>Checkbox</td>
-               <td>.checkbox input[type="checkbox"]</td>
-            </tr>
-            <tr><td>Button</td>
-            <td>.button , .btn-primary , .btn-primary: hover</td>
-            <tr><td>x button</td><td>.close , .close:hover</td>
-	     </tr>
-         </tbody>
-      </table>
-</p>
-     <h4><a name="S5"></a><span>Pop-up without Button</span></h4>
+ 
+</section>
+<section id="pop-up-without-button">
+     <p><h3>Pop-up without Button</h3></p>
       <p>This pop up is without action buttons. In some case, there are no button in the pop up, this style can be used.</p>
 
-  <p>Static sample</p>
        <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
 		<div class="popupHeader ClearFix">
 			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
@@ -769,71 +674,184 @@
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
       </div>  
 
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+
+  <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent uiGroupMembershipSelector">
+			<div class="row-fluid">
+				<div class="span6">
+					<div class="uiBox selectGroup noRounded">
+						<h6 class="title">Select Group</h6>
+						<div class="uiTrees scrollArea">
+							<div class="treeContainer jsContainer">
+								<div class="homeNode clearfix">
+									<a style="display: block;" rel="tooltip" href="#" class="actionIcon pull-left" data-original-title="Up Level"><i class="uiIconUpLevel uiIconLightGray"></i></a>
+								</div>
+								<ul class="nodeGroup">
+									<li class="node">
+										<a onclick="" title="Group 1" class="uiIconNode collapseIcon nodeSelected" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 1 </a>																 
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 2" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 2 </a>											
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 3" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 3 </a>											
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 4" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 4 </a>											
+									</li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="span6">
+					<div class="uiBox noRounded childGoup">
+						<h6 class="title">
+						  Select Membership
+						</h6>
+						<div class="uiContentBox">
+						  <ul>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="*">*</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 1">Membership 1</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 2">Membership 2</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 3">Membership 3</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 4">Membership 4</a>
+							</li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
+      </div>
+
+    <div class="UIPopupWindow uiPopup UIDragObject NormalStyle modal hide fade" id="myModal3" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: block;" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+		<div class="popupHeader ClearFix">
+			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
+			<span class="PopupTitle popupTitle">Popup header</span>
+		</div>
+		<div class="PopupContent popupContent uiGroupMembershipSelector">
+			<div class="row-fluid">
+				<div class="span6">
+					<div class="uiBox selectGroup noRounded">
+						<h6 class="title">Select Group</h6>
+						<div class="uiTrees scrollArea">
+							<div class="treeContainer jsContainer">
+								<div class="homeNode clearfix">
+									<a style="display: block;" rel="tooltip" href="#" class="actionIcon pull-left" data-original-title="Up Level"><i class="uiIconUpLevel uiIconLightGray"></i></a>
+								</div>
+								<ul class="nodeGroup">
+									<li class="node">
+										<a onclick="" title="Group 1" class="uiIconNode collapseIcon nodeSelected" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 1 </a>																 
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 2" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 2 </a>											
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 3" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 3 </a>											
+									</li>
+									<li class="node">
+										<a onclick="" title="Group 4" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Group 4 </a>											
+									</li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="span6">
+					<div class="uiBox noRounded childGoup">
+						<h6 class="title">
+						  Select Membership
+						</h6>
+						<div class="uiContentBox">
+						  <ul>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="*">*</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 1">Membership 1</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 2">Membership 2</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 3">Membership 3</a>
+							</li>
+							<li>
+							  <span class="uiIconMiniArrowRight"></span>
+							  <a data-placement="bottom" rel="tooltip" href="" class="ItemIcon" data-original-title="Membership 4">Membership 4</a>
+							</li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
+</div>
+	
+	]]></script>
+</div>
+	  
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Pop-up without Button demo</a>
      </div>
- <p><table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Object</th>
-               <th>class=""</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Pop-up</td>
-               <td>.modal , .modal-header, .modal-body, .modal-footer</td>
-            </tr>
-            <tr><td>Tab</td>
-            <td>.nav-tabs , .active , a , a:hover</td>
-            </tr>
-
-            <tr>
-               <td>Label</td>
-               <td>.label</td>
-            </tr>
-            <tr>
-               <td>Text field</td>
-               <td>.input-large</td>
-            </tr>
-            <tr>
-               <td>Checkbox</td>
-               <td>.checkbox input[type="checkbox"]</td>
-            </tr>
-            <tr><td>Button</td>
-            <td>.button , .btn-primary , .btn-primary: hover</td>
-            <tr><td>x button</td><td>.close , .close:hover</td>
-	     </tr>
-         </tbody>
-      </table>
-      </p>
-
-     <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+ 
+  </section>
+  <section id="overview">
+          <div class="page-header">
+            <h2>Why to Use This Pattern?</h2>
+         </div>    
      <p><h7>To obtain the consistency among applications in the way using and displaying actions/functions in pop-ups. This pattern let the designers know which functions they should put in page, which functions should be in pop-up. The consistency of pop-up style sheet and design makes your products look more professional.</h7></p>
 </div>
+</section>
 <div id="footer">
-	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
+	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>
 
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="../js/widgets.js"></script>
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/prettify.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
-    <script type="text/javascript" src="../js/application.js"></script>
-	<script type="text/javascript" src="../js/uiPopupWindow.js"></script>
-	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+	<script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+	<script src="../js/syntaxhighlighter_autoloader.js"></script>
 </body></html>

@@ -54,8 +54,8 @@ body > .navbar .brand:hover {
 
 /* padding for in-page bookmarks and fixed navbar */
 section {
-  padding-top: 10px;
-}
+  padding-top: 35px;
+ }
 section > .page-header,
 section > .lead {
   color: #5a5a5a;
