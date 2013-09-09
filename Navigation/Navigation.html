@@ -42,7 +42,7 @@
     <!-- Navbar
     ================================================== -->
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+      <div class="navbar-inner clearfix">
         <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -56,6 +56,10 @@
             <li class="active"><a href="../Components.html">Components</a></li>
           </ul>
         </div>
+        <div class="pull-right" style="margin-top: 11px;">
+			<a class="btnDownloadTop" target="_blank" href="http://learn.exoplatform.com/Download-eXo-Platform-Express-Edition-En.html"></a>
+			<a class="btnLearMore" href="http://www.exoplatform.com"></a>
+		</div>
       </div>
     </div>
 
@@ -79,12 +83,10 @@
         <!-- Headings================================================== -->
         <section id="S1">
           <div class="page-header">
-            <h1> Basic Navigation</h1>
+            <h2>Basic Navigation</h2>
           </div>
-          <h2>Nav: tabs, pills, and lists</small></h2>
-          <p>All nav components here&mdash;tabs, pills, and lists&mdash;<strong>share the same base markup and styles</strong> through the <code>.nav</code> class.</p>
-          <h3>Basic tabs</h3>
-          <p>Take a regular <code>&lt;ul&gt;</code> of links and add <code>.nav-tabs</code>:</p>
+          <p><h3>Basic tabs</h3></p>
+          <p>Take a regular <code>&lt;ul&gt;</code> of links and add <code>uiTabPane</code>, <code>uiTabNormal</code>:</p>
           <div class="bs-docs-example">
             <div id="" class="uiTabPane uiTabNormal">
 				<ul id="myTab" class="nav nav-tabs">
@@ -119,8 +121,8 @@
 	</div>
 	]]></script>
 </div>  
-          <h3>Basic pills</h3>
-          <p>Take that same HTML, but use <code>.nav-pills</code> instead:</p>
+          <p><h3>Basic Pill</h3></p>
+          <p>Use <code>NaviContent</code> for the basic pill.</p>
           <div class="bs-docs-example">
            <div class="NaviContent clearfix">
 				<a class="LogoeXo pull-left" href="#"></a>
@@ -155,7 +157,7 @@
       
         <section id="S2">
            <div class="page-header">
-            <h1> Accordion Menu</h1>
+            <h2> Accordion Menu</h2>
 	   </div>
            <p> Accordion menu is a kind of navigation list.</p>
 
@@ -298,11 +300,11 @@
 
 	<section id="S3">
            <div class="page-header">
-            <h1> Nav Bars</h1>
+            <h2> Nav Bars</h2>
           </div>
                 
-          <h2>Responsive navbar</h2>
-          <p>To implement a collapsing responsive navbar, wrap your navbar content in a containing div, <code>.nav-collapse.collapse</code>, and add the navbar toggle button, <code>.btn-navbar</code>.</p>
+          <h3>Gray navbar</h3>
+          <p><h7>The gray navigation bar is defined by <code>UIToolbarContainer</code>.</h7></p>
           <div class="bs-docs-example">
 		  
 			  <div id="UIToolbarContainer" class="UIContainer UIToolbarContainer UIToolbarContainerLight   ">
@@ -665,8 +667,8 @@
 
 ]]></script>
 </div>
-          <h2>Inverted variation</h2>
-          <p>Modify the look of the navbar by adding <code>.navbar-inverse</code>.</p>
+          <p><h3>Dark navbar</h3></p>
+          <p>The dark navigatio bar is defined by <code>UIToolbarContainerDark</code>.</p>
           <div class="bs-docs-example">
             			  <div id="UIToolbarContainer" class="UIContainer UIToolbarContainer UIToolbarContainerDark  ">
 				<div class="NormalContainerBlock">
@@ -1033,7 +1035,7 @@
 
 </div>
 <div id="footer">
-	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
+	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>
 
     <!-- Le javascript

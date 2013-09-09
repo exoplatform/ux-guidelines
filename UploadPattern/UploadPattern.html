@@ -30,12 +30,12 @@
     
   </head>
 
-  <body>
+  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
 
     <!-- Navbar
     ================================================== -->
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+      <div class="navbar-inner clearfix">
         <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -49,6 +49,10 @@
             <li><a href="../Components.html">Components</a></li>
           </ul>
         </div>
+        <div class="pull-right" style="margin-top: 11px;">
+			<a class="btnDownloadTop" target="_blank" href="http://learn.exoplatform.com/Download-eXo-Platform-Express-Edition-En.html"></a>
+			<a class="btnLearMore" href="http://www.exoplatform.com"></a>
+		</div>
       </div>
     </div>
 
@@ -65,43 +69,39 @@
     <!-- Docs nav
     ================================================== -->
     <div class="row">
-      <div class="span3">
-        <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-        <li class="nav-header">Description</li>
-      	<li><a href="#Overview">Overview</a></li>
-      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
-      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
-      	
-      	<li class="divider"></li>
-      	
-    	<li class="nav-header">What's the Solution?</li>
-    	<li><a href="#S1">Template</a></li>      	
-        <li><a href="#S2">Markup</a></li>
-      	<li><a href="#S3">Status</a></li>
-      	<li><a href="#S4">Rules</a></li>
-      	      	
-      	<li class="divider"></li>
-      	
-      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+        <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
+          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
+          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
+          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
+          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
         </ul>
-     </div><!-- well -->
-     </div> <!-- span -->
+      </div>
       <div class="span9">
-      <p><span></span></p>
-      <h3><a name="Overview"></a><span>Overview</span></h3>
+      <section id="overview">
+          <div class="page-header">
+            <h2>Overview</h2>
+          </div>
        <p>Upload function allows to attaching files to specific content or changing the avatar of a page or personal image.</p>
-
-      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
-
-      <p><span>The user needs may want attach related material to their content such as event, topic, post, wiki... or upload files for storage or sharing. The upload function is a tool to do this.</span></p>
-
-      <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
-
-      <p><span>With any systems that need to upload files from local for changing avatar, file storge, file sharing, importing data, upload function must be used.</span></p>
-      
-      <h3><span>What's the Solution?</span></h3>
-      <h4><a name="S1"></a><span>Template</span></h4>
+   </section>
+   <section id="what">
+          <div class="page-header">
+            <h2>What Problem Does This Solve?</h2>
+          </div>
+      <p><h7>The user needs may want attach related material to their content such as event, topic, post, wiki... or upload files for storage or sharing. The upload function is a tool to do this.</h7></p>
+  </section>
+  <section id="when">
+          <div class="page-header">
+            <h2>When to Use This Pattern?</h2>
+          </div>
+      <p><h7>With any systems that need to upload files from local for changing avatar, file storge, file sharing, importing data, upload function must be used.</h7></p>
+    </section>
+    <section id="solution">
+          <div class="page-header">
+            <h2>What's the Solution?</h2>
+          </div>
+      <h3><p>Template</p></h3>
       <p>Default Upload pop-up:One file can be selected at once:</p>
 <div class="bs-docs-example">
 		<div style="width: 420px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
@@ -423,7 +423,7 @@
 	</div>
  </div>
  
-<h4><a name="S2"></a><span>Markup</span></h4>
+<h3><p>Markup</p></h3>
 <p>HTML is your standard unordered list with links.</p>
 <div class="prettyprint linenums">
 	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
@@ -539,7 +539,7 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Upload Demo</a>
 </div>
-<h4><a name="S3"></a><span>Status</span></h4>
+<p><h3>Status</h3></p>
       <p>
       <table class="table table-bordered table-striped">
          <thead>
@@ -566,7 +566,7 @@
       </table>
      </p>
 
-      <h4><a name="S4"></a><span>Rules</span></h4>
+      <p><h3>Rules</h3></p>
       <p>
       <table class="table table-bordered table-striped">
           <tbody>
@@ -598,34 +598,39 @@
       </table>
 
      </p>
-<h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
-     <p><span>The pattern is to make sure the consistency among applications in the way to uploading files. 
-</span></p>
+     <section id="why">
+          <div class="page-header">
+            <h2>Why to Use This Pattern?</h2>
+          </div>
+     <p><h7>The pattern is to make sure the consistency among applications in the way to uploading files. 
+</h7></p>
 </div><p>
 <div id="footer">
-	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
+	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>
 </p>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="../js/widgets.js"></script>
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/prettify.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
-    <script type="text/javascript" src="../js/application.js"></script>
-	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+    <script src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+  <!-- syntaxhighlighter -->	
+    <script src="../js/syntaxhighlighter_autoloader.js"></script>
 <script type="text/javascript">
       $(document).ready(function () {
     $("[rel=tooltip]").tooltip();

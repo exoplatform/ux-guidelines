@@ -12005,3 +12005,37 @@ i:hover [class^="uiIconColor"] {
 .uiMiniCalendar .actionIconSmall{
 	padding: 2px 2px 0px 2px;
 }
+
+
+.btnDownloadTop {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-image: url("../img/btnDownloadTop.png");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 205px;
+}
+.btnLearMore {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-image: url("../img/btnLearMore.png");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 245px;
+}
+.btnDownloadTop:hover, .btnLearMore:hover {
+    opacity: 0.8;
+}
+

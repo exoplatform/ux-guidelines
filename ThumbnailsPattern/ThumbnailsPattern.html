@@ -33,7 +33,7 @@
     <!-- Navbar
     ================================================== -->
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+      <div class="navbar-inner clearfix">
         <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -47,6 +47,10 @@
             <li><a href="../Components.html">Components</a></li>
           </ul>
         </div>
+        <div class="pull-right" style="margin-top: 11px;">
+			<a class="btnDownloadTop" target="_blank" href="http://learn.exoplatform.com/Download-eXo-Platform-Express-Edition-En.html"></a>
+			<a class="btnLearMore" href="http://www.exoplatform.com"></a>
+		</div>
       </div>
     </div>
 
@@ -60,50 +64,46 @@
 </div>
 </header>
 <div class="container">
-      <div class="row-fluid">
-      <div class="span3">
-           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-        <li class="nav-header">Description</li>
-      	<li><a href="#Overview">Overview</a></li>
-      	<li><a href="#WPDTS">What Problem Does This Solve?</a></li>
-      	<li><a href="#WTUTP">When to Use This Pattern?</a></li>
-      	
-      	<li class="divider"></li>
-      	
-    	<li class="nav-header">What's the Solution?</li>
-      	<li><a href="#S1">Image Attachment Thumbnails</a></li>
-       	<li><a href="#S2">Thumbnails in Folder</a></li>
-      	<li class="divider"></li>
-      	<li><a href="#WUTP">Why Use This Pattern?</a></li>
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
+          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
+          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
+          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
+          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
         </ul>
-     </div><!-- well -->
-     </div> <!-- span -->
-
+      </div>
     <div class="span9">
-      <p><span></span></p>
-      <h3><a name="Overview"></a><span>Overview</span></h3>
-
-
+      <section id="overview">
+          <div class="page-header">
+            <h2>Overview</h2>
+          </div>
 
        <p><h7>Thumbnails are reduced-size images that make easy to recognize and organise them. Thumbnails can be used to display pictures in a gallery, image attachments, files in a folder, avatars... This page is mainly on Image Attachment Thumbnail and Thumbnail in a Folder.
 	</h7></p>
 
-
-
-      <h3><a name="WPDTS"></a><span>What Problem Does This Solve?</span></h3>
+</section>
+<section id="what">
+          <div class="page-header">
+            <h2>What Problem Does This Solve?</h2>
+           </div>     
       <p><h7>The user needs to get an overview of multiple pictures without having to download each of the full size images.</h7></p>
-
-       <h3><a name="WTUTP"></a><span>When to Use This Pattern?</span></h3>
-
-
-
+</section>
+<section id="when">
+          <div class="page-header">
+            <h2>When to Use This Pattern?</h2>
+          </div>
+       
        <p><h7>Thumbnails can be used  to present images in cases image attachments in topic, question and files that are displayed as thumbnails in a folder.</h7></p>
-    
-      <h3><span>What's the Solution?</span></h3>
-
-      <h4><a name="S1"></a><span>Image Attachment Thumbnails</span></h3>
+ </section>
+ <section id="solution">
+          <div class="page-header">
+            <h2>What is the Solution?</h2>
+          </div>   
+     <p><h3>Image Attachment Thumbnails</h3></p>
       <p>The thumbnails with rounded borders can be used for image attachments in a topic, question... the height is fixed 80px, the width is resized automatically based on the original size of images.</p>
+     <p> 
       <div class="bs-docs-example">
       
 		<div class="attachmentContentImage clearfix">
@@ -176,8 +176,9 @@
 		</div>
 ]]></script>
 </div>
+</p>
 	  
-      <h4><a name="S2"></a><span>Thumbnails in Folders</span></h4>
+      <p><h3>Thumbnails in Folders</h3></p>
       <p>This can be used for images in a folder. The image can be resized until its width or height obtains the maximum of the thumbnails size, the other is resized correspondingly.</p>
       <div class="bs-docs-example">
       
@@ -330,34 +331,39 @@
 		</div>
 	  
 ]]></script>
-</div>
-     <h3><a name="WUTP"></a><span>Why to Use This Pattern?</span></h3>
+</section>
+<section id="why">
+          <div class="page-header">
+            <h2>Why Use This Pattern?</h2>
+          </div>
      <p><h7>To obtain the consistency and professionalism of thumbnails usage among products.<h7></p>
-
+</section>
+</div>
 </div>
 <div id="footer">
-	Copyright ©2013. All rights reserved. <a href="#">eXo Platform SAS</a>
+	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-button.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="../js/bootstrap-typeahead.js"></script>
-    <script type="text/javascript" src="../js/application.js"></script>
-		<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+    <script type="text/javascript" src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+	<script src="../js/syntaxhighlighter_autoloader.js"></script>
 
 <script type="text/javascript">
       $(document).ready(function () {
