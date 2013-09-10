@@ -86,6 +86,13 @@
 .syntaxhighlighter table td.code .container .number1{
   margin-top: -11px !important;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.syntaxhighlighter table td.code .container .number1{
+  margin-top: 0px !important;
+}
+}
+
 .syntaxhighlighter table td.code .container {
   position: relative !important;
 }
