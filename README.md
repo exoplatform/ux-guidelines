@@ -24,15 +24,15 @@ DONE:
 PLAN:
 - Update and improve the website based on feedbacks
 - Continue to compose the other pattern.
-- Update overall the UXP pattern website following Platform 4 Style.
+- Update overall the UXP pattern website following eXo Platform Style.
 
 HOW TO DOWNLOAD:
-- Github HTTP: https://github.com/exoplatform/uxp-patterns-website.git
-- Github SSH: git@github.com:exoplatform/uxp-patterns-website
-- Github Zip: https://github.com/exoplatform/uxp-patterns-website/zipball/master
+- Github HTTP: https://github.com/exoplatform/ux-guidelines.git
+- Github SSH: git@github.com:exoplatform/ux-guidelines.git
+- Github Zip: https://github.com/exoplatform/ux-guidelines/zipball/master
 
 DEMO ONLINE WEBSITE:
-- http://exoplatform.github.com/uxp-patterns-website/
+- http://exoplatform.github.io/ux-guidelines/
 
 
 
