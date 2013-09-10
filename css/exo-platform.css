@@ -545,7 +545,7 @@ body > .navbar .brand {
   padding: 3px 0;
 }
 .uiPopup .popupMessage > li span[class*="Icon"] {
-  background: url(../img/plf4-icons/icons.png) no-repeat;
+  background: url(../img/exo-platform-icons/icons.png) no-repeat;
   padding-left: 20px;
   line-height: 16px;
   height: 16px;
@@ -667,7 +667,7 @@ body > .navbar .brand {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../img/plf4-icons/uiIconsDarkGray.png");
+  background-image: url("../img/exo-platform-icons/uiIconsDarkGray.png");
   background-repeat: no-repeat;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
@@ -682,7 +682,7 @@ a:hover [class^="uiIcon"],
 [class^="uiIcon"]:hover,
 .uiActionBar [class^="uiIcon"]:hover,
 .uiIconBlue {
-  background-image: url("../img/plf4-icons/uiIconsBlue.png");
+  background-image: url("../img/exo-platform-icons/uiIconsBlue.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIcon"],
@@ -691,7 +691,7 @@ a:hover [class^="uiIcon"],
 .uiActionBar [class^="uiIcon"],
 .uiIconClose,
 .uiIconLightGray {
-  background-image: url("../img/plf4-icons/uiIconsLightGray.png");
+  background-image: url("../img/exo-platform-icons/uiIconsLightGray.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIcon"],
@@ -715,11 +715,11 @@ a:hover [class^="uiIcon"],
 .uiAction .btn:first-child:hover [class^="uiIcon"]:hover,
 .containerTopicDetail .attachmentContentImage .actionAttachImg a:hover i,
 .uiIconWhite {
-  background-image: url("../img/plf4-icons/uiIconsWhite.png");
+  background-image: url("../img/exo-platform-icons/uiIconsWhite.png");
 }
 .uiIconClose:hover,
 a:hover .uiIconClose {
-  background-image: url("../img/plf4-icons/uiIconsDarkGray.png") !important;
+  background-image: url("../img/exo-platform-icons/uiIconsDarkGray.png") !important;
 }
 .uiIconSearch {
   background-position: 0px 0px;
@@ -1107,7 +1107,7 @@ a:hover .uiIconClose {
 
 /************** IconLibrary-FileType-16x16 *************/
 [class^="uiIcon16x16"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType16x16.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType16x16.png");
   background-position: 0px -60px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -1119,7 +1119,7 @@ a:hover .uiIconClose {
 }
 [class^="uiIcon16x16"]:hover,
 a:hover [class^="uiIcon16x16"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType16x16.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType16x16.png");
 }
 .uiIcon16x16FileDefault,
 .uiIcon16x16applicationoctet-stream {
@@ -1386,7 +1386,7 @@ a:hover [class^="uiIcon16x16"] {
 }
 /************** IconLibrary-FileType-24x24 *************/
 [class^="uiIcon24x24"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType24x24.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType24x24.png");
   background-position: 0px -84px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -1398,7 +1398,7 @@ a:hover [class^="uiIcon16x16"] {
 }
 [class^="uiIcon24x24"]:hover,
 a:hover [class^="uiIcon24x24"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType24x24.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType24x24.png");
 }
 .uiIcon24x24FileDefault {
   background-position: 0px -84px;
@@ -1664,7 +1664,7 @@ a:hover [class^="uiIcon24x24"] {
 }
 /************** IconLibrary-FileType-32x32 *************/
 [class^="uiIcon32x32"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType32x32.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType32x32.png");
   background-position: 0px -108px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -1676,7 +1676,7 @@ a:hover [class^="uiIcon24x24"] {
 }
 [class^="uiIcon32x32"]:hover,
 a:hover [class^="uiIcon32x32"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType32x32.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType32x32.png");
 }
 .uiIcon32x32FileDefault {
   background-position: 0px -108px;
@@ -1870,7 +1870,7 @@ a:hover [class^="uiIcon32x32"] {
 }
 /************** IconLibrary-FileType-48x48 *************/
 [class^="uiIcon48x48"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType48x48.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType48x48.png");
   background-position: 0px -156px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -1882,7 +1882,7 @@ a:hover [class^="uiIcon32x32"] {
 }
 [class^="uiIcon48x48"]:hover,
 a:hover [class^="uiIcon48x48"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType48x48.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType48x48.png");
 }
 .uiIcon48x48FileDefault {
   background-position: 0px -156px;
@@ -2076,7 +2076,7 @@ a:hover [class^="uiIcon48x48"] {
 }
 /************** IconLibrary-FileType-64x64 *************/
 [class^="uiIcon64x64"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType64x64.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType64x64.png");
   background-position: 0px -204px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -2088,7 +2088,7 @@ a:hover [class^="uiIcon48x48"] {
 }
 [class^="uiIcon64x64"]:hover,
 a:hover [class^="uiIcon64x64"] {
-  background-image: url("../img/plf4-icons/TypeIcons/uiIconsType64x64.png");
+  background-image: url("../img/exo-platform-icons/TypeIcons/uiIconsType64x64.png");
 }
 .uiIcon64x64FileDefault {
   background-position: 0px -204px;
@@ -3069,13 +3069,13 @@ a:hover [class^="uiIconApp"],
   *margin-right: .3em;
   line-height: 35px;
   vertical-align: middle;
-  background-image: url("../img/plf4-icons/AppIcons/uiIconAppGray.png");
+  background-image: url("../img/exo-platform-icons/AppIcons/uiIconAppGray.png");
   background-repeat: no-repeat;
 }
 .dropdown-menu > li > a:hover > [class^="uiIconApp"],
 .uiSpaceMenuPortlet .active [class^="uiIconApp"],
 .uiUserNavigationPortlet .active [class^="uiIconApp"] {
-  background-image: url("../img/plf4-icons/AppIcons/uiIconAppWhite.png");
+  background-image: url("../img/exo-platform-icons/AppIcons/uiIconAppWhite.png");
 }
 .uiIconAppprofile {
   background-position: 0 0;
@@ -3155,11 +3155,11 @@ a:hover [class^="uiIconApp"],
   width: 38px;
   height: 38px;
   display: inline-block;
-  background: url("../img/plf4-icons/status-task.png");
+  background: url("../img/exo-platform-icons/status-task.png");
   margin-top: 1px;
 }
 [class^="uiIconStatus"]:hover {
-  background: url("../img/plf4-icons/status-task.png");
+  background: url("../img/exo-platform-icons/status-task.png");
 }
 .uiIconStatus-needs-action,
 .uiIconStatus-needs-action:hover {
@@ -3181,11 +3181,11 @@ a:hover [class^="uiIconApp"],
   width: 20px;
   height: 20px;
   display: inline-block;
-  background: url("../img/plf4-icons/status-task-20.png");
+  background: url("../img/exo-platform-icons/status-task-20.png");
   margin-top: 1px;
 }
 [class^="uiIconStatus-20"]:hover {
-  background: url("../img/plf4-icons/status-task-20.png");
+  background: url("../img/exo-platform-icons/status-task-20.png");
 }
 .uiIconStatus-20-needs-action,
 .uiIconStatus-20-needs-action:hover {
@@ -3207,11 +3207,11 @@ a:hover [class^="uiIconApp"],
   width: 64px;
   height: 64px;
   display: inline-block;
-  background: url("../img/plf4-icons/status-task-64.png");
+  background: url("../img/exo-platform-icons/status-task-64.png");
   margin-top: 1px;
 }
 [class^="uiIconStatus-64"]:hover {
-  background: url("../img/plf4-icons/status-task-64.png");
+  background: url("../img/exo-platform-icons/status-task-64.png");
 }
 .uiIconStatus-64-needs-action,
 .uiIconStatus-64-needs-action:hover {
@@ -3519,7 +3519,7 @@ a:hover [class^="uiIconApp"],
 }
 /******* Trung nq ****/
 .btn-group.uiDropdownWithIcon .btn .spiter {
-  background: url("../img/plf4-icons/backgrounds/split-white.png") no-repeat;
+  background: url("../img/exo-platform-icons/backgrounds/split-white.png") no-repeat;
   display: inline-block;
   height: 27px;
   margin: -6px 5px -4px;
@@ -3527,7 +3527,7 @@ a:hover [class^="uiIconApp"],
   width: 2px;
 }
 .btn-group.uiDropdownWithIcon .btn.btn-primary .spiter {
-  background: url("../img/plf4-icons/backgrounds/split.png") no-repeat;
+  background: url("../img/exo-platform-icons/backgrounds/split.png") no-repeat;
 }
 .uiTabSelector .btn-group {
   margin: 5px 0 5px -27%;
@@ -4400,7 +4400,7 @@ textarea[disabled] {
 .uiPageIterator ul > li.disabled > a > [class^="uiIcon"],
 .uiPageIterator ul > li.disabled > a:hover > [class^="uiIcon"],
 .uiPageIterator ul > li.disabled > a:active > [class^="uiIcon"] {
-  background-image: url("../img/plf4-icons/uiIconsLightGray.png");
+  background-image: url("../img/exo-platform-icons/uiIconsLightGray.png");
 }
 .table + .pageIteratorBorder {
   border: 1px solid #cfcfcf;
@@ -4448,7 +4448,7 @@ textarea[disabled] {
   margin-right: 6px;
 }
 .alert .uiIconWarning {
-  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat -20px top;
+  background: url("../img/exo-platform-icons/uiIconsColor.png") no-repeat -20px top;
 }
 .alert a {
   color: #2f5e92;
@@ -4462,21 +4462,21 @@ textarea[disabled] {
   border-color: #39c522;
 }
 .alert-success .uiIconSuccess {
-  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat -60px top;
+  background: url("../img/exo-platform-icons/uiIconsColor.png") no-repeat -60px top;
 }
 .alert-info {
   background: #dee3fa;
   border-color: #215ab2;
 }
 .alert-info .uiIconInfo {
-  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat -40px top;
+  background: url("../img/exo-platform-icons/uiIconsColor.png") no-repeat -40px top;
 }
 .alert-error {
   background: #f7b5b5;
   border-color: #c72222;
 }
 .alert-error .uiIconError {
-  background: url("../img/plf4-icons/uiIconsColor.png") no-repeat left top;
+  background: url("../img/exo-platform-icons/uiIconsColor.png") no-repeat left top;
 }
 .breadcrumb {
   background: none;
@@ -4517,12 +4517,12 @@ textarea[disabled] {
   margin: 0;
 }
 .uiSearchInput input[type="text"] {
-  background: #ffffff url(../img/plf4-icons/Search.png) no-repeat right -1px;
+  background: #ffffff url(../img/exo-platform-icons/Search.png) no-repeat right -1px;
   margin: 0;
   padding-right: 24px;
 }
 .uiSearchInput input[type="text"]:hover {
-  background: #ffffff url(../img/plf4-icons/Search.png) no-repeat right -28px;
+  background: #ffffff url(../img/exo-platform-icons/Search.png) no-repeat right -28px;
 }
 /************ uiTreeExplorer ****************/
 .uiTreeExplorer {
@@ -4557,7 +4557,7 @@ textarea[disabled] {
   padding-left: 22px;
 }
 .uiTreeExplorer .expandIcon {
-  background: url("../img/plf4-icons/uiIconTreePlus.gif") no-repeat left center;
+  background: url("../img/exo-platform-icons/uiIconTreePlus.gif") no-repeat left center;
   width: auto;
   height: auto;
   padding-left: 15px;
@@ -4565,11 +4565,11 @@ textarea[disabled] {
   margin: 0px;
 }
 .uiTreeExplorer .collapseIcon {
-  background: url("../img/plf4-icons/uiIconTreeMinus.gif") no-repeat left center;
+  background: url("../img/exo-platform-icons/uiIconTreeMinus.gif") no-repeat left center;
   padding-left: 15px;
 }
 .uiTreeExplorer .emptyIcon {
-  background: url("../img/plf4-icons/uiIconTreeSquare.gif") no-repeat left center;
+  background: url("../img/exo-platform-icons/uiIconTreeSquare.gif") no-repeat left center;
   padding-left: 15px;
 }
 /*=============== uiTree =============*/
@@ -4619,17 +4619,17 @@ textarea[disabled] {
   font-weight: bold;
 }
 .uiTrees .collapseIcon {
-  background: url("../img/plf4-icons/uiIconTreePlus.gif") no-repeat left center;
+  background: url("../img/exo-platform-icons/uiIconTreePlus.gif") no-repeat left center;
   width: auto;
   height: auto;
   padding-left: 15px;
   margin: 0px;
 }
 .uiTrees .expandIcon {
-  background: url("../img/plf4-icons/uiIconTreeMinus.gif") no-repeat left center;
+  background: url("../img/exo-platform-icons/uiIconTreeMinus.gif") no-repeat left center;
 }
 .uiTrees .uiIconEmpty {
-  background: url("../img/plf4-icons/uiIconTreeSquare.gif") no-repeat left center;
+  background: url("../img/exo-platform-icons/uiIconTreeSquare.gif") no-repeat left center;
 }
 .uiBox > .uiTrees {
   border: none;
@@ -5141,7 +5141,7 @@ textarea[disabled] {
   color: #2f5e92;
 }
 .uiItemSelector .itemListContainer .itemList > li.selectedItem > a > i {
-  background-image: url("../img/plf4-icons/uiIconsBlue.png");
+  background-image: url("../img/exo-platform-icons/uiIconsBlue.png");
   background-position: 0 -120px;
 }
 .uiItemSelector .itemDetailList {
@@ -5497,20 +5497,20 @@ textarea[disabled] {
   width: 105px;
 }
 .uiVoteForm .voteFormContainer .uiIconNormalVote {
-  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -2px;
+  background: url('../img/exo-platform-icons/uiIconVote.png') no-repeat center -2px;
   width: 17px;
 }
 .uiVoteForm .voteFormContainer .uiIconOverVote {
-  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -53px;
+  background: url('../img/exo-platform-icons/uiIconVote.png') no-repeat center -53px;
   width: 17px;
 }
 .uiVoteForm .voteFormContainer .uiIconRatedVote {
-  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -27px;
+  background: url('../img/exo-platform-icons/uiIconVote.png') no-repeat center -27px;
   width: 17px;
 }
 
 .uiVoteForm .voteFormContainer .uiIconVoted{
-  background: url('../img/plf4-icons/uiIconVote.png') no-repeat center -80px;
+  background: url('../img/exo-platform-icons/uiIconVote.png') no-repeat center -80px;
   width: 17px;
 }
 /******** Vote of View1 **************/
@@ -5547,7 +5547,7 @@ textarea[disabled] {
 .uiVoteMini .avgRatingImages .voted,
 .uiVoteMini .avgRatingImages .votedHaft,
 .uiVoteMini .avgRatingImages .unvoted {
-  background: url('../img/plf4-icons/uiIconColor.png') no-repeat;
+  background: url('../img/exo-platform-icons/uiIconColor.png') no-repeat;
   width: 10px;
   height: 10px;
   float: none;
@@ -7856,7 +7856,7 @@ table {
   text-shadow: 1px 1px 1px #444444;
 }
 .ajaxLoadingMask .uiIconClose:hover {
-  background: url(../img/plf4-icons/uiIconsWhite.png) -160px -100px;
+  background: url(../img/exo-platform-icons/uiIconsWhite.png) -160px -100px;
 }
 /***********************************/
 .uiAccessGroup {
@@ -8470,14 +8470,14 @@ Round corner box with title
 .uiECMAdminPortlet .uiNodeTypeList .pagination{margin:10px 0;}
 .uiECMAdminPortlet .uiNodeTypeList .allDocument{margin:10px 0;}
 .uiECMAdminPortlet .uiNodeTypeUpload .form-horizontal .controls{margin-left:148px;}
-.uiIconEcmsFolksonomyManager{background-image:url(../img/plf4-icons/uiIconsDarkGray.png);background-position:-60px -20px;}
-a:hover .uiIconEcmsFolksonomyManager{background-image:url(../img/plf4-icons/uiIconsBlue.png);}
-.uiIconEcmsTaxonomyManagerTrees{background-image:url(../img/plf4-icons/uiIconsDarkGray.png);background-position:-20px -60px;}
-a:hover .uiIconEcmsTaxonomyManagerTrees{background-image:url(../img/plf4-icons/uiIconsBlue.png);}
-.uiIconEcmsActionManager{background-image:url(../img/plf4-icons/uiIconsDarkGray.png);background-position:0px -40px;}
-a:hover .uiIconEcmsActionManager{background-image:url(../img/plf4-icons/uiIconsBlue.png);}
-.uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsDarkGray.png);background-position:-60px 0px;}
-a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsBlue.png);}
+.uiIconEcmsFolksonomyManager{background-image:url(../img/exo-platform-icons/uiIconsDarkGray.png);background-position:-60px -20px;}
+a:hover .uiIconEcmsFolksonomyManager{background-image:url(../img/exo-platform-icons/uiIconsBlue.png);}
+.uiIconEcmsTaxonomyManagerTrees{background-image:url(../img/exo-platform-icons/uiIconsDarkGray.png);background-position:-20px -60px;}
+a:hover .uiIconEcmsTaxonomyManagerTrees{background-image:url(../img/exo-platform-icons/uiIconsBlue.png);}
+.uiIconEcmsActionManager{background-image:url(../img/exo-platform-icons/uiIconsDarkGray.png);background-position:0px -40px;}
+a:hover .uiIconEcmsActionManager{background-image:url(../img/exo-platform-icons/uiIconsBlue.png);}
+.uiIconEcmsUnLockManager{background-image:url(../img/exo-platform-icons/uiIconsDarkGray.png);background-position:-60px 0px;}
+a:hover .uiIconEcmsUnLockManager{background-image:url(../img/exo-platform-icons/uiIconsBlue.png);}
 .uiSearchBox{margin:0 0 14px 0;padding:8px;border-radius:4px;border:1px solid #cfcfcf;}
 .MultiValueContainer .multiFieldAction{margin-left:4px;}
 .UITaxonomyTreeCreateChild .breadcrumb{border:1px solid #e1e1e1;background:#f7f7f7;border-radius:0px;margin:0 0 16px 0;padding:4px;}
@@ -8502,10 +8502,10 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiSideBar #UIAllItems{margin-bottom:20px;}
 .uiSideBar .uiBox .title .sideGeneratal{cursor:pointer;float:right;height:16px;width:16px;display:block;}
 .uiSideBar .uiBox .uiContentBox{padding:10px;}
-.uiSideBar .uiSelectContent{background:#f0f0f0;border-top:1px solid #c1c1c1;height:30px;line-height:16px;padding:0px 3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;border-bottom-left-radius:3px;}.uiSideBar .uiSelectContent .normalItem{cursor:pointer;padding:8px 8px 0px 8px;width:14px;height:23px;float:left;margin-top:-1px;}.uiSideBar .uiSelectContent .normalItem:hover [class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
-.uiSideBar .uiSelectContent .normalItem:hover .uiIconEcmsTagExplorerMini{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.uiSideBar .uiSelectContent .selectedItem{cursor:pointer;padding:8px 8px 0px 8px;width:14px;height:23px;background:#ffffff;float:left;border-left:1px solid #c1c1c1;border-right:1px solid #c1c1c1;margin-top:-1px;}.uiSideBar .uiSelectContent .selectedItem [class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
-.uiSideBar .uiSelectContent .selectedItem .uiIconEcmsTagExplorerMini{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
+.uiSideBar .uiSelectContent{background:#f0f0f0;border-top:1px solid #c1c1c1;height:30px;line-height:16px;padding:0px 3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;border-bottom-left-radius:3px;}.uiSideBar .uiSelectContent .normalItem{cursor:pointer;padding:8px 8px 0px 8px;width:14px;height:23px;float:left;margin-top:-1px;}.uiSideBar .uiSelectContent .normalItem:hover [class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png");}
+.uiSideBar .uiSelectContent .normalItem:hover .uiIconEcmsTagExplorerMini{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.uiSideBar .uiSelectContent .selectedItem{cursor:pointer;padding:8px 8px 0px 8px;width:14px;height:23px;background:#ffffff;float:left;border-left:1px solid #c1c1c1;border-right:1px solid #c1c1c1;margin-top:-1px;}.uiSideBar .uiSelectContent .selectedItem [class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png");}
+.uiSideBar .uiSelectContent .selectedItem .uiIconEcmsTagExplorerMini{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
 .uiSideBar .uiSelectContent .MoreItem{line-height:26px;cursor:pointer;padding:8px;float:left;width:14px;margin-top:-1px;}
 .uiSideBar .uiSelectContent .itemIcon{margin:auto;width:16px;height:15px;display:block;}
 .uiSideBar .uiSelectContent .defaultIcon{background:url('/ecmexplorer/skin/webui/component/explorer/sidebar/DefaultSkin/icons/Generatal.png') no-repeat center;}
@@ -8521,7 +8521,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .advancedSearchIcon{margin:-3px;}
 .uiViewRelationList .frameContent{color:#999;}.uiViewRelationList .frameContent a{color:#333333;}.uiViewRelationList .frameContent a:hover{color:#2f5e92;}
 .uiAddressBar{padding:8px;margin-bottom:15px;}.uiAddressBar .tblAddressBar{table-layout:fixed;width:100%;_width:auto;}
-.uiAddressBar .detailViewIcon{padding-right:20px;} .btn-group .active>i{background-image:url(../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png);}
+.uiAddressBar .detailViewIcon{padding-right:20px;} .btn-group .active>i{background-image:url(../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png);}
 .uiAddressBar .right{width:180px;}.uiAddressBar .right .advance{width:180px;position:relative;}.uiAddressBar .right .advance input{width:100%;margin:0px;}
 .uiAddressBar .right .advance .searchBtn{position:absolute;right:5px;top:4px;}
 .uiAddressBar .uiAddressBarAction .dropDownButtonBox{width:18px;height:18px;position:absolute;right:12px;top:5px;}.uiAddressBar .uiAddressBarAction .dropDownButtonBox .uiIconArrowDown{cursor:pointer;}
@@ -8561,9 +8561,9 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiMultiUpload .multiUploadListSeperator{border-top:1px solid #CFCFCF;display:block;}
 .uiMultiUpload .multiUploadFileList{overflow-y:auto;max-height:163px;}.uiMultiUpload .multiUploadFileList .loadContent .Action{color:#466799;height:20px;text-align:center;cursor:pointer;}
 .uiMultiUpload .multiUploadFilesShortInfo [class^="uiIcon"]{margin:2px 0px 0px 8px;}
-.uiMultiUpload .uiIconWarning{background:url("../img/plf4-icons/uiIconColor.png") no-repeat -20px 0px;}
-.uiMultiUpload .uiIconMultiUploadClose{background:url("../img/plf4-icons/uiIconColor.png") no-repeat 0px 0px;cursor:pointer;}
-.uiMultiUpload .uiIconNoneClose{background:url("../img/plf4-icons/uiIconColor.png") no-repeat -180px 0px;}
+.uiMultiUpload .uiIconWarning{background:url("../img/exo-platform-icons/uiIconColor.png") no-repeat -20px 0px;}
+.uiMultiUpload .uiIconMultiUploadClose{background:url("../img/exo-platform-icons/uiIconColor.png") no-repeat 0px 0px;cursor:pointer;}
+.uiMultiUpload .uiIconNoneClose{background:url("../img/exo-platform-icons/uiIconColor.png") no-repeat -180px 0px;}
 .noShow{display:none;}
 .uiFileView,.MoveItem{margin:-4px;}.uiFileView .columnCheckbox,.MoveItem .columnCheckbox{padding:3px 10px;float:right;}.uiFileView .columnCheckbox .uiCheckbox,.MoveItem .columnCheckbox .uiCheckbox{width:16px;}
 .uiFileView .columnArrow,.MoveItem .columnArrow{width:35px;min-height:30px;float:left;text-align:center;}.uiFileView .columnArrow [class^="uiIconArrow"],.MoveItem .columnArrow [class^="uiIconArrow"]{margin-top:5px;}
@@ -8579,31 +8579,31 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiFileView .uiListGrid .titleTable .breadcrumbLink .nodeLabel,.MoveItem .uiListGrid .titleTable .breadcrumbLink .nodeLabel{color:#333333;}.uiFileView .uiListGrid .titleTable .breadcrumbLink .nodeLabel:hover,.MoveItem .uiListGrid .titleTable .breadcrumbLink .nodeLabel:hover{color:#2f5e92;}
 .uiFileView .uiListGrid .titleTable .breadcrumbLink .nodeLabel:last-child,.MoveItem .uiListGrid .titleTable .breadcrumbLink .nodeLabel:last-child{color:#2f5e92;}
 .uiFileView .uiListGrid .titleTable .btn-group .btn,.MoveItem .uiListGrid .titleTable .btn-group .btn,.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu a,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu a{font-size:12px;}
-.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a,.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover{color:#fff;}.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a i,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a i,.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i{background-image:url("../img/plf4-icons/uiIconsWhite.png");margin:0px 0px 0px 7px;}
+.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a,.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover{color:#fff;}.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a i,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a i,.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i,.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i{background-image:url("../img/exo-platform-icons/uiIconsWhite.png");margin:0px 0px 0px 7px;}
 .uiFileView .fileViewPageIterator,.MoveItem .fileViewPageIterator{margin-left:10px;}.uiFileView .fileViewPageIterator .nextPageIcon,.MoveItem .fileViewPageIterator .nextPageIcon,.uiFileView .fileViewPageIterator .prevPageIcon,.MoveItem .fileViewPageIterator .prevPageIcon{color:#333333;}.uiFileView .fileViewPageIterator .nextPageIcon:hover,.MoveItem .fileViewPageIterator .nextPageIcon:hover,.uiFileView .fileViewPageIterator .prevPageIcon:hover,.MoveItem .fileViewPageIterator .prevPageIcon:hover{color:#2f5e92;}
 .uiFileView .caret,.MoveItem .caret{margin-left:4px;}
 .uiFileView .MoreButton{color:#058ee6;font-weight:bold;margin-right:20px;text-decoration:underline;cursor:pointer;}
 .ActionMenuPlaceHolder{position:relative;z-index:8;}.ActionMenuPlaceHolder .uiFileViewActionBar{background:#f0f0f0;border:1px solid #cfcfcf;-webkit-border-radius:3px 3px 0px 0px;-moz-border-radius:3px 3px 0px 0px;border-radius:3px 3px 0px 0px;height:36px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer{margin:0px;padding:0px 10px;float:none;background:none;border:none;box-shadow:none;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li{float:left;padding:4px 0px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li a{padding:4px 6px;border:1px solid transparent;line-height:18px;cursor:pointer;background:none;color:#333333;}
-.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover{background-color:#f5f5f5;background-image:-moz-linear-gradient(top, #ffffff, #e6e6e6);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));background-image:-webkit-linear-gradient(top, #ffffff, #e6e6e6);background-image:-o-linear-gradient(top, #ffffff, #e6e6e6);background-image:linear-gradient(to bottom, #ffffff, #e6e6e6);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);border:1px solid #c7c7c7;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:#333333;padding:4px 6px;background-color:none;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover>i{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
-.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsEditDocument,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsDelete,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsMoveNode,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsRestoreFromTrash,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsUpload,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsViewInfo{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover{background-color:#f5f5f5;background-image:-moz-linear-gradient(top, #ffffff, #e6e6e6);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));background-image:-webkit-linear-gradient(top, #ffffff, #e6e6e6);background-image:-o-linear-gradient(top, #ffffff, #e6e6e6);background-image:linear-gradient(to bottom, #ffffff, #e6e6e6);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);border:1px solid #c7c7c7;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:#333333;padding:4px 6px;background-color:none;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover>i{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png");}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsEditDocument,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsDelete,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsMoveNode,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsRestoreFromTrash,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsUpload,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li>a:hover .uiIconEcmsViewInfo{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open>a,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open>a:hover,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open>a:focus,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active>a,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active>a:hover,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active>a:focus{background:none;box-shadow:0px 2px 6px rgba(0, 0, 0, 0.15) inset;border:1px solid #c7c7c7;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:#333333;}
-.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .RightClickCustomItem{padding:0px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .RightClickCustomItem a:hover .uiIconDownload{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li{float:none;padding:0px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a{border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;line-height:20px;padding:5px 10px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsViewInfo,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsDelete{background-image:url("../img/plf4-icons/uiIconsLightGray.png");}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .RightClickCustomItem{padding:0px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .RightClickCustomItem a:hover .uiIconDownload{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li{float:none;padding:0px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a{border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;line-height:20px;padding:5px 10px;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsViewInfo,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsDelete{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");}
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsViewInfo{background-position:-140px -60px;}
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsDelete{background-position:-20px 0px;}
-.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover{background-color:#517abe;background-image:-moz-linear-gradient(top, #628acc, #3763aa);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#628acc), to(#3763aa));background-image:-webkit-linear-gradient(top, #628acc, #3763aa);background-image:-o-linear-gradient(top, #628acc, #3763aa);background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff628acc', endColorstr='#ff3763aa', GradientType=0);color:#fff;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover>i{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
-.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsDelete,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconDownload,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsViewInfo{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover{background-color:#517abe;background-image:-moz-linear-gradient(top, #628acc, #3763aa);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#628acc), to(#3763aa));background-image:-webkit-linear-gradient(top, #628acc, #3763aa);background-image:-o-linear-gradient(top, #628acc, #3763aa);background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff628acc', endColorstr='#ff3763aa', GradientType=0);color:#fff;}.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover>i{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsDelete,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconDownload,.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsViewInfo{background-image:url("../img/exo-platform-icons/uiIconsWhite.png");}
 .ActionMenuPlaceHolder .fileViewStatus{position:absolute;right:0px;line-height:27px;padding:5px 10px 0px 0px;}.ActionMenuPlaceHolder .fileViewStatus .text{margin:0px 5px;}
 .ActionMenuPlaceHolder .fileViewStatus .fileViewItemCount{font-weight:bold;}
 .MoveItem{padding:0px;}
 .UIJCRExplorerPortlet{padding:25px;background:none !important;}.UIJCRExplorerPortlet .uiActionBarAlone{height:38px;}.UIJCRExplorerPortlet .uiActionBarAlone .tab-content{-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;border-top-right-radius:3px;-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;border-top-left-radius:3px;border:1px solid #c1c1c1;}.UIJCRExplorerPortlet .uiActionBarAlone .tab-content .nav-pills{-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;border-top-right-radius:3px;-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;border-top-left-radius:3px;}
 .uiActionBar .tab-content{position:relative;z-index:3;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}
-.uiActionBar .listHiddenActionsContainer .actionIcon{margin:0px;border:none;}.uiActionBar .listHiddenActionsContainer .actionIcon:hover{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;box-shadow:none;}.uiActionBar .listHiddenActionsContainer .actionIcon:hover>[class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
-.uiActionBar .listHiddenActionsContainer .actionIcon:hover>[class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
+.uiActionBar .listHiddenActionsContainer .actionIcon{margin:0px;border:none;}.uiActionBar .listHiddenActionsContainer .actionIcon:hover{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;box-shadow:none;}.uiActionBar .listHiddenActionsContainer .actionIcon:hover>[class^="uiIcon"]{background-image:url("../img/exo-platform-icons/uiIconsWhite.png");}
+.uiActionBar .listHiddenActionsContainer .actionIcon:hover>[class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .uiActionBar .uiViewBarContainer{position:absolute;right:10px;top:4px;} .noneDrivesButton, .noneDrivesButton:hover{padding:3px 6px;color:#333333;}
 .uiActionBar .uiViewBarContainer .actionIcon{margin-left:2px;}
-.uiActionBar .uiViewBarContainer .showDrivesButton{padding:3px 6px;color:#333333;box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.15) inset;background-color:#ECECEC;border:1px solid #C7C7C7;border-radius:3px 3px 3px 3px;}.uiActionBar .uiViewBarContainer .showDrivesButton>[class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.uiActionBar .uiViewBarContainer .showDrivesButton>[class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
+.uiActionBar .uiViewBarContainer .showDrivesButton{padding:3px 6px;color:#333333;box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.15) inset;background-color:#ECECEC;border:1px solid #C7C7C7;border-radius:3px 3px 3px 3px;}.uiActionBar .uiViewBarContainer .showDrivesButton>[class^="uiIcon"]{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.uiActionBar .uiViewBarContainer .showDrivesButton>[class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png");}
 .uiTabGrayInPage .tab-content .nav-pills>li.dropdown{margin-right:200px;}
 .uiItemList li{padding:2px 0px 2px 15px;font-size:12px;}.uiItemList li>a{color:#25155d;}.uiItemList li>a:hover{color:#2f5e92;}
 .uiItemList li .selectedNode{color:#2f5e92;}
@@ -8645,7 +8645,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiThumbnailsView .Link,.uiThumbnailsView .IconLocked{background:url("/ecmexplorer/skin/images/Icons/IconBigLink.png") no-repeat right top;position:absolute;width:32px;height:32px;right:-5px;bottom:0;}
 .uiThumbnailsView .IconLocked{background:url("/ecmexplorer/skin/images/Icons/IconBigLock.png") no-repeat right top;top:0;}
 .uiDrivesArea{background:#ffffff;border:1px solid #cfcfcf;border-top:none;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;border-bottom-left-radius:4px;padding:4px;}.uiDrivesArea .uiDriversAreaContainer{padding:15px;color:#666666;overflow:hidden;}.uiDrivesArea .uiDriversAreaContainer .info{margin-bottom:12px;}
-.uiDrivesArea .uiDriversAreaContainer .uiIconBlueInformation{background:url(../img/plf4-icons/uiIconColor.png) no-repeat -40px 0px;}
+.uiDrivesArea .uiDriversAreaContainer .uiIconBlueInformation{background:url(../img/exo-platform-icons/uiIconColor.png) no-repeat -40px 0px;}
 .uiDrivesArea .rowDrives{border-bottom:dotted 1px #cccccc;padding-bottom:15px;margin-bottom:15px;}
 .uiDrivesArea .rowNormal{padding-bottom:15px;}
 .uiDrivesArea .titleDriver{font-size:13px;color:#333333;}
@@ -8665,12 +8665,12 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiDocumentFormController{min-width:500px;padding:15px;}.uiDocumentFormController .form-horizontal .control-label{margin-bottom:0px;width:120px;}
 .uiDocumentFormController .form-horizontal .controls{margin-left:135px;}.uiDocumentFormController .form-horizontal .controls .textInfo{line-height:18px;color:gray;}
 .uiDocumentFormController .form-horizontal .controls .nameInfo{line-height:18px;color:#333333;font-weight:bold;}
-.uiDocumentFormController .form-horizontal .controls a [class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsLightGray.png");}
-.uiDocumentFormController .form-horizontal .controls a:hover [class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
+.uiDocumentFormController .form-horizontal .controls a [class^="uiIcon"]{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");}
+.uiDocumentFormController .form-horizontal .controls a:hover [class^="uiIcon"]{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
 .uiDocumentFormController .form-horizontal .controls textarea{font-size:13px;height:175px;width:90%;vertical-align:top;}
 .uiDocumentFormController .form-horizontal .controls>div>span{width:90% !important;margin-right:5px;}
 .uiDocumentFormController .form-horizontal .controls .uiUploadInput{width:90%;float:left;margin-right:5px;}
-.uiDocumentFormController .helpBlock{display:inline-block;background:#f0f0f0;border:1px solid #cccccc;color:#333333;padding:15px 15px 15px 40px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;width:155px;margin-left:10px;}.uiDocumentFormController .helpBlock .uiIconHelp{background:url("../img/plf4-icons/uiIconColor.png") no-repeat -40px 0px;margin:3px 0px 0px -25px;float:left;}
+.uiDocumentFormController .helpBlock{display:inline-block;background:#f0f0f0;border:1px solid #cccccc;color:#333333;padding:15px 15px 15px 40px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;width:155px;margin-left:10px;}.uiDocumentFormController .helpBlock .uiIconHelp{background:url("../img/exo-platform-icons/uiIconColor.png") no-repeat -40px 0px;margin:3px 0px 0px -25px;float:left;}
 .uiDocumentFormController .helpBlock .form-horizontal .textarea{vertical-align:top;}
 .uiDocumentFormController .helpBlockTitle{display:block;width:auto;}
 .fileContent,.mediaContent{padding:15px;}.fileContent .textContent,.mediaContent .textContent{overflow:auto;}.fileContent .textContent pre,.mediaContent .textContent pre{min-height:150px;}
@@ -8717,7 +8717,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiViewMetadataForm #UIViewMetadataForm{border:none !important;}
 .selectTemplateTitle{background-color:#F0F0F0;border:1px solid #c2c2c2;border-bottom:1px solid #CFCFCF;border-radius:4px 4px 0 0;line-height:20px;margin:0;padding:5px 20px;word-wrap:break-word;}.selectTemplateTitle .templateTitle{margin:4px 130px 0px 0px;}
 .selectTemplateTitle .btn-group .btn{padding:5px 8px 4px 8px;}
-.selectTemplateTitle .btn-group .active [class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
+.selectTemplateTitle .btn-group .active [class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png");}
 .selectTemplateTitle .btn-group:nth-child(2n+2) .btn{border-bottom-right-radius:3px;border-top-right-radius:3px;}
 .selectTemplateTitle .btn-group>.btn:first-child:hover{border-radius:3px 0 0 3px;margin-right:-1px;}
 .selectTemplateTitle .uiIconClose{margin:7px 0px 0px 10px;cursor:pointer;}
@@ -8778,23 +8778,23 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .comments .commentBox{margin-left:85px;padding:10px 20px;position:relative;}.comments .commentBox .commentInfo{margin-bottom:5px;}
 .UINodeTypeSelectForm .control-label{width:200px;}
 .UINodeTypeSelectForm .controls{margin-left:220px;}
-.uiRightClickPopupMenu{display:none;position:absolute;}.uiRightClickPopupMenu .uiRightPopupMenuContainer{display:block;position:static;cursor:pointer;}.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover>[class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
-.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsEditDocument,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsDelete,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsMoveNode,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsRestoreFromTrash,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsViewInfo{background-image:url("../img/plf4-icons/uiIconsLightGray.png");}
+.uiRightClickPopupMenu{display:none;position:absolute;}.uiRightClickPopupMenu .uiRightPopupMenuContainer{display:block;position:static;cursor:pointer;}.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover>[class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsEditDocument,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsDelete,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsMoveNode,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsRestoreFromTrash,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsViewInfo{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");}
 .uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsEditDocument{background-position:-40px 0px;}
 .uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsDelete{background-position:-20px 0px;}
 .uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsMoveNode{background-position:-120px 0px;}
 .uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsRestoreFromTrash{background-position:-160px 0px;}
 .uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a .uiIconEcmsViewInfo{background-position:-140px -60px;}
-.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsEditDocument,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsDelete,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsMoveNode,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsRestoreFromTrash,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsUpload,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsViewInfo{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
-.RightClickCustomItem .menuItem a:hover [class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
-.RightClickCustomItem .menuItem a:hover [class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsEditDocument,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsDelete,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsMoveNode,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsRestoreFromTrash,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsUpload,.uiRightClickPopupMenu .uiRightPopupMenuContainer>li>a:hover .uiIconEcmsViewInfo{background-image:url("../img/exo-platform-icons/uiIconsWhite.png");}
+.RightClickCustomItem .menuItem a:hover [class^="uiIcon"]{background-image:url("../img/exo-platform-icons/uiIconsWhite.png");}
+.RightClickCustomItem .menuItem a:hover [class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .iFrameUpload{border:none;}
 .iconLinkSmall{background:url("/ecmexplorer/skin/images/Icons/IconSmallLink.png") no-repeat scroll right bottom transparent;height:16px;width:20px;display:block;}
 .iconLockedsmall{background:url("/ecmexplorer/skin/images/Icons/IconSmallLock.png") no-repeat scroll right top transparent;float:left;height:16px;width:20px;}
 .UITaggingForm .dropdown-menu .active>a,.UITaggingForm .dropdown-menu .active>a:hover{color:white;background:#517abe;}
-.dropdown-menu li>.menuItemSelected{background-color:#517ABE;background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;color:white;}.dropdown-menu li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
-.UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li>.menuItemSelected{background-color:#F5F5F5;background-image:linear-gradient(to bottom, #ffffff, #e6e6e6);background-repeat:repeat-x;border:1px solid #C7C7C7;border-radius:3px 3px 3px 3px;color:#333333;padding:4px 6px;}.UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
-.UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li>.menuItemSelected{background-color:#517ABE;background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;color:white;}.UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
+.dropdown-menu li>.menuItemSelected{background-color:#517ABE;background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;color:white;}.dropdown-menu li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
+.UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li>.menuItemSelected{background-color:#F5F5F5;background-image:linear-gradient(to bottom, #ffffff, #e6e6e6);background-repeat:repeat-x;border:1px solid #C7C7C7;border-radius:3px 3px 3px 3px;color:#333333;padding:4px 6px;}.UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png");}
+.UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li>.menuItemSelected{background-color:#517ABE;background-image:linear-gradient(to bottom, #628acc, #3763aa);background-repeat:repeat-x;color:white;}.UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li>.menuItemSelected .uiIconEcmsCopyUrlToClipboard{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .UIJCRExplorerPortlet .UIJCRExplorer .UIDocumentWorkspace{min-height:auto;}.UIJCRExplorerPortlet .UIJCRExplorer .UIDocumentWorkspace .UIDocumentInfo{min-height:auto;}
 .changeTypeLink{font-weight:normal;cursor:pointer;}.changeTypeLink:hover{text-decoration:underline;}
 
@@ -8805,7 +8805,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumDarkGray.png");
+  background-image: url("../img/exo-platform-icons/forum-icons/uiIconsForumDarkGray.png");
   background-repeat: no-repeat;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
@@ -8823,7 +8823,7 @@ a:hover .uiIconEcmsUnLockManager{background-image:url(../img/plf4-icons/uiIconsB
 .uiIconForumBlue,
 a:hover > [class^="uiIconForum"],
 a:hover [class^="uiIconForum"] {
-  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumBlue.png");
+  background-image: url("../img/exo-platform-icons/forum-icons/uiIconsForumBlue.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconForum"],
@@ -8831,7 +8831,7 @@ a:hover [class^="uiIconForum"] {
 .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconForum"],
 .uiActionBar [class^="uiIconForum"],
 .uiIconForumLightGray {
-  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumLightGray.png");
+  background-image: url("../img/exo-platform-icons/forum-icons/uiIconsForumLightGray.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconForum"],
@@ -8849,7 +8849,7 @@ a:hover [class^="uiIconForum"] {
 .btn-primary [class^="uiIconForum"],
 .btn-primary:hover [class^="uiIconForum"],
 .uiIconForumWhite {
-  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumWhite.png");
+  background-image: url("../img/exo-platform-icons/forum-icons/uiIconsForumWhite.png");
 }
 [class^="uiIconForumColor"] {
   display: inline-block;
@@ -8858,14 +8858,14 @@ a:hover [class^="uiIconForum"] {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-bottom;
-  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumColor.png");
+  background-image: url("../img/exo-platform-icons/forum-icons/uiIconsForumColor.png");
   background-repeat: no-repeat;
 }
 .dropdown > a:hover > [class^="uiIconForumColor"],
 [class^="uiIconForumColor"]:hover,
 a:hover > [class^="uiIconForumColor"],
 i:hover [class^="uiIconForumColor"] {
-  background-image: url("../img/plf4-icons/forum-icons/uiIconsForumColor.png");
+  background-image: url("../img/exo-platform-icons/forum-icons/uiIconsForumColor.png");
 }
 .uiIconForumPending {
   background-position: 0 0;
@@ -8975,11 +8975,11 @@ i:hover [class^="uiIconForumColor"] {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../img/plf4-icons/uiIconColor.png");
+  background-image: url("../img/exo-platform-icons/uiIconColor.png");
   background-repeat: no-repeat;
 }
 [class^="uiIconColor"]:hover {
-  background-image: url("../img/plf4-icons/uiIconColor.png");
+  background-image: url("../img/exo-platform-icons/uiIconColor.png");
 }
 .uiIconColorBell {
   background-position: -160px 0;
@@ -9813,11 +9813,11 @@ i:hover [class^="uiIconForumColor"] {
 }
 
 
-[class^="uiIconSoc"],.uiIconSocDarkGray{background-image:url("../img/plf4-icons/social-icons/uiIconsSocDarkGray.png");}
-.uiActionWithLabel:hover>[class^="uiIconSoc"],.actionIcon:hover>[class^="uiIconSoc"],.nav-pills>.active>a>[class^="uiIconSoc"],.nav-list>.active>a>[class^="uiIconSoc"],.navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.dropdown-menu>li>a:hover>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn:hover [class^="uiIconSoc"],a:hover [class^="uiIconSoc"],[class^="uiIconSoc"]:hover,.uiActionBar [class^="uiIconSoc"]:hover,.uiIconSocBlue{background-image:url("../img/plf4-icons/social-icons/uiIconsSocBlue.png");}
-.dropdown-menu>li>a>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconSoc"],.uiDropDownCal li a [class^="uiIconSoc"],.uiActionBar [class^="uiIconSoc"],.uiIconSocLightGray{background-image:url("../img/plf4-icons/social-icons/uiIconsSocLightGray.png");}
-.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn-primary [class^="uiIconSoc"],.btn-primary:hover [class^="uiIconSoc"],.uiDropDownCal a:hover [class^="uiIconSoc"],.uiDropDownCal .active a:hover [class^="uiIconSoc"],.eventAllDay [class^="uiIconSoc"],.eventDayContainer [class^="uiIconSoc"],.uiIconSocWhite{background-image:url("../img/plf4-icons/social-icons/uiIconsSocWhite.png");}
-.activityTimeLine [class^="uiIcon"],.activityTimeLine [class^="uiIcon"]:hover{background-image:url("../img/plf4-icons/social-icons/uiIconsSocWhite.png");}
+[class^="uiIconSoc"],.uiIconSocDarkGray{background-image:url("../img/exo-platform-icons/social-icons/uiIconsSocDarkGray.png");}
+.uiActionWithLabel:hover>[class^="uiIconSoc"],.actionIcon:hover>[class^="uiIconSoc"],.nav-pills>.active>a>[class^="uiIconSoc"],.nav-list>.active>a>[class^="uiIconSoc"],.navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.dropdown-menu>li>a:hover>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn:hover [class^="uiIconSoc"],a:hover [class^="uiIconSoc"],[class^="uiIconSoc"]:hover,.uiActionBar [class^="uiIconSoc"]:hover,.uiIconSocBlue{background-image:url("../img/exo-platform-icons/social-icons/uiIconsSocBlue.png");}
+.dropdown-menu>li>a>[class^="uiIconSoc"],.dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconSoc"],.uiDropDownCal li a [class^="uiIconSoc"],.uiActionBar [class^="uiIconSoc"],.uiIconSocLightGray{background-image:url("../img/exo-platform-icons/social-icons/uiIconsSocLightGray.png");}
+.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconSoc"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconSoc"],.btn-primary [class^="uiIconSoc"],.btn-primary:hover [class^="uiIconSoc"],.uiDropDownCal a:hover [class^="uiIconSoc"],.uiDropDownCal .active a:hover [class^="uiIconSoc"],.eventAllDay [class^="uiIconSoc"],.eventDayContainer [class^="uiIconSoc"],.uiIconSocWhite{background-image:url("../img/exo-platform-icons/social-icons/uiIconsSocWhite.png");}
+.activityTimeLine [class^="uiIcon"],.activityTimeLine [class^="uiIcon"]:hover{background-image:url("../img/exo-platform-icons/social-icons/uiIconsSocWhite.png");}
 .uiIconSocAddFile{background-position:0px 0px;}
 .uiIconSocLastestReply{background-position:-20px 0px;}
 .uiIconSocTotateToRight{background-position:-40px 0px;}
@@ -9840,10 +9840,10 @@ i:hover [class^="uiIconForumColor"] {
 .uiIconSocWikiMini{background-position:0px -40px;}
 .uiIconSocVote{background-position:-20px -40px;}
 .uiIconSocMention{background-position:-140px 0px;}
-.uiIconSocUIDocActivityComposer{background-image:url("../img/plf4-icons/uiIconsLightGray.png");background-position:-60px -40px;}
-.uiIconSocUIDocActivityComposer:hover,.actionIcon:hover .uiIconSocUIDocActivityComposer{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.uiIconSocUILinkActivityComposer{background-image:url("../img/plf4-icons/uiIconsLightGray.png");background-position:-80px 0px;}
-.uiIconSocUILinkActivityComposer:hover,.actionIcon:hover .uiIconSocUILinkActivityComposer{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
+.uiIconSocUIDocActivityComposer{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");background-position:-60px -40px;}
+.uiIconSocUIDocActivityComposer:hover,.actionIcon:hover .uiIconSocUIDocActivityComposer{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.uiIconSocUILinkActivityComposer{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");background-position:-80px 0px;}
+.uiIconSocUILinkActivityComposer:hover,.actionIcon:hover .uiIconSocUILinkActivityComposer{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
 .uiFilterList{padding:10px 0;}.uiFilterList .result .number{color:#2f5e92;font-size:30px;font-weight:bold;margin-right:10px;float:left;}
 .uiFilterList .letterList{margin:15px 0;}.uiFilterList .letterList li{display:inline-block;}.uiFilterList .letterList li a{border:1px solid transparent;cursor:pointer;display:inline-block;padding:3px 8px;line-height:20px;border:1px solid #d9d9d9;color:#333333;width:23px;height:22px;line-height:22px;text-align:center;padding:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.uiFilterList .letterList li a:hover{background-color:#f9f9f9;background-image:-moz-linear-gradient(top, #ffffff, #f1f1f1);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f1f1f1));background-image:-webkit-linear-gradient(top, #ffffff, #f1f1f1);background-image:-o-linear-gradient(top, #ffffff, #f1f1f1);background-image:linear-gradient(to bottom, #ffffff, #f1f1f1);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff1f1f1', GradientType=0);border:1px solid #cfcfcf;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 2px 0px #ffffff;-moz-box-shadow:0 1px 2px 0px #ffffff;box-shadow:0 1px 2px 0px #ffffff;}.uiFilterList .letterList li a:hover:active,.uiFilterList .letterList li a:hover:focus{-webkit-box-shadow:0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;-moz-box-shadow:0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;box-shadow:0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;border:1px solid #c7c7c7;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background-color:#ececec;}
 .uiFilterList .letterList li a .uiIconMiniArrowDown{margin-left:5px;}
@@ -9948,7 +9948,7 @@ i:hover [class^="uiIconForumColor"] {
 .userProfileShare .userGender{margin:0 0 0 20px;}
 .userProfileShare p{margin-bottom:5px;}
 .userProfileShare .userPosition{color:#2f5e92;}
-.userProfileShare .userContact [class^="uiIcon"]:hover{background-image:url("../img/plf4-icons/uiIconsLightGray.png");}
+.userProfileShare .userContact [class^="uiIcon"]:hover{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");}
 .activityStream .pollShare .pollTitle{margin-bottom:10px;}.activityStream .pollShare .pollTitle .numberVoted{color:#999999;}
 .activityStream .pollShare h5{margin:0;}
 .activityStream .infoVote .titleVote{float:left;width:13%;}
@@ -10050,10 +10050,10 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .UIWikiPortletPreferences{padding:10px;background:white;}
 .uiWikiPermalinkForm{padding:5px;}.uiWikiPermalinkForm .permalinkWapperInput .input-xxxlarge{width:98%;}
 .uiWikiPermalinkForm .permalLinkShare{margin-bottom:10px;}
-.warningmessage,.notemessage{background:#fcf4d4 url("../img/plf4-icons/warningIcon.png") no-repeat 15px 6px;border:1px solid #edad00;}
-.tipmessage{background:#e6fade url("../img/plf4-icons/successIcon.png") no-repeat 15px 6px;border:1px solid #39c522;}
-.infomessage{background:#dee3fa url("../img/plf4-icons/infoIcon.png") no-repeat 15px 6px;border:1px solid #215ab2;}
-.errormessage{background:#f7b5b5 url("../img/plf4-icons/errorIcon.png") no-repeat 15px 6px;border:1px solid #c72222;}
+.warningmessage,.notemessage{background:#fcf4d4 url("../img/exo-platform-icons/warningIcon.png") no-repeat 15px 6px;border:1px solid #edad00;}
+.tipmessage{background:#e6fade url("../img/exo-platform-icons/successIcon.png") no-repeat 15px 6px;border:1px solid #39c522;}
+.infomessage{background:#dee3fa url("../img/exo-platform-icons/infoIcon.png") no-repeat 15px 6px;border:1px solid #215ab2;}
+.errormessage{background:#f7b5b5 url("../img/exo-platform-icons/errorIcon.png") no-repeat 15px 6px;border:1px solid #c72222;}
 .box{-webkit-border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;border-radius:3px 3px 3px 3px;-webkit-box-shadow:0px 1px 1px #e2e3e3;-moz-box-shadow:0px 1px 1px #e2e3e3;box-shadow:0px 1px 1px #e2e3e3;color:#333333;padding:7px 15px 7px 45px;margin:10px 0;}.box a{color:#2f5e92;}
 .box a:hover{font-weight:bold;text-decoration:none;}
 .uiWikiPageVersionsCompare .comparedForm{border-bottom:1px solid #e1e1e1;padding-bottom:20px;}
@@ -10085,7 +10085,7 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiWikiPageEditForm .CommentInput .CommentTitle{color:#636363;display:block;line-height:15px;margin-top:5px;width:60px;}
 .uiWikiPageEditForm .CommentInput input{background:#ffffff;border:1px solid #DCDCDC;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;font-size:14px;padding:6px;width:50%;float:left;}
 .uiWikiPageEditForm .uiWikiTemplateDescriptionContainer{margin-top:10px;}.uiWikiPageEditForm .uiWikiTemplateDescriptionContainer input{margin:0px;width:100%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;height:28px;}
-.EditSection [class^="wikimodel-freestanding"]{display:inline-block;width:16px;height:16px;background-position:-40px 0px;*margin-right:.3em;line-height:16px;vertical-align:text-top;background-image:url("../img/plf4-icons/uiIconsDarkGray.png");background-repeat:no-repeat;margin-top:12px;}.EditSection [class^="wikimodel-freestanding"]:hover{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
+.EditSection [class^="wikimodel-freestanding"]{display:inline-block;width:16px;height:16px;background-position:-40px 0px;*margin-right:.3em;line-height:16px;vertical-align:text-top;background-image:url("../img/exo-platform-icons/uiIconsDarkGray.png");background-repeat:no-repeat;margin-top:12px;}.EditSection [class^="wikimodel-freestanding"]:hover{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
 .uiWikiPageContentArea span.EditSection{display:none;}
 .uiWikiPageContentArea .section-container .EditSectionHover{background-color:#f9f9f9;margin:0 -15px;padding-left:15px;padding-right:15px;}
 .uiWikiPageContentArea .section-container{padding-top:5px;padding-bottom:5px;}
@@ -10115,10 +10115,10 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiWikiMovePageForm .sideBarContent .barContent{margin:10px 0;font-weight:bold;}
 .uiWikiMovePageForm .sideBarContent .sideContent{border:1px solid #e1e1e1;background:#f7f7f7;height:270px;overflow:auto;}
 .uiWikiMovePageForm .uiWikiLocationContainer{margin:10px 0 0;}.uiWikiMovePageForm .uiWikiLocationContainer label{width:122px;padding-top:4px;}
-[class^="uiIconWiki"],.uiIconWikiDarkGray {background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiDarkGray.png");}
-.actionIcon:hover>i>[class^="uiIconWiki"],.uiActionWithLabel:hover>i>[class^="uiIconWiki"],.nav-pills>.active>a>[class^="uiIconWiki"],.nav-list>.active>a>[class^="uiIconWiki"],.navbar-inverse .nav>.active>a>[class^="uiIconWiki"],.dropdown-menu>li>a:hover>[class^="uiIconWiki"],.dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconWiki"],.btn:hover [class^="uiIconWiki"],a:hover [class^="uiIconWiki"],[class^="uiIconWiki"]:hover,.uiActionBar [class^="uiIconWiki"]:hover,.uiIconWikiBlue{background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiBlue.png");}
-.dropdown-menu>li>a>[class^="uiIconWiki"],.dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconWiki"],.uiDropDownCal li a [class^="uiIconWiki"],.uiActionBar [class^="uiIconWiki"],.uiIconWikiLightGray{background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiLightGray.png");}
-.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconWiki"],.btn-primary [class^="uiIconWiki"],.btn-primary:hover [class^="uiIconWiki"],.uiDropDownCal a:hover [class^="uiIconWiki"],.uiDropDownCal .active a:hover [class^="uiIconWiki"],.eventAllDay [class^="uiIconWiki"],.eventDayContainer [class^="uiIconWiki"],.uiIconWikiWhite{background-image:url("../img/plf4-icons/wiki-icons/uiIconsWikiWhite.png");}
+[class^="uiIconWiki"],.uiIconWikiDarkGray {background-image:url("../img/exo-platform-icons/wiki-icons/uiIconsWikiDarkGray.png");}
+.actionIcon:hover>i>[class^="uiIconWiki"],.uiActionWithLabel:hover>i>[class^="uiIconWiki"],.nav-pills>.active>a>[class^="uiIconWiki"],.nav-list>.active>a>[class^="uiIconWiki"],.navbar-inverse .nav>.active>a>[class^="uiIconWiki"],.dropdown-menu>li>a:hover>[class^="uiIconWiki"],.dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconWiki"],.btn:hover [class^="uiIconWiki"],a:hover [class^="uiIconWiki"],[class^="uiIconWiki"]:hover,.uiActionBar [class^="uiIconWiki"]:hover,.uiIconWikiBlue{background-image:url("../img/exo-platform-icons/wiki-icons/uiIconsWikiBlue.png");}
+.dropdown-menu>li>a>[class^="uiIconWiki"],.dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconWiki"],.uiDropDownCal li a [class^="uiIconWiki"],.uiActionBar [class^="uiIconWiki"],.uiIconWikiLightGray{background-image:url("../img/exo-platform-icons/wiki-icons/uiIconsWikiLightGray.png");}
+.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconWiki"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconWiki"],.btn-primary [class^="uiIconWiki"],.btn-primary:hover [class^="uiIconWiki"],.uiDropDownCal a:hover [class^="uiIconWiki"],.uiDropDownCal .active a:hover [class^="uiIconWiki"],.eventAllDay [class^="uiIconWiki"],.eventDayContainer [class^="uiIconWiki"],.uiIconWikiWhite{background-image:url("../img/exo-platform-icons/wiki-icons/uiIconsWikiWhite.png");}
 .uiIconWikiWiki{background-position:0px 0px;}
 .uiIconWikiRickText{background-position:-20px 0px;}
 .uiIconWikiHelp{background-position:-40px 0px;}
@@ -10177,8 +10177,8 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiWikiBottomArea .historyLabel{font-size:13px;}
 .uiWikiMiddleArea .resizeBar{float:left;width:26px;margin-top:5px;}.uiWikiMiddleArea .resizeBar .resizeBarContent{width:15px;cursor:col-resize;position:relative;}.uiWikiMiddleArea .resizeBar .resizeBarContent:hover{border-right:solid 1px #E1E1E1;}.uiWikiMiddleArea .resizeBar .resizeBarContent:hover .resizeButton{display:block;}
 .uiWikiMiddleArea .resizeBar .resizeButton{background-color:#f9f9f9;background-image:-moz-linear-gradient(top, #ffffff, #f1f1f1);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f1f1f1));background-image:-webkit-linear-gradient(top, #ffffff, #f1f1f1);background-image:-o-linear-gradient(top, #ffffff, #f1f1f1);background-image:linear-gradient(to bottom, #ffffff, #f1f1f1);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff1f1f1', GradientType=0);-webkit-border-radius:3px 0px 0px 3px;-moz-border-radius:3px 0px 0px 3px;border-radius:3px 0px 0px 3px;width:10px;height:24px;float:right;margin:auto;cursor:pointer;border:1px solid #E1E1E1;border-right:none;display:none;margin-top:7px;}.uiWikiMiddleArea .resizeBar .resizeButton [class^="uiIcon"]{margin:2px 0px 0px -2px;width:10px;}
-.uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowLeft{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowRight{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
+.uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowLeft{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowRight{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
 .uiWikiMiddleArea .resizeBar .showLeftContent{display:block;border:1px solid #E1E1E1;-webkit-border-radius:0px 3px 3px 0px;-moz-border-radius:0px 3px 3px 0px;border-radius:0px 3px 3px 0px;float:left;}
 .uiWikiMiddleArea .resizeBarDisplay .resizeBarContent{border-right:solid 1px #E1E1E1;}
 .uiWikiMiddleArea .resizeBarDisplay .resizeButton{display:block;}
@@ -10246,17 +10246,17 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiSEOForm .form-horizontal{padding-top:12px;}.uiSEOForm .form-horizontal .control-label{width:90px;}
 .uiSEOForm .form-horizontal .controls{margin-left:100px;}.uiSEOForm .form-horizontal .controls .uiSelectbox{width:100px;}.uiSEOForm .form-horizontal .controls .uiSelectbox .selectbox{width:125px;}
 .uiSEOForm .uiActionSEO{margin:-10px -10px 0px -10px;}
-.uiSEOForm [class^="uiIconSeo"]{background:url(../img/plf4-icons/uiIconColor.png);margin:0px 0px 0px 5px;}
+.uiSEOForm [class^="uiIconSeo"]{background:url(../img/exo-platform-icons/uiIconColor.png);margin:0px 0px 0px 5px;}
 .uiSEOForm .uiIconSeoEmpty{background-position:-180px -20px;}
 .uiSEOForm .uiIconSeoPartial{background-position:-160px -20px;}
 .uiSEOForm .uiIconSeoFull{background-position:-140px -20px;}
 .uiSEOForm .formContainer .ResizeSideBar{float:right;width:14px;}
 .uiSEOForm .formContainer .ResizeSideBar .ResizeButton{background:url("/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/ShowLeftContent.gif") no-repeat scroll center center transparent;cursor:pointer;width:14px;display:block;margin:auto;position:static;}
 .uiSEOForm .formContainer .ResizeSideBar .ShowRightContent{background:url("/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/ResizeButton.gif") no-repeat scroll center center transparent;cursor:pointer;height:14px;width:14px;display:block;margin:auto;position:static;}
-[class^="uiIconEcms"],.uiIconEcmsDarkGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsDarkGray.png");}
-.uiActionWithLabel:hover>[class^="uiIconEcms"],.actionIcon:hover>[class^="uiIconEcms"],.nav-pills>.active>a>[class^="uiIconEcms"],.nav-list>.active>a>[class^="uiIconEcms"],.navbar-inverse .nav>.active>a>[class^="uiIconEcms"],.dropdown-menu>li>a:hover>[class^="uiIconEcms"],.dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconEcms"],.btn:hover [class^="uiIconEcms"],a:hover [class^="uiIconEcms"],[class^="uiIconEcms"]:hover,.uiActionBar [class^="uiIconEcms"]:hover,.uiIconEcmsBlue{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsBlue.png");}
-.dropdown-menu>li>a>[class^="uiIconEcms"],.dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconEcms"],.uiActionBar [class^="uiIconEcms"],.uiIconEcmsLightGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsLightGray.png");}
-.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconEcms"],.btn-primary [class^="uiIconEcms"],.btn-primary:hover [class^="uiIconEcms"],.uiDropDownCal a:hover [class^="uiIconEcms"],.uiDropDownCal .active a:hover [class^="uiIconEcms"],.eventAllDay [class^="uiIconEcms"],.eventDayContainer [class^="uiIconEcms"],.uiIconEcmsWhite{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
+[class^="uiIconEcms"],.uiIconEcmsDarkGray{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsDarkGray.png");}
+.uiActionWithLabel:hover>[class^="uiIconEcms"],.actionIcon:hover>[class^="uiIconEcms"],.nav-pills>.active>a>[class^="uiIconEcms"],.nav-list>.active>a>[class^="uiIconEcms"],.navbar-inverse .nav>.active>a>[class^="uiIconEcms"],.dropdown-menu>li>a:hover>[class^="uiIconEcms"],.dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconEcms"],.btn:hover [class^="uiIconEcms"],a:hover [class^="uiIconEcms"],[class^="uiIconEcms"]:hover,.uiActionBar [class^="uiIconEcms"]:hover,.uiIconEcmsBlue{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsBlue.png");}
+.dropdown-menu>li>a>[class^="uiIconEcms"],.dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu>a>[class^="uiIconEcms"],.uiActionBar [class^="uiIconEcms"],.uiIconEcmsLightGray{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsLightGray.png");}
+.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconEcms"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconEcms"],.btn-primary [class^="uiIconEcms"],.btn-primary:hover [class^="uiIconEcms"],.uiDropDownCal a:hover [class^="uiIconEcms"],.uiDropDownCal .active a:hover [class^="uiIconEcms"],.eventAllDay [class^="uiIconEcms"],.eventDayContainer [class^="uiIconEcms"],.uiIconEcmsWhite{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .uiIconEcmsGeneralDrive,.uiIconEcmsDriveManager{background-position:0px 0px;}
 .uiIconEcmsGroupDrive,.uiIconEcms16x16DriveGroup{background-position:-20px 0px;}
 .uiIconEcmsPersonalDrive,.uiIconEcms16x16DrivePersonal{background-position:-40px 0px;}
@@ -10335,10 +10335,10 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiIconEcmsFileMini{background-position:-100px -140px;}
 .uiIconEcmsDottedArrow{background-position:-120px -140px;}
 .uiIconEcmsTickMini{background-position:-140px -140px;}
-.uiIconEcmsTagExplorerMini{background-image:url("../img/plf4-icons/ecms-icons/uiIconsDarkGray.png");background-position:-60px -20px;}.uiIconEcmsTagExplorerMini:hover{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.uiIconEcmsDelete{background-image:url("../img/plf4-icons/uiIconsLightGray.png");background-position:-20px 0px;}
-.actionIcon:hover .uiIconEcmsDelete,.uiIconEcmsDelete:hover{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.dropdown-menu>li>a .uiIconEcmsEditDocument,.uiActionBar .uiIconEcmsEditDocument,.dropdown-menu>li>a .uiIconEcmsManageActions,.uiActionBar .uiIconEcmsManageActions,.dropdown-menu>li>a .uiIconEcmsWatchDocument,.uiActionBar .uiIconEcmsWatchDocument,.dropdown-menu>li>a .uiIconEcmsManageCategories,.uiActionBar .uiIconEcmsManageCategories,.dropdown-menu>li>a .uiIconEcmsUpload,.uiActionBar .uiIconEcmsUpload,.dropdown-menu>li>a .uiIconEcmsComment,.uiActionBar .uiIconEcmsComment,.dropdown-menu>li>a .uiIconEcmsVote,.uiActionBar .uiIconEcmsVote,.dropdown-menu>li>a .uiIconEcmsAddCategory,.uiActionBar .uiIconEcmsAddCategory,.dropdown-menu>li>a .uiIconEcmsTaggingDocument,.uiActionBar .uiIconEcmsTaggingDocument{background-image:url("../img/plf4-icons/uiIconsLightGray.png");}
+.uiIconEcmsTagExplorerMini{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsDarkGray.png");background-position:-60px -20px;}.uiIconEcmsTagExplorerMini:hover{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.uiIconEcmsDelete{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");background-position:-20px 0px;}
+.actionIcon:hover .uiIconEcmsDelete,.uiIconEcmsDelete:hover{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.dropdown-menu>li>a .uiIconEcmsEditDocument,.uiActionBar .uiIconEcmsEditDocument,.dropdown-menu>li>a .uiIconEcmsManageActions,.uiActionBar .uiIconEcmsManageActions,.dropdown-menu>li>a .uiIconEcmsWatchDocument,.uiActionBar .uiIconEcmsWatchDocument,.dropdown-menu>li>a .uiIconEcmsManageCategories,.uiActionBar .uiIconEcmsManageCategories,.dropdown-menu>li>a .uiIconEcmsUpload,.uiActionBar .uiIconEcmsUpload,.dropdown-menu>li>a .uiIconEcmsComment,.uiActionBar .uiIconEcmsComment,.dropdown-menu>li>a .uiIconEcmsVote,.uiActionBar .uiIconEcmsVote,.dropdown-menu>li>a .uiIconEcmsAddCategory,.uiActionBar .uiIconEcmsAddCategory,.dropdown-menu>li>a .uiIconEcmsTaggingDocument,.uiActionBar .uiIconEcmsTaggingDocument{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");}
 .uiIconEcmsEditDocument{background-position:-40px 0px;}
 .uiIconEcmsManageActions{background-position:0px -40px;}
 .uiIconEcmsTaggingDocument{background-position:-60px -20px;}
@@ -10348,13 +10348,13 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiIconEcmsComment{background-position:-140px -20px;}
 .uiIconEcmsAddCategory{background-position:-180px -120px;}
 .uiIconEcmsVote{background-position:-20px -80px;}
-.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsEditDocument,.uiActionBar .actionIcon:hover .uiIconEcmsEditDocument,.dropdown-menu>li>a .uiIconEcmsEditDocument:hover,.uiActionBar .uiIconEcmsEditDocument:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsManageActions,.uiActionBar .actionIcon:hover .uiIconEcmsManageActions,.dropdown-menu>li>a .uiIconEcmsManageActions:hover,.uiActionBar .uiIconEcmsManageActions:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsWatchDocument,.uiActionBar .actionIcon:hover .uiIconEcmsWatchDocument,.dropdown-menu>li>a .uiIconEcmsWatchDocument:hover,.uiActionBar .uiIconEcmsWatchDocument:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsManageCategories,.uiActionBar .actionIcon:hover .uiIconEcmsManageCategories,.dropdown-menu>li>a .uiIconEcmsManageCategories:hover,.uiActionBar .uiIconEcmsManageCategories:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsUpload,.uiActionBar .actionIcon:hover .uiIconEcmsUpload,.dropdown-menu>li>a .uiIconEcmsUpload:hover,.uiActionBar .uiIconEcmsUpload:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsComment,.uiActionBar .actionIcon:hover .uiIconEcmsComment,.dropdown-menu>li>a .uiIconEcmsComment:hover,.uiActionBar .uiIconEcmsComment:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsVote,.uiActionBar .actionIcon:hover .uiIconEcmsVote,.dropdown-menu>li>a .uiIconEcmsVote:hover,.uiActionBar .uiIconEcmsVote:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsAddCategory,.uiActionBar .actionIcon:hover .uiIconEcmsAddCategory,.dropdown-menu>li>a .uiIconEcmsAddCategory:hover,.uiActionBar .uiIconEcmsAddCategory:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsTaggingDocument,.uiActionBar .actionIcon:hover .uiIconEcmsTaggingDocument,.dropdown-menu>li>a .uiIconEcmsTaggingDocument:hover,.uiActionBar .uiIconEcmsTaggingDocument:hover{background-image:url("../img/plf4-icons/uiIconsBlue.png");}
-.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsEditDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsEditDocument:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageActions,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageActions:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsWatchDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsWatchDocument:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageCategories,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageCategories:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsUpload,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsUpload:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsComment,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsComment:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsVote,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsVote:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsTaggingDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsTaggingDocument:hover{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
-[class^="uiIconEcms24x24"],.uiIconEcms24x24DarkGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24DarkGray.png");width:24px;height:24px;line-height:24px;}
-[class^="uiIconEcms24x24"]:hover,.driveLabel:hover [class^="uiIconEcms24x24"],.uiIconEcms24x24Blue{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24Blue.png");}
-.uiIconEcms24x24LightGray{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24LightGray.png");}
+.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsEditDocument,.uiActionBar .actionIcon:hover .uiIconEcmsEditDocument,.dropdown-menu>li>a .uiIconEcmsEditDocument:hover,.uiActionBar .uiIconEcmsEditDocument:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsManageActions,.uiActionBar .actionIcon:hover .uiIconEcmsManageActions,.dropdown-menu>li>a .uiIconEcmsManageActions:hover,.uiActionBar .uiIconEcmsManageActions:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsWatchDocument,.uiActionBar .actionIcon:hover .uiIconEcmsWatchDocument,.dropdown-menu>li>a .uiIconEcmsWatchDocument:hover,.uiActionBar .uiIconEcmsWatchDocument:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsManageCategories,.uiActionBar .actionIcon:hover .uiIconEcmsManageCategories,.dropdown-menu>li>a .uiIconEcmsManageCategories:hover,.uiActionBar .uiIconEcmsManageCategories:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsUpload,.uiActionBar .actionIcon:hover .uiIconEcmsUpload,.dropdown-menu>li>a .uiIconEcmsUpload:hover,.uiActionBar .uiIconEcmsUpload:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsComment,.uiActionBar .actionIcon:hover .uiIconEcmsComment,.dropdown-menu>li>a .uiIconEcmsComment:hover,.uiActionBar .uiIconEcmsComment:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsVote,.uiActionBar .actionIcon:hover .uiIconEcmsVote,.dropdown-menu>li>a .uiIconEcmsVote:hover,.uiActionBar .uiIconEcmsVote:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsAddCategory,.uiActionBar .actionIcon:hover .uiIconEcmsAddCategory,.dropdown-menu>li>a .uiIconEcmsAddCategory:hover,.uiActionBar .uiIconEcmsAddCategory:hover,.dropdown-menu>li>a .actionIcon:hover .uiIconEcmsTaggingDocument,.uiActionBar .actionIcon:hover .uiIconEcmsTaggingDocument,.dropdown-menu>li>a .uiIconEcmsTaggingDocument:hover,.uiActionBar .uiIconEcmsTaggingDocument:hover{background-image:url("../img/exo-platform-icons/uiIconsBlue.png");}
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsEditDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsEditDocument:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageActions,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageActions:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsWatchDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsWatchDocument:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageCategories,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageCategories:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsUpload,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsUpload:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsComment,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsComment:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsVote,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsVote:hover,.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsTaggingDocument,.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsTaggingDocument:hover{background-image:url("../img/exo-platform-icons/uiIconsWhite.png");}
+[class^="uiIconEcms24x24"],.uiIconEcms24x24DarkGray{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcms24x24DarkGray.png");width:24px;height:24px;line-height:24px;}
+[class^="uiIconEcms24x24"]:hover,.driveLabel:hover [class^="uiIconEcms24x24"],.uiIconEcms24x24Blue{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcms24x24Blue.png");}
+.uiIconEcms24x24LightGray{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcms24x24LightGray.png");}
 
-.uiIconEcms24x24White{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcms24x24White.png");}
+.uiIconEcms24x24White{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcms24x24White.png");}
 .uiIconEcms24x24DriveGeneral{background-position:0px 0px;}
 .uiIconEcms24x24DriveGroup{background-position:-28px 0px;}
 .uiIconEcms24x24DrivePersonal{background-position:-56px 0px;}
@@ -10410,8 +10410,8 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .UISearchPageLayoutManager .uiAction{padding-bottom:15px;}
 .edittingToolBarContainer,.edittingContent{display:none;float:right;position:relative;right:0;top:0;width:160px;z-index:1;}.edittingToolBarContainer .edittingToolBar,.edittingContent .edittingToolBar{background:#4f72ac;padding:5px;-webkit-border-radius:3px 3px 0px 0px;-moz-border-radius:3px 3px 0px 0px;border-radius:3px 3px 0px 0px;position:absolute;right:-1px;top:-36px;}.edittingToolBarContainer .edittingToolBar .btn-group .btn,.edittingContent .edittingToolBar .btn-group .btn{padding:3px 5px;border:1px solid #3a5e9a;background:#4f72ac;box-shadow:none;margin-left:-5px;}.edittingToolBarContainer .edittingToolBar .btn-group .btn:hover,.edittingContent .edittingToolBar .btn-group .btn:hover{background-color:#567ab6;background-image:-moz-linear-gradient(top, #638acd, #426393);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#638acd), to(#426393));background-image:-webkit-linear-gradient(top, #638acd, #426393);background-image:-o-linear-gradient(top, #638acd, #426393);background-image:linear-gradient(to bottom, #638acd, #426393);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff638acd', endColorstr='#ff426393', GradientType=0);box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset,0 1px 2px rgba(0, 0, 0, 0.05);}
 .edittingToolBarContainer .edittingToolBar .btn-group>.btn:first-child,.edittingContent .edittingToolBar .btn-group>.btn:first-child{margin-left:0px;}
-.edittingToolBarContainer .edittingToolBar [class^="uiIcon"],.edittingContent .edittingToolBar [class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsWhite.png");}
-.edittingToolBarContainer .edittingToolBar [class^="uiIconEcms"],.edittingContent .edittingToolBar [class^="uiIconEcms"]{background-image:url("../img/plf4-icons/ecms-icons/uiIconsEcmsWhite.png");}
+.edittingToolBarContainer .edittingToolBar [class^="uiIcon"],.edittingContent .edittingToolBar [class^="uiIcon"]{background-image:url("../img/exo-platform-icons/uiIconsWhite.png");}
+.edittingToolBarContainer .edittingToolBar [class^="uiIconEcms"],.edittingContent .edittingToolBar [class^="uiIconEcms"]{background-image:url("../img/exo-platform-icons/ecms-icons/uiIconsEcmsWhite.png");}
 .edittingToolBarContainer .edittingToolBar .edittingCurrentState .publishText,.edittingContent .edittingToolBar .edittingCurrentState .publishText,.edittingToolBarContainer .edittingToolBar .edittingCurrentState .draftText,.edittingContent .edittingToolBar .edittingCurrentState .draftText{color:white;margin:3px 10px 0px 3px;font-weight:bold;display:block;}
 .edittingToolBarContainer .edittingToolBar .edittingCurrentState .draftText,.edittingContent .edittingToolBar .edittingCurrentState .draftText{color:#94aed7;}
 .edittingContent .edittingToolBar{-webkit-border-radius:0px 0px 0px 3px;-moz-border-radius:0px 0px 0px 3px;border-radius:0px 0px 0px 3px;top:0px;}
@@ -10437,11 +10437,11 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .uiTreeList{margin-left:250px;}
 
 
-[class^="uiIconCal"],.uiIconCalDarkGray{margin-top:0;background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalDarkGray.png");}
-.nav-pills>.active>a>[class^="uiIconCal"],.nav-list>.active>a>[class^="uiIconCal"],.navbar-inverse .nav>.active>a>[class^="uiIconCal"],.dropdown-menu>li>a:hover>[class^="uiIconCal"],.dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn:hover [class^="uiIconCal"],a:hover [class^="uiIconCal"],[class^="uiIconCal"]:hover,.UICalendarPortlet .actionIcon:hover [class^="uiIconCal"],.uiCalendarPortlet .actionIcon:hover [class^="uiIconCal"],.uiIconCalBlue{background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalBlue.png");}
-.dropdown-menu li a>[class^="uiIconCal"],.dropdown-menu .active a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu a [class^="uiIconCal"],.uiDropDownCal li a [class^="uiIconCal"],.uiDropDownCal .active a [class^="uiIconCal"],.uiIconCalLightGray{background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalLightGray.png");}
-.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn-primary [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.uiDropDownCal>li>a:hover>[class^="uiIconCal"],.uiDropDownCal>.active>a>[class^="uiIconCal"],[class^="uiIconCal"].uiIconWhite,.uiDayView [class^="uiIconCal"],.uiWeekView [class^="uiIconCal"],.uiMonthView [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"]:hover,.uiIconCalWhite{background-image:url("../img/plf4-icons/calendar-icons/uiIconsCalWhite.png");}
-.uiEventCategoryManager [class^="uiIcon"]{background-image:url("../img/plf4-icons/uiIconsLightGray.png");}
+[class^="uiIconCal"],.uiIconCalDarkGray{margin-top:0;background-image:url("../img/exo-platform-icons/calendar-icons/uiIconsCalDarkGray.png");}
+.nav-pills>.active>a>[class^="uiIconCal"],.nav-list>.active>a>[class^="uiIconCal"],.navbar-inverse .nav>.active>a>[class^="uiIconCal"],.dropdown-menu>li>a:hover>[class^="uiIconCal"],.dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn:hover [class^="uiIconCal"],a:hover [class^="uiIconCal"],[class^="uiIconCal"]:hover,.UICalendarPortlet .actionIcon:hover [class^="uiIconCal"],.uiCalendarPortlet .actionIcon:hover [class^="uiIconCal"],.uiIconCalBlue{background-image:url("../img/exo-platform-icons/calendar-icons/uiIconsCalBlue.png");}
+.dropdown-menu li a>[class^="uiIconCal"],.dropdown-menu .active a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu a [class^="uiIconCal"],.uiDropDownCal li a [class^="uiIconCal"],.uiDropDownCal .active a [class^="uiIconCal"],.uiIconCalLightGray{background-image:url("../img/exo-platform-icons/calendar-icons/uiIconsCalLightGray.png");}
+.uiDropdownWithIcon .nav-pills>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .nav-list>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .navbar-inverse .nav>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconCal"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconCal"],.btn-primary [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.uiDropDownCal>li>a:hover>[class^="uiIconCal"],.uiDropDownCal>.active>a>[class^="uiIconCal"],[class^="uiIconCal"].uiIconWhite,.uiDayView [class^="uiIconCal"],.uiWeekView [class^="uiIconCal"],.uiMonthView [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"],.btn-primary:hover [class^="uiIconCal"]:hover,.uiIconCalWhite{background-image:url("../img/exo-platform-icons/calendar-icons/uiIconsCalWhite.png");}
+.uiEventCategoryManager [class^="uiIcon"]{background-image:url("../img/exo-platform-icons/uiIconsLightGray.png");}
 .uiIconCalnullPriority,.uiIconCalnonePriority{display:none;}
 .uiIconCalSettingMini{background-position:-80px -20px;}
 .uiIconCalExportCalendar{background-position:0 0;}
@@ -10481,7 +10481,7 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 .calendarWorkingWorkspace{padding:20px;}.calendarWorkingWorkspace .uiActionBar{margin:0 0 15px 0;}
 .uiCalNotification{min-width:250px;position:absolute;right:30px;top:124px;z-index:2;}.uiCalNotification .pull-left+.text,.uiCalNotification .title{margin-left:32px;line-height:18px;}
 .uiCalNotification i{width:16px;height:16px;}
-.uiCalNotification .uiIconBell{background-image:url("../img/plf4-icons/calendar-icons/icon-bell.png");background-position:0px 0px;}.uiCalNotification .uiIconBell:hover{background-image:url("../img/plf4-icons/calendar-icons/icon-bell.png");background-position:0px 0px;}
+.uiCalNotification .uiIconBell{background-image:url("../img/exo-platform-icons/calendar-icons/icon-bell.png");background-position:0px 0px;}.uiCalNotification .uiIconBell:hover{background-image:url("../img/exo-platform-icons/calendar-icons/icon-bell.png");background-position:0px 0px;}
 .uiCalNotification .description{color:#808080;}
 .uiCalendars.defaultCalendarTab{margin-top:0;}.uiCalendars.defaultCalendarTab .settingNotice{margin:0 0 10px 0;}
 .uiCalendarViewContainer .table{margin-bottom:0;}
@@ -10699,21 +10699,21 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 
 
 .uiUsername input[type="text"] {
-  background: #ffffff url(../img/plf4-icons/username.png) no-repeat left -6px;
+  background: #ffffff url(../img/exo-platform-icons/username.png) no-repeat left -6px;
   margin: 0;
   padding-left: 47px;
 }
 .uiUsername input[type="text"]:hover {
-  background: #ffffff url(../img/plf4-icons/username.png) no-repeat left -47px;
+  background: #ffffff url(../img/exo-platform-icons/username.png) no-repeat left -47px;
 }
 
 .uiPassword input[type="password"] {
-  background: #ffffff url(../img/plf4-icons/password.png) no-repeat left -6px;
+  background: #ffffff url(../img/exo-platform-icons/password.png) no-repeat left -6px;
   margin: 0;
   padding-left: 47px;
 }
 .uiPassword input[type="password"]:hover {
-  background: #ffffff url(../img/plf4-icons/password.png) no-repeat left -47px;
+  background: #ffffff url(../img/exo-platform-icons/password.png) no-repeat left -47px;
 }
 
 .uiLargeButton {
@@ -10743,24 +10743,24 @@ label.iPhoneCheckLabelOff span{line-height:19px;padding-right:17px;}
 	*margin-right:.3em;
 	line-height:16px;
 	vertical-align:text-top;
-	background-image:url("../img/plf4-icons/uiIconsPLFDarkGray.png");
+	background-image:url("../img/exo-platform-icons/uiIconsPLFDarkGray.png");
 	background-repeat:no-repeat
 }
 
 .uiDropdownWithIcon .dropdown-menu>li>a>[class^="uiIconPLF"]{
-	background-image:url("../img/plf4-icons/uiIconsPLFLightGray.png")
+	background-image:url("../img/exo-platform-icons/uiIconsPLFLightGray.png")
 }
 
 a:hover [class^="uiIconPLF"],[class^="uiIconPLF"]:hover,.uiIconPLFBlue{
-	background-image:url("../img/plf4-icons/uiIconsPLFBlue.png")
+	background-image:url("../img/exo-platform-icons/uiIconsPLFBlue.png")
 }
 
 .uiDropdownWithIcon .dropdown-menu>li>a:hover>[class^="uiIconPLF"],.uiDropdownWithIcon .dropdown-menu>.active>a>[class^="uiIconPLF"],.uiDropdownWithIcon .dropdown-submenu:hover>a>[class^="uiIconPLF"],.uiIconPLFWhite{
-	background-image:url("../img/plf4-icons/uiIconsPLFWhite.png")
+	background-image:url("../img/exo-platform-icons/uiIconsPLFWhite.png")
 }
 
 .uiIconPLFLightGray{
-	background-image:url("../img/plf4-icons/uiIconsPLFLightGray.png")
+	background-image:url("../img/exo-platform-icons/uiIconsPLFLightGray.png")
 }
 
 .uiIconPLFProfile{
@@ -10836,16 +10836,16 @@ a:hover [class^="uiIconPLF"],[class^="uiIconPLF"]:hover,.uiIconPLFBlue{
 	*margin-right:.3em;
 	line-height:24px;
 	vertical-align:middle;
-	background-image:url("../img/plf4-icons/uiIconsPLF24x24White.png");
+	background-image:url("../img/exo-platform-icons/uiIconsPLF24x24White.png");
 	background-repeat:no-repeat
 }
 
 a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
-	background-image:url("../img/plf4-icons/uiIconsPLF24x24White.png")
+	background-image:url("../img/exo-platform-icons/uiIconsPLF24x24White.png")
 }
 
 .UIToolbarContainerLight [class^="uiIconPLF24x24"],.UIToolbarContainerLight a:hover [class^="uiIconPLF24x24"],.UIToolbarContainerLight [class^="uiIconPLF24x24"]:hover{
-	background-image:url("../img/plf4-icons/uiIconsPLF24x24DarkGray.png")
+	background-image:url("../img/exo-platform-icons/uiIconsPLF24x24DarkGray.png")
 }
 
 .uiIconPLF24x24Edit{
@@ -11227,7 +11227,7 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
 }
 
 .UIToolbarContainerDark .uiDropdownWithIcon{
-	background:url(../img/plf4-icons/line.png) no-repeat top left
+	background:url(../img/exo-platform-icons/line.png) no-repeat top left
 }
 
 .UIToolbarContainerDark .uiDropdownWithIcon>a{
@@ -11251,7 +11251,7 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
 }
 
 .UIToolbarContainerLight .uiDropdownWithIcon{
-	background:url(../img/plf4-icons/line.png) no-repeat bottom left
+	background:url(../img/exo-platform-icons/line.png) no-repeat bottom left
 }
 
 .UIToolbarContainerLight .uiDropdownWithIcon>a{
@@ -11354,19 +11354,19 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
 }
 
 [class^="uiIconAns"],.uiIconAnsDarkGray {
-    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsDarkGray.png");
+    background-image: url("../img/exo-platform-icons/answers-icons/uiIconsAnsDarkGray.png");
 }
 .uiActionWithLabel:hover > [class^="uiIconAns"], .actionIcon:hover > [class^="uiIconAns"], .nav-pills > .active > a > [class^="uiIconAns"], .nav-list > .active > a > [class^="uiIconAns"], .navbar-inverse .nav > .active > a > [class^="uiIconAns"], .dropdown-menu > li > a:hover > [class^="uiIconAns"], .dropdown-menu > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconAns"], .actionIcon.active [class^="uiIconAns"], .btn:hover [class^="uiIconAns"], a:hover > [class^="uiIconAns"], [class^="uiIconAns"]:hover, .uiActionBar [class^="uiIconAns"]:hover, .uiIconAnsBlue {
-    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsBlue.png");
+    background-image: url("../img/exo-platform-icons/answers-icons/uiIconsAnsBlue.png");
 }
 .dropdown-menu > li > a > [class^="uiIconAns"], .dropdown-menu > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconAns"], .uiDropDownCal li a [class^="uiIconAns"], .uiActionBar [class^="uiIconAns"], .answerToolbar [class^="uiIconAns"], .uiIconAnsLightGray {
-    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsLightGray.png");
+    background-image: url("../img/exo-platform-icons/answers-icons/uiIconsAnsLightGray.png");
 }
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconAns"], .uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconAns"], .btn-primary [class^="uiIconAns"], .btn-primary:hover [class^="uiIconAns"], .uiIconAnsWhite {
-    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnsWhite.png");
+    background-image: url("../img/exo-platform-icons/answers-icons/uiIconsAnsWhite.png");
 }
 [class^="uiIconAnwserColor"] {
-    background-image: url("../img/plf4-icons/answers-icons/uiIconsAnswerColor.png");
+    background-image: url("../img/exo-platform-icons/answers-icons/uiIconsAnswerColor.png");
 }
 .uiIconAnsSubmitQuestion, .uiIconAnsAddNewQuestion {
     background-position: -20px 0;
@@ -11415,14 +11415,14 @@ a:hover [class^="uiIconPLF24x24"],[class^="uiIconPLF24x24"]:hover{
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-bottom;
-  background-image: url("../img/plf4-icons/uiIconsColor.png");
+  background-image: url("../img/exo-platform-icons/uiIconsColor.png");
   background-repeat: no-repeat;
 }
 .dropdown > a:hover > [class^="uiIconColor"],
 [class^="uiIconColor"]:hover,
 a:hover > [class^="uiIconColor"],
 i:hover [class^="uiIconColor"] {
-  background-image: url("../img/plf4-icons/uiIconsColor.png");
+  background-image: url("../img/exo-platform-icons/uiIconsColor.png");
 }
 .uiIconColorError {
   background-position: 0 0;
@@ -11569,7 +11569,7 @@ i:hover [class^="uiIconColor"] {
 }
 
 .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconSearch, .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconDownload{
-	background-image: url("../img/plf4-icons/uiIconsWhite.png");
+	background-image: url("../img/exo-platform-icons/uiIconsWhite.png");
 }
 
 .uiThumbnailsView .actionIconsContainer .actionIconBox {
