@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Tab Pattern</title>
+    <title>Tabs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -62,8 +62,8 @@
 
 <header class="jumbotron subhead" id="overview">
 <div class="container">
-  <h1>Tab Pattern</h1>
-  <p class="lead">A long content can be divided and displayed in different tabs. How to tab a content with PLF4 style?</p>
+  <h1>Tabs</h1>
+  <p class="lead">A long content can be divided and displayed in different tabs. How to tab a content with eXo Platform Style?</p>
 </div>
 </header>
 
@@ -71,13 +71,10 @@
 <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#tab-in-pop-up"><i class="icon-chevron-right"></i> Tab in Pop-up</a></li>
-          <li><a href="#gray-tab-in-page"><i class="icon-chevron-right"></i> Gray Tab in Page</a></li>
-          <li><a href="#white-tab-in-page"><i class="icon-chevron-right"></i> White Tab in Page</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#tab-in-pop-up"><i class="icon-chevron-right"></i>Tab in popup</a></li>
+          <li><a href="#gray-tab-in-page"><i class="icon-chevron-right"></i>Gray tab in page</a></li>
+          <li><a href="#white-tab-in-page"><i class="icon-chevron-right"></i>White tab in page</a></li>
         </ul>
       </div>
     <div class="span9">
@@ -85,30 +82,21 @@
           <div class="page-header">
             <h2>Overview</h2>
           </div>
-      <p><h7>A tab is a resource you can use in the same browser to open up another content. The content of a page that is grouped in different tabs, can be viewed easily.</h7></p>
-      </section>
-      <section id="what">
-          <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
-          </div>
-       <p><h7>Switching among tabs helps users to browse more content flexibly without scrolling mouse down or going to the other page.</h7></p>
-   </section>
-   <section id="when">
-          <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
-          </div>
+      <p><h7>A tab is a resource you can use in the same browser to open up another content. The content of a page, which is grouped in different tabs, can be viewed easily.</h7></p>
+       <p><h7>Switching among tabs helps users to browse more content flexibly without scrolling down or going to another pages.</h7></p>
+      <p><h5>When to use?</h5></p>
       <p><h7>Tabs should be used in cases:<br>
-      The content of a page or a pop up is long<br>
-      There are more 2 sections<br>
-      The content of each tab can be viewed separate from each other.</h7></p>
-  </section>
-  <section id="tab-in-pop-up">
+      <i class="uiIconEcmsDottedArrow"></i>The content of page or popup is so long.<br>
+      <i class="uiIconEcmsDottedArrow"></i>There are more 2 sections.<br>
+      <i class="uiIconEcmsDottedArrow"></i>The content of each tab can be viewed separately from each other.</h7></p>
+     <p><h7>Tabs are often put on a horizontal or vertical bar of the content area as buttons or links. The selected tab has its own visual effect that is different from the others.
+	 The content of each tab is displayed in the same area with a similar structure.</h7></p>
+	</section>
+	<section id="tab-in-pop-up">
           <div class="page-header">
-            <h2>What's the Solution?</h2>
+            <h2>Tab in popup</h2>
           </div>
-     <p><h7>Provide a horizontal bar or vertical bar of the content area with buttons or links representing tabs. The being viewed tab has its own visual to differentiate with others. <br>The content of each tab is displayed in the same area with similar structure.</h7></p>
-     <p><h3>Tab in Pop-up</h3></p>
-<p><h7>This kind of tab is used in pop-up.</h7></p>
+<p><h7>This kind of tab is used in popup.</h7></p>
 <div class="bs-docs-example">
 <div class="tabbable" style="margin-bottom: 18px;">
 	<div id="" class="uiTabPane uiTabNormal">
@@ -168,7 +156,9 @@
 </div>
 </section>
 <section id="gray-tab-in-page">
-	<p><h3>Gray Tab in Page</h3></p>
+          <div class="page-header">
+            <h2>Gray tab in page</h2>
+          </div>
 <p><h7>This kind of tab is used in page with gray color style.</h7></p>
 <div class="bs-docs-example">	
 	<div class="uiTabNormal uiTabGrayInPage">
@@ -320,10 +310,11 @@
 	</div>
 	]]></script>
 </div>
-
 </section>
 <section id="white-tab-in-page">
-<p><h3>White Tab in Page</h3></p>
+          <div class="page-header">
+            <h2>White tab in page</h2>
+          </div>
 <p><h7>This kind of tab is used in page with white color style.</h7></p>
 <div class="bs-docs-example">
 	<div id="UITabPane" class="uiTabNormal uiTabInPage">
@@ -394,11 +385,11 @@
          <tbody>
             <tr>
                <td>Default status</td>
-               <td>The tabs can be clicked to view its content. There is css effect when mouse hover on it.</td>
+               <td>The tab can be clicked to view its content. There is a CSS effect when it is hovered over.</td>
             </tr>
             <tr>
                <td>Being viewed status</td>
-               <td>The tab is being viewed, its content is displayed. There is no or minor css effect (e.g label is made lighter) when mouse hover on it.</td></td>
+               <td>The tab is being viewed, and its content is displayed. There is no or a minor CSS effect (for example, its label in lighter color) when the tab is hovered over.</td></td>
             </tr>
            </tbody>
       </table>
@@ -407,35 +398,27 @@
            <tbody>
             <tr>
                <td>TR-01</td>
-               <td>Different tabs have the same css style</td>
+               <td>Different tabs have the same CSS style.</td>
             </tr>
             <tr>
                <td>TR-02</td>
-               <td>Tab content is displayed in the same area</td>
+               <td>The tab content is displayed in the same area.</td>
             </tr>
             <tr>
                <td>TR-03</td>
-               <td>Tab title is limited with 20 words</td>
+               <td>The tab title is limited to 20 characters.</td>
             </tr>
             <tr>
                <td>TR-04</td>
-               <td>By default, there is only one tab being viewed at once</td>
+               <td>By default, there is only one tab being viewed at once.</td>
             </tr>
             <tr>
                <td>TR-05</td>
-               <td>No page load when a tab is clicked</td>
+               <td>No page load when a tab is clicked.</td>
             </tr>
          </tbody>
       </table>
 </section>
-<section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-          </div>
-      <p><h7>Tabs allow to group a long page content logically that makes easy for users to view and interact with.
-Besides, the same usage makes the consistency among products in the way displaying data in pages or pop-ups.
-</h7></p>
-</div>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>

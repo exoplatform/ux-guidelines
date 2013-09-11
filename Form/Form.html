@@ -91,16 +91,16 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Form</h1>
-    <p class="lead">Basic CSS for default style, optional layout, supported form control, extending form controls, form elements... </p></div>
+    <p class="lead">Basic CSS for default style, special fields, Supported form controls, extending form controls, and form control states.</p></div>
 </header>
   <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row"><div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i> Default Style</a></li>
-          <li class=""><a href="#S2"><i class="icon-chevron-right"></i> Special Fields</a></li>
-          <li class=""><a href="#S3"><i class="icon-chevron-right"></i> Supported form controls</a></li>
-	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i> Extending form controls</a></li>
-          <li class=""><a href="#S5"><i class="icon-chevron-right"></i> Form control states</a></li>
+          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Default style</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Special fields</a></li>
+          <li class=""><a href="#S3"><i class="icon-chevron-right"></i>Supported form controls</a></li>
+	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i>Extending form controls</a></li>
+          <li class=""><a href="#S5"><i class="icon-chevron-right"></i>Form control states</a></li>
          </ul>
       </div>
       <div class="span9">
@@ -146,11 +146,11 @@
         <!-- Body Copy ================================================== -->
         <section id="S2">
            <div class="page-header">
-            <h2>Special Fields</h2>
+            <h2>Special fields</h2>
           </div>
-         <p>Based on Bootstraps, there are some special fields with eXo Platform style</p>
+         <p>Based on Bootstraps, there are some special fields with eXo Platform Style.</p>
 
-          <h3>Search Field</h3>
+          <p><h3>Search field</h3></p>
           <p>Add the <code>&lt;input&gt;</code> inside the class <code>uiSearchInput</code>.
         
         <form class="bs-docs-example form-inline">
@@ -164,9 +164,9 @@
   </div> 
 ]]></script>
 </div>
-<p>This search tyle is good choice for simple search function.</p>
+<p>This search tyle is a good choice for the simple search function.</p>
 
-  <h3>Text Field with Button</h3>
+  <p><h3>Text field with button</h3></p>
           <p>Add <code>button</code> and <code>input</code> inside the class <code>input-append</code>.</p>
           <form class="bs-docs-example form-inline">
             <div class="input-append">
@@ -180,9 +180,9 @@
 </div>
 ]]></script>
 </div>
-<p>The inline form is suitable with simple function that are expected to display in one line to save space such as login, newsletter...</p>
-          <h2>Big Title Text Field</h2>
-          <p>This text field has big size that can be used for special purpose e.g sign in, wiki title...</p>
+<p>The inline form is suitable with simple function that is expected to display in one line to save spaces, such as login, newsletter.</p>
+          <p><h3>Big Title Text Field</h3></p>
+          <p>This text field has big size that can be used for special purposes, for example sign-in title, wiki title.</p>
 
           <form class="bs-docs-example form-horizontal">
 <div class="controls">          
@@ -260,9 +260,8 @@ With horizontal form, all form elements are displayed in well order.
           <div class="page-header">
             <h2>Supported form controls</h2>
           </div>
-        <p><h7>Examples of standard form controls supported in an example form layout.</h7></p>
 
-          <h2>Inputs</h2>
+          <p><h3>Inputs</h3></p>
           <p><h7>Most common form control, text-based input fields. Includes support for all HTML5 types: <strong>text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel,</strong> and <strong>color.</strong></h7></p>
           <p>Requires the use of a specified <code>type</code> at all times.</p>
           <form class="bs-docs-example form-inline">
@@ -273,7 +272,7 @@ With horizontal form, all form elements are displayed in well order.
 &lt;input type="text" placeholder="Text input"&gt;
 ]]></script>
 </div>
-          <h2>Textarea</h2>
+          <p><h3>Textarea</h3></p>
           <p>Form control which supports multiple lines of text. Change <code>rows</code> attribute as necessary.</p>
           <form class="bs-docs-example form-inline">
             <textarea rows="3"></textarea>
@@ -282,9 +281,9 @@ With horizontal form, all form elements are displayed in well order.
 &lt;textarea rows="3"&gt;&lt;/textarea&gt;
 ]]></script>
 </div>
-          <h2>Checkboxes and radios</h2>
+          <p><h3>Checkboxes and radios</h3></p>
           <p>Checkboxes are for selecting one or several options in a list while radios are for selecting one option from many.</p>
-          <h3>Default (stacked)</h3>
+          <p><h4>Default (stacked)</h4></p>
 
           <form class="bs-docs-example">
           
@@ -319,8 +318,8 @@ With horizontal form, all form elements are displayed in well order.
         
 ]]></script>
 </div>
-<h3>Switch Radio</h3>
-<p> By using the <code>iphone-style-checkboxes.js</code>that is provided by The Platform Team, there is nice switch radio:
+<p><h4>Switch Radio</h4></p>
+<p> By using the <code>iphone-style-checkboxes.js</code> provided by eXo Platform Team, there is a nice switch radio:
 <form class="bs-docs-example">
 <div class="spaceRole">
 	<input id="rememberme" class="yesno" type="checkbox" data-no="No" data-yes="Yes" value="true" name="rememberme" style="visibility: hidden;" checked="checked" tabindex="3"/>
@@ -349,7 +348,7 @@ $("div.spaceRole").children('input:checkbox').each(function () {
 });
 </script>
 </form>
-<h3>Selects</h3>
+<p><h3>Selects</h3></p>
           <p>Use the default option or specify a <code>multiple="multiple"</code> to show multiple options at once.</p>
           <form class="bs-docs-example">
             <select>
@@ -393,10 +392,10 @@ $("div.spaceRole").children('input:checkbox').each(function () {
         <div class="page-header">
           <h2 id="headings">Extending form controls</h2></div>
          <p>Adding on top of existing browser controls, Bootstrap includes other useful form components.</p>
-          <h3>Control sizing</h3>
-          <p>Use relative sizing classes like <code>.input-large</code> or match your inputs to the grid column sizes using <code>.span*</code> classes.</p>
+          <p><h3>Control sizing</h3></p>
+          <p>Use relative sizing classes like <code>.input-large</code> or match your inputs to the grid column sizes using the <code>.span*</code> classes.</p>
 
-          <h3>Relative sizing</h3>
+          <p><h3>Relative sizing</h3></p>
           <form class="bs-docs-example" style="padding-bottom: 15px;">
             <div class="controls docs-input-sizes">
               <input class="input-mini" type="text" placeholder=".input-mini">
@@ -418,8 +417,8 @@ $("div.spaceRole").children('input:checkbox').each(function () {
 </div>
 ]]></script>
 </div>
-          <h4>Grid sizing</h4>
-          <p><h7>Use <code>.span1</code> to <code>.span12</code> for inputs that match the same sizes of the grid columns.</h7></p>
+          <p><h3>Grid sizing</h3></p>
+          <p><h7>Use <code>.span1</code> to <code>.span12</code> for inputs that match with the same sizes of the grid columns.</h7></p>
           <form class="bs-docs-example" style="padding-bottom: 15px;">
             <div class="controls docs-input-sizes">
               <input class="span1" type="text" placeholder=".span1">
@@ -523,13 +522,13 @@ $("div.spaceRole").children('input:checkbox').each(function () {
 ]]></script>
 </div>
          <p><h3>Uneditable inputs</h3></p>
-          <p>Present data in a form that's not editable without using actual form markup.</p>
+          <p>Present data in a form that is not editable without using the actual form markup.</p>
           <form class="bs-docs-example">
-            <span class="input-xlarge uneditable-input">Some value here</span>
+            <span class="input-xlarge uneditable-input">Some values here</span>
           </form>
 
 <div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<span class="input-xlarge uneditable-input">Some value here</span>
+<span class="input-xlarge uneditable-input">Some values here</span>
 ]]></script>
 </div>
           <h3>Form actions</h3>
@@ -557,7 +556,7 @@ $("div.spaceRole").children('input:checkbox').each(function () {
        <p>Provide feedback to users or visitors with basic feedback states on form controls and labels.</p>
 
           <h3>Input focus</h3>
-          <p><h7>We remove the default <code>outline</code> styles on some form controls and apply a <code>box-shadow</code> in its place for <code>:focus</code>.</h7></p>
+          <p><h7>The default <code>outline</code> styles on some form controls are removed and a <code>box-shadow</code> in its place is applied for <code>:focus</code>.</h7></p>
           <form class="bs-docs-example form-inline">
             <input class="input-xlarge focused" id="focusedInput" type="text" value="This is focused...">
           </form>
@@ -566,8 +565,8 @@ $("div.spaceRole").children('input:checkbox').each(function () {
 <input class="input-xlarge focused" id="focusedInput" type="text" value="This is focused...">
 ]]></script>
 </div>
-<h2>Disabled inputs</h2>
-          <p>Add the <code>disabled</code> attribute on an input to prevent user input and trigger a slightly different look.</p>
+<p><h3>Disabled inputs</h3></p>
+          <p>Add the <code>disabled</code> attribute to an input to prevent users from inputting and triggering a slightly different look.</p>
           <form class="bs-docs-example form-inline">
             <input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here…" disabled>
           </form>

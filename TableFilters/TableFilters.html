@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Table Filter Pattern</title>
+    <title>Table Filter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -60,45 +60,37 @@
 
 <header class="jumbotron subhead" id="overview">
 <div class="container">
-  <h1>Table Filter Pattern</h1>
-  <p class="lead">The user wants to narrow down the search results shown in a table by specific columns. How to filter it?</p>
+  <h1>Table Filter</h1>
+  <p class="lead">Users want to narrow search results shown in a table by specific columns. How to filter them?</p>
 </div>
 </header>
 
 <div class="container">
 	<div class="row">
-<div class="span3 bs-docs-sidebar">
+	<div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#solution"><i class="icon-chevron-right"></i>Solution</a></li>
         </ul>
-      </div>
+    </div>
 
     <div class="span9">
-     <section id="what">
+    <section id="overview">
           <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
+            <h2>Overview</h2>
           </div>
-       <p><h7>Table filters allow to search data in a table with specific conditions. The main purpose of the document is to provide a pattern of table filter.</h7></p>        
-      <p><h7>The user may want to filter the search results shown in a table by specific columns.</h7></p>
-	</section>
-
-	<section id="when">
-          <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
-          </div>
-      <p><h7>Table filter is useful in case there is large data set of result that can be filtered to find expected information. Besides, there should be one or more table column can be grouped into categories to filter by.</h7></p>
+       <p><h7>Table filters allow to search data in a table with specific conditions.
+      Table filters are useful in case there is large data set of results that can be filtered to find expected information. 
+	  Besides, there should be one or more table columns which can be grouped into categories.</h7></p>
     </section>
 	<section id="solution">
           <div class="page-header">
-            <h2>What's the Solution?</h2>
+            <h2>Solution</h2>
           </div>
-     <p><h7>There is a select box or text field input that allow to define the condition value to filter in each column. When a filter condition is selected, the data in table is filtered automatically. Optionally, multiple filters can be added. For example, 2 or 3 filters are selected at once, the results return in the table must be satisfied all  filter conditions.</h7></p>
-     <p> <h3>Template</h3></p>
-      
+	 <p><h7>There is a select box or text field input that is used to define condition values to filter in each column. 
+	 When a filter condition is selected, the data in table is auto-filtered. 
+	 Optionally, multiple filters can be added. For example, 2 or 3 filters are selected at once, the results returned in the table must be satisfied with all filter conditions.</h7></p>
+	<p><h3>Template</h3></p>
 <table class="uiGrid table table-bordered table-hover table-striped">
 <thead>
 	<tr>
@@ -365,10 +357,8 @@
     </select>
 ]]></script>
 </div>
-
-<h3>Status</h3>
-
-<table class="table table-bordered table-striped">
+     <p><h3>Status</h3></p>
+	 <table class="table table-bordered table-striped">
          <thead>
             <tr>
                <th>Status</th>
@@ -378,42 +368,36 @@
          <tbody>
             <tr>
                <td>Default status</td>
-               <td>The table displays with default data that is all data or filtered by default conditions.</td>
+               <td>The table is displayed with default data that is all data or filtered by default conditions.</td>
             </tr>
             <tr>
                <td>Filtered status</td>
-               <td>Users execute a specific filter .The table displays with filtered data.</td></td>
+               <td>Users execute a specific filter. The table is displayed with the filtered data.</td></td>
             </tr>
            </tbody>
       </table>
-      <p><h3>Rules</h3></p>
+	<p><h3>Rules</h3></p>
         <table class="table table-bordered table-striped">
            <tbody>
             <tr>
                <td>TFR-01</td>
-               <td>Column data matches with its filter </td>
+               <td>Column data matches with its filter.</td>
             </tr>
             <tr>
                <td>TFR-02</td>
-               <td>Filters are displayed below the column title</td>
+               <td>Filters are displayed below the column title.</td>
             </tr>
             <tr>
                <td>TFR-03</td>
-               <td>Filter text length is limited with 20 words</td>
+               <td>Filter text length is limited to 20 characters.</td>
             </tr>
             <tr>
                <td>TFR-04</td>
-               <td>Data can be filtered by condition combination</td>
+               <td>Data can be filtered by the condition combination.</td>
             </tr>
          </tbody>
       </table>
- </section>     
- <section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-          </div>
-      <p><h7>Because of 2 main reasons: Filters reduce the amount of items display and Filters help to narrow down search result that make users find expected results easily.Besides, the same usage makes  the consistency among products in the way filtering and displaying data.</h7></p>
- </section>
+	</section>
 </div>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>

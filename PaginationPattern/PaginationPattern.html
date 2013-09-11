@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Pagination Pattern</title>
+    <title>Pagination</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -62,8 +62,8 @@
 
 <header class="jumbotron subhead" id="overview">
 <div class="container">
-  <h1><span>Pagination pattern</span></h1>
-  <p class="lead">Two options to paginate a content: Full Pagination and More Mode Pagination</p>
+  <h1><span>Pagination</span></h1>
+  <p class="lead">Two options to paginate a content: Full Pagination and More Pagination</p>
 </div>
 </header>
 
@@ -71,12 +71,9 @@
     <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#full-pagination"><i class="icon-chevron-right"></i> Full Pagination</a></li>
-          <li><a href="#more-mode-pagination"><i class="icon-chevron-right"></i> More Mode Pagination</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#full-pagination"><i class="icon-chevron-right"></i>Full pagination</a></li>
+          <li><a href="#more-mode-pagination"><i class="icon-chevron-right"></i>More pagination</a></li>
         </ul>
       </div>
     <div class="span9">
@@ -84,32 +81,25 @@
           <div class="page-header">
             <h2>Overview</h2>
           </div>
-      <p><h7>Pagination refers to numbering pages in a document. On the internet, pagination is used for such things as displaying a limited number of results on search engine results pages, or showing a limited number of posts when viewing a forum thread or a wall. Pagination is used in some form in almost every web application to divide returned data and display it on multiple pages. Pagination also includes the logic of preparing and displaying the links to the various pages.<br>
-       <b>Full Pagination</b>: Full pagination of pages display as well as the total number of nodes. This is the full mode and the legacy one.<br>
-       <b>More Mode Pagination</b>: This mode allows to display more content by scrolling mouse to the bottom or clicking on Show More button at the end of a page.</h7></p>
-       <section id="what">
-          <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
-          </div>
-       <p><h7>The user needs to view data items from a potentially large set of sorted data that will not be easy to display within a single page. </h7></p>
-    </section>
-    <section id="when">
-          <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
-          </div>
-        <p><h7>In case displaying all data at once, the page may be loaded very slow. Pagination is a good solution to limit quantity of data display and also make data easy to view and control with page index or show more option. With a page or a form having large data to display, pagination is really necessary.<br>
-        Use when the content is too long to display at once.<br>
-        Use when the expected content is prefered to find on first few pages.<br>
-        Use when the the content is too large to display at once 
-	        </h7></p>
+      <p><h7>Pagination refers to numbering pages in a document.
+	  This function is used for displaying a limited number of results on search engine, or showing a limited number of posts when viewing a forum thread or a wall. 
+	  Also, pagination is used in some forms in web applications to divide and display returned data on multiple pages.<br>
+	  There are 2 pagination types, including:<br>
+       <i class="uiIconEcmsDottedArrow"></i><a href="PaginationPattern.html#full-pagination">Full pagination</a><br>
+       <i class="uiIconEcmsDottedArrow"></i><a href="PaginationPattern.html#more-mode-pagination">More pagination</a></h7></p>
+		<p><h5>When to use?</h5></p>
+        <p><h7>If all data are displayed on one page at once, loading may become very slow.
+		Pagination is a good solution that limits quantity of data displayed and also make easy to view and control with the page index or the <b>Show More...</b> button. 
+		Using pagination is really necessary when a page or form has a large number of data to be displayed. Pagination is often selected when:<br>
+        <i class="uiIconEcmsDottedArrow"></i>Content is too long to display at once.<br>
+        <i class="uiIconEcmsDottedArrow"></i>Content needs to be displayed on first pages.</h7></p>
     </section>
     <section id="full-pagination">
           <div class="page-header">
-            <h2>What's the Solution?</h2>
+            <h2>Full pagination</h2>
           </div>
-      <p><h3>Full pagination</h3></p>
-      <p><h7>In full pagination mode, data are grouped by pages. Each page contains a number of items that are defined by user option or in Setting by administrator</h7></p>
-      <p><h4>Template</h4></p>
+      <p><h7>In the full mode, data are grouped by pages. Each page contains a number of items that are defined by the user's setting preferences or configured by administrators.</h7></p>
+      <p><h3>Template</h3></p>
       <p>
       <div class="pagination uiPageIterator">
 		<ul>
@@ -133,12 +123,12 @@
 	  </div>
 	
       <p><b>Stateful page links</b></p>
-      <p>Links are customizable and work in a number of circumstances with the right class. <code>.disabled</code> for unclickable links and <code>.active</code> for current page.</p>
+      <p>Links are customizable and work in a number of circumstances with the right class: <code>.disabled</code> for unclickable links and <code>.active</code> for current page.</p>
       <p><b>Flexible alignment</b></p>
       <p>Add either of two optional classes to change the alignment of pagination links: <code>.pagination-centered</code> and <code>.pagination-right</code>.</p>
 
 
-      <p><h4>Markup</h4></p>
+      <p><h3>Markup</h3></p>
     <div class="prettyprint linenums">
 		<script type="syntaxhighlighter" class="brush: html"><![CDATA[
 	
@@ -158,20 +148,20 @@
 	</div>
 
 
-      <p><h4>Rules</h4></p>
+      <p><h3>Rules</h3></p>
       <p><table class="table table-bordered table-striped">
            <tbody>
             <tr>
                <td>FPR-01</td>
-               <td>Non pagination in case 1 page content</td>
+               <td>No pagination in case of one-page content.</td>
             </tr>
             <tr>
                <td>FPR-02</td>
-               <td>Pagination is put at the right corner</td> 
+               <td>Pagination is put at the right corner.</td> 
             </tr>
             <tr>
                <td>FR-03</td>
-               <td>Minimum button number is 4 <p> <div class="pagination uiPageIterator">
+               <td>The minimum number of button is 4.<p> <div class="pagination uiPageIterator">
 				<ul>
 				  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
 				  <li class="active"><a href="">1</a></li>
@@ -182,7 +172,7 @@
             </tr>
             <tr>
                <td>FPR04</td>
-               <td>Maximum button number is 7<div class="pagination uiPageIterator">
+               <td>The maximum number of button is 7.<div class="pagination uiPageIterator">
 		<ul>
 		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
 		  <li class="active"><a href="">1</a></li>
@@ -208,16 +198,17 @@
             </tr>
             <tr>
                <td>FPR05</td>
-               <td>Same number item per page</td>
+               <td>Same number of items per page.</td>
             </tr>
             <tr>
                <td>FPR06</td>
-               <td>Same rules for pagination button display</td>
+               <td>Same rules for displaying pagination buttons.</td>
             </tr>
          </tbody>
       </table></p>
-      <p><h5><a name="S1.5"></a><span>Item per page</span></h5></p>
-      <p><h7>The default number of item per page of each product should be displayed fully on the desktop screen to avoid t redundant blank space. The default may be fixed with 10 or 20. However, it is nice to have the option to change the number items displaying per page.</h7></p>
+      <p><h3><a name="S1.5"></a><span>Items per page</span></h3></p>
+      <p><h7>The default number of items per page of each product should be displayed fully on the screen to avoid redundant blank spaces. The default number may be fixed with 10 or 20 items per page. 
+	  However, this default number can be changed with the <b>Page size</b> option below.</h7></p>
       <p>
 	  <div class="pagination uiPageIterator clearfix">
 		  <table><tr><td width='90px'><font size="2">Page size:</font></td>
@@ -277,28 +268,32 @@
 		]]></script>
 	</div>
 	
-    
-      <p>Depending on the characteristics of the content display, there is defination for suitable maximum number of item per page.<br>
-      The number of items per page will be loaded depending on the value of the Maximum selected page size.<br>
-      The number of pagination button will be changed depending on the number of item per page.</h7></p>
+      <p><b>Note:</b><br>
+	  <i class="uiIconEcmsDottedArrow"></i>Defining one maximum number of items per page should be based on characteristics of the content display.<br>
+      <i class="uiIconEcmsDottedArrow"></i>The number of items per page will be loaded depending on the value of the Maximum selected page size.<br>
+      <i class="uiIconEcmsDottedArrow"></i>The number of pagination buttons will be changed depending on the number of items per page.</h7></p>
 </section>
-<section id="more-mode-pagination">      
-      <p><h3>More Mode Pagination</h3></p>
-      <p><h7>In More mode, all data can be displayed in 1 page. However, to avoid overloading, only amount of items are loaded by default. If users want more data to display, they can click on Show More link or scroll the mouse down.</h7></p>
-      <p><h4>Template</h4></p>
-      <p><h7>Show More displays when there are more items can be displayed. More 10 contents is loaded per Show More...click<</h7>/p>
+<section id="more-mode-pagination">
+	<div class="page-header">
+        <h2>More pagination</h2>
+    </div>
+      <p><h7>In the <b>More</b> mode, all data can be displayed in 1 page. 
+	  However, to avoid overloading, only a certain number of items are loaded by default. 
+	  If users want more data to be displayed, they can click the <b>Show More...</b> button or scroll down towards the page bottom.</h7></p>
+      <p><h3>Template</h3></p>
+      <p><h7>The <b>Show More...</b> button is displayed when more another items can be displayed. More 10 items will be loaded per <b>Show More...</b>click.</h7></p>
 	<center>
 	<a name="GoUp"><img src="images/More.jpg"></a>
 	<div id="image"></div><br>
 	<div><a href="javascript:image();"><button class="btn" style="width: 686px;" ><b></b>Show More...</b></button></a>
 	</center><br>
-       <p>Show More...link is hiden and Go Up link is displayed in case all contents are loaded</p>
+       <p>In case all content is loaded, the <b>Show More...</b> button is auto-hidden and the <b>Go Up</b> link may be displayed.</p>
        <center  href="#GoUp"><a href="javascript:void(0);" class="goUp" onclick="" rel="tooltip" data-original-title="">
 		 <i class="uiIconGoUp uiIconLightGray"></i>
 		</a></center>
 	   
       
-      <p><h4>Status</h4></p>
+      <p><h3>Status</h3></p>
       <p><table class="table table-bordered table-striped">
          <thead>
             <tr>
@@ -309,47 +304,40 @@
          <tbody>
             <tr>
                <td>Show More</td>
-               <td>Show more button displays at the bottom of the page in case the number of items that can be displayed is greater than the current ones.</td>
+               <td>The <b>Show More...</b> button displays at the page bottom in case the number of displayed items are greater than the current ones.</td>
             </tr>
             <tr>
                <td>Go up</td>
-               <td>Go Up link displays at the bottom of the page in case at least one time the Show More link is clicked and all items are loaded in page.</td>
+               <td>The <b>Go Up</b> link displays at the page bottom if the <b>Show More...</b> button is clicked at least once and all items are loaded in page.</td>
             </tr>
          </tbody>
       </table></p>
-      <p><h4>Rules</h4></p>
+      <p><h3>Rules</h3></p>
       <p><table class="table table-bordered table-striped">
            <tbody>
             <tr>
                <td>MPR-01</td>
-               <td>Non pagination in case all content is loaded by default</td>
+               <td>No pagination in case all content is loaded by default.</td>
             </tr>
             <tr>
                <td>MPR-02</td>
-               <td>Show More link is put at the center bottom of a page</td>
+               <td>The <b>Show More...</b> button is put at the center bottom of a page.</td>
             </tr>
             <tr>
                <td>MPR-03</td>
-               <td>Same number item per Show More click or scroll mouse down</td>
+               <td>The same number of items per <b>Show More...</b> click or scroll-down.</td>
             </tr>
             <tr>
                <td>MPR-04</td>
-               <td>Go Up link is displayed in case all content needs at least 1 Show More click or scroll mouse down</td>
+               <td>The <b>Go Up</b> link is displayed if users click the <b>Show More...</b> button or scroll down at least once.</td>
             </tr>
          </tbody>
       </table></p>
       
-      <p><h4>Item per load</h4></p>
-      <p><h7>With show more mode pagination, all items are loaded in one page. Each click or scroll mouse down shows more items.<br>
-         The number of items per click on Show More can be fixed in code or there is option in Settings to define number of items loading at once.<br>
-         10 or 20 items per click or scroll mouse down is ideal depending on your item feature.
-</h7></p>
-<section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-          </div>
-     <p><h7>We need to use this pattern to improve paginations among applications. The consistency of paginations in use will make your products look more professional and statistical.</h7></p>
-</div>
+      <p><h3>Items per load</h3></p>
+      <p><h7>With the <b>Show More...</b> pagination, all items are loaded in one page. Each click or scroll-down shows more items.<br>
+         The number of items per click on the <b>Show More...</b> button can be fixed in code or defined in Settings.<br>
+         Selecting 10 or 20 items per click or scroll-down is ideal, depending on your item feature.</h7></p>
 </section>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>

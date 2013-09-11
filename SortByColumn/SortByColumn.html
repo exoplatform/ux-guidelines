@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Short By Column Pattern</title>
+    <title>Short By Column</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -60,7 +60,7 @@
 
 <header class="jumbotron subhead" id="overview">
 <div class="container">
-  <h1>Sort By Column Pattern</h1>
+  <h1>Sort By Column</h1>
   <p class="lead">The user needs to search or scan a table for values that is of interest. How to sort data by column?</p>
 </div>
 </header>
@@ -69,11 +69,8 @@
 <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#solution"><i class="icon-chevron-right"></i>Solution</a></li>
         </ul>
       </div>
 
@@ -82,25 +79,14 @@
           <div class="page-header">
             <h2>Overview</h2>
           </div>
-       <p><h7>Sort by column is to arrange the data display depending on the criteria of a specific column. The main purpose of the document is to provide a pattern of sort by column.</h7></p>
-   </section>
-    <section id="what">
-          <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
-          </div>
-          <p><h7>The users may want to sort data by specific criteria to find the expected information easier.</h7></p>
-      </section>
-       <section id="when">
-          <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
-          </div>    
-       <p><h7>Sort by column can be used in case the data is displayed in different columns.</h7></p>
-       </section>
+       <p><h7>To find expected information more easily, users often sort data by specific criteria. 
+	   Sort By Column is a pattern which arranges the data display depending on criteria of a specific column.</h7></p>
+		</section>
        <section id="solution">
           <div class="page-header">
-            <h2>What's the Solution?</h2>
+            <h2>Solution</h2>
           </div>
-       <p><h3>Template</h3><p>
+		<p><h3>Template</h3></p>
       <div class="bs-docs-example">
 	<table class="uiGrid table table-hover table-striped sortable">
 	<thead>
@@ -109,7 +95,7 @@
 	<th width=150>Salary</th>
 	<th width=150>Extension</th>
 	<th width=150>Start date</th>
-	<th width=200>Start date(American)</th>
+	<th width=200>Start date (American)</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -175,13 +161,13 @@ The standard sort by column. The column title can be clicked to sort data up or 
                <td><code>uiGrid</code>, <code>table-bordered</code>, <code>table-striped</code>, <code>sortable</code></td>
             </tr>
             <tr>
-               <td>Sort Icon</td>
-               <td>Icons by PLF4 style: <code>uiIconArrowUp</code>, <code>uiIconArrowDown</code></td>
+               <td>Sort icons</td>
+               <td>Icons by eXo Platform style: <code>uiIconArrowUp</code>, <code>uiIconArrowDown</code></td>
             </tr>
             </tbody>
       </table>
 
-      <p><h3>Status</h3></p>
+	<p><h3>Status</h3></p>
 
 <table class="table table-bordered table-striped">
          <thead>
@@ -193,41 +179,36 @@ The standard sort by column. The column title can be clicked to sort data up or 
          <tbody>
             <tr>
                <td>Standard column</td>
-               <td>The title of this column is not used as criteria for sorting</td>
+               <td>The title of this column is not used as an criterion for sorting.</td>
             </tr>
             <tr>
                <td>Being sorted column</td>
-               <td>The title of this column is used as criteria for sorting. There is up <i class="uiIconArrowUp"></i> or down icon <i class="uiIconArrowDown"></i>that represents for direction of the sort.</td>
+               <td>The title of this column is used as an criterion for sorting. There is Up <i class="uiIconArrowUp"></i> or Down <i class="uiIconArrowDown"></i> icon that represents for the sorting direction.</td>
             </tr>
            </tbody>
       </table>
-      <p><h3>Rules</h3></p>
+	<p><h3>Rules</h3></p>
         <table class="table table-bordered table-striped">
            <tbody>
             <tr>
                <td>SR-01</td>
-               <td>No sort by column in case 0 or 1 data row</td>
+               <td>No sort by column in case of 0 or 1 data row.</td>
             </tr>
             <tr>
                <td>SR-02</td>
-               <td>Up or down icon displays at the being sorted column</td>
+               <td>The Up <i class="uiIconArrowUp"></i> or Down <i class="uiIconArrowDown"></i> icon displays at the sorted column.</td>
             </tr>
             <tr>
                <td>SR-03</td>
-               <td>Column label matches with the data column</td>
+               <td>The column label matches with the data column.</td>
             </tr>
             <tr>
                <td>SR-04</td>
-               <td>Column label length is limited with 20 words</td>
+               <td>The length of column label is limited to 20 characters.</td>
             </tr>
          </tbody>
       </table>
-    </section>
- <section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-          </div>
-        <p><h7>To provide an aid for users to sort data and make the consistency among products in the way sorting and displaying data.</h7></p>
+</section>
 </div>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>

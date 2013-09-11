@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Rate Pattern</title>
+    <title>Rate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -60,7 +60,7 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Rate Pattern</h1>
+    <h1>Rate</h1>
     <p class="lead">Basic style for rating with stars.</div>
 </header>
 
@@ -71,11 +71,8 @@
    <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#solution"><i class="icon-chevron-right"></i>Solution</a></li>
         </ul>
       </div>
       <div class="span9">
@@ -83,26 +80,16 @@
           <div class="page-header">
             <h2>Overview</h2>
           </div>
-       <p>A content can be promoted to decide its quality. The rate function allow to do this.The main purpose of the document is to provide a pattern of rate.</p>
-   </section>
-   <section id="what">
-          <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
-          </div>
-      <p>The user needs to know the quality of a content, the rate function not only allow to promote personal evaluation but guide other users about what is good and bad.</p>
-  </section>
-      <section id="when">
-          <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
-          </div>
-      <p>In a system with large or similar content that need to categorize or evaluate the quality of contents, the rate function is necessary.</p>
+       <p><h7>To provide users with better evaluation of content, the Rate function is featured directly in applications or websites. 
+	   This function allows users to give their personal point of views to which another ones can refer to know what is good and bad.
+	   For systems containing a large content that needs to be evaluated, the Rate function is really necessary.</h7></p>
     </section>
     <section id="solution">
           <div class="page-header">
-            <h2>What's the Solution?</h2>
+            <h2>Solution</h2>
           </div>
-          <p><h3>Template</h3></p>
-     <p>In case no rate:</p>
+	<p><h3>Template</h3></p>
+     <p><i class="uiIconEcmsDottedArrow"></i>No rate:</p>
 	<div class="bs-docs-example">
     <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
 		<div class="popupHeader ClearFix">
@@ -141,7 +128,7 @@
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
 	</div>
  </div>
-      <p>In case already having rate:</p>
+      <p><i class="uiIconEcmsDottedArrow"></i>Already having rate:</p>
 <div class="bs-docs-example">
       <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
 		<div class="popupHeader ClearFix">
@@ -180,7 +167,7 @@
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
 	</div>
  </div>
-<p>In case rated by current user:</p>
+<p><i class="uiIconEcmsDottedArrow"></i>Content rated by the current user:</p>
 <div class="bs-docs-example">
       <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
 		<div class="popupHeader ClearFix">
@@ -219,7 +206,7 @@
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
 	</div>
  </div>
-<p><h3>Markup</h3></p>
+	<p><h3>Markup</h3></p>
 <p>HTML is your standard unordered list with links.</p>
 <div class="prettyprint linenums">
 	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
@@ -298,8 +285,7 @@
 <div class="bs-docs-example" style="padding-bottom: 24px;">
 <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Rate Demo</a>
 </div>
-
-<p><h3>Status</h3></p>
+	<p><h3>Status</h3></p>
       <p>
       <table class="table table-bordered table-striped">
          <thead>
@@ -315,21 +301,20 @@
             </tr>
             <tr>
                <td>Already having rate by the other users</td>
-               <td>The value of "My rating" depend on the number of star. 1 star : Poor, 2 stars : Below average, 3 stars : average, 4 stars : Above average, 5 stars : Good .</td>    
+               <td>The value of "My rating" depends on the number of stars: 1 star - Poor, 2 stars - Below average, 3 stars - average, 4 stars - Above average, 5 stars - Good.</td>    
             </tr>      
            <tr>
                <td>Hover/press on stars</td>
-               <td>The star is changed from gray (not rate) and pale yellow (having rate) into yellow. The tooltip is displayed correspondly with number of selected stars. </td>
+               <td>The star is changed from gray (no rate) and pale yellow (having rate) into yellow. The tooltip is displayed correspondingly with the number of selected stars. </td>
             </tr>
             <tr>
                <td>Rated by the current user</td>
-               <td>The stars are changed into yellow. The value of "My rating" is matched the value of selected stars.</td>    
+               <td>The stars are changed into yellow. The value of "My rating" is matched with the value of selected stars.</td>    
             </tr>
          </tbody>
       </table>
      </p>
-
-      <p><h3>Rules</h3></p>
+	<p><h3>Rules</h3></p>
       <p>
       <table class="table table-bordered table-striped">
           <tbody>
@@ -340,7 +325,7 @@
             </tr>
             <tr>
                <td>RP-02</td>
-               <td>The rate result of a user is calculated once.</td>
+               <td>The rate result of one user is calculated once.</td>
             </tr>
             <tr>
                <td>RP-03</td>
@@ -356,26 +341,16 @@
             </tr>
             <tr>
                <td>RP-06</td>
-               <td>Rate result is near the title of a content</td>
+               <td>Rate result is near the title of content.</td>
             </tr>
                 <tr>
                <td>RP-07</td>
                <td>Rate function is available to online logged-in user only.</td>
-            </tr>
-
-              
+            </tr>  
 	      </tbody>
       </table>
-
      </p>
-     <section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-          </div>
-     <p><h7>To have real research of end users on the quality of your content or products. The pattern is to make sure the consistency among applications.
-</h7></p>
-</section>
-</div>
+	</section>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>

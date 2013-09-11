@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Breadcrumb Pattern</title>
+    <title>Breadcrumb</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -60,8 +60,8 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Breadcrumb Pattern</h1>
-    <p>A navigation aid to keep track location in an application or website.</div>
+    <h1>Breadcrumb</h1>
+    <p>A navigation aid to keep track of location in an application or a website.</div>
 </header>
 
   <div class="container">
@@ -71,11 +71,8 @@
 <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#solution"><i class="icon-chevron-right"></i>Solution</a></li> 
         </ul>
       </div>
       <div class="span9">
@@ -83,24 +80,19 @@
           <div class="page-header">
             <h2>Overview</h2>
           </div>
-<h7>Breadcrumb  is a navigation aid used in user interfaces. It allows users to keep track of their locations within programs or documents.
-The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p>
-</section>
-<section id="what">
-          <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
-          </div>
-<p><h7>The user needs to be able to navigate up (towards the root page) and have an understanding of where he is in relation to the rest of the site.</h7></p>
-</section>
-<section id="when">
-          <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
-          </div>
-<p><h7>Breadcrumbs should be used when the structure of the website follows a strict hierarchical structure of similar formatted content. Especially, when the structure of the site is parted into sections which can be divided into more subsections and so on. In case the user cannot easily navigate through the hierarchy via other local navigation methods, breadcrumbs is useful.</h7></p>
+	<p><h7>Breadcrumb is a navigation aid used in the user interface. 
+It allows users to keep track of their position in an application, document or website. Also, breadcrumb allows users to navigate to everywhere only in a click.
+</h7></p>
+		<p><h5>When and why to use?</h5></p>
+<p><h7><i class="uiIconEcmsDottedArrow"></i>Breadcrumbs should be used when the site structure follows a strict hierarchy of similar formatted content. 
+Especially, when the site structure is parted into sections which can be divided into more subsections, breadcrumbs are really needed to easily manage.<br>
+<i class="uiIconEcmsDottedArrow"></i>In case users cannot easily navigate via local navigation methods in the hierarchy, breadcrumbs is useful.</br>
+<i class="uiIconEcmsDottedArrow"></i>Breadcrumbs provide users with information where they are in a site/application, and shortcut links to jump to previously viewed pages, allow users to know the structure of a site/application. So, it should be used in all sub-pages.
+</h7></p>
 </section>
 <section id="solution">
           <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
+            <h2>Solution</h2>
           </div>
 <h3>Template</h3>
 <p><h7>The standard breadcrumb template:</h7></p>
@@ -154,7 +146,7 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
                <td><code>body</code>, <code>a</code>, <code>a:hover</code>, <code>a:active</code></td>
             </tr>
             <tr>
-               <td>Breadcrum divider</td>
+               <td>Breadcrumb divider</td>
                <td><code>uiIconMiniArrowRight</code></td>
             </tr>
               </tbody>
@@ -174,11 +166,11 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
          <tbody>
             <tr>
                <td>Standard Status</td>
-               <td>The labels of the sections in the hierarchical path that can be clicked to go to the home or previous/parent page of the being viewed page.</td>
+               <td>The label of a section in a hierarchical path that users can click to go to the home or previous/parent page of the being viewed page.</td>
             </tr>
             <tr>
                <td>Being Viewed Status</td>
-               <td>The label of the current page is at the end of the breadcrumb and is not linked.</td>          
+               <td>The label of the current page is at the end of breadcrumb and is not linked.</td>          
          </tbody>
       </table>
      </p>
@@ -189,56 +181,49 @@ The main purpose of the document is to provide a pattern of breadcrumbs.</h7></p
           <tbody>
             <tr>
                <td>BR-01</td>
-               <td>Non breadcrumbs at the home page</td>
+               <td>No breadcrumbs at the homepage.</td>
             </tr>
             <tr>
                <td>BR-02</td>
-               <td>Breadcrumbs is on the top of a page content</td>
+               <td>Breadcrumbs are on the top of a page content.</td>
             </tr>
             <tr>
                <td>BR-03</td>
-               <td>Breadcrumb label is the page content title</td>
+               <td>Breadcrumb label is the page content title.</td>
             </tr>
             <tr>
                <td>BR-04</td>
-               <td>Breadcrumbs label length is limited with 20 words</td>
+               <td>Breadcrumbs label length is limited to 20 characters.</td>
             </tr>
             <tr>
                <td>BR-05</td>
-               <td>Hyperlink all labels except the last one and breadcrumbs icon</td>
+               <td>Hyperlink all labels except the last one and breadcrumbs icon.</td>
             </tr>
             <tr>
                <td>BR-06</td>
-               <td>Hyperlink should be styled the same regardless of whether it has been visited or no</td>
+               <td>Hyperlink should be styled the same regardless of whether it has been visited or not.</td>
             </tr>
 	    <tr>
                <td>BR-07</td>
-               <td>Breadcrumb box must cover the breadcrumbs path</td>
+               <td>Breadcrumb box must cover the breadcrumb path.</td>
             </tr>
             <tr>
                <td>BR-08</td>
-               <td>Breadcrumb length must be auto resized and have a same minimize limitation in compare with its size</td>
+               <td>Breadcrumb length must be auto-resized and has the same minimum limitation in comparison to its size.</td>
             </tr>
             <tr>
                <td>BR-09</td>
-               <td>Breadcrumb broken in case it is longer than the minimize limitation</td>
+               <td>Breadcrumb is broken in case it is longer than the minimum limitation.</td>
             </tr>
             <tr>
                <td>BR-10</td>
-               <td>There are 2 spaces before and after each breadcrumb divider </td>
+               <td>There are 2 spaces before and after each breadcrumb divider.</td>
             </tr>
           </tbody>
       </table>
-
      </p>
 </section>
-<section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-          </div>
-<p><h7>Breadrumbs provides users information where they are in a site/application, offers shortcut links for users to jump to previously viewed pages, allows users know the structure of a site/application. So, it should be used in all sub pages. Besides, the consistency of breadcrumbs in use will make our products look more professional and statistical.
-</h7></p>
-</section>
+
 
 <div id="footer">
   Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>

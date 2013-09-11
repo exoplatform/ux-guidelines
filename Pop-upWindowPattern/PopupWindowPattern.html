@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Popup Window Pattern</title>
+    <title>Popup</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -63,8 +63,8 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
 <div class="container">
-  <h1>Modal Pop-up Pattern</h1>
-  <p class="lead">Using popups can be useful and a nice way to display advanced information. How and when Popups is used with eXo Platform style?</p>
+  <h1>Popup</h1>
+  <p class="lead">Using popups can be useful and a nice way to display advanced information. How and when Popups are used with eXo Platform Style?</p>
 </div>
 </header>
 
@@ -73,14 +73,11 @@
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
           <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#pop-up-size"><i class="icon-chevron-right"></i> Pop-up Size</a></li>
-          <li><a href="#pop-up-by-default"><i class="icon-chevron-right"></i> Pop-up by Default</a></li>
-          <li><a href="#pop-up-with-block-tab"><i class="icon-chevron-right"></i> Pop-up with Block Tab</a></li>
-          <li><a href="#pop-up-with-border-content"><i class="icon-chevron-right"></i> Pop-up with Border Content</a></li>
-		  <li><a href="#pop-up-without-button"><i class="icon-chevron-right"></i> Pop-up without Button</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li><a href="#pop-up-size"><i class="icon-chevron-right"></i>Popup size</a></li>
+          <li><a href="#pop-up-by-default"><i class="icon-chevron-right"></i>Default Popup</a></li>
+          <li><a href="#pop-up-with-block-tab"><i class="icon-chevron-right"></i> Popup with block tabs</a></li>
+          <li><a href="#pop-up-with-border"><i class="icon-chevron-right"></i>Popup with border</a></li>
+		  <li><a href="#pop-up-without-button"><i class="icon-chevron-right"></i>Popup without button</a></li>
         </ul>
       </div>
     <div class="span9">
@@ -88,33 +85,22 @@
           <div class="page-header">
             <h2>Overview</h2>
           </div>
-        	<p><h7>Pop-up is a form displays when selecting an option or doing an action by mouse click or key board press.<br>
-	Pop-up can be used to perform specific functions or simply notify necessary information to users.<br>
-	This pattern provides a guide to use and display modal pop-up to obtain the consistency among applications.</h7></p>
-	</section>
-	<section id="what">
-          <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
-          </div>
-          <p><h7>Pop-up is useful and fast way to interact with a function, it is also to display advanced options over one element on the screen without having to lose the content.</h7></p>
-	</section>
-	<section id="when">
-          <div class="page-header">
-            <h2> When to Use This Pattern?</h2>
-          </div>
-      <p><h7>Use when a content is suitable to display in a pop-up.<br>
-      Data input and display are short<br>
-      Interact with simple function<br>
-      Common action that is used by different application<br>
-      Can be grouped in different tab logically<br>
-      Use when there is expectation to keep current page while interacting with more functions. </h7></p>
-  </section>
-  <section id="pop-up-size">
-          <div class="page-header">
-            <h2>What's the Solution?</h2>
-          </div>
-     <p><h3>Pop-up Size</h3></p>
-      <p><h7>Modal provides a pop-up with fixed width <b>560px</b>. The height of pop up is automatic resized depending on the content and height of the screen. There is a scroll bar in case the content is longer than the display screen.</h7></p>
+        	<p><h7>Popup is a form which is displayed when users select an option or doing an action. Popups can be used to perform specific functions or simply notify necessary information to users.<br></h7></p>
+           <p><h5>When to use?</h5></p>
+			<p><h7>Using popups is a useful and fast way to interact with a function, as well to display advanced options over one element. In particular, popups are often used in the following cases:<br>
+      <i class="uiIconEcmsDottedArrow"></i>Data input or displayed are short.<br>
+      <i class="uiIconEcmsDottedArrow"></i>Simple functions.<br>
+      <i class="uiIconEcmsDottedArrow"></i>Common components used by different applications.<br>
+      <i class="uiIconEcmsDottedArrow"></i>Content which can be logically grouped in different tabs.<br>
+      <i class="uiIconEcmsDottedArrow"></i>Multiple functions which can be interacted at the current page.</h7></p>
+</section>
+<section id="pop-up-size">
+  <div class="page-header">
+	<h2>Popup size</h2>
+  </div>
+      <p><h7>It is suggested the default width of popups should be <b>560px</b>. 
+	  The height of popups will be auto-resized depending on content and height of different screens.
+	  A scroll bar is shown if content is longer than the display screen.</h7></p>
       <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative;  margin: 0 auto 20px; max-width: 100%;">
 		<div class="popupHeader ClearFix">
 			<a class="uiIconClose pull-right" aria-hidden="true" data-dismiss="modal" ></a>
@@ -140,10 +126,12 @@
     </div>
 		]]></script>
 </div>
-	  </section>
-	  <section id="pop-up-by-default">
-       <p><h3>Pop-up by Default</h3></p>
-      <p><h7>This pop-up can be used for functions that all its elements can be displayed at once.</h7></p>
+</section>
+<section id="pop-up-by-default">
+		<div class="page-header">
+            <h2>Default Popup</h2>
+        </div>
+      <p><h7>The default Popups can be used for functions where all their elements are displayed at once.</h7></p>
       <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
 		<div class="popupHeader ClearFix">
 			<a class="uiIconClose pull-right" aria-hidden="true" ></a>
@@ -219,8 +207,11 @@
       
 </section>
 <section id="pop-up-with-block-tab">
-      <p><h3>Pop-up with Block Tabs</h3></p>
-      <p><h7>This pop up with block tabs allows to display more content that can be grouped by tabs. The function on each tab may be independent together.</h7></p>
+		<div class="page-header">
+            <h2>Popup with block tabs</h2>
+        </div>
+      <p><h7>This popup with block tabs allows displaying more content that can be grouped by tabs. 
+	  The functions on each tab may be independent.</h7></p>
   	
 		<div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
 			<div class="popupHeader ClearFix">
@@ -345,11 +336,12 @@
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Pop-up with Tabs demo</a>
      </div>
- 
 </section>
-<section id="pop-up-with-border-content">
-      <p><h3>Pop-up with Border Content</h3></p>
-      <p><h7>The main content of this popup  is displayed in a border. In case the content is long, the scroll bar is displayed directly in border.</h7></p>
+<section id="pop-up-with-border">
+	<div class="page-header">
+        <h2>Popup with border</h2>
+    </div>
+      <p><h7>In case content of one popup is long, one scroll bar is displayed directly in border.</h7></p>
 
          <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; margin: 0 auto 20px; max-width: 100%;">
 		<div class="popupHeader ClearFix">
@@ -537,8 +529,10 @@
  
 </section>
 <section id="pop-up-without-button">
-     <p><h3>Pop-up without Button</h3></p>
-      <p>This pop up is without action buttons. In some case, there are no button in the pop up, this style can be used.</p>
+	<div class="page-header">
+       <h2>Popup without button</h2>
+    </div>
+      <p>In some cases there is no button in the popup, the following style can be applied.</p>
 
        <div class="UIPopupWindow uiPopup UIDragObject NormalStyle" style="width: 560px; position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
 		<div class="popupHeader ClearFix">
@@ -825,15 +819,7 @@
      <div class="bs-docs-example" style="padding-bottom: 24px;">
        <a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Pop-up without Button demo</a>
      </div>
- 
   </section>
-  <section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-         </div>    
-     <p><h7>To obtain the consistency among applications in the way using and displaying actions/functions in pop-ups. This pattern let the designers know which functions they should put in page, which functions should be in pop-up. The consistency of pop-up style sheet and design makes your products look more professional.</h7></p>
-</div>
-</section>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
 </div>

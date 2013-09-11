@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Hover Reveal Actions Pattern</title>
+    <title>Hover-reveal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -63,57 +63,44 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
 <div class="container">
-  <h1>Hover reveal Actions Pattern</h1>
-  <p class="lead">Hiding tools by default and revealing them on demand to make content cleaner.</p>
+  <h1>Hover-reveal</h1>
+  <p class="lead">Hiding actions by default and revealing them on demand to make content cleaner.</p>
 </div>
 </header>
 <div class="container">
       <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li class=""><a href="#what"><i class="icon-chevron-right"></i> What Problem Does This Resolve?</a></li>
-          <li><a href="#when"><i class="icon-chevron-right"></i> When to Use This Pattern?</a></li>
-          <li><a href="#solution"><i class="icon-chevron-right"></i> What is the Solution?</a></li>
-          <li><a href="#why"><i class="icon-chevron-right"></i> Why Use This Pattern?</a></li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li class=""><a href="#object-with-few-actions"><i class="icon-chevron-right"></i>Object with few actions</a></li>
+          <li><a href="#object-with-multiple-actions"><i class="icon-chevron-right"></i>Object with multiple actions</a></li>
         </ul>
       </div>
 
     <div class="span9">
  <section id="overview">
-          <div class="page-header">
-            <h2>Overview</h2>
-          </div>
-        <p><h7>Hover-Reveal Tools allow users to interact directly with the content. Instead of making Contextual Tools always visible, we can show them on demand by mouse over an object.<br>
-        Hiding tools by default and revealing them on demand decreases the visual noise in the user interface and makes content cleaner and less cluttered.<br>
-        When using Hover-Reveal Tools, discoverability might be an issue. As tools are shown only when hovering over elements, it might be difficult to discover this functionality.</h7></p>
+	  <div class="page-header">
+		<h2>Overview</h2>
+	  </div>
+        <p><h7>Hover-reveal is used to hide contextual actions by default and show them when being hovered.
+		Hover-reveal provides a quick and smart way to do actions on the site content. This reduces the visual noise in the user interface, and makes content clean and neat.</h7></p>
+	    <p><h5>When to use this pattern?</h5></p>
+		 <p><h7><i class="uiIconEcmsDottedArrow"></i>When doing actions quickly on objects.<br>
+		  <i class="uiIconEcmsDottedArrow"></i>When there are similar objects that have the same actions.<br>
+		  <i class="uiIconEcmsDottedArrow"></i>When desiring to have a simple user interface.</h7></p>
+      <p><h7>Depending on characteristics of the object, the Hover-reveal effects may be different. 
+	  Hover-reveal can be divided into 2 types based on the number of actions, including:</h7></p>
+	  <p><h7><i class="uiIconEcmsDottedArrow"></i><a href="HoverrevealActionsPattern.html#object-with-few-actions">Object with few actions.</a><br>
+	  <i class="uiIconEcmsDottedArrow"></i><a href="HoverrevealActionsPattern.html#object-with-multiple-actions">Object with multiple actions.</a></h7></p>
 </section>
-<section id="what">
-          <div class="page-header">
-            <h2>What Problem Does This Solve?</h2>
-          </div>
-       <p><h7>Hover reveal tool makes user interface cleaner and provide quick and smart way to do actions on site contents.</h7></p>
-</section>
-<section id="when">
-          <div class="page-header">
-            <h2>When to Use This Pattern?</h2>
-          </div>
-     <p><h7>Use when doing actions quickly on objects<br>
-      Use when there are similar objects that having same actions.<br>
-      Use when desiring to have simple user interface.</h7></p>
-</section>
-<section id="solution">
-          <div class="page-header">
-            <h2>What's the Solution?</h2>
-          </div>
-      <p><h7>Hover reveal action tool is displayed when mouse over a specific object. Depending on the characteristic of the object, the effects may be different. Group by the number of actions, we can have 2 main kind of objects:
-      object with few actions and object with multiple actions</h7></p>
-</section>
-     <h3>Object with few actions</h3>
-     <p><h7>With the object having few actions, the action link/button/icon can be displayed directly when mouse over
-     The samples below are suitable in case the number of actions less than 4.</h7></p>
+<section id="object-with-few-actions">
+	  <div class="page-header">
+		<h2>Object with few actions</h2>
+	  </div>
+     <p><h7>With objects having few actions, actions on links/buttons/icons can be displayed directly when users hover over them. 
+     The samples below are suitable in case the number of actions are less than 4.</h7></p>
      
-  <p><h4>Hover reveal a content in case few number action links</h4></p>
+  <p><h3>Hover-reveal actions on links</h3></p>
 <div class="bs-docs-example"> 
  <table>
          <tbody>
@@ -170,7 +157,7 @@
          </tbody>
       </table>
 
-<p><h4>Hover reveal a content in case few number action icons</h4></p>
+<p><h3>Hover-reveal actions on icons</h3></p>
 <div class="bs-docs-example"> 
 <table>
          <tbody>
@@ -225,21 +212,11 @@
             </tr>
             <tr>
                <td>Icon</td>
-               <td>Platform 4 Icons</td>
+               <td>eXo Platform icons</td>
             </tr>            
          </tbody>
       </table>
-
-<p>
-<p>
-<pre class="prettyprint linenums">
-<ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"uiIconName uiIconColor"</span><span class="tag">&gt;&lt;/i&gt;</span></li></ol></pre>
-</p>
-	</p>
-	<p>Trigger the tooltip via JavaScript:</p>
-	<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#example'</span><span class="pun">).</span><span class="pln">tooltip</span><span class="pun">(</span><span class="pln">options</span><span class="pun">)</span></li></ol></pre>
-
-	<p><h4>Hover reveal a content in case few number action buttons</h4></p>
+	<p><h3>Hover-reveal actions on buttons</h3></p>
 	<div class="bs-docs-example"> 
          <table>
          <tbody>
@@ -287,7 +264,7 @@
          <tbody>
             <tr>
                <td>Hover effect</td>
-               <td>Background:<code>#F8F8F8</code></td>
+               <td>Background: <code>#F8F8F8</code></td>
             </tr>
             <tr>
                <td>Button</td>
@@ -296,7 +273,7 @@
             </tbody>
       </table>
 
-<p><h5>Hover reveal a content in case mixed button and icon</h5></p>
+<p><h3>Hover-reveal actions on mixed buttons and icons</h3></p>
 <div class="bs-docs-example"> 
    <table>
          <tbody>
@@ -351,9 +328,14 @@
             </tr>
             </tbody>
       </table>
-     <h3>Object with multiple actions</h3>
-     <p><h7>With the object having multiple actions, all actions can be put in a drop list menu and only the link/button/icon to show the menu is displayed when mouse over<br>These are samples in details:</h7></p>
-     <p><h5>Hover reveal a content in case multiple actions displayed in a combo box</h5></p>
+</section>
+<section id="object-with-multiple-actions">
+	  <div class="page-header">
+		<h2>Object with multiple actions</h2>
+	  </div>
+     <p><h7>With the objects having multiple actions, all actions can be put in a droplist menu and only links/buttons/icons showing the menu are displayed when users hover over them. 
+	 The followings are common usecases:</h7></p>
+     <p><h3>Hover-reveal actions displayed in a combo-box</h3></p>
 <div class="bs-docs-example"> 
 <table>
          <tbody>
@@ -453,10 +435,10 @@
          <tbody>
             <tr>
                <td>Hover effect</td>
-               <td>Background:#F8F8F8</td>
+               <td>Background: <code>#F8F8F8</code></td>
             </tr>
             <tr>
-               <td>Button Droplist</td>
+               <td>Droplist button</td>
                <td><code>btn-group</code>, <code>btn-toolbar</code>, <code>btn:hover</code>, <code>btn:focus</code>, <code>btn-mini</code></td>
             </tr>
             <tr>
@@ -466,7 +448,7 @@
            </tbody>
       </table>
 
-<p><h4>Hover reveal a content in case multiple actions displayed in an icon</h4></p>
+<p><h3>Hover-reveal actions displayed in an icon</h3></p>
 <div class="bs-docs-example"> 
 <table>
   <tbody>
@@ -604,7 +586,7 @@
             </tr>
             <tr>
                <td>Icon</td>
-               <td>Platform 4 Icons</td>
+               <td>eXo Platform icons</td>
             </tr>
            <tr>
                <td>Dropdown menu</td>
@@ -612,13 +594,6 @@
             </tr>
          </tbody>
       </table>
-  <section id="why">
-          <div class="page-header">
-            <h2>Why to Use This Pattern?</h2>
-          </div>  
-<p><h7>Because of the main benefit of hover reveal actions - decreasing the visual noise in the user interface and making content cleaner and less cluttered, this pattern should be used to make the professionalism and convenience of applications.
-</h7></p>
-</div>
 </section>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
