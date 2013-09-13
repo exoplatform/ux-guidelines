@@ -91,64 +91,24 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Form</h1>
-    <p class="lead">Basic CSS for default style, special fields, Supported form controls, extending form controls, and form control states.</p></div>
+    <p class="lead">Basic CSS for input elements in form.</p></div>
 </header>
   <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row"><div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Default style</a></li>
-          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Special fields</a></li>
-          <li class=""><a href="#S3"><i class="icon-chevron-right"></i>Supported form controls</a></li>
-	  <li class=""><a href="#S4"><i class="icon-chevron-right"></i>Extending form controls</a></li>
-          <li class=""><a href="#S5"><i class="icon-chevron-right"></i>Form control states</a></li>
-         </ul>
+          <li class=""><a href="#S1"><i class="icon-chevron-right"></i>Special fields</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Basic input elements</a></li>
+	     </ul>
       </div>
       <div class="span9">
         <!-- Headings================================================== -->
-        <section id="S1">
-          <div class="page-header">
-            <h2> Default Style</h2>
-          </div>
-           <p>With the default <code>&lt;form&gt;</code> style, results in stacked, left-aligned labels on top of form controls.</p>
-          <form class="bs-docs-example">
-            <legend>Legend</legend>
-            <label>Label name</label>
-            <input type="text" placeholder="Type something...">
-            <span class="help-block">Example block-level help text here.</span>
-            <p>
-            <span class="uiCheckbox">
-            <input type="checkbox" class="checkbox"> 
-            <span>Check me out</span>
-            </p>
-            <div>
-            <button type="submit" class="btn">Submit</button>
-            </div>
-          </form>
-
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<legend>Legend</legend>
-  <label>Label name</label>
-     <input type="text" placeholder="Type something...">
-       <span class="help-block">Example block-level help text here.</span>
-          <p>
-            <span class="uiCheckbox">
-            <input type="checkbox" class="checkbox"> 
-            <span>Check me out</span>
-          </p>
-          <div>
-            <button type="submit" class="btn">Submit</button>
-          </div>
-]]></script>
-</div>
- <p>The default style is simple. For specific cases, there are optional layouts.</p>
-        </section>
-
+       
         <!-- Body Copy ================================================== -->
-        <section id="S2">
+        <section id="S1">
            <div class="page-header">
             <h2>Special fields</h2>
           </div>
-         <p>Based on Bootstraps, there are some special fields with eXo Platform Style.</p>
+         <p>Based on Bootstrap, there are some special fields with eXo Platform Style.</p>
 
           <p><h3>Search field</h3></p>
           <p>Add the <code>&lt;input&gt;</code> inside the class <code>uiSearchInput</code>.
@@ -256,14 +216,13 @@
 With horizontal form, all form elements are displayed in well order.
         </section>
 
-        <section id="S3">
+        <section id="S2">
           <div class="page-header">
-            <h2>Supported form controls</h2>
+            <h2>Basic input elements</h2>
           </div>
-
-          <p><h3>Inputs</h3></p>
-          <p><h7>Most common form control, text-based input fields. Includes support for all HTML5 types: <strong>text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel,</strong> and <strong>color.</strong></h7></p>
-          <p>Requires the use of a specified <code>type</code> at all times.</p>
+          <p><h3>Text field</h3></p>
+          <p><h7>Basic inputs are text fields that are supported with types: <strong>text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel,</strong> and <strong>color.</strong></h7></p>
+          <p>The <code>type</code> is required at all times.</p>
           <form class="bs-docs-example form-inline">
             <input type="text" placeholder="Text input">
           </form>
@@ -272,8 +231,40 @@ With horizontal form, all form elements are displayed in well order.
 &lt;input type="text" placeholder="Text input"&gt;
 ]]></script>
 </div>
+<p><h3>Input size</h3></p>
+          <form class="bs-docs-example" style="padding-bottom: 15px;">
+            <div class="controls docs-input-sizes">
+              <input class="input-mini" type="text" placeholder=".input-mini">
+              <input class="input-small" type="text" placeholder=".input-small">
+              <input class="input-medium" type="text" placeholder=".input-medium">
+              <input class="input-large" type="text" placeholder=".input-large">
+              <input class="input-xlarge" type="text" placeholder=".input-xlarge">
+              <input class="input-xxlarge" type="text" placeholder=".input-xxlarge">
+            </div>
+          </form>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="controls docs-input-sizes">
+  <input class="input-mini" type="text" placeholder=".input-mini">
+  <input class="input-small" type="text" placeholder=".input-small">
+  <input class="input-medium" type="text" placeholder=".input-medium">
+  <input class="input-large" type="text" placeholder=".input-large">
+  <input class="input-xlarge" type="text" placeholder=".input-xlarge">
+  <input class="input-xxlarge" type="text" placeholder=".input-xxlarge">
+</div>
+]]></script>
+</div>
+<p><h3>Disabled inputs</h3></p>
+          <p>Add the <code>disabled</code> attribute to disable an input field.</p>
+          <form class="bs-docs-example form-inline">
+            <input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here…" disabled>
+          </form>
+
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+ <input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here…" disabled>
+]]></script>
+</div>
           <p><h3>Textarea</h3></p>
-          <p>Form control which supports multiple lines of text. Change <code>rows</code> attribute as necessary.</p>
+          <p>A textarea allows more space for data input. Change <code>rows</code> attribute as necessary.</p>
           <form class="bs-docs-example form-inline">
             <textarea rows="3"></textarea>
           </form>
@@ -282,39 +273,40 @@ With horizontal form, all form elements are displayed in well order.
 ]]></script>
 </div>
           <p><h3>Checkboxes and radios</h3></p>
-          <p>Checkboxes are for selecting one or several options in a list while radios are for selecting one option from many.</p>
+          <p>Checkboxes allows selecting one or several options while radios are for selecting only one option at once.</p>
           <p><h4>Default (stacked)</h4></p>
 
           <form class="bs-docs-example">
           
             <span class="uiCheckbox">
                <input type="checkbox" class="checkbox">
-                <span>Option one is this and that&mdash;be sure to include why it is great</span>
+                <span>I agree with the UX Guidlines terms and conditions.</span>
              </span>
             <br>
             <span class="uiRadio">
               <input type="radio"checked name="optionsRadios" id="optionsRadios1" value="option1">
-             <span> Option one is this and that&mdash;be sure to include why it is great</span>
+             <span> Male</span>
              </span>
              <span class="uiRadio"> 
               <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-             <span>Option two can be something else and selecting it will deselect option one</span>
+             <span> Female</span>
             </span>
           </form>
 
 <div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
  <span class="uiCheckbox">
-   <input type="checkbox" class="checkbox">
-   <span>Option one is this and that&mdash;be sure to include why it is great</span>
- </span><br>
- <span class="uiRadio">
-   <input type="radio"checked name="optionsRadios" id="optionsRadios1" value="option1">
-   <span> Option one is this and that&mdash;be sure to include why it is great</span>
- </span>
- <span class="uiRadio"> 
-   <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-   <span>Option two can be something else and selecting it will deselect option one</span>
- </span>
+               <input type="checkbox" class="checkbox">
+                <span>I agree with the UX Guidlines terms and conditions.</span>
+             </span>
+            <br>
+            <span class="uiRadio">
+              <input type="radio"checked name="optionsRadios" id="optionsRadios1" value="option1">
+             <span> Male</span>
+             </span>
+             <span class="uiRadio"> 
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+             <span> Female</span>
+            </span>
         
 ]]></script>
 </div>
@@ -349,7 +341,7 @@ $("div.spaceRole").children('input:checkbox').each(function () {
 </script>
 </form>
 <p><h3>Selects</h3></p>
-          <p>Use the default option or specify a <code>multiple="multiple"</code> to show multiple options at once.</p>
+          <p>There is default or <code>multiple="multiple"</code> options can selected at once.</p>
           <form class="bs-docs-example">
             <select>
               <option>1</option>
@@ -387,196 +379,6 @@ $("div.spaceRole").children('input:checkbox').each(function () {
 ]]></script>
 </div>
  </section>
-
-       <section id="S4">
-        <div class="page-header">
-          <h2 id="headings">Extending form controls</h2></div>
-         <p>Adding on top of existing browser controls, Bootstrap includes other useful form components.</p>
-          <p><h3>Control sizing</h3></p>
-          <p>Use relative sizing classes like <code>.input-large</code> or match your inputs to the grid column sizes using the <code>.span*</code> classes.</p>
-
-          <p><h3>Relative sizing</h3></p>
-          <form class="bs-docs-example" style="padding-bottom: 15px;">
-            <div class="controls docs-input-sizes">
-              <input class="input-mini" type="text" placeholder=".input-mini">
-              <input class="input-small" type="text" placeholder=".input-small">
-              <input class="input-medium" type="text" placeholder=".input-medium">
-              <input class="input-large" type="text" placeholder=".input-large">
-              <input class="input-xlarge" type="text" placeholder=".input-xlarge">
-              <input class="input-xxlarge" type="text" placeholder=".input-xxlarge">
-            </div>
-          </form>
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<div class="controls docs-input-sizes">
-	<input class="input-mini" type="text" placeholder=".input-mini">
-	<input class="input-small" type="text" placeholder=".input-small">
-	<input class="input-medium" type="text" placeholder=".input-medium">
-	<input class="input-large" type="text" placeholder=".input-large">
-	<input class="input-xlarge" type="text" placeholder=".input-xlarge">
-	<input class="input-xxlarge" type="text" placeholder=".input-xxlarge">
-</div>
-]]></script>
-</div>
-          <p><h3>Grid sizing</h3></p>
-          <p><h7>Use <code>.span1</code> to <code>.span12</code> for inputs that match with the same sizes of the grid columns.</h7></p>
-          <form class="bs-docs-example" style="padding-bottom: 15px;">
-            <div class="controls docs-input-sizes">
-              <input class="span1" type="text" placeholder=".span1">
-              <input class="span2" type="text" placeholder=".span2">
-              <input class="span3" type="text" placeholder=".span3">
-              <select class="span1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-              <select class="span2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-              <select class="span3">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-          </form>
-
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<div class="controls docs-input-sizes">
-<input class="span1" type="text" placeholder=".span1">
-<input class="span2" type="text" placeholder=".span2">
-<input class="span3" type="text" placeholder=".span3">
-  <select class="span1">
-	<option>1</option>
-	<option>2</option>
-	<option>3</option>
-	<option>4</option>
-	<option>5</option>
-  </select>
-  <select class="span2">
-	<option>1</option>
-	<option>2</option>
-	<option>3</option>
-	<option>4</option>
-	<option>5</option>
-  </select>
-  <select class="span3">
-	<option>1</option>
-	<option>2</option>
-	<option>3</option>
-	<option>4</option>
-	<option>5</option>
-   </select>
-</div>
-]]></script>
-</div>
-<p><h7>For multiple grid inputs per line, <strong>use the <code>.controls-row</code> modifier class for proper spacing</strong>. It floats the inputs to collapse white-space, sets the proper margins, and the clears the float.</h7></p>
-          <form class="bs-docs-example" style="padding-bottom: 15px;">
-            <div class="controls">
-              <input class="span5" type="text" placeholder=".span5">
-            </div>
-            <div class="controls controls-row">
-              <input class="span4" type="text" placeholder=".span4">
-              <input class="span1" type="text" placeholder=".span1">
-            </div>
-            <div class="controls controls-row">
-              <input class="span3" type="text" placeholder=".span3">
-              <input class="span2" type="text" placeholder=".span2">
-            </div>
-            <div class="controls controls-row">
-              <input class="span2" type="text" placeholder=".span2">
-              <input class="span3" type="text" placeholder=".span3">
-            </div>
-            <div class="controls controls-row">
-              <input class="span1" type="text" placeholder=".span1">
-              <input class="span4" type="text" placeholder=".span4">
-            </div>
-          </form>
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<div class="controls">
-  <input class="span5" type="text" placeholder=".span5">
-</div>
-<div class="controls controls-row">
-  <input class="span4" type="text" placeholder=".span4">
-  <input class="span1" type="text" placeholder=".span1">
-</div>
-<div class="controls controls-row">
-  <input class="span3" type="text" placeholder=".span3">
-  <input class="span2" type="text" placeholder=".span2">
-</div>
-<div class="controls controls-row">
-  <input class="span2" type="text" placeholder=".span2">
-  <input class="span3" type="text" placeholder=".span3">
-</div>
-<div class="controls controls-row">
-              <input class="span1" type="text" placeholder=".span1">
-              <input class="span4" type="text" placeholder=".span4">
-            </div>
-]]></script>
-</div>
-         <p><h3>Uneditable inputs</h3></p>
-          <p>Present data in a form that is not editable without using the actual form markup.</p>
-          <form class="bs-docs-example">
-            <span class="input-xlarge uneditable-input">Some values here</span>
-          </form>
-
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<span class="input-xlarge uneditable-input">Some values here</span>
-]]></script>
-</div>
-          <h3>Form actions</h3>
-          <p><h7>End a form with a group of actions (buttons). When placed within a <code>.form-horizontal</code>, the buttons will automatically indent to line up with the form controls.</h7></p>
-          <form class="bs-docs-example">
-            <div class="form-actions">
-              <button type="submit" class="btn btn-primary">Save changes</button>
-              <button type="button" class="btn">Cancel</button>
-            </div>
-          </form>
-
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<div class="form-actions">
-	<button type="submit" class="btn btn-primary">Save changes</button>
-	<button type="button" class="btn">Cancel</button>
-</div>
-]]></script>
-</div>
-       </section>
-
-       <section id="S5">
-          <div class="page-header">
-            <h2 id="headings">Form control states</h2>
-          </div>
-       <p>Provide feedback to users or visitors with basic feedback states on form controls and labels.</p>
-
-          <h3>Input focus</h3>
-          <p><h7>The default <code>outline</code> styles on some form controls are removed and a <code>box-shadow</code> in its place is applied for <code>:focus</code>.</h7></p>
-          <form class="bs-docs-example form-inline">
-            <input class="input-xlarge focused" id="focusedInput" type="text" value="This is focused...">
-          </form>
-
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
-<input class="input-xlarge focused" id="focusedInput" type="text" value="This is focused...">
-]]></script>
-</div>
-<p><h3>Disabled inputs</h3></p>
-          <p>Add the <code>disabled</code> attribute to an input to prevent users from inputting and triggering a slightly different look.</p>
-          <form class="bs-docs-example form-inline">
-            <input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here…" disabled>
-          </form>
-
-<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
- <input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here…" disabled>
-]]></script>
-</div>
-         
-        </section>
      </div>
 <div id="footer">
 	Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>

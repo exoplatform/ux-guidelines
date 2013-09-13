@@ -82,10 +82,10 @@
           <div class="page-header">
             <h2>Overview</h2>
           </div>
-     <p><h7>Message is a short communication transmitted by words and signals. 
+     <p><h7>A message is a short meaning content that is communicated and displayed by words and signals. 
 	 In applications, messages are considered as "feedbacks" responding to end-users, so they play an important role in the development process as well success of applications. 
 	 To avoid unclear and incorrect messages, you need to clarify usage of message types and how to display them.</h7></p>
-	 <p><h7>In eXo Platform, messages are grouped into 4 types:</h7></p>
+	 <p><h7>Messages are grouped into 4 types:</h7></p>
 	 <p><h7><i class="uiIconEcmsDottedArrow"></i><a href="MessagesPattern.html#error-message">Error</a><br>
           <i class="uiIconEcmsDottedArrow"></i><a href="MessagesPattern.html#warning-message">Warning</a><br>
           <i class="uiIconEcmsDottedArrow"></i><a href="MessagesPattern.html#information-message">Information<br>
@@ -96,12 +96,12 @@
           <div class="page-header">
             <h2	>Error message</h2>
           </div>
-	<p><h7>An error message alerts users of a problem that has already occurred. 
-	Effective error messages should be relevant, brief, clear, specific, courteous about the followings:</h7></p>
-	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Problem</b> - States that a problem occurred. For example: Your connection is time out.<br>
-	<i class="uiIconEcmsDottedArrow"></i><b>Cause</b> - Explains why the problem occurred. For example: Your chosen Username already exists.<br>
-	<i class="uiIconEcmsDottedArrow"></i><b>Solution</b> - Provides suggestions for users to fix the problem. For example: Please input a valid email format, such as yourname@example.com.</h7></p>
-      <p><h3>Template</h3></p>
+	<p><h7>An error message is to notify users of wrong actions that have been done. 
+	Effective error messages should be brief, relevant, clear and courteous about the followings:</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Problem</b> - Alert what problems happened. For example: Your connection is time out.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Cause</b> - Explain the reason of problems. For example: Your chosen Username already exists.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Solution</b> - Provide suggestions for users to fix the problem. For example: Please input a valid email format, such as yourname@example.com.</h7></p>
+      <p><h5>Template</h5></p>
       <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
@@ -157,12 +157,22 @@
 		</div>
 
 <div class="bs-docs-example" style="padding-bottom: 24px;">
-<a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Error Message Pop-up</a>
+<a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Error message popup</a>
 </div>
+
+<p><h5>Don'ts in error messages</h5></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Incorrect message type</b> - Each type message has its own style to alert. So, it is a need to avoid using inccorect message type. For example, alert "Your username or password input is incorrect" is error message but it is alerted as warning.
+	</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Too long content</b> - Most of users want to scan rather than read many things in details.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Blame users</b> - Need to avoid messages that make user feel rude.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Technical error messages</b> - It is recommended to avoid technical messages such as programming content that make end-users confused.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Unknown error messages</b> - Any unknown error messages make users feel your application unreliable, so try to provide a detailed message about invalid actions.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Complicated error messages</b> - Should avoid error messages that report so many problems and causes. An error message should detect one problem or cause.
+	</h7></p>
 </section>
  <section id="warning-message">         
       <p><h2>Warning message</h2></p>
-	  <p><h7>A warning message is to alert users of a condition that might cause a problem in the future. 
+	  <p><h7>A warning message is to notify users of a situation that might cause a problem in the future. 
 	  A good warning message should:</h7></p>
 	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Involve risk</b> - Alerts users of something significant.
 	For example: Are you sure to delete the driver and all its data?<br>
@@ -171,7 +181,7 @@
 	<b><i class="uiIconEcmsDottedArrow"></i>Be clear and specific</b> - Defines sources of warning, potential occurrences, and what users should do.
 	For example: Your password is not strong enough. It should have both texts and numbers.
 	</h7></p>
-      <p><h3>Template</h3></p>		
+      <p><h5>Template</h5></p>		
      <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
@@ -227,20 +237,24 @@
 		</div>
 
 <div class="bs-docs-example" style="padding-bottom: 24px;">
-<a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Warning Message Pop-up</a>
+<a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Warning message popup</a>
 </div>
+<p><h5>Don'ts in warning messages</h5></p>
+<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Redundant messages</b> - Do not show unnecessary and unuseful warning messages that might annoy users.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Overwarning</b> - Too many warning messages will make users doubt about the security of applications.</h7></p>
+
 </section>
  <section id="information-message">
       <p><h2>Information message</h2></p>
-	<p><h7>An information message is to alert users of useful and relevant, but not critical information. 
+	<p><h7>An information message is to notify users of useful and relevant, but not urgent information. 
 	It is considered as a notification that lets users know specific information. 
 	For example: Your account has been registered successfully. Please go to your email address to activate your account.<br>
 	A good information message should be:<br>
-	<i class="uiIconEcmsDottedArrow"></i><b>Useful</b> - Lets users know something new or has been done successfully.<br>
-	<i class="uiIconEcmsDottedArrow"></i><b>Optional</b> - Shows suggestions (such as version upgrade or new functions) that are not mandatory.<br>
-	<i class="uiIconEcmsDottedArrow"></i><b>Relevant</b> - Shows helpful information that users might not have known.</h7></p>
+	<i class="uiIconEcmsDottedArrow"></i><b>Useful</b> - Let users know something new or have been done successfully.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Optional</b> - Show suggestions (such as version upgrade or new functions) that are not mandatory.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Relevant</b> - Show helpful information that users might not have known.</h7></p>
 	
-      <p><h3>Template</h3></p>
+      <p><h5>Template</h5></p>
 		<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
 			<div class="popupHeader ClearFix">
 				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
@@ -299,18 +313,21 @@
 
 
 <div class="bs-docs-example" style="padding-bottom: 24px;">
-<a class="btn btn-primary btn-large" href="#myModal2" data-toggle="modal">Launch Info Message Pop-up</a>
+<a class="btn btn-primary btn-large" href="#myModal2" data-toggle="modal">Launch Information message popup</a>
 </div>
-
+<p><h5>Don'ts in information messages</h5></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Redundant</b> - The message includes many redundant information or informs what users already know.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Annoying</b> - The message displays too much that is not necessary. For example, "These selected files have been deleted successfully."<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Actionable</b> - The information does not require immediate action.</h7></p>
 </section>
  <section id="confirmation-message">
 <p><h2>Confirmation message</h2></p>
-	<p><h7>A confirmation message is to ask if users want to proceed with an action.
-	The confirmation can be displayed in 2 ways: default browser pop-up or customized pop-up window like the template below.<br>
-	For important changes (for example, deleting a forum that causes all its topics and posts to be lost), the confirmation should be a warning that is displayed in a customized pop-up rather than browser pop-up.<br>
+	<p><h7>A confirmation message is to ask if users want to excute with an action.
+	A confirmation can be displayed in 2 ways: default browser pop-up or customized popup window.<br>
+	For important changes (for example, deleting a forum that causes all its topics and posts to be lost), the confirmation should be a warning that is displayed in a customized popup rather than browser popup.<br>
 	A good confirmation message should give the followings:<br>
-	<i class="uiIconEcmsDottedArrow"></i>Obvious result of an action initiated by the user.<br>
-	<i class="uiIconEcmsDottedArrow"></i>Relevant verification if the user wants to proceed with the action.<br>
+	<i class="uiIconEcmsDottedArrow"></i>Obvious result of an action done by the user.<br>
+	<i class="uiIconEcmsDottedArrow"></i>Relevant verification if the user wants to excute with the action.<br>
 	<i class="uiIconEcmsDottedArrow"></i>Easy-to-understand question with two or more responses (for example, OK - Cancel, Yes - No).</h7></p>
  <p><h3>Template</h3></p>
          <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
@@ -370,9 +387,13 @@
 		</div>
 
 <div class="bs-docs-example" style="padding-bottom: 24px;">
-<a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Confirmation Message Pop-up</a>
+<a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Confirmation message popup</a>
 </div>
-	
+	<p><h5>Don'ts in confirmation messages</h5></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Unnecessary confirmation</b> - For example, "Are you sure to rename the file?"<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Annoying confirmation</b> - For example, there is no change on the form. However, when closing it, there is a confirmation: "Are you sure to close the form? "<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Redundant confirmation</b>- For example, some actions we can redo, recover the old content by its revision or from the trash, it is no need to have deletion confirmation. 
+	</h7></p>
 </section>
 <section id="multiple-messages">
 <p><h2>Multiple messages</h2></p>
@@ -564,7 +585,7 @@ The label of each message type is in the format: <b>{Number} Error(s)/Warning(s)
 			</div>
 		</div>		
 <div class="bs-docs-example" style="padding-bottom: 24px;">
-<a class="btn btn-primary btn-large" href="#myModal4" data-toggle="modal">Launch Multiple Message Pop-up</a>
+<a class="btn btn-primary btn-large" href="#myModal4" data-toggle="modal">Launch Multiple message popup</a>
 </div>
 </section>
 </div>

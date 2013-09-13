@@ -62,8 +62,8 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Getting started</h1>
-    <p>Overview of eXo UX Guidelines, its structure and content, and how to get started with a simple template.</p>
+    <h1>Getting Started</h1>
+    <p>Overview of eXo UX Guidelines, its structure and content, and how to get started with a simple sample.</p>
   </div>
 </header>
 
@@ -90,11 +90,11 @@
           <div class="page-header">
             <h2>Download Source</h2>
           </div>
-          <p class="lead">Before downloading, be sure that you have basis knowledge of HTML, JavaScript and CSS. Notepad++,Text Editor, Quanta Plus, Sublime Text are useful code editors to modify the file content.</p>
+          <p class="lead">The latest version eXo UI Guidelines project can be downloaded directly from GitHub.</p>
           <div class="row-fluid">
-            <p>Get the original files for all CSS and JavaScript, along with a local copy of the documents by downloading the latest version directly from GitHub.</p>
-              <p><a class="btn btn-large btn-primary" href="https://github.com/exoplatform/ux-guidelines/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download eXo UX Guidelines</a></p>
+            <p><a class="btn btn-large btn-primary" href="https://github.com/exoplatform/ux-guidelines/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download eXo UX Guidelines</a></p>
          </div>
+          <p>After downloading, Notepad++,Text Editor, Quanta Plus or Sublime Text are useful code editors to modify the file content.</p>
         </section>
 
 
@@ -105,8 +105,8 @@
           <div class="page-header">
             <h2>File structure</h2>
           </div>
-          <p class="lead">Within the download you will find the following file structure and content, logically grouping common assets and providing both compiled and minified variations.</p>
-          <p>Once downloading, unzip the compressed folder to see the structure of eXo UX Guidelines (based on Bootstrap). You will see something like this:</p>
+          <p class="lead">eXo UX Guidelines's file structure is similar with Bootstrap.</p>
+        <p>After unzipping the compressed folder, the structure of eXo UX Guidelines (based on Bootstrap)is displayed below:</p>
 <pre class="prettyprint"><span class="pln">  exo-ux-guidelines </span><span class="pun">/</span><span class="pln">
   </span><span class="pun">├──</span><span class="pln"> css</span><span class="pun">/</span><span class="pln">
   </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bootstrap</span><span class="pun">.</span><span class="pln">css
@@ -120,8 +120,7 @@
   </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> icon</span><span class="pun">_</span><span class="pln">pattern</span><span class="pun">.</span><span class="pln">png
   </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> exo-platform-icons</span>
   <span class="pun">└──</span><span class="pln"> README</span><span class="pun">.</span><span class="pln">md</span></pre>
-<p>All CSS and JavaScript files are based on (<code>bootstrap.*</code>), as well as compiled and minified CSS and JavaScript (<code>bootstrap.min.*</code>).
-<p>(<code>exo-platform.css</code>) is a customized Bootstrap CSS that is applied for eXo Platform, done by eXo Platform Team.
+<p>Most CSS, JS files are from Bootstraps. In addition, <code>exo-platform.css</code> and <code>uxp-pattern.css</code> are customized by eXo Platform Team to build eXo Platform Style.</p>
 <p>Please note that most JavaScript plugins require jQuery to be included. Besides, some free JavaScripts are also applied into eXo UX Guidelines to create dynamic samples.</p>
         </section>
 
@@ -154,9 +153,7 @@
 <p>Please note that <code>exo-platform.css</code> is the <strong>Core.css</strong> file that is located in <strong>skin/css</strong> of <strong>eXoResource.war</strong> in the <strong>eXo Platform package</strong>. You can copy, rename and put it in the general <strong>css</strong> folder that contains Bootstrap CSS.
 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="dec">&lt;!DOCTYPE html&gt;</span></li><li class="L1"><span class="tag">&lt;html&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;head&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;title&gt;</span><span class="pln">Bootstrap Template</span><span class="tag">&lt;/title&gt;</span></li><li class="L4"><span class="pln">    </span><span class="com">&lt;!-- Bootstrap --&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;link</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"css/bootstrap.css"<span class="pln"> </span><span class="atn">rel</span><span class="pun">=</span><span class="atv">"stylesheet"</span><span class="tag">&gt;</span>
 <span class="com">    &lt;!-- eXo Platform CSS --&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;link</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"css/exo-platform.css"</span><span class="pln"> </span><span class="atn">rel</span><span class="pun">=</span><span class="atv">"stylesheet"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></li><li class="L7"><span class="pln">  </span><span class="tag">&lt;body&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;h1&gt;</span><span class="pln">Hello, world!</span><span class="tag">&lt;/h1&gt;</span></li><li class="L9"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"http://code.jquery.com/jquery-latest.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"js/bootstrap.min.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></li><li class="L2"><span class="tag">&lt;/html&gt;</span></li></ol></pre>
-          <p><strong>And you're set!</strong> With those files added, you can start developing any site or application with eXo Platform Style based on Bootstrap.</p>
-        </section>
-
+             </section>
 
         <!-- Next
         ================================================== -->
