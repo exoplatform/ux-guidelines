@@ -1,30 +1,18 @@
-uxp-patterns-website
+eXo UX Guidlines
 ====================
-UXP WEBSITE DEMO
 
 GOAL: 
-- To expose few UXP pattern to everyone
-- To create a "knowledge" database for UXP stuff based in a first time on our UXP Pattern.
-- To customize UXP pattern website based on Bootstrap with Platform 4 Style.
-
-ROADMAP:
-- Make the HomePage clearer and more beautiful
-- Adapt HTML of patterns to make them very clear and easy to read
-- Adapt pattern to directly use Twitter Bootstrap component (for exemple, for the pagination or for modal errors...)
-- Continue to export other patterns.
-- Customize the UXP pattern website following Platform 4 Style
-
-A repository named uxp-patterns-website is used to keep track all the work.
+- To document eXo user interface and provide guidelines to 3rd party developers on how to design their apps.
+- Make it easy to study and reuse the eXo Platform style. By following our guidelines, your apps will fit very well in eXo
 
 DONE:
-- Basic google docs for uxp pattern: Breadcrumbs, Hover Reveal Actions, Messages, Pop-ups, Pagination, Thumbnails, Sort by Column, Table Filter, Tab.
-- Basic HTML format for: Breadcrumbs, Hover Reveal Actions, Messages, Pop-ups, Pagination, Thumbnails, Sort by Column, Table Filter, Tab.
-- Apply Bootstraps components and dynamic samples for Breadcrumbs, Hover Reveal Actions, Pagination, Thumbnail, Sort by Column, Table Filter, Tab.
+- Components: Typography, Form, Button, Table, Avatar, Icon, Navigation, Dropdown, Mini Calendar, Progress bar, Alert, Tooltip and Popover, Thumbnails.
+- Patterns: Breadcrumb, Hover-reveal, Message, Popup, Pagination, Tabs, Sort by Column, Table Filter, Rating, Uploading.
 
 PLAN:
-- Update and improve the website based on feedbacks
+- Update and improve the website based on feedbacks.
 - Continue to compose the other pattern.
-- Update overall the UXP pattern website following eXo Platform Style.
+- Update UX-Guidelines following the changes of Bootstraps. and the eXo Platform style.
 
 HOW TO DOWNLOAD:
 - Github HTTP: https://github.com/exoplatform/ux-guidelines.git
