@@ -128,47 +128,8 @@
 		<span class="uiIconResize pull-right uiIconLightGray"></span>
 	</div>
  </div>
-      <p><i class="uiIconEcmsDottedArrow"></i>Already having a rating:</p>
-<div class="bs-docs-example">
-      <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
-		<div class="popupHeader ClearFix">
-			<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
-			<span class="PopupTitle popupTitle">Rate This Topic</span>
-		</div>
-		<div class="PopupContent popupContent">
-			<div id="RatingForm" class="RatingForm">
-				<form method="post" action="" id="UIRatingForm" class="UIForm">
-					<div class="uiVoteForm">
-						<div class="voteFormContainer">
-							<p style="margin-left:10px">
-							  My Rating:&nbsp;no value yet
-							</p>
-							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
-									
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted " data-original-title="Poor"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Below average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Above average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Good"></i>
-
-							</div>
-							<div class="uiAction uiActionBorder">
-								<button type="button" class="btn" onclick="">Close</button>
-							</div>	
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<span class="uiIconResize pull-right uiIconLightGray"></span>
-	</div>
- </div>
-<p><i class="uiIconEcmsDottedArrow"></i>Content rated by the current user:</p>
-<div class="bs-docs-example">
+      <p><i class="uiIconEcmsDottedArrow"></i>Content rated by the other users:</p>
+      <div class="bs-docs-example">
       <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
 		<div class="popupHeader ClearFix">
 			<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
@@ -193,6 +154,46 @@
 								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
 							 
 								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+
+							</div>
+							<div class="uiAction uiActionBorder">
+								<button type="button" class="btn" onclick="">Close</button>
+							</div>	
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<span class="uiIconResize pull-right uiIconLightGray"></span>
+	</div>
+ </div>
+<p><i class="uiIconEcmsDottedArrow"></i>Content rated by the current user:</p>
+
+<div class="bs-docs-example">
+      <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
+		<div class="popupHeader ClearFix">
+			<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
+			<span class="PopupTitle popupTitle">Rate This Topic</span>
+		</div>
+		<div class="PopupContent popupContent">
+			<div id="RatingForm" class="RatingForm">
+				<form method="post" action="" id="UIRatingForm" class="UIForm">
+					<div class="uiVoteForm">
+						<div class="voteFormContainer">
+							<p style="margin-left:10px">
+							  My Rating:&nbsp;Good
+							</p>
+							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
+									
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted " data-original-title="Poor"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Below average"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Average"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Above average"></i>
+							 
+								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Good"></i>
 
 							</div>
 							<div class="uiAction uiActionBorder">
@@ -300,12 +301,12 @@
                <td>The value of "My rating" is "no value yet" and all stars are gray.</td>
             </tr>
             <tr>
-               <td>Already having rate by the other users</td>
-               <td>The value of "My rating" depends on the number of stars: 1 star - Poor, 2 stars - Below average, 3 stars - average, 4 stars - Above average, 5 stars - Good.</td>    
+               <td>Already having rates by the other users</td>
+               <td>The value of "My rating" is "no value yet" and there is current already average rated stars in pale yellow for reference: 1 star - Poor, 2 stars - Below average, 3 stars - average, 4 stars - Above average, 5 stars - Good.</td>    
             </tr>      
            <tr>
                <td>Hover/press on stars</td>
-               <td>The star is changed from gray (no rate) and pale yellow (having rate) into yellow. The tooltip is displayed correspondingly with the number of selected stars. </td>
+               <td>The star is changed from gray (no rate) and/or pale yellow (having rate) into yellow. The tooltip is displayed correspondingly with the number of selected stars. </td>
             </tr>
             <tr>
                <td>Rated by the current user</td>
