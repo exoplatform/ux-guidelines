@@ -12039,3 +12039,285 @@ i:hover [class^="uiIconColor"] {
     opacity: 0.8;
 }
 
+.exo-mentions {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px;
+    position: relative;
+}
+.exo-mentions textarea {
+    display: none;
+}
+.exo-mentions .autocomplete-menu {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    display: none;
+    left: 0;
+    margin-top: -2px;
+    position: absolute;
+    right: 0;
+    z-index: 10000;
+}
+.exo-mentions .autocomplete-menu li {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+.exo-mentions .autocomplete-menu li:first-child {
+    border-radius: 4px 4px 0 0;
+}
+.exo-mentions .autocomplete-menu li:last-child {
+    border-radius: 0 0 4px 4px;
+}
+.exo-mentions .autocomplete-menu li > .avatarSmall {
+    display: inline-block;
+    margin-right: 10px;
+}
+.exo-mentions .autocomplete-menu li.active {
+    background-color: #517ABE;
+    background-image: linear-gradient(to bottom, #628ACC, #3763AA);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+}
+.exo-mentions .autocomplete-menu li.msg {
+    background-color: #FFFFFF;
+    cursor: inherit;
+}
+.exo-mentions .autocomplete-menu li strong {
+    font-weight: bold;
+}
+.exo-mentions .mentions {
+    display: none;
+}
+.exo-mentions .replaceTextArea {
+    border: 1px solid #C7C7C7;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    cursor: text;
+    font-size: 13px;
+    height: 28px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px 8px;
+    position: relative;
+    resize: none;
+    width: auto;
+    word-wrap: break-word;
+}
+.exo-mentions .replaceTextArea:focus {
+    border-color: #94B0DF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(29, 75, 159, 0.6);
+}
+.activityStream .exo-mentions .replaceTextArea {
+    padding: 3px 5px;
+}
+.exo-mentions .replaceTextArea > span, .exo-mentions .replaceContent  > span {
+    background: none repeat scroll 0 0 #E0E8F5;
+    border: 1px solid #3F6FBB;
+    border-radius: 3px;
+    color: #2F5E92;
+    display: inline-block;
+    padding: 1px 5px;
+    line-height: 20px;
+}
+
+.exo-mentions .replaceTextArea > span i, .exo-mentions .replaceContent > span i {
+    margin-left: 6px;
+    text-indent: -1000px;
+}
+.exo-mentions .replaceTextArea span.none, .exo-mentions .replaceContent span.none {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    color: #FFFFFF;
+    display: inline;
+    padding: 0;
+    width: 0;
+}
+.exo-mentions .replaceTextArea .uiIconClose {
+    color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.exo-mentions .replaceTextArea .cursorText {
+    display: inline;
+    width: 0;
+}
+.exo-mentions .placeholder {
+    color: #999999;
+    left: 10px;
+    opacity: 0.85;
+    position: absolute;
+    top: 10px;
+}
+.activityStream .exo-mentions .placeholder {
+    left: 6px;
+    top: 3px;
+}
+.exo-mentions .uiIconClose {
+    cursor: pointer;
+    display: inline-block !important;
+    position: static !important;
+}
+
+
+[class^="uiIconChat"] {
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChatDarkGray.png');
+}
+.uiIconChatTeam {
+  background-position: 0 0;
+}
+.uiIconChatSpace {
+  background-position: -20px 0;
+}
+.uiIconChatAction {
+  background-position: -40px 0;
+}
+.uiIconChatSmile {
+  background-position: -60px 0;
+}
+.uiIconChatRaiseHand {
+  background-position: -80px 0;
+}
+.uiIconChatAssign {
+  background-position: -100px 0;
+}
+.uiIconChatCreateEvent {
+  background-position: -120px 0;
+}
+.uiIconChatCreateTask {
+  background-position: -140px 0;
+}
+.uiIconChatEdited {
+  background-position: -160px 0;
+}
+.uiIconChat {
+  background-position: -180px 0;
+}
+.uiIconChatVideoCalls {
+  background-position: 0px -20px;
+}
+.nav-pills > .active > a > [class^="uiIconChat"],
+.nav-list > .active > a > [class^="uiIconChat"],
+.navbar-inverse .nav > .active > a > [class^="uiIconChat"],
+.btn:hover [class^="uiIconChat"],
+a:hover [class^="uiIconChat"],
+.actionIcon.active [class^="uiIconChat"],
+.nodeSelected:hover [class^="uiIconChat"],
+[class^="uiIconChat"]:hover,
+.uiActionBar [class^="uiIconChat"]:hover,
+.chat-message > .meeting-actions > .actionIcon:hover > i {
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChatBlue.png');
+}
+.dropdown-menu > li > a > [class^="uiIconChat"],
+.dropdown-menu > .active > a > [class^="uiIconChat"],
+.uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconChat"],
+.uiActionBar [class^="uiIconChat"],
+.uiIconChatLightGray {
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChatLightGray.png');
+}
+.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconChat"],
+.uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconChat"],
+.uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconChat"],
+.uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconChat"],
+.uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconChat"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconChat"],
+.btn-primary [class^="uiIconChat"],
+.btn-primary:hover [class^="uiIconChat"],
+.uiDropDownCal a:hover [class^="uiIconChat"],
+.uiDropDownCal .active a:hover [class^="uiIconChat"],
+.eventAllDay [class^="uiIconChat"],
+.eventDayContainer [class^="uiIconChat"],
+.uiIconChatWhite,
+.chat-message .dropdown-menu a:hover [class^="uiIconChat"] {
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChatWhite.png');
+}
+/* Icons Size 32x32 */
+[class^="uiIconChat32x32"] {
+  width: 32px;
+  height: 32px;
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChat32x32DarkGray.png');
+}
+.uiIconChat32x32Team {
+  background-position: 0 0;
+}
+.uiIconChat32x32HyperLink {
+  background-position: -36px 0;
+}
+.uiIconChat32x32RaiseHand {
+  background-position: -72px 0;
+}
+.uiIconChat32x32Event {
+  background-position: -108px 0;
+}
+.uiIconChat32x32Task {
+  background-position: -144px 0;
+}
+.uiIconChat32x32ShareFile {
+  background-position: -180px 0;
+}
+.uiIconChat32x32Question {
+  background-position: -216px 0;
+}
+.uiIconChat32x32AddCall {
+  background-position: -252px 0;
+}
+.uiIconChat32x32StartCall {
+  background-position: -288px 0;
+}
+.uiIconChat32x32FinishCall {
+  background-position: -324px 0;
+}
+.uiIconChat32x32Space {
+  background-position: 0 -36px;
+}
+.uiIconChat32x32Blog {
+  background-position: -36px -36px;
+}
+.nav-pills > .active > a > [class^="uiIconChat32"],
+.nav-list > .active > a > [class^="uiIconChat32"],
+.navbar-inverse .nav > .active > a > [class^="uiIconChat32"],
+.btn:hover [class^="uiIconChat32"],
+a:hover [class^="uiIconChat32"],
+.actionIcon.active [class^="uiIconChat32"],
+.nodeSelected:hover [class^="uiIconChat32"],
+[class^="uiIconChat32"]:hover,
+.uiActionBar [class^="uiIconChat32"]:hover {
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChat32x32Blue.png');
+}
+.dropdown-menu > li > a > [class^="uiIconChat32"],
+.dropdown-menu > .active > a > [class^="uiIconChat32"],
+.uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconChat32"],
+.uiActionBar [class^="uiIconChat32"],
+.uiIconChat32x32LightGray {
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChat32x32LightGray.png');
+}
+.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconChat32"],
+.uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconChat32"],
+.uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconChat32"],
+.uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconChat32"],
+.uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconChat32"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconChat32"],
+.btn-primary [class^="uiIconChat32"],
+.btn-primary:hover [class^="uiIconChat32"],
+.uiDropDownCal a:hover [class^="uiIconChat32"],
+.uiDropDownCal .active a:hover [class^="uiIconChat32"],
+.eventAllDay [class^="uiIconChat32"],
+.eventDayContainer [class^="uiIconChat32"],
+.uiIconChat32x32White,
+.chat-message .dropdown-menu a:hover [class^="uiIconChat32"] {
+  background-image: url('../img/exo-platform-icons/chat-icons/uiIconChat32x32White.png');
+}
+.uiIconChatFavorite {
+  background-image: url("../img/exo-platform-icons/chat-icons/uiIconChatColor.png");
+  background-position: -100px 0;
+}
+.uiIconChatFavorite:hover {
+  background-image: url("../img/exo-platform-icons/chat-icons/uiIconChatColor.png");
+  background-position: -80px;
+}

@@ -81,6 +81,7 @@
           <li class=""><a href="#success"><i class="icon-chevron-right"></i>Success</a></li>
           <li class=""><a href="#info"><i class="icon-chevron-right"></i>Information</a></li>
   	      <li class=""><a href="#error"><i class="icon-chevron-right"></i>Error</a></li>
+          <li class=""><a href="#sample"><i class="icon-chevron-right"></i>Sample</a></li>
          </ul>
       </div>
       <div class="span9">
@@ -177,7 +178,171 @@
 </div>
 ]]></script>
 </div>      
-        </section>
+ </section>
+
+  <section id="sample">
+          <div class="page-header">
+            <h2>Sample</h2>
+          </div>
+        <p><h3>Alert on the top</h3></p>
+
+          <div class="bs-docs-example">
+            <div id="UIJCRExplorer" class="UIJCRExplorer"><div id="UIControl" class="UIControl">
+<form method="post" action="" id="UIAddressBar" class="UIForm"><div><input type="hidden" value="" name="formOp"><input type="hidden" value="" name="gtn:csrf"></div>
+<div class="uiAddressBar uiGrayLightBox">
+
+  <table class="tblAddressBar">
+    <tbody><tr class="block">
+      
+             <td class="detailViewIcon" style="width: 93px;">
+                  <div class="btn-group">
+                    
+        <a data-placement="bottom" rel="tooltip" class="btn active" onclick=" " data-original-title="Admin"><i class="uiIconEcmsViewDefault uiIconEcmsViewAdmin"></i></a>
+                   <a data-placement="bottom" rel="tooltip" class="btn " onclick="" data-original-title="Icons"><i class="uiIconEcmsViewDefault uiIconEcmsViewIcons"></i></a>
+                
+                    <a data-placement="bottom" rel="tooltip" class="btn " onclick="j" data-original-title="List"><i class="uiIconEcmsViewDefault uiIconEcmsViewList"></i></a>
+                
+                    
+                   </div>
+                 </td>
+         <td class="backAndRefreshBlock">
+        <a data-placement="bottom" rel="tooltip" href="" class="backIcon actionIcon pull-left" data-original-title="Back to the previous node"><i class="uiIconEcmsGoBack"></i></a>  
+        <a data-placement="bottom" rel="tooltip" href="" class="refreshIcon actionIcon pull-left" data-original-title="Refresh"><i class="uiIconRefresh"></i></a>
+      </td> 
+      
+      <td class="uiAddressBarAction" id="UIAddressBarAction">
+        <div class="blockMiddle3 uiPopupSelector clearfix">
+          <div onkeydown="eXo.ecm.ECMUtils.clickLeftMouse(event,this,2,1)" onclick="" class="dropDownButtonBox">
+            <i data-placement="bottom" rel="tooltip" class="uiIconArrowDown uiIconLightGray" data-original-title="Show the history address"></i>
+          </div>
+          <div id="AddressBarControl" class="inputContainer">
+            <a data-placement="bottom" rel="tooltip" id="GotoLocation" href="" data-original-title="Change Node"></a>
+            <input type="text" value="/Documents" id="address" name="address">
+    
+        </div>
+      </td>
+      <td class="right">
+        <div id="SimpleSearchControl" class="advance">
+          <a id="SimpleSearch" class="searchBtn" data-placement="bottom" rel="tooltip" href="" data-original-title="Quick Search"><i class="uiIconSearch uiIconLightGrey"></i></a>
+          <input type="text" id="simpleSearch" name="simpleSearch">
+        </div>
+      </td>
+    </tr>
+  </tbody></table>
+  
+</div>
+
+</form>
+</div>
+
+<div class="alert alert-success wcmAlertSuccess" style="display: block; top: 72px; margin-left: -175.5px;" id="wcm-notice"><i class="uiIconSuccess"></i>'Sample.doc' was deleted succesfully. <a href="">Undo</a></div>
+
+</div>
+
+</div>
+<p><h3> Alert in form or page </h3></p>
+<p><h4> Major alert </h4></p>
+<div class="bs-docs-example">
+  <div class="uiFormTabPane uiTabNormal">
+
+        <ul class="nav nav-tabs">
+          
+            <li onclick="" class="active">
+                  <a data-target="#AccountInputSet-tab" data-toggle="tab">Account Setting</a>   
+            </li>
+          
+            <li onclick="" class="">
+                  <a data-target="#UIUserProfileInputSet-tab" data-toggle="tab">User Profile</a>    
+            </li>
+          
+        </ul>
+        <form method="post" action=""><div><input type="hidden" value="" name="formOp"><input type="hidden" value="" name="gtn:csrf"></div>
+        <div><input type="hidden" value="AccountInputSet" name="currentSelectedTab" id="currentSelectedTab"></div>
+        <div class="tab-content">
+            
+            <div class="tab-pane fade in active" id="AccountInputSet-tab">
+              <div class="uiTabContent resizable">
+                  <div class="alert alert-error" id="">
+        <i class="uiIconError"></i>Your email address is incorrect. Please try again!
+      </div>
+                <div class="UIFormInputSet AccountInputSet" id="AccountInputSet"><div class="form-horizontal"><div class="control-group"><label for="username" class="control-label">User Name:</label><div class="controls"><input type="text" id="username" name="username"> *<a href=""><i class="SearchIcon"></i></a>&nbsp;</div></div><div class="control-group"><label for="password" class="control-label">Password:</label><div class="controls"><input type="password" id="password" name="password"> *</div></div><div class="control-group"><label for="Confirmpassword" class="control-label">Confirm Password:</label><div class="controls"><input type="password" id="Confirmpassword" name="Confirmpassword"> *</div></div><div class="control-group"><label for="firstName" class="control-label">First Name:</label><div class="controls"><input type="text" id="firstName" name="firstName"> *</div></div><div class="control-group"><label for="lastName" class="control-label">Last Name:</label><div class="controls"><input type="text" id="lastName" name="lastName"> *</div></div><div class="control-group"><label for="displayName" class="control-label">Display Name:</label><div class="controls"><input type="text" id="displayName" name="displayName"></div></div><div class="control-group"><label for="email" class="control-label">Email Address:</label><div class="controls"><input type="text" id="email" name="email"> *</div></div></div></div>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade " id="UIUserProfileInputSet-tab">
+              <div class="uiTabContent resizable">
+                 
+        </div>  
+</div>
+
+  
+
+              </div>
+            </div>
+              <div class="uiAction">
+          
+              <button class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('1c9a4ac5-2dc9-4d77-a2fb-d82d42f4979b#UIAccountForm','Save',true)" type="button">Save</button>              
+          
+              <button class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('1c9a4ac5-2dc9-4d77-a2fb-d82d42f4979b#UIAccountForm','Reset',true)" type="button">Reset</button>              
+          
+        </div>
+            
+        </div>
+      
+        </form>
+
+
+
+<p><h4> Minor alert </h4></p>
+<p> With the minor alert, the background can be removed. </p>
+<div class="bs-docs-example">
+  <div class="uiFormTabPane uiTabNormal">
+
+        <ul class="nav nav-tabs">
+          
+            <li onclick="" class="active">
+                  <a data-target="#AccountInputSet-tab" data-toggle="tab">Account Setting</a>   
+            </li>
+          
+            <li onclick="" class="">
+                  <a data-target="#UIUserProfileInputSet-tab" data-toggle="tab">User Profile</a>    
+            </li>
+          
+        </ul>
+        <form method="post" action=""><div><input type="hidden" value="" name="formOp"><input type="hidden" value="" name="gtn:csrf"></div>
+        <div><input type="hidden" value="AccountInputSet" name="currentSelectedTab" id="currentSelectedTab"></div>
+        <div class="tab-content">
+            
+            <div class="tab-pane fade in active" id="AccountInputSet-tab">
+              <div class="uiTabContent resizable">
+                  <div>
+        <i class="uiIconColorWarning"></i> Please input all required fields!
+      </div>
+                <div class="UIFormInputSet AccountInputSet" id="AccountInputSet"><div class="form-horizontal"><div class="control-group"><label for="username" class="control-label">User Name:</label><div class="controls"><input type="text" id="username" name="username"> *<a href="javascript:eXo.webui.UIForm.submitForm('1c9a4ac5-2dc9-4d77-a2fb-d82d42f4979b#UIAccountForm','SearchUser',true)" data-placement="bottom" class="actionIcon" rel="tooltip" data-original-title="Check Availability"><i class="SearchIcon"></i></a>&nbsp;</div></div><div class="control-group"><label for="password" class="control-label">Password:</label><div class="controls"><input type="password" id="password" name="password"> *</div></div><div class="control-group"><label for="Confirmpassword" class="control-label">Confirm Password:</label><div class="controls"><input type="password" id="Confirmpassword" name="Confirmpassword"> *</div></div><div class="control-group"><label for="firstName" class="control-label">First Name:</label><div class="controls"><input type="text" id="firstName" name="firstName"> *</div></div><div class="control-group"><label for="lastName" class="control-label">Last Name:</label><div class="controls"><input type="text" id="lastName" name="lastName"> *</div></div><div class="control-group"><label for="displayName" class="control-label">Display Name:</label><div class="controls"><input type="text" id="displayName" name="displayName"></div></div><div class="control-group"><label for="email" class="control-label">Email Address:</label><div class="controls"><input type="text" id="email" name="email"> *</div></div></div></div>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade " id="UIUserProfileInputSet-tab">
+              <div class="uiTabContent resizable">
+            </div>  
+</div> </div>
+            </div>
+              <div class="uiAction">
+          
+              <button class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('1c9a4ac5-2dc9-4d77-a2fb-d82d42f4979b#UIAccountForm','Save',true)" type="button">Save</button>              
+          
+              <button class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('1c9a4ac5-2dc9-4d77-a2fb-d82d42f4979b#UIAccountForm','Reset',true)" type="button">Reset</button>              
+          
+        </div>
+            
+        </div>
+      
+        </form>
+
+</div>
+</div>
+</div>
+</section>
  </div>
 <div id="footer">
         Copyright ©2013. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
