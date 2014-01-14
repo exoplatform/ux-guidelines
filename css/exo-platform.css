@@ -12210,7 +12210,7 @@ a:hover [class^="uiIconChat"],
 .actionIcon.active [class^="uiIconChat"],
 .nodeSelected:hover [class^="uiIconChat"],
 [class^="uiIconChat"]:hover,
-.uiActionBar [class^="uiIconChat"]:hover,
+.uiActionBar [class^="uiIconChat"]:hover, .uiIconChatBlue,
 .chat-message > .meeting-actions > .actionIcon:hover > i {
   background-image: url('../img/exo-platform-icons/chat-icons/uiIconChatBlue.png');
 }
@@ -12286,7 +12286,7 @@ a:hover [class^="uiIconChat"],
 a:hover [class^="uiIconChat32"],
 .actionIcon.active [class^="uiIconChat32"],
 .nodeSelected:hover [class^="uiIconChat32"],
-[class^="uiIconChat32"]:hover,
+[class^="uiIconChat32"]:hover, .uiIconChat32x32Blue,
 .uiActionBar [class^="uiIconChat32"]:hover {
   background-image: url('../img/exo-platform-icons/chat-icons/uiIconChat32x32Blue.png');
 }
