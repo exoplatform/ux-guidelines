@@ -3,7 +3,7 @@
 	collapsible.each(function() {
 		var co = $(this);
 		if (co.closest(".popupMessage").length > 0) {
-			co.parent().on("show hide", function(evt) {
+			co.parent().off().on("show hide", function(evt) {
 				$(evt.target).prev("a").children("i").toggleClass("uiIconArrowRight uiIconArrowDown");
 			});
 		}

@@ -12321,3 +12321,9 @@ a:hover [class^="uiIconChat32"],
   background-image: url("../img/exo-platform-icons/chat-icons/uiIconChatColor.png");
   background-position: -80px;
 }
+.collapsed .uiIconArrowDown {
+    background-position: -40px -120px;
+}
+.collapsed .uiIconArrowRight{
+  background-position: -40px -120px;
+}
