@@ -6,7 +6,7 @@ GOAL:
 - Make it easy to study and reuse the eXo Platform style. By following our guidelines, your apps will fit very well in eXo
 
 DONE:
-- Components: Typography, Form, Button, Table, Avatar, Icon, Navigation, Dropdown, Mini Calendar, Progress bar, Alert, Tooltip and Popover, Thumbnails.
+- Components: Typography, Form, Button, Table, Avatar, Icon, Navigation, Dropdown, Mini Calendar, Progress bar, Alert, Tooltip and Popover, Thumbnails, Mention, Color, CSS Classes.
 - Patterns: Breadcrumb, Hover-reveal, Message, Popup, Pagination, Tabs, Sort by Column, Table Filter, Rating, Uploading.
 
 PLAN:
