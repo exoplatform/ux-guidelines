@@ -91,16 +91,19 @@
           <table class="table table-bordered table-striped">
          <thead>
             <tr>
+               <th> Component </th>
                <th>Class</th>
                <th>Description</th>
             </tr>
          </thead>
          <tbody>
             <tr>
+               <td rowspan="8">Form Input Elements</td>
                <td><code>input-mini</code></td>
                <td>Input element with mini width 60px.</td>
             </tr>
             <tr>
+
                <td><code>input-small</code></td>
                <td>Input element with small width 90px.</td>
             </tr>
@@ -129,6 +132,7 @@
                <td>Success input validation</td>
             </tr>   
             <tr>
+               <td rowspan="7">Button</td>
                <td><code>btn</code></td>
                <td>Standard gray button with gradient. Font size: 13px Button-height: 28px</td>
             </tr>   
@@ -157,6 +161,7 @@
                <td>Disabled status.</td>
             </tr>   
             <tr>
+               <td rowspan="3">Table</td>
                <td><code>table</code></td>
                <td>Basic table style</td>
             </tr>    
@@ -169,6 +174,7 @@
                <td>Table with stripe effect.</td>
             </tr>   
             <tr>
+               <td rowspan="5">Dropdown</td>
                <td><code>dropdown-menu</code></td>
                <td>Style for dropdown menu.</td>
             </tr>   
@@ -189,6 +195,7 @@
                <td>Mini vertical line.</td>
             </tr>   
             <tr>
+               <td rowspan="3">Progress Bar</td>
                <td><code>progress</code></td>
                <td>Progress bar.</td>
             </tr>   
@@ -201,6 +208,7 @@
                <td>Dynamic progress bar with striped style.</td>
             </tr> 
                 <tr>
+                <td rowspan="5">Alert</td>
                <td><code>alert</code></td>
                <td>Notification alert style</td>
             </tr>  
@@ -221,14 +229,17 @@
                <td>Information alert style</td>
             </tr>   
             <tr>
+               <td>Popover</td>
                <td><code>popover</code></td>
                <td>Style for Popover.</td>
             </tr>   
             <tr>
+              <td>Breadcrumb</td>
                <td><code>breadcrumb</code></td>
                <td>Style for Breadcrumb.</td>
             </tr>   
             <tr>
+               <td>Pagination</td>
                <td><code>pagination</code></td>
                <td>Style for pagination.</td>
             </tr>   
@@ -244,16 +255,19 @@
           <table class="table table-bordered table-striped">
          <thead>
             <tr>
+               <th>Component</th>
                <th>Class</th>
                <th>Description</th>
             </tr>
          </thead>
          <tbody>
             <tr>
+               <td>Typography</td>
                <td><code>titleWithBorder</code></td>
                <td>Heading or title with a line.</td>
             </tr>   
             <tr>
+               <td rowspan="7">Form input elements</td>
                <td><code>uiSearchInput</code></td>
                <td>Quick search field with search icon.</td>
             </tr>  
@@ -282,6 +296,7 @@
                <td>Style for switch button.</td>
             </tr>  
              <tr>
+               <td rowspan="11">Avatar</td>
                <td><code>avatarCircle</code></td>
                <td>40x40 pixel circle avatar.</td>
             </tr>   
@@ -325,7 +340,7 @@
                <td><code>avatarMini</code></td>
                <td>16x16 pixel square avatar.</td>
             </tr>   
-            <tr>
+            <tr> <td rowspan="6">Icon</td>
                <td><code>uiIcon+Title</code></td>
                <td>Class to indicate an icon e.g uiIconEdit</td>
             </tr>  
@@ -345,7 +360,12 @@
                <td><code>uiIconBlue</code></td>
                <td>Icon with blue version.</td>
             </tr>  
+            <tr>
+               <td><code>actionIcon</code></td>
+               <td>Hover effect on an action icon.</td>
+            </tr>  
              <tr>
+               <td rowspan="2">Tab</td>
                <td><code>uiTabNormal</code></td>
                <td>Style for basic tab.</td>
             </tr>   
@@ -354,6 +374,7 @@
                <td>Style for gray tab in page.</td>
             </tr>  
              <tr>
+               <td rowspan="2">Toolbar</td>
                <td><code>UIToolbarContainer</code></td>
                <td>Style for light gray toolbar.</td>
             </tr>   
@@ -362,14 +383,12 @@
                <td>Style for dark toolbar.</td>
             </tr>  
              <tr>
+                <td>Calendar</td>
                <td><code>uiMiniCalendar</code></td>
                <td>Mini calendar component.</td>
             </tr>   
             <tr>
-               <td><code>actionIcon</code></td>
-               <td>Hover effect on an action icon.</td>
-            </tr>  
-             <tr>
+               <td rowspan="2">Upload</td>
                <td><code>attachmentContentImage</code></td>
                <td>Style for image attachment.</td>
             </tr>   
@@ -378,6 +397,7 @@
                <td>Style for attaching file</td>
             </tr>  
             <tr>
+               <td rowspan="2">Thumbnail</td>
                <td><code>uiThumbnailsView</code></td>
                <td>Style for file thumbnail view.</td>
             </tr>  
@@ -386,26 +406,21 @@
                <td>Style for action on thumbnail view.</td>
             </tr>  
             <tr>
+               <td>Mention</td>
                <td><code>uiMention</code></td>
                <td>Mention style e.g tag</td>
             </tr>  
             <tr>
+               <td>Hover reveal</td>
                <td><code>actionHover</code></td>
                <td>Style for hover effect.</td>
             </tr>  
             <tr>
+               <td rowspan="3">Popup</td>
                <td><code>uiPopup</code></td>
                <td>Style for popup windows.</td>
             </tr>  
-            <tr>
-               <td><code>singleMessage</code></td>
-               <td>Pop up with single message display.</td>
-            </tr>  
-            <tr>
-               <td><code>multipleMessage</code></td>
-               <td>Pop up with multiple messages display.</td>
-            </tr>  
-            <tr>
+             <tr>
                <td><code>uiAction</code></td>
                <td>Style for action in a pop up.</td>
             </tr>  
@@ -413,15 +428,28 @@
                <td><code>uiActionBorder</code></td>
                <td>Style for action in a pop up with line above.</td>
             </tr> 
+            <tr>
+               <td rowspan="2">Messages</td>
+               <td><code>singleMessage</code></td>
+               <td>Pop up with single message display.</td>
+            </tr>  
+            <tr>
+               <td><code>multipleMessage</code></td>
+               <td>Pop up with multiple messages display.</td>
+            </tr>  
+           
              <tr>
+               <td>Pagination</td>
                <td><code>uiPageIterator</code></td>
                <td>Style for pagination.</td>
             </tr>
              <tr>
+              <td>Vote</td>
                <td><code>uiVoteForm</code></td>
                <td>Style for Vote or Rate form.</td>
             </tr> 
              <tr>
+               <td rowspan="2">Trees</td>
                <td><code>uiTrees</code></td>
                <td>Style content tree.</td>
             </tr> 
