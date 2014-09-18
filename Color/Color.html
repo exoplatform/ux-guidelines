@@ -71,13 +71,15 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Color</h1>
-    <p class="lead">Basic color in Platform.</p></div>
+    <p class="lead">Basic colors in Platform.</p></div>
 </header>
   <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row"><div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
           <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Basic Colors</a></li>
-          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>How to change color style?</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Primary Colors</a></li>
+          <li class=""><a href="#S3"><i class="icon-chevron-right"></i>Accent Colors</a></li>
+          <li class=""><a href="#S4"><i class="icon-chevron-right"></i>How to change color style?</a></li>
         </ul>
       </div>
       <div class="span9">
@@ -86,70 +88,100 @@
           <div class="page-header">
             <h2>Basic Colors</h2>
           </div>
-          <h4>Text Color</h4>
-
-<table class="table table-bordered table-striped">
+        <h7> Black and white are the basic colors in Platform and most popular sites. The black is used to generate gray schemes. </h7>
+      <table class="table table-bordered table-striped">
          <thead>
             <tr>
-               <th>Font Color</th>
-               <th>Title</th>
+               <th>Color Code</th>
+               <th>Typical Variables</th>
                <th>Apply For</th>
-
             </tr>
          </thead>
          <tbody>
-            <tr>
-               <td><h1><font color="#3333333">#333333</font></h1></td>
-               <td>Dark Gray</td>
-               <td>Default color for all titles, texts, text input, and labels.</td>
+              <tr>
+               <td style="background-color:#2F5E92"><h1><font color="#fff">#fff</font></h1></td>
+               <td><code>@white</code><br><code>@bodyBackground</code><br><code>@btnBackground</code> <br><code>@inputBackground</code><br> <code>@dropdownBackground</code> <br><code>@labelColor</code> <code>@uiPopupBackground</code> <br><code>@uiBoxBg</code></td>
+               <td>Default background color for ui elements, text color on dark or blue background.</td>
             </tr>
+              <tr>
+               <td style="background-color:#2F5E92"> <h1><font color="#000">#000</font></h1></td>
+               <td><code>@black</code></td>
+               <td>The base color is to generate gray schemes. E.g: <br><code>@grayDark</code>: lighten(@black, 20%)<br> <code>@gray</code>: lighten(@black, 50%); <br><code>@grayLight</code>: lighten(@black, 60%)<br><code>@borderColor</code>: lighten(@black, 80%);<br> <code>@componentBackgroundHover</code>: lighten(@black, 90%) <br><code>@componentBackground</code>: lighten(@black, 94%)<br><code>@componentBackgroundLight</code>: lighten(@black,97%) </td>
+            </tr>
+              <tr>
+               <td style="background-color:#2F5E92"><h1><font color="#3333333">#333333</font></h1></td>
+               <td><code>@grayDark</code><br><code>@textColor</code><br><code>@inputColor</code></td>
+               <td>Default color for all titles, texts, text input,labels and dark gray background.</td>
+            </tr>
+        
             <tr>
-               <td><h1><font color="#808080">#808080</font></h1></td>
-               <td>Medium Gray</td>
+               <td style="background-color:#2F5E92"><h1><font color="#808080">#808080</font></h1></td>
+               <td><code>@gray</code><br><code>@textMediumColor</code></td>
                <td>Text color in navigations, used for special purposes.</td>
             </tr>
             <tr>
-               <td><h1><font color="#999999">#999999</font></h1></td>
-               <td>Light Gray</td>
-               <td>Default gray color for small texts, sub-titles, and text explanations.</td>
+               <td style="background-color:#2F5E92"><h1><font color="#999999">#999999</font></h1></td>
+               <td ><code>@grayLight</code><br><code>textLightColor</code><br><code>@labelBackground</code> </td>
+               <td>Default gray color for small texts, sub-titles, text explanations and some other ui elements.</td>
             </tr>
             <tr>
-               <td><h1><font color="#2F5E92">#2F5E92</font></h1></td>
-               <td>Electric Blue</td>
-               <td>Emphasized titles, text hover or press, hyper-links or selected links.</td>
+               <td style="background-color:#2F5E92"><h1><font color="#CCCCCC">#CCCCCC</font></h1></td>
+               <td><code>@borderColor</code><br><code>@btnBorder</code><br><code>@tableBorder</code><br><code>@dropdownBorder</code><br><code>@uiPopupBorder</code><br><code>@uiBoxBorder</code></td>
+               <td>Default color for all border types and some other ui elements.</td>
             </tr>
-           </tbody>
+              <tr>
+               <td style="background-color:#2F5E92"><h1><font color="#E6E6E6">#E6E6E6</font></h1></td>
+               <td><code>@componentBackgroundHover</code><br><code>@tableBackgroundHover</code></td>
+               <td>Hover, press background effects and some other ui elements.</td>
+            </tr>
+            <tr>
+               <td style="background-color:#2F5E92"><h1><font color="#F0F0F0">#F0F0F0</font></h1></td>
+               <td><code>@componentBackground</code><br><code>@uiPopupHeaderBackground</code><br><code>@btnBackgroundHighlight</code></td>
+               <td>Main color for all header backgrounds such as pop up, table, tab and some other ui elements.</td>
+            </tr>
+            <tr>
+               <td style="background-color:#2F5E92"><h1><font color="#F7F7F7">#F7F7F7</font></h1></td>
+               <td><code>@componentBackgroundLight</code><br><code>@tableBackgroundAccent</code><br><code>@multipleMessageBackground</code></td>
+               <td>Light gray background is for table row, content background and other ui elements.</td>
+            </tr>
+         </tbody>
       </table>
-<h4>Element Color</h4>
-<table class="table table-bordered table-striped">
+    </section>
+   <section id="S2">
+          <div class="page-header">
+            <h2>Primary Colors</h2>
+          </div>
+          
+        <h7> Electric Blue is the primary color in Platform. It is used for primary actions or contents that is mainly specify the style of a site.</h7>
+        <table class="table table-bordered table-striped">
          <thead>
             <tr>
-               <th>Color</th>
-               <th>Title</th>
+               <th>Color Code</th>
+               <th>Typical Variables</th>
                <th>Apply For</th>
 
             </tr>
          </thead>
          <tbody>
             <tr>
-               <td><h1><font color="#CCCCCC">#CCCCCC</font></h1></td>
-               <td>Border Color</td>
-               <td>Default color for all borders and lines.</td>
+               <td><h1><font color="#2F5E92">#2F5E92</font></h1></td>
+               <td><code>@primaryColor</code><br><code>@linkColor</code><br><code>@linkColorHover</code><br><code>@btnPrimaryBackgroundHighlight</code><br><code>@uiCheckboxCheckedBorder</code><br><code>@uiRadioCheckedColor</code><br></td>
+               <td>Electric blue is used for emphasized titles, text hover or press, hyper-links, selected links and some other ui elements. The electric blue is used to generate blue schemes. E.g:<br><code>@primaryDarkColor</code>:darken(@primaryColor, 10.5%)<br><code>@primaryLightColor</code>:lighten(@primaryColor, 18.5%)<br><code>@primaryLighterColor</code>:lighten(@primaryColor, 22%)</td>
             </tr>
               <tr>
-               <td><h1><font color="#E6E6E6">#E6E6E6</font></h1></td>
-               <td>Dark Gray Background</td>
-               <td>Hover, press backgroud effects.</td>
+               <td><h1><font color="#224469">#224469</font></h1></td>
+               <td><code>@btnPrimaryBorder</code></td>
+               <td>Dark blue is used for primary button border.</td>
             </tr>
             <tr>
-               <td><h1><font color="#F0F0F0">#F0F0F0</font></h1></td>
-               <td>Gray background</td>
-               <td>Main color for all header backgrounds such as pop up, table.</td>
+               <td><h1><font color="#578DC9">#578DC9</font></h1></td>
+               <td><code>@primaryLightColor</code><br><code>@labelHoverBackground</code><br></td>
+               <td>Light blue color is used for basic blue background or combine with the other blue color to generate blue gradient such as primary button effects, dropdown, progress bar...</td>
             </tr>
             <tr>
-               <td><h1><font color="#F8F8F8">#F8F8F8</font></h1></td>
-               <td>Light Gray Background</td>
-               <td>Table row background, content background.</td>
+               <td><h1><font color="#6496CD">#6496CD</font></h1></td>
+               <td><code>@primaryLighterColor</code><br><code>@btnPrimaryBackground</code><br><code>@dropdownLinkBackgroundHover</code></td>
+               <td>Lighter blue color is for basic blue background or combine with the other blue color to generate blue gradient such as primary button effects, dropdown, progress bar...</td>
             </tr>
             
            </tbody>
@@ -157,20 +189,78 @@
 
         </section>
 
-        <!-- Body Copy ================================================== -->
-        <section id="S2">
+       <section id="S3">
+          <div class="page-header">
+            <h2>Accent Colors</h2>
+          </div>
+          
+        <h7> Accent colors are the colors that are used for emphasis in Platform. For exmaple red for error notification, green for success notification...</h7>
+        <table class="table table-bordered table-striped">
+         <thead>
+            <tr>
+               <th>Color Code</th>
+               <th>Typical Variables</th>
+               <th>Apply For</th>
+
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><h1><font color="#C72222">#C72222</font></h1></td>
+               <td><code>@red</code><br><code>@errorBorder</code></td>
+               <td>Red primary is used for error message and red border of error notication. It is used to generate red schemes also. E.g:<br><code>@redLight</code>:lighten(spin(@red, 5%), 30%)</td>
+            </tr>
+              <tr>
+               <td><h1><font color="#ED9C95">#ED9C95</font></h1></td>
+               <td><code>@redLight</code><br><code>@errorBackground</code></td>
+               <td>Light red is mainly used for error notification background.</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#EDAD00">#EDAD00</font></h1></td>
+               <td><code>@yellow</code><br><code>@warningBorder</code></td>
+               <td>Yellow primary is mainly used for yellow border of warning notification. It is used to generate yellow schemes also. E.g:<br><code>@yellowLight</code>:lighten(spin(@yellow, 5%), 42%)</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#FFF4C4">#FFF4C4</font></h1></td>
+               <td><code>@yellowLight</code><br><code>@warningBackground</code></td>
+               <td>Light yellow is mainly used for warning notification background.</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#215AB2">#215AB2</font></h1></td>
+               <td><code>@blue</code><br><code>@infoBorder</code></td>
+               <td>Blue is mainly used for blue border of information notification. It is used to generate blue schemes also. E.g:<br><code>@blueLight</code>:lighten(spin(@blue, 5%), 48%)</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#DEE3FA">#DEE3FA</font></h1></td>
+               <td><code>@blueLight</code><br><code>@infoBackground</code></td>
+               <td>Light blue is mainly used for information notification background.</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#39C522">#39C522</font></h1></td>
+               <td><code>@green</code><br><code>@successBorder</code></td>
+               <td>Green primary is mainly used for green border of success notification. It is used to generate green schemes also. E.g:<br><code>@greenLight</code>:lighten(spin(@yellow, 5%), 45%)</td>
+            </tr>
+            <tr>
+               <td><h1><font color="#D7F8D5">#D7F8D5</font></h1></td>
+               <td><code>@greenLight</code><br><code>@successBackground</code></td>
+               <td>Light green color is mainly used for success notification .</td>
+            </tr>
+            
+           </tbody>
+      </table>
+
+        </section>
+        <section id="S4">
            <div class="page-header">
             <h2>How to change color style?</h2>
           </div>
           <div class="alert alert-info" id="">
-          <i class="uiIconInfo"></i>This feature will be available on the next version of CSS update!
+            <i class="uiIconInfo"></i>This feature will be available on the next version of CSS update!
           </div>
-         <p><h7><code>@defaultColor: #000</code> and <code>@primaryColor: #2F5E92</code> are 2 base colors of eXo Platform style. The Platform is composed by gray (defaul color) and electric blue (primary color). These colors are the standard ones to generate the other color schemes. For example gray gradient, electric blue gradient, text and graphic element color. </h7></p>
-         <p><h7>In case you want to change the main color style, simply modify the base color code in the file <code>variables.less</code> in Platform or the correspondent generated css file. In UX Guidelines, it is in <code>exo-platform.css</code></h7><p>
-         <p><h7>For example, instead of electric blue for primary color style, users can replace <code>#2F5E92</code> by <code>#C72222</code>. So, we have<code>@primaryColor: #C72222</code>.</h7><p>
-
-
-</section>
+         <p><h7><code>@defaultColor: #000</code> and <code>@primaryColor: #2F5E92</code> are 2 base colors of eXo Platform style. These colors are the standard ones to generate the other color schemes. For example gray gradient, electric blue gradient, text and graphic element color. </h7></p>
+         <p><h7>In case you want to change color style, simply modify the base color code in the file <code>variables.less</code> in Platform or the correspondent generated css file. In UX Guidelines, it is in <code>exo-platform.css</code></h7></p>
+         <p><h7>For example, instead of electric blue for primary color style, users can replace <code>#2F5E92</code> by <code>#C72222</code>. So, we have<code>@primaryColor: #C72222</code>. With this changes, all elements with electric blue and gradient blue will be replaced by red and gradient red correspondingly.</h7></p>
+        </section>
 </div>
 <p>
 <div id="footer">

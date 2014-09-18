@@ -93,30 +93,49 @@
       <div class="homeNode clearfix">
         <a style="display: block;" title="Up Level" rel="tooltip" onclick="#" class="actionIcon pull-left"><i class="uiIconUpLevel uiIconLightGray"></i></a>
       </div>
-      
-      <ul class="nodeGroup">
+   <ul class="nodeGroup">
         
         <li class="node">
           
-           <a onclick="" title="Development" class="uiIconNode collapseIcon"><i class="uiIconGroup uiIconLightGray"></i>Development </a>                     
+           <a onclick="" title="Development" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Development </a>                     
                          
           </li>
         
         <li class="node">
           
-           <a onclick="" title="Organization" class="uiIconNode collapseIcon"><i class="uiIconGroup uiIconLightGray"></i>Organization </a>                     
+           <a onclick="" title="Organization" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Organization </a>                     
                          
           </li>
         
         <li class="node">
           
-           <a onclick="" title="Platform" class="uiIconNode collapseIcon"><i class="uiIconGroup uiIconLightGray"></i>Platform </a>                     
+           <a title="Platform" class="uiIconNode expandIcon nodeSelected" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Platform </a>                     
+          
+            <ul actionlink="" class="childrenContainer nodeGroup">
+            
+                <li class="node">
+                   <a onclick="" title="Administration" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Administration </a>
+                </li>
+              
+                <li class="node">
+                   <a onclick="" title="Guests" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Guests </a>
+                </li>
+              
+                <li class="node">
+                   <a onclick="" title="Users" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Users </a>
+                </li>
+              
+                <li class="node">
+                   <a onclick="" title="Content Management" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Content Management </a>
+                </li>
+                              
+            </ul>         
                          
           </li>
         
         <li class="node">
           
-           <a onclick="" title="Spaces" class="uiIconNode collapseIcon"><i class="uiIconGroup uiIconLightGray"></i>Spaces </a>                     
+           <a onclick="javascript:eXo.webui.UIForm.submitEvent('UIPortalForm','ChangeNode','&amp;subComponentId=TreeListPermissionSelector&amp;objectId=/spaces')" title="Spaces" class="uiIconNode collapseIcon" href="javascript:void(0);"><i class="uiIconGroup uiIconLightGray"></i>Spaces </a>                     
                          
           </li>
         
@@ -135,6 +154,118 @@
            <div class="page-header">
             <h2>Advanced Trees</h2>
           </div>
+          <div id="UITreeExplorer" class="uiTreeExplorer">
+        <ul class="nodeGroup">
+          <li class="node">
+  <div onclick="" id="" class="collapseIcon">
+    <div onmousedown=""><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="" target="_new" onclick="" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="" id="" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="acme "><i class="uiIcon16x16FolderDefault uiIcon16x16exo_portalFolder" title="acme">
+ </i> <span class="nodeName">acme</span></a>
+    </div>
+  </div>
+<ul class="nodeGroup">
+<li class="node">
+  <div onclick="" class="expandIcon">
+    <div onmousedown="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2fcategories" mousedown=""><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/categories" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/acme/categories');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/categories" id="Managed Sites_treeclip_button31" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="categories "><i class="uiIcon16x16FolderDefault uiIcon16x16nt_unstructured" title="categories">
+ </i> <span class="nodeName">categories</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvY3Nz" class="expandIcon">
+    <div onmousedown="" onclick="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2fcss" mousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/acme/css','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');"><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/css" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/acme/css');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/css" id="Managed Sites_treeclip_button32" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="css "><i class="uiIcon16x16FolderDefault uiIcon16x16exo_cssFolder" title="css">
+ </i> <span class="nodeName">css</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvZG9jdW1lbnRz" class="collapseIcon">
+    <div onmousedown="" workspacename="collaboration" objectid="%2Fsites%2Facme%2Fdocuments" onclick="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2fdocuments" mousedown=""><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/documents" target="_new" onclick="" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/documents" id="Managed Sites_treeclip_button33" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="documents "><i class="uiIcon16x16FolderDefault uiIcon16x16exo_documentFolder" title="documents">
+ </i> <span class="nodeName">documents</span></a>
+    </div>
+  </div>
+<ul class="nodeGroup">
+<li class="node">
+  <div onclick="" class="emptyIcon">
+    <div onmousedown="" onclick="" isfile="true" id="iconTreeExplorer_2fsites_2facme_2fdocuments_2fconditions.doc" mousedown=""><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a onclick="return eXo.ecm.WCMUtils.hideContextMenu(this);" target="_new" href="/portal/g/:platform:web-contributors/siteExplorer?path=Managed%20Sites/sites/acme/documents/conditions.doc" style="display: block;" exo:attr="ViewDocument"> <i class="uiIconEcmsViewDocument uiIconEcmsLightGray"> </i> View Document</a></li><li class="menuItem"><a href="javascript:eXo.ecm.ECMUtils.generateWebDAVLink('','portal','rest','repository','collaboration','/sites/acme/documents/conditions.doc','application/msword')" onclick="return eXo.ecm.WCMUtils.hideContextMenu(this);" style="display: block;" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/documents/conditions.doc" id="Managed Sites_treeclip_button41" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="conditions.doc "><i class="uiIcon16x16FileDefault uiIcon16x16nt_file uiIcon16x16applicationmsword" title="conditions.doc">
+ </i> <span class="nodeName">conditions.doc</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvZG9jdW1lbnRzL21ldHJvLnBkZg==" class="emptyIcon">
+    <div onmousedown="" workspacename="collaboration" objectid="%2Fsites%2Facme%2Fdocuments%2Fmetro.pdf" onclick="" isfile="true" id="iconTreeExplorer_2fsites_2facme_2fdocuments_2fmetro.pdf" mousedown=""><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a onclick="return eXo.ecm.WCMUtils.hideContextMenu(this);" target="_new" href="/portal/g/:platform:web-contributors/siteExplorer?path=Managed%20Sites/sites/acme/documents/metro.pdf" style="display: block;" exo:attr="ViewDocument"> <i class="uiIconEcmsViewDocument uiIconEcmsLightGray"> </i> View Document</a></li><li class="menuItem"><a href="javascript:eXo.ecm.ECMUtils.generateWebDAVLink('','portal','rest','repository','collaboration','/sites/acme/documents/metro.pdf','application/pdf')" onclick="return eXo.ecm.WCMUtils.hideContextMenu(this);" style="display: block;" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/documents/metro.pdf" id="Managed Sites_treeclip_button42" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="metro.pdf "><i class="uiIcon16x16FileDefault uiIcon16x16nt_file uiIcon16x16applicationpdf" title="metro.pdf">
+ </i> <span class="nodeName">metro.pdf</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvZG9jdW1lbnRzL29mZmljZXMuanBn" class="emptyIcon">
+    <div onmousedown="" workspacename="collaboration" objectid="%2Fsites%2Facme%2Fdocuments%2Foffices.jpg" onclick="" isfile="true" id="iconTreeExplorer_2fsites_2facme_2fdocuments_2foffices.jpg" mousedown=""><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a onclick="return eXo.ecm.WCMUtils.hideContextMenu(this);" target="_new" href="/portal/g/:platform:web-contributors/siteExplorer?path=Managed%20Sites/sites/acme/documents/offices.jpg" style="display: block;" exo:attr="ViewDocument"> <i class="uiIconEcmsViewDocument uiIconEcmsLightGray"> </i> View Document</a></li><li class="menuItem"><a href="javascript:eXo.ecm.ECMUtils.generateWebDAVLink('','portal','rest','repository','collaboration','/sites/acme/documents/offices.jpg','image/jpeg')" onclick="return eXo.ecm.WCMUtils.hideContextMenu(this);" style="display: block;" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/documents/offices.jpg" id="Managed Sites_treeclip_button43" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="offices.jpg "><i class="uiIcon16x16FileDefault uiIcon16x16nt_file uiIcon16x16imagejpeg" title="offices.jpg">
+ </i> <span class="nodeName">offices.jpg</span></a>
+    </div>
+  </div>
+</li>
+</ul>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvZXZlbnRz" class="emptyIcon">
+    <div onmousedown="" workspacename="collaboration" objectid="%2Fsites%2Facme%2Fevents" onclick="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2fevents" mousedown=""><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/events" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/acme/events');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/events" id="Managed Sites_treeclip_button34" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="events "><i class="uiIcon16x16exo_taxonomyDefault uiIcon16x16exo_taxonomy" title="events">
+ </i> <span class="nodeName">events</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvanM=" class="emptyIcon">
+    <div onmousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/acme/js','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');" workspacename="collaboration" objectid="%2Fsites%2Facme%2Fjs" onclick="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2fjs" mousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/acme/js','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');"><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/js" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/acme/js');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/js" id="Managed Sites_treeclip_button35" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="js "><i class="uiIcon16x16FolderDefault uiIcon16x16exo_jsFolder" title="js">
+ </i> <span class="nodeName">js</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvbGlua3M=" class="emptyIcon">
+    <div onmousedown="" workspacename="collaboration" objectid="%2Fsites%2Facme%2Flinks" onclick="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2flinks" mousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/acme/links','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');"><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/links" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/acme/links');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/links" id="Managed Sites_treeclip_button36" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="event.cancelBubble=true;javascript:ajaxGet('/portal/g/:platform:web-contributors/siteExplorer?portal:componentId=3b6c326c-2cd6-4198-8d96-d3fd9a05b24a&amp;interactionstate=JBPNS_rO0ABXd9AAJvcAAAAAEABkV4cGFuZAAIb2JqZWN0SWQAAAABABEvc2l0ZXMvYWNtZS9saW5rcwALdWljb21wb25lbnQAAAABAA5VSVRyZWVFeHBsb3JlcgANd29ya3NwYWNlTmFtZQAAAAEADWNvbGxhYm9yYXRpb24AB19fRU9GX18*&amp;portal:type=action&amp;ajaxRequest=true')" data-original-title="links "><i class="uiIcon16x16FolderDefault uiIcon16x16exo_linkFolder" title="links">
+ </i> <span class="nodeName">links</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" id="L3NpdGVzL2FjbWUvbWVkaWFz" class="expandIcon">
+    <div onmousedown="" workspacename="collaboration" objectid="%2Fsites%2Facme%2Fmedias" onclick="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2fmedias" mousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/acme/medias','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');"><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/medias" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/acme/medias');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/medias" id="Managed Sites_treeclip_button37" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="medias "><i class="uiIcon16x16FolderDefault uiIcon16x16exo_multimediaFolder" title="medias">
+ </i> <span class="nodeName">medias</span></a>
+    </div>
+  </div>
+</li>
+<li class="node">
+  <div onclick="" class="expandIcon">
+    <div onmousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/acme/web contents','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');" workspacename="collaboration" objectid="%2Fsites%2Facme%2Fweb+contents" onclick="" isfile="false" id="iconTreeExplorer_2fsites_2facme_2fweb_20contents" mousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/acme/web contents','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');"><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/acme/web contents" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/acme/web contents');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/acme/web contents" id="Managed Sites_treeclip_button38" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick="" data-original-title="web contents "><i class="uiIcon16x16FolderDefault uiIcon16x16exo_webFolder" title="web contents">
+ </i> <span class="nodeName">web contents</span></a>
+    </div>
+  </div>
+</li>
+</ul>
+</li>
+<li class="node">
+  <div onclick="" class="expandIcon">
+    <div onmousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/exo:actions','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');" workspacename="collaboration" objectid="%2Fsites%2Fexo%3Aactions" onclick="" mousedown="eXo.webui.UIRightClickPopupMenu.clickRightMouse(event, this, 'ECMContextMenu','collaboration:/sites/exo:actions','Copy,Cut,Delete,Lock,Rename,AddSymLink,ViewInfo');"><ul style="display: none;" class="RightClickCustomItem"><li class="menuItem"><a folder="/rest/private/jcr/repository/collaboration/sites/exo:actions" target="_new" onclick="eXo.ecm.WCMUtils.hideContextMenu(this);window.open('/rest/private/jcr/repository/collaboration/sites/exo:actions');" style="display: block; {behavior: url(#default#AnchorClick);}" exo:attr="Download" class="itemDownload">  <i class="uiIconDownload uiIconLightGray"></i> Open in MS Office</a></li><li class="menuItem"><a path="http://plfent-4.1.x-pkgpriv-stabilization-snapshot.acceptance3.exoplatform.org:80/rest/private/jcr/repository/collaboration/sites/exo:actions" id="Managed Sites_treeclip_button22" style="display: block;" exo:attr="CopyUrlToClipboard"> <i class="uiIconEcmsCopyUrlToClipboard uiIconEcmsLightGray"> </i> Copy URL To Clipboard</a></li></ul>
+    <a title="" data-placement="bottom" rel="tooltip" style="cursor: pointer;" onclick=""><i class="uiIcon16x16FolderDefault uiIcon16x16exo_actionStorage" title="exo:actions">
+ </i> <span class="nodeName">exo:actions</span></a>
+    </div>
+  </div>
+</li>
+        </ul>       
+    </div>
          <div class="progress progress-striped active">
   <div class="bar" style="width: 45%"></div>
 </div>
