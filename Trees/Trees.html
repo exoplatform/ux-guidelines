@@ -71,8 +71,9 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Trees</h1>
-    <p class="lead">Basic style for category tree in Platform.</p></div>
-</header>
+    <p class="lead">Basic style for category tree in Platform.</p>
+   </header>
+
   <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row"><div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
@@ -86,7 +87,8 @@
           <div class="page-header">
             <h2>Basic Trees</h2>
           </div>
-
+<h7> Use the class <code>uiTrees</code> to define default style for basic tree. </h7>
+<div class="bs-docs-example">
           <div class="uiTrees scrollArea">
   <div class="treeContainer jsContainer">
     
@@ -142,10 +144,20 @@
       </ul>
       
   </div>  
-</div><br>
-          <div class="progress progress-striped active">
-  <div class="bar" style="width: 45%"></div>
 </div>
+
+</div><br>
+  <pre class="prettyprint linenums">
+
+  &lt;div class="uiTrees scrollArea"&gt;
+  &lt;ul class="nodeGroup"&gt;
+  ...
+   &lt;/ul&gt;
+  &lt;/div&gt;
+  </pre>
+
+
+ 
 
         </section>
 
@@ -154,6 +166,8 @@
            <div class="page-header">
             <h2>Advanced Trees</h2>
           </div>
+          <h7> Use the class <code>UITreeExplorer</code> to define advanced style for a tree with node type icon. </h7>
+          <div class="bs-docs-example">
           <div id="UITreeExplorer" class="uiTreeExplorer">
         <ul class="nodeGroup">
           <li class="node">
@@ -266,10 +280,18 @@
 </li>
         </ul>       
     </div>
-         <div class="progress progress-striped active">
-  <div class="bar" style="width: 45%"></div>
+    
 </div>
+<br>
 
+   <pre class="prettyprint linenums">
+
+  &lt;div class="uiTreeExplorer"&gt;
+  &lt;ul class="nodeGroup"&gt;
+  ...
+   &lt;/ul&gt;
+  &lt;/div&gt;
+  </pre>
 
 </section>
 </div>
