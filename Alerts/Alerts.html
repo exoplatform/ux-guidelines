@@ -8,12 +8,15 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-      <link href="../css/bootstrap.css" rel="stylesheet">
-      <link href="../css/responsive.css" rel="stylesheet">
-      <link href="../css/docs.css" rel="stylesheet">
-      <link href="../css/exo-platform.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+       <link href="..//eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+   
 	  
-	   <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
 	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
 	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
 	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
@@ -200,44 +203,44 @@
         <p><h3>Alert on the top in a portlet</h3></p>
 
           <div class="bs-docs-example">
-            <div id="UIJCRExplorer" class="UIJCRExplorer"><div id="UIControl" class="UIControl">
-<form method="post" action="" id="UIAddressBar" class="UIForm"><div><input type="hidden" value="" name="formOp"><input type="hidden" value="" name="gtn:csrf"></div>
+          <div class="UIJCRExplorer" id="UIJCRExplorer"><div class="UIControl" id="UIControl">
+<form class="UIForm" id="UIAddressBar" action="" method="post"><div><input type="hidden" name="formOp" value=""><input type="hidden" name="gtn:csrf" value=""></div>
 <div class="uiAddressBar uiGrayLightBox">
 
   <table class="tblAddressBar">
     <tbody><tr class="block">
       
-             <td class="detailViewIcon" style="width: 93px;">
+             <td style="width: 93px;" class="detailViewIcon">
                   <div class="btn-group">
                     
-        <a data-placement="bottom" rel="tooltip" class="btn active" onclick=" " data-original-title="Admin"><i class="uiIconEcmsViewDefault uiIconEcmsViewAdmin"></i></a>
-                   <a data-placement="bottom" rel="tooltip" class="btn " onclick="" data-original-title="Icons"><i class="uiIconEcmsViewDefault uiIconEcmsViewIcons"></i></a>
+        <a data-original-title="Admin" onclick=" " class="btn active" rel="tooltip" data-placement="bottom"><i class="uiIconEcmsViewDefault uiIconEcmsViewAdmin"></i></a>
+                   <a data-original-title="Icons" onclick="" class="btn " rel="tooltip" data-placement="bottom"><i class="uiIconEcmsViewDefault uiIconEcmsViewIcons"></i></a>
                 
-                    <a data-placement="bottom" rel="tooltip" class="btn " onclick="j" data-original-title="List"><i class="uiIconEcmsViewDefault uiIconEcmsViewList"></i></a>
+                    <a data-original-title="List" onclick="j" class="btn " rel="tooltip" data-placement="bottom"><i class="uiIconEcmsViewDefault uiIconEcmsViewList"></i></a>
                 
                     
                    </div>
                  </td>
          <td class="backAndRefreshBlock">
-        <a data-placement="bottom" rel="tooltip" href="" class="backIcon actionIcon pull-left" data-original-title="Back to the previous node"><i class="uiIconEcmsGoBack"></i></a>  
-        <a data-placement="bottom" rel="tooltip" href="" class="refreshIcon actionIcon pull-left" data-original-title="Refresh"><i class="uiIconRefresh"></i></a>
+        <a data-original-title="Back to the previous node" class="backIcon actionIcon pull-left" href="" rel="tooltip" data-placement="bottom"><i class="uiIconEcmsGoBack"></i></a>  
+        <a data-original-title="Refresh" class="refreshIcon actionIcon pull-left" href="" rel="tooltip" data-placement="bottom"><i class="uiIconRefresh"></i></a>
       </td> 
       
-      <td class="uiAddressBarAction" id="UIAddressBarAction">
+      <td id="UIAddressBarAction" class="uiAddressBarAction">
         <div class="blockMiddle3 uiPopupSelector clearfix">
-          <div onkeydown="eXo.ecm.ECMUtils.clickLeftMouse(event,this,2,1)" onclick="" class="dropDownButtonBox">
-            <i data-placement="bottom" rel="tooltip" class="uiIconArrowDown uiIconLightGray" data-original-title="Show the history address"></i>
+          <div class="dropDownButtonBox" onclick="" onkeydown="eXo.ecm.ECMUtils.clickLeftMouse(event,this,2,1)">
+            <i data-original-title="Show the history address" class="uiIconArrowDown uiIconsDefault" rel="tooltip" data-placement="bottom"></i>
           </div>
-          <div id="AddressBarControl" class="inputContainer">
-            <a data-placement="bottom" rel="tooltip" id="GotoLocation" href="" data-original-title="Change Node"></a>
-            <input type="text" value="/Documents" id="address" name="address">
+          <div class="inputContainer" id="AddressBarControl">
+            <a data-original-title="Change Node" href="" id="GotoLocation" rel="tooltip" data-placement="bottom"></a>
+            <input type="text" name="address" id="address" value="/Documents">
     
         </div>
-      </td>
+      </div></td>
       <td class="right">
-        <div id="SimpleSearchControl" class="advance">
-          <a id="SimpleSearch" class="searchBtn" data-placement="bottom" rel="tooltip" href="" data-original-title="Quick Search"><i class="uiIconSearch uiIconLightGrey"></i></a>
-          <input type="text" id="simpleSearch" name="simpleSearch">
+        <div class="advance" id="SimpleSearchControl">
+          <a data-original-title="Quick Search" href="" rel="tooltip" data-placement="bottom" class="searchBtn" id="SimpleSearch"><i class="uiIconSearch uiIconsDefault"></i></a>
+          <input type="text" name="simpleSearch" id="simpleSearch">
         </div>
       </td>
     </tr>
@@ -248,7 +251,7 @@
 </form>
 </div>
 
-<div class="alert alert-success wcmAlertSuccess" style="display: block; top: 34px; margin-left: -175.5px;" id="wcm-notice"><i class="uiIconSuccess"></i>'Sample.doc' was deleted succesfully. <a href="">Undo</a></div>
+<div id="wcm-notice" style="display: block; top: 34px; margin-left: -175.5px;" class="alert alert-success wcmAlertSuccess"><i class="uiIconSuccess"></i>'Sample.doc' was deleted succesfully. <a href="">Undo</a></div>
 
 </div>
 
@@ -326,7 +329,7 @@
 </section>
  </div>
 <div id="footer">
-        Copyright ©2014. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+        Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
       </div>
       <!-- Le javascript
     ================================================== -->
