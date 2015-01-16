@@ -116,32 +116,32 @@
   margin-left: 180px;
 }
 .uiIconEcmsFolksonomyManager {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
   background-position: -60px -20px;
 }
 a:hover .uiIconEcmsFolksonomyManager {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiIconEcmsTaxonomyManagerTrees {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
   background-position: -20px -60px;
 }
 a:hover .uiIconEcmsTaxonomyManagerTrees {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiIconEcmsActionManager {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
   background-position: 0px -40px;
 }
 a:hover .uiIconEcmsActionManager {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiIconEcmsUnLockManager {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
   background-position: -60px 0px;
 }
 a:hover .uiIconEcmsUnLockManager {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiSearchBox {
   margin: 0 0 14px 0;

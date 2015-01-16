@@ -210,11 +210,11 @@ li {
   height: 20px;
 }
 .ProDetailPage .ShareApp .Facebook {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon20x20.png') no-repeat right -24px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon20x20.png') no-repeat right -24px;
   margin-left: 6px;
 }
 .ProDetailPage .ShareApp .Twitter {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon20x20.png') no-repeat right top;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon20x20.png') no-repeat right top;
 }
 .ProDetailPage .ProBoxTLIn {
   background-position: left -200px;
@@ -292,7 +292,7 @@ li {
   width: 190px;
 }
 .ProDetailPage .Box1 .Icon {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/pdf.gif') no-repeat left top;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/pdf.gif') no-repeat left top;
   color: #595959;
   float: left;
   font-size: 13px!important;
@@ -305,28 +305,28 @@ li {
   padding: 8px 0 8px 10px;
 }
 .ProDetailPage .Box1 .VideoDemo {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left top;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left top;
 }
 .ProDetailPage .Box1 .MemberKit {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -119px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -119px;
 }
 .ProDetailPage .Box1 .Tutorial {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -61px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -61px;
 }
 .ProDetailPage .Box1 .SampContract {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -178px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -178px;
 }
 .ProDetailPage .Box1 .Healing {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -238px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -238px;
 }
 .ProDetailPage .Box1 .XRayVision {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -367px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -367px;
 }
 .ProDetailPage .Box1 .Immunity {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -301px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -301px;
 }
 .ProDetailPage .Box1 .Vision {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -429px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon50x50.png') no-repeat left -429px;
 }
 .ProDetailPage .ui-tabs ul li a {
   line-height: 28px;
@@ -339,7 +339,7 @@ li {
 }
 /*Normal button*/
 .ProDetailPage li.ui-state-default a.ArrowCtrl {
-  background: #f3f3f3 url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon11x11.png') no-repeat 90% -13px;
+  background: #f3f3f3 url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon11x11.png') no-repeat 90% -13px;
   border: 1px solid #eaeaea;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -347,7 +347,7 @@ li {
 }
 /*Highlight button*/
 .ProDetailPage li.ui-tabs-selected a.ArrowCtrl {
-  background: #ffcb05 url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon11x11.png') no-repeat 90% 11px;
+  background: #ffcb05 url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon11x11.png') no-repeat 90% 11px;
   border: 1px solid #eaeaea;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -364,7 +364,7 @@ li {
   margin-bottom: 25px;
 }
 .ProDetailPage ul.ContList li {
-  list-style-image: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/ListIcon.png');
+  list-style-image: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/ListIcon.png');
   list-style-type: square;
   line-height: 16px;
   padding: 5px 0;
@@ -462,11 +462,11 @@ li {
   padding: 2px 0 0;
 }
 .nav-tabs > li > a.ArrowCtrl {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon11x11.png") no-repeat scroll 90% -13px #f3f3f3;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon11x11.png") no-repeat scroll 90% -13px #f3f3f3;
 }
 .nav-tabs > li.active > a.ArrowCtrl,
 .nav-tabs > li.active > a.ArrowCtrl:hover {
-  background: url('/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon11x11.png') #ffcb05 no-repeat 90% 11px;
+  background: url('/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon11x11.png') #ffcb05 no-repeat 90% 11px;
 }
 .UIPresentationContainer .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
   margin-bottom: 0;
@@ -483,7 +483,7 @@ li {
   white-space: nowrap;
 }
 .UIPresentationContainer li.ui-tabs-selected a.ArrowCtrl {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon11x11.png") no-repeat scroll 90% 11px #ffcb05;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon11x11.png") no-repeat scroll 90% 11px #ffcb05;
   border: 1px solid #EAEAEA;
 }
 .UIPresentationContainer .ui-tabs ul li a {
@@ -502,7 +502,7 @@ li {
   font-weight: bold;
 }
 .UIPresentationContainer li.ui-state-default a.ArrowCtrl {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon11x11.png") no-repeat scroll 90% -13px #f3f3f3;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon11x11.png") no-repeat scroll 90% -13px #f3f3f3;
   border: 1px solid #EAEAEA;
 }
 .UIPresentationContainer ul.ContList {
@@ -513,7 +513,7 @@ li {
 .UIPresentationContainer ul.ContList li {
   color: #424242;
   line-height: 16px;
-  list-style-image: url("/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/ListIcon.png");
+  list-style-image: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/ListIcon.png");
   list-style-type: square;
   padding: 5px 0;
 }
@@ -587,10 +587,10 @@ body .Bookmarking .ShareApp {
   padding-bottom: 5px;
 }
 body .Bookmarking .ShareApp .Twitter {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon20x20.png") no-repeat right top;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon20x20.png") no-repeat right top;
 }
 body .Bookmarking .ShareApp .Facebook {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/ProductStyle/Icon20x20.png") no-repeat right -24px;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/ProductStyle/Icon20x20.png") no-repeat right -24px;
 }
 .UISingleContentViewerPortlet .UIPresentationContainer .uiOptionBar .actionIcon + .pull-right {
   margin-top: 4px;
@@ -626,21 +626,21 @@ button.jQnext {
   width: 21px;
   height: 21px;
   text-decoration: none;
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/JCarouselLiteStyle/NavLeft.gif") left top no-repeat;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/JCarouselLiteStyle/NavLeft.gif") left top no-repeat;
   border: none;
 }
 button.jQprev {
   left: 8px;
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/JCarouselLiteStyle/NavLeft.gif") right top no-repeat;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/JCarouselLiteStyle/NavLeft.gif") right top no-repeat;
 }
 button.jQprev:hover {
-  background-image: url("/eXoSkin/skin/images/platform/portlets/acme-website/JCarouselLiteStyle/NavLeftHover.gif");
+  background-image: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/JCarouselLiteStyle/NavLeftHover.gif");
 }
 button.jQnext {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/JCarouselLiteStyle/NavRight.gif") right top no-repeat;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/JCarouselLiteStyle/NavRight.gif") right top no-repeat;
 }
 button.jQnext:hover {
-  background-image: url("/eXoSkin/skin/images/platform/portlets/acme-website/JCarouselLiteStyle/NavRightHover.gif");
+  background-image: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/JCarouselLiteStyle/NavRightHover.gif");
 }
 .jCarouselLite {
   float: left;
@@ -649,36 +649,36 @@ button.jQnext:hover {
   padding: 0 8px;
 }
 .ContentNavigationIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/UINavigationForm/UINavigationForm.gif") no-repeat scroll left center transparent !important;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/UINavigationForm/UINavigationForm.gif") no-repeat scroll left center transparent !important;
   height: 24px !important;
 }
 .UINavigationForm .SelectNavigationNodeIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/UINavigationForm/MagnifierIconNews.png") no-repeat scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/UINavigationForm/MagnifierIconNews.png") no-repeat scroll 0 0 transparent;
   width: 16px;
   height: 16px;
 }
 .UINavigationForm .SelectListTargetPageIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/UINavigationForm/MagnifierIconNews.png") no-repeat scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/UINavigationForm/MagnifierIconNews.png") no-repeat scroll 0 0 transparent;
   width: 16px;
   height: 16px;
 }
 .UINavigationForm .SelectDetailTargetPageIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/UINavigationForm/MagnifierIconNews.png") no-repeat scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/UINavigationForm/MagnifierIconNews.png") no-repeat scroll 0 0 transparent;
   width: 16px;
   height: 16px;
 }
 .UINavigationForm .RemoveNavigationNodeIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/UINavigationForm/DustBin.gif") no-repeat scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/UINavigationForm/DustBin.gif") no-repeat scroll 0 0 transparent;
   width: 16px;
   height: 16px;
 }
 .UINavigationForm .RemoveListTargetPageIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/UINavigationForm/DustBin.gif") no-repeat scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/UINavigationForm/DustBin.gif") no-repeat scroll 0 0 transparent;
   width: 16px;
   height: 16px;
 }
 .UINavigationForm .RemoveDetailTargetPageIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/acme-website/UINavigationForm/DustBin.gif") no-repeat scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/acme-website/UINavigationForm/DustBin.gif") no-repeat scroll 0 0 transparent;
   width: 16px;
   height: 16px;
 }

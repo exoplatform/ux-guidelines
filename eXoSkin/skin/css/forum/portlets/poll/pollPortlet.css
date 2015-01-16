@@ -51,7 +51,7 @@
   white-space: nowrap;
 }
 .uiPollPortlet .forumSeparatorLine + .forumSeparatorLine {
-  background: url("/eXoSkin/skin/images/forum/portlets/poll/background/SeparatorLine.png") no-repeat left -4px;
+  background: url("/eXoSkin/skin/images/Default/forum/portlets/poll/background/SeparatorLine.png") no-repeat left -4px;
 }
 .uiPollPortlet .textTitlePoll {
   font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;

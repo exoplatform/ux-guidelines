@@ -129,7 +129,7 @@
   font-weight: bold;
 }
 .uiWikiSelectPageForm .uiTreeExplorer .nodeSelected:hover i[class^="uiIconWiki"] {
-  background-image: url("/eXoSkin/skin/images/wiki/Icons/uiIconsWikiPrimary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiPrimary.png");
 }
 .uiWikiSelectPageForm .uiSpaceSwitcher_UIWikiSelectPageForm {
   cursor: pointer;
@@ -142,13 +142,13 @@
   left: 0px;
 }
 .uiWikiSelectPageForm .uiSpaceSwitcher_UIWikiSelectPageForm .spaceChooserPopup .uiIconWikiWiki:hover {
-  background-image: url("/eXoSkin/skin/images/wiki/Icons/uiIconsWikiSecondary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiSecondary.png");
 }
 .uiWikiSpaceSwitcher_CreateWiki .spaceChooserPopup a:hover i,
 .uiSpaceSwitcher_UIWikiSelectPageForm .spaceChooserPopup a:hover i,
 .uiSpaceSwitcher_UIWikiMovePageForm .spaceChooserPopup a:hover i,
 .uiSpaceSwitcher_BreadCrumb .spaceChooserPopup a:hover i {
-  background-image: url("/eXoSkin/skin/images/wiki/Icons/uiIconsWikiSecondary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiSecondary.png");
 }
 .uiWikiSpaceSwitcher_CreateWiki .spaceChooserPopup a i,
 .uiSpaceSwitcher_UIWikiSelectPageForm .spaceChooserPopup a i,
@@ -161,7 +161,7 @@
   background: #ffffff;
 }
 .uiScrollTop {
-  background: url("/eXoSkin/skin/images/ShareImages/Background/uiScrollTop.png") repeat-x top center;
+  background: url("../../../../eXoSkin/skin/images/Default/ShareImages/Background/uiScrollTop.png") repeat-x top center;
   position: absolute;
   content: "";
   z-index: 1;
@@ -170,7 +170,7 @@
   top: 0px;
 }
 .uiScrollBottom {
-  background: url("/eXoSkin/skin/images/ShareImages/Background/uiScrollBottom.png") repeat-x center;
+  background: url("../../../../eXoSkin/skin/images/Default/ShareImages/Background/uiScrollBottom.png") repeat-x center;
   position: absolute;
   content: "";
   z-index: 1;
@@ -203,22 +203,22 @@
 }
 .warningmessage,
 .notemessage {
-  background: #fff4c4 url("/eXoSkin/skin/images/wiki/Icons/warningIcon.png") no-repeat 15px 6px;
+  background: #fff4c4 url("../../../../eXoSkin/skin/images/Default/wiki/Icons/warningIcon.png") no-repeat 15px 6px;
   border: 1px solid #edad00;
   color: #333;
 }
 .tipmessage {
-  background: #d7f8d5 url("/eXoSkin/skin/images/wiki/Icons/successIcon.png") no-repeat 15px 6px;
+  background: #d7f8d5 url("../../../../eXoSkin/skin/images/Default/wiki/Icons/successIcon.png") no-repeat 15px 6px;
   border: 1px solid #39c522;
   color: #333;
 }
 .infomessage {
-  background: #d1ddf7 url("/eXoSkin/skin/images/wiki/Icons/infoIcon.png") no-repeat 15px 6px;
+  background: #d1ddf7 url("../../../../eXoSkin/skin/images/Default/wiki/Icons/infoIcon.png") no-repeat 15px 6px;
   border: 1px solid #215ab2;
   color: #333;
 }
 .errormessage {
-  background: #ed9c95 url("/eXoSkin/skin/images/wiki/Icons/errorIcon.png") no-repeat 15px 6px;
+  background: #ed9c95 url("../../../../eXoSkin/skin/images/Default/wiki/Icons/errorIcon.png") no-repeat 15px 6px;
   border: 1px solid #c72222;
   color: #333;
 }
@@ -439,12 +439,12 @@
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconExtra.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/Icons/uiIconExtra.png");
   background-repeat: no-repeat;
   margin-top: 12px;
 }
 .EditSection [class^="wikimodel-freestanding"]:hover {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiWikiPageContentArea span.EditSection {
   display: none;
@@ -599,7 +599,7 @@
   padding-top: 4px;
 }
 [class^="uiIconWiki"] {
-  background-image: url("/eXoSkin/skin/images/wiki/Icons/uiIconsWikiExtra.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .actionIcon:hover > i > [class^="uiIconWiki"],
@@ -616,7 +616,7 @@ a:hover [class^="uiIconWiki"],
 [class^="uiIconWiki"]:hover,
 .uiActionBar [class^="uiIconWiki"]:hover,
 .uiIconWikiBlue {
-  background-image: url("/eXoSkin/skin/images/wiki/Icons/uiIconsWikiPrimary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiPrimary.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconWiki"],
@@ -626,7 +626,7 @@ a:hover [class^="uiIconWiki"],
 .uiDropDownCal li a [class^="uiIconWiki"],
 .uiActionBar [class^="uiIconWiki"],
 .uiIconWikiLightGray {
-  background-image: url("/eXoSkin/skin/images/wiki/Icons/uiIconsWikiDefault.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiDefault.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconWiki"],
@@ -642,7 +642,7 @@ a:hover [class^="uiIconWiki"],
 .eventAllDay [class^="uiIconWiki"],
 .eventDayContainer [class^="uiIconWiki"],
 .uiIconWikiWhite {
-  background-image: url("/eXoSkin/skin/images/wiki/Icons/uiIconsWikiSecondary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiSecondary.png");
 }
 .uiIconWikiWiki {
   background-position: 0px 0px;
@@ -671,10 +671,10 @@ a:hover [class^="uiIconWiki"],
 }
 .uiWikiPageContentArea .uiWikiContentDisplay .EditSectionHover span.EditSection {
   visibility: visible;
-  background: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png") -40px 0;
+  background: url("../../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png") -40px 0;
 }
 .uiWikiPageContentArea .uiWikiContentDisplay .EditSectionHover span.EditSection:hover {
-  background: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png") -40px 0;
+  background: url("../../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png") -40px 0;
 }
 .uiWikiPageContentArea .uiWikiContentDisplay span.EditSection {
   visibility: hidden;
@@ -744,7 +744,7 @@ a:hover [class^="uiIconWiki"],
 }
 .uiWikiContentDisplay dd,
 .uiWikiPagePreview dd {
-  background: url("/eXoSkin/skin/images/wiki/Icons/bullet-3.png") no-repeat scroll 0 0.3em transparent;
+  background: url("../../../../eXoSkin/skin/images/Default/wiki/Icons/bullet-3.png") no-repeat scroll 0 0.3em transparent;
   font-style: italic;
   margin-left: 0;
   padding-left: 1em;
@@ -969,10 +969,10 @@ a:hover [class^="uiIconWiki"],
   width: 10px;
 }
 .uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowLeft {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowRight {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiWikiMiddleArea .resizeBar .showLeftContent {
   display: block;
@@ -1208,7 +1208,7 @@ a:hover [class^="uiIconWiki"],
   width: 614px;
 }
 .uiWikiPageNotFound .errorBlock {
-  background: url("/eXoSkin/skin/images/wiki/warningIcon.png") no-repeat center top;
+  background: url("../../../../eXoSkin/skin/images/Default/wiki/warningIcon.png") no-repeat center top;
   display: block;
   height: 160px;
   margin: 0 auto;

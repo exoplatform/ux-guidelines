@@ -43,7 +43,7 @@
 }
 [class^="uiIconCal"] {
   margin-top: 0;
-  background-image: url("/eXoSkin/skin/images/calendar/Icons/uiIconsCalDefault.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/calendar/Icons/uiIconsCalDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .nav-pills > .active > a > [class^="uiIconCal"],
@@ -57,7 +57,7 @@ a:hover [class^="uiIconCal"],
 [class^="uiIconCal"]:hover,
 .UICalendarPortlet .actionIcon:hover [class^="uiIconCal"],
 .uiCalendarPortlet .actionIcon:hover [class^="uiIconCal"] {
-  background-image: url("/eXoSkin/skin/images/calendar/Icons/uiIconsCalPrimary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/calendar/Icons/uiIconsCalPrimary.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu li a > [class^="uiIconCal"],
@@ -66,7 +66,7 @@ a:hover [class^="uiIconCal"],
 .uiDropDownCal li a [class^="uiIconCal"],
 .uiDropDownCal .active a [class^="uiIconCal"],
 .uiIconCalLightGray {
-  background-image: url("/eXoSkin/skin/images/calendar/Icons/uiIconsCalDefault.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/calendar/Icons/uiIconsCalDefault.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconCal"],
@@ -86,13 +86,13 @@ a:hover [class^="uiIconCal"],
 .btn-primary:hover [class^="uiIconCal"],
 .btn-primary:hover [class^="uiIconCal"]:hover,
 .uiIconCalWhite {
-  background-image: url("/eXoSkin/skin/images/calendar/Icons/uiIconsCalSecondary.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/calendar/Icons/uiIconsCalSecondary.png");
 }
 .uiIconCalDarkGray {
-  background-image: url("/eXoSkin/skin/images/calendar/Icons/uiIconsCalExtra.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/calendar/Icons/uiIconsCalExtra.png");
 }
 .uiEventCategoryManager [class^="uiIcon"] {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
 }
 .uiIconCalnullPriority,
 .uiIconCalnonePriority {
@@ -340,11 +340,11 @@ a:hover [class^="uiIconCal"],
   height: 16px;
 }
 .uiCalNotification .uiIconBell {
-  background-image: url("/eXoSkin/skin/images/calendar/Icons/icon-bell.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/calendar/Icons/icon-bell.png");
   background-position: 0px 0px;
 }
 .uiCalNotification .uiIconBell:hover {
-  background-image: url("/eXoSkin/skin/images/calendar/Icons/icon-bell.png");
+  background-image: url("../../../../eXoSkin/skin/images/Default/calendar/Icons/icon-bell.png");
   background-position: 0px 0px;
 }
 .uiCalNotification .description {
@@ -720,7 +720,7 @@ a:hover [class^="uiIconCal"],
 }
 /*============== uiFormColorPicker ================*/
 .iconCheckBox {
-  background: url("/eXoSkin/skin/images/calendar/background/iconCheckBox.png") no-repeat left top;
+  background: url("../../../../eXoSkin/skin/images/Default/calendar/background/iconCheckBox.png") no-repeat left top;
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -1304,7 +1304,7 @@ a:hover [class^="uiIconCal"],
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset, 0px 1px 0px rgba(255, 255, 255, 0.73);
 }
 .uiMonthView .eventOnDayContent .uiCheckbox input[type="checkbox"]:checked + span:after {
-  background: url("/eXoSkin/skin/images/calendar/background/iconCheckBox.png") no-repeat left top;
+  background: url("../../../../eXoSkin/skin/images/Default/calendar/background/iconCheckBox.png") no-repeat left top;
   width: 12px;
   height: 12px;
   left: -1px;

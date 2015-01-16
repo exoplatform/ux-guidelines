@@ -84,10 +84,10 @@
   margin-top: -1px;
 }
 .uiSideBar .uiSelectContent .normalItem:hover [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
 }
 .uiSideBar .uiSelectContent .normalItem:hover .uiIconEcmsTagExplorerMini {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiSideBar .uiSelectContent .selectedItem {
   cursor: pointer;
@@ -101,10 +101,10 @@
   margin-top: -1px;
 }
 .uiSideBar .uiSelectContent .selectedItem [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
 }
 .uiSideBar .uiSelectContent .selectedItem .uiIconEcmsTagExplorerMini {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiSideBar .uiSelectContent .MoreItem {
   line-height: 26px;
@@ -200,7 +200,7 @@
   padding-right: 20px;
 }
 .uiAddressBar .detailViewIcon .btn-group .active > i {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
 }
 .uiAddressBar .right {
   width: 180px;
@@ -459,14 +459,14 @@
   margin: 2px 0px 0px 8px;
 }
 .uiMultiUpload .uiIconWarning {
-  background: url("/eXoSkin/skin/images/Icons/uiIconColor.png") no-repeat -20px 0px;
+  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -20px 0px;
 }
 .uiMultiUpload .uiIconMultiUploadClose {
-  background: url("/eXoSkin/skin/images/Icons/uiIconColor.png") no-repeat 0px 0px;
+  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat 0px 0px;
   cursor: pointer;
 }
 .uiMultiUpload .uiIconNoneClose {
-  background: url("/eXoSkin/skin/images/Icons/uiIconColor.png") no-repeat -180px 0px;
+  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -180px 0px;
 }
 .noShow {
   display: none;
@@ -595,7 +595,7 @@
 .MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a i,
 .uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i,
 .MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
   margin: 0px 0px 0px 7px;
 }
 .uiFileView .fileViewPageIterator,
@@ -676,7 +676,7 @@
   background-color: none;
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover > i {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsEditDocument,
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsDelete,
@@ -684,7 +684,7 @@
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsRestoreFromTrash,
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsUpload,
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsViewInfo {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a,
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a:hover,
@@ -704,7 +704,7 @@
   padding: 0px;
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .RightClickCustomItem a:hover .uiIconDownload {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li {
   float: none;
@@ -720,7 +720,7 @@
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsViewInfo,
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsDelete {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsViewInfo {
   background-position: -140px -60px;
@@ -740,12 +740,12 @@
   color: #ffffff;
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover > i {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsDelete,
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconDownload,
 .ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsViewInfo {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
 }
 .ActionMenuPlaceHolder .fileViewStatus {
   position: absolute;
@@ -809,10 +809,10 @@
   box-shadow: none;
 }
 .uiActionBar .listHiddenActionsContainer .actionIcon:hover > [class^="uiIcon"] {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
 }
 .uiActionBar .listHiddenActionsContainer .actionIcon:hover > [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .uiActionBar .uiViewBarContainer {
   position: absolute;
@@ -835,10 +835,10 @@
   border-radius: 3px 3px 3px 3px;
 }
 .uiActionBar .uiViewBarContainer .showDrivesButton > [class^="uiIcon"] {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiActionBar .uiViewBarContainer .showDrivesButton > [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
 }
 .uiTabGrayInPage .tab-content .nav-pills > li.dropdown {
   margin-right: 200px;
@@ -1043,7 +1043,7 @@
 }
 .uiListGrid .LinkSmall,
 .uiListGrid .IconLocked {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconMedLink.png") no-repeat right top;
+  background: url("/eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconMedLink.png") no-repeat right top;
   width: 16px;
   height: 16px;
   bottom: 0px;
@@ -1051,7 +1051,7 @@
   position: absolute;
 }
 .uiListGrid .IconLocked {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconMedLock.png") no-repeat right top;
+  background: url("/eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconMedLock.png") no-repeat right top;
   top: 0px;
 }
 /*############################## -- Begin UIThumbnailsView -- ##############################*/
@@ -1104,7 +1104,7 @@
 .uiThumbnailsView .actionIconsContainer .loadingProgressIcon {
   width: 64px;
   height: 64px;
-  background: url("/eXoSkin/skin/images/Loading/loading32x32Light.png") no-repeat center center;
+  background: url("/eXoSkin/skin/images/Default/Loading/loading32x32Light.png") no-repeat center center;
   position: relative;
   margin: auto;
   -webkit-animation: fa-spin 1s infinite linear;
@@ -1159,7 +1159,7 @@
 }
 .uiThumbnailsView .Link,
 .uiThumbnailsView .IconLocked {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconBigLink.png") no-repeat right top;
+  background: url("/eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconBigLink.png") no-repeat right top;
   position: absolute;
   width: 32px;
   height: 32px;
@@ -1167,7 +1167,7 @@
   bottom: 0;
 }
 .uiThumbnailsView .IconLocked {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconBigLock.png") no-repeat right top;
+  background: url("/eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconBigLock.png") no-repeat right top;
   top: 0;
 }
 /*############################## -- End UIThumbnailsView -- ##############################*/
@@ -1193,7 +1193,7 @@
   margin-bottom: 12px;
 }
 .uiDrivesArea .uiDriversAreaContainer .uiIconBlueInformation {
-  background: url("/eXoSkin/skin/images/Icons/uiIconColor.png") no-repeat -40px 0px;
+  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -40px 0px;
 }
 .uiDrivesArea .rowDrives {
   border-bottom: dotted 1px #cccccc;
@@ -1331,10 +1331,10 @@
   font-weight: bold;
 }
 .uiDocumentFormController .form-horizontal .controls a [class^="uiIcon"] {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
 }
 .uiDocumentFormController .form-horizontal .controls a:hover [class^="uiIcon"] {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiDocumentFormController .form-horizontal .controls textarea {
   font-size: 13px;
@@ -1364,7 +1364,7 @@
   margin-left: 10px;
 }
 .uiDocumentFormController .helpBlock .uiIconHelp {
-  background: url("/eXoSkin/skin/images/Icons/uiIconColor.png") no-repeat -40px 0px;
+  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -40px 0px;
   margin: 3px 0px 0px -25px;
   float: left;
 }
@@ -1641,7 +1641,7 @@
   padding: 5px 8px 4px 8px;
 }
 .selectTemplateTitle .btn-group .active [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
 }
 .selectTemplateTitle .btn-group:nth-child(2n+2) .btn {
   border-bottom-right-radius: 3px;
@@ -1951,7 +1951,7 @@
   padding: 10px;
 }
 .comments .uiBox .arrowLeft {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/arrows.png") no-repeat scroll -21px 0;
+  background: url("/eXoSkin/skin/images/Default/ecms/portlets/explorer/arrows.png") no-repeat scroll -21px 0;
   display: block;
   height: 16px;
   left: -8px;
@@ -1995,14 +1995,14 @@
   cursor: pointer;
 }
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover > [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsEditDocument,
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsDelete,
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsMoveNode,
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsRestoreFromTrash,
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsViewInfo {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsDefault.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
 }
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsEditDocument {
   background-position: -40px 0px;
@@ -2025,13 +2025,13 @@
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsRestoreFromTrash,
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsUpload,
 .uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsViewInfo {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
 }
 .RightClickCustomItem .menuItem a:hover [class^="uiIcon"] {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
 }
 .RightClickCustomItem .menuItem a:hover [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 /******** iFrameUpload **************/
 .iFrameUpload {
@@ -2039,13 +2039,13 @@
 }
 /*==========Icon Small=============*/
 .iconLinkSmall {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconSmallLink.png") no-repeat scroll right bottom transparent;
+  background: url("/eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconSmallLink.png") no-repeat scroll right bottom transparent;
   height: 16px;
   width: 20px;
   display: block;
 }
 .iconLockedsmall {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconSmallLock.png") no-repeat scroll right top transparent;
+  background: url("/eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconSmallLock.png") no-repeat scroll right top transparent;
   float: left;
   height: 16px;
   width: 20px;
@@ -2071,7 +2071,7 @@
   color: #ffffff;
 }
 .dropdown-menu li > .menuItemSelected .uiIconEcmsCopyUrlToClipboard {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li > .menuItemSelected {
   background-color: #f5f5f5;
@@ -2088,7 +2088,7 @@
   padding: 4px 6px;
 }
 .UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li > .menuItemSelected .uiIconEcmsCopyUrlToClipboard {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
 }
 .UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li > .menuItemSelected {
   background-color: #487eb8;
@@ -2102,7 +2102,7 @@
   color: #ffffff;
 }
 .UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li > .menuItemSelected .uiIconEcmsCopyUrlToClipboard {
-  background-image: url("/eXoSkin/skin/images/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .UIJCRExplorerPortlet .UIJCRExplorer .UIDocumentWorkspace {
   min-height: auto;

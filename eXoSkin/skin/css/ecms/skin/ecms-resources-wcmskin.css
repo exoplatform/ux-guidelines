@@ -133,7 +133,7 @@
   margin-left: -10px !important;
 }
 .uiSEOForm [class^="uiIconSeo"] {
-  background: url("../../../eXoSkin/skin/images/default/Icons/uiIconColor.png");
+  background: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png");
   margin: 0px 0px 0px 5px;
 }
 .uiSEOForm .uiIconSeoEmpty {
@@ -171,7 +171,7 @@
   }
 }
 [class^="uiIconEcms"] {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcmsDefault.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .uiActionWithLabel:hover > [class^="uiIconEcms"],
@@ -187,7 +187,10 @@ a:hover [class^="uiIconEcms"],
 [class^="uiIconEcms"]:hover,
 .uiActionBar [class^="uiIconEcms"]:hover,
 .uiIconEcmsBlue {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+}
+.uiIconEcmsDarkGray {
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsExtra.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconEcms"],
@@ -195,7 +198,7 @@ a:hover [class^="uiIconEcms"],
 .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconEcms"],
 .uiActionBar [class^="uiIconEcms"],
 .uiIconEcmsLightGray {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcmsDefault.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsDefault.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconEcms"],
@@ -211,7 +214,7 @@ a:hover [class^="uiIconEcms"],
 .eventAllDay [class^="uiIconEcms"],
 .eventDayContainer [class^="uiIconEcms"],
 .uiIconEcmsWhite {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .uiIconEcmsGeneralDrive,
 .uiIconEcmsDriveManager {
@@ -495,19 +498,19 @@ a:hover [class^="uiIconEcms"],
 }
 /* Icon Override */
 .uiIconEcmsTagExplorerMini {
-  background-image: url("../../../eXoSkin/skin/images/default/Icons/uiIconsDefault.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
   background-position: -60px -20px;
 }
 .uiIconEcmsTagExplorerMini:hover {
-  background-image: url("../../../eXoSkin/skin/images/default/Icons/uiIconsPrimary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiIconEcmsDelete {
-  background-image: url("../../../eXoSkin/skin/images/default/Icons/uiIconsDefault.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
   background-position: -20px 0px;
 }
 .actionIcon:hover .uiIconEcmsDelete,
 .uiIconEcmsDelete:hover {
-  background-image: url("../../../eXoSkin/skin/images/default/Icons/uiIconsPrimary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .dropdown-menu > li > a .uiIconEcmsEditDocument,
 .uiActionBar .uiIconEcmsEditDocument,
@@ -527,7 +530,7 @@ a:hover [class^="uiIconEcms"],
 .uiActionBar .uiIconEcmsAddCategory,
 .dropdown-menu > li > a .uiIconEcmsTaggingDocument,
 .uiActionBar .uiIconEcmsTaggingDocument {
-  background-image: url("../../../eXoSkin/skin/images/default/Icons/uiIconsDefault.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
 }
 .uiIconEcmsEditDocument {
   background-position: -40px 0px;
@@ -592,7 +595,7 @@ a:hover [class^="uiIconEcms"],
 .uiActionBar .actionIcon:hover .uiIconEcmsTaggingDocument,
 .dropdown-menu > li > a .uiIconEcmsTaggingDocument:hover,
 .uiActionBar .uiIconEcmsTaggingDocument:hover {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsPrimary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
 }
 .uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsEditDocument,
 .uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsEditDocument:hover,
@@ -610,11 +613,11 @@ a:hover [class^="uiIconEcms"],
 .uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsVote:hover,
 .uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsTaggingDocument,
 .uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsTaggingDocument:hover {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsSecondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
 }
 /************** icons Ecms 24x24 *************************/
 [class^="uiIconEcms24x24"] {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcms24x24Extra.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcms24x24Default.png");
   width: 24px;
   height: 24px;
   line-height: 24px;
@@ -622,12 +625,15 @@ a:hover [class^="uiIconEcms"],
 /* Blue icons */
 [class^="uiIconEcms24x24"]:hover,
 .driveLabel:hover [class^="uiIconEcms24x24"],
-.uiIconEcmsBlue {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcms24x24Primary.png");
+.uiIconEcms24x24Blue {
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcms24x24Primary.png");
 }
 /* LightGray icons */
 .uiIconEcms24x24LightGray {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcms24x24Default.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcms24x24Default.png");
+}
+.uiIconEcms24x24DarkGray {
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcms24x24Extra.png");
 }
 .uiIconEcms24x24DriveGeneral {
   background-position: 0px 0px;
@@ -651,7 +657,7 @@ a:hover [class^="uiIconEcms"],
   background-position: -168px 0px;
 }
 .uiIconEcms24x24White {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcms24x24Secondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcms24x24Secondary.png");
 }
 .explorerTree {
   float: left;
@@ -678,7 +684,7 @@ a:hover [class^="uiIconEcms"],
 .uiPublicationPanel .statusAction .activeStatus,
 .uiPublicationPanel .statusAction .disableStatus,
 .uiPublicationPanel .statusAction .currentStatus {
-  background: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Publication/bgGray.png") no-repeat left top;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Publication/bgGray.png") no-repeat left top;
   display: inline-block;
   width: 101px;
   text-align: center;
@@ -695,7 +701,7 @@ a:hover [class^="uiIconEcms"],
 .uiPublicationPanel .statusAction .activeStatus .node,
 .uiPublicationPanel .statusAction .disableStatus .node,
 .uiPublicationPanel .statusAction .currentStatus .node {
-  background: url("../../../../..//eXoSkin/skin/images/default/ecms/skin/Publication/normalNode.png") no-repeat left top;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Publication/normalNode.png") no-repeat left top;
   width: 49px;
   height: 49px;
   display: block;
@@ -712,7 +718,7 @@ a:hover [class^="uiIconEcms"],
   color: #333333;
 }
 .uiPublicationPanel .statusAction li:before {
-  background: url("/eXoSkin/skin/images/ecms/skin/Publication/lineGray.png") no-repeat left top;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Publication/lineGray.png") no-repeat left top;
   content: "";
   height: 13px;
   left: -31px;
@@ -730,11 +736,11 @@ a:hover [class^="uiIconEcms"],
   color: #2f5e92;
 }
 .uiPublicationPanel .statusAction .disableStatus .node {
-  background: url("/eXoSkin/skin/images/ecms/skin/Publication/unTickNode.png") no-repeat left top;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Publication/unTickNode.png") no-repeat left top;
   cursor: no-drop;
 }
 .uiPublicationPanel .statusAction .currentStatus .node {
-  background: url("/eXoSkin/skin/images/ecms/skin/Publication/tickNode.png") no-repeat left top;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Publication/tickNode.png") no-repeat left top;
 }
 .uiPublicationSchedule .help-block {
   color: #999999;
@@ -821,7 +827,7 @@ a:hover [class^="uiIconEcms"],
   height: auto;
 }
 .InlineEditing .AcceptButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 16px;
   height: 22px;
@@ -829,7 +835,7 @@ a:hover [class^="uiIconEcms"],
   margin-right: 5px;
 }
 .InlineEditing .CancelButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 14px;
   height: 22px;
@@ -995,7 +1001,7 @@ a:hover [class^="uiIconEcms"],
   font-size: small;
 }
 .InlineEditing .EditCLV1ColumnPresent .AcceptButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 16px;
   height: 22px;
@@ -1004,7 +1010,7 @@ a:hover [class^="uiIconEcms"],
   margin-top: 63px;
 }
 .InlineEditing .EditCLV1ColumnPresent .CancelButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 14px;
   height: 22px;
@@ -1038,14 +1044,14 @@ a:hover [class^="uiIconEcms"],
   border: 1px solid #cccccc;
 }
 .InlineEditing .EditGroovyCLVTitle .AcceptButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 16px;
   height: 22px;
   margin-right: 5px;
 }
 .InlineEditing .EditGroovyCLVTitle .CancelButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 14px;
   height: 22px;
@@ -1076,7 +1082,7 @@ a:hover [class^="uiIconEcms"],
   margin-right: 35px;
 }
 .InlineEditing .EditCLV2ColSummary .AcceptButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 16px;
   height: 22px;
@@ -1085,7 +1091,7 @@ a:hover [class^="uiIconEcms"],
   margin-top: 65px;
 }
 .InlineEditing .EditCLV2ColSummary .CancelButton {
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
   display: inline-block;
   width: 14px;
   height: 22px;
@@ -1263,11 +1269,11 @@ a:hover [class^="uiIconEcms"],
 }
 .edittingToolBarContainer .edittingToolBar [class^="uiIcon"],
 .edittingContent .edittingToolBar [class^="uiIcon"] {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconsSecondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
 }
 .edittingToolBarContainer .edittingToolBar [class^="uiIconEcms"],
 .edittingContent .edittingToolBar [class^="uiIconEcms"] {
-  background-image: url("../../../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .edittingToolBarContainer .edittingToolBar .edittingCurrentState .publishText,
 .edittingContent .edittingToolBar .edittingCurrentState .publishText,
@@ -1392,7 +1398,7 @@ a:hover [class^="uiIconEcms"],
 }
 .uiThumbnailsView .Link,
 .uiThumbnailsView .IconLocked {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconBigLink.png") no-repeat right top;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconBigLink.png") no-repeat right top;
   position: absolute;
   width: 32px;
   height: 32px;
@@ -1400,7 +1406,7 @@ a:hover [class^="uiIconEcms"],
   bottom: 0;
 }
 .uiThumbnailsView .IconLocked {
-  background: url("/eXoSkin/skin/images/ecms/portlets/explorer/Icons/IconBigLock.png") no-repeat right top;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/portlets/explorer/Icons/IconBigLock.png") no-repeat right top;
   top: 0;
 }
 /*############################## -- End UIThumbnailsView -- ##############################*/
@@ -1453,7 +1459,7 @@ a:hover [class^="uiIconEcms"],
   height: 32px;
   display: block;
   position: absolute;
-  background: url("/eXoSkin/skin/images/ecms/skin/Icons/loading_24x24.gif") no-repeat center;
+  background: url("../../../../../eXoSkin/skin/images/Default/ecms/skin/Icons/loading_24x24.gif") no-repeat center;
   top: 50%;
   left: 50%;
   z-index: 15;

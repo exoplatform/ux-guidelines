@@ -74,7 +74,7 @@
   font-style: italic;
 }
 .TopGadget table td.Description p {
-  background: url("/eXoSkin/skin/images/platform/gadget-pack/ServicesManagement/DesIcon.png") no-repeat left 2px;
+  background: url("/eXoSkin/skin/images/Default/platform/gadget-pack/ServicesManagement/DesIcon.png") no-repeat left 2px;
   padding-left: 20px;
   margin: 0px;
 }
@@ -126,7 +126,7 @@
   display: block;
 }
 .mmlib_xlink {
-  background: url('/eXoSkin/skin/images/platform/gadget-pack/ServicesManagement/IconClose_Gadget.gif') no-repeat left top;
+  background: url('/eXoSkin/skin/images/Default/platform/gadget-pack/ServicesManagement/IconClose_Gadget.gif') no-repeat left top;
   cursor: pointer;
   width: 14px;
   display: block;

@@ -60,7 +60,7 @@
   margin: 0 0 5px 0;
   cursor: pointer;
   position: relative;
-  background: url("/eXoSkin/skin/images/platform/portlets/homepage/gettingStarted/gettingStartedCheck.png") no-repeat left -43px;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/homepage/gettingStarted/gettingStartedCheck.png") no-repeat left -43px;
 }
 .uiGettingStarted .gsList li:before {
   background: #cccccc;

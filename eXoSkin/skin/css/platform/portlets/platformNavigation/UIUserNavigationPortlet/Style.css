@@ -57,7 +57,7 @@
   height: 90px;
 }
 .uiUserNavigationPortlet .userNavigation {
-  background: url("/eXoSkin/skin/images/platform/portlets/platfromNavigation/UserNavigationPortlet/shadow.png") no-repeat left center;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/platfromNavigation/UserNavigationPortlet/shadow.png") no-repeat left center;
   height: 90px;
   border-bottom: none;
 }
@@ -65,7 +65,7 @@
   padding-bottom: 3px;
 }
 .uiUserNavigationPortlet .userNavigation > .active {
-  background: url("/eXoSkin/skin/images/platform/portlets/platfromNavigation/UserNavigationPortlet/arrowIcon.png") no-repeat bottom center;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/platfromNavigation/UserNavigationPortlet/arrowIcon.png") no-repeat bottom center;
 }
 .uiUserNavigationPortlet .userNavigation > li > a,
 .uiUserNavigationPortlet .userNavigation > li > a:hover,

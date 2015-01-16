@@ -48,7 +48,7 @@
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("/eXoSkin/skin/images/forum/portlets/forum/Icons/uiIconsForumExtra.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/Icons/uiIconsForumDefault.png");
   background-repeat: no-repeat;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
@@ -66,7 +66,7 @@
 .uiIconForumBlue,
 a:hover > [class^="uiIconForum"],
 a:hover [class^="uiIconForum"] {
-  background-image: url("/eXoSkin/skin/images/forum/portlets/forum/Icons/uiIconsForumPrimary.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/Icons/uiIconsForumPrimary.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconForum"],
@@ -74,7 +74,10 @@ a:hover [class^="uiIconForum"] {
 .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconForum"],
 .uiActionBar [class^="uiIconForum"],
 .uiIconForumLightGray {
-  background-image: url("/eXoSkin/skin/images/forum/portlets/forum/Icons/uiIconsForumDefault.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/Icons/uiIconsForumDefault.png");
+}
+.uiIconForumDarkGray {
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/Icons/uiIconsForumExtra.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconForum"],
@@ -92,7 +95,7 @@ a:hover [class^="uiIconForum"] {
 .btn-primary [class^="uiIconForum"],
 .btn-primary:hover [class^="uiIconForum"],
 .uiIconForumWhite {
-  background-image: url("/eXoSkin/skin/images/forum/portlets/forum/Icons/uiIconsForumSecondary.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/Icons/uiIconsForumSecondary.png");
 }
 [class^="uiIconForumColor"] {
   display: inline-block;
@@ -101,14 +104,14 @@ a:hover [class^="uiIconForum"] {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-bottom;
-  background-image: url("/eXoSkin/skin/images/forum/portlets/forum/Icons/uiIconsForumColor.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/Icons/uiIconsForumColor.png");
   background-repeat: no-repeat;
 }
 .dropdown > a:hover > [class^="uiIconForumColor"],
 [class^="uiIconForumColor"]:hover,
 a:hover > [class^="uiIconForumColor"],
 i:hover [class^="uiIconForumColor"] {
-  background-image: url("/eXoSkin/skin/images/forum/portlets/forum/Icons/uiIconsForumColor.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/Icons/uiIconsForumColor.png");
 }
 .uiIconForumPending {
   background-position: 0 0;
@@ -218,11 +221,11 @@ i:hover [class^="uiIconForumColor"] {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconColor.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png");
   background-repeat: no-repeat;
 }
 [class^="uiIconColor"]:hover {
-  background-image: url("/eXoSkin/skin/images/Icons/uiIconColor.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png");
 }
 .uiIconColorBell {
   background-position: -160px 0;
@@ -324,7 +327,7 @@ i:hover [class^="uiIconForumColor"] {
   margin: 4px 0;
 }
 .uiForumPortlet .forumSeparatorLine + .forumSeparatorLine {
-  background: url("/eXoSkin/skin/images/forum/portlets/forum/background/SeparatorLine.png") no-repeat left -4px;
+  background: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/background/SeparatorLine.png") no-repeat left -4px;
 }
 .uiForumPortlet .uiForumIconState .forumContains {
   line-height: 42px;
@@ -687,7 +690,7 @@ i:hover [class^="uiIconForumColor"] {
   position: relative;
 }
 .uiFormSliderInput .slideSearch .slideContainer {
-  background: url("/eXoSkin/skin/images/forum/portlets/forum/background/slideContainer.png") repeat-x left top;
+  background: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/background/slideContainer.png") repeat-x left top;
   height: 5px;
 }
 .uiFormSliderInput .slideSearch .slideRange {
@@ -712,7 +715,7 @@ i:hover [class^="uiIconForumColor"] {
   border-radius: 5px;
 }
 .uiFormSliderInput .slideSearch .circleDefault {
-  background: url("/eXoSkin/skin/images/forum/portlets/forum/background/circle.png") no-repeat left top;
+  background: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/forum/background/circle.png") no-repeat left top;
   position: absolute;
   width: 18px;
   height: 18px;

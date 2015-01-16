@@ -42,7 +42,7 @@
   }
 }
 body {
-  background: url("/eXoSkin/skin/images/platform/portlets/extensions/login_texture.jpg") repeat;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/login_texture.jpg") repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #333333;
@@ -70,11 +70,11 @@ body {
 }
 .uiLogin .loginContainer {
   border-radius: 8px;
-  background: #ffffff url("/eXoSkin/skin/images/platform/portlets/extensions/loginBG.png") no-repeat bottom;
+  background: #ffffff url("/eXoSkin/skin/images/Default/platform/portlets/extensions/loginBG.png") no-repeat bottom;
   padding: 0 40px;
 }
 .uiLogin .loginHeader {
-  background: url("/eXoSkin/skin/images/platform/portlets/extensions/LoginHeader.png") repeat-x scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/LoginHeader.png") repeat-x scroll 0 0 transparent;
   border: 1px solid #555555;
   border-radius: 0 0 4px 4px;
   margin-top: -8px;
@@ -84,7 +84,7 @@ body {
   box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.43);
 }
 .uiLogin .loginHeader .userLoginIcon {
-  background: url("/eXoSkin/skin/images/platform/portlets/extensions/UserLoginIcon.png") no-repeat scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/UserLoginIcon.png") no-repeat scroll 0 0 transparent;
   color: #999999;
   font-size: 20px;
   font-weight: 500;
@@ -107,10 +107,10 @@ body {
 }
 .uiLogin .loginContent .username {
   margin-top: 15px;
-  background: url("/eXoSkin/skin/images/platform/portlets/extensions/username.png") no-repeat left top;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/username.png") no-repeat left top;
 }
 .uiLogin .loginContent .password {
-  background: url("/eXoSkin/skin/images/platform/portlets/extensions/password.png") no-repeat left top;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/password.png") no-repeat left top;
 }
 .uiLogin .loginContent input {
   width: 260px;
@@ -325,7 +325,7 @@ body {
   width: 310px;
 }
 .uiLogin .uiIconError {
-  background: url("/eXoSkin/skin/images/Icons/uiIconColor.png") no-repeat left top;
+  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat left top;
   padding-left: 20px;
 }
 .uiLogin .introBox:before,

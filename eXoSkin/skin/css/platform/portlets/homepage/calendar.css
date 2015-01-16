@@ -135,7 +135,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   white-space: normal;
-  background: url("/eXoSkin/skin/images/platform/portlets/homepage/calendar/calendar-porlet.png") no-repeat;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/homepage/calendar/calendar-porlet.png") no-repeat;
 }
 .calendarPortlet .calendarPortletData .tasksList a {
   color: #333333;
@@ -257,7 +257,7 @@
 .settingsCalContainer .DisplayedCalendarContainer .uiIconDel {
   width: 14px;
   height: 14px;
-  background: url("/eXoSkin/skin/images/platform/portlets/homepage/calendar/del.png") no-repeat 2px center;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/homepage/calendar/del.png") no-repeat 2px center;
   cursor: pointer;
 }
 .settingsCalContainer .DisplayedCalendarContainer .uiIconDel:hover {
@@ -301,7 +301,7 @@
 .settingsCalContainer .calendarItems .calendarItem .uiIconAdd {
   width: 14px;
   height: 14px;
-  background: url("/eXoSkin/skin/images/platform/portlets/homepage/calendar/add.png") no-repeat 2px 2px;
+  background: url("/eXoSkin/skin/images/Default/platform/portlets/homepage/calendar/add.png") no-repeat 2px 2px;
 }
 .settingsCalContainer .calendarItems .calendarItem .calName {
   height: 20px;

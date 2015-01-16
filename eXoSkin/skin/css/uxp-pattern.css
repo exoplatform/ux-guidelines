@@ -87,7 +87,7 @@ div.button .dropdown-menu {
     display: block;
 }
 .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconSearch, .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconDownload {
-    background-image: url("../../../eXoSkin/skin/images/default/Icons/uiIconsSecondary.png");
+    background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
 }
 .uiThumbnailsView {
     overflow-x: hidden;
@@ -356,3 +356,41 @@ div.button .dropdown-menu {
     left: 50%;
     position: absolute;
 }
+
+.dropdown > a:hover > [class^="uiIconColor"], [class^="uiIconColor"]:hover, a:hover > [class^="uiIconColor"], i:hover [class^="uiIconColor"] {
+    background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png");
+}
+.uiIconColorError {
+    background-position: 0 0;
+}
+.uiIconColorWarning {
+    background-position: -20px 0;
+}
+.uiIconColorInfo {
+    background-position: -40px 0;
+}
+.uiIconColorValidate {
+    background-position: -60px 0;
+}
+.uiIconColorQuestion {
+    background-position: -80px 0;
+}
+.uiIconColorMiniSquareBlank {
+    background-position: -100px 0;
+}
+.uiIconColorMiniSquarePlus {
+    background-position: -120px 0;
+}
+.uiIconColorMiniSquareMinus {
+    background-position: -140px 0;
+}
+.uiIconColorBell {
+    background-position: -160px 0;
+}
+.uiIconColorStarGray {
+    background-position: 0 -20px;
+}
+.uiIconColorStarYellow {
+    background-position: -20px -20px;
+}
+

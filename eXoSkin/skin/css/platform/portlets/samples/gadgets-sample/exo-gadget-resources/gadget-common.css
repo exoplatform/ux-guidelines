@@ -138,7 +138,7 @@ img {
   font-size: 12px;
 }
 .UIGadgetThemes .IconDropDown {
-  background: url('/eXoSkin/skin/images/platform/porlets/exo-gadget-resources/IconDropDown.gif') no-repeat right 7px;
+  background: url('/eXoSkin/skin/images/Default/platform/porlets/exo-gadget-resources/IconDropDown.gif') no-repeat right 7px;
   float: right;
   padding-right: 12px;
   font-size: 11px;
@@ -162,7 +162,7 @@ img {
   margin-top: 2px;
   margin-right: 10px;
   display: none;
-  background: url('/eXoSkin/skin/images/platform/porlets/exo-gadget-resources/settings.png') no-repeat right 3px;
+  background: url('/eXoSkin/skin/images/Default/platform/porlets/exo-gadget-resources/settings.png') no-repeat right 3px;
 }
 .UIGadgetThemes .SettingButton a {
   display: block;
