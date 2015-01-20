@@ -42,7 +42,7 @@
   }
 }
 body {
-  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/login_texture.jpg") repeat;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/login_texture.jpg") repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #333333;
@@ -85,7 +85,7 @@ a {
   width: 512px;
 }
 .uiWelcomeBox .header {
-  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/headerBG.png") repeat-x scroll 0 0 transparent;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/headerBG.png") repeat-x scroll 0 0 transparent;
   border: 1px solid #393939;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -142,7 +142,7 @@ a {
   background-color: #e6e6e6;
 }
 .uiWelcomeBox .bottom {
-  background: url("/eXoSkin/skin/images/Default/platform/portlets/extensions/bottomBG.png") no-repeat center bottom;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/bottomBG.png") no-repeat center bottom;
   text-align: center;
   padding: 25px 0;
   border-radius: 8px;
@@ -325,10 +325,10 @@ a {
   border-radius: 7px;
 }
 .uiIconError {
-  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat scroll left top transparent;
+  background: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat scroll left top transparent;
   padding-left: 20px;
 }
 .uiIconWarning {
-  background: url("/eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -20px top transparent;
+  background: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat -20px top transparent;
   padding-left: 20px;
 }

@@ -48,30 +48,27 @@
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLFDefault.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLFExtra.png");
   background-repeat: no-repeat;
 }
 .uiDropdownWithIcon .dropdown-menu > li > a > [class^="uiIconPLF"] {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLFDefault.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLFDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 a:hover [class^="uiIconPLF"],
 [class^="uiIconPLF"]:hover,
 .uiIconPLFBlue {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLFPrimary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLFPrimary.png");
 }
 .uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconPLF"],
 .uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconPLF"],
 .uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconPLF"],
 .uiIconPLFWhite {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLFSecondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLFSecondary.png");
 }
 /* light grey icons with optional class, or on  */
 .uiIconPLFLightGray {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLFDefault.png");
-}
-.uiIconPLFDarkGray {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLFExtra.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLFDefault.png");
 }
 .uiIconPLFProfile {
   background-position: 0 0;
@@ -129,17 +126,17 @@ a:hover [class^="uiIconPLF"],
   *margin-right: .3em;
   line-height: 24px;
   vertical-align: middle;
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLF24x24Secondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLF24x24Secondary.png");
   background-repeat: no-repeat;
 }
 a:hover [class^="uiIconPLF24x24"],
 [class^="uiIconPLF24x24"]:hover {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLF24x24Secondary.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLF24x24Secondary.png");
 }
 .UIToolbarContainerLight [class^="uiIconPLF24x24"],
 .UIToolbarContainerLight a:hover [class^="uiIconPLF24x24"],
 .UIToolbarContainerLight [class^="uiIconPLF24x24"]:hover {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLF24x24Extra.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLF24x24Extra.png");
 }
 .uiIconPLF24x24Edit {
   background-position: 0 0;
@@ -360,7 +357,7 @@ a:hover [class^="uiIconPLF24x24"],
 }
 .UIToolbarContainer .uiSearchPlatformToolBarPortlet > input[type=text].loadding + a:after {
   display: block;
-  background-image: url("../../../../../eXoSkin/skin/images/Default/Loading/loading24x24Light.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/Loading/loading24x24Light.png");
   background-position: right center;
   background-repeat: no-repeat;
   -webkit-animation: fa-spin 1s infinite linear;
@@ -451,7 +448,7 @@ a:hover [class^="uiIconPLF24x24"],
   color: #ffffff;
 }
 .UIToolbarContainer .uiAdminToolbarPortlet .quickEditUnchecked {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/ToolbarContainer/check.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/check.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   display: inline-block;
@@ -460,7 +457,7 @@ a:hover [class^="uiIconPLF24x24"],
   vertical-align: text-bottom;
 }
 .UIToolbarContainer .uiAdminToolbarPortlet .quickEditChecked {
-  background-image: url("../../../../../eXoSkin/skin/images/Default/platform/skin/ToolbarContainer/check.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/check.png");
   background-repeat: top-repeat;
   background-position: top center;
   display: inline-block;
@@ -493,7 +490,7 @@ a:hover [class^="uiIconPLF24x24"],
   border-bottom: 1px solid #2c3440;
 }
 .UIToolbarContainerDark .uiDropdownWithIcon {
-  background: url("../../../../../eXoSkin/skin/images/Default/platform/skin/ToolbarContainer/line.png") no-repeat top left;
+  background: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/line.png") no-repeat top left;
 }
 .UIToolbarContainerDark .uiDropdownWithIcon > a {
   color: #ffffff;
@@ -515,7 +512,7 @@ a:hover [class^="uiIconPLF24x24"],
   border-bottom: 1px solid none;
 }
 .UIToolbarContainerLight .uiDropdownWithIcon {
-  background: url("../../../../../eXoSkin/skin/images/Default/platform/skin/ToolbarContainer/line.png") no-repeat bottom left;
+  background: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/line.png") no-repeat bottom left;
 }
 .UIToolbarContainerLight .uiDropdownWithIcon > a {
   color: #333333;
@@ -551,7 +548,7 @@ a:hover [class^="uiIconPLF24x24"],
 .RightBodyTDContainer {
   padding: 0px;
   vertical-align: top;
-  background: url("../../../../../eXoSkin/skin/images/Default/ShareImages/Background/texture.jpg") repeat left top;
+  background: url("../../../../../eXoSkin/skin/images/themes/default/ShareImages/Background/texture.jpg") repeat left top;
 }
 .OfficeLeftTDContainer {
   padding: 40px 0 0 40px;
@@ -611,10 +608,10 @@ a:hover [class^="uiIconPLF24x24"],
   border-radius: 10px;
 }
 .QuickEditUnchecked {
-  background: url("../../../../../eXoSkin/skin/images/Default/platform/skin/ToolbarContainer/ToolbarContainer.png") no-repeat scroll left -48px transparent;
+  background: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/ToolbarContainer.png") no-repeat scroll left -48px transparent;
 }
 .QuickEditChecked {
-  background: url("../../../../../eXoSkin/skin/images/Default/platform/skin/ToolbarContainer/ToolbarContainer.png") no-repeat scroll left -69px transparent;
+  background: url("../../../../../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/ToolbarContainer.png") no-repeat scroll left -69px transparent;
   padding-left: 24px !important;
 }
 /* Monitoring */

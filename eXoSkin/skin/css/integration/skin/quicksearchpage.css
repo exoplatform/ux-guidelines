@@ -124,15 +124,15 @@
 }
 .uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconPLF"],
 .uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconPLF"] {
-  background-image: url("/eXoSkin/skin/images/Default/platform/skin/Icons/uiIconsPLFSecondary.png");
+  background-image: url("/eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLFSecondary.png");
 }
 .uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconEcms"],
 .uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/Default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  background-image: url("/eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
 }
 .uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconWiki"],
 .uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconWiki"] {
-  background-image: url("/eXoSkin/skin/images/Default/wiki/Icons/uiIconsWikiSecondary.png");
+  background-image: url("/eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiSecondary.png");
 }
 .uiEDWidth70,
 .uiEDWidth70 select.uiResultPerPage,

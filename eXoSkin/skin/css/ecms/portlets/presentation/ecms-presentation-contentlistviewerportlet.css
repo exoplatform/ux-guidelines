@@ -66,14 +66,14 @@
   margin-left: 240px;
 }
 .UICLVPortlet .UICLVFolderSelector .Select16x16Icon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/SelectPage.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/SelectPage.gif') no-repeat;
   cursor: pointer;
   width: 16px;
   height: 16px;
 }
 /*---------------------------UIViewerManagementForm------------------------------------*/
 .UICLVPortlet .UICLVConfig .SelectFolderPathIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/AddPage.gif') no-repeat left center;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/AddPage.gif') no-repeat left center;
   width: 16px;
   height: 16px;
   margin-left: 10px;
@@ -97,7 +97,7 @@
   width: 125px;
 }
 .UICLVPortlet .UICLVConfig .TitleBar {
-  background: transparent url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/BgCategoryTitle1x25.gif') repeat-x scroll 0 0;
+  background: transparent url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/BgCategoryTitle1x25.gif') repeat-x scroll 0 0;
   border-top: 1px solid #cccccc;
   border-left: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
@@ -169,19 +169,19 @@
   vertical-align: middle;
 }
 .UIContentGrid .DownRowIcon {
-  background-image: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/BlueDownArrow.gif');
+  background-image: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/BlueDownArrow.gif');
   cursor: pointer;
   width: 16px;
   height: 16px;
 }
 .UIContentGrid .UpRowIcon {
-  background-image: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/BlueUpArrow.gif');
+  background-image: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/BlueUpArrow.gif');
   cursor: pointer;
   width: 16px;
   height: 16px;
 }
 .UIContentGrid .DeleteContentIcon {
-  background-image: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/Delete.gif');
+  background-image: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/Delete.gif');
   cursor: pointer;
   width: 16px;
   height: 16px;
@@ -189,7 +189,7 @@
 .UIContentGrid .DeleteIcon {
   width: 16px;
   height: 16px;
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/DustBin.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/DustBin.gif') no-repeat;
 }
 .UICLVPortlet .UICLVContentSelector {
   margin: 10px;
@@ -219,19 +219,19 @@
 .UICLVPortlet .CaptionFunc .CaptionRefresh a {
   display: block;
   padding: 0 3px 3px 25px;
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/RefreshIcon.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/RefreshIcon.gif') no-repeat;
   color: #ff4200;
   font-weight: bold;
   font-size: 13px;
 }
 .UICLVPortlet .SelectTargetPageIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/SearchIcon.png') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/SearchIcon.png') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 .UICLVPortlet .QuestionIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/QuestionIcon.png') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/QuestionIcon.png') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -262,7 +262,7 @@
   padding-left: 10px;
 }
 .UICLVPortlet .RssIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/ContentListViewer/icons/RSS.gif') no-repeat left top;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/RSS.gif') no-repeat left top;
   padding-left: 22px;
   float: right;
   color: #fe9832;

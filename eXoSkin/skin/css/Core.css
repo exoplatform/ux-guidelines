@@ -1,4 +1,4 @@
-/*!
+attachmentContentImageattachmentContentImage/*!
  * Bootstrap v2.3.2
  *
  * Copyright 2013 Twitter, Inc
@@ -2019,7 +2019,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../../../img/glyphicons-halflings.png");
+  background-image: url("../img/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -5922,7 +5922,7 @@ h3 {
   padding: 5px 0;
 }
 .uiPopup .popupMessage > li span[class*="Icon"] {
-  background: url("../../../eXoSkin/skin/images/Default/PopupMessage/icons.png") no-repeat;
+  background: url("../../../eXoSkin/skin/images/themes/default/PopupMessage/icons.png") no-repeat;
   padding-left: 20px;
   line-height: 16px;
   height: 16px;
@@ -6039,7 +6039,7 @@ h3 {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconExtra.png");
   background-repeat: no-repeat;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
@@ -6055,7 +6055,7 @@ a:hover [class^="uiIcon"],
 [class^="uiIcon"]:hover,
 .uiActionBar [class^="uiIcon"]:hover,
 .uiIconBlue {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIcon"],
@@ -6065,10 +6065,7 @@ a:hover [class^="uiIcon"],
 .uiActionBar [class^="uiIcon"],
 .uiIconClose,
 .uiIconLightGray {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
-}
-.uiIconDarkGray {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsExtra.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIcon"],
@@ -6093,8 +6090,8 @@ a:hover [class^="uiIcon"],
 .containerTopicDetail .attachmentContentImage .actionAttachImg a:hover i,
 .uiQuestions .attachmentContentImage .actionAttachImg a:hover i,
 .viewIconContainer > div:hover [class^="uiIcon"],
-.uiIconsWhite {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
+.uiIconWhite {
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsSecondary.png");
 }
 .uiIconClose {
   opacity: 0.5;
@@ -6103,10 +6100,10 @@ a:hover [class^="uiIcon"],
 .uiIconClose:hover {
   opacity: 1;
   filter: alpha(opacity=100);
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png") !important;
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png") !important;
 }
 .actionIcon:hover .uiIconClose {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png") !important;
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png") !important;
 }
 .uiIconSearch {
   background-position: 0px 0px;
@@ -6326,7 +6323,7 @@ a:hover [class^="uiIcon"],
   background-position: 0px -100px;
 }
 .uiIconForum,
-.uiIconUIForms {
+.uiIconDiscuss {
   background-position: -20px -100px;
 }
 .uiIconPoll {
@@ -6494,7 +6491,7 @@ a:hover [class^="uiIcon"],
 
 /*----- IconLibrary-FileType-16x16 -----*/
 [class^="uiIcon16x16"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType16x16.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType16x16.png");
   background-position: 0px -60px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -6506,7 +6503,7 @@ a:hover [class^="uiIcon"],
 }
 [class^="uiIcon16x16"]:hover,
 a:hover [class^="uiIcon16x16"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType16x16.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType16x16.png");
 }
 .uiIcon16x16FileDefault,
 .uiIcon16x16applicationoctet-stream {
@@ -6777,7 +6774,7 @@ a:hover [class^="uiIcon16x16"] {
 }
 /*----- IconLibrary-FileType-24x24 -----*/
 [class^="uiIcon24x24"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType24x24.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType24x24.png");
   background-position: 0px -84px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -6789,7 +6786,7 @@ a:hover [class^="uiIcon16x16"] {
 }
 [class^="uiIcon24x24"]:hover,
 a:hover [class^="uiIcon24x24"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType24x24.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType24x24.png");
 }
 .uiIcon24x24FileDefault {
   background-position: 0px -84px;
@@ -7057,7 +7054,7 @@ a:hover [class^="uiIcon24x24"] {
 }
 /*----- IconLibrary-FileType-32x32 -----*/
 [class^="uiIcon32x32"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType32x32.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType32x32.png");
   background-position: 0px -108px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -7069,7 +7066,7 @@ a:hover [class^="uiIcon24x24"] {
 }
 [class^="uiIcon32x32"]:hover,
 a:hover [class^="uiIcon32x32"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType32x32.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType32x32.png");
 }
 .uiIcon32x32FileDefault {
   background-position: 0px -108px;
@@ -7263,7 +7260,7 @@ a:hover [class^="uiIcon32x32"] {
 }
 /*----- IconLibrary-FileType-48x48 -----*/
 [class^="uiIcon48x48"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType48x48.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType48x48.png");
   background-position: 0px -156px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -7275,7 +7272,7 @@ a:hover [class^="uiIcon32x32"] {
 }
 [class^="uiIcon48x48"]:hover,
 a:hover [class^="uiIcon48x48"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType48x48.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType48x48.png");
 }
 .uiIcon48x48FileDefault {
   background-position: 0px -156px;
@@ -7469,7 +7466,7 @@ a:hover [class^="uiIcon48x48"] {
 }
 /*----- IconLibrary-FileType-64x64 -----*/
 [class^="uiIcon64x64"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType64x64.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType64x64.png");
   background-position: 0px -204px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -7481,7 +7478,7 @@ a:hover [class^="uiIcon48x48"] {
 }
 [class^="uiIcon64x64"]:hover,
 a:hover [class^="uiIcon64x64"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/TypeIcons/uiIconsType64x64.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/TypeIcons/uiIconsType64x64.png");
 }
 .uiIcon64x64FileDefault {
   background-position: 0px -204px;
@@ -8472,7 +8469,7 @@ a:hover [class^="uiIconApp"],
   *margin-right: .3em;
   line-height: 35px;
   vertical-align: middle;
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/AppIcons/uiIconAppDefault.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/AppIcons/uiIconAppDefault.png");
   background-repeat: no-repeat;
 }
 [class^="uiIconApp24x24"],
@@ -8480,7 +8477,7 @@ a:hover [class^="uiIconApp"],
 .dropdown-menu > li > a:hover > [class^="uiIconApp24x24"],
 .uiSpaceMenuPortlet .active [class^="uiIconApp24x24"],
 .uiUserNavigationPortlet .active [class^="uiIconApp24x24"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/AppIcons/uiIconApp24x24Default.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/AppIcons/uiIconApp24x24Default.png");
   width: 24px;
   height: 24px;
 }
@@ -8516,7 +8513,7 @@ a:hover [class^="uiIconApp"],
 .dropdown-menu > li > a:hover > [class^="uiIconApp64x64"],
 .uiSpaceMenuPortlet .active [class^="uiIconApp64x64"],
 .uiUserNavigationPortlet .active [class^="uiIconApp64x64"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/AppIcons/uiIconApp64x64Gray.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/AppIcons/uiIconApp64x64Gray.png");
   width: 64px;
   height: 64px;
 }
@@ -8550,7 +8547,7 @@ a:hover [class^="uiIconApp"],
 .dropdown-menu > li > a:hover > [class^="uiIconApp"],
 .uiSpaceMenuPortlet .active [class^="uiIconApp"],
 .uiUserNavigationPortlet .active [class^="uiIconApp"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/AppIcons/uiIconAppSecondary.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/AppIcons/uiIconAppSecondary.png");
 }
 .uiIconAppprofile {
   background-position: 0 0;
@@ -8625,11 +8622,11 @@ a:hover [class^="uiIconApp"],
   width: 38px;
   height: 38px;
   display: inline-block;
-  background: url("../../../eXoSkin/skin/images/Default/Icons/status-task.png");
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/status-task.png");
   margin-top: 1px;
 }
 [class^="uiIconStatus"]:hover {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/status-task.png");
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/status-task.png");
 }
 .uiIconStatus-needs-action,
 .uiIconStatus-needs-action:hover {
@@ -8651,11 +8648,11 @@ a:hover [class^="uiIconApp"],
   width: 20px;
   height: 20px;
   display: inline-block;
-  background: url("../../../eXoSkin/skin/images/Default/Icons/status-task-20.png");
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/status-task-20.png");
   margin-top: 1px;
 }
 [class^="uiIconStatus-20"]:hover {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/status-task-20.png");
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/status-task-20.png");
 }
 .uiIconStatus-20-needs-action,
 .uiIconStatus-20-needs-action:hover {
@@ -8677,11 +8674,11 @@ a:hover [class^="uiIconApp"],
   width: 64px;
   height: 64px;
   display: inline-block;
-  background: url("../../../eXoSkin/skin/images/Default/Icons/status-task-64.png");
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/status-task-64.png");
   margin-top: 1px;
 }
 [class^="uiIconStatus-64"]:hover {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/status-task-64.png");
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/status-task-64.png");
 }
 .uiIconStatus-64-needs-action,
 .uiIconStatus-64-needs-action:hover {
@@ -8726,7 +8723,7 @@ a:hover [class^="uiIconApp"],
 /*---------- Portlet Icons ----------*/
 [class^="uiIconPortlet64x64"],
 [class^="uiIconPortlet64x64"]:hover {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/Portlet64x64Icons/uiIconsPortlet.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/Portlet64x64Icons/uiIconsPortlet.png");
   width: 64px;
   height: 52px;
 }
@@ -8857,35 +8854,35 @@ a:hover [class^="uiIconApp"],
 .uiLoadingIconMini {
   width: 16px;
   height: 16px;
-  background: url("../../../eXoSkin/skin/images/Default/Loading/loading16x16Light.png") no-repeat 0 0;
+  background: url("../../../eXoSkin/skin/images/themes/default/Loading/loading16x16Light.png") no-repeat 0 0;
   -webkit-animation: fa-spin 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconSmall {
   width: 24px;
   height: 24px;
-  background: url("../../../eXoSkin/skin/images/Default/Loading/loading24x24Light.png") no-repeat 0 0;
+  background: url("../../../eXoSkin/skin/images/themes/default/Loading/loading24x24Light.png") no-repeat 0 0;
   -webkit-animation: fa-spin 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconMedium {
   width: 32px;
   height: 32px;
-  background: url("../../../eXoSkin/skin/images/Default/Loading/loading32x32Light.png") no-repeat 0 0;
+  background: url("../../../eXoSkin/skin/images/themes/default/Loading/loading32x32Light.png") no-repeat 0 0;
   -webkit-animation: fa-spin 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconLarge {
   width: 48px;
   height: 48px;
-  background: url("../../../eXoSkin/skin/images/Default/Loading/loading48x48Light.png") no-repeat 0 0;
+  background: url("../../../eXoSkin/skin/images/themes/default/Loading/loading48x48Light.png") no-repeat 0 0;
   -webkit-animation: fa-spin 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconXLarge {
   width: 64px;
   height: 64px;
-  background: url("../../../eXoSkin/skin/images/Default/Loading/loading64x64Light.png") no-repeat 0 0;
+  background: url("../../../eXoSkin/skin/images/themes/default/Loading/loading64x64Light.png") no-repeat 0 0;
   -webkit-animation: fa-spin 1s infinite linear;
   animation: loading 1s infinite linear;
 }
@@ -9042,7 +9039,7 @@ h4 .btn + .btn {
   padding-right: 15px;
 }
 .btn-group.uiDropdownWithIcon .btn .spiter {
-  background: url("../../../eXoSkin/skin/images/Default/Dropdown/ButtonGroups/split-white.png") no-repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Dropdown/ButtonGroups/split-white.png") no-repeat center;
   display: inline-block;
   margin: 0 0 0 7px;
   vertical-align: middle;
@@ -9059,7 +9056,7 @@ h4 .btn + .btn {
   margin-top: 0;
 }
 .btn-group.uiDropdownWithIcon .btn.btn-primary .spiter {
-  background: url("../../../eXoSkin/skin/images/Default/Dropdown/ButtonGroups/split.png") no-repeat;
+  background: url("../../../eXoSkin/skin/images/themes/default/Dropdown/ButtonGroups/split.png") no-repeat;
 }
 .btn-group.uiDropdownWithIcon .btn .uiIconMiniArrowDown {
   margin: 0 -1px 0 1px;
@@ -10062,7 +10059,7 @@ textarea[disabled] {
 .uiPageIterator ul > li.disabled > a > [class^="uiIcon"],
 .uiPageIterator ul > li.disabled > a:hover > [class^="uiIcon"],
 .uiPageIterator ul > li.disabled > a:active > [class^="uiIcon"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
 }
 .table + .pageIteratorBorder {
   border: 1px solid #cccccc;
@@ -10108,7 +10105,7 @@ textarea[disabled] {
   margin-right: 7px;
 }
 .alert .uiIconWarning {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -20px top;
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat -20px top;
 }
 .alert a {
   color: #2f5e92;
@@ -10123,7 +10120,7 @@ textarea[disabled] {
   color: #333333;
 }
 .alert-success .uiIconSuccess {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -60px top;
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat -60px top;
 }
 .alert-info {
   background: #d1ddf7;
@@ -10131,7 +10128,7 @@ textarea[disabled] {
   color: #333333;
 }
 .alert-info .uiIconInfo {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat -40px top;
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat -40px top;
 }
 .alert-error {
   background: #ed9c95;
@@ -10139,7 +10136,7 @@ textarea[disabled] {
   color: #333333;
 }
 .alert-error .uiIconError {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png") no-repeat left top;
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat left top;
 }
 /*
 	Default	 		Helvetica Neue  		13px 	 #333333 	~ @@baseColorDark
@@ -10193,7 +10190,7 @@ textarea[disabled] {
   margin: 0;
 }
 .uiSearchInput input[type="text"] {
-  background-image: url("../../../eXoSkin/skin/images/Default/SearchInput/Search.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/SearchInput/Search.png");
   background-position: right -1px;
   background-repeat: no-repeat;
   margin: 0;
@@ -10250,7 +10247,7 @@ textarea[disabled] {
   padding-left: 22px;
 }
 .uiTreeExplorer .expandIcon {
-  background: url("../../../eXoSkin/skin/images/Default/Tree/uiIconTreePlus.gif") no-repeat left center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Tree/uiIconTreePlus.gif") no-repeat left center;
   width: auto;
   height: auto;
   padding-left: 15px;
@@ -10258,11 +10255,11 @@ textarea[disabled] {
   margin: 0px;
 }
 .uiTreeExplorer .collapseIcon {
-  background: url("../../../eXoSkin/skin/images/Default/Tree/uiIconTreeMinus.gif") no-repeat left center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Tree/uiIconTreeMinus.gif") no-repeat left center;
   padding-left: 15px;
 }
 .uiTreeExplorer .emptyIcon {
-  background: url("../../../eXoSkin/skin/images/Default/Tree/uiIconTreeSquare.gif") no-repeat left center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Tree/uiIconTreeSquare.gif") no-repeat left center;
   padding-left: 15px;
 }
 .uiTreeExplorer .loadingTree {
@@ -10315,18 +10312,18 @@ textarea[disabled] {
   font-weight: bold;
 }
 .uiTrees .collapseIcon {
-  background: url("../../../eXoSkin/skin/images/Default/Tree/uiIconTreePlus.gif") no-repeat left center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Tree/uiIconTreePlus.gif") no-repeat left center;
   width: auto;
   height: auto;
   padding-left: 15px;
   margin: 0px;
 }
 .uiTrees .expandIcon {
-  background: url("../../../eXoSkin/skin/images/Default/Tree/uiIconTreeMinus.gif") no-repeat left center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Tree/uiIconTreeMinus.gif") no-repeat left center;
   padding-left: 15px;
 }
 .uiTrees .uiIconEmpty {
-  background: url("../../../eXoSkin/skin/images/Default/Tree/uiIconTreeSquare.gif") no-repeat left center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Tree/uiIconTreeSquare.gif") no-repeat left center;
   padding-left: 15px;
 }
 .uiBox > .uiTrees {
@@ -10867,14 +10864,14 @@ textarea[disabled] {
   margin-bottom: 0;
 }
 .UIDashboardSelectContainer .DashboardItemContainer .InputContainer .AddNewNodeIcon {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png") -100px -60px;
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png") -100px -60px;
   display: inline-block;
   cursor: pointer;
   width: 16px;
   height: 16px;
 }
 .UIDashboardSelectContainer .DashboardItemContainer .InputContainer .AddNewNodeIcon:hover {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png") -100px -60px;
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png") -100px -60px;
 }
 .UIDashboardSelectContainer .DashboardItemContainer .MiddleItemContainer {
   overflow: hidden;
@@ -10924,7 +10921,7 @@ textarea[disabled] {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
   background-repeat: no-repeat;
   background-position: 0 -140px;
 }
@@ -10944,7 +10941,7 @@ textarea[disabled] {
   background-position: -40px -140px;
 }
 .UIDashboardSelectContainer .DashboardItemContainer .GadgetCategory .GadgetTab:hover .ArrowIcon:before {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
 }
 .UIDashboardSelectContainer .GadgetCategory .ItemsContainer {
   padding: 15px;
@@ -11522,7 +11519,7 @@ textarea[disabled] {
   color: #2f5e92;
 }
 .uiItemSelector .itemListContainer .itemList > li.selectedItem > a > i {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsPrimary.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
   background-position: 0 -120px;
 }
 .uiItemSelector .itemDetailList {
@@ -11557,25 +11554,25 @@ textarea[disabled] {
   min-height: 241px;
 }
 .uiItemSelector.uiFormInputItemSelector .itemDetailList .WAIPortalImage {
-  background: url("../../../eXoSkin/skin/images/Default/ecms/skin/wcmPortal/WAIPortal.png") no-repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/ecms/skin/wcmPortal/WAIPortal.png") no-repeat center;
   margin: 3px auto;
   width: 296px;
   height: 230px;
 }
 .uiItemSelector.uiFormInputItemSelector .itemDetailList .emptyImage {
-  background: url("../../../eXoSkin/skin/images/Default/platform/skin/platformPortal/empty.png") no-repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/platform/skin/platformPortal/empty.png") no-repeat center;
   margin: 3px auto;
   width: 296px;
   height: 235px;
 }
 .uiItemSelector.uiFormInputItemSelector .itemDetailList .acmeImage {
-  background: url("../../../eXoSkin/skin/images/Default/platform/skin/platformPortal/acme.png") no-repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/platform/skin/platformPortal/acme.png") no-repeat center;
   margin: 3px auto;
   width: 296px;
   height: 230px;
 }
 .uiItemSelector.uiFormInputItemSelector .itemDetailList .intranetImage {
-  background: url("../../../eXoSkin/skin/images/Default/platform/skin/platformPortal/intranet.png") no-repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/platform/skin/platformPortal/intranet.png") no-repeat center;
   margin: 3px auto;
   width: 296px;
   height: 230px;
@@ -11639,7 +11636,7 @@ textarea[disabled] {
   height: 125px;
   min-width: 185px;
   margin: auto;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
 }
 .uiItemSelector .containerLayout > .EmptyLayout {
   background-position: center top;
@@ -11689,1185 +11686,1185 @@ textarea[disabled] {
   vertical-align: text-top;
 }
 .Organization {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Earth.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Earth.gif') no-repeat center;
 }
 .Fast {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/EditIcon.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/EditIcon.gif') no-repeat center;
 }
 .Account {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserAccount.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserAccount.gif') no-repeat center;
 }
 .Registry-Portlet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/RegistryPortlet.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/RegistryPortlet.gif') no-repeat center;
 }
 .Site {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/SiteMap.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/SiteMap.gif') no-repeat center;
 }
 .Login {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Key.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Key.gif') no-repeat center;
 }
 .Mail {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Email.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Email.gif') no-repeat center;
 }
 .Forum {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ForumIcon.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ForumIcon.gif') no-repeat center;
 }
 .ECMAdminIcon {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ECMAdmin.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ECMAdmin.gif') no-repeat center;
 }
 .ExplorerIcon {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/JCRExplorer.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/JCRExplorer.gif') no-repeat center;
 }
 .Dialog {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/DialogIcon.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/DialogIcon.gif') no-repeat center;
 }
 .Browse {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BrowseContent.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BrowseContent.gif') no-repeat center;
 }
 .Workflow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/WorkflowIcon.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/WorkflowIcon.gif') no-repeat center;
 }
 /*##############- Misc Icons -#############*/
 .BlueArrowFloppy16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueArrowBlackFloppy.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueArrowBlackFloppy.gif');
 }
 .BlueInfoBox16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Info.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Info.gif');
 }
 .Config16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Config.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Config.gif');
 }
 .SelectPermissionIcon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/SelectPermission.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/SelectPermission.gif');
 }
 .Node16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Node.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Node.gif');
 }
 .Level16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Level.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Level.gif');
 }
 .Feature16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Feature.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Feature.gif');
 }
 .RSS16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/RSS.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/RSS.gif');
 }
 .Earth16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Earth.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Earth.gif');
 }
 .AdminView16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/AdminView.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/AdminView.gif');
 }
 .Briefcase16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Briefcase.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Briefcase.gif');
 }
 .AddNode16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueCirclePlus.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueCirclePlus.gif');
 }
 .EditIcon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/EditIcon.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/EditIcon.gif');
 }
 .Organization16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Organization.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Organization.gif');
 }
 .UserRegistration16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserRegistration.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserRegistration.gif');
 }
 .Management16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Management.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Management.gif');
 }
 .PortalAdmin16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/PortalAdmin.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/PortalAdmin.gif');
 }
 .Duplicate16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Duplicate.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Duplicate.gif');
 }
 .Portal16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Portal.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Portal.gif');
 }
 .Administration16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Monitor.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Monitor.gif');
 }
 .SiteMap16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/SiteMap.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/SiteMap.gif');
 }
 .SearchPage16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/SearchPage.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/SearchPage.gif');
 }
 .BlueCirclePlus16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueCirclePlus.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueCirclePlus.gif');
 }
 .ShieldGreenPlus16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ShieldGreenPlus.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ShieldGreenPlus.gif');
 }
 .InfoMessage16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueSquare.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueSquare.gif');
 }
 .WarningMessageSquare16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/YellowSquare.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/YellowSquare.gif');
 }
 .ErrorMessage16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/RedSquare.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/RedSquare.gif');
 }
 .DoubleBrownNoteIcon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/DoubleBrownNote.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/DoubleBrownNote.gif');
 }
 .Execute16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Execute.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Execute.gif');
 }
 .OrangePencilSourceBox16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OrangePencilSourceBox.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OrangePencilSourceBox.gif');
 }
 .Home16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Home.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Home.gif');
 }
 .ColorPen16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ColorPen.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ColorPen.gif');
 }
 .NestedSquare16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NestedSquare.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NestedSquare.gif');
 }
 .VioletInfoWindow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/VioletInfoWindow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/VioletInfoWindow.gif');
 }
 .PageTicker16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/PageTicker.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/PageTicker.gif');
 }
 .GreenPlusPage16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/GreenPlusPage.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/GreenPlusPage.gif');
 }
 .BlackBorderSquareBlueBall16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlackBorderSquareBlueBall.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlackBorderSquareBlueBall.gif');
 }
 .GreenPlusDataBox16x16Icon {
   height: 16px;
   width: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/GreenPlusDatabox.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/GreenPlusDatabox.gif');
 }
 /* TODO: Change image'name to "BlueShapeLeftArrow" */
 .BlueBackArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueBackArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueBackArrow.gif');
   cursor: pointer;
 }
 /* TODO: Change image'name to "BlueShapeRightArrow" */
 .BlueNextArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueNextArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueNextArrow.gif');
   cursor: pointer;
 }
 .Remove16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/DustBin.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/DustBin.gif');
 }
 .GrayBackArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/GrayShapeLeftArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/GrayShapeLeftArrow.gif');
   cursor: pointer;
 }
 .GrayNextArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/GrayShapeRightArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/GrayShapeRightArrow.gif');
 }
 .BlueCircleLeftArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueCircleLeftArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueCircleLeftArrow.gif');
 }
 .BlueCircleRightArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueCircleRightArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueCircleRightArrow.gif');
 }
 .BlueGridRightArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueGridRightArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueGridRightArrow.gif');
 }
 .GrayDoubleGridDownArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/GrayDoubleGridDownArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/GrayDoubleGridDownArrow.gif');
 }
 .GrayFillRightArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/GrayFillRightArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/GrayFillRightArrow.gif');
 }
 .BlueSquareRightArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueSquareRightArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueSquareRightArrow.gif');
 }
 .DotArrowRight16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/DotArrowRight.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/DotArrowRight.gif');
 }
 .BlackGridRightArrow16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlackGridRightArrow.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlackGridRightArrow.gif');
 }
 .BlueCloseButton16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/BlueCloseButton.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/BlueCloseButton.gif');
 }
 .Logout16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/RedLogoutIcon.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/RedLogoutIcon.gif');
 }
 .TreeNode16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/TreeNodeIcon.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/TreeNodeIcon.gif');
 }
 .Scissors16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/Scissors.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/Scissors.gif');
 }
 .HotNews16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/HotNews.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/HotNews.gif');
 }
 .ArrowS1Down16x16Icon {
   width: 22px;
   height: 17px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ArrowSLDown.gif') no-repeat center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ArrowSLDown.gif') no-repeat center;
 }
 .ArrowS1Up16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/WhiteArrowUp.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/WhiteArrowUp.gif');
 }
 .Portlet16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/DefaultPortletIcon.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/DefaultPortletIcon.gif');
 }
 .Container16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/DefaultContainerIcon.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/DefaultContainerIcon.gif');
 }
 .SmallGroup16x16Icon {
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/SmallGroup.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/SmallGroup.gif');
 }
 .DefaultPageIcon {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/DefaultNodeIcon.gif') no-repeat left center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/DefaultNodeIcon.gif') no-repeat left center;
   /* orientation=lt */
 
 }
 /*##############################Icon Stylesheet for IconSelector##########################*/
 /*===========================Misc Icons Stylesheet=======================*/
 .AcrobatFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/AcrobatFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/AcrobatFile.gif') no-repeat center left;
 }
 .AdminView {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/AdminView.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/AdminView.gif') no-repeat center left;
 }
 .AllTags {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/AllTags.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/AllTags.gif') no-repeat center left;
 }
 .AmericanExpressCard {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/AmericanExpressCard.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/AmericanExpressCard.gif') no-repeat center left;
 }
 .ApplicationGallery {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ApplicationGallery.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ApplicationGallery.gif') no-repeat center left;
 }
 .ApplicationLink {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ApplicationLink.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ApplicationLink.gif') no-repeat center left;
 }
 .ApplicationList {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ApplicationList.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ApplicationList.gif') no-repeat center left;
 }
 .ApplicationSize {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ApplicationSize.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ApplicationSize.gif') no-repeat center left;
 }
 .ApplicationTerminal {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ApplicationTerminal.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ApplicationTerminal.gif') no-repeat center left;
 }
 .ApplicationWorldWide {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ApplicationWorldWide.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ApplicationWorldWide.png') no-repeat center left;
 }
 .BlueInfo {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/BlueInfo.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/BlueInfo.gif') no-repeat center left;
 }
 .Bomb {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Bomb.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Bomb.png') no-repeat center left;
 }
 .BookmarkPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/BookmarkPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/BookmarkPage.gif') no-repeat center left;
 }
 .BreakLink {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/BreakLink.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/BreakLink.gif') no-repeat center left;
 }
 .Brick {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Brick.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Brick.gif') no-repeat center left;
 }
 .CategoryList {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/CategoryList.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/CategoryList.gif') no-repeat center left;
 }
 .Checkout {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Checkout.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Checkout.gif') no-repeat center left;
 }
 .CheckPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/CheckPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/CheckPage.gif') no-repeat center left;
 }
 .ComponentsList {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ComponentsList.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ComponentsList.gif') no-repeat center left;
 }
 .Config {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Config.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Config.gif') no-repeat center left;
 }
 .CSS {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/CSS.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/CSS.gif') no-repeat center left;
 }
 .DiskDrive {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/DiskDrive.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/DiskDrive.gif') no-repeat center left;
 }
 .DownloadApplication {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/DownloadApplication.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/DownloadApplication.gif') no-repeat center left;
 }
 .DreamweaverApplication {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/DreamweaverApplication.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/DreamweaverApplication.gif') no-repeat center left;
 }
 .DynamicContentPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/DynamicContentPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/DynamicContentPage.gif') no-repeat center left;
 }
 .Extension {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Extension.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Extension.gif') no-repeat center left;
 }
 .Factory {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Factory.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Factory.gif') no-repeat center left;
 }
 .Feature {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Feature.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Feature.gif') no-repeat center left;
 }
 .Flash {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Flash.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Flash.gif') no-repeat center left;
 }
 .FlashFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/FlashFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/FlashFile.gif') no-repeat center left;
 }
 .FolderLock {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/FolderLock.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/FolderLock.gif') no-repeat center left;
 }
 .FontFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/FontFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/FontFile.gif') no-repeat center left;
 }
 .Glove {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Glove.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Glove.gif') no-repeat center left;
 }
 .Home {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Home.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Home.gif') no-repeat center left;
 }
 .HTML {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/HTML.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/HTML.gif') no-repeat center left;
 }
 .Humer {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Humer.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Humer.gif') no-repeat center left;
 }
 .IconsView {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/IconsView.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/IconsView.gif') no-repeat center left;
 }
 .ImageFrame {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ImageFrame.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ImageFrame.gif') no-repeat center left;
 }
 .Images {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Images.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Images.gif') no-repeat center left;
 }
 .ImagesFolder {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ImagesFolder.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ImagesFolder.gif') no-repeat center left;
 }
 .ImageSize {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ImageSize.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ImageSize.gif') no-repeat center left;
 }
 .ImagesList {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/ImagesList.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/ImagesList.gif') no-repeat center left;
 }
 .Info {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Info.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Info.png') no-repeat center left;
 }
 .InstallerProgress {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/InstallerProgress.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/InstallerProgress.gif') no-repeat center left;
 }
 .JavaPge {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/JavaPge.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/JavaPge.gif') no-repeat center left;
 }
 .Layout {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Layout.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Layout.gif') no-repeat center left;
 }
 .Link {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Link.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Link.gif') no-repeat center left;
 }
 .LockPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/LockPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/LockPage.gif') no-repeat center left;
 }
 .MasterCard {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/MasterCard.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/MasterCard.gif') no-repeat center left;
 }
 .Music {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Music.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Music.gif') no-repeat center left;
 }
 .MusicDownload {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/MusicDownload.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/MusicDownload.gif') no-repeat center left;
 }
 .New {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/New.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/New.gif') no-repeat center left;
 }
 .PackagesList {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/PackagesList.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/PackagesList.gif') no-repeat center left;
 }
 .PageCategory {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/PageCategory.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/PageCategory.gif') no-repeat center left;
 }
 .PhotoshopFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/PhotoshopFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/PhotoshopFile.gif') no-repeat center left;
 }
 .Printer {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Printer.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Printer.gif') no-repeat center left;
 }
 .Puzzle {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Puzzle.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Puzzle.gif') no-repeat center left;
 }
 .QuicktimeMovieFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/QuicktimeMovieFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/QuicktimeMovieFile.gif') no-repeat center left;
 }
 .Rainbow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Rainbow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Rainbow.gif') no-repeat center left;
 }
 .RefeshPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/RefeshPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/RefeshPage.gif') no-repeat center left;
 }
 .RSS {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/RSS.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/RSS.gif') no-repeat center left;
 }
 .RSSFeed {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/RSSFeed.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/RSSFeed.gif') no-repeat center left;
 }
 .SearchFolder {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/SearchFolder.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/SearchFolder.gif') no-repeat center left;
 }
 .Security {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Security.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Security.gif') no-repeat center left;
 }
 .Software {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Software.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Software.gif') no-repeat center left;
 }
 .Speaker {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Speaker.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Speaker.gif') no-repeat center left;
 }
 .Speaker2 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Speaker2.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Speaker2.gif') no-repeat center left;
 }
 .StarAward {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/StarAward.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/StarAward.gif') no-repeat center left;
 }
 .StarPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/StarPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/StarPage.gif') no-repeat center left;
 }
 .Stats {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Stats.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Stats.gif') no-repeat center left;
 }
 .TagPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/TagPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/TagPage.gif') no-repeat center left;
 }
 .TagSign {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/TagSign.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/TagSign.gif') no-repeat center left;
 }
 .Ticket {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Ticket.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Ticket.gif') no-repeat center left;
 }
 .TrueTypeFont {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/TrueTypeFont.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/TrueTypeFont.gif') no-repeat center left;
 }
 .Tux {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Tux.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Tux.gif') no-repeat center left;
 }
 .Vector {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Vector.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Vector.gif') no-repeat center left;
 }
 .Version {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/Version.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/Version.gif') no-repeat center left;
 }
 .VisaCard {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/VisaCard.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/VisaCard.gif') no-repeat center left;
 }
 .WeatherClouds {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/WeatherClouds.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/WeatherClouds.gif') no-repeat center left;
 }
 .WeatherCloudy {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/WeatherCloudy.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/WeatherCloudy.gif') no-repeat center left;
 }
 .WeatherLightning {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/WeatherLightning.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/WeatherLightning.gif') no-repeat center left;
 }
 .WeatherRain {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/WeatherRain.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/WeatherRain.gif') no-repeat center left;
 }
 .WeatherSnow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/WeatherSnow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/WeatherSnow.gif') no-repeat center left;
 }
 .WeatherSun {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/WeatherSun.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/WeatherSun.gif') no-repeat center left;
 }
 .World {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/World.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/World.gif') no-repeat center left;
 }
 .XHTML {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/XHTML.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/XHTML.gif') no-repeat center left;
 }
 .YellowStar {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MiscIcons/YellowStar.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MiscIcons/YellowStar.png') no-repeat center left;
 }
 /*===========================End Misc Icons Stylesheet=======================*/
 /*===========================Navigation Icons Stylesheet=======================*/
 .BlackDownSolidArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlackDownSolidArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlackDownSolidArrow.gif') no-repeat center left;
 }
 .BlackLeftSolidArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlackLeftSolidArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlackLeftSolidArrow.gif') no-repeat center left;
 }
 .BlackRightSolidArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlackRightSolidArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlackRightSolidArrow.gif') no-repeat center left;
 }
 .BlackUpSolidArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlackUpSolidArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlackUpSolidArrow.gif') no-repeat center left;
 }
 .BlueAquaBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueAquaBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueAquaBallBullet.gif') no-repeat center left;
 }
 .BlueArrowIn {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueArrowIn.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueArrowIn.gif') no-repeat center left;
 }
 .BlueArrowInOut {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueArrowInOut.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueArrowInOut.gif') no-repeat center left;
 }
 .BlueBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueBallBullet.gif') no-repeat center left;
 }
 .BlueBranchArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueBranchArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueBranchArrow.gif') no-repeat center left;
 }
 .BlueDividedArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueDividedArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueDividedArrow.gif') no-repeat center left;
 }
 .BlueDownArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueDownArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueDownArrow.gif') no-repeat center left;
 }
 .BlueJoinArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueJoinArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueJoinArrow.gif') no-repeat center left;
 }
 .BlueRedoArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueRedoArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueRedoArrow.gif') no-repeat center left;
 }
 .BlueRotateRightArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueRotateRightArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueRotateRightArrow.gif') no-repeat center left;
 }
 .BlueSquareBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueSquareBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueSquareBullet.gif') no-repeat center left;
 }
 .BlueSwitchArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueSwitchArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueSwitchArrow.gif') no-repeat center left;
 }
 .BlueTriangleBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueTriangleBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueTriangleBullet.gif') no-repeat center left;
 }
 .BlueUndoArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueUndoArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueUndoArrow.gif') no-repeat center left;
 }
 .BlueUpArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/BlueUpArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/BlueUpArrow.gif') no-repeat center left;
 }
 .Check {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/Check.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/Check.png') no-repeat center left;
 }
 .Check2 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/Check2.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/Check2.gif') no-repeat center left;
 }
 .Delete {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/Delete.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/Delete.gif') no-repeat center left;
 }
 .Forward {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/Forward.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/Forward.gif') no-repeat center left;
 }
 .GrassGreenBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GrassGreenBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GrassGreenBallBullet.gif') no-repeat center left;
 }
 .GreenBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreenBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreenBallBullet.gif') no-repeat center left;
 }
 .GreenSquareBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreenSquareBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreenSquareBullet.gif') no-repeat center left;
 }
 .GreenTriangleBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreenTriangleBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreenTriangleBullet.gif') no-repeat center left;
 }
 .GreyAquaBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreyAquaBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreyAquaBallBullet.gif') no-repeat center left;
 }
 .GreyBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreyBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreyBallBullet.gif') no-repeat center left;
 }
 .GreyLeftShapeArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreyLeftShapeArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreyLeftShapeArrow.gif') no-repeat center left;
 }
 .GreySquareBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreySquareBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreySquareBullet.gif') no-repeat center left;
 }
 .GreyTriangleBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/GreyTriangleBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/GreyTriangleBullet.gif') no-repeat center left;
 }
 .RedAquaBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/RedAquaBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/RedAquaBallBullet.gif') no-repeat center left;
 }
 .RedBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/RedBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/RedBallBullet.gif') no-repeat center left;
 }
 .RedSquareBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/RedSquareBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/RedSquareBullet.gif') no-repeat center left;
 }
 .RedTriangleBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/RedTriangleBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/RedTriangleBullet.gif') no-repeat center left;
 }
 .Reply {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/Reply.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/Reply.gif') no-repeat center left;
 }
 .RightShapeArrow {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/RightShapeArrow.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/RightShapeArrow.gif') no-repeat center left;
 }
 .YellowAquaBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/YellowAquaBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/YellowAquaBallBullet.gif') no-repeat center left;
 }
 .YellowBallBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/YellowBallBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/YellowBallBullet.gif') no-repeat center left;
 }
 .YellowSquareBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/YellowSquareBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/YellowSquareBullet.gif') no-repeat center left;
 }
 .YellowTriangleBullet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/NavigationIcons/YellowTriangleBullet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/NavigationIcons/YellowTriangleBullet.gif') no-repeat center left;
 }
 /*===========================End Navigation Icons Stylesheet=======================*/
 /*===========================Office Icons Stylesheet=======================*/
 .AddressBook {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/AddressBook.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/AddressBook.gif') no-repeat center left;
 }
 .ArticleDocument {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/ArticleDocument.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/ArticleDocument.gif') no-repeat center left;
 }
 .At {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/At.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/At.png') no-repeat center left;
 }
 .Attachment {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Attachment.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Attachment.gif') no-repeat center left;
 }
 .Book {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Book.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Book.gif') no-repeat center left;
 }
 .Chair {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Chair.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Chair.gif') no-repeat center left;
 }
 .ChartBar {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/ChartBar.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/ChartBar.gif') no-repeat center left;
 }
 .ChartLine {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/ChartLine.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/ChartLine.gif') no-repeat center left;
 }
 .CoffeeCup {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/CoffeeCup.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/CoffeeCup.gif') no-repeat center left;
 }
 .CoinsCurency {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/CoinsCurency.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/CoinsCurency.gif') no-repeat center left;
 }
 .Computer {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Computer.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Computer.gif') no-repeat center left;
 }
 .Conference {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Conference.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Conference.gif') no-repeat center left;
 }
 .Date {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Date.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Date.gif') no-repeat center left;
 }
 .DocumentBox {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/DocumentBox.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/DocumentBox.gif') no-repeat center left;
 }
 .Door {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Door.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Door.gif') no-repeat center left;
 }
 .DreamweaverFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/DreamweaverFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/DreamweaverFile.gif') no-repeat center left;
 }
 .Email {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Email.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Email.gif') no-repeat center left;
 }
 .Envelope {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Envelope.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Envelope.gif') no-repeat center left;
 }
 .ExeFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/ExeFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/ExeFile.gif') no-repeat center left;
 }
 .FloppyDisk {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/FloppyDisk.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/FloppyDisk.gif') no-repeat center left;
 }
 .Folder1 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Folder1.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Folder1.gif') no-repeat center left;
 }
 .Folder2 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Folder2.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Folder2.gif') no-repeat center left;
 }
 .Folder3 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Folder3.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Folder3.gif') no-repeat center left;
 }
 .Folder4 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Folder4.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Folder4.gif') no-repeat center left;
 }
 .Folder5 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Folder5.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Folder5.gif') no-repeat center left;
 }
 .HomePage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/HomePage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/HomePage.gif') no-repeat center left;
 }
 .HotNews {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/HotNews.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/HotNews.gif') no-repeat center left;
 }
 .IDCard {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/IDCard.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/IDCard.gif') no-repeat center left;
 }
 .IllustratorFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/IllustratorFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/IllustratorFile.gif') no-repeat center left;
 }
 .IndesignFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/IndesignFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/IndesignFile.gif') no-repeat center left;
 }
 .Index {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Index.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Index.gif') no-repeat center left;
 }
 .Keyboard {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Keyboard.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Keyboard.gif') no-repeat center left;
 }
 .Letter {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Letter.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Letter.gif') no-repeat center left;
 }
 .MacOSXFolder {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/MacOSXFolder.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/MacOSXFolder.gif') no-repeat center left;
 }
 .Mail {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Mail.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Mail.gif') no-repeat center left;
 }
 .Map {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Map.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Map.gif') no-repeat center left;
 }
 .Monitor {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Monitor.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Monitor.gif') no-repeat center left;
 }
 .Mouse {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Mouse.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Mouse.gif') no-repeat center left;
 }
 .Newspaper {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Newspaper.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Newspaper.gif') no-repeat center left;
 }
 .Newspaper2 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Newspaper2.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Newspaper2.gif') no-repeat center left;
 }
 .NotePage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/NotePage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/NotePage.gif') no-repeat center left;
 }
 .OpenBook {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/OpenBook.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/OpenBook.gif') no-repeat center left;
 }
 .OpenEmail {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/OpenEmail.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/OpenEmail.gif') no-repeat center left;
 }
 .OpenFolder {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/OpenFolder.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/OpenFolder.gif') no-repeat center left;
 }
 .Page {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Page.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Page.gif') no-repeat center left;
 }
 .PaperList {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/PaperList.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/PaperList.gif') no-repeat center left;
 }
 .PastePalate {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/PastePalate.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/PastePalate.gif') no-repeat center left;
 }
 .Picture {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Picture.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Picture.gif') no-repeat center left;
 }
 .Purchase {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Purchase.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Purchase.gif') no-repeat center left;
 }
 .Script {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Script.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Script.gif') no-repeat center left;
 }
 .SearchPage {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/SearchPage.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/SearchPage.gif') no-repeat center left;
 }
 .ShoppingBag {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/ShoppingBag.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/ShoppingBag.gif') no-repeat center left;
 }
 .Sitemap {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Sitemap.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Sitemap.gif') no-repeat center left;
 }
 .Stats2 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Stats2.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Stats2.gif') no-repeat center left;
 }
 .Tag {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Tag.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Tag.gif') no-repeat center left;
 }
 .Telephone {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/Telephone.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/Telephone.gif') no-repeat center left;
 }
 .TextFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/TextFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/TextFile.gif') no-repeat center left;
 }
 .YellowFolder {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/YellowFolder.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/YellowFolder.gif') no-repeat center left;
 }
 .YellowPen {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/YellowPen.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/YellowPen.gif') no-repeat center left;
 }
 .ZipFile {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/OfficeIcons/ZipFile.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/OfficeIcons/ZipFile.gif') no-repeat center left;
 }
 /*===========================End Office Icons Stylesheet=======================*/
 /*===========================Tool Icons Stylesheet=======================*/
 .Alarm {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Alarm.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Alarm.gif') no-repeat center left;
 }
 .Anchor {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Anchor.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Anchor.gif') no-repeat center left;
 }
 .Basketball {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Basketball.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Basketball.gif') no-repeat center left;
 }
 .Bell {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Bell.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Bell.gif') no-repeat center left;
 }
 .Billards {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Billards.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Billards.gif') no-repeat center left;
 }
 .BlueActionWheel {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/BlueActionWheel.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/BlueActionWheel.gif') no-repeat center left;
 }
 .BlueFlag {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/BlueFlag.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/BlueFlag.gif') no-repeat center left;
 }
 .Box {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Box.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Box.gif') no-repeat center left;
 }
 .BriefCase {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/BriefCase.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/BriefCase.gif') no-repeat center left;
 }
 .Calculator {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Calculator.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Calculator.gif') no-repeat center left;
 }
 .Calendar {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Calendar.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Calendar.gif') no-repeat center left;
 }
 .Cart {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Cart.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Cart.gif') no-repeat center left;
 }
 .CD {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/CD.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/CD.gif') no-repeat center left;
 }
 .Clock {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Clock.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Clock.gif') no-repeat center left;
 }
 .Component {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Component.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Component.gif') no-repeat center left;
 }
 .CropTool {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/CropTool.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/CropTool.gif') no-repeat center left;
 }
 .DeskPhone {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/DeskPhone.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/DeskPhone.gif') no-repeat center left;
 }
 .EmptyBox {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/EmptyBox.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/EmptyBox.gif') no-repeat center left;
 }
 .Entertainment {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Entertainment.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Entertainment.gif') no-repeat center left;
 }
 .FileBox {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/FileBox.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/FileBox.gif') no-repeat center left;
 }
 .FirefoxBrowser {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/FirefoxBrowser.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/FirefoxBrowser.gif') no-repeat center left;
 }
 .FolderExport {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/FolderExport.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/FolderExport.gif') no-repeat center left;
 }
 .FolderImport {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/FolderImport.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/FolderImport.gif') no-repeat center left;
 }
 .Football {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Football.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Football.gif') no-repeat center left;
 }
 .Gear {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Gear.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Gear.gif') no-repeat center left;
 }
 .Golf {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Golf.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Golf.gif') no-repeat center left;
 }
 .GrayWallet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/GrayWallet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/GrayWallet.gif') no-repeat center left;
 }
 .GreenFlag {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/GreenFlag.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/GreenFlag.gif') no-repeat center left;
 }
 .GreyFlag {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/GreyFlag.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/GreyFlag.gif') no-repeat center left;
 }
 .HardDisk {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/HardDisk.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/HardDisk.gif') no-repeat center left;
 }
 .HourGlass {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/HourGlass.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/HourGlass.gif') no-repeat center left;
 }
 .Key {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Key.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Key.gif') no-repeat center left;
 }
 .Light {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Light.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Light.gif') no-repeat center left;
 }
 .Lock {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Lock.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Lock.gif') no-repeat center left;
 }
 .MacApplicationTool {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/MacApplicationTool.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/MacApplicationTool.gif') no-repeat center left;
 }
 .MacMonitor {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/MacMonitor.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/MacMonitor.gif') no-repeat center left;
 }
 .Magnifier {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Magnifier.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Magnifier.gif') no-repeat center left;
 }
 .MoveTool {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/MoveTool.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/MoveTool.gif') no-repeat center left;
 }
 .Movie {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Movie.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Movie.gif') no-repeat center left;
 }
 .Network {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Network.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Network.gif') no-repeat center left;
 }
 .Paste {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Paste.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Paste.gif') no-repeat center left;
 }
 .PCMonitor {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/PCMonitor.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/PCMonitor.gif') no-repeat center left;
 }
 .Pencil {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Pencil.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Pencil.gif') no-repeat center left;
 }
 .Raquet {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Raquet.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Raquet.gif') no-repeat center left;
 }
 .RedFlag {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/RedFlag.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/RedFlag.gif') no-repeat center left;
 }
 .Ruler {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Ruler.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Ruler.gif') no-repeat center left;
 }
 .Search {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Search.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Search.png') no-repeat center left;
 }
 .Shield {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Shield.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Shield.png') no-repeat center left;
 }
 .Shuttlecock {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Shuttlecock.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Shuttlecock.gif') no-repeat center left;
 }
 .Soccer {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Soccer.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Soccer.gif') no-repeat center left;
 }
 .Sound {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Sound.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Sound.gif') no-repeat center left;
 }
 .Switcher {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Switcher.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Switcher.gif') no-repeat center left;
 }
 .Tennis {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Tennis.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Tennis.gif') no-repeat center left;
 }
 .ToolBoxOpen {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/ToolBoxOpen.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/ToolBoxOpen.gif') no-repeat center left;
 }
 .UnLock {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/UnLock.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/UnLock.gif') no-repeat center left;
 }
 .VolumeControl {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/VolumeControl.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/VolumeControl.gif') no-repeat center left;
 }
 .Wand {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Wand.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Wand.gif') no-repeat center left;
 }
 .Warning {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Warning.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Warning.gif') no-repeat center left;
 }
 .Webcam {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Webcam.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Webcam.gif') no-repeat center left;
 }
 .Wrench {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/Wrench.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/Wrench.gif') no-repeat center left;
 }
 .YellowBulb {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/YellowBulb.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/YellowBulb.gif') no-repeat center left;
 }
 .YellowFlag {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/ToolIcons/YellowFlag.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/ToolIcons/YellowFlag.gif') no-repeat center left;
 }
 /*===========================End Tool Icons Stylesheet=======================*/
 /*===========================User Icons Stylesheet=======================*/
 .Comment {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Comment.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Comment.gif') no-repeat center left;
 }
 .Contact {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Contact.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Contact.gif') no-repeat center left;
 }
 .Eye {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Eye.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Eye.gif') no-repeat center left;
 }
 .Finger {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Finger.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Finger.gif') no-repeat center left;
 }
 .FolderHolder {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/FolderHolder.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/FolderHolder.gif') no-repeat center left;
 }
 .Hand {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Hand.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Hand.gif') no-repeat center left;
 }
 .HandPoint {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/HandPoint.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/HandPoint.gif') no-repeat center left;
 }
 .Help {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Help.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Help.gif') no-repeat center left;
 }
 .Personal {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Personal.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Personal.png') no-repeat center left;
 }
 .Public {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Public.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Public.gif') no-repeat center left;
 }
 .User {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/User.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/User.gif') no-repeat center left;
 }
 .VIPCard {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/VIPCard.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/VIPCard.gif') no-repeat center left;
 }
 .Woman1 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Woman1.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Woman1.png') no-repeat center left;
 }
 .Woman2 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Woman2.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Woman2.png') no-repeat center left;
 }
 .Woman3 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Woman3.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Woman3.png') no-repeat center left;
 }
 .Woman4 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Woman4.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Woman4.png') no-repeat center left;
 }
 .Worker1 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Worker.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Worker.png') no-repeat center left;
 }
 .Worker2 {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/Worker2.png') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/Worker2.png') no-repeat center left;
 }
 .YellowComment {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/UserIcons/YellowComment.gif') no-repeat center left;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/UserIcons/YellowComment.gif') no-repeat center left;
 }
 .MoveUp16x16Icon {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MoveUp.gif') no-repeat left center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MoveUp.gif') no-repeat left center;
 }
 .MoveDown16x16Icon {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/skinIcons/16x16/MoveDown.gif') no-repeat left center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/skinIcons/16x16/MoveDown.gif') no-repeat left center;
 }
 /*===========================End User Icons Stylesheet=======================*/
 .uiUserSelector .uiSearch {
@@ -12960,7 +12957,7 @@ textarea[disabled] {
 .UIEditInlineWS .DragAndDropPreview {
   width: auto;
   height: 80px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/DragAndDropPreview4x4.gif');
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/DragAndDropPreview4x4.gif');
   border: 1px solid #cccccc;
   margin: 0px 12px 10px 12px;
 }
@@ -13045,7 +13042,7 @@ textarea[disabled] {
   text-align: center;
 }
 .UIEditInlineWS .uiContainerList [class*="ContainerLayout"] {
-  background: url("../../../eXoSkin/skin/images/Default/Container/Container.png") no-repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Container/Container.png") no-repeat center;
   padding-left: 95px;
   font-weight: bold;
   margin-top: 3px;
@@ -13099,7 +13096,7 @@ textarea[disabled] {
   height: 41px;
 }
 .UIEditInlineWS .UIPageBody .pageLayoutDecorator {
-  background: url("../../../eXoSkin/skin/images/Default/Container/PortalTexture.png") repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Container/PortalTexture.png") repeat center;
   min-height: 140px;
   border: 1px solid #578dc9;
   -webkit-box-shadow: 0 2px 1px rgab(35, 44, 48, 0.3);
@@ -13147,7 +13144,7 @@ textarea[disabled] {
   width: 105px;
 }
 .uiVoteForm .voteFormContainer .uiRatingInfoContainer [class^="uiIcon"] {
-  background: url('../../../eXoSkin/skin/images/Default/Vote/uiIconVote.png') no-repeat center center;
+  background: url('../../../eXoSkin/skin/images/themes/default/Vote/uiIconVote.png') no-repeat center center;
   width: 17px;
   cursor: pointer;
 }
@@ -13178,7 +13175,7 @@ textarea[disabled] {
   float: left;
   width: 16px;
   height: 16px;
-  background: url('../../../eXoSkin/skin/images/Default/Vote/uiIconVote.png') no-repeat;
+  background: url('../../../eXoSkin/skin/images/themes/default/Vote/uiIconVote.png') no-repeat;
   margin: 0px 1px;
   cursor: pointer;
 }
@@ -13194,7 +13191,7 @@ textarea[disabled] {
 .uiVoteMini .avgRatingImages .voted,
 .uiVoteMini .avgRatingImages .votedHaft,
 .uiVoteMini .avgRatingImages .unvoted {
-  background: url('../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png') no-repeat;
+  background: url('../../../eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png') no-repeat;
   width: 10px;
   height: 10px;
   float: none;
@@ -13308,14 +13305,14 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
 }
 .uiWizard .UIWizardPageSelectLayoutForm .DashboardLayout {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -1500px;
 }
@@ -13323,7 +13320,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -1125px;
 }
@@ -13331,7 +13328,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -1250px;
 }
@@ -13339,7 +13336,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -500px;
 }
@@ -13347,7 +13344,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -625px;
 }
@@ -13355,7 +13352,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -125px;
 }
@@ -13363,7 +13360,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -250px;
 }
@@ -13371,7 +13368,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -375px;
 }
@@ -13379,7 +13376,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -1375px;
 }
@@ -13387,7 +13384,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -1625px;
 }
@@ -13395,7 +13392,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -1750px;
 }
@@ -13403,7 +13400,7 @@ textarea[disabled] {
   width: 90%;
   height: 125px;
   min-width: 185px;
-  background: url('../../../eXoSkin/skin/images/Default/Container/ItemSelector.png') no-repeat center top transparent;
+  background: url('../../../eXoSkin/skin/images/themes/default/Container/ItemSelector.png') no-repeat center top transparent;
   margin: auto;
   background-position: center -750px;
 }
@@ -13652,7 +13649,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .DefaultTheme .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -13735,12 +13732,12 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/macTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/macTheme.png');
   background-repeat: no-repeat;
 }
 .MacGray .windowBar > [class*="pull-right"] .uiIconArrowDown {
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/macTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/macTheme.png');
   background-position: center 0px;
 }
 .MacGray .windowBar > [class*="pull-right"] .maximizedIcon {
@@ -13838,12 +13835,12 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/macTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/macTheme.png');
   background-repeat: no-repeat;
 }
 .MacTheme .windowBar > [class*="pull-right"] .uiIconArrowDown {
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/macTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/macTheme.png');
   background-position: center 0px;
 }
 .MacTheme .windowBar > [class*="pull-right"] .maximizedIcon {
@@ -13941,12 +13938,12 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/macTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/macTheme.png');
   background-repeat: no-repeat;
 }
 .MacBlueSteel .windowBar > [class*="pull-right"] .uiIconArrowDown {
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/macTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/macTheme.png');
   background-position: center 0px;
 }
 .MacBlueSteel .windowBar > [class*="pull-right"] .maximizedIcon {
@@ -14049,7 +14046,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .SimplePink .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14137,7 +14134,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .SimpleGreen .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14225,7 +14222,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .SimpleOrange .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14313,7 +14310,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .SimpleViolet .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14401,7 +14398,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .SimpleBlue .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14490,7 +14487,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .RoundConerPink .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14579,7 +14576,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .RoundConerGreen .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14668,7 +14665,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .RoundConerOrange .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14757,7 +14754,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .RoundConerViolet .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14846,7 +14843,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .RoundConerBlue .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14893,7 +14890,7 @@ textarea[disabled] {
   margin: 0 0 25px;
 }
 .ShadowPink .windowBar {
-  background: #fed4f9 url('../../../eXoSkin/skin/images/Default/PortletThemes/white.png') no-repeat top center;
+  background: #fed4f9 url('../../../eXoSkin/skin/images/themes/default/PortletThemes/white.png') no-repeat top center;
   background-size: 100% 15px;
   -webkit-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
   -moz-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
@@ -14935,7 +14932,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .ShadowPink .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -14982,7 +14979,7 @@ textarea[disabled] {
   margin: 0 0 25px;
 }
 .ShadowGreen .windowBar {
-  background: #8ac056 url('../../../eXoSkin/skin/images/Default/PortletThemes/white.png') no-repeat top center;
+  background: #8ac056 url('../../../eXoSkin/skin/images/themes/default/PortletThemes/white.png') no-repeat top center;
   background-size: 100% 15px;
   -webkit-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
   -moz-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
@@ -15024,7 +15021,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .ShadowGreen .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -15071,7 +15068,7 @@ textarea[disabled] {
   margin: 0 0 25px;
 }
 .ShadowOrange .windowBar {
-  background: #ffcb5b url('../../../eXoSkin/skin/images/Default/PortletThemes/white.png') no-repeat top center;
+  background: #ffcb5b url('../../../eXoSkin/skin/images/themes/default/PortletThemes/white.png') no-repeat top center;
   background-size: 100% 15px;
   -webkit-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
   -moz-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
@@ -15113,7 +15110,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .ShadowOrange .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -15160,7 +15157,7 @@ textarea[disabled] {
   margin: 0 0 25px;
 }
 .ShadowViolet .windowBar {
-  background: #cdb1fb url('../../../eXoSkin/skin/images/Default/PortletThemes/white.png') no-repeat top center;
+  background: #cdb1fb url('../../../eXoSkin/skin/images/themes/default/PortletThemes/white.png') no-repeat top center;
   background-size: 100% 15px;
   -webkit-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
   -moz-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
@@ -15202,7 +15199,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .ShadowViolet .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -15249,7 +15246,7 @@ textarea[disabled] {
   margin: 0 0 25px;
 }
 .ShadowBlue .windowBar {
-  background: #c2e2ff url('../../../eXoSkin/skin/images/Default/PortletThemes/white.png') no-repeat top center;
+  background: #c2e2ff url('../../../eXoSkin/skin/images/themes/default/PortletThemes/white.png') no-repeat top center;
   background-size: 100% 15px;
   -webkit-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
   -moz-box-shadow: 0 1px 0 rgba(13, 13, 13, 0.05);
@@ -15291,7 +15288,7 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/defaultTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/defaultTheme.png');
   background-repeat: no-repeat;
 }
 .ShadowBlue .windowBar > [class*="pull-right"] .uiIconArrowDown {
@@ -15391,12 +15388,12 @@ textarea[disabled] {
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/vistaTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/vistaTheme.png');
   background-repeat: no-repeat;
 }
 .VistaTheme .windowBar > [class*="pull-right"] .uiIconArrowDown {
   display: block;
-  background-image: url('../../../eXoSkin/skin/images/Default/PortletThemes/vistaTheme.png');
+  background-image: url('../../../eXoSkin/skin/images/themes/default/PortletThemes/vistaTheme.png');
   background-position: center 0px;
 }
 .VistaTheme .windowBar > [class*="pull-right"] .maximizedIcon {
@@ -15586,7 +15583,7 @@ table {
   position: fixed !important;
 }
 .ajaxLoadingMask .loadingProgressBar {
-  background: url("../../../eXoSkin/skin/images/Default/Loading/loadingProgressBar.gif") no-repeat center;
+  background: url("../../../eXoSkin/skin/images/themes/default/Loading/loadingProgressBar.gif") no-repeat center;
   width: 20px;
   height: 20px;
 }
@@ -15596,7 +15593,7 @@ table {
   font-weight: bold;
 }
 .ajaxLoadingMask .uiIconClose:hover {
-  background: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png") -160px -100px !important;
+  background: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsSecondary.png") -160px -100px !important;
   cursor: pointer;
 }
 /***********************************/
@@ -15778,7 +15775,7 @@ table {
 }
 .actionIcon:hover .uiIconClose,
 .actionIconSmall:hover .uiIconClose {
-  background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsDefault.png") !important;
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png") !important;
 }
 .actionIconSmall {
   padding: 0;

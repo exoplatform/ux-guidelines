@@ -42,7 +42,7 @@
   }
 }
 [class^="uiIconAns"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/answers/Icons/uiIconsAnsDefault.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsExtra.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .uiActionWithLabel:hover > [class^="uiIconAns"],
@@ -59,10 +59,7 @@ a:hover > [class^="uiIconAns"],
 [class^="uiIconAns"]:hover,
 .uiActionBar [class^="uiIconAns"]:hover,
 .uiIconAnsBlue {
-  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/answers/Icons/uiIconsAnsPrimary.png");
-}
-.uiIconAnsDarkGray {
-  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/answers/Icons/uiIconsAnsExtra.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsPrimary.png");
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconAns"],
@@ -72,7 +69,7 @@ a:hover > [class^="uiIconAns"],
 .uiActionBar [class^="uiIconAns"],
 .answerToolbar [class^="uiIconAns"],
 .uiIconAnsLightGray {
-  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/answers/Icons/uiIconsAnsDefault.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsDefault.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconAns"],
@@ -84,16 +81,16 @@ a:hover > [class^="uiIconAns"],
 .btn-primary [class^="uiIconAns"],
 .btn-primary:hover [class^="uiIconAns"],
 .uiIconAnsWhite {
-  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/answers/Icons/uiIconsAnsSecondary.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsSecondary.png");
 }
 [class^="uiIconAnwserColor"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/answers/Icons/uiIconsAnswerColor.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnswerColor.png");
 }
 .dropdown > a:hover > [class^="uiIconAnwserColor"],
 [class^="uiIconAnwserColor"]:hover,
 a:hover > [class^="uiIconAnwserColor"],
 i:hover [class^="uiIconAnwserColor"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/Default/forum/portlets/answers/Icons/uiIconsAnswerColor.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnswerColor.png");
 }
 .uiIconAnsSubmitQuestion,
 .uiIconAnsAddNewQuestion {

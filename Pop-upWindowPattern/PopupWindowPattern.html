@@ -13,6 +13,8 @@
        <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
        <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
        <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+   
 	 
 	 <!-- syntaxhighlighter -->
 	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
@@ -135,13 +137,15 @@
 		</div>
 		<div class="PopupContent popupContent">
 			<div class="form-horizontal resizable">
-				<div class="control-group">	
+				<div class="popupContent">
+				 <div class="control-group ">	
 					<label for="label" class="control-label">Label name:</label>
 					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
 				</div>
 				<span class="help-block">Example block-level help text here.</span>
 				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
 			</div>
+		</div>
 			<div class="uiAction uiActionBorder"> 
 				<button class="btn" onclick="" type="button">Save</button>
 				<button class="btn" onclick="" type="button">Cancel</button>
@@ -159,12 +163,14 @@
 		</div>
 		<div class="PopupContent popupContent">
 			<div class="form-horizontal resizable">
-				<div class="control-group">	
+			 	<div class="popupContent">
+				 <div class="control-group">	
 					<label for="label" class="control-label">Label name:</label>
 					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
 				</div>
 				<span class="help-block">Example block-level help text here.</span>
 				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
+			 </div>
 			</div>
 			<div class="uiAction uiActionBorder"> 
 				<button class="btn" onclick="" type="button">Save</button>
@@ -183,6 +189,7 @@
 		</div>
 		<div class="PopupContent popupContent">
 			<div class="form-horizontal resizable">
+			 <div class="popupContent">
 				<div class="control-group">	
 					<label for="label" class="control-label">Label name:</label>
 					<div class="controls"><input type="text" id="label" name="label" placeholder="input text..."></div>
@@ -190,6 +197,7 @@
 				<span class="help-block">Example block-level help text here.</span>
 				<span class="uiCheckbox"><input type="checkbox" checked="" name="isDocumentTemplate" class="checkbox" id="isDocumentTemplate"><span>Check me out</span></span>
 			</div>
+		</div>
 			<div class="uiAction uiActionBorder"> 
 				<button class="btn" onclick="" type="button" data-dismiss="modal">Save</button>
 				<button class="btn" onclick="" type="button" data-dismiss="modal">Cancel</button>
@@ -356,7 +364,7 @@
 		 <a style="display:none" class="SelectNode" href=""></a>
 		 <input type="hidden" value="/portal/rest/wiki/tree/ALL" class="InitURL">
 		 <input type="hidden" value="/portal/rest/wiki/tree/CHILDREN" class="ChildrenURL">		   
-	<ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.1" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2.1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1.1" class="emptyIcon">    <div class="page nodeSelected" onclick="" id="iconTreeExplorer">         <span style="cursor:auto"><i class="uiIconFileMini uiIconLightGray"></i>wiki 1.2.1.1</span>    </div>  </div> </li></ul> </li></ul> </li></ul> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2" class="expandIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2</a>    </div>  </div> <ul class="nodeGroup" style="display: none;"> <li class="node">   <div onclick="" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2.2" class="emptyIcon">    <div class="page " onclick=" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.2</a>    </div>  </div> </li></ul></li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_3" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 3</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_4" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 4</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_5" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 5</a>    </div>  </div> </li></ul>
+	<ul class="uiTrees scrollArea"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.1" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2.1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1.1" class="emptyIcon">    <div class="page nodeSelected" onclick="" id="iconTreeExplorer">         <span style="cursor:auto"><i class="uiIconFileMini uiIconLightGray"></i>wiki 1.2.1.1</span>    </div>  </div> </li></ul> </li></ul> </li></ul> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2" class="expandIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2</a>    </div>  </div> <ul class="nodeGroup" style="display: none;"> <li class="node">   <div onclick="" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2.2" class="emptyIcon">    <div class="page " onclick=" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.2</a>    </div>  </div> </li></ul></li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_3" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 3</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_4" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 4</a>    </div>  </div> </li> </ul>
     </div>
 	</div>
   </div>
@@ -384,7 +392,7 @@
 				<div class="resizable">
 					<div class="popupContenRelated">
 						<div style="height:250px" id="UIPageTree" class="uiTreeExplorer"> 
-							<ul class="nodeGroup"> 
+							<ul class="uiTrees scrollArea"> 
 								<li class="node">   
 									<div onclick="" id="portal%2Fintranet%2Fwiki_1" class="collapseIcon">    
 										<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
@@ -463,13 +471,6 @@
 										</div>  
 									</div> 
 								</li> 
-								<li class="node">   
-									<div onclick="" id="portal%2Fintranet%2Fwiki_5" class="emptyIcon">    
-										<div class="page " onclick="event.cancelBubble=true" id="iconTreeExplorer">        
-											<a href="/portal/intranet/wiki/wiki_5"><i class="uiIconFileMini uiIconLightGray"></i> wiki 5</a>    
-										</div>  
-									</div> 
-								</li>
 							</ul>
 					</div>
 				</div>
@@ -505,7 +506,7 @@
 					 <a style="display:none" class="SelectNode" href=""></a>
 					 <input type="hidden" value="/portal/rest/wiki/tree/ALL" class="InitURL">
 					 <input type="hidden" value="/portal/rest/wiki/tree/CHILDREN" class="ChildrenURL">		   
-				<ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.1" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2.1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1.1" class="emptyIcon">    <div class="page nodeSelected" onclick="" id="iconTreeExplorer">         <span style="cursor:auto"><i class="uiIconFileMini uiIconLightGray"></i>wiki 1.2.1.1</span>    </div>  </div> </li></ul> </li></ul> </li></ul> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2" class="expandIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2</a>    </div>  </div> <ul class="nodeGroup" style="display: none;"> <li class="node">   <div onclick="" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2.2" class="emptyIcon">    <div class="page " onclick=" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.2</a>    </div>  </div> </li></ul></li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_3" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 3</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_4" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 4</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_5" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 5</a>    </div>  </div> </li></ul>
+				<ul class="uiTrees scrollArea"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.1" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1" class="collapseIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 1.2.1</a>    </div>  </div><ul class="nodeGroup"> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_1.2.1.1" class="emptyIcon">    <div class="page nodeSelected" onclick="" id="iconTreeExplorer">         <span style="cursor:auto"><i class="uiIconFileMini uiIconLightGray"></i>wiki 1.2.1.1</span>    </div>  </div> </li></ul> </li></ul> </li></ul> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2" class="expandIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2</a>    </div>  </div> <ul class="nodeGroup" style="display: none;"> <li class="node">   <div onclick="" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.1</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_2.2" class="emptyIcon">    <div class="page " onclick=" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 2.2</a>    </div>  </div> </li></ul></li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_3" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 3</a>    </div>  </div> </li> <li class="node">   <div onclick="" id="portal%2Fintranet%2Fwiki_4" class="emptyIcon">    <div class="page " onclick="" id="iconTreeExplorer">        <a href=""><i class="uiIconFileMini uiIconLightGray"></i> wiki 4</a>    </div>  </div> </li> <li class="node">  </li></ul>
 				</div>
 				</div>
 			  </div>
@@ -825,19 +826,19 @@
     <!-- Placed at the end of the document so the pages load faster -->
 	<script src="../js/jquery.js"></script>
     <script src="../js/prettify.js"></script>
-    <script src="../js/bootstrap-transition.js"></script>
-    <script src="../js/bootstrap-alert.js"></script>
-    <script src="../js/bootstrap-modal.js"></script>
-    <script src="../js/bootstrap-dropdown.js"></script>
-    <script src="../js/bootstrap-scrollspy.js"></script>
-    <script src="../js/bootstrap-tab.js"></script>
-    <script src="../js/bootstrap-tooltip.js"></script>
-    <script src="../js/bootstrap-popover.js"></script>
-    <script src="../js/bootstrap-button.js"></script>
-    <script src="../js/bootstrap-collapse.js"></script>
-    <script src="../js/bootstrap-carousel.js"></script>
-    <script src="../js/bootstrap-typeahead.js"></script>
-    <script src="../js/bootstrap-affix.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
 	<script src="../js/syntaxhighlighter_autoloader.js"></script>
 </body></html>

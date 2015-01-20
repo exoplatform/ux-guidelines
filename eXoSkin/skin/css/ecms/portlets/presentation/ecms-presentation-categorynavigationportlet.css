@@ -42,7 +42,7 @@
   }
 }
 .UICategoryNavigationTargetPathFormInputSet .SelectTargetPathIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -82,7 +82,7 @@
   margin: 10px;
 }
 .UICategoryNavigationPortlet .UICategoryNavigationConfig .SelectTreePathIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat left center;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat left center;
   width: 16px;
   height: 16px;
   margin-left: 10px;

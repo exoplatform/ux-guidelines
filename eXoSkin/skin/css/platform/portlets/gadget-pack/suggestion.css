@@ -72,7 +72,7 @@
 .avatardefault {
   width: 60px;
   height: 60px;
-  background: url("/eXoSkin/skin/images/Default/platform/gadget-pack/Suggestions/avatar_default.png") no-repeat right;
+  background: url("/eXoSkin/skin/images/themes/default/platform/gadget-pack/Suggestions/avatar_default.png") no-repeat right;
 }
 .name {
   font-weight: bold;
@@ -84,7 +84,7 @@
   display: none;
 }
 .TopMenu {
-  background: url("/eXoSkin/skin/images/Default/platform/gadget-pack/Suggestions/TopMenu.png") no-repeat top center;
+  background: url("/eXoSkin/skin/images/themes/default/platform/gadget-pack/Suggestions/TopMenu.png") no-repeat top center;
   width: 230px;
   height: 10px;
   margin-left: -1px;

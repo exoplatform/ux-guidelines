@@ -87,7 +87,7 @@ div.button .dropdown-menu {
     display: block;
 }
 .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconSearch, .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconDownload {
-    background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsSecondary.png");
+    background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsSecondary.png");
 }
 .uiThumbnailsView {
     overflow-x: hidden;
@@ -191,20 +191,20 @@ div.button .dropdown-menu {
     width: 100%;
 }
 .uiUsername input[type="text"] {
-    background: url("../../../eXoSkin/skin/images/default/platform/portlets/extensions/username.png") no-repeat scroll left -6px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -6px #ffffff;
     margin: 0;
     padding-left: 47px;
 }
 .uiUsername input[type="text"]:hover {
-    background: url("../../../eXoSkin/skin/images/default/platform/portlets/extensions/username.png") no-repeat scroll left -47px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -47px #ffffff;
 }
 .uiPassword input[type="password"] {
-    background: url("../../../eXoSkin/skin/images/default/platform/portlets/extensions/password.png") no-repeat scroll left -6px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -6px #ffffff;
     margin: 0;
     padding-left: 47px;
 }
 .uiPassword input[type="password"]:hover {
-    background: url("../../../eXoSkin/skin/images/default/platform/portlets/extensions/password.png") no-repeat scroll left -47px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -47px #ffffff;
 }
 .uiLargeButton {
     background-color: #567ab6;
@@ -238,7 +238,7 @@ div.button .dropdown-menu {
     padding-right: 20px;
 }
 .btn-group .active > i {
-    background-image: url("../../../eXoSkin/skin/images/default/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+    background-image: url("../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsDefault.png");
 }
 .uiAddressBar .right {
     width: 180px;
@@ -358,7 +358,7 @@ div.button .dropdown-menu {
 }
 
 .dropdown > a:hover > [class^="uiIconColor"], [class^="uiIconColor"]:hover, a:hover > [class^="uiIconColor"], i:hover [class^="uiIconColor"] {
-    background-image: url("../../../eXoSkin/skin/images/Default/Icons/uiIconsColor.png");
+    background-image: url("../../../eXoSkin/skin/images/themes/cefault/Icons/uiIconsColor.png");
 }
 .uiIconColorError {
     background-position: 0 0;

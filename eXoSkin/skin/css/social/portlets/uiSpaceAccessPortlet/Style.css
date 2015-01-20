@@ -44,7 +44,7 @@
 /******* space access page ******/
 .uiSpaceAccessPortlet {
   padding-top: 60px;
-  background: url('/eXoSkin/skin/images/Default/ShareImages/Background/texture.jpg') repeat-x top center;
+  background: url('/eXoSkin/skin/images/themes/default/ShareImages/Background/texture.jpg') repeat-x top center;
 }
 .uiSpaceAccessPortlet .spaceAccessBlock {
   width: 685px;
@@ -65,11 +65,11 @@
   margin: 0 auto;
 }
 .uiSpaceAccessPortlet .lockIcon {
-  background: url('/eXoSkin/skin/images/Default/social/skin/RestrictedArea/lockIcon.png') no-repeat top center;
+  background: url('/eXoSkin/skin/images/themes/default/social/skin/RestrictedArea/lockIcon.png') no-repeat top center;
 }
 .uiSpaceAccessPortlet .denyIcon {
-  background: url('/eXoSkin/skin/images/Default/social/skin/RestrictedArea/denyIcon.png') no-repeat top center;
+  background: url('/eXoSkin/skin/images/themes/default/social/skin/RestrictedArea/denyIcon.png') no-repeat top center;
 }
 .uiSpaceAccessPortlet .warningIcon {
-  background: url('/eXoSkin/skin/images/Default/social/skin/RestrictedArea/warningIcon.png') no-repeat top center;
+  background: url('/eXoSkin/skin/images/themes/default/social/skin/RestrictedArea/warningIcon.png') no-repeat top center;
 }

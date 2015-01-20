@@ -167,7 +167,7 @@
   z-index: 9999;
 }
 .uiSearchPortlet .resultLoading:after {
-  background: url("/eXoSkin/skin/images/Default/Loading/loading64x64Light.png") no-repeat center center;
+  background: url("/eXoSkin/skin/images/themes/default/Loading/loading64x64Light.png") no-repeat center center;
   width: 64px;
   height: 64px;
   content: "";

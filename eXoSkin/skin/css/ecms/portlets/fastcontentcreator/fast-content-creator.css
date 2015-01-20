@@ -55,26 +55,26 @@
   padding: 10px;
 }
 .UIFCCPortlet .SelectPathIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/fastcontentcreator/Icons/SearchPath.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/fastcontentcreator/Icons/SearchPath.gif') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 .UIFCCPortlet .SelectPath24x24Icon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/fastcontentcreator/Icons/SearchPath.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/fastcontentcreator/Icons/SearchPath.gif') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
   margin-top: 4px;
 }
 .UIFCCPortlet .AddRootNodeIcon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/fastcontentcreator/Icons/SelectPath.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/fastcontentcreator/Icons/SelectPath.gif') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 .UIFCCPortlet .Add16x16Icon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/fastcontentcreator/Icons/AddIcon.png') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/fastcontentcreator/Icons/AddIcon.png') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -82,13 +82,13 @@
   margin-left: 10px;
 }
 .UIFCCPortlet .Edit16x16Icon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/fastcontentcreator/Icons/EditAction.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/fastcontentcreator/Icons/EditAction.gif') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 .UIFCCPortlet .Delete16x16Icon {
-  background: url('/eXoSkin/skin/images/Default/ecms/portlets/fastcontentcreator/Icons/DeleteAction.gif') no-repeat;
+  background: url('/eXoSkin/skin/images/themes/default/ecms/portlets/fastcontentcreator/Icons/DeleteAction.gif') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -209,7 +209,7 @@
   width: 550px;
 }
 .UIFCCPortlet .Add16x16Icon {
-  background: url("/eXoSkin/skin/images/Default/ecms/portlets/fastcontentcreator/Icons/AddIcon.png") no-repeat 0 0;
+  background: url("/eXoSkin/skin/images/themes/default/ecms/portlets/fastcontentcreator/Icons/AddIcon.png") no-repeat 0 0;
   cursor: pointer;
   height: 16px;
   margin-top: 2px;

@@ -42,7 +42,7 @@
   }
 }
 .ContentDisabled {
-  background: url('/eXoSkin/skin/images/Default/platform/porlets/gadgets-sample/Agenda/warningIcon.png') no-repeat scroll 10px 8px #ffffbb;
+  background: url('/eXoSkin/skin/images/themes/default/platform/porlets/gadgets-sample/Agenda/warningIcon.png') no-repeat scroll 10px 8px #ffffbb;
   border-radius: 4px 4px 4px 4px;
   padding: 5px 15px 5px 40px;
 }
@@ -59,10 +59,10 @@
   font-weight: normal;
 }
 .arrowDown {
-  background: url('/eXoSkin/skin/images/Default/platform/porlets/gadgets-sample/Agenda/IconDropDown.gif') no-repeat right 7px;
+  background: url('/eXoSkin/skin/images/themes/default/platform/porlets/gadgets-sample/Agenda/IconDropDown.gif') no-repeat right 7px;
 }
 .arrowRight {
-  background: url('/eXoSkin/skin/images/Default/platform/porlets/gadgets-sample/Agenda/IconLink.gif') no-repeat right 7px;
+  background: url('/eXoSkin/skin/images/themes/default/platform/porlets/gadgets-sample/Agenda/IconLink.gif') no-repeat right 7px;
 }
 .ThemeColor {
   color: #2f5e92;

@@ -57,7 +57,7 @@
   height: 90px;
 }
 .uiSpaceMenu .spaceMenuTab {
-  background: url("/eXoSkin/skin/images/Default/social/skin/SpaceMenuPortlet/shadow.png") no-repeat left center;
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/SpaceMenuPortlet/shadow.png") no-repeat left center;
   height: 90px;
   border-bottom: none;
 }
@@ -68,7 +68,7 @@
   margin-left: -1px;
 }
 .uiSpaceMenu .spaceMenuTab > .active {
-  background: url("/eXoSkin/skin/images/Default/social/skin/SpaceMenuPortlet/arrowIcon.png") no-repeat bottom center;
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/SpaceMenuPortlet/arrowIcon.png") no-repeat bottom center;
 }
 .uiSpaceMenu .spaceMenuTab > li > a,
 .uiSpaceMenu .spaceMenuTab > li > a:hover,

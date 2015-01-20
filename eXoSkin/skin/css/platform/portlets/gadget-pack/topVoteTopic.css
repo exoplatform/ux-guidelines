@@ -65,17 +65,17 @@
   height: 16px;
 }
 .UIGadgetThemes .Voted {
-  background: url("/eXoSkin/skin/images/Default/platform/gadget-pack/TopVoteRateTopic/SmallYellowStar.png") no-repeat scroll center center transparent;
+  background: url("/eXoSkin/skin/images/themes/default/platform/gadget-pack/TopVoteRateTopic/SmallYellowStar.png") no-repeat scroll center center transparent;
   float: left;
   height: 20px;
 }
 .UIGadgetThemes .HalfVoted {
-  background: url("/eXoSkin/skin/images/Default/platform/gadget-pack/TopVoteRateTopic/SmallHalfStar.png") no-repeat scroll center center transparent;
+  background: url("/eXoSkin/skin/images/themes/default/platform/gadget-pack/TopVoteRateTopic/SmallHalfStar.png") no-repeat scroll center center transparent;
   float: left;
   height: 20px;
 }
 .UIGadgetThemes .Unvoted {
-  background: url("/eXoSkin/skin/images/Default/platform/gadget-pack/TopVoteRateTopic/SmallGreyStar.png") no-repeat scroll center center transparent;
+  background: url("/eXoSkin/skin/images/themes/default/platform/gadget-pack/TopVoteRateTopic/SmallGreyStar.png") no-repeat scroll center center transparent;
   float: left;
   height: 20px;
 }
