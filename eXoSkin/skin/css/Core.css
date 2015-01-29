@@ -6039,7 +6039,7 @@ h3 {
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconExtra.png");
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
   background-repeat: no-repeat;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
@@ -6066,6 +6066,10 @@ a:hover [class^="uiIcon"],
 .uiIconClose,
 .uiIconLightGray {
   background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
+}
+.uiIconExtra, .uiIconDarkGray,
+.LeftNavigationTDContainer [class^="uiIcon"] {
+  background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsExtra.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIcon"],

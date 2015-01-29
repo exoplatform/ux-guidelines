@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Message</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+       <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+       <link href="..//eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    
+  </head>
+
+  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner clearfix">
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="../getting-started.html">Getting Started</a></li>
+            <li><a href="../Components.html">Components</a></li>
+            <li class="active"><a href="../Patterns.html">Patterns</a></li>
+          </ul>
+        </div>
+        <div class="pull-right" style="margin-top: 11px;">
+				<a class="btnDownloadTop" target="_blank" href="http://community.exoplatform.com/downloads"></a>
+				<a class="btnLearMore" href="http://www.exoplatform.com"></a>
+		</div>
+      </div>
+    </div>
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+<div class="container">
+  <h1>Message</h1>
+  <p>A useful communication means which is displayed by words and signals.</p>
+</div>
+</header>
+<div class="container">
+	<div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#error-message"><i class="icon-chevron-right"></i>Error message</a></li>
+          <li><a href="#warning-message"><i class="icon-chevron-right"></i>Warning message</a></li>
+          <li><a href="#information-message"><i class="icon-chevron-right"></i>Information message</a></li>
+          <li><a href="#confirmation-message"><i class="icon-chevron-right"></i>Confirmation message</a></li>
+		  <li><a href="#multiple-messages"><i class="icon-chevron-right"></i>Multiple messages</a></li>
+        </ul>
+      </div>
+    	<div class="span9">
+<section id="overview">
+          <div class="page-header">
+            <h2>Overview</h2>
+          </div>
+     <p><h7>In websites and applications, a message play an important role in the development process. 
+	 It is considered as "feedback" responding to end-users that raises problems and occurrences or gives information/instructions when users do actions. 
+	 To avoid unclear and incorrect messages, you need to clarify usage of message types and how to display them.</h7></p>
+	 <p><h7>In eXo Platform, messages are grouped into 4 types:</h7></p>
+	 <p><h7><i class="uiIconEcmsDottedArrow"></i><a href="MessagesPattern.html#error-message">Error</a><br>
+          <i class="uiIconEcmsDottedArrow"></i><a href="MessagesPattern.html#warning-message">Warning</a><br>
+          <i class="uiIconEcmsDottedArrow"></i><a href="MessagesPattern.html#information-message">Information<br>
+          <i class="uiIconEcmsDottedArrow"></i><a href="MessagesPattern.html#confirmation-message">Confirmation</a></h7></p>
+	 <p><h7>Each message type has its own style, so it is needed to avoid using an incorrect message type. 
+	 Also, your message should not contain long content for each message because users often want to scan rather than read so many things.
+	 <br>
+	 Message can be displayed as a single one or <a href="MessagesPattern.html#multiple-messages">multiple ones</a> (more than 1 message).</h7></p>
+</section>	  
+<section id="error-message">
+            <h2>Error message</h2>
+	<p><h7>Informing users about a wrong action that has already occurred.<br>
+	An effective error message should be brief, relevant, clear and courteous about the followings:</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>A Problem</b> - Tell which problem has already happened. For example: Your connection is time out.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>A Cause</b> - Give reason why it occurred. For example: Your chosen Username already exists.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>A Solution</b> - Give a suggestion or instruction to fix it. For example: Please input a valid email format, such as yourname@example.com.</h7></p>
+      <p><h5>Template</h5></p>
+	  <p>
+      <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Error
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="errorIcon">
+							Your email address is incorrect. Please input a valid one!
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>">OK</a>
+				</div>
+			</div>
+		</div>
+		</p>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="errorIcon">
+					Your email address is incorrect. Please input a valid one!
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>
+
+	<div id="myModal1" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
+				<span class="PopupTitle popupTitle">
+					Error
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="errorIcon">
+							Your email address is incorrect. Please input a valid one!
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+				</div>
+			</div>
+		</div>
+
+<div class="bs-docs-example" style="padding-bottom: 24px;">
+<a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Error message popup</a>
+</div>
+
+<p><h5>Don'ts in error messages</h5></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Blame users</b> - Never use content that accuses users of making an error, this will make users annoyed.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Technical content</b> - Not use technical content whenever possible, such as programming codes. This may make end-users confused when they define the error.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Unknown error</b> - Users will feel your application unreliable if they meet many unknown errors, so try to provide a detailed message about invalid actions.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>So many errors</b> - Should avoid a message which reflects so many problems and causes at the same time. An error message should detect one cause.
+	</h7></p>
+</section>
+ <section id="warning-message">         
+      <p><h2>Warning message</h2></p>
+	  <p><h7>Notifying users of a situation that might cause a problem in the future.<br> 
+	  A good warning message should:</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Involve risk</b> - Alerts users of something significant.
+	For example: Your laptop battery is low (5%). If you don't plug in soon, it will hibernate in 10 minutes?<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Show immediate relevance</b> - Users need to pay attention to the warning immediately.
+	For example: Your account will be blocked after 5 times of incorrect password to prevent hackers!<br>
+	<b><i class="uiIconEcmsDottedArrow"></i>Be clear and specific</b> - Defines sources of warning, potential occurrences, and what users should do.
+	For example: Your password is not strong enough. It should contain both texts and numbers.
+	</h7></p>
+      <p><h5>Template</h5></p>		
+     <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Warning
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="warningIcon">
+							Your account will be blocked after 5 times of incorrect password to prevent hackers!
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+				</div>
+			</div>
+		</div>
+		</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="warningIcon">
+					Your account will be blocked after 5 times of incorrect password to prevent hackers!
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>		
+
+<div id="myModal" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
+				<span class="PopupTitle popupTitle">
+					Warning
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="warningIcon">
+							Your account will be blocked after 5 times of incorrect password to prevent hackers!
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+				</div>
+			</div>
+		</div>
+
+<div class="bs-docs-example" style="padding-bottom: 24px;">
+<a class="btn btn-primary btn-large" href="#myModal" data-toggle="modal">Launch Warning message popup</a>
+</div>
+<p><h5>Don'ts in warning messages</h5></p>
+<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Redundant messages</b> - Do not show unnecessary and unuseful warnings that might annoy users.</h7></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Overwarning</b> - Avoid the warning about things which are not significant. Such warnings will make users doubt about security of applications.</h7></p>
+</section>
+ <section id="information-message">
+      <p><h2>Information message</h2></p>
+	<p><h7>Notifying users of useful and relevant, but not urgent information.<br>
+	For an information message, users are not required to do actions immediately once receiving such messages.
+	It is considered as a notification that lets users know specific information. 
+	For example: Your account has been registered successfully. Please go to your email address to activate your account.<br>
+	A good information message should be:<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Useful</b> - Let users know something new or which has been done successfully.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Optional</b> - Show suggestions (such as version upgrade or new functions) that are not mandatory.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Relevant</b> - Show helpful information that users might not have known.</h7></p>
+	
+      <p><h5>Template</h5></p>
+		<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Information
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="infoIcon">
+							Your registration is completed. Please check your email inbox to activate your account!
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+					
+				</div>
+			</div>
+		</div>
+</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="singleMessage popupMessage resizable">
+			<li>
+				<span class="infoIcon">
+					Your registration is completed. Please check your email inbox to activate your account!
+				</span>
+			</li>
+		</ul>
+]]></script>
+</div>
+
+<div id="myModal2" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
+				<span class="PopupTitle popupTitle">
+					Information
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="infoIcon">
+							Your registration is completed. Please check your email inbox to activate your account!
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+					
+				</div>
+			</div>
+		</div>
+
+
+<div class="bs-docs-example" style="padding-bottom: 24px;">
+<a class="btn btn-primary btn-large" href="#myModal2" data-toggle="modal">Launch Information message popup</a>
+</div>
+<p><h5>Don'ts in information messages</h5></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Redundant</b> - Avoids redundant information that users already know.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Unnecessary</b> - Avoids unnecessary content that may make users annoyed.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Immediate</b> - Only suggests performing an action, however it can be ignored.</h7></p>
+</section>
+ <section id="confirmation-message">
+<p><h2>Confirmation message</h2></p>
+	<p><h7>Asking if users want to execute an action or not.<br>
+	A confirmation can be displayed in 2 ways: default browser pop-up or customized popup window.
+	For important changes (for example, deleting a forum that causes all its topics and posts to be lost), the confirmation should be a warning that is displayed in a customized popup rather than browser popup.<br>
+	A good confirmation message should give the followings:<br>
+	<i class="uiIconEcmsDottedArrow"></i>Obvious result of an action done by the user.<br>
+	<i class="uiIconEcmsDottedArrow"></i>Relevant verification if the user wants to execute the action.<br>
+	<i class="uiIconEcmsDottedArrow"></i>Easy-to-understand question with two or more responses (for example, OK - Cancel, Yes - No).</h7></p>
+ <p><h5>Template</h5></p>
+         <div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Confirmation
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="confirmationIcon">
+							Are you sure to delete this driver and all its data?
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">Cancel</a>
+				</div>
+			</div>
+		</div>
+</br>
+<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+	<ul class="singleMessage popupMessage resizable">
+		<li>
+			<span class="confirmationIcon">
+				Are you sure to delete this driver and all its data?
+			</span>
+		</li>
+	</ul>	
+]]></script>
+</div>
+
+<div id="myModal3" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"></a>
+				<span class="PopupTitle popupTitle">
+					Confirmation
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="singleMessage popupMessage resizable">
+					<li>
+						<span class="confirmationIcon">
+							Are you sure to delete this driver and all its data?
+						</span>
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">Cancel</a>
+				</div>
+			</div>
+		</div>
+
+<div class="bs-docs-example" style="padding-bottom: 24px;">
+<a class="btn btn-primary btn-large" href="#myModal3" data-toggle="modal">Launch Confirmation message popup</a>
+</div>
+	<p><h5>Don'ts in confirmation messages</h5></p>
+	<p><h7><i class="uiIconEcmsDottedArrow"></i><b>Unnecessary</b> - Avoids unnecessary questions that look like doubt to actions done by the user. For example, "Are you sure to rename the file?"<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Annoying</b> - "Funny" confirmations often make users annoyed. For example, there is no change on the form but the user gets the message: "Are you sure to close the form?" when closing.<br>
+	<i class="uiIconEcmsDottedArrow"></i><b>Redundant</b> - Eliminate redundant notifications for certain actions. For example, the "Delete" confirmation is not needed for actions which can be redone or recovered. 
+	</h7></p>
+</section>
+<section id="multiple-messages">
+<p><h2>Multiple messages</h2></p>
+<p><h7>eXo Platform allows displaying multiple messages at the same time with the order priority: <b>Error - Warning - Information</b>.</h7></p>
+<p><h3>Template</h3></p>
+<p><h7><i class="uiIconEcmsDottedArrow"></i>Content of the first displayed message type is expanded by default. Each message type can be clicked to show/hide flexibly.
+The label of each message type is in the format: <b>{Number} Error(s)/Warning(s)/Information</b>. For example: 5 Errors, 2 Warnings, or 1 Information.</h7></p>
+<p>
+		<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Alert
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="multipleMessage popupMessage resizable">
+					<li>
+						<a class="" href="#error" data-toggle="collapse">
+							 <i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
+						</a>
+						<ul class="collapse in" id="error">
+							<li>- The field "First Name" is required.
+							</li>
+							<li>- The field "Last Name" is required.
+							</li>
+							<li>- Your email address is invalid. Please enter a different address.
+							</li>
+						 </ul>
+						 </br>
+						 <a class="" href="#warning" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 1 Warning </span>
+						</a>
+						<ul class="collapse" id="warning">
+							<li>- Your password is not strong enough.
+							</li>
+						 </ul>
+						</br>
+						<a class="" href="#info" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Information </span>
+						</a>
+						<ul class="collapse" id="info">
+							<li>- Your registration is completed. Please check your email inbox to activate your account!
+							</li>
+						 </ul>
+						
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+				</div>
+			</div>
+		</div>
+</p>
+
+<p><h7><i class="uiIconEcmsDottedArrow"></i>If there is no problem related to a message type, the corresponding message label is auto-hidden. For example, the Error label is not shown in case of no error.</h7></p>
+<p>
+<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Alert
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="multipleMessage popupMessage resizable">
+					<li>
+						
+						 <a class="" href="#warning1" data-toggle="collapse">
+							<i class="uiIconArrowDown"></i><span class="warningIcon"> 1 Warning </span>
+						</a>
+						<ul class="collapse in" id="warning1">
+							<li>- Your password is not strong enough.
+							</li>
+
+						 </ul>
+						</br>
+						<a class="" href="#info1" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Information </span>
+						</a>
+						<ul class="collapse" id="info1">
+							<li>- Your registration is completed. Please check your email inbox to activate your account!
+							</li>
+						 </ul>
+						
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+				</div>
+			</div>
+		</div></p>
+<p><h7><i class="uiIconEcmsDottedArrow"></i>In case there are multiple messages which have the same type:</h7></p>
+<div style="width: 550px; display: block; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup">
+			<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Alert
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="multipleMessage popupMessage resizable">
+					<li>
+						
+						<a class="" href="#error5" data-toggle="collapse">
+							<i class="uiIconArrowDown "></i><span class="errorIcon"> 3 Errors </span>
+						</a>
+						<ul class="collapse in" id="error5">
+							<li>- The field "First Name" is required.
+							</li>
+							<li>- The field "Last Name" is required.
+							</li>
+							<li>- Your email address is invalid. Please enter a different address.
+							</li>
+						 </ul>
+						 
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);">OK</a>
+				</div>
+			</div>
+		</div>
+		</br>
+		<div class="prettyprint linenums">
+	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+		<ul class="multipleMessage popupMessage resizable">
+			<li>
+				<a class="" href="#error5" data-toggle="collapse">
+					<i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
+				</a>
+				<ul class="collapse in" id="error5">
+					<li>- The field "First Name" is required.
+					</li>
+					<li>- The field "Last Name" is required.
+					</li>
+					<li>- Your email address is invalid. Please enter a different address.
+					</li>
+				</ul>
+
+			</li>
+		</ul>
+]]></script>
+</div>
+<div id="myModal4" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 550px; visibility: visible; position: relative;" id="" class="UIPopupWindow UIDragObject uiPopup modal hide fade">
+	<div class="popupHeader ClearFix">
+				<a onclick="<%=uicomponent.event(uicomponent.getCloseEvent())%>" title="Close Window" data-dismiss="modal" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">
+					Alert
+				</span>
+			</div>
+			<div class="PopupContent popupContent">	
+				<ul class="multipleMessage popupMessage resizable">
+					<li>
+						<a class="" href="#error9" data-toggle="collapse">
+							 <i class="uiIconArrowDown"></i><span class="errorIcon"> 3 Errors </span>
+						</a>
+						<ul class="collapse in" id="error9">
+							<li>- The field "First Name" is required.
+							</li>
+							<li>- The field "Last Name" is required.
+							</li>
+							<li>- Your email address is invalid. Please enter a different address.
+							</li>
+						 </ul>
+						 </br>
+						 <a class="" href="#warning9" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="warningIcon"> 1 Warning </span>
+						</a>
+						<ul class="collapse" id="warning9">
+							<li>- Your password is not strong enough.
+							</li>
+
+						 </ul>
+						</br>
+						<a class="" href="#info9" data-toggle="collapse">
+							<i class="uiIconArrowRight"></i><span class="infoIcon"> 1 Information </span>
+						</a>
+						<ul class="collapse" id="info9">
+							<li>- Your registration is completed. Please check your email inbox to activate your account!
+							</li>
+						 </ul>
+						
+					</li>
+				</ul>
+				<div class="uiAction uiActionBorder">
+					<a class="btn" onclick="<%=uicomponent.event(action)%>" href="javascript:void(0);" data-dismiss="modal">OK</a>
+				</div>
+			</div>
+		</div>		
+<div class="bs-docs-example" style="padding-bottom: 24px;">
+<a class="btn btn-primary btn-large" href="#myModal4" data-toggle="modal">Launch Multiple message popup</a>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+<div id="footer">
+	Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+</div>
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+    <script src="../js/uiPopupMessage.js"></script>
+    <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+<script type="text/javascript">
+      $(document).ready(function () {
+    $("[rel=tooltip]").tooltip();
+  });
+</script>
+</body></html>

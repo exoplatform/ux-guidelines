@@ -599,7 +599,7 @@
   padding-top: 4px;
 }
 [class^="uiIconWiki"] {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiExtra.png");
+  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .actionIcon:hover > i > [class^="uiIconWiki"],
@@ -627,6 +627,10 @@ a:hover [class^="uiIconWiki"],
 .uiActionBar [class^="uiIconWiki"],
 .uiIconWikiLightGray {
   background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiDefault.png");
+}
+.uiIconWikiExtra, .uiIconWikiDarkGray,
+.LeftNavigationTDContainer [class^="uiIconWiki"] {
+  background-image: url("../../../../eXoSkin/skin/images/themes/blue/wiki/Icons/uiIconsWikiExtra.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconWiki"],

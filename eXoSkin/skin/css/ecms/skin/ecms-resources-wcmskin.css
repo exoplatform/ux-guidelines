@@ -170,8 +170,9 @@
     margin-left: 16px;
   }
 }
-[class^="uiIconEcms"] {
-  background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsExtra.png");
+[class^="uiIconEcms"],
+.uiIconEcmsDarkGray {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .uiActionWithLabel:hover > [class^="uiIconEcms"],
@@ -196,6 +197,11 @@ a:hover [class^="uiIconEcms"],
 .uiActionBar [class^="uiIconEcms"],
 .uiIconEcmsLightGray {
   background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsDefault.png");
+}
+.uiIconEcmsExtra,
+.uiIconEcmsDarkGray,
+.LeftNavigationTDContainer [class^="uiIconEcms"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsExtra.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconEcms"],
@@ -614,7 +620,7 @@ a:hover [class^="uiIconEcms"],
 }
 /************** icons Ecms 24x24 *************************/
 [class^="uiIconEcms24x24"] {
-  background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcms24x24Extra.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcms24x24Default.png");
   width: 24px;
   height: 24px;
   line-height: 24px;
@@ -628,6 +634,11 @@ a:hover [class^="uiIconEcms"],
 /* LightGray icons */
 .uiIconEcms24x24LightGray {
   background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcms24x24Default.png");
+}
+.uiIconEcms24x24Extra, .uiIconEcms24x24DarkGray,
+.LeftNavigationTDContainer [class^="uiIconEcms24x24"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcms24x24Extra.png");
+}
 }
 .uiIconEcms24x24DriveGeneral {
   background-position: 0px 0px;

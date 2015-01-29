@@ -1,0 +1,1571 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: fa-spin 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.uiSEOForm {
+  min-width: 600px;
+  background: #2c2c2c;
+  margin: -10px;
+}
+.uiSEOForm .formContainer .leftContainer {
+  float: left;
+  width: 165px;
+  padding: 20px 0px 0px 10px;
+}
+.uiSEOForm .formContainer .leftContainer .itemTab {
+  border: 1px solid #2c2c2c;
+  margin: 0px 0px 5px 0;
+  cursor: pointer;
+  line-height: 27px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+}
+.uiSEOForm .formContainer .leftContainer .itemTab:hover {
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+}
+.uiSEOForm .formContainer .leftContainer .itemTab a {
+  color: #ffffff;
+}
+.uiSEOForm .formContainer .leftContainer .seoLanguage {
+  margin-bottom: 15px;
+}
+.uiSEOForm .formContainer .leftContainer .selected {
+  background: #333333;
+  margin: 0px 0px 5px 0;
+  border: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.uiSEOForm .formContainer .leftContainer .selected:hover {
+  background: #333333;
+  border: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+}
+.uiSEOForm .formContainer .leftContainer .selected a {
+  font-weight: bold;
+}
+.uiSEOForm .formContainer .leftContainer .uiIconDelete {
+  margin: 5px 5px 0px 0px;
+}
+.uiSEOForm .formContainer .leftContainer .addNewSEO {
+  margin-left: 15px;
+}
+.uiSEOForm .formContainer .leftContainer .selectSEOLanguage {
+  display: none;
+  margin-left: 5px;
+}
+.uiSEOForm .formContainer .leftContainer .uiSelectbox {
+  width: 145px;
+}
+.uiSEOForm .formContainer .leftContainer .uiSelectbox .selectbox {
+  width: 148px;
+}
+.uiSEOForm .formContainer .rightContainer {
+  padding: 10px;
+  margin-left: 175px;
+  background: #333333;
+}
+.uiSEOForm .formContainer .rightContainer .textarea {
+  height: 60px;
+  vertical-align: top;
+}
+.uiSEOForm .form-horizontal {
+  padding-top: 12px;
+  position: relative;
+}
+.uiSEOForm .form-horizontal .control-label {
+  width: 90px;
+}
+.uiSEOForm .form-horizontal .controls {
+  margin-left: 100px;
+}
+.uiSEOForm .form-horizontal .controls .uiSelectbox {
+  width: 100px;
+}
+.uiSEOForm .form-horizontal .controls .uiSelectbox .selectbox {
+  width: 103px;
+}
+.uiSEOForm .uiActionSEO {
+  margin-left: -10px !important;
+}
+.uiSEOForm [class^="uiIconSeo"] {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsColor.png");
+  margin: 0px 0px 0px 5px;
+}
+.uiSEOForm .uiIconSeoEmpty {
+  background-position: -180px -20px;
+}
+.uiSEOForm .uiIconSeoPartial {
+  background-position: -160px -20px;
+}
+.uiSEOForm .uiIconSeoFull {
+  background-position: -140px -20px;
+}
+/************** For edit UISEOForm ***********************/
+.uiSEOForm .formContainer .ResizeSideBar {
+  float: right;
+  width: 14px;
+}
+.uiSEOForm .formContainer .ResizeSideBar .ResizeButton {
+  cursor: pointer;
+  width: 14px;
+  display: block;
+  margin: auto;
+  position: static;
+}
+.uiSEOForm .formContainer .ResizeSideBar .ShowRightContent {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  display: block;
+  margin: auto;
+  position: static;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .uiSEOForm .seoSitemap {
+    margin-left: 16px;
+  }
+}
+[class^="uiIconEcms"],
+.LeftNavigationTDContainer .uiPopup [class^="uiIconEcms"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcmsDefault.png");
+}
+/* Blue icons with optional class, or on hover/active states of certain elements */
+.uiActionWithLabel:hover > [class^="uiIconEcms"],
+.actionIcon:hover > [class^="uiIconEcms"],
+.nav-pills > .active > a > [class^="uiIconEcms"],
+.nav-list > .active > a > [class^="uiIconEcms"],
+.navbar-inverse .nav > .active > a > [class^="uiIconEcms"],
+.dropdown-menu > li > a:hover > [class^="uiIconEcms"],
+.dropdown-menu > .active > a > [class^="uiIconEcms"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconEcms"],
+.btn:hover [class^="uiIconEcms"],
+a:hover [class^="uiIconEcms"],
+[class^="uiIconEcms"]:hover,
+.uiActionBar [class^="uiIconEcms"]:hover,
+.uiIconEcmsBlue {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcmsPrimary.png");
+}
+/* light grey icons with optional class, or on  */
+.dropdown-menu > li > a > [class^="uiIconEcms"],
+.dropdown-menu > .active > a > [class^="uiIconEcms"],
+.uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconEcms"],
+.uiActionBar [class^="uiIconEcms"],
+.uiIconEcmsLightGray {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcmsDefault.png");
+}
+.uiIconEcmsExtra,
+.uiIconEcmsDarkGray,
+.LeftNavigationTDContainer [class^="uiIconEcms"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcmsExtra.png");
+}
+/* White icons with optional class, or on hover/active states of Drop down with Icons */
+.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconEcms"],
+.uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconEcms"],
+.uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconEcms"],
+.uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconEcms"],
+.uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconEcms"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconEcms"],
+.btn-primary [class^="uiIconEcms"],
+.btn-primary:hover [class^="uiIconEcms"],
+.uiDropDownCal a:hover [class^="uiIconEcms"],
+.uiDropDownCal .active a:hover [class^="uiIconEcms"],
+.eventAllDay [class^="uiIconEcms"],
+.eventDayContainer [class^="uiIconEcms"],
+.uiIconEcmsWhite {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+}
+.uiIconEcmsGeneralDrive,
+.uiIconEcmsDriveManager {
+  background-position: 0px 0px;
+}
+.uiIconEcmsGroupDrive,
+.uiIconEcms16x16DriveGroup {
+  background-position: -20px 0px;
+}
+.uiIconEcmsPersonalDrive,
+.uiIconEcms16x16DrivePersonal {
+  background-position: -40px 0px;
+}
+.uiIconEcmsPrivateDrive,
+.uiIconEcms16x16DrivePrivate {
+  background-position: -60px 0px;
+}
+.uiIconEcmsPublicDrive,
+.uiIconEcms16x16DrivePublic {
+  background-position: -80px 0px;
+}
+.uiIconEcmsTemplateList,
+.uiIconEcmsCLVTemplatesManager {
+  background-position: -100px 0px;
+}
+.uiIconEcmsTemplateDocument,
+.uiIconEcmsTemplatesManager {
+  background-position: -120px 0px;
+}
+.uiIconEcmsExplorerView,
+.uiIconEcmsViewManager {
+  background-position: -140px 0px;
+}
+.uiIconEcmsNameSpace,
+.uiIconEcmsNamespaceManager {
+  background-position: -160px 0px;
+}
+.uiIconEcmsQuery,
+.uiIconEcmsQueriesManager {
+  background-position: -180px 0px;
+}
+.uiIconEcmsScript,
+.uiIconEcmsScriptManager {
+  background-position: 0px -20px;
+}
+.uiIconEcmsFavorite,
+.uiIconEcmsAddToFavourite {
+  background-position: -20px -20px;
+}
+.uiIconEcmsCopy {
+  background-position: -40px -20px;
+}
+.uiIconEcmsCut {
+  background-position: -60px -20px;
+}
+.uiIconEcmsRemove {
+  background-position: -80px -20px;
+}
+.uiIconEcmsRename {
+  background-position: -100px -20px;
+}
+.uiIconEcmsAddSymLink,
+.uiIconEcmsCreateLink {
+  background-position: -120px -20px;
+}
+.uiIconEcmsPaste {
+  background-position: -140px -20px;
+}
+.uiIconEcmsViewDocument,
+.uiIconEcmsPermlink {
+  background-position: -160px -20px;
+}
+.uiIconEcmsCopyUrlToClipboard {
+  background-position: -180px -20px;
+}
+.uiIconEcmsCheckout {
+  background-position: 0px -40px;
+}
+.uiIconEcmsShowHideContent,
+.uiIconEcmsManageHidden {
+  background-position: -20px -40px;
+}
+.uiIconEcmsPublication,
+.uiIconEcmsManagePublications {
+  background-position: -40px -40px;
+}
+.uiIconEcmsRelation,
+.uiIconEcmsManageRelations {
+  background-position: -60px -40px;
+}
+.uiIconEcmsVersion,
+.uiIconEcmsManageVersions {
+  background-position: -80px -40px;
+}
+.uiIconEcmsLocalisedContent,
+.uiIconEcmsAddLocalizationLink {
+  background-position: -100px -40px;
+}
+.uiIconEcmsOverloadThumbnail {
+  background-position: -120px -40px;
+}
+.uiIconEcmsApprove,
+.uiIconEcmsPublicationRequestApproval {
+  background-position: -140px -40px;
+}
+.uiIconEcmsPublish,
+.uiIconEcmsPublicationPublish {
+  background-position: -160px -40px;
+}
+.uiIconEcmsStructure,
+.uiIconEcmsShowJCRStructure {
+  background-position: -180px -40px;
+}
+.uiIconEcmsMetadata,
+.uiIconEcmsMetadataManager,
+.uiIconEcmsViewMetadatas {
+  background-position: 0px -60px;
+}
+.uiIconEcmsType,
+.uiIconEcmsNodeTypeManager {
+  background-position: -20px -60px;
+}
+.uiIconEcmsProperties,
+.uiIconEcmsViewProperties {
+  background-position: -40px -60px;
+}
+.uiIconEcmsReference,
+.uiIconEcmsViewReferences {
+  background-position: -60px -60px;
+}
+.uiIconEcmsShowHideRelation,
+.uiIconEcmsViewRelations {
+  background-position: -80px -60px;
+}
+.uiIconEcmsAddFolder {
+  background-position: -100px -60px;
+}
+.uiIconEcmsAddDocument {
+  background-position: -120px -60px;
+}
+.uiIconEcmsExportNode {
+  background-position: -140px -60px;
+}
+.uiIconEcmsImportNode {
+  background-position: -160px -60px;
+}
+.uiIconEcmsViewNodeType {
+  background-position: -180px -60px;
+}
+.uiIconEcmsClipboard,
+.uiIconEcmsPatse {
+  background-position: 0px -80px;
+}
+.uiIconEcmsViewDefault {
+  background-position: -40px -80px;
+}
+.uiIconEcmsViewList,
+.uiIconEcmsViewB_list {
+  background-position: -20px -80px;
+}
+.uiIconEcmsViewIcons,
+.uiIconEcmsViewC_icon {
+  background-position: -60px -80px;
+}
+.uiIconEcmsViewTimeline {
+  background-position: -80px -80px;
+}
+.uiIconEcmsViewAuthor,
+.uiIconEcmsViewAuthoring {
+  background-position: -100px -80px;
+}
+.uiIconEcmsViewAdmin,
+.uiIconEcmsViewE_admin {
+  background-position: -120px -80px;
+}
+.uiIconEcmsViewCoverflow {
+  background-position: -140px -80px;
+}
+.uiIconEcmsViewSimple {
+  background-position: -160px -80px;
+}
+.uiIconEcmsViewWcm,
+.uiIconEcmsViewWeb {
+  background-position: -180px -80px;
+}
+.uiIconEcmsExpand {
+  background-position: 0px -100px;
+}
+.uiIconEcmsGoBack {
+  background-position: -20px -100px;
+}
+.uiIconEcmsGotoFolder {
+  background-position: -40px -100px;
+}
+.uiIconEcmsArticle {
+  background-position: -60px -100px;
+}
+.uiIconEcmsAudit,
+.uiIconEcmsManageAuditing {
+  background-position: -80px -100px;
+}
+.uiIconEcmsNavigation,
+.uiIconEcmsContentNavigation {
+  background-position: -100px -100px;
+}
+.uiIconEcmsCheckIn {
+  background-position: -120px -100px;
+}
+.uiIconEcmsCheckOut {
+  background-position: -140px -100px;
+}
+.uiIconEcmsLock,
+.uiIconEcmsViewPermissions {
+  background-position: -160px -100px;
+}
+.uiIconEcmsUnlock {
+  background-position: -180px -100px;
+}
+.uiIconEcmsEmptyTrash {
+  background-position: 0px -120px;
+}
+.uiIconEcmsMinusStar,
+.uiIconEcmsRemoveFromFavourite {
+  background-position: -20px -120px;
+}
+.uiIconEcmsPlayMedia {
+  background-position: -40px -120px;
+}
+.uiIconEcmsCustom {
+  background-position: -60px -120px;
+}
+.uiIconEcmsContract,
+.uiIconEcmsCollapse {
+  background-position: -80px -120px;
+}
+.uiIconEcmsContract,
+.uiIconEcmsReturn {
+  background-position: -100px -120px;
+}
+.uiIconEcmsContract,
+.uiIconEcmsExecute {
+  background-position: -120px -120px;
+}
+.uiIconEcmsDriveSiteManagement,
+.uiIconEcms16x16DriveManagedSites {
+  background-position: -140px -120px;
+}
+.uiIconEcmsDriveTrash,
+.uiIconEcms16x16DriveTrash {
+  background-position: -160px -120px;
+}
+.uiIconEcmsManageContent {
+  background-position: -180px -120px;
+}
+.uiIconEcmsClipboardMini {
+  background-position: 0px -140px;
+}
+.uiIconEcmsRelationListMini,
+.uiIconEcmsRelationMini {
+  background-position: -20px -140px;
+}
+.uiIconEcmsSearchMini,
+.uiIconEcmsSavedSearchesMini {
+  background-position: -40px -140px;
+}
+.uiIconEcmsTreeMini,
+.uiIconEcmsExplorerMini {
+  background-position: -60px -140px;
+}
+.uiIconEcmsHome {
+  background-position: -80px -140px;
+}
+.uiIconEcmsFileMini {
+  background-position: -100px -140px;
+}
+.uiIconEcmsDottedArrow {
+  background-position: -120px -140px;
+}
+.uiIconEcmsTickMini {
+  background-position: -140px -140px;
+}
+/* Icon Override */
+.uiIconEcmsTagExplorerMini {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsDefault.png");
+  background-position: -60px -20px;
+}
+.uiIconEcmsTagExplorerMini:hover {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsPrimary.png");
+}
+.uiIconEcmsDelete {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsDefault.png");
+  background-position: -20px 0px;
+}
+.actionIcon:hover .uiIconEcmsDelete,
+.uiIconEcmsDelete:hover {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsPrimary.png");
+}
+.dropdown-menu > li > a .uiIconEcmsEditDocument,
+.uiActionBar .uiIconEcmsEditDocument,
+.dropdown-menu > li > a .uiIconEcmsManageActions,
+.uiActionBar .uiIconEcmsManageActions,
+.dropdown-menu > li > a .uiIconEcmsWatchDocument,
+.uiActionBar .uiIconEcmsWatchDocument,
+.dropdown-menu > li > a .uiIconEcmsManageCategories,
+.uiActionBar .uiIconEcmsManageCategories,
+.dropdown-menu > li > a .uiIconEcmsUpload,
+.uiActionBar .uiIconEcmsUpload,
+.dropdown-menu > li > a .uiIconEcmsComment,
+.uiActionBar .uiIconEcmsComment,
+.dropdown-menu > li > a .uiIconEcmsVote,
+.uiActionBar .uiIconEcmsVote,
+.dropdown-menu > li > a .uiIconEcmsAddCategory,
+.uiActionBar .uiIconEcmsAddCategory,
+.dropdown-menu > li > a .uiIconEcmsTaggingDocument,
+.uiActionBar .uiIconEcmsTaggingDocument {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsDefault.png");
+}
+.uiIconEcmsEditDocument {
+  background-position: -40px 0px;
+}
+.uiIconEcmsManageActions {
+  background-position: 0px -40px;
+}
+.uiIconEcmsTaggingDocument {
+  background-position: -60px -20px;
+}
+.uiIconEcmsWatchDocument {
+  background-position: -100px 0px;
+}
+.uiIconEcmsManageCategories {
+  background-position: -20px -60px;
+}
+.uiIconEcmsUpload {
+  background-position: -20px -20px;
+}
+.uiIconEcmsComment {
+  background-position: -140px -20px;
+}
+.uiIconEcmsAddCategory {
+  background-position: -180px -120px;
+}
+.uiIconEcmsVote {
+  background-position: -20px -80px;
+}
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsEditDocument,
+.uiActionBar .actionIcon:hover .uiIconEcmsEditDocument,
+.dropdown-menu > li > a .uiIconEcmsEditDocument:hover,
+.uiActionBar .uiIconEcmsEditDocument:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsManageActions,
+.uiActionBar .actionIcon:hover .uiIconEcmsManageActions,
+.dropdown-menu > li > a .uiIconEcmsManageActions:hover,
+.uiActionBar .uiIconEcmsManageActions:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsWatchDocument,
+.uiActionBar .actionIcon:hover .uiIconEcmsWatchDocument,
+.dropdown-menu > li > a .uiIconEcmsWatchDocument:hover,
+.uiActionBar .uiIconEcmsWatchDocument:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsManageCategories,
+.uiActionBar .actionIcon:hover .uiIconEcmsManageCategories,
+.dropdown-menu > li > a .uiIconEcmsManageCategories:hover,
+.uiActionBar .uiIconEcmsManageCategories:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsUpload,
+.uiActionBar .actionIcon:hover .uiIconEcmsUpload,
+.dropdown-menu > li > a .uiIconEcmsUpload:hover,
+.uiActionBar .uiIconEcmsUpload:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsComment,
+.uiActionBar .actionIcon:hover .uiIconEcmsComment,
+.dropdown-menu > li > a .uiIconEcmsComment:hover,
+.uiActionBar .uiIconEcmsComment:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsVote,
+.uiActionBar .actionIcon:hover .uiIconEcmsVote,
+.dropdown-menu > li > a .uiIconEcmsVote:hover,
+.uiActionBar .uiIconEcmsVote:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsAddCategory,
+.uiActionBar .actionIcon:hover .uiIconEcmsAddCategory,
+.dropdown-menu > li > a .uiIconEcmsAddCategory:hover,
+.uiActionBar .uiIconEcmsAddCategory:hover,
+.dropdown-menu > li > a .actionIcon:hover .uiIconEcmsTaggingDocument,
+.uiActionBar .actionIcon:hover .uiIconEcmsTaggingDocument,
+.dropdown-menu > li > a .uiIconEcmsTaggingDocument:hover,
+.uiActionBar .uiIconEcmsTaggingDocument:hover {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsPrimary.png");
+}
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsEditDocument,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsEditDocument:hover,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageActions,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageActions:hover,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsWatchDocument,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsWatchDocument:hover,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsManageCategories,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsManageCategories:hover,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsUpload,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsUpload:hover,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsComment,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsComment:hover,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsVote,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsVote:hover,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .actionIcon:hover .uiIconEcmsTaggingDocument,
+.uiActionBar .listHiddenActionsContainer .dropdown-menu .uiIconEcmsTaggingDocument:hover {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsSecondary.png");
+}
+/************** icons Ecms 24x24 *************************/
+[class^="uiIconEcms24x24"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcms24x24Default.png");
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+/* Blue icons */
+[class^="uiIconEcms24x24"]:hover,
+.driveLabel:hover [class^="uiIconEcms24x24"],
+.uiIconEcms24x24Blue {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcms24x24Primary.png");
+}
+/* LightGray icons */
+.uiIconEcms24x24LightGray {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcms24x24Default.png");
+}
+.uiIconEcms24x24Extra, .uiIconEcms24x24DarkGray,
+.LeftNavigationTDContainer [class^="uiIconEcms24x24"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcms24x24Extra.png");
+}
+.uiIconEcms24x24DriveGeneral {
+  background-position: 0px 0px;
+}
+.uiIconEcms24x24DriveGroup {
+  background-position: -28px 0px;
+}
+.uiIconEcms24x24DrivePersonal {
+  background-position: -56px 0px;
+}
+.uiIconEcms24x24DrivePrivate {
+  background-position: -84px 0px;
+}
+.uiIconEcms24x24DrivePublic {
+  background-position: -112px 0px;
+}
+.uiIconEcms24x24DriveManagedSites {
+  background-position: -140px 0px;
+}
+.uiIconEcms24x24DriveTrash {
+  background-position: -168px 0px;
+}
+.uiIconEcms24x24White {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcms24x24Secondary.png");
+}
+.explorerTree {
+  float: left;
+  width: 230px;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ul.nav-tabs {
+  padding: 0;
+  margin-top: 0;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ul.nav-tabs li {
+  list-style-type: none !important;
+}
+.StatusTable h5 {
+  font-size: 13px;
+}
+.StatusTable h5 span {
+  font-weight: normal;
+}
+.uiPublicationPanel .statusAction {
+  padding: 0px;
+  margin: 0px 0px 15px 30px;
+  white-space: nowrap;
+}
+.uiPublicationPanel .statusAction .activeStatus,
+.uiPublicationPanel .statusAction .disableStatus,
+.uiPublicationPanel .statusAction .currentStatus {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Publication/bgGray.png") no-repeat left top;
+  display: inline-block;
+  width: 101px;
+  text-align: center;
+  position: relative;
+  margin-right: -4px;
+}
+.uiPublicationPanel .statusAction .activeStatus p,
+.uiPublicationPanel .statusAction .disableStatus p,
+.uiPublicationPanel .statusAction .currentStatus p {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.uiPublicationPanel .statusAction .activeStatus .node,
+.uiPublicationPanel .statusAction .disableStatus .node,
+.uiPublicationPanel .statusAction .currentStatus .node {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Publication/normalNode.png") no-repeat left top;
+  width: 49px;
+  height: 49px;
+  display: block;
+  margin: 0px auto;
+  cursor: pointer;
+}
+.uiPublicationPanel .statusAction .activeStatus p,
+.uiPublicationPanel .statusAction .disableStatus p {
+  color: #cccccc;
+}
+.uiPublicationPanel .statusAction .completed p,
+.uiPublicationPanel .statusAction .activeStatus.completed p,
+.uiPublicationPanel .statusAction .disableStatus.completed p {
+  color: #ffffff;
+}
+.uiPublicationPanel .statusAction li:before {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Publication/lineGray.png") no-repeat left top;
+  content: "";
+  height: 13px;
+  left: -31px;
+  position: absolute;
+  top: 17px;
+  width: 60px;
+}
+.uiPublicationPanel .statusAction li:first-child:before {
+  background: none;
+}
+.uiPublicationPanel .statusAction .disableStatus p {
+  color: #cccccc;
+}
+.uiPublicationPanel .statusAction .currentStatus p {
+  color: #0ab5f5;
+}
+.uiPublicationPanel .statusAction .disableStatus .node {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Publication/unTickNode.png") no-repeat left top;
+  cursor: no-drop;
+}
+.uiPublicationPanel .statusAction .currentStatus .node {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Publication/tickNode.png") no-repeat left top;
+}
+.uiPublicationSchedule .help-block {
+  color: #cccccc;
+  margin: 15px 0px;
+}
+.uiPublicationSchedule .btn {
+  margin: 0px 5px 0 0;
+}
+.uiPublicationSchedule .label-title {
+  margin-right: 10px;
+}
+.uiPublicationSchedule .form-inline input {
+  width: 160px;
+  margin-right: 10px;
+}
+.uiHomePagePortlet {
+  padding: 20px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace {
+  padding: 20px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .selectbox {
+  margin: 0px;
+  width: 150px;
+  border: none;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .uiSelectbox {
+  width: 150px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .finterTitle {
+  padding: 4px 8px 4px 4px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .actionIcon {
+  margin-left: 8px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .uiGrayLightBox {
+  border-radius: 2px;
+  padding: 4px 9px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .btn-group {
+  margin-top: 1px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .btn-group .btn {
+  padding: 4px 7px;
+  margin-left: -1px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .actionBar .btn-group .btn:nth-last-child(2):hover {
+  border-radius: 0 3px 3px 0;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .breadcumbsPortlet {
+  height: auto;
+  margin-top: 20px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .breadcumbsPortlet .breadcrumb {
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+.uiHomePagePortlet .uiWorkingWorkspace .listContainer .leftWorkspace {
+  background: #333333;
+}
+.uiHomeContentSelector .uiWorkingWorkspace .listContainer .leftWorkspace {
+  height: 460px;
+}
+.uiHomeContentSelector .breadcumbsPortlet {
+  margin-bottom: 20px;
+}
+.uiHomeContentSelector .breadcumbsPortlet .breadcrumb {
+  padding: 8px 15px;
+}
+.uiHomeContentSelector .uiPageIterator li > a {
+  cursor: pointer;
+}
+.uiHomeContentSelector .uiPageIterator .Page > i {
+  margin-top: 4px;
+}
+.uiHomeContentSelector .uiWCMSearchContainer {
+  height: auto;
+}
+/* ============== INLINE-EDITING feature css===========================*/
+.InlineEditing {
+  width: 100%;
+  height: auto;
+}
+.InlineEditing .AcceptButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 16px;
+  height: 22px;
+  float: right;
+  margin-right: 5px;
+}
+.InlineEditing .CancelButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 14px;
+  height: 22px;
+  float: right;
+}
+.InlineEditing TEXTAREA {
+  width: 98%;
+  border: 1px solid #cccccc;
+  height: 155px;
+  font-size: small;
+}
+/* ============== Groovy title =================================================*/
+.InlineEditing .GtmplTitle {
+  font-size: 24px;
+  width: 100%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  overflow: hidden;
+}
+.InlineEditing .GtmplTitleHover {
+  background: #fffacd;
+  font-size: 24px;
+  width: 100%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  cursor: text;
+  overflow: hidden;
+}
+.InlineEditing .EditGtmplTitle {
+  background: #fffacd;
+  display: none;
+  line-height: 20px;
+  padding: 2px 7px 2px 2px;
+}
+.InlineEditing .EditGtmplTitleInput {
+  margin-right: 45px;
+}
+.InlineEditing .EditGtmplTitleInput input {
+  width: 99%;
+  border: 1px solid #cccccc;
+}
+/* ============== Default Text CSS =================================================*/
+.InlineEditing .InlineText {
+  font-size: 24px;
+  width: 100%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  overflow: hidden;
+}
+.InlineEditing .InlineTextHover {
+  font-size: 24px;
+  background: #fffacd;
+  width: 100%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  cursor: text;
+  overflow: hidden;
+}
+.InlineEditing .EditInlineText {
+  background: #fffacd;
+  display: none;
+  line-height: 20px;
+  padding: 2px 7px 2px 2px;
+}
+.InlineEditing .EditInlineTextInput {
+  margin-right: 45px;
+}
+.InlineEditing .EditInlineTextInput input {
+  width: 99%;
+  border: 1px solid #cccccc;
+}
+/* ============== Groovy title in small text ===============================================*/
+.InlineEditing .TdGtmplTitle {
+  width: 100%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  overflow: hidden;
+}
+.InlineEditing .TdGtmplTitleHover {
+  background: #fffacd;
+  width: 100%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  cursor: text;
+  overflow: hidden;
+}
+.InlineEditing .EditTdGtmplTitle {
+  background: #fffacd;
+  display: none;
+  line-height: 20px;
+  padding: 2px 7px 2px 2px;
+}
+.InlineEditing .EditTdGtmplTitleInput {
+  margin-right: 45px;
+}
+.InlineEditing .EditTdGtmplTitleInput input {
+  width: 99%;
+  border: 1px solid #cccccc;
+}
+/* ==================== Content ================================== */
+.InlineEditing .Content {
+  width: 100%;
+  height: 99%;
+  padding: 1px 0px 1px 0;
+  overflow: hidden;
+}
+.InlineEditing .ContentHover {
+  width: 100%;
+  height: 99%;
+  padding: 1px 0px 1px 0;
+  cursor: text;
+  overflow: hidden;
+}
+.InlineEditing .EditContent {
+  display: none;
+  padding: 2px 7px 2px 2px;
+  width: 98%;
+  height: 100%;
+}
+.InlineEditing .EditContentInput {
+  margin-right: 35px;
+}
+.InlineEditing .EditContentInput input {
+  width: 99%;
+  border: 1px solid #cccccc;
+}
+.InlineEditing .EditContentInput TEXTAREA {
+  width: 98%;
+  border: 1px solid #cccccc;
+  height: 155px;
+  font-size: small;
+}
+/* ==================== CLV1ColumnPresent ================================== */
+.InlineEditing .CLV1ColumnPresent {
+  width: 99%;
+  height: 99%;
+  padding: 1px 0px 1px 0;
+  overflow: hidden;
+}
+.InlineEditing .CLV1ColumnPresentHover {
+  background: #fffacd;
+  width: 99%;
+  height: 99%;
+  padding: 1px 0px 1px 0;
+  cursor: text;
+  overflow: hidden;
+}
+.InlineEditing .EditCLV1ColumnPresent {
+  background: #fffacd;
+  display: none;
+  padding: 2px 7px 2px 2px;
+  width: 99%;
+  height: 99%;
+  clear: both;
+}
+.InlineEditing .EditCLV1ColumnPresentInput {
+  margin-right: 35px;
+}
+.InlineEditing .EditCLV1ColumnPresentInput TEXTAREA {
+  width: 98%;
+  border: 1px solid #cccccc;
+  height: 80px;
+  font-size: small;
+}
+.InlineEditing .EditCLV1ColumnPresent .AcceptButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 16px;
+  height: 22px;
+  float: right;
+  margin-right: 3px;
+  margin-top: 63px;
+}
+.InlineEditing .EditCLV1ColumnPresent .CancelButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 14px;
+  height: 22px;
+  float: right;
+  margin-top: 63px;
+}
+/* ============== Groovy CLV title =================================================*/
+.InlineEditing .GroovyCLVTitle {
+  width: 99%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  overflow: hidden;
+}
+.InlineEditing .GroovyCLVTitleHover {
+  background: #fffacd;
+  width: 99%;
+  line-height: 20px;
+  padding: 2px 0 0;
+  cursor: text;
+  overflow: hidden;
+}
+.InlineEditing .EditGroovyCLVTitle {
+  background: #fffacd;
+  display: none;
+  line-height: 20px;
+  padding: 2px 0px 2px 2px;
+  width: 99%;
+}
+.InlineEditing .EditGroovyCLVTitleInput input {
+  width: 99%;
+  border: 1px solid #cccccc;
+}
+.InlineEditing .EditGroovyCLVTitle .AcceptButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 16px;
+  height: 22px;
+  margin-right: 5px;
+}
+.InlineEditing .EditGroovyCLVTitle .CancelButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 14px;
+  height: 22px;
+}
+/* ==================== CLV2ColSummary ================================== */
+.InlineEditing .CLV2ColSummary {
+  width: 100%;
+  height: 99%;
+  padding: 1px 0px 1px 0;
+  overflow: hidden;
+}
+.InlineEditing .CLV2ColSummaryHover {
+  background: #fffacd;
+  width: 100%;
+  height: 99%;
+  padding: 1px 0px 1px 0;
+  cursor: text;
+  overflow: hidden;
+}
+.InlineEditing .EditCLV2ColSummary {
+  background: #fffacd;
+  display: none;
+  padding: 2px 7px 2px 2px;
+  width: 98%;
+  height: 99%;
+}
+.InlineEditing .EditCLV2ColSummaryInput {
+  margin-right: 35px;
+}
+.InlineEditing .EditCLV2ColSummary .AcceptButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/accep_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 16px;
+  height: 22px;
+  float: right;
+  margin-right: 2px;
+  margin-top: 65px;
+}
+.InlineEditing .EditCLV2ColSummary .CancelButton {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/cancel_button.png") no-repeat scroll left center;
+  display: inline-block;
+  width: 14px;
+  height: 22px;
+  float: right;
+  margin-top: 65px;
+}
+/******** UIContentBrowserPanel **************/
+#UIContentSelectorOne .uiWCMSearchContainer,
+#UIContentSelectorOne .uiContentSearchForm,
+#UIContentSelectorOne .uiContentSearchResult {
+  height: 400px;
+}
+#UIContentSelectorMulti .uiWCMSearchContainer,
+#UIContentSelectorMulti .uiContentSearchResult {
+  height: 400px;
+}
+.uiWCMSearchContainer {
+  height: 400px;
+}
+.uiWCMSearchContainer .breadcumbsPortlet {
+  height: 30px;
+}
+.uiWCMSearchContainer .breadcumbsPortlet .breadcumbTab {
+  display: inline-block;
+  font-size: 13px;
+}
+.uiWCMSearchContainer .breadcumbsPortlet .breadcumbTab a.normal {
+  color: #ffffff;
+}
+.uiWCMSearchContainer .breadcumbsPortlet .breadcumbTab a.normal:hover {
+  color: #cccccc;
+}
+.uiWCMSearchContainer .breadcumbsPortlet .breadcumbTab a.active {
+  color: #cccccc;
+  font-weight: bold;
+}
+.uiWCMSearchContainer .actionBar .control-label {
+  width: auto;
+  margin-right: 20px;
+}
+.uiWCMSearchContainer .actionBar .controls {
+  margin: 0px;
+}
+.uiWCMSearchContainer .actionBar .controls .uiSelectbox {
+  width: 120px;
+}
+.uiWCMSearchContainer .actionBar .controls .uiSelectbox .selectbox {
+  width: 123px;
+}
+.uiWCMSearchContainer .listContainer {
+  padding-bottom: 10px;
+}
+.uiWCMSearchContainer .leftWorkspace {
+  width: 210px;
+  float: left;
+  border: 1px solid #cccccc;
+  background: #2c2c2c;
+  overflow: auto;
+  height: 461px;
+}
+.uiWCMSearchContainer .leftWorkspace .ChildrenContainer {
+  margin-left: 15px;
+}
+.uiWCMSearchContainer .rightWorkspace {
+  margin-left: 230px;
+}
+.uiWCMSearchContainer .rightWorkspace .multiListContainer .listFileContainer {
+  margin-top: 6px;
+  overflow: auto;
+  height: 130px;
+}
+.uiWCMSearchContainer .rightWorkspace .noContent {
+  color: #cccccc;
+}
+.uiContentSearchForm .dateInput {
+  margin: 10px 10px 0px 0px;
+}
+.uiContentSearchForm .dateInput input {
+  width: 125px;
+}
+.uiContentSearchForm .uiRadio {
+  margin: 0px;
+}
+.uiContentSearchForm .txt {
+  margin: 5px 0px;
+}
+.uiContentSearchForm .inputGroup input {
+  width: 125px;
+}
+.uiContentSearchForm .uiSelectbox {
+  width: 123px;
+}
+.uiContentSearchForm .uiSelectbox .selectbox {
+  width: 126px;
+}
+.UICLVPortlet .uiContentSearchForm .controls .dateInput {
+  margin: 10px 10px 0px 0px;
+}
+.UICLVPortlet .uiContentSearchForm .controls .dateInput input {
+  width: 125px;
+}
+.UICLVPortlet .uiContentSearchForm .controls .uiCalendarComponent .calendarTimeInput input[type="text"]:first-child {
+  width: 25px;
+}
+.UICLVPortlet .uiContentSearchForm .controls .uiCalendarComponent .calendarTimeInput input[type="text"] {
+  width: 28px;
+}
+.uiContentSearchResult .uiWCMSearchContent .title {
+  width: 50%;
+}
+.uiContentSearchResult .uiWCMSearchContent .publicationstate {
+  white-space: nowrap;
+}
+.uiContentSearchResult .noContent {
+  color: #cccccc;
+}
+/******** UISearchPageLayoutManager **************/
+.UISearchPageLayoutManager .form-horizontal .control-label {
+  width: 220px;
+}
+.UISearchPageLayoutManager .form-horizontal .controls {
+  margin-left: 240px;
+}
+.UISearchPageLayoutManager .searchResultBasePathInputSetAction .controls-nowrap {
+  margin: 0px;
+}
+.UISearchPageLayoutManager .uiAction {
+  padding-bottom: 15px;
+}
+/******** EdittingToolBar **************/
+.edittingToolBarContainer,
+.edittingContent {
+  display: none;
+  float: right;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 160px;
+  z-index: 1;
+}
+.edittingToolBarContainer .edittingToolBar,
+.edittingContent .edittingToolBar {
+  background: #3dc5f7;
+  padding: 5px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  -moz-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;
+  position: absolute;
+  right: -1px;
+  top: -36px;
+}
+.edittingToolBarContainer .edittingToolBar .btn-group .btn,
+.edittingContent .edittingToolBar .btn-group .btn {
+  padding: 3px 5px;
+  border: 1px solid #06729a;
+  background: #3dc5f7;
+  box-shadow: none;
+  margin-left: -5px;
+}
+.edittingToolBarContainer .edittingToolBar .btn-group .btn:hover,
+.edittingContent .edittingToolBar .btn-group .btn:hover {
+  background-color: #29bef6;
+  background-image: -moz-linear-gradient(top, #3dc5f7, #0ab5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3dc5f7), to(#0ab5f5));
+  background-image: -webkit-linear-gradient(top, #3dc5f7, #0ab5f5);
+  background-image: -o-linear-gradient(top, #3dc5f7, #0ab5f5);
+  background-image: linear-gradient(to bottom, #3dc5f7, #0ab5f5);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3dc5f7', endColorstr='#ff0ab5f5', GradientType=0);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.edittingToolBarContainer .edittingToolBar .btn-group > .btn:first-child,
+.edittingContent .edittingToolBar .btn-group > .btn:first-child {
+  margin-left: 0px;
+}
+.edittingToolBarContainer .edittingToolBar [class^="uiIcon"],
+.edittingContent .edittingToolBar [class^="uiIcon"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsSecondary.png");
+}
+.edittingToolBarContainer .edittingToolBar [class^="uiIconEcms"],
+.edittingContent .edittingToolBar [class^="uiIconEcms"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+}
+.edittingToolBarContainer .edittingToolBar .edittingCurrentState .publishText,
+.edittingContent .edittingToolBar .edittingCurrentState .publishText,
+.edittingToolBarContainer .edittingToolBar .edittingCurrentState .draftText,
+.edittingContent .edittingToolBar .edittingCurrentState .draftText {
+  color: #333333;
+  margin: 3px 10px 0px 3px;
+  font-weight: bold;
+  display: block;
+}
+.edittingToolBarContainer .edittingToolBar .edittingCurrentState .draftText,
+.edittingContent .edittingToolBar .edittingCurrentState .draftText {
+  color: #3dc5f7;
+}
+.edittingContent .edittingToolBar {
+  -webkit-border-radius: 0px 0px 0px 3px;
+  -moz-border-radius: 0px 0px 0px 3px;
+  border-radius: 0px 0px 0px 3px;
+  top: 0px;
+}
+.containerHoverClass {
+  border: 1px solid #3dc5f7 !important;
+}
+.containerHoverClass .edittingToolBarContainer {
+  display: block;
+}
+.containerHoverClassInner:hover {
+  border: 1px solid #3dc5f7 !important;
+}
+.containerHoverClassInner:hover .edittingContent {
+  display: block;
+}
+.OneColumnCLVTemplate .Contents .Column1 .edittingContent .edittingToolBar {
+  top: -8px;
+}
+/*############################## -- Begin UIThumbnailsView -- ##############################*/
+.uiThumbnailsView {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox {
+  width: 148px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  padding: 0px !important;
+  overflow: hidden;
+  cursor: pointer;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox:hover .nodeLabel {
+  background: #222222;
+}
+.uiThumbnailsView .actionIconsContainer .selectedBox .nodeLabel {
+  background: #cccccc;
+}
+.uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel {
+  background: #0ab5f5;
+}
+.uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel > a {
+  color: #333333;
+}
+.uiThumbnailsView .actionIconsContainer .bgThumbnailImage {
+  padding: 5px;
+  background: #333333;
+  box-shadow: 1px 1px 3px 1px rgba(25, 44, 48, 0.2);
+  display: inline-block;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon {
+  width: 64px;
+  height: 64px;
+  /*background: url('/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/LoadingProgress.gif') no-repeat center center;*/
+
+  position: relative;
+  margin: auto;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon img {
+  display: none;
+  max-width: 116px;
+  max-height: 116px;
+  margin: auto;
+  border: 1px solid #cccccc;
+}
+.uiThumbnailsView .actionIconsContainer .nodeLabel {
+  width: 148px;
+  height: 148px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIcon {
+  width: 50px;
+  height: 50px;
+  margin: 9px auto 0px auto;
+}
+.uiThumbnailsView .actionIconsContainer .thumbnailImage {
+  width: 128px;
+  height: 128px;
+  border: none;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconLabel {
+  line-height: 15px;
+  max-height: 28px;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconLabel > a {
+  color: #ffffff;
+}
+.uiThumbnailsView [class^="uiIcon64x64"] {
+  margin: auto;
+  position: relative;
+}
+.uiThumbnailsView .Link,
+.uiThumbnailsView .IconLocked {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/portlets/explorer/Icons/IconBigLink.png") no-repeat right top;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: -5px;
+  bottom: 0;
+}
+.uiThumbnailsView .IconLocked {
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/portlets/explorer/Icons/IconBigLock.png") no-repeat right top;
+  top: 0;
+}
+/*############################## -- End UIThumbnailsView -- ##############################*/
+/******** UIRelationManager **************/
+.uiOneNodePathSelector .breadcrumb {
+  background: #2c2c2c;
+  border: 1px solid #cccccc;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  line-height: 16px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.uiGroupSelector .form-horizontal,
+.uiGroupMembershipSelector .form-horizontal,
+.uiMemberSelector .form-horizontal,
+.anyPermission .form-horizontal {
+  padding: 0px;
+}
+.uiGroupSelector .form-horizontal .control-label,
+.uiGroupMembershipSelector .form-horizontal .control-label,
+.uiMemberSelector .form-horizontal .control-label,
+.anyPermission .form-horizontal .control-label {
+  width: auto;
+}
+.uiGroupSelector .form-horizontal .controls,
+.uiGroupMembershipSelector .form-horizontal .controls,
+.uiMemberSelector .form-horizontal .controls,
+.anyPermission .form-horizontal .controls {
+  margin-left: 0px;
+}
+.uiGroupSelector .form-horizontal .controls .anyPermission .controls,
+.uiGroupMembershipSelector .form-horizontal .controls .anyPermission .controls,
+.uiMemberSelector .form-horizontal .controls .anyPermission .controls,
+.anyPermission .form-horizontal .controls .anyPermission .controls {
+  margin: 0px;
+}
+.uiECMAdminPortlet .uiECMAdminWorkingArea .uiMDriveAnyPermission .form-horizontal .form-horizontal {
+  padding: 0px;
+}
+.uiPopup .popupContent .uiMemberSelector {
+  margin: -10px -10px 10px -10px;
+}
+.uiTreeList {
+  margin-left: 250px;
+}
+.uiWaitting {
+  width: 32px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  background: url("../../../../../eXoSkin/skin/images/themes/blue/ecms/skin/Icons/loading_24x24.gif") no-repeat center;
+  top: 50%;
+  left: 50%;
+  z-index: 15;
+  margin: -12px 0 0 -12px;
+}
+.markLayerInline {
+  background: black;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 10;
+  border-radius: 5px;
+}
+.cke_editable ul li {
+  list-style: disc;
+}
+.cke_editable ol li {
+  list-style: decimal;
+}
+.permission .controls .PemissionInputset {
+  overflow: hidden;
+  padding-right: 10px;
+}
+.permission .controls .PemissionInputset input {
+  width: 100%;
+}
+.ie8 .UICLVPortlet .CLV .Contents .Image img {
+  padding-right: 51px;
+}
+.UIWCMSearchPortlet .result {
+  border-top: 1px solid #D7D7D7;
+  padding: 10px 20px;
+}
+.UIWCMSearchPortlet .result .resultSort {
+  line-height: 28px;
+}
+.UIWCMSearchPortlet .result .resultSort .uiDropdownWithIcon {
+  margin-left: 6px;
+}
+.UIWCMSearchPortlet .showMore {
+  padding: 15px 0;
+}
+.UIWCMSearchPortlet .showMore .btn {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+.UIWCMSearchPortlet .UIAdvanceSearchResultDefault {
+  padding: 10px;
+}
+.UIWCMSearchPortlet .UIAdvanceSearchResultDefault .ResultHeader {
+  border-bottom: 1px solid #cccccc;
+  line-height: 25px;
+  overflow: hidden;
+  padding: 0 5px;
+}
+.UIWCMSearchPortlet .UIAdvanceSearchResultDefault p {
+  padding: 0px 10px;
+}
+.UIWCMSearchPortlet .UIAdvanceSearchResultDefault .resultBox {
+  padding: 0 20px 20px;
+}
+.UIWCMSearchPortlet .UIAdvanceSearchResultDefault .resultBox .content {
+  margin-left: 85px;
+}
+.UIWCMSearchPortlet .UIAdvanceSearchResultDefault .resultBox .content h6 {
+  margin: 0px;
+}
+.UIWCMSearchPortlet .UIAdvanceSearchResultDefault .resultBox .content .detail {
+  color: #cccccc;
+}
+.UIWCMSearchPortlet .UISearchForm .controls {
+  line-height: 25px;
+}
+.UISingleContentViewerPortlet .UIPresentationContainer {
+  margin: 25px;
+}
+.UISingleContentViewerPortlet .UIPresentationContainer .title {
+  color: #ffffff;
+  margin: 0 0 2px 0;
+  text-shadow: none;
+}
+.UISingleContentViewerPortlet .UIPresentationContainer .dateAndMail {
+  color: #ffffff;
+  padding: 5px 0 0 0;
+}
+.UISingleContentViewerPortlet .UIPresentationContainer .uiOptionBar {
+  background: none repeat scroll 0 0 #2c2c2c;
+  border: 1px solid #cccccc;
+  padding: 4px 8px 4px 4px;
+  margin: 8px 0;
+}
+.UISingleContentViewerPortlet .UIPresentationContainer .uiOptionBar a {
+  color: #ffffff;
+}
+.UISingleContentViewerPortlet .UIPresentationContainer .BigNews .Title {
+  padding: 0px;
+}
+.cke_show_borders ul li {
+  list-style-type: disc;
+}
+/**************** Quick edit ************/
+.quickEdit {
+  float: right;
+  margin: 10px 10px 0 0;
+}

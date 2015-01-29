@@ -42,7 +42,7 @@
   }
 }
 [class^="uiIconAns"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsExtra.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .uiActionWithLabel:hover > [class^="uiIconAns"],
@@ -70,6 +70,10 @@ a:hover > [class^="uiIconAns"],
 .answerToolbar [class^="uiIconAns"],
 .uiIconAnsLightGray {
   background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsDefault.png");
+}
+.uiIconAnsExtra, .uiIconAnsDarkGray,
+.LeftNavigationTDContainer [class^="uiIconAns"] {
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsExtra.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconAns"],

@@ -42,7 +42,7 @@
   }
 }
 [class^="uiIconSoc"] {
-  background-image: url("../../../../../eXoSkin/skin/images/themes/default/social/skin/Icons/uiIconsSocExtra.png");
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/social/skin/Icons/uiIconsSocDefault.png");
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .uiActionWithLabel:hover > [class^="uiIconSoc"],
@@ -68,6 +68,10 @@ a:hover [class^="uiIconSoc"],
 .uiActionBar [class^="uiIconSoc"],
 .uiIconSocLightGray {
   background-image: url("../../../../../eXoSkin/skin/images/themes/default/social/skin/Icons/uiIconsSocDefault.png");
+}
+.uiIconSocExtra, .uiIconSocDarkGray,
+.LeftNavigationTDContainer [class^="uiIconSoc"] {
+  background-image: url("../../../../../eXoSkin/skin/images/themes/default/social/skin/Icons/uiIconsSocExtra.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconSoc"],

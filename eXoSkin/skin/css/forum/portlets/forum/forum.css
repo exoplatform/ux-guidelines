@@ -48,7 +48,7 @@
   *margin-right: .3em;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/forum/Icons/uiIconsForumExtra.png");
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/forum/Icons/uiIconsForumDefault.png");
   background-repeat: no-repeat;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
@@ -75,6 +75,10 @@ a:hover [class^="uiIconForum"] {
 .uiActionBar [class^="uiIconForum"],
 .uiIconForumLightGray {
   background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/forum/Icons/uiIconsForumDefault.png");
+}
+.uiIconForumExtra, .uiIconForumDarkGray,
+.LeftNavigationTDContainer [class^="uiIconForum"] {
+  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/forum/Icons/uiIconsForumExtra.png");
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconForum"],

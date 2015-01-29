@@ -1,0 +1,280 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: fa-spin 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+body {
+  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/extensions/login_texture.jpg") repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  overflow: auto;
+  height: auto;
+}
+a {
+  color: #0ab5f5;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.backLight {
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -webkit-box-shadow: 0 0 200px #333333;
+  -moz-box-shadow: 0 0 200px #333333;
+  box-shadow: 0 0 200px #333333;
+  width: 280px;
+  height: 280px;
+  margin: 140px auto 0;
+}
+.uiWelcomeBox {
+  background-color: #333333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px #3d3d3d;
+  -moz-box-shadow: 0 1px 3px #3d3d3d;
+  box-shadow: 0 1px 3px #3d3d3d;
+  margin: -380px auto 0;
+  width: 512px;
+}
+.uiWelcomeBox .header {
+  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/extensions/headerBG.png") repeat-x scroll 0 0 transparent;
+  border: 1px solid #393939;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  width: 511px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cccccc;
+}
+.uiWelcomeBox .logo {
+  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/extensions/Logo.png") no-repeat scroll 18px center;
+  text-align: center;
+}
+.uiWelcomeBox .content {
+  background-color: #333333;
+  margin: 0 auto;
+  padding: 10px 23px;
+  position: static;
+  width: auto;
+}
+.uiWelcomeBox .content p {
+  text-align: center;
+}
+.uiWelcomeBox .bottom {
+  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/extensions/bottomBG.png") no-repeat center bottom;
+  text-align: center;
+  padding: 30px 0;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.uiWelcomeBox .bottom a {
+  text-decoration: none;
+}
+.uiWelcomeBox input {
+  background: #333333;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1) inset;
+  color: #ffffff;
+  height: 28px;
+  margin: 0 5px 0 0;
+  padding: 0 6px;
+  width: 170px;
+  font-size: 13px;
+}
+.uiWelcomeBox input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.uiWelcomeBox input:-moz-placeholder {
+  color: #cccccc;
+}
+.uiWelcomeBox input::-moz-placeholder {
+  color: #cccccc;
+}
+.uiWelcomeBox input:-ms-input-placeholder {
+  color: #cccccc;
+}
+.uiWelcomeBox input:focus {
+  border-color: #84abe8;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  color: #ffffff;
+}
+.uiWelcomeBox input.disable {
+  background-color: #1a1a1a;
+}
+.uiWelcomeBox .btn {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: top;
+  width: 115px;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #29bef6;
+  background-image: -moz-linear-gradient(top, #3dc5f7, #0ab5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3dc5f7), to(#0ab5f5));
+  background-image: -webkit-linear-gradient(top, #3dc5f7, #0ab5f5);
+  background-image: -o-linear-gradient(top, #3dc5f7, #0ab5f5);
+  background-image: linear-gradient(to bottom, #3dc5f7, #0ab5f5);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3dc5f7', endColorstr='#ff0ab5f5', GradientType=0);
+  border: 1px solid #06729a;
+  *background-color: #0ab5f5;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+.uiWelcomeBox .btn:hover,
+.uiWelcomeBox .btn:focus,
+.uiWelcomeBox .btn:active,
+.uiWelcomeBox .btn.active,
+.uiWelcomeBox .btn.disabled,
+.uiWelcomeBox .btn[disabled] {
+  color: #ffffff;
+  background-color: #0ab5f5;
+  *background-color: #09a3dd;
+}
+.uiWelcomeBox .btn.disabled,
+.uiWelcomeBox .btn[disabled] {
+  color: #cccccc;
+}
+.uiWelcomeBox .btn:hover {
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+.uiWelcomeBox .backOutdated {
+  background: #e97f7f;
+  color: #333333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  margin: 10px 0 15px;
+}
+.uiWelcomeBox .backNotOutdated {
+  background: #b5b5b5;
+  color: #333333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  margin: 10px 0 15px;
+}
+.uiWelcomeBox .rightCol {
+  width: 420px;
+}
+.uiWelcomeBox .rightCol a {
+  text-decoration: none;
+}
+.uiWelcomeBox .steps {
+  margin: 0 0 35px;
+}
+.uiWelcomeBox .firstItem {
+  line-height: 35px;
+}
+.uiWelcomeBox .rightCol.pull-right > div {
+  margin-top: 5px;
+}
+.uiWelcomeBox .rightCol.pull-right > div span {
+  width: 85px;
+  display: inline-block;
+}
+.uiWelcomeBox .stepsNumber {
+  background: #B5B5B5;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+  color: #333333;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  height: 38px;
+  line-height: 40px;
+  text-align: center;
+  width: 38px;
+  float: left;
+}
+.uiWelcomeBox .uiIconError {
+  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/extensions/errorIcon.png") no-repeat left center;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+}

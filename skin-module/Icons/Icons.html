@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Icons-eXo UX Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+       <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+       <link href="..//eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/platform/skin/platform.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/social/skin/social.css" rel="stylesheet" type="text/css"> 
+       <link href="../eXoSkin/skin/css/wiki/wiki.css" rel="stylesheet" type="text/css">
+       <link href="../eXoSkin/skin/css/calendar/calendar.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/chat/chat.css" rel="stylesheet">
+       <link href="../eXoSkin/skin/css/forum/portlets/answer/answers.css" rel="stylesheet" type="text/css" >
+       <link href="../eXoSkin/skin/css/forum/portlets/forum/forum.css" rel="stylesheet" type="text/css">
+
+   <!-- syntaxhighlighter -->
+      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <script src="../js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script><script src="../js/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-146052-10']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+
+  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner clearfix">
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="../getting-started.html">Getting Started</a></li>
+             <li class="active"><a href="../Components.html">Components</a></li>
+            <li><a href="../Patterns.html">Patterns</a></li>
+          </ul>
+        </div>
+        <div class="pull-right" style="margin-top: 11px;">
+        <a class="btnDownloadTop" target="_blank" href="http://community.exoplatform.com/downloads"></a>
+        <a class="btnLearMore" href="http://www.exoplatform.com"></a>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Icon</h1>
+    <p class="lead">Basic CSS for an icon in eXo Platform, and how to use it?</p></div>
+</header>
+
+<div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="row"><div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix-top">
+          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Style</a></li>
+          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>How to use?</a></li>
+          <li class=""><a href="#S3"><i class="icon-chevron-right"></i>Icon library</a></li>
+	 <li class=""><a href="#S4"><i class="icon-chevron-right"></i>Icon sample</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+        <!-- Headings================================================== -->
+        <section id="S1">
+          <div class="page-header">
+            <h2>Style</h2>
+          </div>
+           <h3>Color</h3>
+           <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Sample</th>
+                <th>Title</th>
+                <th>Color Overlay </th>
+                <th>Apply For</th>
+              </tr>
+            </thead>
+            <tbody>
+          
+		<tr>
+                <td><i class="uiIconTrash uiIconDarkGray"></i>  <i class="uiIconClock  uiIconDarkGray"></i></td>
+                <td>Dark Gray Icon</td>
+                <td><code>#626262</code></td>
+                <td>Default color for action icons having light or medium gray labels.</td>
+              </tr>
+                  <tr>
+                <td><i class="uiIconTrash uiIconLightGray"></i>  <i class="uiIconClock uiIconLightGray"></i></td>
+                <td>Light Gray Icon</td>
+                <td><code>#999999</code></td>
+                <td>Default color for repeated action icons, action list having dark gray labels. For example: Delete or Edit action in table, dropdown menu with dark gray text.</td>
+              </tr>
+<tr>		<td><i class="uiIconTrash uiIconWhite"></i>  <i class="uiIconClock  uiIconWhite"></i></td>
+                <td>White</td>
+                <td><code>#FFFFFF</code></td>
+                <td>Hover icon in dropdown menu, icons in primary button or black/gray bar.</td>
+              </tr>
+<tr>	        <td><i class="uiIconTrash uiIconBlue"></i>  <i class="uiIconClock  uiIconBlue"></i></td>              
+                <td>Electric Blue</td>
+                <td><code>#4F72AC</code></td>
+                <td>Default color icon for hovered/pressed/selected effect on light or dark gray icon.</td>
+              </tr>
+              <tr>
+             </tbody>
+          </table>
+         <p><h7>The eXo Platform icons are located in sprites. Each sprite has 4 color versions. For example, an icon in the general sprite has 4 colors that are defined by 4 classes: <code>uiIconLightGray</code>, <code>uiIconDarkGray</code>, <code>uiIconWhite</code>, <code>uiIconBlue</code>.</h7></p>
+<h3>Size</h3>
+<table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Sample</th>
+		<th>Size</th>
+                <th>Apply For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="uiIconAppCalendarPortlet uiIconDefaultApp"></i></td>
+                <td> 32x32</td>
+                <td>Space application bar, used for special purposes.</td>
+              </tr>
+	       <tr>
+                <td><i class="uiIconEcms24x24DriveGroup uiIconEcms24x24LightGray driveIcon"></i></td>
+                <td> 24x24 </td>
+                <td>Drive, top navigation icons, used for special purposes.</td>
+              </tr>
+               <tr>
+                <td><i class="uiIconEditPage uiIconLightGray"></i> <i class="uiIconTrash uiIconLightGray"></i></td>
+                <td> 16x16</td>
+                <td> Default icon for inpendent uses, such as icon button or icon with 13px label. </td>
+              </tr>
+	       <tr>
+                <td><i class="uiIconEditMini uiIconLightGray"></i> <i class="uiIconTrashMini uiIconLightGray"></i></td>
+                <td> 14x14</td>
+                <td> Icon with 12 or 11px font label or special hover action icons.</td>
+              </tr>			
+              <tr>
+                <td><i class="uiIconArrowDown uiIconLightGray"></i> <i class="uiIconArrowUp uiIconLightGray"></i></td>
+                <td> 9x9</td>
+                <td> Special icons in use, such as arrow and close.</td>
+              </tr>
+              <td><i class="uiIconMiniArrowDown uiIconLightGray"></i><i class="uiIconArrowUpMini uiIconLightGray"></i></td>
+                <td> 7x7</td>
+                <td> Special icons in use, such as mini-arrow.</td>
+              </tr> 
+             </tbody>
+          </table>         
+        </section>
+        <section id="S2">
+           <div class="page-header">
+            <h2>How to use?</h2>
+          </div>
+       <p><h7>All icons require the <code>&lt;i&gt;</code> tag with the unique class, prefixed with <code>uiIcon</code>. To use, place the following code just about anywhere:</h7></p>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconTrash"></i>
+]]></script>
+</div>
+	<p><h7>There are also styles available for inverted (light gray, dark gray, white, electric blue) icons, made ready with one extra class.</h7></p>
+	
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconTrash uiIconLightGray"></i>
+<i class="uiIconTrash uiIconDarkGray"></i>
+<i class="uiIconTrash uiIconWhite"></i>
+<i class="uiIconTrash uiIconBlue"></i>
+]]></script>
+</div>
+</section>
+ <section id="S3">
+          <div class="page-header">
+            <h2>Icon library</h2>
+          </div>
+
+<p><h3>General icons</h3></p>
+<p><h7>These icons are located in the general sprite that are used commonly in eXo Platform with 4 color classes: <code>uiIconLightGray</code>, <code>uiIconDarkGray</code>, <code>uiIconWhite</code>, <code>uiIconBlue</code>. </h7></p>
+
+ <ul class="the-icons clearfix">
+            <li><i class="uiIconTrash"></i> uiIconTrash</li>
+            <li><i class="uiIconEdit"></i> uiIconEdit</li>
+            <li><i class="uiIconLock"></i> uiIconLock</li>
+            <li><i class="uiIconLink"></i> uiIconLink</li>
+            <li><i class="uiIconWatch"></i> uiIconWatch</li>
+            <li><i class="uiIconMove"></i> uiIconMove</li>
+            <li><i class="uiIconPreview"></i> uiIconPreview</li>
+            <li><i class="uiIconRestore"></i> uiIconRestore</li>
+            <li><i class="uiIconRefresh"></i> uiIconRefresh</li>
+            <li><i class="uiIconCheckin"></i> uiIconCheckin</li>
+            <li><i class="uiIconUpload"></i> uiIconUpload</li>
+            <li><i class="uiIconDownload"></i> uiIconDownload</li>
+            <li><i class="uiIconTag"></i> .uiIconTag</li>
+            <li><i class="uiIconSave"></i> uiIconSave</li>
+            <li><i class="uiIconExport"></i> uiIconExport</li>
+            <li><i class="uiIconImport"></i> uiIconImport</li>
+            <li><i class="uiIconComment"></i> uiIconComment</li>
+            <li><i class="uiIconAttach"></i> uiIconAttach</li>
+            <li><i class="uiIconBookmark"></i> uiIconBookmark</li>
+            <li><i class="uiIconSetting"></i> uiIconSetting</li>
+            <li><i class="uiIconSettings"></i> uiIconSettings</li>
+            <li><i class="uiIconTemplate"></i> uiIconTemplate</li>
+            <li><i class="uiIconFile"></i> uiIconFile</li>
+            <li><i class="uiIconAddPage"></i> uiIconAddPage</li>
+            <li><i class="uiIconViewChange"></i> uiIconViewChange</li>
+            <li><i class="uiIconExportPdf"></i> uiIconExportPdf</li>
+            <li><i class="uiIconUser"></i> uiIconUser</li>
+            <li><i class="uiIconMembership"></i> uiIconMembership</li>
+
+            <li><i class="uiIconGroup"></i> uiIconGroup</li>
+            <li><i class="uiIconFolder"></i> uiIconFolder</li>
+            <li><i class="uiIconNotification"></i> uiIconNotification</li>
+            <li><i class="uiIconValidate"></i> uiIconValidate</li>
+            <li><i class="uiIconMinus"></i> uiIconMinus</li>
+            <li><i class="uiIconPlus"></i> uiIconPlus</li>
+            <li><i class="uiIconSimplePlusMini"></i> uiIconSimplePlusMini</li>
+            <li><i class="uiIconRemove"></i> uiIconRemove</li>
+            <li><i class="uiIconInformation"></i> uiIconInformation</li>
+            <li><i class="uiIconMail"></i> uiIconMail</li>
+            <li><i class="uiIconRss"></i> uiIconRss</li>
+            <li><i class="uiIconReply"></i> uiIconReply</li>
+            <li><i class="uiIconThumbUp"></i> uiIconThumbUp</li>
+            <li><i class="uiIconPrint"></i> uiIconPrint</li>
+            <li><i class="uiIconSortUp"></i> uiIconSortUp</li>
+            <li><i class="uiIconSortDown"></i> uiIconSortDown</li>
+            <li><i class="uiIconHome"></i> uiIconHome</li>
+            <li><i class="uiIconQuestion"></i> uiIconQuestion</li>
+            <li><i class="uiIconFlags"></i> uiIconFlags</li>
+            <li><i class="uiIconClock"></i> uiIconClock</li>
+            <li><i class="uiIconTree"></i> uiIconTree</li>
+            <li><i class="uiIconGeneralDrive"></i> uiIconGeneralDrive</li>
+            <li><i class="uiIconDiscuss"></i> uiIconDiscuss</li>
+            <li><i class="uiIconPoll"></i> uiIconPoll</li>
+            <li><i class="uiIconTrashMini"></i> uiIconTrashMini</li>
+            <li><i class="uiIconEditMini"></i> uiIconEditMini</li>
+            <li><i class="uiIconUnlockMini"></i> uiIconUnlockMini</li>
+            <li><i class="uiIconLockMini"></i> uiIconLockMini</li>
+
+            <li><i class="uiIconTick"></i> uiIconTick</li>
+            <li><i class="uiIconClose"></i> uiIconClose</li>
+            <li><i class="uiIconFileMini"></i> uiIconFileMini</li>
+            <li><i class="uiIconFileMini"></i> uiIconFileMini</li>
+            <li><i class="uiIconArrowDown"></i> uiIconArrowDown</li>
+            <li><i class="uiIconArrowUp"></i> uiIconArrowUp</li>
+            <li><i class="uiIconArrowRight"></i> uiIconArrowRight</li>
+            <li><i class="uiIconArrowLeft"></i> uiIconArrowLeft</li>
+            <li><i class="uiIconTagMini"></i> uiIconTagMini</li>
+            <li><i class="uiIconUpLevel"></i> uiIconUpLevel</li>
+            <li><i class="uiIconExpand"></i> uiIconExpand</li>
+            <li><i class="uiIconUnlockMedium"></i> uiIconUnlockMedium</li>
+            <li><i class="uiIconLockMedium"></i> uiIconLockMedium</li>
+            <li><i class="uiIconAddCategory"></i> uiIconAddCategory</li>
+            <li><i class="uiIconArrowDownMini"></i> uiIconArrowDownMini</li>
+            <li><i class="uiIconArrowUpMini"></i> uiIconArrowUpMini</li>
+            <li><i class="uiIconArrowRightMini"></i> uiIconArrowRightMini</li>
+            <li><i class="uiIconArrowLeftMini"></i> uiIconArrowLeftMini</li>
+            <li><i class="uiIconGoUp"></i> uiIconGoUp</li>
+            <li><i class="uiIconManageCategory"></i> uiIconManageCategory</li>
+            <li><i class="uiIconDragDrop"></i> uiIconDragDrop</li>
+            <li><i class="uiIconSimplePlusMini"></i> uiIconSimplePlusMini</li>
+            <li><i class="uiIconMinimize"></i> uiIconMinimize</li>
+            <li><i class="uiIconMaximize"></i> uiIconMaximize</li>
+            <li><i class="uiIconHomeInfo"></i> uiIconHomeInfo</li>
+            <li><i class="uiIconBusinessInfo"></i> uiIconBusinessInfo</li>
+            <li><i class="uiIconEditLayout"></i> uiIconEditLayout</li>
+            <li><i class="uiIconEditNavigation"></i> uiIconEditNavigation</li>
+
+            <li><i class="uiIconEditPortalConfig"></i> uiIconEditPortalConfig</li>
+            <li><i class="uiIconEditPageNode"></i> uiIconEditPageNode</li>
+            <li><i class="uiIconCloneNode"></i> uiIconCloneNode</li>
+            <li><i class="uiIconCopyNode"></i> uiIconCopyNode</li>
+            <li><i class="uiIconCutNode"></i> uiIconCutNode</li>
+            <li><i class="uiIconMoveDown"></i> uiIconMoveDown</li>
+            <li><i class="uiIconAddPage"></i> uiIconAddPage</li>
+            <li><i class="uiIconManageApplication"></i> uiIconManageApplication</li>
+            <li><i class="uiIconPortlet"></i> uiIconPortlet</li>
+            <li><i class="uiIconGadgets"></i> uiIconGadgets</li>
+            <li><i class="uiIconAddUser"></i> uiIconAddUser</li>
+            <li><i class="uiIconAddRemoteGadget"></i> uiIconAddRemoteGadget</li>
+            <li><i class="uiIconCreateNewGadget"></i> uiIconCreateNewGadget</li>
+            <li><i class="uiIconPortletConfig"></i> uiIconPortletConfig</li>
+            <li><i class="uiIconContainerConfig"></i> uiIconContainerConfig</li>
+            <li><i class="uiIconBack"></i> uiIconBack</li>
+            <li><i class="uiIconFavoriteDocument"></i> uiIconFavoriteDocument</li>
+            <li><i class="uiIconUntag"></i> uiIconUntag</li>
+            <li><i class="uiIconPatse"></i> uiIconPatse</li>
+            <li><i class="uiIconRestoreWindow"></i> uiIconRestoreWindow</li>
+            <li><i class="uiIconShowSlidebar"></i> uiIconShowSlidebar</li>
+            <li><i class="uiIconUpToFirst"></i> uiIconUpToFirst</li>
+            <li><i class="uiIconDownToBottom"></i> uiIconDownToBottom</li>
+            <li><i class="uiIconRotateRight"></i> uiIconRotateRight</li>
+            <li><i class="uiIconRotateLeft"></i> uiIconRotateLeft</li>
+            <li><i class="uiIconViewStatistic"></i> uiIconViewStatistic</li>
+            <li><i class="uiIconViewList"></i> uiIconViewList</li>
+            <li><i class="uiIconViewByChart"></i> uiIconViewByChart</li>
+            <li><i class="uiIconAddMembership"></i> uiIconAddMembership</li>
+            <li><i class="uiIconStar"></i> uiIconStar</li>
+
+            <li><i class="uiIconVideo"></i> uiIconVideo</li>
+            <li><i class="uiIconPopOut"></i> uiIconPopOut</li>
+            <li><i class="uiIconShare"></i> uiIconShare</li>
+    </ul>
+
+ <div class="bs-docs-example">
+   <i class="uiIconTrash uiIconDarkGray"></i> <i class="uiIconTrash uiIconLightGray"></i> <i class="uiIconTrash uiIconWhite"></i> <i class="uiIconTrash uiIconBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconTrash uiIconDarkGray"></i>
+<i class="uiIconTrash uiIconLightGray"></i>
+<i class="uiIconTrash uiIconWhite"></i>
+<i class="uiIconTrash uiIconBlue"></i>
+]]></script>
+</div>
+
+<h4>General Color Icons</h4>
+<p><h7>In some specific cases, the color icons are used.</h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconColorError"></i> uiIconColorError</li>
+            <li><i class="uiIconColorWarning"></i> uiIconColorWarning</li>
+            <li><i class="uiIconColorInfo"></i> uiIconColorInfo</li>
+            <li><i class="uiIconColorValidate"></i> uiIconColorValidate</li>
+            <li><i class="uiIconColorQuestion"></i> uiIconColorQuestion</li>
+            <li><i class="uiIconColorMiniSquareBlank"></i> uiIconColorMiniSquareBlank</li>
+            <li><i class="uiIconColorMiniSquarePlus"></i> uiIconColorMiniSquarePlus</li>
+            <li><i class="uiIconColorMiniSquareMinus"></i> uiIconColorMiniSquareMinus</li>
+            <li><i class="uiIconColorBell"></i> uiIconColorBell</li>
+            <li><i class="uiIconColorStarGray"></i> uiIconColorStarGray</li>
+            <li><i class="uiIconColorStarYellow"></i> uiIconColorStarYellow</li>            
+</ul>
+
+<p><h3>ECMS Icons</h3></p>
+<p><h7>These icons are located in the ECMS sprite that are used in Content with 4 color classes: <code>uiIconEcmsLightGray</code>, <code>uiIconEcmsDarkGray</code>, <code>uiIconEcmsWhite</code>, <code>uiIconEcmsBlue</code>.</h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconEcmsGeneralDrive"></i> uiIconEcmsGeneralDrive</li>
+            <li><i class="uiIconEcmsGroupDrive"></i> uiIconEcmsGroupDrive</li>
+            <li><i class="uiIconEcmsPersonalDrive"></i> uiIconEcmsPersonalDrive</li>
+            <li><i class="uiIconEcmsPrivateDrive"></i> uiIconEcmsPrivateDrive</li>
+            <li><i class="uiIconEcmsPublicDrive"></i> uiIconEcmsPublicDrive</li>
+            <li><i class="uiIconEcmsTemplateList"></i> uiIconEcmsTemplateList</li>
+            <li><i class="uiIconEcmsTemplateDocument"></i> uiIconEcmsTemplateDocument</li>
+            <li><i class="uiIconEcmsExplorerView"></i> uiIconEcmsExplorerView</li>
+            <li><i class="uiIconEcmsNameSpace"></i> uiIconEcmsNameSpace</li>
+            <li><i class="uiIconEcmsQuery"></i> uiIconEcmsQuery</li>
+            <li><i class="uiIconEcmsScript"></i> uiIconEcmsScript</li>
+            <li><i class="uiIconEcmsCopy"></i> uiIconEcmsCopy</li>
+            <li><i class="uiIconEcmsCut"></i> uiIconEcmsCut</li>
+            <li><i class="uiIconEcmsRemove"></i> uiIconEcmsRemove</li>
+            <li><i class="uiIconEcmsRename"></i> uiIconEcmsRename</li>
+            <li><i class="uiIconEcmsAddSymLink"></i> uiIconEcmsAddSymLink</li>
+            <li><i class="uiIconEcmsPaste"></i> uiIconEcmsPaste</li>
+            <li><i class="uiIconEcmsViewDocument"></i> uiIconEcmsViewDocument</li>
+            <li><i class="uiIconEcmsCopyUrlToClipboard"></i> uiIconEcmsCopyUrlToClipboard</li>
+            <li><i class="uiIconEcmsCheckout"></i> uiIconEcmsCheckout</li>
+            <li><i class="uiIconEcmsShowHideContent"></i> uiIconEcmsShowHideContent</li>
+            <li><i class="uiIconEcmsPublication"></i> uiIconEcmsPublication</li>
+            <li><i class="uiIconEcmsRelation"></i> uiIconEcmsRelation</li>
+            <li><i class="uiIconEcmsVersion"></i> uiIconEcmsVersion</li>
+            <li><i class="uiIconEcmsLocalisedContent"></i> uiIconEcmsLocalisedContent</li>
+            <li><i class="uiIconEcmsOverloadThumbnail"></i> uiIconEcmsOverloadThumbnail</li>
+            <li><i class="uiIconEcmsApprove"></i> uiIconEcmsApprove</li>
+            <li><i class="uiIconEcmsPublish"></i> uiIconEcmsPublish</li>
+
+            <li><i class="uiIconEcmsShowHideRelation"></i> uiIconEcmsShowHideRelation</li>
+            <li><i class="uiIconEcmsMetadata"></i> uiIconEcmsMetadata</li>
+            <li><i class="uiIconEcmsType"></i> uiIconNotification</li>
+            <li><i class="uiIconEcmsProperties"></i> uiIconEcmsProperties</li>
+            <li><i class="uiIconEcmsReference"></i> uiIconEcmsReference</li>
+            <li><i class="uiIconEcmsAddFolder"></i> uiIconEcmsAddFolder</li>
+            <li><i class="uiIconEcmsAddDocument"></i> uiIconEcmsAddDocument</li>
+            <li><i class="uiIconEcmsExportNode"></i> uiIconEcmsExportNode</li>
+            <li><i class="uiIconEcmsImportNode"></i> uiIconEcmsImportNode</li>
+            <li><i class="uiIconEcmsViewNodeType"></i> uiIconEcmsViewNodeType</li>
+            <li><i class="uiIconEcmsClipboard"></i> uiIconEcmsClipboard</li>
+            <li><i class="uiIconEcmsViewDefault"></i> uiIconEcmsViewDefault</li>
+            <li><i class="uiIconEcmsViewList"></i> uiIconEcmsViewList</li>
+            <li><i class="uiIconEcmsViewIcons"></i> uiIconEcmsViewIcons</li>
+            <li><i class="uiIconEcmsViewTimeline"></i> uiIconEcmsViewTimeline</li>
+            <li><i class="uiIconEcmsViewAuthor"></i> uiIconEcmsViewAuthor</li>
+            <li><i class="uiIconEcmsViewAdmin"></i> uiIconEcmsViewAdmin</li>
+            <li><i class="uiIconEcmsViewSimple"></i> uiIconEcmsViewSimple</li>
+            <li><i class="uiIconEcmsViewCoverflow"></i> uiIconEcmsViewCoverflow</li>
+            <li><i class="uiIconEcmsViewWcm"></i> uiIconEcmsViewWcm</li>
+            <li><i class="uiIconEcmsExpand"></i> uiIconEcmsExpand</li>
+            <li><i class="uiIconEcmsGoBack"></i> uiIconEcmsGoBack</li>
+            <li><i class="uiIconEcmsGotoFolder"></i> uiIconEcmsGotoFolder</li>
+            <li><i class="uiIconEcmsArticle"></i> uiIconEcmsArticle</li>
+            <li><i class="uiIconEcmsAudit"></i> uiIconEcmsAudit</li>
+            <li><i class="uiIconEcmsNavigation"></i> uiIconEcmsNavigation</li>
+            <li><i class="uiIconEcmsCheckIn"></i> uiIconEcmsCheckIn</li>
+            <li><i class="uiIconEcmsCheckOut"></i> uiIconEcmsCheckOut</li>
+		
+	    <li><i class="uiIconEcmsLock"></i> uiIconEcmsLock</li>
+            <li><i class="uiIconEcmsUnlock"></i> uiIconEcmsUnlock</li>
+            <li><i class="uiIconEcmsEmptyTrash"></i> uiIconEcmsEmptyTrash</li>
+            <li><i class="uiIconEcmsMinusStar"></i> uiIconEcmsMinusStar</li>
+            <li><i class="uiIconEcmsPlayMedia"></i> uiIconEcmsPlayMedia</li>
+            <li><i class="uiIconEcmsCustom"></i> uiIconEcmsCustom</li>
+            <li><i class="uiIconEcmsCollapse"></i> uiIconEcmsCollapse</li>
+            <li><i class="uiIconEcmsReturn"></i> uiIconEcmsReturn</li>
+            <li><i class="uiIconEcmsExecute"></i> uiIconEcmsExecute</li>
+            <li><i class="uiIconEcmsDriveSiteManagement"></i> uiIconEcmsDriveSiteManagement</li>
+            <li><i class="uiIconEcmsDriveTrash"></i> uiIconEcmsDriveTrash</li>
+            <li><i class="uiIconEcmsManageContent"></i> uiIconEcmsManageContent</li>
+            <li><i class="uiIconEcmsClipboardMini"></i> uiIconEcmsClipboardMini</li>
+            <li><i class="uiIconEcmsRelationListMini"></i> uiIconEcmsRelationListMini</li>
+            <li><i class="uiIconEcmsSearchMini"></i> uiIconEcmsSearchMini</li>
+            <li><i class="uiIconEcmsTreeMini"></i> uiIconEcmsTreeMini</li>
+            <li><i class="uiIconEcmsHome"></i> uiIconEcmsHome</li>
+            <li><i class="uiIconEcmsFileMini"></i> uiIconEcmsFileMini</li>
+	    <li><i class="uiIconEcmsDottedArrow"></i> uiIconEcmsDottedArrow</li>
+            <li><i class="uiIconEcmsTickMini"></i> uiIconEcmsTickMini</li>
+ 	    
+	</ul>
+
+<div class="bs-docs-example">
+   <i class="uiIconEcmsManageContent uiIconEcmsDarkGray"></i> <i class="uiIconEcmsManageContent uiIconEcmsLightGray"></i> <i class="uiIconEcmsManageContent uiIconEcmsWhite"></i> <i class="uiIconEcmsManageContent uiIconEcmsBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconEcmsManageContent uiIconEcmsDarkGray"></i> 
+<i class="uiIconEcmsManageContent uiIconEcmsLightGray"></i> 
+<i class="uiIconEcmsManageContent uiIconEcmsWhite"></i> 
+<i class="uiIconEcmsManageContent uiIconEcmsBlue"></i> 
+]]></script>
+</div>
+
+<p><h4>ECMS 24x24 pixel icons</h4></p>
+<p><h7>There are 4 color classes: <code>uiIconEcms24x24LightGray</code>, <code>uiIconEcms24x24DarkGray</code>, <code>uiIconEcms24x24White</code>, <code>uiIconEcms24x24Blue</code>.</h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconEcms24x24DriveGeneral"></i> uiIconEcms24x24DriveGeneral</li>
+            <li><i class="uiIconEcms24x24DriveGroup"></i> uiIconEcms24x24DriveGroup</li>
+            <li><i class="uiIconEcms24x24DrivePersonal"></i> uiIconEcms24x24DriveGroup</li>
+            <li><i class="uiIconEcms24x24DrivePrivate"></i> uiIconEcms24x24DrivePrivate</li>
+            <li><i class="uiIconEcms24x24DrivePublic"></i> uiIconEcms24x24DrivePublic</li>
+            <li><i class="uiIconEcms24x24DriveManagedSites"></i> uiIconEcms24x24DriveManagedSites</li>
+            <li><i class="uiIconEcms24x24DriveTrash"></i> uiIconEcms24x24DriveTrash</li>
+   </ul>
+<div class="bs-docs-example">
+   <i class="uiIconEcms24x24DriveGroup uiIconEcms24x24DarkGray"></i> <i class="uiIconEcms24x24DriveGroup uiIconEcms24x24LightGray"></i> <i class="uiIconEcms24x24DriveGroup uiIconEcms24x24White"></i> <i class="uiIconEcms24x24DriveGroup uiIconEcms24x24Blue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconEcms24x24DriveGroup uiIconEcms24x24DarkGray"></i> 
+<i class="uiIconEcms24x24DriveGroup uiIconEcms24x24LightGray"></i> 
+<i class="uiIconEcms24x24DriveGroup uiIconEcms24x24White"></i> 
+<i class="uiIconEcms24x24DriveGroup uiIconEcms24x24Blue"></i> 
+]]></script>
+</div>
+
+<p><h3>Calendar icons</h3></P>
+<p><h7>These icons are located in the Calendar sprite that are used in Calendar with 4 color classes: <code>uiIconCalLightGray</code>, <code>uiIconCalDarkGray</code>, <code>uiIconCalWhite</code>, <code>uiIconCalBlue</code>. </h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconCalExportCalendar"></i> uiIconCalExportCalendar</li>
+            <li><i class="uiIconCalImportCalendar"></i> uiIconCalImportCalendar</li>
+            <li><i class="uiIconCalCreateEvent"></i> uiIconCalCreateEvent</li>
+            <li><i class="uiIconCalCreateTask"></i> uiIconCalCreateTask</li>
+            <li><i class="uiIconCalAddCalendar"></i> uiIconCalAddCalendar</li>
+            <li><i class="uiIconCalRemoteCalendar"></i> uiIconCalRemoteCalendar</li>
+            <li><i class="uiIconCalInviteUser"></i> uiIconCalInviteUser</li>
+            <li><i class="uiIconCalRejectUser"></i> uiIconCalRejectUser</li>
+            <li><i class="uiIconCalPlus"></i> uiIconCalPlus</li>
+            <li><i class="uiIconCalTaskMini"></i> uiIconCalTaskMini</li>
+            <li><i class="uiIconCalClockMini"></i> uiIconCalClockMini</li>
+            <li><i class="uiIconCalCheckinMini"></i> uiIconCalCheckinMini</li>
+            <li><i class="uiIconCalFlagHigh"></i> uiIconCalFlagHigh</li>
+            <li><i class="uiIconCalFlagNormal"></i> uiIconCalFlagNormal</li>
+            <li><i class="uiIconCalFlagLow"></i> uiIconCalFlagLow</li>
+            <li><i class="uiIconCalShare"></i> uiIconCalShare</li>
+            <li><i class="uiIconCalICal"></i> uiIconCalICal</li>
+            <li><i class="uiIconCalSettingMini"></i> uiIconCalSettingMini</li>
+            <li><i class="uiIconCalRecurring"></i> uiIconCalRecurring</li>
+            <li><i class="uiIconCalEditRecurring"></i> uiIconCalEditRecurring</li>
+</ul>
+<div class="bs-docs-example">
+   <i class="uiIconCalExportCalendar uiIconCalDarkGray"></i> <i class="uiIconCalExportCalendar uiIconCalLightGray"></i> <i class="uiIconCalExportCalendar uiIconCalWhite"></i> <i class="uiIconCalExportCalendar uiIconCalBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconCalExportCalendar uiIconCalDarkGray"></i> 
+<i class="uiIconCalExportCalendar uiIconCalLightGray"></i> 
+<i class="uiIconCalExportCalendar uiIconCalWhite"></i> 
+<i class="uiIconCalExportCalendar uiIconCalBlue"></i>
+]]></script>
+</div>
+  	
+<p><h3>Social icons</h3></p>
+<p><h7>These icons are located in the Social sprite that are used in Social with 4 color classes: <code>uiIconSocLightGray</code>, <code>uiIconSocDarkGray</code>, <code>uiIconSocWhite</code>, <code>uiIconSocBlue</code>. </h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconSocAddFile"></i> uiIconSocAddFile</li>
+            <li><i class="uiIconSocLastestReply"></i> uiIconSocLastestReply</li>
+            <li><i class="uiIconSocTotateToRight"></i> uiIconSocTotateToRight</li>
+            <li><i class="uiIconSocTotateToLeft"></i> uiIconSocTotateToLeft</li>
+            <li><i class="uiIconSocZoomIn"></i> uiIconSocZoomIn</li>
+            <li><i class="uiIconSocZoomOut"></i> uiIconSocZoomOut</li>
+            <li><i class="uiIconSocGroup"></i> uiIconSocGroup</li>
+            <li><i class="uiIconSocSimplePlus"></i> uiIconSocSimplePlus</li>
+            <li><i class="uiIconSocPhone"></i> uiIconSocPhone</li>
+            <li><i class="uiIconSocCalendarMini"></i> uiIconSocCalendarMini</li>
+            <li><i class="uiIconSocAnswersMini"></i> uiIconSocAnswersMini</li>
+            <li><i class="uiIconSocContentMini"></i> uiIconSocContentMini</li>
+            <li><i class="uiIconSocFileSharing"></i> uiIconSocFileSharing</li>
+            <li><i class="uiIconSocForumMini"></i> uiIconSocForumMini</li>
+            <li><i class="uiIconSocLinkMini"></i> uiIconSocLinkMini</li>
+            <li><i class="uiIconSocPoll"></i> uiIconSocPoll</li>
+            <li><i class="uiIconSocSpaceMini"></i> uiIconSocSpaceMini</li>
+            <li><i class="uiIconSocTaskSharing"></i> uiIconSocTaskSharing</li>
+	    <li><i class="uiIconSocUserProfile"></i> uiIconSocUserProfile</li>
+            <li><i class="uiIconSocWikiMini"></i> uiIconSocWikiMini</li>
+            <li><i class="uiIconSocVote"></i> uiIconSocVote</li>
+            <li><i class="uiIconSocMention"></i> uiIconSocMention</li>     
+            <li><i class="uiIconSocConnectUser"></i> uiIconSocConnectUser</li>       
+            <li><i class="uiIconSocCancelConnectUser"></i> uiIconSocCancelConnectUser</li>     
+            <li><i class="uiIconSocAcceptConnectUser"></i> uiIconSocAcceptConnectUser</li>     
+            <li><i class="uiIconSocGtalk"></i> uiIconSocGtalk</li>     
+            <li><i class="uiIconSocMSN"></i> uiIconSocMSN</li>     
+            <li><i class="uiIconSocSkype"></i> uiIconSocSkype</li>     
+            <li><i class="uiIconSocYahoo"></i> uiIconSocYahoo</li>     
+            <li><i class="uiIconSocOther"></i> uiIconSocOther</li>     
+</ul>
+<div class="bs-docs-example">
+   <i class="uiIconSocMention uiIconSocDarkGray"></i> <i class="uiIconSocMention uiIconSocLightGray"></i> <i class="uiIconSocMention uiIconSocWhite"></i> <i class="uiIconSocMention uiIconSocBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconSocMention uiIconSocDarkGray"></i> 
+<i class="uiIconSocMention uiIconSocLightGray"></i> 
+<i class="uiIconSocMention uiIconSocWhite"></i> 
+<i class="uiIconSocMention uiIconSocBlue"></i>  
+]]></script>
+</div>
+
+<p><h3>Forum icons</h3></p>
+<p><h7>These icons are located in the Forum sprite that are used in Forum with 4 color classes: <code>uiIconForumLightGray</code>, <code>uiIconForumDarkGray</code>, <code>uiIconForumWhite</code>, <code>uiIconForumBlue</code>. </h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconForumPending"></i> uiIconForumPending</li>
+            <li><i class="uiIconForumTopic"></i> uiIconForumTopic</li>
+            <li><i class="uiIconForumCreateTopic"></i> uiIconForumCreateTopic</li>
+            <li><i class="uiIconForumCreateForum"></i> uiIconForumCreateForum</li>
+            <li><i class="uiIconForumStick"></i> uiIconForumStick</li>
+            <li><i class="uiIconForumUnStick"></i> uiIconForumUnStick</li>
+            <li><i class="uiIconForumAddCategory"></i> uiIconForumAddCategory</li>
+            <li><i class="uiIconForumManageCategory"></i> uiIconForumManageCategory</li>
+            <li><i class="uiIconForumModerator"></i> uiIconForumModerator</li>
+            <li><i class="uiIconForumAdmin"></i> uiIconForumAdmin</li>
+            <li><i class="uiIconForumMerge"></i> uiIconForumMerge</li>
+            <li><i class="uiIconForumSplit"></i> uiIconForumSplit</li>
+            <li><i class="uiIconForumBan"></i> uiIconForumBan</li>
+            <li><i class="uiIconForumShow"></i> uiIconForumShow</li>
+            <li><i class="uiIconForumHide"></i> uiIconForumHide</li>
+            <li><i class="uiIconForumSort"></i> uiIconForumSort</li>
+            <li><i class="uiIconForumCensor"></i> uiIconForumCensor</li>
+            <li><i class="uiIconForumBBCode"></i> uiIconForumBBCode</li>
+	    <li><i class="uiIconForumPrune"></i> uiIconForumPrune</li>
+            <li><i class="uiIconForumBanIp"></i> uiIconForumBanIp</li>
+            <li><i class="uiIconForumForward"></i> uiIconForumForward</li>
+            <li><i class="uiIconForumViewStatistic"></i> uiIconForumViewStatistic</li>
+            <li><i class="uiIconForumApprove"></i> uiIconForumApprove</li>
+            <li><i class="uiIconForumStar"></i> uiIconForumStar</li>
+            <li><i class="uiIconForumPlay"></i> uiIconForumPlay</li>
+            <li><i class="uiIconForumPruneSettings"></i> uiIconForumPruneSettings</li>
+            <li><i class="uiIconForumColorCloseTiny"></i> uiIconForumColorCloseTiny</li>
+            <li><i class="uiIconForumColorLockTiny"></i> uiIconForumColorLockTiny</li>
+            <li><i class="uiIconForumColorOffline"></i> uiIconForumColorOffline</li>
+            <li><i class="uiIconForumColorUnread"></i> uiIconForumColorUnread</li>
+	    <li><i class="uiIconForumColorOnline"></i> uiIconForumColorOnline</li>
+            <li><i class="uiIconForumColorAway"></i> uiIconForumColorAway</li>
+            <li><i class="uiIconForumColorBusy"></i> uiIconForumColorBusy</li>
+</ul>
+<div class="bs-docs-example">
+   <i class="uiIconForumCreateTopic uiIconForumDarkGray"></i> <i class="uiIconForumCreateTopic uiIconForumLightGray"></i> <i class="uiIconForumCreateTopic uiIconForumWhite"></i> <i class="uiIconForumCreateTopic uiIconForumBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconForumCreateTopic uiIconForumDarkGray"></i> 
+<i class="uiIconForumCreateTopic uiIconForumLightGray"></i> 
+<i class="uiIconForumCreateTopic uiIconForumWhite"></i> 
+<i class="uiIconForumCreateTopic uiIconForumBlue"></i>  
+]]></script>
+</div>
+
+<p><h3>Answers icons</h3></p>
+<p><h7>These icons are located in the Answers sprite that are used in Answers with 4 color classes: <code>uiIconAnsLightGray</code>, <code>uiIconAnsDarkGray</code>, <code>uiIconAnsWhite</code>, <code>uiIconAnsBlue</code>.</h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconAnsSubmitQuestion"></i> uiIconAnsSubmitQuestion</li>
+            <li><i class="uiIconAnsManageCategory" ></i> uiIconAnsManageCategory</li>
+            <li><i class="uiIconAnsSentMail"></i> uiIconAnsSentMail</li>
+            <li><i class="uiIconAnsManageQuestion"></i> uiIconAnsManageQuestion</li>
+            <li><i class="uiIconAnsThumbDownMini"></i> uiIconAnsThumbDownMini</li>
+            <li><i class="uiIconAnsThumbUpMini"></i> uiIconAnsThumbUpMini</li>
+            <li><i class="uiIconAnsAnswer"></i> uiIconAnsAnswer</li>
+            <li><i class="uiIconAnsApprove"></i> uiIconAnsApprove</li>
+            <li><i class="uiIconAnsDisapprove"></i> uiIconAnsDisapprove</li>
+            <li><i class="uiIconAnsPromote"></i> uiIconAnsPromote</li>
+            <li><i class="uiIconAnsEnable"></i> uiIconAnsEnable</li>
+            <li><i class="uiIconAnsDisable"></i> uiIconAnsDisable</li>            
+</ul>
+<div class="bs-docs-example">
+   <i class="uiIconAnsSubmitQuestion uiIconAnsDarkGray"></i> <i class="uiIconAnsSubmitQuestion uiIconAnsLightGray"></i> <i class="uiIconAnsSubmitQuestion uiIconAnsWhite"></i> <i class="uiIconAnsSubmitQuestion uiIconAnsBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconAnsSubmitQuestion uiIconAnsDarkGray"></i> 
+<i class="uiIconAnsSubmitQuestion uiIconAnsLightGray"></i> 
+<i class="uiIconAnsSubmitQuestion uiIconAnsWhite"></i> 
+<i class="uiIconAnsSubmitQuestion uiIconAnsBlue"></i>      
+]]></script>
+</div>
+
+<p><h3>Wiki icons</h3></p>
+<p><h7>These icons are located in the Wiki sprite that are used in Wiki with 4 color classes: <code>uiIconWikiLightGray</code>, <code>uiIconWikiDarkGray</code>, <code>uiIconWikiWhite</code>, <code>uiIconWikiBlue</code>. </h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconWikiWiki"></i> uiIconWikiWiki</li>
+            <li><i class="uiIconWikiRickText" ></i> uiIconWikiRickText</li>
+            <li><i class="uiIconWikiHelp"></i> uiIconWikiHelp</li>
+            <li><i class="uiIconWikiMyWiki"></i> uiIconWikiMyWiki</li>
+            <li><i class="uiIconWikiRevision"></i> uiIconWikiRevision</li>
+            <li><i class="uiIconWikiRestrictedFile"></i> uiIconWikiRestrictedFile</li>                   
+            
+</ul>
+<div class="bs-docs-example">
+   <i class="uiIconWikiHelp uiIconWikiDarkGray"></i> <i class="uiIconWikiHelp uiIconWikiLightGray"></i> <i class="uiIconWikiHelp uiIconWikiWhite"></i> <i class="uiIconWikiHelp uiIconWikiBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconWikiHelp uiIconWikiDarkGray"></i> 
+<i class="uiIconWikiHelp uiIconWikiLightGray"></i> 
+<i class="uiIconWikiHelp uiIconWikiWhite"></i> 
+<i class="uiIconWikiHelp uiIconWikiBlue"></i>     
+]]></script>
+</div>
+
+
+<p><h3>Platform icons</h3></p>
+<p><h7>These icons are located in the Platform sprite that are used in eXo Platform with 4 color classes: <code>uiIconPLFLightGray</code>, <code>uiIconPLFDarkGray</code>, <code>uiIconPLFWhite</code>, <code>uiIconPLFBlue</code>. </h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIconPLFProfile"></i> uiIconPLFProfile</li>
+            <li><i class="uiIconPLFActivityStream" ></i> uiIconPLFActivityStream</li>
+            <li><i class="uiIconPLFMyConnection"></i> uiIconPLFMyConnection</li>
+            <li><i class="uiIconPLFDashboard"></i> uiIconPLFDashboard</li>
+            <li><i class="uiIconPLFLogout"></i> uiIconPLFLogout</li>
+            <li><i class="uiIconPLFEventTask"></i> uiIconPLFEventTask</li>                   
+            <li><i class="uiIconPLFBlog"></i> uiIconPLFBlog</li>
+            <li><i class="uiIconPLFCalendar" ></i> uiIconPLFCalendar</li>
+            <li><i class="uiIconPLFDocuments"></i> uiIconPLFDocuments</li>
+            <li><i class="uiIconPLFMan"></i> uiIconPLFMan</li>
+            <li><i class="uiIconPLFEvent"></i> uiIconPLFEvent</li>
+            <li><i class="uiIconPLFTaskNeeds-action"></i> uiIconPLFTaskNeeds-action</li> 
+	          <li><i class="uiIconPLFTaskIn-process"></i> uiIconPLFTaskIn-process</li>
+	          <li><i class="uiIconPLFDiscussion "></i> uiIconPLFDiscussion </li> 
+	          <li><i class="uiIconPLFAnswers"></i> uiIconPLFAnswers</li>
+            <li><i class="uiIconPLFNotifications"></i> uiIconPLFNotifications</li>
+          
+                                    
+            
+</ul>
+<div class="bs-docs-example">
+   <i class="uiIconPLFProfile uiIconPLFDarkGray"></i> <i class="uiIconPLFProfile uiIconPLFLightGray"></i> <i class="uiIconPLFProfile uiIconPLFWhite"></i> <i class="uiIconPLFProfile uiIconPLFBlue"></i>                              
+              
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIconPLFProfile uiIconPLFDarkGray"></i> 
+<i class="uiIconPLFProfile uiIconPLFLightGray"></i> 
+<i class="uiIconPLFProfile uiIconPLFWhite"></i> 
+<i class="uiIconPLFProfile uiIconPLFBlue"></i>       
+]]></script>
+</div>
+
+<p><h3>File type icons</h3></p>
+<p><h7>eXo Platform provides a collection of file types with multiple sizes, including 16x16, 24x24, 32x32, 4x48, 64x64. 
+The icon class name is similar with different size information. For example: <code>uiIcon16x16FileDefault</code> is default file type with the size of 16x16, <code>uiIcon24x24FileDefault</code> has the size of 24x24.</h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIcon16x16FileDefault"></i> uiIcon16x16FileDefault</li>
+            <li><i class="uiIcon16x16FileArchiveDefault"></i> uiIcon16x16FileArchiveDefault</li>
+            <li><i class="uiIcon16x16FileArchiveRar"></i> uiIcon16x16FileArchiveRar</li>
+            <li><i class="uiIcon16x16FileArchiveZip"></i> uiIcon16x16FileArchiveZip</li>
+            <li><i class="uiIcon16x16FileJar"></i> uiIcon16x16FileJar</li>
+            <li><i class="uiIcon16x16FileEar"></i> uiIcon16x16FileEar</li>                   
+            <li><i class="uiIcon16x16FileWar"></i> uiIcon16x16FileWar</li>
+            <li><i class="uiIcon16x16FileAudioDefault" ></i> uiIcon16x16FileAudioDefault</li>
+            <li><i class="uiIcon16x16FileMp3"></i> uiIcon16x16FileMp3</li>
+            <li><i class="uiIcon16x16FileWma"></i> uiIcon16x16FileWma</li>
+            <li><i class="uiIcon16x16FileVideo"></i> uiIcon16x16FileVideo</li>
+            <li><i class="uiIcon16x16FileFlash"></i> uiIcon16x16FileFlash</li> 
+	    <li><i class="uiIcon16x16FileWmv"></i> uiIcon16x16FileWmv</li>
+	    <li><i class="uiIcon16x16FileGdoc"></i> uiIcon16x16FileGdoc</li> 
+	    <li><i class="uiIcon16x16FileWord"></i> uiIcon16x16FileWord</li>
+            <li><i class="uiIcon16x16FileOdt"></i> uiIcon16x16FileOdt</li>    
+            <li><i class="uiIcon16x16FileMpeg"></i> uiIcon16x16FileMpeg</li>
+            <li><i class="uiIcon16x16FileM4v" ></i> uiIcon16x16FileM4v</li>
+            <li><i class="uiIcon16x16FileMkv"></i> uiIcon16x16FileMkv</li>
+            <li><i class="uiIcon16x16FileTxt"></i> uiIcon16x16FileTxt</li>
+            <li><i class="uiIcon16x16FileLwp"></i> uiIcon16x16FileLwp</li>
+            <li><i class="uiIcon16x16FilePage"></i> uiIcon16x16FilePage</li>                   
+            <li><i class="uiIcon16x16FileMdb"></i> uiIcon16x16FileMdb</li>
+            <li><i class="uiIcon16x16FileOdf" ></i> uiIcon16x16FileOdf</li>
+            <li><i class="uiIcon16x16FileExe"></i> uiIcon16x16FileExe</li>
+            <li><i class="uiIcon16x16FilePdf"></i> uiIcon16x16FilePdf</li>
+            <li><i class="uiIcon16x16FileScript"></i> uiIcon16x16FileScript</li>
+            <li><i class="uiIcon16x16FileRtf"></i> uiIcon16x16FileRtf</li> 
+	    <li><i class="uiIcon16x16FileGslides"></i> uiIcon16x16FileGslides</li>
+	    <li><i class="uiIcon16x16FileAppleKey"></i> uiIcon16x16FileAppleKey</li> 
+	    <li><i class="uiIcon16x16FileOpenOffice2"></i>uiIcon16x16FileOpenOffice2</li>
+            <li><i class="uiIcon16x16FilePpt"></i> uiIcon16x16FilePpt</li>   
+	    <li><i class="uiIcon16x16FilePrz"></i> uiIcon16x16FilePrz</li>
+            <li><i class="uiIcon16x16FileGsheet" ></i> uiIcon16x16FileGsheet</li>
+            <li><i class="uiIcon16x16FileExcel"></i> uiIcon16x16FileExcel</li>
+            <li><i class="uiIcon16x16FileOpenOffice3"></i> uiIcon16x16FileOpenOffice3</li>
+            <li><i class="uiIcon16x16FileHtml"></i> uiIcon16x16FileHtml</li>
+            <li><i class="uiIcon16x16FileXml"></i> uiIcon16x16FileXml</li>                   
+            <li><i class="uiIcon16x16FileJs"></i> uiIcon16x16FileJs</li>
+            <li><i class="uiIcon16x16FileJson" ></i> uiIcon16x16FileJson</li>
+            <li><i class="uiIcon16x16FileCss"></i> uiIcon16x16FileCss</li>
+            <li><i class="uiIcon16x16FileXsl"></i> uiIcon16x16FileXsl</li>
+            <li><i class="uiIcon16x16FileFont"></i> uiIcon16x16FileFont</li>
+            <li><i class="uiIcon16x16FileGdraw"></i> uiIcon16x16FileGdraw</li> 
+	    <li><i class="uiIcon16x16FileBmp"></i> uiIcon16x16FileBmp</li>
+	    <li><i class="uiIcon16x16FileIco"></i> uiIcon16x16FileIco</li> 
+	    <li><i class="uiIcon16x16FileGif"></i> uiIcon16x16FileGif</li>
+            <li><i class="uiIcon16x16FileOdg"></i> uiIcon16x16FileOdg</li>   
+            <li><i class="uiIcon16x16FilePng"></i> uiIcon16x16FilePng</li>
+	    <li><i class="uiIcon16x16FilePsd"></i> uiIcon16x16FilePsd</li> 
+	    <li><i class="uiIcon16x16FileRaw"></i> uiIcon16x16FileRaw</li>
+            <li><i class="uiIcon16x16FileTif"></i> uiIcon16x16FileTif</li> 
+            <li><i class="uiIcon16x16FileXcf"></i> uiIcon16x16FileXcf</li>
+	    <li><i class="uiIcon16x16FileIndd"></i> uiIcon16x16FileIndd</li> 
+	    <li><i class="uiIcon16x16FileAi"></i> uiIcon16x16FileAi</li>
+            <li><i class="uiIcon16x16FileSvg"></i> uiIcon16x16FileSvg</li> 
+            <li><i class="uiIcon16x16FileJpg"></i> uiIcon16x16FileJpg</li>	
+</ul>
+<div class="bs-docs-example">
+<i class="uiIcon64x64FileJpg"></i><i class="uiIcon48x48FileJpg"></i><i class="uiIcon32x32FileJpg"></i><i class="uiIcon24x24FileJpg"></i><i class="uiIcon16x16FileJpg"></i><i class="uiIcon64x64FileJs"></i><i class="uiIcon48x48FileJs"></i><i class="uiIcon32x32FileJs"></i><i class="uiIcon24x24FileJs"></i><i class="uiIcon16x16FileJs"></i>
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIcon64x64FileJpg"></i>
+<i class="uiIcon48x48FileJpg"></i>
+<i class="uiIcon32x32FileJpg"></i>
+<i class="uiIcon24x24FileJpg"></i>
+<i class="uiIcon16x16FileJpg"></i>
+<i class="uiIcon64x64FileJs"></i>
+<i class="uiIcon48x48FileJs"></i>
+<i class="uiIcon32x32FileJs"></i>
+<i class="uiIcon24x24FileJs"></i>
+<i class="uiIcon16x16FileJs"></i>
+<i class="uiIcon16x16FileDefault"></i>
+]]></script>
+</div>
+
+<p><h3>Folder type icons</h3></p>
+<p><h7>eXo Platform provides a collection of folder types with multiple sizes, including 16x16, 24x24, 32x32, 4x48, 64x64. 
+The icon class name is similar with different size information. For example: <code>uiIcon16x16FolderDefault</code> is default folder type with the size of 16x16, <code>uiIcon24x24FolderDefault</code> had the size of 24x24.</h7></p>
+<ul class="the-icons clearfix">
+            <li><i class="uiIcon16x16FolderDefault"></i> uiIcon16x16FolderDefault</li>
+            <li><i class="uiIcon16x16FolderWebcontentBlue" ></i> uiIcon16x16FolderWebcontentBlue</li>
+            <li><i class="uiIcon16x16FolderPrivate"></i> uiIcon16x16FolderPrivate</li>
+            <li><i class="uiIcon16x16FolderFavorite"></i> uiIcon16x16FolderFavorite</li>
+            <li><i class="uiIcon16x16FolderDocument"></i> uiIcon16x16FolderDocument</li>
+            <li><i class="uiIcon16x16FolderNtUnstruct"></i> uiIcon16x16FolderNtUnstruct</li>                   
+            <li><i class="uiIcon16x16FolderJs"></i> uiIcon16x16FolderJs</li>
+            <li><i class="uiIcon16x16FolderWeb" ></i> uiIcon16x16FolderWeb</li>
+            <li><i class="uiIcon16x16FolderSound"></i> uiIcon16x16FolderSound</li>
+            <li><i class="uiIcon16x16FolderPublic"></i> uiIcon16x16FolderPublic</li>
+            <li><i class="uiIcon16x16FolderGraphic"></i> uiIcon16x16FolderGraphic</li>
+            <li><i class="uiIcon16x16FolderSearch"></i> uiIcon16x16FolderSearch</li> 
+	    <li><i class="uiIcon16x16FolderCss"></i> uiIcon16x16FolderCss</li>
+	    <li><i class="uiIcon16x16FolderProduct"></i> uiIcon16x16FolderProduct</li> 
+	    <li><i class="uiIcon16x16FolderTaxonomy"></i> uiIcon16x16FolderTaxonomy</li>
+            <li><i class="uiIcon16x16FolderExoContent"></i> uiIcon16x16FolderExoContent</li>    
+            <li><i class="uiIcon16x16FolderTheme"></i> uiIcon16x16FolderTheme</li>
+            <li><i class="uiIcon16x16FolderVideoMedia" ></i> uiIcon16x16FolderVideoMedia</li>
+            <li><i class="uiIcon16x16FolderLink"></i> uiIcon16x16FolderLink</li>
+            <li><i class="uiIcon16x16exo_driveDefault"></i> uiIcon16x16exo_driveDefault</li>
+            <li><i class="uiIcon16x16exo_tagStyleDefault"></i> uiIcon16x16exo_tagStyleDefault</li>
+            <li><i class="uiIcon16x16exo_viewDefault"></i> uiIcon16x16exo_viewDefault</li>  
+</ul>
+ <div class="bs-docs-example">
+            <i class="uiIcon64x64FolderWebcontentBlue"></i><i class="uiIcon48x48FolderWebcontentBlue"></i><i class="uiIcon32x32FolderWebcontentBlue"></i><i class="uiIcon24x24FolderWebcontentBlue"></i><i class="uiIcon16x16FolderWebcontentBlue"></i>   <i class="uiIcon64x64FolderJs"></i><i class="uiIcon48x48FolderJs"></i><i class="uiIcon32x32FolderJs"></i><i class="uiIcon24x24FolderJs"></i><i class="uiIcon16x16FolderJs"></i>
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<i class="uiIcon64x64FolderWebcontentBlue"></i>
+<i class="uiIcon48x48FolderWebcontentBlue"></i>
+<i class="uiIcon32x32FolderWebcontentBlue"></i>
+<i class="uiIcon24x24FolderWebcontentBlue"></i>
+<i class="uiIcon16x16FolderWebcontentBlue"></i>   
+<i class="uiIcon64x64FolderJs"></i>
+<i class="uiIcon48x48FolderJs"></i>
+<i class="uiIcon32x32FolderJs"></i>
+<i class="uiIcon24x24FolderJs"></i>
+<i class="uiIcon16x16FolderJs"></i>
+]]></script>
+</div>
+
+<p><b>Note:</b> Simply replace the size number in the class name to have the expected icon size.</p>
+</section>
+
+        <section id="S4">
+          <div class="page-header">
+           <h2>Icon sample</h2>
+          </div>
+       <p>Icons are used in buttons, button groups for a toolbar, navigation, or prepended form inputs.</p>
+	<p><h3>Action Icon</h3></p>
+	<p><h4>Hover-reveal actions with action icons.</h4></p>
+	<div class="bs-docs-example">
+	<table>
+         <tbody>
+            <tr class="hover-action">
+               <td class="content-sample">Sample Content 1</td>
+               <td class="td-right-align"><a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="uiIconEditMini uiIconLightGray"> </i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="uiIconTrashMini uiIconLightGray"></i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Move"><i class="uiIconMove uiIconLightGray"></i></a></td>
+              
+            </tr>
+        <tr class="hover-action">
+               <td class="content-sample">Sample Content 2</td>
+                <td class="td-right-align"><a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="uiIconEditMini uiIconLightGray"> </i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="uiIconTrashMini uiIconLightGray"></i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Move"><i class="uiIconMove uiIconLightGray"></i></a></td>            
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 3</td>
+                <td class="td-right-align"><a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="uiIconEditMini uiIconLightGray"> </i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="uiIconTrashMini uiIconLightGray"></i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Move"><i class="uiIconMove uiIconLightGray"></i></a></td>            
+            </tr>
+         <tr class="hover-action">
+               <td class="content-sample">Sample Content 4</td>
+              <td class="td-right-align"><a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="uiIconEditMini uiIconLightGray"> </i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="uiIconTrashMini uiIconLightGray"></i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Move"><i class="uiIconMove uiIconLightGray"></i></a></td>         
+            </tr>
+           <tr class="hover-action">
+               <td class="content-sample">Sample Content 5</td>
+                 <td class="td-right-align"><a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit"><i class="uiIconEditMini uiIconLightGray"> </i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete"><i class="uiIconTrashMini uiIconLightGray"></i></a> <a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Move"><i class="uiIconMove uiIconLightGray"></i></a></td>             
+            </tr>
+</tbody>
+</table>
+</div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Edit">
+	<i class="uiIconEditMini uiIconLightGray"> </i></a> 
+<a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Delete">
+	<i class="uiIconTrashMini uiIconLightGray"></i></a> 
+<a class="actionHover" href="#" data-placement="bottom" rel="tooltip" href="#" data-original-title="Move">
+	<i class="uiIconMove uiIconLightGray"></i></a>
+]]></script>
+</div>
+
+        <p><h3>Buttons</h3></p>
+          <p><h4>Button group in a button toolbar</h4></p>
+          <div class="bs-docs-example">
+            <div class="btn-toolbar">
+              <div class="btn-group">
+                <a class="btn" href="#"><i class="uiIconEcmsViewList uiIconEcmsLightGray"></i></a>
+                <a class="btn" href="#"><i class="uiIconEcmsViewIcons uiIconEcmsLightGray"></i></a>
+                <a class="btn" href="#"><i class="uiIconEcmsViewTimeline uiIconEcmsLightGray"></i></a>
+                <a class="btn" href="#"><i class="uiIconEcmsViewAuthor uiIconEcmsLightGray"></i></a>
+              </div>
+            </div>
+          </div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="btn-toolbar">
+	<div class="btn-group">
+                <a class="btn" href="#"><i class="uiIconEcmsViewList uiIconEcmsLightGray"></i></a>
+                <a class="btn" href="#"><i class="uiIconEcmsViewIcons uiIconEcmsLightGray"></i></a>
+                <a class="btn" href="#"><i class="uiIconEcmsViewTimeline uiIconEcmsLightGray"></i></a>
+                <a class="btn" href="#"><i class="uiIconEcmsViewAuthor uiIconEcmsLightGray"></i></a>
+	</div>
+</div>
+]]></script>
+</div>
+<p><h4>Dropdown in a button group</h4></p>
+          <div class="bs-docs-example">
+              <div class="btn-group">
+              <a class="btn btn-primary" href="#"><i class="uiIconUser uiIconWhite"></i> User</a>
+              <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="uiIconEditMini"></i> Edit</a></li>
+                <li><a href="#"><i class="uiIconTrashMini"></i> Delete</a></li>
+                <li><a href="#"><i class="uiIconForumBan"></i> Ban</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="i"></i> Make admin</a></li>
+              </ul>
+            </div>
+          </div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="btn-group">
+<a class="btn btn-primary" href="#"><i class="uiIconUser uiIconWhite"></i> User</a>
+	<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="uiIconEditMini"></i> Edit</a></li>
+                <li><a href="#"><i class="uiIconTrashMini"></i> Delete</a></li>
+                <li><a href="#"><i class="uiIconForumBan"></i> Ban</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="i"></i> Make admin</a></li>
+              </ul>
+</div>
+]]></script>
+</div>
+<p><h4>Small button</h4></p>
+          <div class="bs-docs-example">
+            <a class="btn btn-small" href="#"><i class="uiIconRefresh uiIconLightGray"></i></a>
+          </div>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+ <a class="btn btn-small" href="#"><i class="uiIconRefresh uiIconLightGray"></i></a>
+]]></script>
+</div>
+	 <h4>Form field</h4>
+          <form class="bs-docs-example form-horizontal">
+            <div class="control-group">
+               <div class="controls">
+                <div class="input-prepend">
+                  <span class="add-on" style="padding-top: 3px; padding-bottom: 3px;" ><i class="uiIconMail uiIconLightGray"></i></span><input class="span2" id="inputIcon" type="text">
+                </div>
+              </div>
+            </div>
+          </form>
+<div class="prettyprint linenums"><script type="syntaxhighlighter" class="brush: html"><![CDATA[
+<div class="control-group">
+	<div class="controls">
+                <div class="input-prepend">
+                <span class="add-on" style="padding-top: 3px; padding-bottom: 3px;"><i class="uiIconMail uiIconLightGray"></i></span>
+		<input class="span2" id="inputIcon" type="text">
+                </div>
+        </div>
+</div>
+]]></script>
+</div>
+</section>
+</div>
+<div id="footer">
+	Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+</div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/widgets.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/prettify.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
+    <script src="../js/application-update.js"></script>
+    <!-- syntaxhighlighter -->	
+   <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+     <!-- Analytics ================================================== -->
+  <script type="text/javascript">
+      $(document).ready(function () {
+    $("[rel=tooltip]").tooltip();
+  });
+ </script>
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+</body></html>

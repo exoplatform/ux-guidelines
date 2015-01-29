@@ -358,7 +358,7 @@ div.button .dropdown-menu {
 }
 
 .dropdown > a:hover > [class^="uiIconColor"], [class^="uiIconColor"]:hover, a:hover > [class^="uiIconColor"], i:hover [class^="uiIconColor"] {
-    background-image: url("../../../eXoSkin/skin/images/themes/cefault/Icons/uiIconsColor.png");
+    background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png");
 }
 .uiIconColorError {
     background-position: 0 0;
