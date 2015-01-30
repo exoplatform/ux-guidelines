@@ -773,7 +773,7 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #f8f8f8;
+  border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #ffffff;
 }
 abbr[title],
@@ -1901,7 +1901,7 @@ table {
 }
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
 }
 .table-hover tbody tr:hover > td,
 .table-hover tbody tr:hover > th {
@@ -2678,7 +2678,7 @@ table th[class*="span"],
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   border: 1px solid #e6e6e6;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -4386,7 +4386,7 @@ input[type="submit"].btn.btn-mini {
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
 }
 .pagination ul > .active > a,
 .pagination ul > .active > span {
@@ -5383,7 +5383,7 @@ a.badge:focus {
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -5535,7 +5535,7 @@ h3 {
 }
 .uiTabNormal .nav-tabs > li > a:hover {
   border: 1px solid #cccccc;
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
 }
 .uiTabNormal .nav-tabs > .active > a,
 .uiTabNormal .nav-tabs > .active > a:hover {
@@ -5952,7 +5952,7 @@ h3 {
   padding: 0 0 0 40px;
 }
 .uiPopup .popupContent .multipleMessage {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #cccccc;
   margin: 0;
 }
@@ -9689,7 +9689,7 @@ textarea[disabled] {
   margin-top: 2px;
 }
 .accordion .accordion-toggle a:hover {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -9728,15 +9728,15 @@ textarea[disabled] {
   margin: -2px 7px 0 0;
 }
 .accordion .accordion-body .functionItem:hover {
-  background: #f8f8f8;
+  background: #f7f7f7;
 }
 .accordion .expaned {
   background-color: #f1f1f1;
-  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
-  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
-  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #f7f7f7, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f7f7f7, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f7f7f7, #e6e6e6);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
   border-bottom: 1px solid #cccccc;
@@ -9769,7 +9769,7 @@ textarea[disabled] {
   border: none;
 }
 .accordion .accordion-inner:hover {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
 }
 .accordion .accordion-normal {
   border-top: 1px solid #cccccc;
@@ -9801,11 +9801,11 @@ textarea[disabled] {
 }
 .verticalTabStyle1 .expaned {
   background-color: #f5f5f5;
-  background-image: -moz-linear-gradient(top, #f8f8f8, #f0f0f0);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#f0f0f0));
-  background-image: -webkit-linear-gradient(top, #f8f8f8, #f0f0f0);
-  background-image: -o-linear-gradient(top, #f8f8f8, #f0f0f0);
-  background-image: linear-gradient(to bottom, #f8f8f8, #f0f0f0);
+  background-image: -moz-linear-gradient(top, #f7f7f7, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #f0f0f0);
+  background-image: -o-linear-gradient(top, #f7f7f7, #f0f0f0);
+  background-image: linear-gradient(to bottom, #f7f7f7, #f0f0f0);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#fff0f0f0', GradientType=0);
 }
@@ -9818,7 +9818,7 @@ textarea[disabled] {
   margin: 8px;
 }
 .verticalTabStyle1 .accordion-inner:hover {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #cccccc;
 }
 .uiGrid.table {
@@ -9851,7 +9851,7 @@ textarea[disabled] {
 .uiGrid.table td.empty,
 .uiGrid.table th.empty {
   color: #999999;
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   text-align: center;
 }
 .uiGrid.table td .text,
@@ -9877,13 +9877,13 @@ textarea[disabled] {
   background-color: #f0f0f0;
 }
 .table-striped tbody tr:nth-child(odd) td {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
 }
 .table-striped tbody tr:nth-child(even) td {
   background-color: #ffffff;
 }
 .table-striped tr:nth-child(odd) td {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
 }
 .table-striped tr:nth-child(even) td {
   background-color: #ffffff;
@@ -10291,7 +10291,7 @@ textarea[disabled] {
 }
 /*---------- uiTree ----------*/
 .uiTrees {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #cccccc;
   padding: 4px;
 }
@@ -11414,7 +11414,7 @@ textarea[disabled] {
   display: none;
 }
 .hover-action:hover {
-  background: #f8f8f8;
+  background: #f7f7f7;
 }
 .hover-action:hover .actionHover {
   display: inline-block;
@@ -11477,7 +11477,7 @@ textarea[disabled] {
 }
 .uiGroupMembershipSelector.uiGroupSelector .childGoup .uiContentBox,
 .uiGroupMembershipSelector.uiGroupSelector .selectGroup .uiTrees {
-  background: #f8f8f8;
+  background: #f7f7f7;
 }
 /**
 	* Copyright (C) 2009 eXo Platform SAS.
@@ -13050,7 +13050,7 @@ textarea[disabled] {
   text-align: center;
 }
 .UIEditInlineWS .UIPortlet .portletLayoutDecoratorHover {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #578dc9;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -13270,7 +13270,7 @@ textarea[disabled] {
   overflow: hidden;
 }
 .uiWizard .uiWizardPageSetInfo .selectedPageInfo .uiFormWithTitle > .title {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: none;
   box-shadow: none;
   padding: 8px 20px;
@@ -13290,7 +13290,7 @@ textarea[disabled] {
   font-weight: bold;
 }
 .uiWizard .UIWizardPageSelectLayoutForm {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #cccccc;
 }
 .uiWizard .UIWizardPageSelectLayoutForm .uiItemSelector {
@@ -13535,7 +13535,7 @@ textarea[disabled] {
   cursor: pointer;
 }
 .attachmentContainer {
-  background: #f8f8f8;
+  background: #f7f7f7;
   padding: 18px;
   margin-top: 10px;
 }
@@ -16164,7 +16164,7 @@ Round corner box with title
   padding: 15px;
 }
 .UIMaskWorkspace .MaskContainer {
-  background: #f8f8f8;
+  background: #f7f7f7;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;

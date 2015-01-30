@@ -87,7 +87,7 @@
   margin: 10px 20px 10px 0;
 }
 .uiSpaceSettingPortlet .uiSpaceApp .contentSpace:hover {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #cccccc;
 }
 .uiSpaceSettingPortlet .uiSpaceApp .contentSpace [class^="uiIconApp"] {
@@ -152,7 +152,7 @@
   font-size: 13px;
 }
 .uiSpaceSettingPortlet .uiSpaceAppInstaller .itemDetailList .appList .appDescription:hover {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   border: 1px solid #cccccc;
 }
 .uiSpaceSettingPortlet .addInvite {

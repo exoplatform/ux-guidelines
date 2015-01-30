@@ -43,7 +43,7 @@
 }
 .uiSEOForm {
   min-width: 600px;
-  background: #f8f8f8;
+  background: #f7f7f7;
   margin: -10px;
 }
 .uiSEOForm .formContainer .leftContainer {
@@ -52,7 +52,7 @@
   padding: 20px 0px 0px 10px;
 }
 .uiSEOForm .formContainer .leftContainer .itemTab {
-  border: 1px solid #f8f8f8;
+  border: 1px solid #f7f7f7;
   margin: 0px 0px 5px 0;
   cursor: pointer;
   line-height: 27px;
@@ -1153,7 +1153,7 @@ a:hover [class^="uiIconEcms"],
   width: 210px;
   float: left;
   border: 1px solid #cccccc;
-  background: #f8f8f8;
+  background: #f7f7f7;
   overflow: auto;
   height: 461px;
 }
@@ -1417,7 +1417,7 @@ a:hover [class^="uiIconEcms"],
 /*############################## -- End UIThumbnailsView -- ##############################*/
 /******** UIRelationManager **************/
 .uiOneNodePathSelector .breadcrumb {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #cccccc;
   padding: 5px 10px;
   margin-bottom: 20px;
@@ -1551,7 +1551,7 @@ a:hover [class^="uiIconEcms"],
   padding: 5px 0 0 0;
 }
 .UISingleContentViewerPortlet .UIPresentationContainer .uiOptionBar {
-  background: none repeat scroll 0 0 #f8f8f8;
+  background: none repeat scroll 0 0 #f7f7f7;
   border: 1px solid #cccccc;
   padding: 4px 8px 4px 4px;
   margin: 8px 0;

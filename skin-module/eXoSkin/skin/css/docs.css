@@ -1294,3 +1294,26 @@ body > .navbar .brand {
 .prettyprint.linenums {
     box-shadow: 40px 0 0 #fbfbfc inset, 41px 0 0 #ececf0 inset;
 }
+.BtnDownloadShort {
+    background: url("../../../img/BtnDownloadShort.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 141px;
+    left: 0;
+    position: absolute;
+    top: 115px;
+    width: 35px;
+    z-index: 1;
+}
+.BtnDownloadSubShort {
+    position: fixed;
+    top: 150px;
+}
+.BtnDownloadShortEn {
+    background-position: 0 0;
+}
+.BtnDownloadShortEn:hover {
+    background-position: left -141px;
+}
+.BtnDownloadShortFr {
+    background-position: left -282px;
+}

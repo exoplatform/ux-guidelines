@@ -9,6 +9,7 @@ DONE:
 - Components: Typography, Form, Button, Table, Avatar, Icon, Navigation, Dropdown, Mini Calendar, Progress bar, Alert, Tooltip and Popover, Thumbnails, Mention, Color, CSS Classes, Trees, Badge and Loading.
 - Patterns: Breadcrumb, Hover-reveal, Message, Popup, Pagination, Tabs, Sort by Column, Table Filter, Rating, Uploading.
 - Update UX Guideline following Platform skin module (change structure, css, js update, icon alternative collection... )
+- Make a demo of skin module on UX Guidlines with other version. (Dark Theme Demo).
 
 
 PLAN:

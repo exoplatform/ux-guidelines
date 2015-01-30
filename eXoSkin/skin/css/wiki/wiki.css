@@ -227,7 +227,7 @@
   padding-bottom: 20px;
 }
 .uiWikiPageVersionsCompare .comparedForm pre {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   border: 1px solid #e6e6e6;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -450,7 +450,7 @@
   display: none;
 }
 .uiWikiPageContentArea .section-container .EditSectionHover {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   margin: 0 -15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -501,7 +501,7 @@
 }
 .popupContenRelated {
   border: solid 1px #cccccc;
-  background: #f8f8f8;
+  background: #f7f7f7;
   margin: 15px 0 0;
 }
 .uiWikiAdvanceSearchResult > .resultInfo {
@@ -587,7 +587,7 @@
 }
 .uiWikiMovePageForm .sideBarContent .sideContent {
   border: 1px solid #e6e6e6;
-  background: #f8f8f8;
+  background: #f7f7f7;
   height: 270px;
   overflow: auto;
 }
@@ -707,7 +707,7 @@ a:hover [class^="uiIconWiki"],
   overflow: auto;
 }
 .uiWikiPageContentArea .EditSectionHover {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
 }
 .uiWikiPageContentArea .EditSectionHover span.EditSection a {
   background-position: -40px 0;
@@ -755,7 +755,7 @@ a:hover [class^="uiIconWiki"],
 }
 .uiWikiContentDisplay blockquote,
 .uiWikiPagePreview blockquote {
-  background: #f8f8f8;
+  background: #f7f7f7;
   border-left: 2px solid #cccccc;
   display: block;
   margin: 0.3ex 1em;

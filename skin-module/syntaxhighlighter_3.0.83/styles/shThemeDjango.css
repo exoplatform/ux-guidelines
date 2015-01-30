@@ -30,7 +30,7 @@
   color: white !important;
 }
 .syntaxhighlighter table caption {
-  color: #f8f8f8 !important;
+  color: #f7f7f7 !important;
 }
 .syntaxhighlighter .gutter {
   color: #497958 !important;
@@ -71,7 +71,7 @@
   color: #ffe862 !important;
 }
 .syntaxhighlighter .plain, .syntaxhighlighter .plain a {
-  color: #f8f8f8 !important;
+  color: #f7f7f7 !important;
 }
 .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
   color: #336442 !important;

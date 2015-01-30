@@ -447,7 +447,7 @@ i:hover [class^="uiIconForumColor"] {
   width: 100%;
 }
 .postViewHeader {
-  background: #f8f8f8;
+  background: #f7f7f7;
   padding: 10px 15px;
   min-height: 20px;
   margin-bottom: 5px;
@@ -941,7 +941,7 @@ i:hover [class^="uiIconForumColor"] {
   text-align: left;
 }
 .uiForumPortlet .uiGrid.table caption + thead tr th {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   border-bottom: solid 1px #e6e6e6;
 }
 .uiForumPortlet a.actionIcon,

@@ -664,7 +664,7 @@ i:hover [class^="uiIconAnwserColor"] {
 }
 /* Question Container */
 .questionContainer .theContent .contentQuote {
-  background: #f8f8f8;
+  background: #f7f7f7;
 }
 #UIBreadcumbs.uiGrayLightBox {
   padding: 10px 10px 4px;
@@ -673,7 +673,7 @@ i:hover [class^="uiIconAnwserColor"] {
   padding: 20px;
 }
 .uiFAQPortlet .goUp {
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
   background-repeat: repeat-x;
   border: 1px solid #cccccc;

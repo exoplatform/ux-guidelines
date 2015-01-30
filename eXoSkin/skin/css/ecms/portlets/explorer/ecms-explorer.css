@@ -147,7 +147,7 @@
   width: 17px;
 }
 .uiSideBar .ListExtendedItem {
-  background: none repeat scroll 0 0 #f8f8f8;
+  background: none repeat scroll 0 0 #f7f7f7;
   border: 1px solid #cccccc;
   padding: 5px;
   position: absolute;
@@ -301,7 +301,7 @@
 }
 .uiAddressBar .listExtendedView {
   position: absolute;
-  background: #f8f8f8;
+  background: #f7f7f7;
   border: 1px solid #cccccc;
   padding: 5px;
 }
@@ -374,7 +374,7 @@
   padding: 10px !important;
 }
 .uiMultiUpload .loadContent:hover {
-  background: #f8f8f8;
+  background: #f7f7f7;
 }
 .uiMultiUpload .loadContent .fileName {
   cursor: pointer;
@@ -549,7 +549,7 @@
 .MoveItem .uiListGrid .titleTable {
   font-weight: lighter;
   padding: 5px 0px;
-  background: #f8f8f8;
+  background: #f7f7f7;
   border-bottom: 1px solid #cccccc;
   font-weight: normal;
   height: auto;
@@ -952,7 +952,7 @@
   cursor: col-resize;
 }
 .uiListGrid .odd {
-  background: #f8f8f8;
+  background: #f7f7f7;
 }
 .uiListGrid .even {
   background: #ffffff;
@@ -1083,7 +1083,7 @@
   background: none!important;
 }
 .uiThumbnailsView .actionIconsContainer .actionIconBox:hover .thumbnailImage {
-  background: #f8f8f8 !important;
+  background: #f7f7f7 !important;
 }
 .uiThumbnailsView .actionIconsContainer .actionIconBox.selectedBox:hover .thumbnailImage,
 .uiThumbnailsView .actionIconsContainer .actionIconBox.selectedBox .thumbnailImage {
@@ -1553,7 +1553,7 @@
 }
 /******** UIOneTaxonomySelector **************/
 .uiOneTaxonomySelector .breadcrumb {
-  background: #f8f8f8;
+  background: #f7f7f7;
   padding: 5px 15px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;

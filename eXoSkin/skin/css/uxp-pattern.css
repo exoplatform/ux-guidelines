@@ -5,7 +5,7 @@
 
 .hover-action a {display: none}
 .hover-action div.button {display: none}
-.hover-action:hover {background:#F8F8F8}
+.hover-action:hover {background:#f7f7f7}
 .hover-action:hover .actionIcon {display: inline-block; font-size:13;margin: 6px 6px 0 0;}
 .hover-action:hover .actionHover {display: inline-block; font-size:13;margin: 4px 4px 0 0;}
 .hover-action:hover div.button {display: block}
