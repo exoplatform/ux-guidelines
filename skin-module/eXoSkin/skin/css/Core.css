@@ -1320,14 +1320,12 @@ input[type="checkbox"][readonly] {
 .control-group.error .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #333333;
 }
 .control-group.error .checkbox,
 .control-group.error .radio,
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  color: #333333;
 }
 .control-group.error input,
 .control-group.error select,
@@ -1354,14 +1352,14 @@ input[type="checkbox"][readonly] {
 .control-group.success .control-label,
 .control-group.success .help-block,
 .control-group.success .help-inline {
-  color: #333333;
+
 }
 .control-group.success .checkbox,
 .control-group.success .radio,
 .control-group.success input,
 .control-group.success select,
 .control-group.success textarea {
-  color: #333333;
+
 }
 .control-group.success input,
 .control-group.success select,
@@ -1381,7 +1379,6 @@ input[type="checkbox"][readonly] {
 }
 .control-group.success .input-prepend .add-on,
 .control-group.success .input-append .add-on {
-  color: #333333;
   background-color: #d7f8d5;
   border-color: #333333;
 }
@@ -9115,7 +9112,6 @@ h4 .btn + .btn {
 }
 .btn-group > .btn,
 .btn-group > .dropdown-menu {
-  font-size: 13px;
 }
 .btn.dropdown-toggle {
   padding-right: 5px;
@@ -9586,14 +9582,12 @@ textarea[disabled] {
 .control-group.error .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #333333;
 }
 .control-group.error .checkbox,
 .control-group.error .radio,
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  color: #333333;
 }
 .control-group.error input,
 .control-group.error select,
@@ -9620,14 +9614,14 @@ textarea[disabled] {
 .control-group.success .control-label,
 .control-group.success .help-block,
 .control-group.success .help-inline {
-  color: #333333;
+
 }
 .control-group.success .checkbox,
 .control-group.success .radio,
 .control-group.success input,
 .control-group.success select,
 .control-group.success textarea {
-  color: #333333;
+
 }
 .control-group.success input,
 .control-group.success select,
@@ -9647,7 +9641,6 @@ textarea[disabled] {
 }
 .control-group.success .input-prepend .add-on,
 .control-group.success .input-append .add-on {
-  color: #333333;
   background-color: #d7f8d5;
   border-color: #333333;
 }
@@ -9688,7 +9681,6 @@ textarea[disabled] {
 .control-group.error > .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #ffffff;
 }
 .accordion {
   -webkit-border-radius: 3px;

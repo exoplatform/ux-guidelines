@@ -68,9 +68,10 @@
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top">
           <li class="active"><a href="#download-bootstrap"><i class="icon-chevron-right"></i>Download source</a></li>
-          <li class=""><a href="#file-structure"><i class="icon-chevron-right"></i>File structure</a></li>
+          <li><a href="#file-structure"><i class="icon-chevron-right"></i>File structure</a></li>
           <li><a href="#contents"><i class="icon-chevron-right"></i>What's included?</a></li>
           <li><a href="#html-template"><i class="icon-chevron-right"></i>HTML template</a></li>
+          <li><a href="#eXo-skin"><i class="icon-chevron-right"></i>eXo Skin Customization</a><li>
           <li><a href="#what-next"><i class="icon-chevron-right"></i>What's next?</a></li>
         </ul>
       </div>
@@ -97,17 +98,17 @@
           <div class="page-header">
             <h2>File structure</h2>
           </div>
-          <p class="lead">eXo UX Guidelines contains eXoSkin, web content and other extra folders.</p>
+          <p class="lead">eXo UX Guidelines contains eXo Skin, web content and other extra folders.</p>
         <p>After downloading, you need to unzip the compressed folder. The structure of eXo UX Guidelines is displayed below:</p>
-<pre class="prettyprint"><span class="pln">  exo-ux-guidelines </span><span class="pun">/</span><span class="pln">
+<pre class="prettyprint"><span class="pln">  exo-ux-guidelines</span><span class="pun">/</span><span class="pln">
   </span><span class="pun">├──</span><span class="pln"> eXoSkin</span><span class="pun">/</span><span class="pln">
   </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> skin</span><span class="pun">/</span><span class="pln">
-  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> <b>css</b></span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> <b>css</b>/</span>
   <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> Core.css</span>
   <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> docs.css</span>
   <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> uxp-pattern.css</span>
   <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> product css</span>
-  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> <b>images</b></span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> <b>images</b>/</span>
   <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> themes</span>
   <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> default</span>
   <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> blue</span>
@@ -135,20 +136,16 @@
 <p>There is common css folder and each product has each own css that is located in its corresponding folder e.g ecms, forum, calendar...</p>
 
 <h4>images</h4>
-<p><i class="uiIconEcmsDottedArrow"></i><b>themes</b> contains images/icons that define the Platform color style that includes <b>default</b> and 5 alternative collections in <b>red</b>, <b>green</b>, <b>blue</b>, <b>pink</b> and <b>orange</b> that can be used when adding new theme add-ons.</p>
+<p><i class="uiIconEcmsDottedArrow"></i><b>themes</b> contains images/icons that define the Platform color style that includes <b>default</b> and 5 alternative collections in <b>red</b>, <b>green</b>, <b>blue</b>, <b>pink</b> and <b>orange</b>. These color folders are able to be used for adding new theme add-ons.</p>
 <p><i class="uiIconEcmsDottedArrow"></i><b>PSD</b> contains all PSD files that ease users to create more customization in advance.</p>
 <p><i class="uiIconEcmsDottedArrow"></i><b>system</b> contains all common images/icons. In next version, all common images/icons will be moved to this folder.</p>
 <h4>bootstrap</h4>
 <p>This folder contains main css and js of Bootstrap that eXo Platform's style based on. <p>
-<p>Besides, there are <b>js</b> and <b>img</b> folders that contain  customized js and images for UX Guidelines website. <b>skin-module</b> folder is a similar UX Guidelines project that its interface is customized following eXo Skin Module feature.</p>
-<div class="alert alert-info" id="">
-            <i class="uiIconInfo"></i>Thank to Skin Module project, it is possible to build only one package in order to deploy a new skin. There is  a set of dedicated variables that can be customized in order to re-configure all our main colors/backgrounds. 
-          </div>
+<p>Besides, there are some extra folders:</p>
+<p><i class="uiIconEcmsDottedArrow"></i><b>js</b> contains  customized js for UX Guidelines website. </p>
+<p><i class="uiIconEcmsDottedArrow"></i><b>img</b> contains customized images for UX Guidelines website. </p>
+<p><i class="uiIconEcmsDottedArrow"></i><b>skin-module</b> is a similar UX Guidelines project that its interface is customized following eXo Skin Customization feature.</p>
 
-<p class="lead">The latest update of eXoskin (platform-ui) can be downloaded directly from GitHub.</p>
-          <div class="row-fluid">
-            <p><a class="btn btn-large btn-primary" href="https://github.com/exodev/platform-ui/archive/develop.zip" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download platform ui</a> <a class="btn btn-large btn-primary" href="skin-module/getting-started.html" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Skin Module Other style Demo</a></p>
-         </div>
         </section>
 
 
@@ -182,6 +179,19 @@
 <span class="com">    &lt;!-- eXo Platform CSS --&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;link</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"css/exo-platform.css"</span><span class="pln"> </span><span class="atn">rel</span><span class="pun">=</span><span class="atv">"stylesheet"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></li><li class="L7"><span class="pln">  </span><span class="tag">&lt;body&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;h1&gt;</span><span class="pln">Hello, world!</span><span class="tag">&lt;/h1&gt;</span></li><li class="L9"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"http://code.jquery.com/jquery-latest.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"js/bootstrap.min.js"</span><span class="tag">&gt;&lt;/script&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></li><li class="L2"><span class="tag">&lt;/html&gt;</span></li></ol></pre>
              </section>
 
+<section id="eXo-skin">
+          <div class="page-header">
+            <h2>eXo Skin Customization</h2>
+          </div>
+        <div class="alert alert-info" id="">
+            <i class="uiIconInfo"></i>eXo Skin can be customized. It is possible to build only one package in order to deploy a new skin. <a href="http://docs.exoplatform.com/">There is  a set of dedicated variables that can be customized in order to re-configure all our main colors/backgrounds. </a>
+          </div>
+
+          <p class="lead">The latest update of eXo Skin (platform-ui) can be downloaded directly from GitHub.</p>
+          <div class="row-fluid">
+            <p><a class="btn btn-large btn-primary" href="https://github.com/exodev/platform-ui/archive/develop.zip" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download platform ui</a> <a class="btn btn-large btn-primary" href="skin-module/getting-started.html" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">eXo Skin Customization Demo</a></p>
+          </div>
+  </section>
         <!-- Next
         ================================================== -->
         <section id="what-next">

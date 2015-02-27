@@ -28,12 +28,12 @@
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
     <script src="../js/iphone-style-checkboxes.js"></script>
-    <script src="../js/iphonePlugin-min.js"></script>
+
     <!-- syntaxhighlighter -->
     <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
     <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-    <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+    <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoloader.js"></script>
     <!-- Le styles -->
        <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
        <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
@@ -351,34 +351,33 @@
 <p><h4>Switch Radio</h4></p>
 <p> By using the <code>iphone-style-checkboxes.js</code> provided by eXo Platform Team, there is a nice switch radio:
 <form class="bs-docs-example">
-<div class="uiSwitchBtn" style="width: 60px;"><input type="checkbox" name="NewUserPlugin" checked="checked" class="providerAction yesno enable"><label class="switchBtnLabelOff" style="width: 51px;">
-  <span style="margin-right: -41px;">NO</span>
-</label><label class="switchBtnLabelOn" style="width: 51px;">
-  <span style="margin-left: 0px;">YES</span>
-</label><div class="switchBtnHandle" style="left: 41px;">
-  <div class="switchBtnHandleRight">
-    <div class="switchBtnHandleCenter"></div>
-  </div>
-</div></div>
+<div class="uiSwitchBtn" style="width: 60px;">
+  <input type="checkbox" name="NewUserPlugin" checked="checked" class="providerAction yesno enable" data-no="NO" data-yes="YES">
+</div>
 <script type="text/javascript">
-$("div.spaceRole").click(function()
+$("div.uiSwitchBtn").click(function()
 {
-  var input = $(this).find("#rememberme");
+  var input = $(this).find(".yesno");
   var remembermeOpt = input.attr("value") == "true" ? "false" : "true";
   input.attr("value", remembermeOpt);
 });
 var yeslabel;
 var nolabel;
-$("div.spaceRole").children('input:checkbox').each(function () {
+$("div.uiSwitchBtn").children('input:checkbox').each(function () {
 	yeslabel = $(this).data("yes");
 	nolabel = $(this).data("no");
 	$(this).iphoneStyle({
+                labelOffClass: "switchBtnLabelOff",
+		labelOnClass: "switchBtnLabelOn",
+		handleClass: "switchBtnHandle",
+		handleRightClass: "switchBtnHandleRight",
+		handleCenterClass: "switchBtnHandleCenter",
 		checkedLabel:yeslabel,
 		uncheckedLabel:nolabel});
 	
 	$(this).change(function()
 	{
-		$(this).closest("div.spaceRole").trigger("click");
+		$(this).closest("div.uiSwitchBtn").trigger("click");
 	});
 });
 </script>
