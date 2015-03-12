@@ -1,4 +1,4 @@
-eXo UX Guidlines
+eXo UX Guidelines
 ====================
 
 GOAL: 
