@@ -17,6 +17,8 @@
 	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
 	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
 	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+  <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+  
 	 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -145,11 +147,13 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
 		    <div class="gotPosition" style="position: relative; display:block">
 				<div class="popover right popupOverContent" style="width: 230px; top: -48.4px; left: 10px; display: none;">
 					<span class="arrow" style="top: 30%;"></span>
-					<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+					<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
 
 <div class="prettyprint linenums">
 	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
@@ -162,23 +166,7 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
 		    <div class="gotPosition" style="position: relative; display:block">
 				<div class="popover right popupOverContent" style="width: 230px; top: -48.4px; left: 10px; display: none;">
 					<span class="arrow" style="top: 30%;"></span>
-					<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<div class="prettyprint linenums">
-	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-	
-		<div class="bs-docs-example">
-           <div class="parentPosition" style="display:inline-block;"
-			onmouseout="(function(elm) {$(elm).find('.popupOverContent:first').hide();})(this)"
-			onmouseover="(function(elm) {$(elm).find('.popupOverContent:first').show();})(this)" >
-			<i class="uiIconQuestion uiIconLightGray"></i>
-		    <div class="gotPosition" style="position: relative; display:block">
-				<div class="popover right popupOverContent" style="width: 230px; top: -48.4px; left: 10px; display: none;">
-					<span class="arrow" style="top: 30%;"></span>
-					<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+					<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
 				</div>
 			</div>
 		</div>
@@ -200,7 +188,7 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
 		<div class="gotPosition" style="position: relative; display:block">
 			<div class="popover top popupOverContent" style="width: 230px; top: -145px; left: -74px; display: none;">
 				<span class="arrow" style="top: 100%;"></span>
-				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
 			</div>
 		</div>
 	</div>
@@ -211,7 +199,7 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
 		<div class="gotPosition" style="position: relative; display:block">
 			<div class="popover right popupOverContent" style="width: 230px; top: -70px; left: 89px; display: none;">
 				<span class="arrow" style="top: 46%;"></span>
-				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
 			</div>
 		</div>
 	</div>
@@ -222,7 +210,7 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
 		<div class="gotPosition" style="position: relative; display:block">
 			<div class="popover bottom popupOverContent" style="width: 230px; left: -65px; top: -7px; display: none;">
 				<span class="arrow" style="top: -8%;"></span>
-				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
 			</div>
 		</div>
 	</div>
@@ -233,7 +221,7 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
 		<div class="gotPosition" style="position: relative; display:block">
 			<div class="popover left popupOverContent" style="width: 230px;  left: -224px; top: -77px; display: none;">
 				<span class="arrow" style="top: 52%;"></span>
-				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+				<div class="popover-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
 			</div>
 		</div>
 	</div>
@@ -264,12 +252,9 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-		<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
-    <script src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js" type="text/javascript">
+    
 
-
- 
-<script type="text/javascript">
+   <script type="text/javascript">
       $(document).ready(function () {
     $("[rel=tooltip]").tooltip();
   });
@@ -280,4 +265,6 @@ The <a data-placement="bottom" rel="tooltip" data-toggle="tooltip" href="#" data
     $("[rel=tooltip]").tooltip();
   });
 </script>
+  <script type="text/javascript" src="../js/syntaxhighlighter_autoLoader.js"></script>
+
 </body></html>
