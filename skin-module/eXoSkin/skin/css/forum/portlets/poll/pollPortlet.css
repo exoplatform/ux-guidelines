@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -51,7 +51,7 @@
   white-space: nowrap;
 }
 .uiPollPortlet .forumSeparatorLine + .forumSeparatorLine {
-  background: url("/eXoSkin/skin/images/themes/blue/forum/portlets/poll/background/SeparatorLine.png") no-repeat left -4px;
+  background: url("/eXoDarkSkin/skin/images/themes/default/forum/portlets/poll/background/SeparatorLine.png") no-repeat left -4px;
 }
 .uiPollPortlet .textTitlePoll {
   font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;

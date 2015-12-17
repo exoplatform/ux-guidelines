@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -57,7 +57,7 @@
   height: 90px;
 }
 .uiSpaceMenu .spaceMenuTab {
-  background: url("/eXoSkin/skin/images/themes/blue/social/skin/SpaceMenuPortlet/shadow.png") no-repeat left center;
+  background: url("/eXoDarkSkin/skin/images/themes/default/social/skin/SpaceMenuPortlet/shadow.png") no-repeat left center;
   height: 90px;
   border-bottom: none;
 }
@@ -68,7 +68,7 @@
   margin-left: -1px;
 }
 .uiSpaceMenu .spaceMenuTab > .active {
-  background: url("/eXoSkin/skin/images/themes/blue/social/skin/SpaceMenuPortlet/arrowIcon.png") no-repeat bottom center;
+  background: url("/eXoDarkSkin/skin/images/themes/default/social/skin/SpaceMenuPortlet/arrowIcon.png") no-repeat bottom center;
 }
 .uiSpaceMenu .spaceMenuTab > li > a,
 .uiSpaceMenu .spaceMenuTab > li > a:hover,
@@ -98,7 +98,9 @@
   box-shadow: 1px 0 4px rgba(0, 0, 0, 0.38) inset;
 }
 .uiSpaceMenu .spaceMenuTab > li > a:hover,
-.uiSpaceMenu .spaceMenuTab > .active > a:hover {
+.uiSpaceMenu .spaceMenuTab > .active > a:hover,
+.uiSpaceMenu .spaceMenuTab > li.dropdown.open > a:hover,
+.uiSpaceMenu .spaceMenuTab > li.dropdown.open > a:focus {
   background-color: rgba(144, 144, 144, 0.2);
   background-image: -moz-linear-gradient(top, rgba(153, 153, 153, 0.2), rgba(130, 130, 130, 0.2));
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(153, 153, 153, 0.2)), to(rgba(130, 130, 130, 0.2)));
@@ -131,9 +133,97 @@
   font-weight: 100;
   padding: 3px 8px;
 }
+.uiSpaceMenu .spaceMenuTab li.dropdown.open ul.dropdown-menu li.item a span {
+  position: relative;
+  bottom: 8px;
+}
 .uiSpaceMenu .nodeIconBg {
   display: block;
   float: left;
   width: 39px;
   background-position: center;
+}
+@media (max-width: 1024px) {
+  .uiSpaceMenu .spaceMenuTab > .active {
+    background: none;
+  }
+  .uiSpaceMenu .spaceMenuTab li.dropdown.open ul.dropdown-menu li.item a span {
+    bottom: 12px;
+  }
+  .uiSpaceMenu .spaceMenuTab > li > a,
+  .uiSpaceMenu .spaceMenuTab > li > a:hover,
+  .uiSpaceMenu .spaceMenuTab > .active > a,
+  .uiSpaceMenu .spaceMenuTab > .active > a:hover {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+  
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+  
+    box-sizing: border-box;
+    height: 90px;
+    padding: 12px ;
+    margin: 0 20px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .uiSpaceMenu .spaceMenuTab > li > a > .tabName {
+    margin: 6px 0 0 ;
+  }
+  .uiSpaceMenu .dropdown span {
+    margin-top: 6px;
+  }
+  .uiSpaceMenu [class^="uiIcon"] {
+    font-size: 42px;
+  }
+  .uiSpaceMenu .dropdown-menu {
+    margin-top: -4px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+@media (max-width: 767px) {
+  .uiSpaceMenu [class^="uiIcon"] {
+    font-size: 35px;
+  }
+  .uiSpaceMenu .spaceMenuTab > li > a > .tabName,
+  .uiSpaceMenu .spaceMenuTab > li > a > span {
+    font-size: 13px;
+  }
+}
+@media (max-width: 480px) {
+  .uiSpaceMenu {
+    height: 60px;
+    margin-top: -9px;
+  }
+  .uiSpaceMenu .spaceMenuTab {
+    height: 60px;
+  }
+  .uiSpaceMenu .spaceMenuTab > li > a > .tabName,
+  .uiSpaceMenu .spaceMenuTab > li > a > span {
+    display: none;
+  }
+  .uiSpaceMenu .spaceMenuTab > li > a,
+  .uiSpaceMenu .spaceMenuTab > li > a:hover,
+  .uiSpaceMenu .spaceMenuTab > .active > a,
+  .uiSpaceMenu .spaceMenuTab > .active > a:hover {
+    height: 60px;
+    padding: 15px ;
+    margin: 0 5px;
+  }
+  .uiSpaceMenu .spaceMenuTab > li.item:last > a {
+    margin-right: 0;
+  }
+  .uiSpaceMenu .spaceMenuTab > li > a.dropdown-toggle {
+    float: right ;
+    padding: 12px 20px;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+  }
+  .uiSpaceMenu [class^="uiIcon"] {
+    font-size: 35px;
+  }
 }

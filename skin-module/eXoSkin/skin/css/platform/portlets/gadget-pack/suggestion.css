@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -72,7 +72,7 @@
 .avatardefault {
   width: 60px;
   height: 60px;
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/Suggestions/avatar_default.png") no-repeat right;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/Suggestions/avatar_default.png") no-repeat right;
 }
 .name {
   font-weight: bold;
@@ -84,7 +84,7 @@
   display: none;
 }
 .TopMenu {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/Suggestions/TopMenu.png") no-repeat top center;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/Suggestions/TopMenu.png") no-repeat top center;
   width: 230px;
   height: 10px;
   margin-left: -1px;

@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -135,7 +135,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   white-space: normal;
-  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/homepage/calendar/calendar-porlet.png") no-repeat;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/portlets/homepage/calendar/calendar-porlet.png") no-repeat;
 }
 .calendarPortlet .calendarPortletData .tasksList a {
   color: #ffffff;
@@ -255,13 +255,14 @@
   white-space: nowrap;
 }
 .settingsCalContainer .DisplayedCalendarContainer .uiIconDel {
-  width: 14px;
-  height: 14px;
-  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/homepage/calendar/del.png") no-repeat 2px center;
   cursor: pointer;
+  color: white;
+  font-size: 10px;
+  height: 14px;
+  vertical-align: middle;
 }
-.settingsCalContainer .DisplayedCalendarContainer .uiIconDel:hover {
-  background-position: -13px center;
+.settingsCalContainer .DisplayedCalendarContainer .uiIconDel:before {
+  content: "\e76d";
 }
 .settingsCalContainer .uiBox .uiContentBox {
   padding: 15px;
@@ -301,7 +302,7 @@
 .settingsCalContainer .calendarItems .calendarItem .uiIconAdd {
   width: 14px;
   height: 14px;
-  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/homepage/calendar/add.png") no-repeat 2px 2px;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/portlets/homepage/calendar/add.png") no-repeat 2px 2px;
 }
 .settingsCalContainer .calendarItems .calendarItem .calName {
   height: 20px;

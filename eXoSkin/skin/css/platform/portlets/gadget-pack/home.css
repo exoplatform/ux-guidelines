@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -80,7 +80,7 @@
   text-align: left;
   padding: 5px 10px;
   line-height: 14px;
-  background: #f7f7f7;
+  background: #f8f8f8;
   color: #333333;
 }
 .TopGadget .Text {
@@ -91,7 +91,7 @@
   font-size: 12px;
 }
 .TopGadget select {
-  background: #f7f7f7;
+  background: #f8f8f8;
   height: 18px;
   border: 1px solid #cccccc;
   color: #333333;
@@ -113,13 +113,13 @@
   display: none;
 }
 .TitleGrid .BgTitle {
-  background: #f7f7f7;
+  background: #f8f8f8;
   padding: 5px 10px 0px 10px;
   float: left;
 }
 .TitleGrid h3 {
   font-weight: bold;
-  color: #f7f7f7;
+  color: #f8f8f8;
   float: left;
   line-height: 20px;
   padding-right: 10px;
@@ -127,7 +127,7 @@
   font-size: 11px;
 }
 .TitleGrid select {
-  background: #f7f7f7;
+  background: #f8f8f8;
   height: 18px;
   border: 1px solid #cccccc;
   color: #333333;
@@ -137,7 +137,7 @@
   float: left;
 }
 .GadgetGrid {
-  background: #f7f7f7;
+  background: #f8f8f8;
   padding: 4px 0px;
   margin-bottom: 10px;
 }

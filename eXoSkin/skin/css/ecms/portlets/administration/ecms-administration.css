@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -42,14 +42,24 @@
   }
 }
 /*=========== Vetical tabs =============*/
-.uiECMAdminPortlet .uiResizableBlock .ShowSideBar {
-  margin-left: 256px;
+@media (min-width: 980px) {
+  .uiECMAdminPortlet .uiResizableBlock .ShowSideBar {
+    margin-left: 256px;
+  }
 }
 .uiECMAdminPortlet .ecmAdminPanel {
   height: 100%;
   overflow: auto;
-  width: 233px;
-  padding: 24px 13px 0px 24px;
+  float: none;
+  margin: 15px;
+}
+@media (min-width: 980px) {
+  .uiECMAdminPortlet .ecmAdminPanel {
+    width: 233px;
+    float: left;
+    padding: 24px 13px 0px 24px;
+    margin: 0;
+  }
 }
 .uiECMAdminPortlet .uiECMAdminWorkingArea {
   margin: 24px 10px 10px;
@@ -97,10 +107,10 @@
   padding: 0px;
 }
 .uiECMAdminPortlet .uiNodeTypeList .pagination {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .uiECMAdminPortlet .uiNodeTypeList .allDocument {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .uiECMAdminPortlet .uiNodeTypeUpload .form-horizontal .controls {
   margin-left: 148px;
@@ -115,33 +125,21 @@
 .uiECMAdminPortlet .uiNamespaceForm .form-horizontal .control-group .controls-full {
   margin-left: 180px;
 }
-.uiIconEcmsFolksonomyManager {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
-  background-position: -60px -20px;
-}
 a:hover .uiIconEcmsFolksonomyManager {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
-}
-.uiIconEcmsTaxonomyManagerTrees {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
-  background-position: -20px -60px;
+  color: #2f5e92;
 }
 a:hover .uiIconEcmsTaxonomyManagerTrees {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
-}
-.uiIconEcmsActionManager {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
-  background-position: 0px -40px;
+  color: #2f5e92;
 }
 a:hover .uiIconEcmsActionManager {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
+  color: #2f5e92;
 }
 .uiIconEcmsUnLockManager {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png");
+  color: #999999;
   background-position: -60px 0px;
 }
 a:hover .uiIconEcmsUnLockManager {
-  background-image: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
+  color: #2f5e92;
 }
 .uiSearchBox {
   margin: 0 0 14px 0;
@@ -154,7 +152,7 @@ a:hover .uiIconEcmsUnLockManager {
 }
 .UITaxonomyTreeCreateChild .breadcrumb {
   border: 1px solid #e6e6e6;
-  background: #f7f7f7;
+  background: #f8f8f8;
   border-radius: 0px;
   margin: 0 0 16px 0;
   padding: 4px;
@@ -163,7 +161,7 @@ a:hover .uiIconEcmsUnLockManager {
   margin-left: 244px;
 }
 .uiTaxonomyTreeWizard .wizardLabel {
-  padding: 15px 8px 14px;
+  padding: 0px 8px 14px;
 }
 .uiTaxonomyTreeWizard .UIActionTaxonomyManager .form-horizontal {
   padding-top: 0px;
@@ -225,4 +223,21 @@ a:hover .uiIconEcmsUnLockManager {
 }
 .UITaxonomyTreeCreateChild .uiActionBorder {
   clear: both;
+}
+@media (max-width: 768px) {
+  .uiECMAdminPortlet .uiResizableBlock .ShowSideBar,
+  .uiECMAdminPortlet .ecmAdminPanel {
+    float: none;
+    margin: 10px 0;
+    width: 100%;
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .uiECMAdminPortlet .uiECMAdminWorkingArea {
+    margin: 0;
+  }
+  .ShowSideBar > div {
+    width: 100%!important;
+  }
 }

@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -74,7 +74,7 @@
   margin: 0;
 }
 .calendarPortlet .calendarPortletData .taskTitle {
-  background-color: #f7f7f7;
+  background-color: #f8f8f8;
 }
 .calendarPortlet .calendarPortletData .eventsList li {
   -webkit-border-radius: 4px;
@@ -255,13 +255,14 @@
   white-space: nowrap;
 }
 .settingsCalContainer .DisplayedCalendarContainer .uiIconDel {
-  width: 14px;
-  height: 14px;
-  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/homepage/calendar/del.png") no-repeat 2px center;
   cursor: pointer;
+  color: white;
+  font-size: 10px;
+  height: 14px;
+  vertical-align: middle;
 }
-.settingsCalContainer .DisplayedCalendarContainer .uiIconDel:hover {
-  background-position: -13px center;
+.settingsCalContainer .DisplayedCalendarContainer .uiIconDel:before {
+  content: "\e76d";
 }
 .settingsCalContainer .uiBox .uiContentBox {
   padding: 15px;

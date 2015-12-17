@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -43,14 +43,7 @@
 }
 [class^="uiIconForum"],
 .LeftNavigationTDContainer .uiPopup [class^="uiIconForum"] {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  *margin-right: .3em;
-  line-height: 16px;
-  vertical-align: text-top;
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/Icons/uiIconsForumDefault.png");
-  background-repeat: no-repeat;
+  color: #ffffff;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .nav-pills > .active > a > [class^="uiIconForum"],
@@ -62,24 +55,23 @@
 .uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconForum"],
 .btn:hover [class^="uiIconForum"],
 .actionIcon:hover > [class^="uiIconForum"],
-[class^="uiIconForum"]:hover,
 .actionIcon:hover > div > [class^="uiIconForum"],
 .uiIconForumBlue,
 a:hover > [class^="uiIconForum"],
 a:hover [class^="uiIconForum"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/Icons/uiIconsForumPrimary.png");
+  color: #0ab5f5;
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconForum"],
 .dropdown-menu > .active > a > [class^="uiIconForum"],
 .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconForum"],
-.uiActionBar [class^="uiIconForum"],
 .uiIconForumLightGray {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/Icons/uiIconsForumDefault.png");
+  color: #ffffff;
 }
-.uiIconForumExtra, .uiIconForumDarkGray,
+.uiIconForumDarkGray,
+.uiIconForumExtra,
 .LeftNavigationTDContainer [class^="uiIconForum"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/Icons/uiIconsForumExtra.png");
+  color: #ffffff;
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconForum"],
@@ -97,140 +89,106 @@ a:hover [class^="uiIconForum"] {
 .btn-primary [class^="uiIconForum"],
 .btn-primary:hover [class^="uiIconForum"],
 .uiIconForumWhite {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/Icons/uiIconsForumSecondary.png");
+  color: #ffffff;
 }
 [class^="uiIconForumColor"] {
-  display: inline-block;
+  /*display: inline-block;
   width: 16px;
   height: 16px;
-  *margin-right: .3em;
+  .ie7-restore-right-whitespace();
   line-height: 16px;
   vertical-align: text-bottom;
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/Icons/uiIconsForumColor.png");
-  background-repeat: no-repeat;
+  background-image: url("@{images-path}/forum/portlets/forum/Icons/uiIconsForumColor.png");
+  background-repeat: no-repeat;*/
+
+  margin-right: 3px;
+  position: relative;
+  top: 0;
 }
-.dropdown > a:hover > [class^="uiIconForumColor"],
-[class^="uiIconForumColor"]:hover,
-a:hover > [class^="uiIconForumColor"],
-i:hover [class^="uiIconForumColor"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/Icons/uiIconsForumColor.png");
+.uiIconForumPlay:before {
+  content: "\e775";
 }
-.uiIconForumPending {
-  background-position: 0 0;
+.uiIconForumColorCloseTiny:before {
+  content: "\e768";
+  font-size: 10px;
 }
-.uiIconForumTopic {
-  background-position: -20px 0;
+.uiIconForumViewStatistic:before {
+  content: "\e73f";
 }
-.uiIconForumCreateTopic {
-  background-position: -40px 0;
+.uiIconForumBan:before {
+  content: "\e6e5";
 }
-.uiIconForumCreateForum {
-  background-position: -60px 0;
+.uiIconForumSort:before {
+  content: "\e759";
 }
-.uiIconForumStick {
-  background-position: -80px 0;
+.uiIconForumAddCategory:before {
+  content: "\e6a7";
 }
-.uiIconForumUnStick {
-  background-position: -100px 0;
+.uiIconForumManageCategory:before {
+  content: "\e6aa";
 }
-.uiIconForumAddCategory {
-  background-position: -120px 0;
+.uiIconForumForward:before {
+  content: "\e774";
 }
-.uiIconForumManageCategory {
-  background-position: -140px 0;
+.uiIconForumPending:before {
+  content: "\e749";
 }
-.uiIconForumModerator {
-  background-position: -160px 0;
+.uiIconForumHide:before {
+  content: "\e792";
 }
-.uiIconForumAdmin {
-  background-position: -180px 0;
+.uiIconForumStar:before {
+  content: "\e779";
 }
-.uiIconForumMerge {
-  background-position: 0 -20px;
+.uiIconForumColorLockTiny:before {
+  content: "\e794";
+  font-size: 10px;
 }
-.uiIconForumSplit {
-  background-position: -20px -20px;
+.forumContains [class^="uiIconForum"] {
+  top: -1px;
 }
-.uiIconForumBan {
-  background-position: -40px -20px;
+.uiIconForumStatus:before,
+.uiIconForumColorOffline:before,
+.uiIconForumColorUnread:before,
+.uiIconForumColorOnline:before,
+.uiIconForumColorAway:before,
+.uiIconForumColorBusy:before {
+  content: "\e76e";
+  font-size: 10px;
 }
-.uiIconForumShow {
-  background-position: -60px -20px;
+.uiIconForumColorOffline,
+.uiIconForumColorOffline:hover {
+  color: #ffffff;
 }
-.uiIconForumHide {
-  background-position: -80px -20px;
+.uiIconForumColorUnread,
+.uiIconForumColorUnread:hover {
+  color: #215ab2;
 }
-.uiIconForumSort {
-  background-position: -100px -20px;
+.uiIconForumColorOnline,
+.uiIconForumColorOnline:hover {
+  color: #39c522;
 }
-.uiIconForumCensor {
-  background-position: -120px -20px;
+.uiIconForumColorAway,
+.uiIconForumColorAway:hover {
+  color: #edad00;
 }
-.uiIconForumBBCode {
-  background-position: -140px -20px;
+.uiIconForumColorBusy,
+.uiIconForumColorBusy:hover {
+  color: #c72222;
 }
-.uiIconForumPrune {
-  background-position: -160px -20px;
+a:hover .uiIconForumColorOffline {
+  color: #ffffff;
 }
-.uiIconForumBanIp {
-  background-position: -180px -20px;
+a:hover .uiIconForumColorUnread {
+  color: #215ab2;
 }
-.uiIconForumForward {
-  background-position: 0 -40px;
+a:hover .uiIconForumColorOnline {
+  color: #39c522;
 }
-.uiIconForumViewStatistic {
-  background-position: -20px -40px;
+a:hover .uiIconForumColorAway {
+  color: #edad00;
 }
-.uiIconForumApprove {
-  background-position: -40px -40px;
-}
-.uiIconForumStar {
-  background-position: -60px -40px;
-}
-.uiIconForumPlay {
-  background-position: -80px -40px;
-}
-.uiIconForumPruneSettings {
-  background-position: -100px -40px;
-}
-/* icons for Color */
-.uiIconForumColorCloseTiny {
-  background-position: 0 0;
-}
-.uiIconForumColorLockTiny {
-  background-position: -20px 0;
-}
-.uiIconForumColorOffline {
-  background-position: -40px 0;
-}
-.uiIconForumColorUnread {
-  background-position: -60px 0;
-}
-.uiIconForumColorOnline {
-  background-position: -80px 0;
-}
-.uiIconForumColorAway {
-  background-position: -100px 0;
-}
-.uiIconForumColorBusy {
-  background-position: -120px 0;
-}
-/* Icons color */
-[class^="uiIconColor"] {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  *margin-right: .3em;
-  line-height: 16px;
-  vertical-align: text-top;
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsColor.png");
-  background-repeat: no-repeat;
-}
-[class^="uiIconColor"]:hover {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsColor.png");
-}
-.uiIconColorBell {
-  background-position: -160px 0;
+a:hover .uiIconForumColorBusy {
+  color: #c72222;
 }
 .uiForumPortlet {
   background: none;
@@ -329,11 +287,10 @@ i:hover [class^="uiIconForumColor"] {
   margin: 4px 0;
 }
 .uiForumPortlet .forumSeparatorLine + .forumSeparatorLine {
-  background: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/background/SeparatorLine.png") no-repeat left -4px;
+  background: url("/eXoDarkSkin/skin/images/themes/default/forum/portlets/forum/background/SeparatorLine.png") no-repeat left -4px;
 }
 .uiForumPortlet .uiForumIconState .forumContains {
-  line-height: 42px;
-  padding: 0px 0px 0px 45px;
+  padding: 12px 15px;
 }
 .uiForumPortlet .uiForumIconState .forumContains i + i {
   margin-left: 20px;
@@ -376,7 +333,7 @@ i:hover [class^="uiIconForumColor"] {
   color: #c72222;
 }
 .actionExpandCollapse {
-  margin: 8px 8px 8px 0;
+  margin: 8px 10px 8px 0;
 }
 .emptyForum {
   margin: 15px 0px;
@@ -394,6 +351,35 @@ i:hover [class^="uiIconForumColor"] {
 }
 .uiSettingEditMode .showHiddenConten .form-horizontal .controls {
   margin-left: 410px;
+}
+@media (max-width: 1024px) {
+  #uiRightActionBar {
+    width: auto!important;
+  }
+}
+@media (max-width: 480px) {
+  .forumToolbar {
+    float: none;
+  }
+  .forumToolbar .forumSeparatorLine + .forumSeparatorLine {
+    background: none;
+  }
+  .forumToolbar > .defaultStyle {
+    float: none;
+  }
+  .forumToolbar > .defaultStyle > a {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .forumToolbar > .defaultStyle .dropdown {
+    float: none;
+    display: block;
+  }
+  .forumToolbar > .defaultStyle .dropdown .dropdown-menu {
+    left: auto;
+    right: auto;
+  }
 }
 .uiForumBreadCrumb {
   margin-bottom: 10px;
@@ -419,10 +405,16 @@ i:hover [class^="uiIconForumColor"] {
   margin-top: 10px;
 }
 .uiForumInfos .rightStartsList {
-  width: 300px;
+  float: none;
 }
-.uiForumInfos .leftStartsList {
-  margin: 0 310px 0 0;
+@media (min-width: 640px) {
+  .uiForumInfos .rightStartsList {
+    width: 300px;
+    float: right;
+  }
+  .uiForumInfos .leftStartsList {
+    margin: 0 310px 0 0;
+  }
 }
 .titleBold {
   font-weight: bold;
@@ -692,7 +684,7 @@ i:hover [class^="uiIconForumColor"] {
   position: relative;
 }
 .uiFormSliderInput .slideSearch .slideContainer {
-  background: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/background/slideContainer.png") repeat-x left top;
+  background: url("/eXoDarkSkin/skin/images/themes/default/forum/portlets/forum/background/slideContainer.png") repeat-x left top;
   height: 5px;
 }
 .uiFormSliderInput .slideSearch .slideRange {
@@ -717,7 +709,7 @@ i:hover [class^="uiIconForumColor"] {
   border-radius: 5px;
 }
 .uiFormSliderInput .slideSearch .circleDefault {
-  background: url("../../../../../../eXoSkin/skin/images/themes/blue/forum/portlets/forum/background/circle.png") no-repeat left top;
+  background: url("/eXoDarkSkin/skin/images/themes/default/forum/portlets/forum/background/circle.png") no-repeat left top;
   position: absolute;
   width: 18px;
   height: 18px;
@@ -950,14 +942,22 @@ i:hover [class^="uiIconForumColor"] {
   border: 1px solid #cccccc;
   border-bottom: none;
   text-align: left;
+  min-height: 38px;
 }
 .uiForumPortlet .uiGrid.table caption + thead tr th {
   background-color: #2c2c2c;
   border-bottom: solid 1px #1a1a1a;
 }
-.uiForumPortlet a.actionIcon,
-.uiForumPortlet a.actionIcon:hover {
-  color: #ffffff;
+.uiForumInfos .title [class^="uiIconMini"][class*="Arrow"],
+.forumQuickReply .title [class^="uiIconMini"][class*="Arrow"],
+.uiPostRules .title [class^="uiIconMini"][class*="Arrow"],
+.uiForumInfos .title [class^="uiIconMini"],
+.forumQuickReply .title [class^="uiIconMini"],
+.uiPostRules .title [class^="uiIconMini"],
+.uiForumInfos .title [class^="uiIconArrow"],
+.forumQuickReply .title [class^="uiIconArrow"],
+.uiPostRules .title [class^="uiIconArrow"] {
+  top: 2px;
 }
 .rounded-corners-top .actionIcon .uiIconMiniArrowDown,
 .rounded-corners-top .actionIconSmall .uiIconMiniArrowDown,
@@ -966,9 +966,6 @@ i:hover [class^="uiIconForumColor"] {
 .uiForumActionBar .actionIconSmall .uiIconMiniArrowDown,
 .uiForumActionBar .uiActionWithLabel .uiIconMiniArrowDown {
   margin-left: 0;
-}
-.rounded-corners-top .actionExpandCollapse {
-  margin-top: 10px;
 }
 .rounded-corners-top .actionExpandCollapse + .forumToolbar > li:last-child {
   padding: 0 8px 0 0;
@@ -984,4 +981,55 @@ i:hover [class^="uiIconForumColor"] {
 .dropBan .dropdown-menu {
   left: auto;
   right: 0;
+}
+.forumContains [class^="uiIcon"] {
+  margin: 0 5px 0 0;
+}
+.uiPostForm .ThreadContent .controls span i[class^="uiIcon"] {
+  margin-right: 4px;
+}
+.uiNotificationForm .cke_reset {
+  margin-right: 4px;
+}
+@media (max-width: 955px) {
+  .rounded-corners-top .actionExpandCollapse {
+    display: none;
+  }
+  #UIForumActionBar .forumSeparatorLine .dropdown-menu {
+    border: medium none;
+    box-shadow: none;
+    display: block;
+    min-width: auto;
+    position: static;
+    margin: 6px 0 0 6px;
+  }
+  .uiForumPortlet .menuMore .defaultStyle .uiDropdownWithIcon {
+    padding: 5px 12px;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .divCell {
+    display: block;
+  }
+  .memberContainer,
+  .postViewContainer {
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    margin: 10px 0;
+  }
+  #UITopicContent .table td:nth-child(6),
+  #UITopicContent .table th:nth-child(6),
+  #UITopicContent .table td:nth-child(5),
+  #UITopicContent .table th:nth-child(5) {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .uiForumActionBar #uiRightActionBar .privateMessage {
+    font-size: 0;
+  }
 }

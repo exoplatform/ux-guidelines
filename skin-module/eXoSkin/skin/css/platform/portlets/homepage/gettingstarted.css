@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -60,7 +60,7 @@
   margin: 0 0 5px 0;
   cursor: pointer;
   position: relative;
-  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/homepage/gettingStarted/gettingStartedCheck.png") no-repeat left -43px;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/portlets/homepage/gettingStarted/gettingStartedCheck.png") no-repeat left -43px;
 }
 .uiGettingStarted .gsList li:before {
   background: #cccccc;

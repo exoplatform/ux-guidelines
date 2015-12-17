@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -48,11 +48,11 @@
   text-transform: uppercase;
   color: #2f5e92;
   background-color: #f1f1f1;
-  background-image: -moz-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: -o-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: linear-gradient(to bottom, #f7f7f7, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
   height: 40px;

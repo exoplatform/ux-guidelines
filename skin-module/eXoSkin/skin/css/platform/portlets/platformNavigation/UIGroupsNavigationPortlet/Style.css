@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -80,6 +80,9 @@
 .uiGroupsNavigationPortlet .groupNavigation .groupItem > div {
   padding: 8px 10px 0;
   display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .uiGroupsNavigationPortlet .groupNavigation .groupItem > div .groupIcon {
   margin-left: 20px;

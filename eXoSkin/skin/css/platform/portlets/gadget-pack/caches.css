@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -69,6 +69,17 @@
   background: #e6e6e6;
   border-radius: 2px;
 }
+.uiBox.cacheLevel .uiContentBox {
+  width: 100%;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
 .cacheLevel .cache {
   margin: 10px 0;
 }
@@ -82,10 +93,6 @@
   background-image: linear-gradient(to bottom, #e6e6e6, #f0f0f0);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe6e6e6', endColorstr='#fff0f0f0', GradientType=0);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  overflow: hidden;
 }
 .cacheLevel .itemGraph {
   margin-top: 5px;
@@ -100,6 +107,7 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3677da', endColorstr='#ff215ab2', GradientType=0);
   height: 18px;
+  overflow: hidden;
 }
 .cacheLevel .usedPercent {
   background-color: #d63838;
@@ -110,14 +118,15 @@
   background-image: linear-gradient(to bottom, #e04747, #c72222);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe04747', endColorstr='#ffc72222', GradientType=0);
-  border-radius: 2px;
   height: 18px;
-  position: absolute;
-  left: 0;
   display: block;
-  top: 0;
-  z-index: 10;
   float: left;
+}
+.cacheLevel .graph,
+.cacheLevel .usedPercent {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
 }
 .cacheLevel .cache a b,
 .cache_label a {

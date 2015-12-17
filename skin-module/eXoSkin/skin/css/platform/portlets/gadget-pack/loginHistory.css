@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -142,10 +142,10 @@
   position: relative;
 }
 .uiGadgetThemes .gadContent .userForm .userContent .leftContent .selectIteam .iconDetail {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left 3px;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left 3px;
 }
 .uiGadgetThemes .gadContent .userForm .userContent .leftContent .selectIteam .iconStastics {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left -24px;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left -24px;
 }
 .uiGadgetThemes .gadContent .userForm .userContent .leftContent .selectIteam .caret {
   border-left: 7px solid #999;
@@ -159,10 +159,10 @@
   display: block;
 }
 .uiGadgetThemes .gadContent .userForm .userContent .leftContent .iconStastics {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left bottom;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left bottom;
 }
 .uiGadgetThemes .gadContent .userForm .userContent .leftContent .iconDetail {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left -50px;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/Statistics/StasticsIcon.png") no-repeat left -50px;
 }
 .uiGadgetThemes .gadContent .userForm .userContent .rightContent {
   margin-left: 55px;

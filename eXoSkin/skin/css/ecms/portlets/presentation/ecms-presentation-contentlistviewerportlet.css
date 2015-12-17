@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -42,6 +42,35 @@
   }
 }
 /*---------------------------UIFolderPathSelectorForm------------------------------------*/
+.UICLVFolderMode {
+  border: 1px solid transparent;
+}
+.Column2 {
+  border: 1px solid transparent;
+}
+.Column1 {
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.UICLVPortlet .uiBox .title {
+  *zoom: 1;
+}
+.UICLVPortlet .uiBox .title:before,
+.UICLVPortlet .uiBox .title:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.UICLVPortlet .uiBox .title:after {
+  clear: both;
+}
+.UICLVPortlet .uiBox .title .rssIcon {
+  line-height: 0;
+}
+.UICLVPortlet .uiBox .media .heading a {
+  font-weight: bold;
+  color: #333333;
+}
 .UICLVPortlet .TitleBox {
   background: #f0f0f0;
   border: 1px solid #cccccc;
@@ -150,7 +179,7 @@
   background: #f0f0f0;
 }
 .UIContentGrid .EvenRow {
-  background: #f7f7f7;
+  background: #f8f8f8;
 }
 .UIContentGrid td {
   border-left: 1px solid #cccccc;
@@ -301,11 +330,8 @@
   margin-right: 10px;
   padding: 0 0 10px;
 }
-.twoColumnsCLVTemplate {
+.RightBodyTDContainer .twoColumnsCLVTemplate {
   margin: 25px;
-}
-.twoColumnsCLVTemplate .uiBox .title {
-  min-height: 20px;
 }
 .twoColumnsCLVTemplate .uiBox .media .image {
   margin: 6px 15px 0 0;
@@ -322,13 +348,25 @@
 .twoColumnsCLVTemplate .uiBox .media .summary p {
   margin-bottom: 0;
 }
-.UICLVFolderMode {
-  border: 1px solid transparent;
+.twoColumnsCLVTemplate .rowContent .Column2 {
+  margin-top: 0;
+  width: 48%;
+  float: left;
+  border-right: 0 none;
 }
-.Column2 {
-  border: 1px solid transparent;
+.twoColumnsCLVTemplate .rowContent .Column2 + .Column2 {
+  margin-left: 15px;
 }
-.Column1 {
-  border: 1px solid transparent;
-  overflow: hidden;
+.documentsCLVTemplate .media .image.pull-left {
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.documentsCLVTemplate .media-body .heading p {
+  margin-bottom: 0;
+}
+.UICLVHotNews .NormalNews {
+  margin-top: 10px;
+}
+.UICLVHotNews .Date {
+  padding-left: 20px;
 }

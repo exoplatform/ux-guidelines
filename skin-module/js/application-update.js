@@ -8,6 +8,10 @@
 
     var $window = $(window)
 
+    $('.toggle-left-bar').on('click', function(){
+      $('body').toggleClass('open-offcanvas');
+    });
+
     // Disable certain links in docs
     $('section [href^=#]').click(function (e) {
       e.preventDefault()

@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -43,8 +43,7 @@
 }
 [class^="uiIconCal"],
 .LeftNavigationTDContainer .uiPopup [class^="uiIconCal"] {
-  margin-top: 0;
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/uiIconsCalDefault.png");
+  color: #ffffff;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .nav-pills > .active > a > [class^="uiIconCal"],
@@ -55,11 +54,10 @@
 .uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconCal"],
 .btn:hover [class^="uiIconCal"],
 a:hover [class^="uiIconCal"],
-[class^="uiIconCal"]:hover,
 .UICalendarPortlet .actionIcon:hover [class^="uiIconCal"],
 .uiCalendarPortlet .actionIcon:hover [class^="uiIconCal"],
 .uiIconCalBlue {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/uiIconsCalPrimary.png");
+  color: #0ab5f5;
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu li a > [class^="uiIconCal"],
@@ -68,11 +66,10 @@ a:hover [class^="uiIconCal"],
 .uiDropDownCal li a [class^="uiIconCal"],
 .uiDropDownCal .active a [class^="uiIconCal"],
 .uiIconCalLightGray {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/uiIconsCalDefault.png");
+  color: #ffffff;
 }
-.uiIconCalExtra,
 .LeftNavigationTDContainer [class^="uiIconCal"] {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/uiIconsCalDefault.png");
+  color: #ffffff;
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconCal"],
@@ -92,155 +89,79 @@ a:hover [class^="uiIconCal"],
 .btn-primary:hover [class^="uiIconCal"],
 .btn-primary:hover [class^="uiIconCal"]:hover,
 .uiIconCalWhite {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/uiIconsCalSecondary.png");
+  color: #ffffff;
 }
+.dropdown-menu > li > a > .uiIconCalDarkGray,
+.breadcrumb .uiIconCalDarkGray,
+.dropdown-menu > .active > a > .uiIconCalDarkGray,
+.uiDropdownWithIcon .dropdown-submenu > a > .uiIconCalDarkGray,
+.uiIconCalExtra,
 .uiIconCalDarkGray {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/uiIconsCalExtra.png");
-}
-.uiEventCategoryManager [class^="uiIcon"] {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/Icons/uiIconsDefault.png");
+  color: #ffffff;
 }
 .uiIconCalnullPriority,
 .uiIconCalnonePriority {
   display: none;
 }
-.uiIconCalWatchMini {
-  background-position: 0 0;
+.uiIconCalWatchMini:before {
+  content: "\e79b";
 }
-.uiIconCalSettingMini {
-  background-position: -80px -20px;
+.uiIconCalSettingMini:before {
+  content: "\e78b";
 }
-.uiIconCalExportCalendar {
-  background-position: 0 0;
+.uiIconCalInviteUser:before {
+  content: "\e6c4";
 }
-.uiIconCalImportCalendar {
-  background-position: -20px 0;
+.uiIconCalRejectUser:before {
+  content: "\e6c5";
 }
-.uiIconCalCreateEvent {
-  background-position: -40px 0;
+.uiIconCalPlus:before,
+.uiIconCalSimplePlus:before {
+  content: "\e74b";
 }
-.uiIconCalCreateTask {
-  background-position: -60px 0;
+.uiIconCalRefresh:before {
+  content: "\e797";
 }
-.uiIconCalAddCalendar {
-  background-position: -80px 0;
+.uiIconCalTaskMini:before {
+  content: "\e611";
 }
-.uiIconCalRemoteCalendar {
-  background-position: -100px 0;
+.uiIconCalClockMini:before {
+  content: "\e742";
 }
-.uiIconCalEventCategory {
-  background-position: -192px 0;
+.uiIconCalCheckinMini:before {
+  content: "\e782";
 }
-.uiIconCalInviteUser {
-  background-position: -140px 0;
-}
-.uiIconCalRejectUser {
-  background-position: -160px 0;
-}
-.uiIconCalPlus,
-.uiIconCalSimplePlus {
-  background-position: 0 -20px;
-}
-.uiIconCalRefresh {
-  background-position: -288px 0;
-}
-.uiIconCalTaskMini {
-  background-position: -20px -21px;
-}
-.uiIconCalClockMini {
-  background-position: -40px -21px;
-}
-.uiIconCalCheckinMini {
-  background-position: -60px -21px;
+.uiIconCalFlagHigh:before,
+.uiIconCalhighPriority:before,
+.uiIconCalFlagNormal:before,
+.uiIconCalnormalPriority:before,
+.uiIconCalFlagLow:before,
+.uiIconCallowPriority:before {
+  content: "\e746";
 }
 .uiIconCalFlagHigh,
 .uiIconCalhighPriority {
-  background-position: -142px -21px;
+  color: #c72222;
 }
 .uiIconCalFlagNormal,
 .uiIconCalnormalPriority {
-  background-position: -122px -21px;
+  color: #ff9916;
 }
 .uiIconCalFlagLow,
 .uiIconCallowPriority {
-  background-position: -102px -21px;
-}
-.uiIconCalShare {
-  background-position: -180px 0px;
-}
-.uiIconCalICal {
-  background-position: -180px -21px;
-}
-.uiIconCalRecurring {
-  background-position: -1px -41px;
-}
-.uiIconCalEditRecurring {
-  background-position: -21px -41px;
+  color: #39c522;
 }
 .eventContainerBar [class^="uiIconCal"],
 .eventSummary [class^="uiIconCal"] {
   width: 14px;
+  font-size: 10px;
 }
 .eventContainerBar .uiIconCalClockMini,
 .eventContainerBar .uiIconCalTaskMini {
   margin-left: 4px;
 }
-.uiDropDownCal li > a {
-  display: block;
-  clear: both;
-  font-weight: normal;
-  line-height: 20px;
-  color: #ffffff;
-  white-space: nowrap;
-  padding: 6px 19px;
-}
-.uiDropDownCal li > a:hover,
-.uiDropDownCal li > a:focus,
-.uiDropDownCal .active > a,
-.uiDropDownCal .active > a:hover,
-.dropdown-submenu:hover > a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #29b8ed;
-  background-image: -moz-linear-gradient(top, #3dc5f7, #09a5df);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3dc5f7), to(#09a5df));
-  background-image: -webkit-linear-gradient(top, #3dc5f7, #09a5df);
-  background-image: -o-linear-gradient(top, #3dc5f7, #09a5df);
-  background-image: linear-gradient(to bottom, #3dc5f7, #09a5df);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3dc5f7', endColorstr='#ff09a5df', GradientType=0);
-}
-.uiDropdownWithIcon .uiDropDownCal li > a {
-  padding: 6px 19px;
-}
-.uiDropdownWithIcon .uiDropDownCal li > a i {
-  margin-right: 5px;
-}
-.arrowLeft,
-.arrowLeft:after {
-  position: absolute;
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-.arrowLeft:after {
-  content: "";
-  z-index: -1;
-}
-.arrowLeft {
-  top: 50%;
-  left: -9px;
-  margin-top: -10px;
-  border-width: 9px  9px 9px 0;
-  border-right-color: #333333;
-}
-.arrowLeft:after {
-  border-width: 10px 10px 10px 0;
-  border-right-color: #cccccc;
-  bottom: -10px;
-  left: -1px;
+.uiIconCalSimplePlus {
+  font-size: 9px;
 }
 /*============== ContentContainer uiCalendars ================*/
 .uiCalendars {
@@ -345,14 +266,6 @@ a:hover [class^="uiIconCal"],
   width: 16px;
   height: 16px;
 }
-.uiCalNotification .uiIconBell {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/icon-bell.png");
-  background-position: 0px 0px;
-}
-.uiCalNotification .uiIconBell:hover {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/calendar/Icons/icon-bell.png");
-  background-position: 0px 0px;
-}
 .uiCalNotification .description {
   color: #ffffff;
 }
@@ -361,6 +274,11 @@ a:hover [class^="uiIconCal"],
 }
 .uiCalendars.defaultCalendarTab .settingNotice {
   margin: 0 0 10px 0;
+}
+.calendarCheckboxBlock .checkbox {
+  left: 2px;
+  padding: 0;
+  top: -4px;
 }
 /*============== TableView ================*/
 .uiCalendarViewContainer .table {
@@ -426,6 +344,11 @@ a:hover [class^="uiIconCal"],
   margin: 0 0 8px 20px;
   word-wrap: break-word;
   line-height: 16px;
+}
+.uiCalPopover .popover-content .pull-left i {
+  position: relative;
+  top: -2px;
+  font-size: 10px;
 }
 /*============== uiCalendarView ================*/
 .DummyDNDClass {
@@ -509,10 +432,11 @@ a:hover [class^="uiIconCal"],
 .eventWeekContent .resizeEventContainer {
   background: none;
   cursor: n-resize;
-  height: 7px;
-  margin: -4px auto 1px;
+  height: 5px;
+  width: 100%;
   display: none;
-  position: relative;
+  position: absolute;
+  bottom: 0px;
 }
 .eventDayContent .resizeEventContainer span,
 .eventWeekContent .resizeEventContainer span {
@@ -588,6 +512,10 @@ a:hover [class^="uiIconCal"],
   position: absolute;
   cursor: pointer;
 }
+.UICalendarViewContainer .resizeButton:hover .uiIconMiniArrowLeft,
+.uiCalendarViewContainer .resizeButton:hover .uiIconMiniArrowLeft {
+  color: #0ab5f5;
+}
 .UserSelectionBlock,
 .userSelectionBlock {
   -moz-user-select: none;
@@ -631,8 +559,8 @@ a:hover [class^="uiIconCal"],
   line-height: 24px;
   vertical-align: middle;
 }
-.uiHeaderBar > .actionIcon.pull-left {
-  margin-top: 0;
+.uiHeaderBar > .actionIcon.pull-left i {
+  top: 1px!important;
 }
 /*============== uiActionBar ================*/
 .uiActionBar .UIForm {
@@ -726,35 +654,27 @@ a:hover [class^="uiIconCal"],
 }
 /*============== uiFormColorPicker ================*/
 .iconCheckBox {
-  background: url("../../../../eXoSkin/skin/images/themes/blue/calendar/background/iconCheckBox.png") no-repeat left top;
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #ffffff;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  padding: 0;
-  min-height: 12px;
+  position: relative;
+  top: 1px;
+  min-height: 0;
 }
-.calendarTableColor {
-  padding: 7px 13px;
-  min-height: 90px;
-}
-.calendarTableColor .colorCell {
-  border: 1px solid transparent;
-  text-align: center;
-  width: 16px;
-  height: 16px;
-  display: block;
-  padding: 0;
-  float: left;
-  clear: none;
-  margin: 2px;
-}
-.calendarTableColor .colorCell:hover {
-  border: 1px solid #ffffff;
-}
-.calendarTableColor > div {
-  width: 132px;
-  margin: 0 auto;
+.iconCheckBox:before {
+  content: "\e76f";
+  color: white;
+  font-size: 9px;
 }
 .form-horizontal .control-group .controls .uiFormColorPicker {
   padding-top: 6px;
@@ -812,103 +732,6 @@ a:hover [class^="uiIconCal"],
   border-left: 3px solid transparent;
   border-top: 3px solid #cccccc;
   border-right: 3px solid transparent;
-}
-/*============== ColorPicker ================*/
-.asparagus,
-.calendarTableColor .asparagus:hover {
-  background: #909958;
-}
-.munsell_blue,
-.calendarTableColor .munsell_blue:hover {
-  background: #319AB3;
-}
-.navy_blue,
-.calendarTableColor .navy_blue:hover {
-  background: #4273C8;
-}
-.purple,
-.calendarTableColor .purple:hover {
-  background: #774EA9;
-}
-.red,
-.calendarTableColor .red:hover {
-  background: #FF5933;
-}
-.brown,
-.calendarTableColor .brown:hover {
-  background: #BB8E62;
-}
-.laurel_green,
-.calendarTableColor .laurel_green:hover {
-  background: #BED67E;
-}
-.sky_blue,
-.calendarTableColor .sky_blue:hover {
-  background: #4DBED9;
-}
-.blue_gray,
-.calendarTableColor .blue_gray:hover {
-  background: #8EB0EA;
-}
-.light_purple,
-.calendarTableColor .light_purple:hover {
-  background: #BC99E7;
-}
-.hot_pink,
-.calendarTableColor .hot_pink:hover {
-  background: #F97575;
-}
-.light_brown,
-.calendarTableColor .light_brown:hover {
-  background: #C5B294;
-}
-.moss_green,
-.calendarTableColor .moss_green:hover {
-  background: #98CC81;
-}
-.powder_blue,
-.calendarTableColor .powder_blue:hover {
-  background: #9EE4F5;
-}
-.light_blue,
-.calendarTableColor .light_blue:hover {
-  background: #B3CFFF;
-}
-.pink,
-.calendarTableColor .pink:hover {
-  background: #FFC8F0;
-}
-.orange,
-.calendarTableColor .orange:hover {
-  background: #FDB519;
-}
-.gray,
-.calendarTableColor .gray:hover {
-  background: #A39594;
-}
-.green,
-.calendarTableColor .green:hover {
-  background: #89D4B3;
-}
-.baby_blue,
-.calendarTableColor .baby_blue:hover {
-  background: #B2E2FF;
-}
-.light_gray,
-.calendarTableColor .light_gray:hover {
-  background: #CDCDCD;
-}
-.beige,
-.calendarTableColor .beige:hover {
-  background: #FFE1BE;
-}
-.yellow,
-.calendarTableColor .yellow:hover {
-  background: #FFE347;
-}
-.plum,
-.calendarTableColor .plum:hover {
-  background: #CEA6AC;
 }
 /*============== uiMiniCalendar ================*/
 .uiMiniCalendar .highLight {
@@ -1179,6 +1002,7 @@ a:hover [class^="uiIconCal"],
 .UIEventPreview .tableListEvent .right {
   text-align: right;
   width: 110px;
+  vertical-align: top;
 }
 .uiListContainer .tableListEvent .right + td,
 .UIEventPreview .tableListEvent .right + td {
@@ -1309,18 +1133,36 @@ a:hover [class^="uiIconCal"],
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset, 0px 1px 0px rgba(255, 255, 255, 0.73);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset, 0px 1px 0px rgba(255, 255, 255, 0.73);
 }
+.uiMonthView .eventOnDayContent .uiCheckbox input[type="checkbox"] + span {
+  text-indent: 0;
+}
 .uiMonthView .eventOnDayContent .uiCheckbox input[type="checkbox"]:checked + span:after {
-  background: url("../../../../eXoSkin/skin/images/themes/blue/calendar/background/iconCheckBox.png") no-repeat left top;
-  width: 12px;
-  height: 12px;
-  left: -1px;
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #ffffff;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  content: "\e76f";
+  color: white;
+  font-size: 9px;
+  left: 0px;
+  top: -2px;
   border: none;
   -webkit-transform: none;
   -moz-transform: none;
   -ms-transform: none;
   -o-transform: none;
   transform: none;
-  top: 1px;
 }
 /*=================UIEventAttenderTab========================*/
 .uiPopup .uiGrid.table tr td,
@@ -1763,4 +1605,33 @@ input.placeholder {
 }
 .checkBoxArea .textLabel span {
   margin-right: 5px;
+}
+.uiBox .title .actionIcon [class^="uiIcon"],
+.uiBox .title .actionIconSmall [class^="uiIcon"] {
+  top: -1px;
+}
+@media (max-width: 480px) {
+  .uiCalendars .contentContainer {
+    height: auto!important;
+  }
+  .uiRightClickPopupMenu.CalendarMainPopupMenu {
+    right: 0;
+    left: 14px !important;
+    max-width: 206px;
+  }
+  .uiRightClickPopupMenu.CalendarMainPopupMenu .arrowLeft {
+    display: none;
+  }
+  .uiEventCategoryManager .uiEventCategoryForm .controlLabelSmall + .controls {
+    margin-left: 0;
+  }
+  .uiEventCategoryManager .uiEventCategoryForm .controlLabelSmall + .controls input[type="text"] {
+    max-width: 164px;
+  }
+  .UISubscribeForm .form-horizontal .control-group .control-label {
+    width: 100%!important;
+  }
+  .UISubscribeForm .form-horizontal .control-group .controls {
+    margin-left: 0!important;
+  }
 }

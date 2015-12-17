@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -50,8 +50,78 @@
   transform: translate(-50%);
   margin-top: -10px;
 }
-.uiUserNotificationPortlet .uiGrid.table tr label {
+.uiUserNotificationPortlet [class^="uiIconPLF"] {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+.uiUserNotificationPortlet .uiIconPLFWeb:before {
+  content: "\e73a";
+}
+.uiUserNotificationPortlet .uiIconPLFMail:before {
+  content: "\e6b8";
+}
+.uiUserNotificationPortlet .status-false {
+  color: #999999;
+}
+.uiUserNotificationPortlet .uiGrid.table tr.disable {
+  color: #999999;
+}
+.uiUserNotificationPortlet .uiGrid.table tr td:first-child > label {
   padding-left: 20px;
+}
+.uiUserNotificationPortlet .uiGrid.table tr td .view .edit-mode,
+.uiUserNotificationPortlet .uiGrid.table tr td .view .btn {
+  display: none;
+}
+.uiUserNotificationPortlet .uiGrid.table tr td .edit .view-mode,
+.uiUserNotificationPortlet .uiGrid.table tr td .edit .edit-setting {
+  display: none;
+}
+.uiUserNotificationPortlet .view-mode > div,
+.uiUserNotificationPortlet .edit-mode > div {
+  padding: 2px 0;
+}
+.uiUserNotificationPortlet .view-mode [class^="uiIconPLF"] {
+  margin-right: 4px;
+}
+.uiUserNotificationPortlet .edit-mode .labelForm {
+  line-height: 28px;
+  margin-right: 10px;
+}
+.uiUserNotificationPortlet .channel-container {
+  position: relative;
+}
+.uiUserNotificationPortlet .channel-container .right-container {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.uiUserNotificationPortlet .form-horizontal {
+  padding-top: 5px;
+}
+.uiUserNotificationPortlet .channel-actives {
+  margin-bottom: 15px;
+}
+.uiUserNotificationPortlet .channel-actives .pull-left + .pull-left {
+  margin-left: 20px;
 }
 .uiNotificationSettings .uiSocTitleBar {
   margin-bottom: 10px;
@@ -67,9 +137,5 @@
   margin-left: 1px!important;
 }
 .uiNotificationSettings .form-horizontal table thead tr th:last-child {
-  text-align: center;
-}
-.uiNotificationSettings .form-horizontal table tr td:last-child .uiSelectbox,
-.uiNotificationSettings .form-horizontal table tr td:last-child .uiSelectbox .selectbox {
-  width: 82px;
+  width: 50%;
 }

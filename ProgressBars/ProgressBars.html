@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Progress Bars-eXo UX Guidelines</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +10,16 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-       <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
-	 
-	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
-	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+    <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/responsive.css" rel="stylesheet">
+
+    <!-- syntaxhighlighter -->
+    <link href="../js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -25,130 +27,194 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-	<script src="../js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script><script src="../js/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-146052-10']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+    <script src="../js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script>
+    <script src="../js/ga.js" async="" type="text/javascript"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-146052-10']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
     </script>
- 	 </head>
+</head>
 
-  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+<body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
 
-    <!-- Navbar
-    ================================================== -->
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner clearfix">
-    <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    </a>
-    <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
-    <div class="nav-collapse">
-      <ul class="nav">
-        <li><a href="../getting-started.html">Getting Started</a></li>
-        <li class="active"><a href="../Components.html">Components</a></li>
-        <li><a href="../Patterns.html">Patterns</a></li>
-      </ul>
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top ">
+        <div class="navbar-inner clearfix">
+            <button class="toggle-left-bar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="brand"><img src="../img/global.logo.png" /></a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li class="active"><a href="../Components.html">Components</a></li>
+                    <li><a href="../Patterns.html">Patterns</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 0px;">
+                    <div class="btn-group">
+                        <div class="btn btn-small active"><a href="ProgressBars.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="../skin-module/ProgressBars/ProgressBars.html">Dark Theme</a></div>
+                    </div>
+                </div>
+                <div class="btn-group-download pull-right">
+                    <a href="http://community.exoplatform.com/downloads" class="btn btn-primary" target="_blank"><i class="uiIconDownload"></i> <span>Download eXo Platform</span></a>
+                    <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> <span>Learn more about eXo Platform</span></a>
+                </div>
+            </div>
+        </div>
     </div>
 
-        <div class="pull-right" style="margin-top: 0px;">
-        <div class="btn-group">
-          <div  class="btn btn-small active"><a href="ProgressBars.html">Default Theme</a> </div>
-          <div  class="btn btn-small" ><a href="../skin-module/ProgressBars/ProgressBars.html">Dark Theme</a></div>
+    <div class="main-content">
+        <!-- Subhead -->
+        <div class="jumbotron subhead">
+            <div class="container">
+                <h1>Progress bar</h1>
+                <p class="lead">Basic CSS for loading, redirecting, or action status.</p>
+            </div>
         </div>
-      </div>
 
-        <div class="pull-right" style="margin-top: 11px; margin-right: 60px">
-        <a class="btnDownloadTop" target="_blank" href="http://community.exoplatform.com/downloads"></a>
-        <a class="btnLearMore" href="http://www.exoplatform.com"></a>
+        <div class="container">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="row">
+                <div class="span3 bs-docs-sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top">
+                        <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Basic</a></li>
+                        <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Striped</a></li>
+                        <li class=""><a href="#S3"><i class="icon-chevron-right"></i>Animated</a></li>
+                    </ul>
+                </div>
+                <div class="span9">
+                    <!-- Headings -->
+                    <section id="S1">
+                        <div class="page-header">
+                            <h2>Basic</h2>
+                        </div>
+                        <p>Following the eXo Platform style, the blue color of the progress bar is darker than Bootstrap. It is known as electric blue.</p>
+                        <div class="bs-docs-example">
+                            <div class="progress">
+                                <div class="bar" style="width: 60%;"></div>
+                            </div>
+                        </div>
+<pre class="prettyprint linenums">
+&lt;div class="progress"&gt;
+    &lt;div class="bar" style="width: 60%;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                    </section>
+
+                    <section id="S2">
+                        <div class="page-header">
+                            <h2>Striped</h2>
+                        </div>
+                        <div class="bs-docs-example">
+                            <div class="progress progress-striped">
+                                <div class="bar" style="width: 20%;"></div>
+                            </div>
+                        </div>
+<pre class="prettyprint linenums">
+&lt;div class="progress progress-striped"&gt;
+    &lt;div class="bar" style="width: 20%;">&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                    </section>
+
+                    <section id="S3">
+                        <div class="page-header">
+                            <h2>Animated</h2>
+                        </div>
+                        <p>Add <code>.active</code> to <code>.progress-striped</code> to animate the stripes from left to right. It is not available in Internet Explorer.</p>
+                        <div class="bs-docs-example">
+                            <div class="progress progress-striped active">
+                                <div class="bar" style="width: 45%"></div>
+                            </div>
+                        </div>
+<pre class="prettyprint linenums">
+&lt;div class="progress progress-striped active"&gt;
+    &lt;div class="bar" style="width: 45%"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                    </section>
+                </div>
+            </div>
         </div>
-      </div>
-  </div>
-</div>
-<!-- Subhead
-================================================== -->
-<div class="jumbotron subhead">
-      <div class="container">
-    <h1>Progress bar</h1>
-    <p class="lead">Basic CSS for loading, redirecting, or action status.</p></div>
-</div>
-</div>
+    </div>
 
- <div class="container"><!-- Main hero unit for a primary marketing message or call to action -->
-        <div class="row"><div class="span3 bs-docs-sidebar">
-        <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Basic</a></li>
-          <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Striped</a></li>
-	   <li class=""><a href="#S3"><i class="icon-chevron-right"></i>Animated</a></li>
-        </ul>
-      </div>
-      <div class="span9">
-        <!-- Headings================================================== -->
-        <section id="S1">
-          <div class="page-header">
-            <h2>Basic</h2>
-          </div>
-          <p>Following the eXo Platform style, the blue color of the progress bar is darker than Bootstrap. It is known as electric blue.</p>
-          <div class="bs-docs-example">
-            <div class="progress">
-              <div class="bar" style="width: 60%;"></div>
-            </div>
-          </div>
-<div class="prettyprint linenums">
-	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-	<div class="progress">
-	  <div class="bar" style="width: 60%;"></div>
-	</div>
-]]></script>
-</div> 
-        </section>
-
-        <section id="S2">
-           <div class="page-header">
-            <h2>Striped</h2>
-          </div>
-                    <div class="bs-docs-example">
-            <div class="progress progress-striped">
-              <div class="bar" style="width: 20%;"></div>
-            </div>
-          </div>
-<div class="prettyprint linenums">
-	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-	<div class="progress progress-striped">
-	  <div class="bar" style="width: 20%;"></div>
-	</div>
-]]></script>
-</div> 
-	</section>
-
-	<section id="S3">
-           <div class="page-header">
-            <h2>Animated</h2>
-          </div>
-           <p>Add <code>.active</code> to <code>.progress-striped</code> to animate the stripes from left to right. It is not available in Internet Explorer.</p>
-          <div class="bs-docs-example">
-            <div class="progress progress-striped active">
-              <div class="bar" style="width: 45%"></div>
-            </div>
-          </div>
-<div class="prettyprint linenums">
-	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-	<div class="progress progress-striped active">
-	  <div class="bar" style="width: 45%"></div>
-	</div>
-]]></script>
-</div> 
-	</section>
-</div>
-<div id="footer">
+    <div id="footer">
         Copyright &copy;2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
-      </div></div> 
+    </div>
+
+    <div class="mobile-offcanvas">
+        <div class="menu-main-menu-container">
+            <ul class="menu" id="primary-menu">
+                <li>
+                    <div>
+                        <div class="btn-group">
+                            <a href="ProgressBars.html" class="btn btn-small active">Default Theme</a>
+                            <a href="../skin-module/ProgressBars/ProgressBars.html" class="btn btn-small">Dark Theme</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="http://community.exoplatform.com/downloads" target="_blank" class="btn btn-primary"><i class="uiIconDownload"></i> Download eXo Platform</a>
+                        <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> Learn more about eXo Platform</a>
+                    </div>
+                </li>
+                <li><a href="../getting-started.html">Getting Started</a></li>
+                <li class="has-sub active">
+                    <a href="../Components.html">Components</a>
+                    <ul class="sub-menu">
+                        <li><a href="../Typography/Typography.html">Typography</a></li>
+                        <li><a href="../Form/Form.html">Form</a></li>
+                        <li><a href="../Button/Button.html">Button</a></li>
+                        <li><a href="../Tables/Tables.html">Table</a></li>
+                        <li><a href="../Avatar/Avatar.html">Avatar</a></li>
+                        <li><a href="../Icons/Icons.html">Icon</a></li>
+                        <li><a href="../Navigation/Navigation.html">Navigation</a></li>
+                        <li><a href="../Dropdown/Dropdown.html">Dropdown</a></li>
+                        <li><a href="../MiniCalendar/MiniCalendar.html">Mini Calendar</a></li>
+                        <li class="active"><a href="../ProgressBars/ProgressBars.html">Progress bar</a></li>
+                        <li><a href="../Alerts/Alerts.html">Alert</a></li>
+                        <li><a href="../TooltipandPopover/TooltipandPopover.html">Tooltip and Popover</a></li>
+                        <li><a href="../Thumbnail/Thumbnail.html">Thumbnail</a></li>
+                        <li><a href="../Mention/Mention.html">Mention</a></li>
+                        <li><a href="../Color/Color.html">Color</a></li>
+                        <li><a href="../Trees/Trees.html">Trees</a></li>
+                        <li><a href="../BadgeAndLoading/BadgeAndLoading.html">Badge and Loading</a></li>
+                        <li><a href="../Classes/Classes.html">CSS Classes</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="../Patterns.html">Patterns</a>
+                    <ul class="sub-menu">
+                        <li><a href="../BreadcrumbPattern/BreadcrumbPattern.html">Breadcrumb</a></li>
+                        <li><a href="../HoverrevealActionsPattern/HoverrevealActionsPattern.html">Hover-reveal</a></li>
+                        <li><a href="../MessagesPattern/MessagesPattern.html">Message</a></li>
+
+                        <li><a href="../Pop-upWindowPattern/PopupWindowPattern.html">Popup</a></li>
+                        <li><a href="../PaginationPattern/PaginationPattern.html">Pagination</a></li>
+                        <li><a href="../TabPattern/Tabs.html">Tabs</a></li>
+
+                        <li><a href="../TabPattern/Tabs.html">Sort by Column</a></li>
+                        <li><a href="../TabPattern/Tabs.html">Table Filter</a></li>
+                        <li><a href="../TabPattern/Tabs.html">Rating</a></li>
+
+                        <li><a href="../TabPattern/Tabs.html">Uploading</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <!-- Le javascript
@@ -171,24 +237,28 @@
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-	<script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+
+    <!-- syntaxhighlighter -->
+    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
 
     <!-- Analytics
     ================================================== -->
     <script>
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
+        var _gauges = _gauges || [];
+        (function() {
+            var t = document.createElement('script');
+            t.type = 'text/javascript';
+            t.async = true;
+            t.id = 'gauges-tracker';
+            t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+            t.src = '//secure.gaug.es/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+        })();
     </script>
 
-  
 
-</body></html>
+
+</body>
+
+</html>

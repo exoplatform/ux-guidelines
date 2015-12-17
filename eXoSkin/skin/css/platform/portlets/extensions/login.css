@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -41,6 +41,157 @@
     transform: rotate(359deg);
   }
 }
+.uiForgotPassword {
+  left: 50%;
+  max-width: 515px;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+}
+.uiForgotPassword .popupHeader {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4f4f4f;
+  background-image: -moz-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#474747), to(#5b5b5b));
+  background-image: -webkit-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -o-linear-gradient(top, #474747, #5b5b5b);
+  background-image: linear-gradient(to bottom, #474747, #5b5b5b);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474747', endColorstr='#ff5b5b5b', GradientType=0);
+  border-color: #5b5b5b #5b5b5b #353535;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  padding: 0 30px;
+  border: 1px solid #333333;
+  margin: -1px;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  height: 42px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.uiForgotPassword .popupHeader .popupTitle {
+  color: #c1c1c1;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
+  line-height: 42px;
+}
+.uiForgotPassword .popupContent {
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  margin: -1px;
+  border: 1px solid #333333;
+  padding: 15px 30px 30px;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginLeftBG.png") no-repeat left bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginRightBG.png") no-repeat right bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginCenterBG.png") repeat-x bottom;
+}
+.uiForgotPassword .popupContent .text {
+  line-height: 24px;
+}
+.uiForgotPassword .popupContent h5 {
+  margin: 0 0 4px 0;
+}
+.uiForgotPassword .popupContent input {
+  margin: 14px 0 5px;
+}
+.uiForgotPassword .popupContent .content {
+  padding: 5px 20px 0 0;
+}
+.uiForgotPassword .popupContent .alertForm {
+  position: relative;
+}
+.uiForgotPassword .popupContent .alertForm .alert {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+.uiForgotPassword .popupContent .alert-error {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  display: inline-block;
+}
+.uiForgotPassword .popupContent .alert-success {
+  margin-top: 0;
+  display: inline-block;
+}
+.uiForgotPassword .popupContent .control-label {
+  width: 135px;
+}
+.uiForgotPassword .popupContent .controls {
+  position: relative;
+  margin-left: 155px;
+}
+.uiForgotPassword .popupContent .controls input {
+  margin: 0;
+  width: 100%;
+}
+.uiForgotPassword .popupContent .controls .star {
+  position: absolute;
+  right: -9px;
+  top: 0;
+}
+.uiForgotPassword .popupContent .uiAction {
+  padding-top: 35px;
+}
+.uiForgotPassword .popupContent .uiAction button.btn {
+  padding: 10px 40px;
+  margin-right: 2px;
+  font-size: 16px;
+}
+.uiForgotPassword .popupContent .uiAction a.btn {
+  padding: 10px 35px;
+  font-size: 16px;
+}
+@media (max-width: 480px) {
+  .uiForgotPassword .popupHeader {
+    height: auto;
+  }
+  .uiForgotPassword .popupContent {
+    background: none;
+  }
+  .uiForgotPassword .popupContent .control-label {
+    width: 100%;
+    text-align: left;
+  }
+  .uiForgotPassword .popupContent .controls {
+    margin-left: 0px;
+  }
+  .uiForgotPassword .popupContent .controls .star {
+    top: 24px;
+  }
+  .uiForgotPassword .popupContent .content {
+    padding: 5px 0 0;
+  }
+  .uiForgotPassword .popupContent .uiAction {
+    padding-top: 0;
+  }
+  .uiForgotPassword .popupContent .uiAction .btn {
+    margin: 10px 0 0 !important;
+    padding: 10px 0 !important;
+    display: block;
+    width: 100%;
+  }
+}
 body {
   background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/login_texture.jpg") repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -50,7 +201,7 @@ body {
 .loginBGLight {
   background: #ffffff;
   border-radius: 80px 80px 80px 80px;
-  box-shadow: 0 0 550px #ffffff;
+  box-shadow: 0 0 250px #ffffff;
   left: 50%;
   margin: -100px;
   position: fixed;
@@ -61,17 +212,21 @@ body {
 .uiLogin {
   color: #333333;
   display: block;
-  font-size: 12px;
   left: 50%;
-  margin: -180px -195px 0;
-  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
   top: 50%;
   width: 392px;
 }
 .uiLogin .loginContainer {
   border-radius: 8px;
-  background: #ffffff url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginBG.png") no-repeat bottom;
-  padding: 0 40px;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginLeftBG.png") no-repeat left bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginRightBG.png") no-repeat right bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginCenterBG.png") repeat-x bottom;
+  padding: 0 40px 15px;
+  background-color: #ffffff;
 }
 .uiLogin .loginHeader {
   background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/LoginHeader.png") repeat-x scroll 0 0 transparent;
@@ -129,6 +284,9 @@ body {
   font-size: 18px;
   outline: none;
 }
+.uiLogin .loginContent input:not(*:root) {
+  height: 33px;
+}
 .uiLogin .loginContent input::-webkit-input-placeholder {
   color: #999999;
 }
@@ -140,6 +298,7 @@ body {
 }
 .uiLogin .loginContent input:-ms-input-placeholder {
   color: #999999;
+  opacity: 0.5;
 }
 .uiLogin .loginContent input:focus {
   color: #333333;
@@ -150,7 +309,7 @@ body {
   background-position: 0 -41px;
 }
 .uiLogin .loginContent .loginButton {
-  padding: 44px 0 30px;
+  padding: 30px 0 12px;
 }
 .uiLogin .loginContent .loginButton .button {
   -webkit-border-radius: 4px;
@@ -192,6 +351,10 @@ body {
   background-color: #2f5e92;
   *background-color: #29527f;
 }
+.uiLogin .loginContent .loginButton .button.disabled,
+.uiLogin .loginContent .loginButton .button[disabled] {
+  color: #999999;
+}
 .uiLogin .loginContent .loginButton .button:hover {
   text-decoration: none;
   background-position: 0 -15px;
@@ -199,6 +362,46 @@ body {
   -moz-transition: background-position 0.1s linear;
   -o-transition: background-position 0.1s linear;
   transition: background-position 0.1s linear;
+}
+.uiLogin .loginContent #social-pane {
+  text-align: center;
+  margin-top: 20px;
+}
+.uiLogin .loginContent #social-pane #SignInDelimiter {
+  font-size: 13px;
+}
+.uiLogin .loginContent #social-pane #social-login a {
+  display: inline-block;
+  margin: 10px 8px 0;
+  text-decoration: none;
+}
+.uiLogin .loginContent #social-pane #social-login a .uiIconOauth {
+  background-image: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/oauthIcon.png");
+  width: 37px;
+  height: 35px;
+  display: block;
+  background-repeat: no-repeat;
+}
+.uiLogin .loginContent #social-pane #social-login a:hover .uiIconOauth {
+  background-image: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/oauthIconHover.png");
+}
+.uiLogin .loginContent #social-pane #social-login a .facebook {
+  background-position: 0 0;
+}
+.uiLogin .loginContent #social-pane #social-login a .twitter {
+  background-position: -123px 0;
+}
+.uiLogin .loginContent #social-pane #social-login a .linkedin {
+  background-position: -82px 0;
+}
+.uiLogin .loginContent #social-pane #social-login a .google {
+  background-position: -41px 0;
+}
+.uiLogin .loginContent .centerLoginContent a {
+  color: #2f5e92;
+  text-decoration: none;
+  display: block;
+  margin: 3px 0;
 }
 .uiLogin .spaceRole {
   clear: both;
@@ -357,4 +560,120 @@ body {
   padding: 6px 3px 0 0;
   min-height: 31px;
   font-size: 11px;
+}
+input::-ms-clear,
+input[type=password]::-ms-reveal {
+  display: none;
+}
+/** Login form **/
+@media (min-width: 639px) and (max-width: 767px) {
+  .uiLogin {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: auto;
+  }
+}
+@media (max-width: 480px) {
+  .uiLogin {
+    width: 290px;
+  }
+  .uiLogin .loginHeader {
+    width: 199px;
+    padding: 2px 12px;
+  }
+  .uiLogin .loginHeader .userLoginIcon {
+    font-size: inherit;
+    font-weight: 600;
+    width: 145px;
+    font-size: 10px;
+  }
+  .uiLogin .loginContainer {
+    padding: 0 32px 15px;
+    background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginLeftBGXs.png") no-repeat left bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginRightBGXs.png") no-repeat right bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginCenterBGXs.png") repeat-x bottom;
+    background-color: #ffffff;
+  }
+  .uiLogin .loginContainer .loginContent input {
+    width: 172px;
+    background-position: left -5px;
+    font-size: 16px;
+    height: 26px;
+    margin: 5px 0;
+  }
+  .uiLogin .loginContainer .loginContent input:focus {
+    background-position: left -46px;
+  }
+  .uiLogin .loginContainer .loginContent .loginButton {
+    padding: 18px 0 8px;
+  }
+  .uiLogin .loginContainer .loginContent .loginButton .button {
+    width: 100%;
+    font-size: 12px;
+    height: 30px;
+  }
+  .uiLogin .loginContainer .loginContent #social-pane {
+    margin-top: 4px;
+  }
+  .uiLogin .loginContainer .loginContent #social-pane #social-login a {
+    margin: 5px 8px 0;
+  }
+  .uiLogin .loginContainer .loginContent #social-pane #social-login a .uiIconOauth {
+    background-image: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/oauthIconXs.png");
+    width: 27px;
+    height: 25px;
+  }
+  .uiLogin .loginContainer .loginContent #social-pane #social-login a:hover .uiIconOauth {
+    background-image: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/oauthIconHoverXs.png");
+  }
+  .uiLogin .loginContainer .loginContent #social-pane #social-login a .facebook {
+    background-position: 0 0;
+  }
+  .uiLogin .loginContainer .loginContent #social-pane #social-login a .twitter {
+    background-position: -88px 0;
+  }
+  .uiLogin .loginContainer .loginContent #social-pane #social-login a .linkedin {
+    background-position: -59px 0;
+  }
+  .uiLogin .loginContainer .loginContent #social-pane #social-login a .google {
+    background-position: -29px 0;
+  }
+  .uiLogin .loginContainer input:not(*:root) {
+    width: 166px;
+  }
+  .uiLogin .titleLogin {
+    font-size: 10px;
+    line-height: 10px;
+    min-height: 16px;
+    padding: 3px 3px 0 0;
+  }
+  .uiLogin .titleLogin .signinFail {
+    font-size: 10px;
+    margin: 0;
+    width: 225px;
+  }
+  .uiLogin .titleLogin .signinFail .uiIconError {
+    padding: 2px 10px;
+  }
+  .uiLogin .rememberTxt {
+    font-weight: normal;
+  }
+  .uiLogin .spaceRole {
+    padding: 1px 0 8px;
+  }
+  .loginBGLight {
+    height: 150px;
+  }
+  @supports (-webkit-appearance:none) {
+    .uiLogin .loginContainer .loginContent input {
+      width: 172px;
+    }
+  }
+}
+input[type=text]::-ms-clear,
+input[type=password]::-ms-reveal {
+  display: none;
+}
+@media (max-width: 767px) {
+  .loginBGLight {
+    display: none;
+  }
 }

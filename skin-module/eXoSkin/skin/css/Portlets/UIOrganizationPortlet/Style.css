@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -165,9 +165,6 @@
   line-height: 25px;
   padding: 5px 10px;
 }
-.uiOrganizationPortlet .groupNavigation .title .actionIcon {
-  padding: 3px 4px 1px;
-}
 .uiOrganizationPortlet .groupNavigation .title .tooltip {
   font-weight: normal;
 }
@@ -176,6 +173,10 @@
 }
 .uiOrganizationPortlet .groupNavigation + .groupDetail .form-horizontal {
   overflow: hidden;
+}
+.uiOrganizationPortlet .groupNavigation + .groupDetail .innerGroupDetail {
+  display: inline-block;
+  width: 100%;
 }
 .uiOrganizationPortlet .groupNavigation .uiTrees {
   background: #333333;
@@ -205,4 +206,38 @@
 .uiOrganizationPortlet .groupNavigation .title {
   line-height: 17px;
   padding: 8px;
+}
+@media (max-width: 1204px) {
+  .uiOrganizationPortlet .organizationPortletContainer {
+    min-width: auto!important;
+  }
+  .uiOrganizationPortlet .groupNavigation {
+    width: 100%;
+    float: none;
+  }
+  .uiOrganizationPortlet .groupNavigation + .groupDetail {
+    margin-left: 0;
+  }
+  .uiOrganizationPortlet .uiFormWithTitle .form-horizontal {
+    width: auto;
+  }
+  .uiOrganizationPortlet .groupNavigation + .groupDetail .form-horizontal {
+    overflow: visible;
+  }
+}
+@media (max-width: 767px) {
+  .UIUserManagement #UIListUsersGird {
+    overflow: auto;
+  }
+  .UIListMembershipType {
+    overflow: auto;
+  }
+  .groupDetail #UIGridUser {
+    overflow: auto;
+  }
+  .uiToolbar .managementIconContainer .pull-left {
+    display: block;
+    float: none;
+    margin: 5px ;
+  }
 }

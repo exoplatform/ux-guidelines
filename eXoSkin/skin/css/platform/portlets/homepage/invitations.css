@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -89,9 +89,8 @@
 }
 .uiInvitations .peopleInviteAction .deny .uiIconClose,
 .uiInvitations .spaceInviteAction .deny .uiIconClose {
-  position: relative;
-  right: 2px;
-  top: -1px;
+  margin-left: 5px;
+  right: 4px;
 }
 .uiInvitations .actionInviteAppears,
 .uiInvitations .actionSpaceAppears {

@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -47,13 +47,12 @@
 .uiSocApplication .uiProfile {
   padding: 10px 10px 0;
 }
-.uiSocApplication .uiProfile .uiIconGreenTick {
-  background-image: url("/eXoSkin/skin/images/themes/blue/Icons/uiIconsColor.png");
-  background-position: -80px -40px;
+.uiSocApplication .uiProfile .uiIconGreenTick:before {
+  content: "\e76f";
+  color: #39c522;
 }
-.uiSocApplication .uiProfile .uiIconGrayCircleTick {
-  background-image: url("/eXoSkin/skin/images/themes/blue/Icons/uiIconsColor.png");
-  background-position: -100px -40px;
+.uiSocApplication .uiProfile .uiIconGrayCircleTick:before {
+  content: "\e770";
 }
 .uiSocApplication .uiProfile .uiIconEdit {
   margin: 0px 0 0 10px;

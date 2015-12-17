@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -90,13 +90,25 @@ a {
   width: 512px;
 }
 .uiWelcomeBox .header {
-  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/headerBG.png") repeat-x scroll 0 0 transparent;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4f4f4f;
+  background-image: -moz-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#474747), to(#5b5b5b));
+  background-image: -webkit-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -o-linear-gradient(top, #474747, #5b5b5b);
+  background-image: linear-gradient(to bottom, #474747, #5b5b5b);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474747', endColorstr='#ff5b5b5b', GradientType=0);
+  border-color: #5b5b5b #5b5b5b #353535;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   border: 1px solid #393939;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
   width: 511px;
-  line-height: 44px;
+  line-height: 22px;
+  padding: 10px 0;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
@@ -155,6 +167,10 @@ a {
   color: #ffffff;
   background-color: #2f5e92;
   *background-color: #29527f;
+}
+.uiWelcomeBox .btn.disabled,
+.uiWelcomeBox .btn[disabled] {
+  color: #999999;
 }
 .uiWelcomeBox .btn:hover {
   text-decoration: none;
@@ -419,4 +435,31 @@ a {
 }
 .c17 {
   text-align: center;
+}
+@media (max-width: 640px) {
+  .backLight {
+    display: none;
+  }
+  .uiWelcomeBox {
+    margin: 0 15px;
+    width: auto;
+  }
+  .uiWelcomeBox .header {
+    width: auto;
+  }
+  .uiWelcomeBox .content {
+    padding: 10px 20px;
+  }
+  .uiWelcomeBox .bottom {
+    background: none;
+    text-align: left;
+  }
+  .uiWelcomeBox .bottom .pull-left,
+  .uiWelcomeBox .bottom .pull-right {
+    float: none;
+  }
+  .uiWelcomeBox .bottom .btn {
+    width: 100%;
+    text-align: center;
+  }
 }

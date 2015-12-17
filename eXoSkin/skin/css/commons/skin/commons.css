@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -68,11 +68,11 @@
   line-height: 30px;
   border-bottom: 1px solid #cccccc;
   background-color: #f1f1f1;
-  background-image: -moz-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: -o-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: linear-gradient(to bottom, #f7f7f7, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
   padding: 0px 5px 0px 10px;
@@ -95,11 +95,11 @@
   border-bottom: 1px solid #cccccc;
   font-weight: bold;
   background-color: #f1f1f1;
-  background-image: -moz-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: -o-linear-gradient(top, #f7f7f7, #e6e6e6);
-  background-image: linear-gradient(to bottom, #f7f7f7, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
   padding: 5px 0 5px 9px;
@@ -115,7 +115,6 @@
 }
 .spaceChooserPopup .spaceList {
   overflow-y: auto;
-  height: 300px;
   min-height: 30px;
 }
 .spaceChooserPopup .spaceList img {
@@ -126,6 +125,9 @@
   border-radius: 2px;
   margin-right: 6px;
   vertical-align: -4px;
+}
+.spaceChooserPopup .spaceList a {
+  white-space: nowrap;
 }
 .spaceChooserPopup .hover:hover {
   background-color: #2f5e92;
@@ -149,6 +151,37 @@
   -webkit-border-bottom-left-radius: 4px;
   -moz-border-radius-bottomleft: 4px;
   border-bottom-left-radius: 4px;
+}
+@media (max-width: 767px) {
+  .spaceChooserPopup .spaceList {
+    height: auto !important;
+    min-height: 30px;
+    overflow-y: auto;
+  }
+}
+@font-face {
+  font-family: 'PLF-FONT-ICONS';
+  src: url('../../../fonts/PLF-FONT-ICONS.eot?-m9uidt');
+  src: url('../../../fonts/PLF-FONT-ICONS.eot?#iefix-m9uidt') format('embedded-opentype'), url('../../../fonts/PLF-FONT-ICONS.ttf?-m9uidt') format('truetype'), url('../../../fonts/PLF-FONT-ICONS.woff?-m9uidt') format('woff'), url('../../../fonts/PLF-FONT-ICONS.svg?-m9uidt#PLF-FONT-ICONS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.BrowseLink [class^="uiIcon"] {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
 }
 .uiDocumentSelector .breadcrumb > a.uiIconTree {
   margin-top: 4px;
@@ -177,7 +210,7 @@
   height: 30px;
 }
 .uiDocumentSelector .listContainer {
-  background: #f7f7f7;
+  background: #f8f8f8;
   border: 1px solid #cccccc;
   list-style: none outside none;
   margin: 5px 0 0;
@@ -207,4 +240,71 @@
 }
 .uiDocumentSelector .btn.dropdown-toggle .uiIconArrowDown.uiIconLightGray {
   margin-right: 0;
+}
+.uiDocumentSelector .btn.dropdown-toggle span {
+  vertical-align: top;
+}
+.BrowseDiv {
+  position: relative;
+}
+.FileHidden {
+  overflow: hidden;
+  position: absolute;
+  height: 26px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.BrowseLink {
+  text-decoration: none;
+  border: 1px solid transparent;
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+.BrowseLink .uiIconUpload {
+  margin-top: 4px;
+  display: block;
+}
+.BrowseLink .uiIconUpload:before {
+  content: "\e78d";
+}
+.BrowseLink:hover {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  -moz-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.BrowseLink:hover:active,
+.BrowseLink:hover:focus {
+  -webkit-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  border: 1px solid #c7c7c7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+.BrowseLink:hover .uiIconUpload {
+  color: #2f5e92;
 }

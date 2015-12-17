@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -159,24 +159,6 @@
   border-left-color: #cccccc;
   bottom: -11px;
   right: -1px;
-}
-blockquote {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/homepage/whoIsOnline/right-quote.png") no-repeat right bottom;
-  padding-right: 25px;
-  padding-left: 25px;
-  color: #cccccc;
-  border-left: medium none;
-  width: 75%;
-  word-wrap: break-word;
-  position: relative;
-}
-blockquote:after {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/portlets/homepage/whoIsOnline/left-quote.png") no-repeat left top;
-  width: 15px;
-  height: 13px;
-  position: absolute;
-  top: 2px;
-  left: 0;
 }
 #tipName img {
   width: 36px;

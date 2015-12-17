@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -115,7 +115,6 @@
 }
 .spaceChooserPopup .spaceList {
   overflow-y: auto;
-  height: 300px;
   min-height: 30px;
 }
 .spaceChooserPopup .spaceList img {
@@ -126,6 +125,9 @@
   border-radius: 2px;
   margin-right: 6px;
   vertical-align: -4px;
+}
+.spaceChooserPopup .spaceList a {
+  white-space: nowrap;
 }
 .spaceChooserPopup .hover:hover {
   background-color: #0ab5f5;
@@ -149,6 +151,37 @@
   -webkit-border-bottom-left-radius: 4px;
   -moz-border-radius-bottomleft: 4px;
   border-bottom-left-radius: 4px;
+}
+@media (max-width: 767px) {
+  .spaceChooserPopup .spaceList {
+    height: auto !important;
+    min-height: 30px;
+    overflow-y: auto;
+  }
+}
+@font-face {
+  font-family: 'PLF-FONT-ICONS';
+  src: url('../../../fonts/PLF-FONT-ICONS.eot?-m9uidt');
+  src: url('../../../fonts/PLF-FONT-ICONS.eot?#iefix-m9uidt') format('embedded-opentype'), url('../../../fonts/PLF-FONT-ICONS.ttf?-m9uidt') format('truetype'), url('../../../fonts/PLF-FONT-ICONS.woff?-m9uidt') format('woff'), url('../../../fonts/PLF-FONT-ICONS.svg?-m9uidt#PLF-FONT-ICONS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.BrowseLink [class^="uiIcon"] {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #ffffff;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
 }
 .uiDocumentSelector .breadcrumb > a.uiIconTree {
   margin-top: 4px;
@@ -208,6 +241,9 @@
 .uiDocumentSelector .btn.dropdown-toggle .uiIconArrowDown.uiIconLightGray {
   margin-right: 0;
 }
+.uiDocumentSelector .btn.dropdown-toggle span {
+  vertical-align: top;
+}
 .BrowseDiv {
   position: relative;
 }
@@ -229,20 +265,16 @@ body {
   text-decoration: none;
   border: 1px solid transparent;
   text-align: center;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   display: block;
 }
 .BrowseLink .uiIconUpload {
-  width: 16px;
-  height: 16px;
-  background-image: url("/eXoSkin/skin/images/themes/blue/Icons/uiIconsDefault.png");
-  background-position: -20px -20px;
   margin-top: 4px;
-  display: inline-block;
+  display: block;
 }
-.BrowseLink .uiIconUpload:hover {
-  background-image: url("/eXoSkin/skin/images/themes/blue/Icons/uiIconsPrimary.png");
+.BrowseLink .uiIconUpload:before {
+  content: "\e78d";
 }
 .BrowseLink:hover {
   background-color: #2c2c2c;
@@ -274,5 +306,5 @@ body {
   background-color: #222222;
 }
 .BrowseLink:hover .uiIconUpload {
-  background-image: url("/eXoSkin/skin/images/themes/blue/Icons/uiIconsPrimary.png");
+  color: #0ab5f5;
 }

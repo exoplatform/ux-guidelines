@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -42,7 +42,7 @@
   }
 }
 .onlineHeader {
-  background: #f7f7f7;
+  background: #f8f8f8;
   border: 1px solid #e6e6e6;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -159,24 +159,6 @@
   border-left-color: #cccccc;
   bottom: -11px;
   right: -1px;
-}
-blockquote {
-  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/homepage/whoIsOnline/right-quote.png") no-repeat right bottom;
-  padding-right: 25px;
-  padding-left: 25px;
-  color: #999999;
-  border-left: medium none;
-  width: 75%;
-  word-wrap: break-word;
-  position: relative;
-}
-blockquote:after {
-  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/homepage/whoIsOnline/left-quote.png") no-repeat left top;
-  width: 15px;
-  height: 13px;
-  position: absolute;
-  top: 2px;
-  left: 0;
 }
 #tipName img {
   width: 36px;

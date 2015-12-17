@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -65,17 +65,17 @@
   height: 16px;
 }
 .UIGadgetThemes .Voted {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/TopVoteRateTopic/SmallYellowStar.png") no-repeat scroll center center transparent;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/TopVoteRateTopic/SmallYellowStar.png") no-repeat scroll center center transparent;
   float: left;
   height: 20px;
 }
 .UIGadgetThemes .HalfVoted {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/TopVoteRateTopic/SmallHalfStar.png") no-repeat scroll center center transparent;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/TopVoteRateTopic/SmallHalfStar.png") no-repeat scroll center center transparent;
   float: left;
   height: 20px;
 }
 .UIGadgetThemes .Unvoted {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/TopVoteRateTopic/SmallGreyStar.png") no-repeat scroll center center transparent;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/TopVoteRateTopic/SmallGreyStar.png") no-repeat scroll center center transparent;
   float: left;
   height: 20px;
 }

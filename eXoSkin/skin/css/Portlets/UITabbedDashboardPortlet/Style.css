@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -75,8 +75,8 @@
 .uiTabPaneDashboard .nav-tabs > li.active > a {
   cursor: pointer;
 }
-.uiTabPaneDashboard .nav-tabs > li.active > a .uiIconClose {
-  margin: 2px -6px 0 6px;
+.uiTabPaneDashboard .uiTabsContainer .uiIconClose {
+  margin-left: 4px;
 }
 .uiTabPaneDashboard .addDashboard span {
   display: inline-block;

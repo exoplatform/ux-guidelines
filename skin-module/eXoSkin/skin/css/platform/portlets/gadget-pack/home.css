@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -102,7 +102,7 @@
   margin: 0px 5px 0px 10px;
 }
 .TopGadget .DesIconHome {
-  background: url("/eXoSkin/skin/images/themes/blue/platform/gadget-pack/DesIconHome.gif") no-repeat left top;
+  background: url("/eXoDarkSkin/skin/images/themes/default/platform/gadget-pack/DesIconHome.gif") no-repeat left top;
   width: 22px;
   height: 22px;
   display: block;

@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -42,7 +42,7 @@
   }
 }
 .UICategoryNavigationTargetPathFormInputSet .SelectTargetPathIcon {
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -82,7 +82,7 @@
   margin: 10px;
 }
 .UICategoryNavigationPortlet .UICategoryNavigationConfig .SelectTreePathIcon {
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat left center;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/CategoryNavigation/SearchPath.gif') no-repeat left center;
   width: 16px;
   height: 16px;
   margin-left: 10px;

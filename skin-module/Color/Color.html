@@ -8,16 +8,16 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-       <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
-   <!-- syntaxhighlighter -->
-      <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
-      <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-      <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+    <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/responsive.css" rel="stylesheet">
+
+    <!-- syntaxhighlighter -->
+    <link href="../js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -40,40 +40,37 @@
 
   <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
 
-    <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner clearfix">
-        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li><a href="../getting-started.html">Getting Started</a></li>
-            <li class="active"><a href="../Components.html">Components</a></li>
-            <li><a href="../Patterns.html">Patterns</a></li>
-          </ul>
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top ">
+        <div class="navbar-inner clearfix">
+            <button class="toggle-left-bar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="brand"><img src="../img/global.logo.png" /></a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li class="active"><a href="../Components.html">Components</a></li>
+                    <li><a href="../Patterns.html">Patterns</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 0px;">
+                    <div class="btn-group">
+                        <div class="btn btn-small active"><a href="../../Color/Color.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="Color.html">Dark Theme</a></div>
+                    </div>
+                </div>
+                <div class="btn-group-download pull-right">
+                    <a href="http://community.exoplatform.com/downloads" class="btn btn-primary" target="_blank"><i class="uiIconDownload"></i> <span>Download eXo Platform</span></a>
+                    <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> <span>Learn more about eXo Platform</span></a>
+                </div>
+            </div>
         </div>
-
-        <div class="pull-right" style="margin-top: 0px;">
-                <div class="btn-group">
-                <div  class="btn btn-small"><a href="../../Color/Color.html">Default Theme</a> </div>
-        <div  class="btn btn-small active" ><a href="Color.html">Dark Theme</a></div>
-          </div>
-          </div>
-
-        <div class="pull-right" style="margin-top: 11px; margin-right: 60px">
-        <a class="btnDownloadTop" target="_blank" href="http://community.exoplatform.com/downloads"></a>
-        <a class="btnLearMore" href="http://www.exoplatform.com"></a>
-        </div>
-      </div>
     </div>
 
-<!-- Subhead
-================================================== -->
+<div class="main-content">
+<!-- Subhead -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Color</h1>
@@ -90,12 +87,12 @@
       </div>
       <div class="span9">
         <!-- Headings================================================== -->
-        
+
         <section id="S1">
           <div class="page-header">
             <h2>Main Colors</h2>
           </div>
-      
+
         <h7> The default eXo skin are composed by 4 main colors: White, Black, Gray and Electric Blue. These colors are used to generate different blue and gray schemes also. </h7>
 
        <table class="table table-bordered table-striped">
@@ -117,7 +114,7 @@
               <tr>
                <td style="background-color:#8db2da"> <h1><font color="#000">#000</font></h1></td>
                <td><code>@baseColor</code></td>
-               <td>The base color is to generate gray schemes. E.g: <br>For Light Style<br><code>@baseColorDark</code>: lighten(@baseColor,20%)<br> <code>@baseColorMedium</code>: lighten(@baseColor, 50%);<br><code>@baseColorLight</code>: lighten(@baseColor, 60%)<br><code>@borderColor</code>: lighten(@baseColor, 80%);<br> <code>@primaryBackgroundHover</code>: lighten(@primaryBackground, 4%)<br><code>@primaryBackgroundLight</code>: lighten(@primaryBackground, 3%)<br> 
+               <td>The base color is to generate gray schemes. E.g: <br>For Light Style<br><code>@baseColorDark</code>: lighten(@baseColor,20%)<br> <code>@baseColorMedium</code>: lighten(@baseColor, 50%);<br><code>@baseColorLight</code>: lighten(@baseColor, 60%)<br><code>@borderColor</code>: lighten(@baseColor, 80%);<br> <code>@primaryBackgroundHover</code>: lighten(@primaryBackground, 4%)<br><code>@primaryBackgroundLight</code>: lighten(@primaryBackground, 3%)<br>
                 For Dark Style <br><code>@baseColorDark</code>: darken(@baseColor, 20%)<br> <code>@borderColor</code>:darken(@baseColor, 20%);</td>
               <td>Base color is used to caculate theme style of eXo Skin that is dark or light. With each style, there is corresponding formula to generate suitable colors. The generated colors from base color are mostly applied for different text color types.</td>
             </tr>
@@ -135,7 +132,7 @@
                <td>Electric Blue is the primary color in Platform. It is used for primary actions or contents, emphasized titles, text hover or press, hyper-links, selected links and some other ui elements. It also is used to generate blue schemes.</td>
             </tr>
 
-           
+
          </tbody>
       </table>
     </section>
@@ -154,14 +151,14 @@
             </tr>
          </thead>
          <tbody>
-             
+
            <tr>
                <td style="background-color:#8db2da"><h1><font color="#3333333">#333333</font></h1></td>
                <td><code>@baseColorDark</code>: lighten(@baseColor, 60%)</td>
                <td><code>@textColor</code><br><code>@inputColor</code><br><code>btnColor</code></td>
                <td>Default color for all titles, texts, text input,labels and dark gray background.</td>
             </tr>
-        
+
             <tr>
                <td style="background-color:#8db2da"><h1><font color="#808080">#808080</font></h1></td>
                <td><code>@baseColorMedium</code>: lighten(@baseColor, 50%)</td>
@@ -186,7 +183,7 @@
                <td><code>@inputDisabledBackground</code><br><code>@formReadOnyBackground</code><br><code>@tableBackgroundHover</code></td>
                <td>Hover, press background effects, disable status and some other ui elements.</td>
             </tr>
-          
+
             <tr>
                <td style="background-color:#8db2da"><h1><font color="#F7F7F7">#F7F7F7</font></h1></td>
                <td><code>@primaryBackgroundLight</code>: lighten(@primaryBackground, 3%)</td>
@@ -205,7 +202,7 @@
                <td><code>@labelHoverBackground</code><br></td>
                <td>Light blue color is used for basic blue background or combine with the other blue color to generate blue gradient such as primary button effects, dropdown, progress bar...</td>
             </tr>
-            
+
            </tbody>
       </table>
 
@@ -215,7 +212,7 @@
           <div class="page-header">
             <h2>Accent Colors</h2>
           </div>
-          
+
         <h7> Accent colors are the colors that are used for emphasis in Platform. For exmaple red for error notification, green for success notification...</h7>
         <table class="table table-bordered table-striped">
          <thead>
@@ -276,7 +273,7 @@
                <td><code>@successBackground</code></td>
                <td>Light green color is mainly used for success notification .</td>
             </tr>
-            
+
            </tbody>
       </table>
 
@@ -285,7 +282,6 @@
            <div class="page-header">
             <h2>How to change color style?</h2>
           </div>
-          
           <div class="alert alert-info" id="">
             <i class="uiIconInfo"></i>Thank to <a href="http://docs.exoplatform.com">eXo Skin Customization</a> feature, the color style can be changed flexibly.
           </div>
@@ -295,13 +291,80 @@
           <p>In advanced customziation, simply modify variables of the corresponding ui elements. </p>
 
           <p><h7>For example, dark blue theme can be generated with the valiable changes below:<code>@primaryColor: #0ab5f5</code>; <code>@baseColor:#ffffff</code>; <code>@baseBackground:#333333</code>; <code>@primaryBackground:#222222</code>.</h7></p>
+          <p><a class="btn btn-large btn-primary" href="../skin-module/index.html" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">eXo Skin Customization Demo</a></p>
+          </p>
         </section>
 </div>
-<p>
+</div>
+</div>
+</div>
+
 <div id="footer">
-				Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
-			</div>
-</p>
+        Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+      </div>
+
+      <div class="mobile-offcanvas">
+        <div class="menu-main-menu-container">
+            <ul class="menu" id="primary-menu">
+                <li>
+                    <div>
+                        <div class="btn-group">
+                            <a href="../../Color/Color.html" class="btn btn-small active">Default Theme</a>
+                            <a href="Color.html" class="btn btn-small">Dark Theme</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="http://community.exoplatform.com/downloads" target="_blank" class="btn btn-primary"><i class="uiIconDownload"></i> Download eXo Platform</a>
+                        <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> Learn more about eXo Platform</a>
+                    </div>
+                </li>
+                <li><a href="../getting-started.html">Getting Started</a></li>
+                <li class="has-sub active">
+                    <a href="../Components.html">Components</a>
+                    <ul class="sub-menu">
+                        <li><a href="../Typography/Typography.html">Typography</a></li>
+                        <li><a href="../Form/Form.html">Form</a></li>
+                        <li><a href="../Button/Button.html">Button</a></li>
+                        <li><a href="../Tables/Tables.html">Table</a></li>
+                        <li><a href="../Avatar/Avatar.html">Avatar</a></li>
+                        <li><a href="../Icons/Icons.html">Icon</a></li>
+                        <li><a href="../Navigation/Navigation.html">Navigation</a></li>
+                        <li><a href="../Dropdown/Dropdown.html">Dropdown</a></li>
+                        <li><a href="../MiniCalendar/MiniCalendar.html">Mini Calendar</a></li>
+                        <li><a href="../ProgressBars/ProgressBars.html">Progress bar</a></li>
+                        <li><a href="../Alerts/Alerts.html">Alert</a></li>
+                        <li><a href="../TooltipandPopover/TooltipandPopover.html">Tooltip and Popover</a></li>
+                        <li><a href="../Thumbnail/Thumbnail.html">Thumbnail</a></li>
+                        <li><a href="../Mention/Mention.html">Mention</a></li>
+                        <li class="active"><a href="../Color/Color.html">Color</a></li>
+                        <li><a href="../Trees/Trees.html">Trees</a></li>
+                        <li><a href="../BadgeAndLoading/BadgeAndLoading.html">Badge and Loading</a></li>
+                        <li><a href="../Classes/Classes.html">CSS Classes</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="../Patterns.html">Patterns</a>
+                    <ul class="sub-menu">
+                        <li><a href="../BreadcrumbPattern/BreadcrumbPattern.html">Breadcrumb</a></li>
+                        <li><a href="../HoverrevealActionsPattern/HoverrevealActionsPattern.html">Hover-reveal</a></li>
+                        <li><a href="../MessagesPattern/MessagesPattern.html">Message</a></li>
+
+                        <li><a href="../Pop-upWindowPattern/PopupWindowPattern.html">Popup</a></li>
+                        <li><a href="../PaginationPattern/PaginationPattern.html">Pagination</a></li>
+                        <li><a href="../TabPattern/Tabs.html">Tabs</a></li>
+
+                        <li><a href="../TabPattern/Tabs.html">Sort by Column</a></li>
+                        <li><a href="../TabPattern/Tabs.html">Table Filter</a></li>
+                        <li><a href="../TabPattern/Tabs.html">Rating</a></li>
+
+                        <li><a href="../TabPattern/Tabs.html">Uploading</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!-- Le javascript
     ================================================== -->
@@ -323,8 +386,9 @@
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-    <!-- syntaxhighlighter -->	
-    <script type="text/javascript" src="../js/syntaxhighlighter_autoloader.js"></script>
+
+    <!-- syntaxhighlighter -->
+    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
 
     <!-- Analytics
     ================================================== -->
@@ -342,6 +406,6 @@
       })();
     </script>
 
-  
+
 
 </body></html>

@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -67,14 +67,18 @@
 .uiSpaceSettingPortlet .changeAccount .changeAvatar a {
   margin-bottom: 15px;
 }
+.uiSpaceSettingPortlet .uiAvatarUploadContent .avatarInfo {
+  padding: 5px;
+}
 .uiSpaceSettingPortlet .uiAvatarUploadContent .avatarInfo a.avatarLargeWithBorder {
-  margin: 15px 0 15px 15px;
+  margin: 5px 10px 5px 0;
 }
 .uiSpaceSettingPortlet .uiAvatarUploadContent .avatarInfo .form-horizontal .controls {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 161px;
+  float: none;
+  margin-left: 0;
 }
 .uiSpaceSettingPortlet .uiSpaceApp .contentSpace {
   border: 1px solid #cccccc;
@@ -87,7 +91,7 @@
   margin: 10px 20px 10px 0;
 }
 .uiSpaceSettingPortlet .uiSpaceApp .contentSpace:hover {
-  background: #f7f7f7;
+  background: #f8f8f8;
   border: 1px solid #cccccc;
 }
 .uiSpaceSettingPortlet .uiSpaceApp .contentSpace [class^="uiIconApp"] {
@@ -116,6 +120,10 @@
 .uiSpaceSettingPortlet .uiSpaceAppInstaller .itemListCont .itemList a:active,
 .uiSpaceSettingPortlet .uiSpaceAppInstaller .itemListCont .itemList a:focus {
   color: #2f5e92;
+}
+.uiSpaceSettingPortlet .uiSpaceAppInstaller .itemListCont .itemList .uiIconArrowRight {
+  margin-right: 6px;
+  top: -1px;
 }
 .uiSpaceSettingPortlet .uiSpaceAppInstaller .itemListCont .itemList .selectedItem a {
   color: #2f5e92;
@@ -152,7 +160,7 @@
   font-size: 13px;
 }
 .uiSpaceSettingPortlet .uiSpaceAppInstaller .itemDetailList .appList .appDescription:hover {
-  background-color: #f7f7f7;
+  background-color: #f8f8f8;
   border: 1px solid #cccccc;
 }
 .uiSpaceSettingPortlet .addInvite {
@@ -174,10 +182,17 @@
   color: #333333;
   max-height: 150px;
   overflow-y: auto;
-  overflow-y: hidden;
+  overflow-x: hidden;
   z-index: 1000;
   border-radius: 3px 3px 3px 3px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
 }
 .uiSpaceSettingPortlet .addInvite .suggestions .resultItem {
   margin: 0px;

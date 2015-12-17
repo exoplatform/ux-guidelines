@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -42,6 +42,35 @@
   }
 }
 /*---------------------------UIFolderPathSelectorForm------------------------------------*/
+.UICLVFolderMode {
+  border: 1px solid transparent;
+}
+.Column2 {
+  border: 1px solid transparent;
+}
+.Column1 {
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.UICLVPortlet .uiBox .title {
+  *zoom: 1;
+}
+.UICLVPortlet .uiBox .title:before,
+.UICLVPortlet .uiBox .title:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.UICLVPortlet .uiBox .title:after {
+  clear: both;
+}
+.UICLVPortlet .uiBox .title .rssIcon {
+  line-height: 0;
+}
+.UICLVPortlet .uiBox .media .heading a {
+  font-weight: bold;
+  color: #ffffff;
+}
 .UICLVPortlet .TitleBox {
   background: #222222;
   border: 1px solid #cccccc;
@@ -66,14 +95,14 @@
   margin-left: 240px;
 }
 .UICLVPortlet .UICLVFolderSelector .Select16x16Icon {
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/SelectPage.gif') no-repeat;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/SelectPage.gif') no-repeat;
   cursor: pointer;
   width: 16px;
   height: 16px;
 }
 /*---------------------------UIViewerManagementForm------------------------------------*/
 .UICLVPortlet .UICLVConfig .SelectFolderPathIcon {
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/AddPage.gif') no-repeat left center;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/AddPage.gif') no-repeat left center;
   width: 16px;
   height: 16px;
   margin-left: 10px;
@@ -97,7 +126,7 @@
   width: 125px;
 }
 .UICLVPortlet .UICLVConfig .TitleBar {
-  background: transparent url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/BgCategoryTitle1x25.gif') repeat-x scroll 0 0;
+  background: transparent url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/BgCategoryTitle1x25.gif') repeat-x scroll 0 0;
   border-top: 1px solid #cccccc;
   border-left: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
@@ -169,19 +198,19 @@
   vertical-align: middle;
 }
 .UIContentGrid .DownRowIcon {
-  background-image: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/BlueDownArrow.gif');
+  background-image: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/BlueDownArrow.gif');
   cursor: pointer;
   width: 16px;
   height: 16px;
 }
 .UIContentGrid .UpRowIcon {
-  background-image: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/BlueUpArrow.gif');
+  background-image: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/BlueUpArrow.gif');
   cursor: pointer;
   width: 16px;
   height: 16px;
 }
 .UIContentGrid .DeleteContentIcon {
-  background-image: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/Delete.gif');
+  background-image: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/Delete.gif');
   cursor: pointer;
   width: 16px;
   height: 16px;
@@ -189,7 +218,7 @@
 .UIContentGrid .DeleteIcon {
   width: 16px;
   height: 16px;
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/DustBin.gif') no-repeat;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/DustBin.gif') no-repeat;
 }
 .UICLVPortlet .UICLVContentSelector {
   margin: 10px;
@@ -219,19 +248,19 @@
 .UICLVPortlet .CaptionFunc .CaptionRefresh a {
   display: block;
   padding: 0 3px 3px 25px;
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/RefreshIcon.gif') no-repeat;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/RefreshIcon.gif') no-repeat;
   color: #ff4200;
   font-weight: bold;
   font-size: 13px;
 }
 .UICLVPortlet .SelectTargetPageIcon {
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/SearchIcon.png') no-repeat;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/SearchIcon.png') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 .UICLVPortlet .QuestionIcon {
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/QuestionIcon.png') no-repeat;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/QuestionIcon.png') no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -262,7 +291,7 @@
   padding-left: 10px;
 }
 .UICLVPortlet .RssIcon {
-  background: url('/eXoSkin/skin/images/themes/blue/ecms/portlets/presentation/ContentListViewer/icons/RSS.gif') no-repeat left top;
+  background: url('/eXoDarkSkin/skin/images/themes/default/ecms/portlets/presentation/ContentListViewer/icons/RSS.gif') no-repeat left top;
   padding-left: 22px;
   float: right;
   color: #fe9832;
@@ -301,11 +330,8 @@
   margin-right: 10px;
   padding: 0 0 10px;
 }
-.twoColumnsCLVTemplate {
+.RightBodyTDContainer .twoColumnsCLVTemplate {
   margin: 25px;
-}
-.twoColumnsCLVTemplate .uiBox .title {
-  min-height: 20px;
 }
 .twoColumnsCLVTemplate .uiBox .media .image {
   margin: 6px 15px 0 0;
@@ -322,13 +348,25 @@
 .twoColumnsCLVTemplate .uiBox .media .summary p {
   margin-bottom: 0;
 }
-.UICLVFolderMode {
-  border: 1px solid transparent;
+.twoColumnsCLVTemplate .rowContent .Column2 {
+  margin-top: 0;
+  width: 48%;
+  float: left;
+  border-right: 0 none;
 }
-.Column2 {
-  border: 1px solid transparent;
+.twoColumnsCLVTemplate .rowContent .Column2 + .Column2 {
+  margin-left: 15px;
 }
-.Column1 {
-  border: 1px solid transparent;
-  overflow: hidden;
+.documentsCLVTemplate .media .image.pull-left {
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.documentsCLVTemplate .media-body .heading p {
+  margin-bottom: 0;
+}
+.UICLVHotNews .NormalNews {
+  margin-top: 10px;
+}
+.UICLVHotNews .Date {
+  padding-left: 20px;
 }

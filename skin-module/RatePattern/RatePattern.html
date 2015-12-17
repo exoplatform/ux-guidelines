@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Rating</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +10,18 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-       <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
-	  
-	  <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
-	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+    <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <link href="../eXoSkin/skin/css/responsive.css" rel="stylesheet">
+
+    <!-- syntaxhighlighter -->
+    <link href="../js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -26,351 +29,433 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    
-  </head>
 
-  <body data-target=".bs-docs-sidebar" data-spy="scroll" data-twttr-rendered="true">
+</head>
 
-    <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner clearfix">
-        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li><a href="../getting-started.html">Getting Started</a></li>
-            <li><a href="../Components.html">Components</a></li>
-            <li  class="active"><a href="../Patterns.html">Patterns</a></li>
-          </ul>
+<body data-target=".bs-docs-sidebar" data-spy="scroll" data-twttr-rendered="true">
+
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top ">
+        <div class="navbar-inner clearfix">
+            <button class="toggle-left-bar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="brand"><img src="../img/global.logo.png" /></a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li><a href="../Components.html">Components</a></li>
+                    <li class="active"><a href="../Patterns.html">Patterns</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 0px;">
+                    <div class="btn-group">
+                        <div class="btn btn-small active"><a href="../../RatePattern/RatePattern.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="RatePattern.html">Dark Theme</a></div>
+                    </div>
+                </div>
+                <div class="btn-group-download pull-right">
+                    <a href="http://community.exoplatform.com/downloads" class="btn btn-primary" target="_blank"><i class="uiIconDownload"></i> <span>Download eXo Platform</span></a>
+                    <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> <span>Learn more about eXo Platform</span></a>
+                </div>
+            </div>
         </div>
-         <div class="pull-right" style="margin-top: 0px;">
-                <div class="btn-group">
-                <div  class="btn btn-small"><a href="../../RatePattern/RatePattern.html">Default Theme</a> </div>
-        <div  class="btn btn-small active" ><a href="RatePattern.html">Dark Theme</a></div>
-          </div>
-          </div>
-        <div class="pull-right" style="margin-top: 11px; margin-right: 60px">
-        <a class="btnDownloadTop" target="_blank" href="http://community.exoplatform.com/downloads"></a>
-        <a class="btnLearMore" href="http://www.exoplatform.com"></a>
-        </div>
-      </div>
     </div>
 
-<!-- Subhead
-================================================== -->
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <h1>Rating</h1>
-    <p class="lead">Basic styles for rating with stars and how does it look with the eXo Platform style?</div>
-</header>
+    <div class="main-content">
+        <!-- Subhead -->
+        <header class="jumbotron subhead" id="overview">
+            <div class="container">
+                <h1>Rating</h1>
+                <p class="lead">Basic styles for rating with stars and how does it look with the eXo Platform style?</div>
+        </header>
 
-  <div class="container">
+        <div class="container">
 
-    <!-- Docs nav
-    ================================================== -->
-   <div class="row">
-      <div class="span3 bs-docs-sidebar">
-        <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
-          <li><a href="#how-it-works"><i class="icon-chevron-right"></i>How it works?</a></li>
-        </ul>
-      </div>
-      <div class="span9">
-      <section id="overview">
-          <div class="page-header">
-            <h2>Overview</h2>
-          </div>
-       <p><h7>To provide users with better evaluation of content, the Rating function is featured directly in applications or websites. 
-	   This function allows users to give their personal point of views to which another ones can refer to know what is good and bad.
-	   For systems containing a large content that needs to be evaluated, the Rating function is really necessary.</h7></p>
-    </section>
-    <section id="how-it-works">
-          <div class="page-header">
-            <h2>How it works?</h2>
-          </div>
-	<p><h3>Template</h3></p>
-     <p><i class="uiIconEcmsDottedArrow"></i>No rating:</p>
-	<div class="bs-docs-example">
-    <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
-		<div class="popupHeader ClearFix">
-			<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
-			<span class="PopupTitle popupTitle">Rate This Topic</span>
-		</div>
-		<div class="PopupContent popupContent">
-			<div id="RatingForm" class="RatingForm">
-				<form method="post" action="" id="UIRatingForm" class="UIForm">
-					<div class="uiVoteForm">
-						<div class="voteFormContainer">
-							<p style="margin-left:10px">
-							  My Rating:&nbsp;no value yet
-							</p>
-							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
-									
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote " data-original-title="Poor"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Below average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+            <!-- Docs nav -->
+            <div class="row">
+                <div class="span3 bs-docs-sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top">
+                        <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+                        <li><a href="#how-it-works"><i class="icon-chevron-right"></i>How it works?</a></li>
+                    </ul>
+                </div>
+                <div class="span9">
+                    <section id="overview">
+                        <div class="page-header">
+                            <h2>Overview</h2>
+                        </div>
+                        <p>
+                            <h7>To provide users with better evaluation of content, the Rating function is featured directly in applications or websites. This function allows users to give their personal point of views to which another ones can refer to know what is good and bad. For systems containing a large content that needs to be evaluated, the Rating function is really necessary.</h7>
+                        </p>
+                    </section>
+                    <section id="how-it-works">
+                        <div class="page-header">
+                            <h2>How it works?</h2>
+                        </div>
+                        <p>
+                            <h3>Template</h3></p>
+                        <p><i class="uiIconEcmsDottedArrow"></i>No rating:</p>
+                        <div class="bs-docs-example">
+                            <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
+                                <div class="popupHeader ClearFix">
+                                    <a onclick="" title="Close Window" class="uiIconClose pull-right">
+                                        <div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
+                                    </a>
+                                    <span class="PopupTitle popupTitle">Rate This Topic</span>
+                                </div>
+                                <div class="PopupContent popupContent">
+                                    <div id="RatingForm" class="RatingForm">
+                                        <form method="post" action="" id="UIRatingForm" class="UIForm">
+                                            <div class="uiVoteForm">
+                                                <div class="voteFormContainer">
+                                                    <p style="margin-left:10px">
+                                                        My Rating:&nbsp;no value yet
+                                                    </p>
+                                                    <div class="uiRatingInfoContainer optionsContainer" data-rate="1">
 
-							</div>
-							<div class="uiAction uiActionBorder">
-								<button type="button" class="btn" onclick="">Close</button>
-							</div>	
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<span class="uiIconResize pull-right uiIconLightGray"></span>
-	</div>
- </div>
-      <p><i class="uiIconEcmsDottedArrow"></i>Content rated by the other users:</p>
-      <div class="bs-docs-example">
-      <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
-		<div class="popupHeader ClearFix">
-			<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
-			<span class="PopupTitle popupTitle">Rate This Topic</span>
-		</div>
-		<div class="PopupContent popupContent">
-			<div id="RatingForm" class="RatingForm">
-				<form method="post" action="" id="UIRatingForm" class="UIForm">
-					<div class="uiVoteForm">
-						<div class="voteFormContainer">
-							<p style="margin-left:10px">
-							  My Rating:&nbsp;no value yet
-							</p>
-							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
-									
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Poor"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Below average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote " data-original-title="Poor"></i>
 
-							</div>
-							<div class="uiAction uiActionBorder">
-								<button type="button" class="btn" onclick="">Close</button>
-							</div>	
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<span class="uiIconResize pull-right uiIconLightGray"></span>
-	</div>
- </div>
-<p><i class="uiIconEcmsDottedArrow"></i>Content rated by the current user:</p>
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Below average"></i>
 
-<div class="bs-docs-example">
-      <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
-	<div class="popupHeader clearfix">
-		
-			<a onclick="" title="Close Window" class="uiIconClose pull-right"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
-		
-		<span class="PopupTitle popupTitle">Rate This Topic</span>
-	</div>
-	<div class="PopupContent popupContent"><div id="RatingForm" class="RatingForm"><span id="UIPopupActionChildPopupAction" class="UIPopupActionChildPopupAction UIKSPopupAction"></span>
-	<form method="post" action="" id="UIRatingForm" class="UIForm"><div><input type="hidden" value="" name="formOp"><input type="hidden" value="F0AB6DFAC063C86A03DA96767D4BC11C" name="gtn:csrf"></div>
-<div class="uiVoteForm">
-	<div class="voteFormContainer">
-		<p style="margin-left:10px">
-		
-		  My Rating:&nbsp;Below average
-		
-		</p>
-		
-        <div class="uiRatingInfoContainer optionsContainer uiVote clearfix" data-rate="2">
-	        <div class="avgRatingImages">
-	         
-	           <i class="voted"></i>
-	         
-	           <i class="voted"></i>
-	         
-	           <i class="unvoted"></i>
-	         
-	           <i class="unvoted"></i>
-	         
-	           <i class="unvoted"></i>
-	         
-	         </div>
-         </div>
-			
-		<div class="uiAction uiActionBorder">
-			<button type="button" class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('7dbabf01-8058-48af-a925-196fc938d18d#UIRatingForm','Close',true)">Close</button>
-	    </div>	
-	</div>
-</div>
-</form></div></div>
-	
-	
-		<span class="uiIconResize pull-right uiIconLightGray"></span>
-	
-</div>
- </div>
-	<p><h3>Markup</h3></p>
-<p>HTML is your standard unordered list with links.</p>
-<div class="prettyprint linenums">
-	<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-	
-		<div id="RatingForm" class="RatingForm">
-				<form method="post" action="" id="UIRatingForm" class="UIForm">
-					<div class="uiVoteForm">
-						<div class="voteFormContainer">
-							<p style="margin-left:10px">
-							  My Rating:&nbsp;no value yet
-							</p>
-							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
-									
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted " data-original-title="Poor"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Below average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Above average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Good"></i>
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Average"></i>
 
-							</div>
-							<div class="uiAction uiActionBorder">
-								<button type="button" class="btn" onclick="">Close</button>
-							</div>	
-						</div>
-					</div>
-				</form>
-			</div>
-	
-	]]></script>
-</div>
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
+
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+
+                                                    </div>
+                                                    <div class="uiAction uiActionBorder">
+                                                        <button type="button" class="btn" onclick="">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <span class="uiIconResize pull-right uiIconLightGray"></span>
+                            </div>
+                        </div>
+                        <p><i class="uiIconEcmsDottedArrow"></i>Content rated by the other users:</p>
+                        <div class="bs-docs-example">
+                            <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
+                                <div class="popupHeader ClearFix">
+                                    <a onclick="" title="Close Window" class="uiIconClose pull-right">
+                                        <div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
+                                    </a>
+                                    <span class="PopupTitle popupTitle">Rate This Topic</span>
+                                </div>
+                                <div class="PopupContent popupContent">
+                                    <div id="RatingForm" class="RatingForm">
+                                        <form method="post" action="" id="UIRatingForm" class="UIForm">
+                                            <div class="uiVoteForm">
+                                                <div class="voteFormContainer">
+                                                    <p style="margin-left:10px">
+                                                        My Rating:&nbsp;no value yet
+                                                    </p>
+                                                    <div class="uiRatingInfoContainer optionsContainer" data-rate="1">
+
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Poor"></i>
+
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Below average"></i>
+
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Average"></i>
+
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
+
+                                                        <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+
+                                                    </div>
+                                                    <div class="uiAction uiActionBorder">
+                                                        <button type="button" class="btn" onclick="">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <span class="uiIconResize pull-right uiIconLightGray"></span>
+                            </div>
+                        </div>
+                        <p><i class="uiIconEcmsDottedArrow"></i>Content rated by the current user:</p>
+
+                        <div class="bs-docs-example">
+                            <div style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle">
+                                <div class="popupHeader clearfix">
+
+                                    <a onclick="" title="Close Window" class="uiIconClose pull-right">
+                                        <div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
+                                    </a>
+
+                                    <span class="PopupTitle popupTitle">Rate This Topic</span>
+                                </div>
+                                <div class="PopupContent popupContent">
+                                    <div id="RatingForm" class="RatingForm"><span id="UIPopupActionChildPopupAction" class="UIPopupActionChildPopupAction UIKSPopupAction"></span>
+                                        <form method="post" action="" id="UIRatingForm" class="UIForm">
+                                            <div>
+                                                <input type="hidden" value="" name="formOp">
+                                                <input type="hidden" value="F0AB6DFAC063C86A03DA96767D4BC11C" name="gtn:csrf">
+                                            </div>
+                                            <div class="uiVoteForm">
+                                                <div class="voteFormContainer">
+                                                    <p style="margin-left:10px">
+
+                                                        My Rating:&nbsp;Below average
+
+                                                    </p>
+
+                                                    <div class="uiRatingInfoContainer optionsContainer uiVote clearfix" data-rate="2">
+                                                        <div class="avgRatingImages">
+
+                                                            <i class="voted"></i>
+
+                                                            <i class="voted"></i>
+
+                                                            <i class="unvoted"></i>
+
+                                                            <i class="unvoted"></i>
+
+                                                            <i class="unvoted"></i>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="uiAction uiActionBorder">
+                                                        <button type="button" class="btn" onclick="javascript:eXo.webui.UIForm.submitForm('7dbabf01-8058-48af-a925-196fc938d18d#UIRatingForm','Close',true)">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
 
 
-	<div id="myModal1" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle modal hide fade">
-		<div class="popupHeader ClearFix">
-			<a onclick="" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal"><div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div></a>
-			<span class="PopupTitle popupTitle">Rate This Topic</span>
-		</div>
-		<div class="PopupContent popupContent">
-			<div id="RatingForm" class="RatingForm">
-				<form method="post" action="" id="UIRatingForm" class="UIForm">
-					<div class="uiVoteForm">
-						<div class="voteFormContainer">
-							<p style="margin-left:10px">
-							  My Rating:&nbsp;no value yet
-							</p>
-							<div class="uiRatingInfoContainer optionsContainer" data-rate="1">
-									
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Poor"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Below average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
-							 
-								<i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+                                <span class="uiIconResize pull-right uiIconLightGray"></span>
 
-							</div>
-							<div class="uiAction uiActionBorder">
-								<button type="button" class="btn" onclick="" data-dismiss="modal">Close</button>
-							</div>	
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<span class="uiIconResize pull-right uiIconLightGray"></span>
-	</div>
+                            </div>
+                        </div>
+                        <p>
+                            <h3>Markup</h3></p>
+                        <p>HTML is your standard unordered list with links.</p>
+<pre class="prettyprint linenums">
+&lt;div id="RatingForm" class="RatingForm"&gt;
+    &lt;form method="post" action="" id="UIRatingForm" class="UIForm"&gt;
+        &lt;div class="uiVoteForm"&gt;
+            &lt;div class="voteFormContainer"&gt;
+                &lt;p style="margin-left:10px"&gt;
+                    My Rating:&nbsp;no value yet
+                &lt;/p&gt;
+                &lt;div class="uiRatingInfoContainer optionsContainer" data-rate="1"&gt;
+                    &lt;i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted " data-original-title="Poor"&gt;&lt;/i&gt;
+                    &lt;i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Below average"&gt;&lt;/i&gt;
+                    &lt;i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Average"&gt;&lt;/i&gt;
+                    &lt;i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Above average"&gt;&lt;/i&gt;
+                    &lt;i data-placement="bottom" rel="tooltip" onclick="" class="uiIconVoted" data-original-title="Good"&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div class="uiAction uiActionBorder"&gt;
+                    &lt;button type="button" class="btn" onclick=""&gt;Close&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+</pre>
 
 
+                        <div id="myModal1" aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="width: 320px; position: relative;" id="UIForumPopupWindow" exo:minheight="200" exo:minwidth="200" class="UIPopupWindow uiPopup UIDragObject NormalStyle modal hide fade">
+                            <div class="popupHeader ClearFix">
+                                <a onclick="" title="Close Window" class="uiIconClose pull-right" data-dismiss="modal">
+                                    <div class="ClosePopup" style="width: 16px; height: 16px;"><span></span></div>
+                                </a>
+                                <span class="PopupTitle popupTitle">Rate This Topic</span>
+                            </div>
+                            <div class="PopupContent popupContent">
+                                <div id="RatingForm" class="RatingForm">
+                                    <form method="post" action="" id="UIRatingForm" class="UIForm">
+                                        <div class="uiVoteForm">
+                                            <div class="voteFormContainer">
+                                                <p style="margin-left:10px">
+                                                    My Rating:&nbsp;no value yet
+                                                </p>
+                                                <div class="uiRatingInfoContainer optionsContainer" data-rate="1">
 
-<div class="bs-docs-example" style="padding-bottom: 24px;">
+                                                    <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconRatedVote " data-original-title="Poor"></i>
 
-<a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Rate Demo</a>
-</div>
-	<p><h3>Status</h3></p>
-      <p>
-      <table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Status</th>
-               <th>Description</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>No rate by default</td>
-               <td>The value of "My rating" is "no value yet" and all stars are gray.</td>
-            </tr>
-            <tr>
-               <td>Already having rates by the other users</td>
-               <td>The value of "My rating" is "no value yet" and there is current already average rated stars in pale yellow for reference: 1 star - Poor, 2 stars - Below average, 3 stars - average, 4 stars - Above average, 5 stars - Good.</td>    
-            </tr>      
-           <tr>
-               <td>Hover/press on stars</td>
-               <td>The star is changed from gray (no rate) and/or pale yellow (having rate) into yellow. The tooltip is displayed correspondingly with the number of selected stars. </td>
-            </tr>
-            <tr>
-               <td>Rated by the current user</td>
-               <td>The stars are changed into yellow. The value of "My rating" is matched with the value of selected stars.</td>    
-            </tr>
-         </tbody>
-      </table>
-     </p>
-	<p><h3>Rules</h3></p>
-      <p>
-      <table class="table table-bordered table-striped">
-          <tbody>
-           
-            <tr>
-               <td>RP-01</td>
-               <td>Rate button or symbol is easy to see.</td>
-            </tr>
-            <tr>
-               <td>RP-02</td>
-               <td>The rate result of one user is calculated once.</td>
-            </tr>
-            <tr>
-               <td>RP-03</td>
-               <td>Depending on configuration, it is possible to rate again. The old rate result is replaced by the new one.</td>
-            </tr>
-            <tr>
-               <td>RP-04</td>
-               <td>The display of rate stars must be matched with its status.</td>
-            </tr>
-            <tr>
-               <td>RP-05</td>
-               <td>The label of "My rating" must be matched with its value. </td>
-            </tr>
-            <tr>
-               <td>RP-06</td>
-               <td>Rate result is near the title of content.</td>
-            </tr>
-                <tr>
-               <td>RP-07</td>
-               <td>Rate function is available to online logged-in user only.</td>
-            </tr>  
-	      </tbody>
-      </table>
-     </p>
-	</section>
-<div id="footer">
-	Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
-</div>
-    <!-- Le javascript
-    ================================================== -->
+                                                    <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Below average"></i>
+
+                                                    <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Average"></i>
+
+                                                    <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Above average"></i>
+
+                                                    <i data-placement="bottom" rel="tooltip" onclick="" class="uiIconNormalVote" data-original-title="Good"></i>
+
+                                                </div>
+                                                <div class="uiAction uiActionBorder">
+                                                    <button type="button" class="btn" onclick="" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <span class="uiIconResize pull-right uiIconLightGray"></span>
+                        </div>
+
+
+
+                        <div class="bs-docs-example" style="padding-bottom: 24px;">
+
+                            <a class="btn btn-primary btn-large" href="#myModal1" data-toggle="modal">Launch Rate Demo</a>
+                        </div>
+                        <p>
+                            <h3>Status</h3></p>
+                        <p>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Status</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>No rate by default</td>
+                                            <td>The value of "My rating" is "no value yet" and all stars are gray.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Already having rates by the other users</td>
+                                            <td>The value of "My rating" is "no value yet" and there is current already average rated stars in pale yellow for reference: 1 star - Poor, 2 stars - Below average, 3 stars - average, 4 stars - Above average, 5 stars - Good.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hover/press on stars</td>
+                                            <td>The star is changed from gray (no rate) and/or pale yellow (having rate) into yellow. The tooltip is displayed correspondingly with the number of selected stars. </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rated by the current user</td>
+                                            <td>The stars are changed into yellow. The value of "My rating" is matched with the value of selected stars.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </p>
+                        <p>
+                            <h3>Rules</h3></p>
+                        <p>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                    <tbody>
+
+                                        <tr>
+                                            <td>RP-01</td>
+                                            <td>Rate button or symbol is easy to see.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>RP-02</td>
+                                            <td>The rate result of one user is calculated once.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>RP-03</td>
+                                            <td>Depending on configuration, it is possible to rate again. The old rate result is replaced by the new one.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>RP-04</td>
+                                            <td>The display of rate stars must be matched with its status.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>RP-05</td>
+                                            <td>The label of "My rating" must be matched with its value. </td>
+                                        </tr>
+                                        <tr>
+                                            <td>RP-06</td>
+                                            <td>Rate result is near the title of content.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>RP-07</td>
+                                            <td>Rate function is available to online logged-in user only.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </p>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+    </div>
+
+    <div class="mobile-offcanvas">
+        <div class="menu-main-menu-container">
+            <ul class="menu" id="primary-menu">
+                <li>
+                    <div>
+                        <div class="btn-group">
+                            <a href="../../RatePattern/RatePattern.html" class="btn btn-small active">Default Theme</a>
+                            <a href="RatePattern.html" class="btn btn-small">Dark Theme</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="http://community.exoplatform.com/downloads" target="_blank" class="btn btn-primary"><i class="uiIconDownload"></i> Download eXo Platform</a>
+                        <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> Learn more about eXo Platform</a>
+                    </div>
+                </li>
+                <li><a href="../getting-started.html">Getting Started</a></li>
+                <li class="has-sub">
+                    <a href="../Components.html">Components</a>
+                    <ul class="sub-menu">
+                        <li><a href="../Typography/Typography.html">Typography</a></li>
+                        <li><a href="../Button/Button.html">Button</a></li>
+                        <li><a href="../Tables/Tables.html">Table</a></li>
+                        <li><a href="../Avatar/Avatar.html">Avatar</a></li>
+                        <li><a href="../Icons/Icons.html">Icon</a></li>
+                        <li><a href="../Navigation/Navigation.html">Navigation</a></li>
+                        <li><a href="../Dropdown/Dropdown.html">Dropdown</a></li>
+                        <li><a href="../MiniCalendar/MiniCalendar.html">Mini Calendar</a></li>
+                        <li><a href="../ProgressBars/ProgressBars.html">Progress bar</a></li>
+                        <li><a href="../Alerts/Alerts.html">Alert</a></li>
+                        <li><a href="../TooltipandPopover/TooltipandPopover.html">Tooltip and Popover</a></li>
+                        <li><a href="../Thumbnail/Thumbnail.html">Thumbnail</a></li>
+                        <li><a href="../Mention/Mention.html">Mention</a></li>
+                        <li><a href="../Color/Color.html">Color</a></li>
+                        <li><a href="../Trees/Trees.html">Trees</a></li>
+                        <li><a href="../BadgeAndLoading/BadgeAndLoading.html">Badge and Loading</a></li>
+                        <li><a href="../Classes/Classes.html">CSS Classes</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub active">
+                    <a href="../Patterns.html">Patterns</a>
+                    <ul class="sub-menu">
+                        <li><a href="../BreadcrumbPattern/BreadcrumbPattern.html">Breadcrumb</a></li>
+                        <li><a href="../MessagesPattern/MessagesPattern.html">Hover-reveal</a></li>
+                        <li><a href="../MessagesPattern/MessagesPattern.html">Message</a></li>
+
+                        <li><a href="../Pop-upWindowPattern/PopupWindowPattern.html">Popup</a></li>
+                        <li><a href="../PaginationPattern/PaginationPattern.html">Pagination</a></li>
+                        <li><a href="../TabPattern/Tabs.html">Tabs</a></li>
+
+                        <li><a href="../SortByColumn/SortByColumn.html">Sort by Column</a></li>
+                        <li><a href="../TableFilters/TableFilters.html">Table Filter</a></li>
+                        <li class="active"><a href="../RatePattern/RatePattern.html">Rating</a></li>
+
+                        <li><a href="../UploadPattern/UploadPattern.html">Uploading</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Le javascript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../js/widgets.js"></script>
     <script src="../js/jquery.js"></script>
@@ -389,11 +474,15 @@
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
     <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
     <script src="../js/application-update.js"></script>
-    <!-- syntaxhighlighter -->	
-    <script src="../js/syntaxhighlighter_autoloader.js"></script>
-<script type="text/javascript">
-      $(document).ready(function () {
-    $("[rel=tooltip]").tooltip();
-  });
-</script>
-</body></html>
+
+    <!-- syntaxhighlighter -->
+    <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("[rel=tooltip]").tooltip();
+        });
+    </script>
+</body>
+
+</html>

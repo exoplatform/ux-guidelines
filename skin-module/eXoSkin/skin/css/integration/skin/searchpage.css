@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -167,7 +167,7 @@
   z-index: 9999;
 }
 .uiSearchPortlet .resultLoading:after {
-  background: url("/eXoSkin/skin/images/themes/blue/Loading/loading64x64Light.png") no-repeat center center;
+  background: url("/eXoDarkSkin/skin/images/themes/default/Loading/loading64x64Light.png") no-repeat center center;
   width: 64px;
   height: 64px;
   content: "";
@@ -176,6 +176,38 @@
   left: 50%;
   margin-left: -32px;
   top: 20px;
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
+}
+@media (max-width: 768px) {
+  .uiSearchPortlet .searchContainer {
+    height: 90px;
+  }
+  .uiSearchPortlet .searchContainer .searchForm {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .uiSearchPortlet .searchContainer .resultSort,
+  .uiSearchPortlet .searchContainer .resultHeader {
+    float: left;
+  }
+  .uiSearchPortlet .filterContainer {
+    width: 100%;
+    float: none;
+  }
+  .uiSearchPortlet .resultPage {
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .uiSearchPortlet .searchContainer {
+    height: 107px;
+  }
+  .uiSearchPortlet .searchContainer .resultHeader {
+    width: 100%;
+    text-align: left;
+  }
+  .uiSearchPortlet .searchContainer .searchForm input {
+    width: 195px!important;
+  }
 }

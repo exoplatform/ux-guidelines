@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -60,22 +60,30 @@
   }
 }
 .UIAccountPortlet .SearchIcon {
-  background-image: url("/eXoSkin/skin/images/themes/blue/Icons/uiIconsDefault.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #ffffff;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  height: 17px;
-  margin-left: 2px;
-  line-height: 20px;
-  vertical-align: text-top;
-  width: 16px;
+  position: relative;
+  top: 1px;
+}
+.UIAccountPortlet .SearchIcon:before {
+  content: "\e74a";
 }
 .UIAccountPortlet .form-horizontal {
   padding: 0;
 }
 .UIAccountPortlet .uiPersonalInfo {
   margin: 0 auto;
-  width: 750px;
 }
 .UIAccountPortlet .tab-content {
   border-bottom: 0;
@@ -95,6 +103,10 @@
 .UIAccountPortlet .tab-content .form-horizontal {
   padding: 0;
 }
+.UIAccountPortlet .tab-content .uiPersonalInfo .span3 {
+  min-width: 200px;
+  width: auto;
+}
 .UIAccountPortlet .nav-tabs {
   margin: 0px;
   background-color: #1a1a1a;
@@ -103,4 +115,7 @@
   -webkit-border-radius: 3px 3px 0px 0px;
   -moz-border-radius: 3px 3px 0px 0px;
   border-radius: 3px 3px 0px 0px;
+}
+#RightBody .UIAccountPortlet {
+  margin: 10px;
 }

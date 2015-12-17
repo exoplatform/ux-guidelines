@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -69,7 +69,7 @@
   width: 105px;
 }
 .TopGadget table td.Description {
-  background: #f7f7f7;
+  background: #f8f8f8;
   padding: 8px;
   font-style: italic;
 }
@@ -93,11 +93,11 @@
   cursor: pointer;
 }
 .TitleGadget .TabSelected {
-  background: #f7f7f7;
+  background: #f8f8f8;
   color: #333333;
 }
 .GadgetGrid {
-  background: #f7f7f7;
+  background: #f8f8f8;
   padding: 5px 0px;
   margin: 0px 5px 5px 5px;
   overflow-x: auto;

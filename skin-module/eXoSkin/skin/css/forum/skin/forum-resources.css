@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -52,7 +52,7 @@
   z-index: 50;
   position: absolute;
   visibility: visible;
-  background: url('/eXoSkin/skin/images/themes/blue/forum/skin/background/Point1x1.png') no-repeat top center;
+  background: url('/eXoDarkSkin/skin/images/themes/default/forum/skin/background/Point1x1.png') no-repeat top center;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

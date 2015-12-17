@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -74,7 +74,7 @@
   margin-bottom: 5px;
 }
 .uiApplicationRegistryPortlet .uiOrganizerCategories {
-  padding: 0px 20px;
+  padding: 0px 20px 0 30px;
 }
 .uiApplicationRegistryPortlet .uiOrganizerCategories .accordion-group:last-child .accordion-heading {
   -webkit-border-radius: 0 0 4px 4px;
@@ -235,4 +235,16 @@
 .uiGadgetManagement .uiGadgetList .UIGadgetEditor textarea {
   width: 450px;
   height: 300px;
+}
+@media (max-width: 767px) {
+  .uiApplicationRegistryPortlet .uiOrganizerCategories .accordion {
+    margin: 20px 0;
+    width: auto;
+  }
+  .uiApplicationRegistryPortlet .uiOrganizerCategories .appWorkingArea {
+    margin-left: 0px;
+  }
+  .uiApplicationRegistryPortlet .uiOrganizerCategories {
+    padding: 0 20px ;
+  }
 }

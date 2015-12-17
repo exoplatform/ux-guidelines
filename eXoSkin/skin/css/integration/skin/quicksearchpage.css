@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -103,6 +103,9 @@
   padding: 5px 10px 7px;
   display: block;
 }
+.uiQuickSearchResult .quickSearchResult a {
+  color: #333333;
+}
 .uiQuickSearchResult .quickSearchResult .avatarTiny > img {
   margin-right: 5px;
 }
@@ -124,15 +127,19 @@
 }
 .uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconPLF"],
 .uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconPLF"] {
-  background-image: url("/eXoSkin/skin/images/themes/default/platform/skin/Icons/uiIconsPLFSecondary.png");
+  color: #ffffff;
 }
 .uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconEcms"],
 .uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconEcms"] {
-  background-image: url("/eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsSecondary.png");
+  color: #ffffff;
 }
 .uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconWiki"],
 .uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconWiki"] {
-  background-image: url("/eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiSecondary.png");
+  color: #ffffff;
+}
+.uiQuickSearchResult .quickSearchResult:hover a > .uiIconTick,
+.uiQuickSearchResult .quickSearchResult.arrowResult a > .uiIconTick {
+  color: #ffffff;
 }
 .uiEDWidth70,
 .uiEDWidth70 select.uiResultPerPage,
