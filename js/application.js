@@ -5,6 +5,28 @@
 !function ($) {
 
   $(function(){
+    $('#primary-menu').find('.has-sub.active .sub-menu').css('display', 'block');
+    $('#primary-menu .has-sub .toggle-collapse').on('click', function(){
+        var $this = $(this);
+        var $currentParentitem = $this.parent('.has-sub');
+        var isActive = $currentParentitem.hasClass('active');
+        var $currentSubMenu = $this.next('.sub-menu');
+        if (!isActive) {
+          $this.parents('#primary-menu').find('.has-sub.active').removeClass('active');
+          $this.parents('#primary-menu').find('.has-sub').find('.sub-menu').attr('style', '');
+        }
+
+       if($currentParentitem.hasClass('active')){
+          $currentSubMenu.slideUp('slow/400/fast', function() {
+            $currentParentitem.removeClass('active');
+          });
+       }
+       else {
+        $this.parent('.has-sub').addClass('active');
+          $currentSubMenu.slideDown('slow/400/fast');
+        }
+    });
+
 
     $('.toggle-left-bar').on('click', function(){
       $('body').toggleClass('open-offcanvas');

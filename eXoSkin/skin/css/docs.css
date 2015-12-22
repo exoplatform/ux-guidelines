@@ -1542,11 +1542,42 @@ body > .navbar .brand {
 .mobile-offcanvas #primary-menu > li > div {
   padding: 8px 15px;
 }
+.mobile-offcanvas .ui-caret {
+  color: #999999;
+  display: inline-block;
+  font-family: "PLF-FONT-ICONS";
+  font-size: 10px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  position: relative;
+  text-transform: none;
+  top: 1px;
+}
+.mobile-offcanvas .ui-caret:before {
+  content: "\e75c";
+}
+.mobile-offcanvas #primary-menu li.has-sub.active .ui-caret:before {
+  content: "\e75a";
+}
+.mobile-offcanvas #primary-menu li .toggle-collapse {
+  padding: 10px;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  cursor: pointer;
+}
+.mobile-offcanvas #primary-menu li .ui-caret {
+}
+.mobile-offcanvas #primary-menu li:hover .ui-caret {
+  color: #fff;
+}
 .mobile-offcanvas #primary-menu li >  a {
   color: #fff;
   display: block;
   line-height: 20px;
-  padding: 8px 15px;
+  padding: 8px 35px 8px 15px;
   outline: none !important;
 }
 .mobile-offcanvas #primary-menu > li > a,
@@ -1557,6 +1588,9 @@ body > .navbar .brand {
   position: relative;
   font-size: 16px;
   font-weight: bold;
+}
+.mobile-offcanvas #primary-menu li.has-sub {
+  position: relative;
 }
 .mobile-offcanvas #primary-menu > li > a:before,
 .mobile-offcanvas #primary-menu > li > div:before,
@@ -1578,7 +1612,7 @@ body > .navbar .brand {
 }
 .mobile-offcanvas #primary-menu .has-sub.active .sub-menu {
   background-color: rgba(255, 255, 255, 0.1);
-  display: block;
+  /*display: block;*/
 }
 .mobile-offcanvas #primary-menu .has-sub.active > a {
   border-bottom-color: rgba(0, 0, 0, 0.2);
