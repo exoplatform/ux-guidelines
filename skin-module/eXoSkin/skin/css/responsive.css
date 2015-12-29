@@ -220,4 +220,7 @@
 	.uiTabGrayInPage .tab-content .nav-pills > li.listHiddenActionsContainer {
 		display: block;
 	}
+	.bs-docs-example .uiAddressBarAction, .bs-docs-example .uiAddressBarAction + td {
+		display: none;
+	}
 }
