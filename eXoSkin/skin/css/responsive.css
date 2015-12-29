@@ -125,6 +125,30 @@
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	.input-xxxlarge, .inputXxxlarge input[type="text"], .inputXxxlarge input[type="password"] {
+		width: 100%;
+	}
+	.bs-docs-example .form-horizontal .controls {
+		white-space: normal;
+	}
+	.bs-docs-example .form-horizontal .controls input {
+		margin-bottom: 5px;
+	}
+	.page-header h2 {
+		margin: 0;
+	}
 	body {
 		padding-left: 0;
 		padding-right: 0;
@@ -195,5 +219,8 @@
 	}
 	.uiTabGrayInPage .tab-content .nav-pills > li.listHiddenActionsContainer {
 		display: block;
+	}
+	.bs-docs-example .uiAddressBarAction, .bs-docs-example .uiAddressBarAction + td {
+		display: none;
 	}
 }

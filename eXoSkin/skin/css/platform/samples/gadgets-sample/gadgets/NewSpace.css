@@ -1,0 +1,86 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.UIGadgetThemes .spaceDetail {
+  margin-bottom: 10px;
+}
+.UIGadgetThemes .spaceAvatar {
+  float: left;
+  width: 50px;
+}
+.UIGadgetThemes .spaceAvatarImage {
+  width: 40px;
+  max-height: 50px;
+}
+.UIGadgetThemes .spaceNoAvatarImage {
+  width: 40px;
+  height: 40px;
+  background: url('/eXoSkin/skin/images/themes/default/platform/porlets/gadget-samples/NewSpaces/SpaceLogoDefault_61x61.gif') no-repeat center;
+}
+.UIGadgetThemes .spaceAvatarLink {
+  color: #ffffff;
+}
+.UIGadgetThemes .spaceInfo {
+  padding-left: 40px;
+}
+.UIGadgetThemes .spaceItemLink {
+  font-weight: bold;
+  color: #2f5e92;
+}
+.UIGadgetThemes .itemDetail {
+  padding-left: 10px;
+}
+.UIGadgetThemes .itemDetail-italic {
+  padding-left: 10px;
+  font-style: italic;
+  color: #2f5e92;
+}
+.UIGadgetThemes .noItem {
+  padding-left: 10px;
+  font-style: italic;
+  color: lightgray;
+}
+.UIGadgetThemes .joinLink {
+  float: right;
+  font-weight: normal;
+}

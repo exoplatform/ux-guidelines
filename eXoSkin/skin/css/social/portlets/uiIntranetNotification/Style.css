@@ -1,0 +1,194 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.uiIntranetNotificationsPortlet {
+  padding: 20px;
+  position: relative;
+}
+.uiIntranetNotificationsPortlet > .user-setting {
+  position: absolute;
+  right: 20px;
+  top: 37px;
+}
+.uiIntranetNotificationsPortlet .displayItems {
+  margin-bottom: 10px;
+}
+.uiIntranetNotificationsPortlet .displayItems .text-bold {
+  font-weight: bold;
+}
+.uiIntranetNotificationsPortlet .displayItems > li.no-items {
+  display: none;
+  text-align: center;
+  background: url("/eXoSkin/skin/images/system/notification-bell.png") no-repeat center;
+  padding: 130px 0px;
+  color: #999999;
+  font-size: 24px;
+}
+.uiIntranetNotificationsPortlet .displayItems > li.no-items:hover {
+  cursor: default;
+  color: #999999;
+  background: transparent url("/eXoSkin/skin/images/system/notification-bell.png") no-repeat center;
+}
+.uiIntranetNotificationsPortlet .displayItems > li {
+  display: block;
+  padding: 11px 25px 15px 15px;
+  border-top: none;
+  position: relative;
+  cursor: pointer;
+}
+.uiIntranetNotificationsPortlet .displayItems > li > .remove-item {
+  right: 5px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  display: none;
+}
+.uiIntranetNotificationsPortlet .displayItems > li > .remove-item > .uiIconClose {
+  margin: 0px;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .status {
+  display: block;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .content {
+  font-weight: bold;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .content,
+.uiIntranetNotificationsPortlet .displayItems > li .content-normal {
+  font-size: 12px;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .content .btn,
+.uiIntranetNotificationsPortlet .displayItems > li .content-normal .btn {
+  font-weight: normal;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .content .btn.btn-primary,
+.uiIntranetNotificationsPortlet .displayItems > li .content-normal .btn.btn-primary {
+  font-weight: bold;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .content .btn + .btn,
+.uiIntranetNotificationsPortlet .displayItems > li .content-normal .btn + .btn {
+  margin-left: 7px;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .content .confirm,
+.uiIntranetNotificationsPortlet .displayItems > li .content-normal .confirm {
+  margin: 3px 0;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .avatarXSmall {
+  margin-top: 4px;
+  width: 45px;
+  height: 45px;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .avatarXSmall img {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  width: 45px;
+  height: 45px;
+}
+.uiIntranetNotificationsPortlet .displayItems > li .lastUpdatedTime {
+  color: #999999;
+  font-size: 12px;
+  display: inline-block;
+}
+.uiIntranetNotificationsPortlet .displayItems > li + li {
+  border-top: 1px solid #cccccc;
+}
+.uiIntranetNotificationsPortlet .displayItems > li [class^="uiIcon"] {
+  margin-right: 7px;
+}
+.uiIntranetNotificationsPortlet .displayItems > li.unread {
+  background-color: #e3ecf6;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover {
+  background-color: #487eb8;
+  background-image: -moz-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#3367a0));
+  background-image: -webkit-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -o-linear-gradient(top, #578dc9, #3367a0);
+  background-image: linear-gradient(to bottom, #578dc9, #3367a0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff3367a0', GradientType=0);
+  color: #ffffff;
+  cursor: pointer;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover > .remove-item > .uiIconClose,
+.uiIntranetNotificationsPortlet .displayItems > li:hover > .remove-item > .uiIconClose:hover {
+  color: #ffffff !important;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover a {
+  color: #ffffff !important;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover .btn {
+  color: #333333 !important;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover .btn.btn-primary {
+  color: #ffffff !important;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover .lastUpdatedTime {
+  color: #ffffff;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover .uiIconLightGray {
+  color: #ffffff;
+}
+.uiIntranetNotificationsPortlet .displayItems > li:hover .uiIconSocLightGray {
+  color: #ffffff;
+}
+.uiIntranetNotificationsPortlet .loadingMoreNotification {
+  text-align: center;
+}
+.uiIntranetNotificationsPortlet .bottomContainer {
+  height: 60px;
+}
+.uiIntranetNotificationsPortlet .loadingIndicator {
+  position: relative;
+  margin-bottom: -60px;
+  height: 70px;
+  display: none;
+  text-align: center;
+}
+.uiIntranetNotificationsPortlet .loadingIndicator .loadingText {
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
