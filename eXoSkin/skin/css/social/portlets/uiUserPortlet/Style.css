@@ -482,4 +482,12 @@ td.right-column-containerTDContainer #MiniConnectionsPortlet {
   .uiBasicProfilePortlet .uiBasicInfoSection .group-user-info .value-user-info .uiPosition {
     max-width: 100%;
   }
+  body #socialMainLayout {
+    padding: 0  15px;
+  }
+  body #socialMainLayout table.UITableColumn tr.TRContainer,
+  body #socialMainLayout table.UITableColumn tr.TRContainer > td {
+    display: block;
+    width: 100%;
+  }
 }

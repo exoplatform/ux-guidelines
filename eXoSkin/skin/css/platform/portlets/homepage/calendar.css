@@ -135,20 +135,54 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   white-space: normal;
-  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/homepage/calendar/calendar-porlet.png") no-repeat;
+  position: relative;
 }
 .calendarPortlet .calendarPortletData .tasksList a {
   color: #333333;
 }
 .calendarPortlet .calendarPortletData .tasksList .taskCompleted {
-  background-position: 0 5px;
   text-decoration: line-through;
 }
-.calendarPortlet .calendarPortletData .tasksList .taskNotCompleted {
-  background-position: 0 -43px;
+.calendarPortlet .calendarPortletData .tasksList .taskCompleted:before {
+  color: #2f5e92;
+  border-bottom: 2px solid #2f5e92;
+  border-left: 2px solid #2f5e92;
+  content: "";
+  height: 3px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  transform: skew(45deg, -49deg);
+  width: 6px;
+}
+.calendarPortlet .calendarPortletData .tasksList .taskNotCompleted:before {
+  background: #cccccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  content: "";
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+.calendarPortlet .calendarPortletData .tasksList .taskLateNotCompleted:before {
+  content: "\e772";
+  color: #edad00;
+  display: inline-block;
+  font-family: "PLF-FONT-ICONS";
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  position: relative;
+  text-transform: none;
+  top: 1px;
+  margin-right: 5px;
 }
 .calendarPortlet .calendarPortletData .tasksList .taskLateNotCompleted {
-  background-position: 0 -91px;
+  padding-left: 0px;
 }
 .calendarPortlet .calendarPortletData .settingsContainerPage {
   margin: 0px 10px 10px 10px ;

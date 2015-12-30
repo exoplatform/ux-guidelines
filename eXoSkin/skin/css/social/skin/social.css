@@ -2185,14 +2185,6 @@ div.suggestions div.resultItem p {
   min-width: 200px;
 }
 @media (max-width: 768px) {
-  body #socialMainLayout {
-    padding: 0  15px;
-  }
-  body #socialMainLayout table tr,
-  body #socialMainLayout table td {
-    display: block;
-    width: 100%;
-  }
   .uiSearchInput.searchWithIcon.pull-right {
     float: none;
     margin: 10px 0;

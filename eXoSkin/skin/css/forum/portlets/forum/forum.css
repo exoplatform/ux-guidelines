@@ -329,6 +329,16 @@ a:hover .uiIconForumColorBusy {
   color: #2f5e92;
   font-weight: bold;
 }
+.uiForumPortlet .uiSettingEditMode .uiTrees .treeContainer .node .expandIcon::before,
+.uiForumPortlet .uiSettingEditMode .uiTrees .treeContainer .node .collapseIcon::before {
+  top: 6px;
+}
+.uiForumPortlet .uiSettingEditMode .uiTrees .treeContainer .node .uiIconEmpty {
+  display: inline;
+}
+.uiForumPortlet .uiSettingEditMode .uiTrees .treeContainer .node .uiCheckbox > span {
+  text-indent: 11px;
+}
 .textHotTopic {
   color: #c72222;
 }
@@ -907,6 +917,11 @@ a:hover .uiIconForumColorBusy {
 }
 .uiNotificationForm .form-horizontal .control-group .controls {
   margin-left: 210px;
+  position: relative;
+}
+.uiNotificationForm .form-horizontal .control-group .controls .actionIcon {
+  position: absolute;
+  right: -7px;
 }
 /************ Popup Import **********/
 .uiImportForm .uploadButton {
@@ -932,6 +947,30 @@ a:hover .uiIconForumColorBusy {
 }
 .uiNotificationForm .controls .clearfix > span {
   width: 100%!important;
+}
+@media (max-width: 1024px) {
+  .uiNotificationForm .form-horizontal .control-group .controls .actionIcon {
+    right: -12px;
+  }
+}
+@media (max-width: 768px) {
+  .uiNotificationForm .form-horizontal .control-group .control-label {
+    width: 100%;
+    text-align: left;
+    float: none;
+  }
+  .uiNotificationForm .form-horizontal .control-group .controls {
+    margin-left: 0;
+    white-space: normal;
+  }
+  .uiNotificationForm .form-horizontal .control-group .controls .actionIcon {
+    right: -7px;
+  }
+}
+@media (max-width: 480px) {
+  .uiNotificationForm .form-horizontal .control-group .controls .actionIcon {
+    right: -12px;
+  }
 }
 .rounded-corners-top {
   -webkit-border-radius: 3px 3px 0 0;
@@ -986,9 +1025,6 @@ a:hover .uiIconForumColorBusy {
   margin: 0 5px 0 0;
 }
 .uiPostForm .ThreadContent .controls span i[class^="uiIcon"] {
-  margin-right: 4px;
-}
-.uiNotificationForm .cke_reset {
   margin-right: 4px;
 }
 @media (max-width: 955px) {

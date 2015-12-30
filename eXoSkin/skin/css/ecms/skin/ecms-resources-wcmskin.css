@@ -805,6 +805,9 @@ a:hover .uiIconEcmsShareDocuments,
 .actionIcon .uiIconRemove:before {
   content: "\e799";
 }
+.uiIconEcmsPublicationApproveContent:before {
+  content: "\e63d";
+}
 .explorerTree {
   float: left;
   width: 230px;
@@ -2043,6 +2046,10 @@ a:hover .uiIconEcmsShareDocuments,
   right: -1px;
   top: -39px;
 }
+.edittingToolBarContainer .edittingToolBar .btn-group,
+.edittingContent .edittingToolBar .btn-group {
+  position: static;
+}
 .edittingToolBarContainer .edittingToolBar .btn-group .btn,
 .edittingContent .edittingToolBar .btn-group .btn {
   padding: 3px 5px;
@@ -2063,6 +2070,10 @@ a:hover .uiIconEcmsShareDocuments,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff2f5e92', GradientType=0);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
 }
+.edittingToolBarContainer .edittingToolBar .btn-group .tooltip.left,
+.edittingContent .edittingToolBar .btn-group .tooltip.left {
+  max-width: 120px;
+}
 .edittingToolBarContainer .edittingToolBar .btn-group > .btn:first-child,
 .edittingContent .edittingToolBar .btn-group > .btn:first-child {
   margin-left: 0px;
@@ -2077,6 +2088,12 @@ a:hover .uiIconEcmsShareDocuments,
 }
 .edittingToolBarContainer .edittingToolBar .edittingCurrentState .publishedText,
 .edittingContent .edittingToolBar .edittingCurrentState .publishedText,
+.edittingToolBarContainer .edittingToolBar .edittingCurrentState .pendingText,
+.edittingContent .edittingToolBar .edittingCurrentState .pendingText,
+.edittingToolBarContainer .edittingToolBar .edittingCurrentState .approvedText,
+.edittingContent .edittingToolBar .edittingCurrentState .approvedText,
+.edittingToolBarContainer .edittingToolBar .edittingCurrentState .stagedText,
+.edittingContent .edittingToolBar .edittingCurrentState .stagedText,
 .edittingToolBarContainer .edittingToolBar .edittingCurrentState .draftText,
 .edittingContent .edittingToolBar .edittingCurrentState .draftText {
   color: #ffffff;

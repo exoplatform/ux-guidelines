@@ -161,9 +161,6 @@
 .uiGadgetThemes .gadContent .listpoll .control-group {
   margin: 0px;
 }
-.uiGadgetThemes .gadContent .listpoll .control-group .controls {
-  margin-left: 145px;
-}
 .uiGadgetThemes .gadContent .listpoll .control-group .control-label {
   width: 138px;
   overflow: hidden;
@@ -173,6 +170,7 @@
 }
 .uiGadgetThemes .gadContent .listpoll .selectbox {
   width: 100%;
+  max-width: none;
 }
 .uiGadgetThemes .gadContent .listpoll .uiSelectbox {
   width: 100%;

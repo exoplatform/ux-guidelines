@@ -380,6 +380,9 @@ a:hover [class^="uiIconPLF"],
 .UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .quickAddEventContainer {
   padding: 0 10px;
 }
+.UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .form-horizontal {
+  padding: 20px 0 5px;
+}
 .UIToolbarContainer .uiCreateToolBarPortlet .uiQuickAddEvent .form-horizontal .control-label {
   width: 105px;
   text-align: left;
@@ -672,6 +675,7 @@ a:hover [class^="uiIconPLF"],
 .uiNotificationPopoverToolbarPortlet .displayItems > li .lastUpdatedTime {
   color: #999999;
   font-size: 12px;
+  display: inline-block;
 }
 .uiNotificationPopoverToolbarPortlet .displayItems > li [class^="uiIcon"] {
   margin-right: 7px;

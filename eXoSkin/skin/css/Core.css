@@ -8518,6 +8518,12 @@ a.muted:focus {
 body {
   padding: 0;
 }
+[class^="uiIcon"]:before {
+  content: "\e6ba";
+}
+.uiIconEcmsLightGray:before {
+  content: "\e665";
+}
 .uiIconTaskPortlet:before {
   content: "\e801";
 }
@@ -10269,6 +10275,8 @@ body {
   -moz-border-radius: 4px;
   border-radius: 4px;
   position: absolute;
+  max-width: 95%;
+  word-wrap: break-word;
 }
 .uiPopup .popupHeader,
 .modal.uiPopup .popupHeader {
@@ -10828,6 +10836,11 @@ a:hover [class^="uiIcon"],
 .uiIconUnWatch:before {
   content: "\e79b";
 }
+.uiIconSelectDrive:before,
+.uiIconSelectNodePath:before,
+.uiIconSelectTargetPage:before {
+  content: "\e74a";
+}
 .uiIconMovePage:before,
 .uiIconMoveCategory:before {
   content: "\e795";
@@ -10886,7 +10899,6 @@ a:hover [class^="uiIcon"],
 .uiIconAddIcon:before,
 .uiIconAddPath:before,
 .uiIconSelectPath:before,
-.uiIconSelectTargetPage:before,
 .uiIconChooseNodeType:before,
 .uiIconAddNode:before,
 .uiIconSelectNavigationNode:before,
@@ -16132,9 +16144,6 @@ input[type=password]::-ms-reveal {
   display: block;
   padding: 8px 8px 8px 15px;
 }
-.accordion .accordion-toggle a [class^="uiIcon"].pull-right {
-  margin-top: 2px;
-}
 .accordion .accordion-toggle a [class^="uiIconArrow"] {
   margin-top: 5px!important;
 }
@@ -16204,9 +16213,9 @@ input[type=password]::-ms-reveal {
   padding: 8px 15px;
   display: block;
 }
-.accordion .expaned .uiIconSelected {
-  background-position: 0px -140px;
-  margin-top: 2px;
+.accordion .expaned .uiIconSelected:before {
+  content: "\e75a";
+  font-size: 9px;
 }
 .accordion .expaned:hover {
   -webkit-border-radius: 3px 3px 0 0;
@@ -16217,9 +16226,9 @@ input[type=password]::-ms-reveal {
   padding: 8px 15px;
   display: block;
 }
-.accordion .collapsed .uiIconSelected {
-  background-position: -40px -140px;
-  margin-top: 2px;
+.accordion .collapsed .uiIconSelected:before {
+  content: "\e75c";
+  font-size: 9px;
 }
 .accordion .accordion-inner {
   border: none;
@@ -16470,6 +16479,9 @@ input[type=password]::-ms-reveal {
 .uiGrid.table-hover tbody tr:hover th {
   background-color: #e6e6e6;
 }
+.table-responsive {
+  overflow: auto ;
+}
 .tooltip {
   font-size: 12px !important;
   text-shadow: none!important;
@@ -16489,6 +16501,8 @@ input[type=password]::-ms-reveal {
   -moz-border-radius: 2px;
   border-radius: 2px;
   line-height: 16px;
+  text-align: left;
+  padding: 8px 10px;
 }
 @media (max-width: 1024px) {
   .tooltip {
@@ -16600,9 +16614,11 @@ input[type=password]::-ms-reveal {
   padding: 8px 12px 8px 32px;
   margin: 10px 0;
   z-index: 10;
+  max-width: 95%;
+  word-wrap: break-word;
 }
 .alert i {
-  display: inline-block;
+  display: inline;
   vertical-align: text-top;
   width: 16px;
   height: 16px;
@@ -17128,10 +17144,6 @@ input[type=password]::-ms-reveal {
 .uiCalendarComponent + .uiCalendarComponent {
   margin-left: 15px;
 }
-.uiCalendarComponent .actionIcon {
-  line-height: 14px;
-  padding: 2px;
-}
 .uiCalendarComponent .highLight {
   font-weight: bold;
 }
@@ -17141,11 +17153,36 @@ input[type=password]::-ms-reveal {
 }
 .uiCalendarComponent h5.title {
   text-align: center;
-  line-height: 14px;
-  padding: 10px;
+  position: relative;
+  padding: 8px 10px;
 }
 .uiCalendarComponent h5.title span {
   font-size: 13px;
+  display: block;
+  padding: 0 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uiCalendarComponent h5.title .tooltip-inner {
+  white-space: nowrap;
+}
+.uiCalendarComponent h5.title .actionIcon {
+  position: absolute;
+  top: 9px;
+  left: 5px;
+  padding: 0;
+  line-height: 15px;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+}
+.uiCalendarComponent h5.title .actionIcon .uiIconMiniArrowLeft {
+  left: -1px;
+}
+.uiCalendarComponent h5.title .actionIcon.pull-right {
+  right: 5px;
+  left: auto;
 }
 .uiCalendarComponent h5.title,
 .uiCalendarComponent h5.title span a {
@@ -17157,14 +17194,6 @@ input[type=password]::-ms-reveal {
 .uiCalendarComponent table tr td {
   text-align: center;
   line-height: 24px;
-}
-.uiCalendarComponent table tr {
-  display: table!important;
-  width: 100%;
-}
-.uiCalendarComponent table td {
-  display: table-cell !important;
-  width: auto!important;
 }
 .uiCalendarComponent table.weekList {
   padding: 0 9px;
@@ -20785,12 +20814,27 @@ input[type=password]::-ms-reveal {
   border-radius: 3px;
   color: #215ab2;
   border: 1px solid #215ab2;
-  padding: 1px 5px;
   display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  padding: 1px 16px 1px 5px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  top: 3px;
 }
 .exo-mentions .replaceTextArea > span i {
   margin-left: 4px;
   font-size: 0;
+}
+.exo-mentions .replaceTextArea > span .removePermission .uiIconClose {
+  top: 7px !important;
+}
+.exo-mentions .replaceTextArea .removePermission .uiIconClose {
+  top: 2px !important;
+}
+.exo-mentions .replaceTextArea span + input {
+  top: -6px;
 }
 .exo-mentions .replaceTextArea span.none {
   background: none transparent;
@@ -20808,6 +20852,9 @@ input[type=password]::-ms-reveal {
   display: inline;
   width: 0px;
 }
+.exo-mentions .replaceTextArea .cursorText input {
+  padding: 0;
+}
 .exo-mentions .placeholder {
   color: #999999;
   position: absolute;
@@ -20818,8 +20865,10 @@ input[type=password]::-ms-reveal {
 }
 .exo-mentions .uiIconClose {
   display: inline-block !important;
-  position: static !important;
   cursor: pointer;
+  position: absolute;
+  right: 4px;
+  top: 7px !important;
 }
 .attachmentContainer {
   background: #f8f8f8;
@@ -23862,6 +23911,7 @@ Round corner box with title
   right: 0;
   overflow: auto;
   text-align: center;
+  position: fixed!important;
 }
 .UIMaskWorkspace {
   -moz-border-radius: 5px;
@@ -24721,7 +24771,11 @@ hr {
 .uiAccordion.leftPanel .accordion-heading .project-item.active > .sub-item .collapseSubProject,
 .uiAccordion.leftPanel .accordion-heading .label-item.active > .sub-item .collapseSubProject,
 .uiAccordion.leftPanel .accordion-heading .project-item.open > .sub-item .collapseSubProject,
-.uiAccordion.leftPanel .accordion-heading .label-item.open > .sub-item .collapseSubProject {
+.uiAccordion.leftPanel .accordion-heading .label-item.open > .sub-item .collapseSubProject,
+.uiAccordion.leftPanel .accordion-heading .project-item.active > .sub-item .collapseSubLabel,
+.uiAccordion.leftPanel .accordion-heading .label-item.active > .sub-item .collapseSubLabel,
+.uiAccordion.leftPanel .accordion-heading .project-item.open > .sub-item .collapseSubLabel,
+.uiAccordion.leftPanel .accordion-heading .label-item.open > .sub-item .collapseSubLabel {
   color: #ffffff;
 }
 .uiAccordion.leftPanel .accordion-heading .project-item.active > .sub-item .project-name [class^="uiIcon"],
@@ -24735,7 +24789,11 @@ hr {
 .uiAccordion.leftPanel .accordion-heading .project-item.active > .sub-item .collapseSubProject [class^="uiIcon"],
 .uiAccordion.leftPanel .accordion-heading .label-item.active > .sub-item .collapseSubProject [class^="uiIcon"],
 .uiAccordion.leftPanel .accordion-heading .project-item.open > .sub-item .collapseSubProject [class^="uiIcon"],
-.uiAccordion.leftPanel .accordion-heading .label-item.open > .sub-item .collapseSubProject [class^="uiIcon"] {
+.uiAccordion.leftPanel .accordion-heading .label-item.open > .sub-item .collapseSubProject [class^="uiIcon"],
+.uiAccordion.leftPanel .accordion-heading .project-item.active > .sub-item .collapseSubLabel [class^="uiIcon"],
+.uiAccordion.leftPanel .accordion-heading .label-item.active > .sub-item .collapseSubLabel [class^="uiIcon"],
+.uiAccordion.leftPanel .accordion-heading .project-item.open > .sub-item .collapseSubLabel [class^="uiIcon"],
+.uiAccordion.leftPanel .accordion-heading .label-item.open > .sub-item .collapseSubLabel [class^="uiIcon"] {
   color: #ffffff;
 }
 .uiAccordion.leftPanel .accordion-heading .project-item.active > .sub-item > a.dropdown-toggle,
@@ -25534,9 +25592,6 @@ hr {
   #Officebody > div > div > div > .UITableColumn {
     background: #ffffff url("/eXoSkin/skin/images/themes/default/ShareImages/Background/texture.png") repeat left top;
   }
-  .open-left-bar .toggle-left-bar {
-    margin-left: -25px;
-  }
   .UIToolbarContainer #HomeLink {
     overflow: hidden;
   }
@@ -26324,9 +26379,6 @@ hr {
   .UIToolbarContainer .NormalContainerBlock .ToolbarContainer.active .uiDropdownWithIcon span {
     margin: 0px 0 0;
   }
-  .open-left-bar .toggle-left-bar {
-    margin-left: -22px;
-  }
   .UIToolbarContainer .NormalContainerBlock .ToolbarContainer.active .TRContainer > div.SearchPortletTDContainer {
     padding: 0!important;
   }
@@ -26497,7 +26549,11 @@ hr {
     border-radius: 4px;
     margin: 4px 0 0;
   }
-  .activeInputSearch .SearchPortletTDContainer .uiSearchPlatformToolBarPortlet .uiQuickSearchResult table th {
+  .activeInputSearch .SearchPortletTDContainer .uiSearchPlatformToolBarPortlet .uiQuickSearchResult table {
+    table-layout: fixed;
+  }
+  .activeInputSearch .SearchPortletTDContainer .uiSearchPlatformToolBarPortlet .uiQuickSearchResult table th,
+  .activeInputSearch .SearchPortletTDContainer .uiSearchPlatformToolBarPortlet .uiQuickSearchResult table colgroup {
     display: none;
   }
   .activeInputSearch .SearchPortletTDContainer .uiSearchPlatformToolBarPortlet .uiQuickSearchResult table td {
@@ -26506,6 +26562,11 @@ hr {
   }
   .activeInputSearch .SearchPortletTDContainer .uiSearchPlatformToolBarPortlet .uiQuickSearchResult table td .avatarTiny {
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+    height: auto;
+    display: block;
   }
   .uiQuickSearchResult {
     position: absolute!important;
@@ -26618,6 +26679,9 @@ hr {
   }
 }
 @media (max-width: 480px) {
+  .open-left-bar .toggle-left-bar {
+    margin-left: -22px;
+  }
   .uiEditUserProfileForm .form-horizontal .controls {
     white-space: nowrap;
   }

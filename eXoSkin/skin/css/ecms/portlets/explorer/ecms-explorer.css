@@ -869,6 +869,9 @@
 .uiActionBar .uiViewBarContainer .showDrivesButton > [class^="uiIconEcms"] {
   color: #2f5e92;
 }
+.uiActionBar .uiViewBarContainer .tooltip {
+  max-width: 150px;
+}
 .uiTabGrayInPage .tab-content .nav-pills > li.dropdown {
   margin-right: 200px;
 }
