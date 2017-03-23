@@ -2744,7 +2744,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("/enterprise-module/eXoSkin/skin/img/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -2767,7 +2767,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings-white.png");
+  background-image: url("/enterprise-module/eXoSkin/skin/img/glyphicons-halflings-white.png");
 }
 .icon-glass {
   background-position: 0      0;
@@ -8450,24 +8450,24 @@ a.badge:focus {
 /* uiBox */
 @font-face {
   font-family: 'OpenSansRegular';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Regular.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 @font-face {
   font-family: 'OpenSansExtraBold';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-ExtraBold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf');
 }
 @font-face {
   font-family: 'OpenSansBold';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans-Bold.ttf');
 }
 @font-face {
   font-family: 'OpenSansLight';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Light.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
 }
 @font-face {
   font-family: 'IONIC-FONT';
-  src: url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.eot');
-  src: url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.ttf') format('truetype'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.woff') format('woff'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.svg') format('svg');
+  src: url('../fonts//Ionic/ionicons.eot');
+  src: url('../fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('../fonts/Ionic/ionicons.ttf') format('truetype'), url('/enterprise-module/eXoSkin/skin/Ionic/ionicons.woff') format('woff'), url('../fonts/Ionic/ionicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -20424,8 +20424,8 @@ input[type=password]::-ms-reveal {
 }
 @font-face {
   font-family: 'PLF-FONT-ICONS';
-  src: url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.eot?-m9uidt');
-  src: url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.eot?#iefix-m9uidt') format('embedded-opentype'), url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.ttf?-m9uidt') format('truetype'), url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.woff?-m9uidt') format('woff'), url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.svg?-m9uidt#PLF-FONT-ICONS') format('svg');
+  src: url('../fonts/PLF-FONT-ICONS.eot?-m9uidt');
+  src: url('../fonts/PLF-FONT-ICONS.eot?#iefix-m9uidt') format('embedded-opentype'), url('../fonts/PLF-FONT-ICONS.ttf?-m9uidt') format('truetype'), url('../fonts/PLF-FONT-ICONS.woff?-m9uidt') format('woff'), url('../fonts/PLF-FONT-ICONS.svg?-m9uidt#PLF-FONT-ICONS') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23277,8 +23277,8 @@ input[type=password]::-ms-reveal {
 }
 @font-face {
   font-family: 'PLF-FONT-ICONS';
-  src: url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.eot?-m9uidt');
-  src: url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.eot?#iefix-m9uidt') format('embedded-opentype'), url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.ttf?-m9uidt') format('truetype'), url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.woff?-m9uidt') format('woff'), url('/EnterpriseSkin/skin/fonts/PLF-FONT-ICONS.svg?-m9uidt#PLF-FONT-ICONS') format('svg');
+  src: url('../fonts/PLF-FONT-ICONS.eot?-m9uidt');
+  src: url('../fonts/PLF-FONT-ICONS.eot?#iefix-m9uidt') format('embedded-opentype'), url('../fonts/PLF-FONT-ICONS.ttf?-m9uidt') format('truetype'), url('../fonts/PLF-FONT-ICONS.woff?-m9uidt') format('woff'), url('../fonts/PLF-FONT-ICONS.svg?-m9uidt#PLF-FONT-ICONS') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27267,24 +27267,24 @@ hr {
 /* uiBox */
 @font-face {
   font-family: 'OpenSansRegular';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Regular.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 @font-face {
   font-family: 'OpenSansExtraBold';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-ExtraBold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf');
 }
 @font-face {
   font-family: 'OpenSansBold';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
 }
 @font-face {
   font-family: 'OpenSansLight';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Light.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
 }
 @font-face {
   font-family: 'IONIC-FONT';
-  src: url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.eot');
-  src: url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.ttf') format('truetype'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.woff') format('woff'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.svg') format('svg');
+  src: url('../fonts/Ionic/ionicons.eot');
+  src: url('../fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('../fonts/Ionic/ionicons.ttf') format('truetype'), url('../fonts/Ionic/ionicons.woff') format('woff'), url('../fonts/Ionic/ionicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27321,24 +27321,24 @@ hr {
 /* Enterprise skin-Calendar */
 @font-face {
   font-family: 'OpenSansRegular';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Regular.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 @font-face {
   font-family: 'OpenSansExtraBold';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-ExtraBold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf');
 }
 @font-face {
   font-family: 'OpenSansBold';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
 }
 @font-face {
   font-family: 'OpenSansLight';
-  src: url('/EnterpriseSkin/skin/fonts/OpenSans/OpenSans-Light.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
 }
 @font-face {
   font-family: 'IONIC-FONT';
-  src: url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.eot');
-  src: url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.ttf') format('truetype'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.woff') format('woff'), url('/EnterpriseSkin/skin/fonts/Ionic/ionicons.svg') format('svg');
+  src: url('../fonts/Ionic/ionicons.eot');
+  src: url('../fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('../fonts/Ionic/ionicons.ttf') format('truetype'), url('../fonts/Ionic/ionicons.woff') format('woff'), url('../fonts/Ionic/ionicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
