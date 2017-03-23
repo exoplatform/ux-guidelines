@@ -1,0 +1,465 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+body {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/login_texture.jpg") repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  overflow: auto;
+  height: auto;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+a {
+  color: #2f5e92;
+}
+.backLight {
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -webkit-box-shadow: 0 0 200px #ffffff;
+  -moz-box-shadow: 0 0 200px #ffffff;
+  box-shadow: 0 0 200px #ffffff;
+  width: 280px;
+  height: 280px;
+  margin: 140px auto 0;
+}
+.uiWelcomeBox {
+  background-color: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px #3d3d3d;
+  -moz-box-shadow: 0 1px 3px #3d3d3d;
+  box-shadow: 0 1px 3px #3d3d3d;
+  margin: -380px auto 0;
+  width: 512px;
+}
+.uiWelcomeBox .header {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4f4f4f;
+  background-image: -moz-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#474747), to(#5b5b5b));
+  background-image: -webkit-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -o-linear-gradient(top, #474747, #5b5b5b);
+  background-image: linear-gradient(to bottom, #474747, #5b5b5b);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474747', endColorstr='#ff5b5b5b', GradientType=0);
+  border-color: #5b5b5b #5b5b5b #353535;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border: 1px solid #393939;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  width: 511px;
+  line-height: 22px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #999999;
+}
+.uiWelcomeBox .content {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 10px 30px;
+  position: static;
+  width: auto;
+  height: 400px;
+  overflow-y: scroll;
+}
+.uiWelcomeBox .bottom {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/bottomBG.png") no-repeat center bottom;
+  text-align: center;
+  padding: 25px 30px;
+  border-radius: 8px;
+}
+.uiWelcomeBox .btn {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 41px;
+  text-align: center;
+  vertical-align: top;
+  width: 100px;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding: 0 6px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #477ab3;
+  background-image: -moz-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#2f5e92));
+  background-image: -webkit-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -o-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: linear-gradient(to bottom, #578dc9, #2f5e92);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff2f5e92', GradientType=0);
+  border: 1px solid #224469;
+  *background-color: #2f5e92;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.uiWelcomeBox .btn:hover,
+.uiWelcomeBox .btn:focus,
+.uiWelcomeBox .btn:active,
+.uiWelcomeBox .btn.active,
+.uiWelcomeBox .btn.disabled,
+.uiWelcomeBox .btn[disabled] {
+  color: #ffffff;
+  background-color: #2f5e92;
+  *background-color: #29527f;
+}
+.uiWelcomeBox .btn.disabled,
+.uiWelcomeBox .btn[disabled] {
+  color: #999999;
+}
+.uiWelcomeBox .btn:hover {
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+.uiWelcomeBox button.inactive {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.uiWelcomeBox .uiCheckbox {
+  position: relative;
+  display: inline-block;
+  margin: 10px 5px;
+  line-height: 20px;
+}
+.uiWelcomeBox .uiCheckbox input[type="checkbox"]:checked,
+.uiWelcomeBox .uiCheckbox input[type="checkbox"]:not(:checked) {
+  margin: 4px 0 0;
+  opacity: 0;
+  padding: 0;
+  outline: 0 none;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+.uiWelcomeBox .uiCheckbox input {
+  margin-left: -18px \0/;
+  min-height: 10px \0/;
+}
+.uiWelcomeBox .uiCheckbox > span {
+  display: inline-block;
+  color: #333333;
+  text-indent: 18px;
+}
+.uiWelcomeBox .uiCheckbox input[type="checkbox"]:checked + span:after {
+  border-bottom: 2px solid #2f5e92;
+  border-left: 2px solid #2f5e92;
+  content: "";
+  width: 6px;
+  height: 3px;
+  -webkit-transform: skew(45deg, -49deg);
+  -moz-transform: skew(45deg, -49deg);
+  -ms-transform: skewX(30deg) skewY(-35deg);
+  -o-transform: skew(45deg, -49deg);
+  transform: skew(45deg, -49deg);
+  -webkit-backface-visibility: hidden;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  left: 2px\9;
+  width: 10px\9;
+  height: 4px\9;
+  background: transparent \0/;
+}
+.uiWelcomeBox .uiCheckbox input[type="checkbox"] + span:before {
+  background: #e6e6e6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  width: 12px;
+  height: 12px;
+  top: 4px;
+  left: 0px;
+  content: " ";
+  position: absolute;
+  background: transparent \0/;
+}
+.uiWelcomeBox input:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  color: #333333;
+}
+.c5 {
+  vertical-align: middle;
+  width: 302.7pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c2 {
+  vertical-align: middle;
+  width: 67.1pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c38 {
+  vertical-align: middle;
+  width: 175.4pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c34 {
+  vertical-align: middle;
+  width: 302pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c37 {
+  vertical-align: middle;
+  width: 171pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c18 {
+  vertical-align: middle;
+  width: 171.8pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c10 {
+  vertical-align: middle;
+  width: 333pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c32 {
+  vertical-align: middle;
+  width: 298.4pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c13 {
+  vertical-align: middle;
+  width: 73.4pt;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1pt;
+  padding: 0.8pt 0.8pt 0.8pt 0.8pt;
+}
+.c15 {
+  line-height: 1.2;
+  padding-top: 5pt;
+  direction: ltr;
+  padding-bottom: 5pt;
+}
+.c7 {
+  line-height: 1.2;
+  text-align: center;
+  direction: ltr;
+  padding-bottom: 0pt;
+}
+.c1 {
+  line-height: 1.2;
+  text-align: justify;
+  direction: ltr;
+  padding-bottom: 8pt;
+}
+.c12 {
+  line-height: 1.2;
+  padding-top: 0.1pt;
+  direction: ltr;
+  padding-bottom: 0.1pt;
+}
+.c33 {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+.c28 {
+  list-style-type: lower-latin;
+  margin: 0;
+  padding: 0;
+}
+.c21 {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0;
+}
+.c9 {
+  line-height: 1.2;
+  direction: ltr;
+  padding-bottom: 0pt;
+}
+.c19 {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+.c30 {
+  max-width: 468pt;
+  background-color: #ffffff;
+  padding: 72pt 72pt 72pt 72pt;
+}
+.c0 {
+  font-size: 12px;
+  font-family: Verdana, Arial, sans-serif;
+}
+.c11 {
+  padding-left: 0pt;
+  margin-left: 36pt;
+}
+.c22 {
+  padding-left: 0pt;
+  margin-left: 54pt;
+}
+.c24 {
+  padding-left: 0pt;
+  margin-left: 72pt;
+}
+.c4 {
+  font-weight: bold;
+}
+.c23 {
+  direction: ltr;
+}
+.c3 {
+  text-indent: 36pt;
+}
+.c27 {
+  margin-left: 18pt;
+}
+.c29 {
+  padding-left: 0pt;
+}
+.c6 {
+  height: 11pt;
+}
+.c14 {
+  text-align: justify;
+}
+.c20 {
+  margin-left: 36pt;
+}
+.c35 {
+  margin-left: 72pt;
+}
+.c31 {
+  text-indent: -36pt;
+}
+.c16 {
+  height: 0pt;
+}
+.c36 {
+  margin-left: 54pt;
+}
+.c26 {
+  border-collapse: collapse;
+}
+.c17 {
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .backLight {
+    display: none;
+  }
+  .uiWelcomeBox {
+    margin: 0 15px;
+    width: auto;
+  }
+  .uiWelcomeBox .header {
+    width: auto;
+  }
+  .uiWelcomeBox .content {
+    padding: 10px 20px;
+  }
+  .uiWelcomeBox .bottom {
+    background: none;
+    text-align: left;
+  }
+  .uiWelcomeBox .bottom .pull-left,
+  .uiWelcomeBox .bottom .pull-right {
+    float: none;
+  }
+  .uiWelcomeBox .bottom .btn {
+    width: 100%;
+    text-align: center;
+  }
+}

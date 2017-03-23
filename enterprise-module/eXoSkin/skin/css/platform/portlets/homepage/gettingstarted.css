@@ -1,0 +1,127 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.uiGettingStarted {
+  /*** progress bar**/
+
+}
+.uiGettingStarted .gadgetTitle a {
+  cursor: pointer;
+  visibility: hidden;
+}
+.uiGettingStarted .gadgetTitle:hover a {
+  visibility: visible;
+}
+.uiGettingStarted .listBlock {
+  padding: 15px;
+}
+.uiGettingStarted .gsList li {
+  padding: 0 0 0 23px;
+  margin: 0 0 5px 0;
+  cursor: pointer;
+  position: relative;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/homepage/gettingStarted/gettingStartedCheck.png") no-repeat left -43px;
+}
+.uiGettingStarted .gsList li:before {
+  background: #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.17);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.17);
+  width: 12px;
+  height: 12px;
+  top: 4px;
+  left: 0px;
+  content: "";
+  position: absolute;
+}
+.uiGettingStarted .gsList li:after {
+  border-bottom: 2px solid #2f5e92;
+  border-left: 2px solid #2f5e92;
+  content: "";
+  width: 6px;
+  height: 3px;
+  -webkit-transform: skew(45deg, -49deg);
+  -moz-transform: skew(45deg, -49deg);
+  -ms-transform: skewX(30deg) skewY(-35deg);
+  -o-transform: skew(45deg, -49deg);
+  transform: skew(45deg, -49deg);
+  -webkit-backface-visibility: hidden;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  display: none;
+}
+.uiGettingStarted .gsList li.done {
+  background-position: 0 5px;
+  text-decoration: line-through;
+}
+.uiGettingStarted .gsList li.done:after {
+  display: block;
+}
+.uiGettingStarted .gsList li a {
+  color: #333333;
+}
+.uiGettingStarted .btnCompleteGetting {
+  margin-bottom: 15px;
+}
+.uiGettingStarted #progress-shell {
+  width: 200px;
+}
+.uiGettingStarted .progress {
+  background-color: #eaeaea;
+  background-image: -moz-linear-gradient(top, #e6e6e6, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #f0f0f0);
+  background-image: -o-linear-gradient(top, #e6e6e6, #f0f0f0);
+  background-image: linear-gradient(to bottom, #e6e6e6, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe6e6e6', endColorstr='#fff0f0f0', GradientType=0);
+}
+.uiGettingStarted .progessLabel {
+  line-height: 23px;
+  margin-left: 8px;
+  color: #999999;
+}

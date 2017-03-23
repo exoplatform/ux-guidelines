@@ -1,0 +1,152 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.uiQuickSearchResult {
+  position: absolute;
+  background: #ffffff;
+  width: 315px;
+  margin-top: 6px;
+  margin-left: 3px;
+  display: none;
+  z-index: 1001;
+}
+.uiQuickSearchResult .uiGrid {
+  margin: 0;
+}
+.uiQuickSearchResult .uiGrid tr th {
+  border: none;
+  text-align: right;
+}
+.uiQuickSearchResult .uiGrid tr:nth-child(2n) th {
+  background: #ffffff;
+}
+.uiQuickSearchResult .uiGrid tbody tr td,
+.uiQuickSearchResult .uiGrid tbody tr th {
+  padding: 0;
+}
+.uiQuickSearchResult .uiGrid tbody tr td:first-child,
+.uiQuickSearchResult .uiGrid tbody tr th:first-child {
+  padding: 0 5px;
+}
+.uiQuickSearchResult .uiGrid tr:first-child th {
+  border-top-left-radius: 4px;
+}
+.uiQuickSearchResult .uiGrid tr:first-child td {
+  border-top-right-radius: 4px;
+}
+.uiQuickSearchResult .uiGrid tr:last-child th:first-child,
+.uiQuickSearchResult .uiGrid tr:last-child td:first-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.uiQuickSearchResult .uiGrid .message {
+  border-top: 1px solid #cccccc;
+  text-align: center;
+}
+.uiQuickSearchResult .uiGrid .message > a {
+  font-weight: bold;
+  color: #333333;
+}
+.uiQuickSearchResult .uiGrid .message > a:hover {
+  color: #2f5e92;
+}
+.uiQuickSearchResult .uiGrid .message:hover {
+  background: none;
+}
+.uiQuickSearchResult .uiGrid .noResult {
+  background: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.uiQuickSearchResult .quickSearchResult {
+  padding: 5px 10px 7px;
+  display: block;
+}
+.uiQuickSearchResult .quickSearchResult a {
+  color: #333333;
+}
+.uiQuickSearchResult .quickSearchResult .avatarTiny > img {
+  margin-right: 5px;
+}
+.uiQuickSearchResult .quickSearchResult:hover,
+.uiQuickSearchResult .quickSearchResult.arrowResult {
+  background-color: #487eb8;
+  background-image: -moz-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#3367a0));
+  background-image: -webkit-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -o-linear-gradient(top, #578dc9, #3367a0);
+  background-image: linear-gradient(to bottom, #578dc9, #3367a0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff3367a0', GradientType=0);
+  border-color: #224469;
+}
+.uiQuickSearchResult .quickSearchResult:hover a,
+.uiQuickSearchResult .quickSearchResult.arrowResult a {
+  color: #ffffff;
+}
+.uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconPLF"],
+.uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconPLF"] {
+  color: #ffffff;
+}
+.uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconEcms"],
+.uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconEcms"] {
+  color: #ffffff;
+}
+.uiQuickSearchResult .quickSearchResult:hover a > [class^="uiIconWiki"],
+.uiQuickSearchResult .quickSearchResult.arrowResult a > [class^="uiIconWiki"] {
+  color: #ffffff;
+}
+.uiQuickSearchResult .quickSearchResult:hover a > .uiIconTick,
+.uiQuickSearchResult .quickSearchResult.arrowResult a > .uiIconTick {
+  color: #ffffff;
+}
+.uiEDWidth70,
+.uiEDWidth70 select.uiResultPerPage,
+select.uiResultPerPage {
+  width: 70px;
+}
+.uiSearchSetting,
+.uiQuickSearchSetting {
+  padding-left: 10px;
+}

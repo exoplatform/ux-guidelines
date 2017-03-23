@@ -1,0 +1,412 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Thumbnail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+    <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/responsive.css" rel="stylesheet">
+    <!-- syntaxhighlighter -->
+    <link href="../js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+
+</head>
+
+<body data-target=".bs-docs-sidebar" data-spy="scroll" data-twttr-rendered="true">
+
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top ">
+        <div class="navbar-inner clearfix">
+            <button class="toggle-left-bar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="brand"><img src="../img/global.logo.png" /></a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li class="active"><a href="../Components.html">Components</a></li>
+                    <li><a href="../Patterns.html">Patterns</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 0px;">
+                    <div class="btn-group">
+                        <div class="btn btn-small active"><a href="../../Thumbnail/Thumbnail.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="Thumbnail.html">Dark Theme</a></div>
+                    </div>
+                </div>
+                <div class="btn-group-download pull-right">
+                    <a href="http://community.exoplatform.com/downloads" class="btn btn-primary" target="_blank"><i class="uiIconDownload"></i> <span>Download eXo Platform</span></a>
+                    <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> <span>Learn more about eXo Platform</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- Masthead -->
+
+        <header class="jumbotron subhead" id="overview">
+            <div class="container">
+                <h1>Thumbnail</h1>
+                <p class="lead">How to display a thumbnail for an image attachment or a file in a folder?</p>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="span3 bs-docs-sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top">
+                        <li><a href="#image-attachement-thumbnail"><i class="icon-chevron-right"></i>Thumbnail for image attachments</a></li>
+                        <li><a href="#thumbnail-in-folders"><i class="icon-chevron-right"></i>Thumbnail in folders</a></li>
+                    </ul>
+                </div>
+                <div class="span9">
+                    <section id="image-attachement-thumbnail">
+                        <div class="page-header">
+                            <h2>Thumbnail for image attachments</h2>
+                        </div>
+                        <p>A thumbnail with rounded borders can be used for image attachments in eXo Platform, such as topics, questions, and more. The thumbnail height is fixed at 80px, and its width is auto-resized to the original size of image.</p>
+                        <p>
+                            <h7>When you hover over a thumbnail, two options, including <b>View</b> and <b>Download</b>, will be displayed for you to select.</h7>
+                        </p>
+                        <p>
+                            <div class="bs-docs-example">
+                                <div class="attachmentContentImage clearfix">
+
+
+                                    <div class="attachmentContentImage clearfix">
+
+                                        <div class="imageAttachmentBox pull-left">
+                                            <a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Chrysanthemum.jpg">
+                                                <img alt="IMG_0991.JPG" id="imgViewIMG_0991.JPG" src="images/Chrysanthemum.jpg">
+                                            </a>
+                                            <div class="actionAttachImg">
+                                                <p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+                                                <p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="imageAttachmentBox pull-left">
+                                            <a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Desert.jpg">
+                                                <img alt="IMG_0284.JPG" id="imgViewIMG_0284.JPG" src="images/Desert.jpg">
+                                            </a>
+                                            <div class="actionAttachImg">
+                                                <p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+                                                <p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="imageAttachmentBox pull-left">
+                                            <a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Hydrangeas.jpg">
+                                                <img alt="IMG_0285.JPG" id="imgViewIMG_0285.JPG" src="images/Hydrangeas.jpg">
+                                            </a>
+                                            <div class="actionAttachImg">
+                                                <p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+                                                <p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="imageAttachmentBox pull-left">
+                                            <a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Penguins.jpg">
+                                                <img alt="IMG_0286.JPG" id="imgViewIMG_0286.JPG" src="images/Penguins.jpg">
+                                            </a>
+                                            <div class="actionAttachImg">
+                                                <p><a href="javascript:void(0);"><i class="uiIconSearch uiIconWhite"></i> View</a></p>
+                                                <p><a href="javascript:void(0);"><i class="uiIconDownload uiIconWhite"></i> Download</a></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+<pre class="prettyprint linenums">
+&lt;div class="attachmentContentImage clearfix"&gt;
+    &lt;div class="imageAttachmentBox pull-left"&gt;
+        &lt;a data-placement="bottom" rel="tooltip" class="imgAttach" data-original-title="Chrysanthemum.jpg"&gt;
+            &lt;img alt="IMG_0991.JPG" id="imgViewIMG_0991.JPG" src="images/Chrysanthemum.jpg"&gt;
+        &lt;/a&gt;
+        &lt;div class="actionAttachImg"&gt;
+            &lt;p&gt;&lt;a href="javascript:void(0);"&gt;&lt;i class="uiIconSearch uiIconWhite"&gt;&lt;/i&gt; View&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="javascript:void(0);"&gt;&lt;i class="uiIconDownload uiIconWhite"&gt;&lt;/i&gt; Download&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="imageAttachmentBox pull-left"&gt;
+        ...
+    &lt;/div&gt;
+    &lt;div class="imageAttachmentBox pull-left"&gt;
+        ...
+    &lt;/div&gt;
+    &lt;div class="imageAttachmentBox pull-left"&gt;
+        ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                        </p>
+                    </section>
+                    <section id="thumbnail-in-folders">
+                        <div class="page-header">
+                            <h2>Thumbnail in folders</h2>
+                        </div>
+                        <p>The thumbnail is used for all content types in a folder and will be displayed in the same container. For image type, the thumbnail will be resized until its width or height obtains the maximum size.</p>
+                        <div class="bs-docs-example">
+
+                            <div class="uiThumbnailsView">
+                                <div class="actionIconsContainer clearfix">
+
+                                    <div ondblclick="" class="actionIconBox" mousedown="">
+                                        <div style="height: auto; width: auto; border: none; -moz-user-select: none;">
+                                            <div class="nodeLabel">
+                                                <div class="thumbnailImage">
+
+                                                    <div style="display: none; width: auto; height: auto;" class="loadingProgressIcon">
+
+                                                        <div style="background-position:center;" class="bgThumbnailImage">
+                                                            <div style="width: 116px; height: 87px;">
+                                                                <img alt="" src="images/img10.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: block;"></div>
+                                                </div>
+                                            </div>
+                                            <div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="EXO_party.JPEG">
+                                                <a style="" class="actionLabel"><span class="nodeName">EXO_party.JPEG</span></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div ondblclick="" class="actionIconBox" mousedown="">
+                                        <div unselectable="on" style="height: auto; width: auto; border: none; -moz-user-select: none;">
+                                            <div class="nodeLabel">
+                                                <div class="thumbnailImage">
+
+                                                    <div style="display: block; width: auto; height: auto;" class="loadingProgressIcon">
+
+                                                        <div style="background-position:center;" class="bgThumbnailImage">
+                                                            <div style="width: 116px; height: 87px;">
+                                                                <img alt="" src="images/img10.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: none;"></div>
+                                                </div>
+                                            </div>
+                                            <div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="IMG_0991.JPG ">
+                                                <a style="" class="actionLabel"><span class="nodeName">IMG_0991.JPG</span></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div ondblclick="" class="actionIconBox" mousedown="">
+                                        <div unselectable="on" style="height: auto; width: auto; border: none; -moz-user-select: none;">
+                                            <div class="nodeLabel">
+                                                <div class="thumbnailImage">
+
+                                                    <div style="display: none; width: auto; height: auto;" class="loadingProgressIcon">
+
+                                                        <div style="background-position:center;" class="bgThumbnailImage">
+                                                            <div style="width: 116px; height: 87px;">
+                                                                <img alt="" src="images/img10.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="uiIcon64x64FolderDefault uiIcon64x64exo_portalFolder" style="display: block;"></div>
+                                                </div>
+                                            </div>
+                                            <div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="Intranet ">
+                                                <a style="" class="actionLabel"><span class="nodeName">Intranet</span></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div ondblclick="" class="actionIconBox" mousedown="">
+                                        <div unselectable="on" style="height: auto; width: auto; border: none; -moz-user-select: none;">
+                                            <div class="nodeLabel">
+                                                <div class="thumbnailImage">
+
+                                                    <div style="display: block; width: auto; height: auto;" class="loadingProgressIcon">
+
+                                                        <div style="background-position:center;" class="bgThumbnailImage">
+                                                            <div style="width: 116px; height: 87px;">
+                                                                <img alt="" src="images/Chrysanthemum.jpg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: none;"></div>
+                                                </div>
+                                            </div>
+                                            <div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="Chrysanthemum.jpg ">
+                                                <a style="" class="actionLabel"><span class="nodeName">Chrysanthemum.jpg</span></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+<pre class="prettyprint linenums">
+&lt;div class="uiThumbnailsView"&gt;
+    &lt;div class="actionIconsContainer clearfix"&gt;
+        &lt;div class="actionIconBox" &gt;
+            &lt;div style="height: auto; width: auto; border: none; -moz-user-select: none;"&gt;
+                &lt;div class="nodeLabel"&gt;
+                    &lt;div class="thumbnailImage"&gt;
+                        &lt;div style="display: none; width: auto; height: auto;" class="loadingProgressIcon"&gt;
+                            &lt;div style="background-position:center;" class="bgThumbnailImage"&gt;
+                                &lt;div style="width: 116px; height: 87px;"&gt;
+                                    &lt;img alt="" src="images/img10.png" &gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="uiIcon64x64FileDefault uiIcon64x64nt_file uiIcon64x64imagejpeg" style="display: block;"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div data-placement="bottom" rel="tooltip" class="actionIconLabel" data-original-title="EXO_party.JPEG"&gt;
+                    &lt;a style="" class="actionLabel"&gt;&lt;span class="nodeName"&gt;EXO_party.JPEG&lt;/span&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div  class="actionIconBox" &gt;
+            ...
+        &lt;/div&gt;
+        &lt;div  class="actionIconBox" &gt;
+            ...
+        &lt;/div&gt;
+        &lt;div  class="actionIconBox" &gt;
+            ...
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+                    </section>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+            </div>
+
+            <div class="mobile-offcanvas">
+                <div class="menu-main-menu-container">
+                    <ul class="menu" id="primary-menu">
+                        <li>
+                            <div>
+                                <div class="btn-group">
+                                    <a href="../../Thumbnail/Thumbnail.html" class="btn btn-small active">Default Theme</a>
+                                    <a href="Thumbnail.html" class="btn btn-small">Dark Theme</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://community.exoplatform.com/downloads" target="_blank" class="btn btn-primary"><i class="uiIconDownload"></i> Download eXo Platform</a>
+                                <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> Learn more about eXo Platform</a>
+                            </div>
+                        </li>
+                        <li><a href="../getting-started.html">Getting Started</a></li>
+                        <li class="has-sub active">
+                            <a href="../Components.html">Components</a>
+                            <ul class="sub-menu">
+                                <li><a href="../Typography/Typography.html">Typography</a></li>
+                                <li><a href="../Form/Form.html">Form</a></li>
+                                <li><a href="../Button/Button.html">Button</a></li>
+                                <li><a href="../Tables/Tables.html">Table</a></li>
+                                <li><a href="../Avatar/Avatar.html">Avatar</a></li>
+                                <li><a href="../Icons/Icons.html">Icon</a></li>
+                                <li><a href="../Navigation/Navigation.html">Navigation</a></li>
+                                <li><a href="../Dropdown/Dropdown.html">Dropdown</a></li>
+                                <li><a href="../MiniCalendar/MiniCalendar.html">Mini Calendar</a></li>
+                                <li><a href="../ProgressBars/ProgressBars.html">Progress bar</a></li>
+                                <li><a href="../Alerts/Alerts.html">Alert</a></li>
+                                <li><a href="../TooltipandPopover/TooltipandPopover.html">Tooltip and Popover</a></li>
+                                <li class="active"><a href="../Thumbnail/Thumbnail.html">Thumbnail</a></li>
+                                <li><a href="../Mention/Mention.html">Mention</a></li>
+                                <li><a href="../Color/Color.html">Color</a></li>
+                                <li><a href="../Trees/Trees.html">Trees</a></li>
+                                <li><a href="../BadgeAndLoading/BadgeAndLoading.html">Badge and Loading</a></li>
+                                <li><a href="../Classes/Classes.html">CSS Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="../Patterns.html">Patterns</a>
+                            <ul class="sub-menu">
+                                <li><a href="../BreadcrumbPattern/BreadcrumbPattern.html">Breadcrumb</a></li>
+                                <li><a href="../HoverrevealActionsPattern/HoverrevealActionsPattern.html">Hover-reveal</a></li>
+                                <li><a href="../MessagesPattern/MessagesPattern.html">Message</a></li>
+
+                                <li><a href="../Pop-upWindowPattern/PopupWindowPattern.html">Popup</a></li>
+                                <li><a href="../PaginationPattern/PaginationPattern.html">Pagination</a></li>
+                                <li><a href="../TabPattern/Tabs.html">Tabs</a></li>
+
+                                <li><a href="../TabPattern/Tabs.html">Sort by Column</a></li>
+                                <li><a href="../TabPattern/Tabs.html">Table Filter</a></li>
+                                <li><a href="../TabPattern/Tabs.html">Rating</a></li>
+
+                                <li><a href="../TabPattern/Tabs.html">Uploading</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Le javascript -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script type="text/javascript" src="../js/widgets.js"></script>
+            <script src="../js/jquery.js"></script>
+            <script src="../js/prettify.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
+            <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
+            <script src="../js/application-update.js"></script>
+
+            <!-- syntaxhighlighter -->
+            <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("[rel=tooltip]").tooltip();
+                });
+            </script>
+</body>
+
+</html>

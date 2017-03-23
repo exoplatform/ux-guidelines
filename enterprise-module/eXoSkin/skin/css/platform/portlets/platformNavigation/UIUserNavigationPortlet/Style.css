@@ -1,0 +1,218 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.uiUserNavigationPortlet {
+  border-bottom: 1px solid #cccccc;
+  background-color: #f1f1f1;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
+  -webkit-box-shadow: inset;
+  -moz-box-shadow: inset;
+  box-shadow: inset;
+  height: 90px;
+}
+.uiUserNavigationPortlet .userNavigation {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/platfromNavigation/UserNavigationPortlet/shadow.png") no-repeat left center;
+  height: 90px;
+  border-bottom: none;
+}
+.uiUserNavigationPortlet .userNavigation > li {
+  padding-bottom: 3px;
+}
+.uiUserNavigationPortlet .userNavigation > li .uiIconDefaultApp {
+  vertical-align: middle;
+}
+.uiUserNavigationPortlet .userNavigation > .active {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/platfromNavigation/UserNavigationPortlet/arrowIcon.png") no-repeat bottom center;
+}
+.uiUserNavigationPortlet .userNavigation > li > a,
+.uiUserNavigationPortlet .userNavigation > li > a:hover,
+.uiUserNavigationPortlet .userNavigation > .active > a,
+.uiUserNavigationPortlet .userNavigation > .active > a:hover {
+  text-align: center;
+  border: none;
+  background: none;
+  height: 68px;
+  min-width: 68px;
+  margin: 10px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.uiUserNavigationPortlet .userNavigation > .active > a {
+  background-color: #8f8f8f;
+  background-image: -moz-linear-gradient(top, #999999, #808080);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#999999), to(#808080));
+  background-image: -webkit-linear-gradient(top, #999999, #808080);
+  background-image: -o-linear-gradient(top, #999999, #808080);
+  background-image: linear-gradient(to bottom, #999999, #808080);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff999999', endColorstr='#ff808080', GradientType=0);
+  -webkit-box-shadow: 1px 0 4px rgba(0, 0, 0, 0.38) inset;
+  -moz-box-shadow: 1px 0 4px rgba(0, 0, 0, 0.38) inset;
+  box-shadow: 1px 0 4px rgba(0, 0, 0, 0.38) inset;
+}
+.uiUserNavigationPortlet .userNavigation > li > a:hover,
+.uiUserNavigationPortlet .userNavigation > .active > a:hover,
+.uiUserNavigationPortlet .userNavigation > li.dropdown.open > a:hover,
+.uiUserNavigationPortlet .userNavigation > li.dropdown.open > a:focus {
+  background-color: rgba(144, 144, 144, 0.2);
+  background-image: -moz-linear-gradient(top, rgba(153, 153, 153, 0.2), rgba(130, 130, 130, 0.2));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(153, 153, 153, 0.2)), to(rgba(130, 130, 130, 0.2)));
+  background-image: -webkit-linear-gradient(top, rgba(153, 153, 153, 0.2), rgba(130, 130, 130, 0.2));
+  background-image: -o-linear-gradient(top, rgba(153, 153, 153, 0.2), rgba(130, 130, 130, 0.2));
+  background-image: linear-gradient(to bottom, rgba(153, 153, 153, 0.2), rgba(130, 130, 130, 0.2));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33999999', endColorstr='#33828282', GradientType=0);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.36) inset;
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.36) inset;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.36) inset;
+}
+.uiUserNavigationPortlet .userNavigation > li > a > img {
+  width: 31px;
+  height: 31px;
+}
+.uiUserNavigationPortlet .userNavigation > li > a > span {
+  display: block;
+  color: #333333;
+}
+.uiUserNavigationPortlet .userNavigation > .active > a > span {
+  color: #ffffff;
+  text-shadow: none;
+}
+.uiUserNavigationPortlet .userNavigation > .dropdown > a > b {
+  border: 2px dashed #cccccc;
+  color: #333333;
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 3px 8px;
+}
+@media (max-width: 1024px) {
+  .uiUserNavigationPortlet .userNavigation {
+    height: 90px;
+  }
+  .uiUserNavigationPortlet .userNavigation [class^="uiIconApp"] {
+    font-size: 42px;
+  }
+  .uiUserNavigationPortlet .userNavigation .tabName {
+    margin: 6px 0 0;
+  }
+  .uiUserNavigationPortlet .userNavigation > .active {
+    background: none;
+  }
+  .uiUserNavigationPortlet .userNavigation > li {
+    padding-bottom: 0;
+  }
+  .uiUserNavigationPortlet .userNavigation > li > a,
+  .uiUserNavigationPortlet .userNavigation > li > a:hover,
+  .uiUserNavigationPortlet .userNavigation > .active > a,
+  .uiUserNavigationPortlet .userNavigation > .active > a:hover {
+    margin: 0 20px;
+    padding: 12px;
+    height: 90px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .uiUserNavigationPortlet .userNavigation .uiIconAppMoreButton {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 767px) {
+  .uiUserNavigationPortlet .userNavigation [class^="uiIconApp"] {
+    font-size: 35px;
+  }
+  .uiUserNavigationPortlet .userNavigation .tabName,
+  .uiUserNavigationPortlet .userNavigation li a span {
+    font-size: 13px;
+  }
+}
+@media (max-width: 480px) {
+  .uiUserNavigationPortlet {
+    margin-top: -4px;
+    height: 60px;
+  }
+  .uiUserNavigationPortlet .userNavigation {
+    height: 60px;
+  }
+  .uiUserNavigationPortlet .userNavigation [class^="uiIconApp"] {
+    font-size: 35px;
+  }
+  .uiUserNavigationPortlet .userNavigation .tabName,
+  .uiUserNavigationPortlet .userNavigation li a span {
+    display: none;
+  }
+  .uiUserNavigationPortlet .userNavigation .dropdown-menu a span {
+    display: inline-block;
+  }
+  .uiUserNavigationPortlet .userNavigation > .active {
+    background: none;
+  }
+  .uiUserNavigationPortlet .userNavigation > .active a {
+    margin: 0 20px;
+  }
+  .uiUserNavigationPortlet .userNavigation > li {
+    padding-bottom: 0;
+  }
+  .uiUserNavigationPortlet .userNavigation > li > a,
+  .uiUserNavigationPortlet .userNavigation > li > a:hover,
+  .uiUserNavigationPortlet .userNavigation > .active > a,
+  .uiUserNavigationPortlet .userNavigation > .active > a:hover {
+    margin: 0 5px;
+    padding: 13px 0 0;
+    height: 60px;
+  }
+}

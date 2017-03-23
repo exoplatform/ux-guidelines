@@ -1,0 +1,91 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.appStatistics ul li {
+  margin-top: 20px;
+}
+.appStatistics .gadgetData {
+  margin-top: 10px;
+}
+.uiBox.appStatistics .uiContentBox {
+  width: 100%;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.appData:hover {
+  background: #e6e6e6;
+  border-radius: 3px;
+}
+.appData .appTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 55%;
+  display: inline-block;
+  padding: 0 10px;
+  color: #333333;
+}
+.appData span {
+  padding: 0 10px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.appData .yellow {
+  background: #edad00;
+  color: #fff;
+}
+.appData .red {
+  background: #c72222;
+  color: #fff;
+}
+.appDetailTime {
+  padding: 0 10px;
+  color: #808080;
+  font-size: 11px;
+}

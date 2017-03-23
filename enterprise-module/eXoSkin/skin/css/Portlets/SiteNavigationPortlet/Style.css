@@ -1,0 +1,136 @@
+/**
+ * Copyright (C) 2009 eXo Platform SAS.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+ */
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.UIPage .UIGroupNavigationPortlet {
+  padding: 20px;
+}
+.UIPage .UIGroupNavigationPortlet .UIVirtualList {
+  height: 290px;
+}
+/*.uiBox .uiGroupNavigationManagement .uiPopup .uiActionBorder {
+	  margin: 0 -15px 0;
+}*/
+.uiPopup .uiPageBrowser .uiPageContainer {
+  padding: 0;
+}
+.uiPopup .uiPageSearch {
+  margin: 0 0 10px 0;
+  padding-left: 20px;
+}
+.uiPopup .uiPageSearch input[type="text"] {
+  width: 216px;
+}
+.uiManagementSite {
+  padding: 20px;
+}
+.uiManagementSite .uiPopup .uiNavigationManagement.resizable {
+  padding-top: 15px;
+  margin-bottom: -15px;
+}
+.uiManagementSite .managementBlock {
+  margin-bottom: 10px;
+}
+.uiManagementSite .managementBlock a {
+  color: #333333;
+}
+.uiManagementSite .managementBlock a [class^="uiIcon"] {
+  margin-right: 5px;
+}
+.uiManagementSite .managementBlock td {
+  padding: 10px;
+}
+.uiManagementSite .managementBlock td.content {
+  width: 430px;
+}
+.uiManagementSite .managementBlock td.content .siteName {
+  font-weight: bold;
+}
+.uiPopup #UINavigationNodeSelector {
+  margin-bottom: 15px;
+}
+.uiPopup #UINavigationNodeSelector .UIContainerConfigOptions .uiTrees .treeContainer .node .uiIconNode i {
+  top: 2px;
+}
+.uiAddGroupNavigation .uiGrid.table {
+  border: none;
+}
+.uiAddGroupNavigation .uiGrid.table td,
+.uiAddGroupNavigation .uiGrid.table th {
+  padding: 8px;
+}
+.uiAddGroupNavigation .uiGrid.table td a,
+.uiAddGroupNavigation .uiGrid.table th a {
+  cursor: pointer;
+}
+.uiBox .uiGroupNavigationManagement .popupContent > .resizable {
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+.uiBox .uiGroupNavigationManagement #UIPageNavigationForm .uiContentBox .form-horizontal {
+  margin-bottom: 15px;
+}
+.uiManagementSite .nothingEditable {
+  font-weight: bold;
+  color: #999999;
+}
+.uiManagementSite .nothingEditable + .uiAction {
+  margin-top: 20px;
+}

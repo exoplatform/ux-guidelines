@@ -1,0 +1,254 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+body {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/login_texture.jpg") repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  overflow: auto;
+  height: auto;
+}
+a {
+  color: #2f5e92;
+}
+.backLight {
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -webkit-box-shadow: 0 0 200px #ffffff;
+  -moz-box-shadow: 0 0 200px #ffffff;
+  box-shadow: 0 0 200px #ffffff;
+  width: 280px;
+  height: 280px;
+  margin: 140px auto 0;
+}
+.uiWelcomeBox {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px #3d3d3d;
+  -moz-box-shadow: 0 1px 3px #3d3d3d;
+  box-shadow: 0 1px 3px #3d3d3d;
+  margin: -380px auto 0;
+  width: 512px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+}
+.uiWelcomeBox .header {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4f4f4f;
+  background-image: -moz-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#474747), to(#5b5b5b));
+  background-image: -webkit-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -o-linear-gradient(top, #474747, #5b5b5b);
+  background-image: linear-gradient(to bottom, #474747, #5b5b5b);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474747', endColorstr='#ff5b5b5b', GradientType=0);
+  border-color: #5b5b5b #5b5b5b #353535;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  padding: 0 10px;
+  border: 1px solid #333333;
+  margin: -1px;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  height: 42px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.uiWelcomeBox .header .logo {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/Logo.png") no-repeat scroll 18px center;
+  color: #c1c1c1;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
+  line-height: 42px;
+  text-align: center;
+}
+.uiWelcomeBox .content {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 10px 23px;
+  position: static;
+  width: auto;
+  vertical-align: text-top;
+}
+.uiWelcomeBox .content p {
+  text-align: center;
+}
+.uiWelcomeBox .content .btn-buy {
+  font-size: large;
+  padding: 10px 50px;
+}
+.uiWelcomeBox .content .product-label {
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+.uiWelcomeBox .content .product-label span {
+  font-size: large;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.uiWelcomeBox .content .product-label input {
+  font-size: large;
+  letter-spacing: 1px;
+  width: 64%;
+  margin: 0px;
+}
+.uiWelcomeBox .content .steps {
+  margin: 0 0 35px;
+}
+.uiWelcomeBox .content .rightCol strong {
+  padding: 10px 0;
+  display: block;
+}
+.uiWelcomeBox .content .rightCol .form-input {
+  overflow: hidden;
+  padding: 0 10px;
+}
+.uiWelcomeBox .content .rightCol .btn-unlock {
+  float: right;
+}
+.uiWelcomeBox .content .rightCol .unlock-label {
+  font-size: medium;
+  font-weight: bold;
+  float: left;
+}
+.uiWelcomeBox .content .rightCol .Text {
+  width: 100%;
+  margin: 0 5px 0 0;
+}
+.uiWelcomeBox .content .stepsNumber {
+  background: #B5B5B5;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+  color: #ffffff;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  height: 38px;
+  line-height: 40px;
+  text-align: center;
+  width: 38px;
+  float: left;
+  margin-right: 15px;
+}
+.uiWelcomeBox .content .alert.alert-error {
+  margin: 0 43px 15px 0;
+}
+.uiWelcomeBox .content .alert.alert-error .uiIconError {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/errorIcon.png") no-repeat left center;
+  white-space: nowrap;
+}
+.uiWelcomeBox .bottom {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginLeftBG.png") no-repeat left bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginRightBG.png") no-repeat right bottom, url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/loginCenterBG.png") repeat-x bottom;
+  text-align: center;
+  padding: 30px 0;
+  border-radius: 8px;
+  color: #333333;
+}
+.uiWelcomeBox .bottom a {
+  text-decoration: none;
+}
+.uiWelcomeBox .backOutdated {
+  background: #e97f7f;
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  margin: 10px 0 15px;
+}
+.uiWelcomeBox .backNotOutdated {
+  background: #b5b5b5;
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  margin: 10px 0 15px;
+}
+input::-ms-clear,
+input[type=password]::-ms-reveal {
+  display: none;
+}
+@media (max-width: 600px) {
+  .uiWelcomeBox {
+    width: auto;
+    margin: -380px 15px 0;
+  }
+  .uiWelcomeBox .header .logo {
+    background: none;
+  }
+  .uiWelcomeBox .content .product-label input {
+    width: 90%;
+  }
+  .uiWelcomeBox .rightCol {
+    width: auto;
+  }
+  .uiWelcomeBox .rightCol .center {
+    padding-right: 0px;
+  }
+  .uiWelcomeBox .bottom {
+    padding: 22px 0;
+  }
+}
+@media (max-width: 480px) {
+  .uiWelcomeBox .content .rightCol .form-input {
+    padding: 0 10px 0 0;
+  }
+  .uiWelcomeBox .content .rightCol .btn-unlock {
+    float: right;
+    margin-top: 20px;
+  }
+  .uiWelcomeBox .content .rightCol .unlock-label {
+    float: none;
+    width: 100%;
+  }
+}

@@ -1,0 +1,134 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.cache_container_details {
+  margin: 10px 0;
+}
+.cacheCont .templates {
+  margin-top: 10px;
+}
+.cacheCont .templates .loading-data {
+  text-align: center;
+}
+.cache_details {
+  margin: 0 0 20px 20px;
+}
+.cache_label {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.detail_label {
+  background: url("/eXoSkin/skin/images/themes/default/platform/gadget-pack/Monitoring/listItemIcon.png") no-repeat left 4px;
+  padding-left: 20px;
+}
+.detail_ligne {
+  padding: 0 10px;
+  color: #333333;
+}
+.detail_ligne:hover {
+  background: #e6e6e6;
+  border-radius: 2px;
+}
+.uiBox.cacheLevel .uiContentBox {
+  width: 100%;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.cacheLevel .cache {
+  margin: 10px 0;
+}
+.itemGraph {
+  position: relative;
+  background-color: #eaeaea;
+  background-image: -moz-linear-gradient(top, #e6e6e6, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #f0f0f0);
+  background-image: -o-linear-gradient(top, #e6e6e6, #f0f0f0);
+  background-image: linear-gradient(to bottom, #e6e6e6, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe6e6e6', endColorstr='#fff0f0f0', GradientType=0);
+}
+.cacheLevel .itemGraph {
+  margin-top: 5px;
+}
+.cacheLevel .graph {
+  background-color: #2e6bca;
+  background-image: -moz-linear-gradient(top, #3677da, #215ab2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3677da), to(#215ab2));
+  background-image: -webkit-linear-gradient(top, #3677da, #215ab2);
+  background-image: -o-linear-gradient(top, #3677da, #215ab2);
+  background-image: linear-gradient(to bottom, #3677da, #215ab2);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3677da', endColorstr='#ff215ab2', GradientType=0);
+  height: 18px;
+  overflow: hidden;
+}
+.cacheLevel .usedPercent {
+  background-color: #d63838;
+  background-image: -moz-linear-gradient(top, #e04747, #c72222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e04747), to(#c72222));
+  background-image: -webkit-linear-gradient(top, #e04747, #c72222);
+  background-image: -o-linear-gradient(top, #e04747, #c72222);
+  background-image: linear-gradient(to bottom, #e04747, #c72222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe04747', endColorstr='#ffc72222', GradientType=0);
+  height: 18px;
+  display: block;
+  float: left;
+}
+.cacheLevel .graph,
+.cacheLevel .usedPercent {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.cacheLevel .cache a b,
+.cache_label a {
+  color: #333333;
+}

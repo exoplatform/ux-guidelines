@@ -1,0 +1,90 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.uiBox .title .actionIcon {
+  float: right;
+}
+.WeeklyStatisticArea .ChartContent {
+  clear: both;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: 2.5%;
+  width: 95%;
+}
+.TotalStatisticArea {
+  border-top: none!important;
+  min-height: 150px;
+}
+.TotalStatisticArea .num {
+  color: #2f5e92;
+}
+.icon {
+  cursor: pointer;
+}
+.users li {
+  list-style: none;
+}
+/* override css of chart jqplot */
+.jqplot-yaxis {
+  margin-right: 15px;
+}
+.jqplot-xaxis {
+  margin-top: 15px;
+}
+.pagination {
+  margin: 10px 0 0;
+}
+.pagination ul > li i {
+  margin-top: 4px;
+}
+.WeeklyStatisticArea .IconLink > i {
+  color: #2f5e92;
+  font-style: normal;
+}
+.jqplot-yaxis-tick,
+.jqplot-xaxis-tick {
+  font-size: 11px;
+}
+.users > .IconLink {
+  padding-left: 5;
+}

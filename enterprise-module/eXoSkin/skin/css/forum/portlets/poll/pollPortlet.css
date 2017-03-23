@@ -1,0 +1,115 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.uiPollPortlet {
+  padding: 20px;
+}
+.uiPollPortlet .defaultStyle {
+  cursor: pointer;
+  float: left;
+  padding: 0 8px;
+  white-space: nowrap;
+}
+.uiPollPortlet .forumSeparatorLine + .forumSeparatorLine {
+  background: url("/eXoSkin/skin/images/themes/default/forum/portlets/poll/background/SeparatorLine.png") no-repeat left -4px;
+}
+.uiPollPortlet .textTitlePoll {
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  color: #2f5e92;
+}
+.uiPollPortlet .actionExpandCollapse {
+  margin-top: 6px;
+}
+.uiPollPortlet .pollTime {
+  background: #f0f0f0;
+  text-align: center;
+  min-height: 20px;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.uiPollPortlet .progressBar {
+  width: 84%;
+}
+.uiPollPortlet .progressBar .progress {
+  margin-bottom: 0;
+}
+.uiPollPortlet .tableVoted {
+  width: 65%;
+  margin: 0 auto;
+}
+.uiPollPortlet .tableVoting {
+  width: 25.5%;
+  margin: 0 auto;
+}
+.uiPollPortlet .tableVoting .contentVoting label {
+  margin-left: 15px;
+}
+.uiPollPortlet .tableVoting .contentVoting label span {
+  padding-left: 10px;
+}
+.uiPollPortlet .tableVoting .contentVoting .uiCheckbox {
+  margin-left: 15px;
+}
+.uiPollPortlet .totalVotes {
+  text-align: right;
+  width: 82.5%;
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  margin-top: 15px;
+}
+.uiPollPortlet .uiContentBox table.tableVoted thead tr th,
+.uiPollPortlet .uiContentBox table.tableVoted tbody tr td {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.uiPollPortlet .uiAddPollForm .form-horizontal .control-label {
+  width: 190px;
+}
+.uiPollPortlet .uiAddPollForm .form-horizontal .controls {
+  margin-left: 200px;
+}
+.uiPollPortlet .uiAddPollForm .form-horizontal .controls .multiValueContainer + .multiValueContainer {
+  margin-top: 10px;
+}
