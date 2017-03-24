@@ -2744,7 +2744,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("/enterprise-module/eXoSkin/skin/img/glyphicons-halflings.png");
+  background-image: url("../img/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -2767,7 +2767,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("/enterprise-module/eXoSkin/skin/img/glyphicons-halflings-white.png");
+  background-image: url("../img/glyphicons-halflings-white.png");
 }
 .icon-glass {
   background-position: 0      0;
@@ -8448,6 +8448,7 @@ a.badge:focus {
 /* pagination */
 /* Badge */
 /* uiBox */
+/* Alert */
 @font-face {
   font-family: 'OpenSansRegular';
   src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
@@ -8458,7 +8459,7 @@ a.badge:focus {
 }
 @font-face {
   font-family: 'OpenSansBold';
-  src: url('../fonts/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
 }
 @font-face {
   font-family: 'OpenSansLight';
@@ -8466,8 +8467,8 @@ a.badge:focus {
 }
 @font-face {
   font-family: 'IONIC-FONT';
-  src: url('../fonts//Ionic/ionicons.eot');
-  src: url('../fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('../fonts/Ionic/ionicons.ttf') format('truetype'), url('/enterprise-module/eXoSkin/skin/Ionic/ionicons.woff') format('woff'), url('../fonts/Ionic/ionicons.svg') format('svg');
+  src: url('../fonts/Ionic/ionicons.eot');
+  src: url('../fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('../fonts/Ionic/ionicons.ttf') format('truetype'), url('../fonts/Ionic/ionicons.woff') format('woff'), url('../fonts/Ionic/ionicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27240,6 +27241,7 @@ hr {
     margin-right: 5px !important;
   }
 }
+
 /* default btn */
 /* primary btn */
 /* btn group */
@@ -27265,6 +27267,7 @@ hr {
 /* pagination */
 /* Badge */
 /* uiBox */
+/* Alert */
 @font-face {
   font-family: 'OpenSansRegular';
   src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
@@ -27651,7 +27654,6 @@ hr {
   content: "\f48b";
 }
 .uiIconPLF24x24Edit:before {
-  /*content: "\e73b";*/
   font-family: IONIC-FONT;
   content: "\f2ad";
 }
@@ -27670,22 +27672,22 @@ hr {
 .alert-success .uiIconSuccess:before {
   content: "\f121";
   font-family: IONIC-FONT;
-  color: initial;
+  color: #5eb69b;
 }
 .alert-error .uiIconError:before {
   content: "\f12a";
   font-family: IONIC-FONT;
-  color: initial;
+  color: #771414;
 }
 .alert-info .uiIconInfo:before {
   content: "\f14a";
   font-family: IONIC-FONT;
-  color: initial;
+  color: #193e67;
 }
 .alert-warning .uiIconWarning:before {
   content: "\f3bc";
   font-family: IONIC-FONT;
-  color: initial;
+  color: #b46f05;
 }
 /*             end ICONS               */
 /*=====================================*/
@@ -28116,21 +28118,23 @@ p {
 .uiMiniCalendar table.weekDays tr {
   color: #578dc9;
 }
+.uiMiniCalendar .actionIconSmall:hover {
+  Background-color: #578dc9;
+}
 .uiIconArrowLeftMini:before,
 .uiIconMiniArrowLeft:before {
   content: "\f124";
   color: #ffffff;
-  font-family: "IONIC-FONT";
+  font-family: IONIC-FONT;
 }
 .uiIconArrowRightMini:before,
 .uiIconMiniArrowRight:before {
-  content: "\f125";
-  color: #ffffff;
-  font-family: "IONIC-FONT";
+  content: "\f10a";
+  color: #000000;
+  font-family: IONIC-FONT;
 }
 .actionIcon:hover,
 .actionIconSmall:hover {
-  background-color: #578dc9;
   background-image: none;
   border: none;
 }
@@ -28139,16 +28143,19 @@ p {
 .modal.uiPopup .popupMessage > li span.errorIcon:before {
   content: "\f128";
   color: #bc4343;
+  font-family: IONIC-FONT;
 }
 .uiPopup .popupMessage > li span.warningIcon:before,
 .modal.uiPopup .popupMessage > li span.warningIcon:before {
   content: "\f100";
   color: #ffb441;
+  font-family: IONIC-FONT;
 }
 .uiPopup .popupMessage > li span.infoIcon:before,
 .modal.uiPopup .popupMessage > li span.infoIcon:before {
   content: "\f149";
   color: #476a9c;
+  font-family: IONIC-FONT;
 }
 
 
