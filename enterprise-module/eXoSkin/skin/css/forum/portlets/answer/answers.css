@@ -41,9 +41,7 @@
     transform: rotate(359deg);
   }
 }
-[class^="uiIconAns"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsDefault.png");
-}
+
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .uiActionWithLabel:hover > [class^="uiIconAns"],
 .actionIcon:hover > [class^="uiIconAns"],
