@@ -86,16 +86,16 @@ a:hover [class^="uiIconPLF"],
 }
 .uiIconPLF24x24Setting:before,
 .uiIconPLF24x24Setup:before {
-  content: "\e78b";
+  content: "\f13e";
 }
 .uiIconPLF24x24Add:before {
-  content: "\e739";
+  content: "\f48b";
 }
 .uiIconPLF24x24Search:before {
-  content: "\e74a";
+  content: "\f4a4";
 }
 .uiIconPLF24x24Help:before {
-  content: "\e76b";
+  content: "\f142";
 }
 .uiIconPLF24x24Bell:before {
   content: "\e73a";
@@ -128,10 +128,10 @@ a:hover [class^="uiIconPLF"],
   content: "\e73a";
 }
 .uiIconPLF24x24Add:before {
-  content: "\e739";
+  content: "\f48b";
 }
 .uiIconPLF24x24Edit:before {
-  content: "\e73b";
+  content: "\f2ad";
 }
 .uiIconPLFMenu:before {
   content: "\e73c";
@@ -299,7 +299,7 @@ a:hover [class^="uiIconPLF"],
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #cccccc;
-  border-bottom-color: #cccccc;
+  border-bottom-color: #ffffff;
   position: absolute;
   top: -8px;
   left: 9px;
@@ -320,7 +320,7 @@ a:hover [class^="uiIconPLF"],
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #cccccc;
-  border-bottom-color: #cccccc;
+  border-bottom-color: #ffffff;
   position: absolute;
   top: -8px;
   right: 10px;
@@ -496,11 +496,12 @@ a:hover [class^="uiIconPLF"],
   background: url("/eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/line.png") no-repeat center left;
 }
 .UIToolbarContainerDark .uiDropdownWithIcon > a {
+  height: 48px;
   color: #ffffff;
 }
 .UIToolbarContainerDark .uiDropdownWithIcon > a:hover,
 .UIToolbarContainerDark .uiDropdownWithIcon .uiDropdownWithIcon.open > a {
-  background: #3f3f3f;
+  background: inherit;
   color: #ffffff;
 }
 .UIToolbarContainerDark .itemListContainer .uiDropdownWithIcon {
@@ -521,11 +522,12 @@ a:hover [class^="uiIconPLF"],
   background: url("/eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/line.png") no-repeat left center;
 }
 .UIToolbarContainerLight .uiDropdownWithIcon > a {
+  height: 48px;
   color: #333333;
 }
 .UIToolbarContainerLight .uiDropdownWithIcon > a:hover,
 .UIToolbarContainerLight .uiDropdownWithIcon.open > a {
-  background: rgba(128, 128, 128, 0.3);
+  background: inherit;
   color: #333333;
 }
 .dropdown .seoImgBlock {

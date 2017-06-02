@@ -176,10 +176,6 @@
     margin-left: 16px;
   }
 }
-[class^="uiIconEcms"],
-.LeftNavigationTDContainer .uiPopup [class^="uiIconEcms"] {
-  color: #999999;
-}
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .uiActionWithLabel:hover > [class^="uiIconEcms"],
 .actionIcon:hover > [class^="uiIconEcms"],

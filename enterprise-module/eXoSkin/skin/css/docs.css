@@ -592,7 +592,7 @@ h2 + .row {
 }
 .the-icons li {
   float: left;
-  width: 25%;
+  width: 33%;
   line-height: 25px;
 }
 .the-icons i:hover {

@@ -708,7 +708,7 @@
 }
 [class^="uiIconWiki"],
 .LeftNavigationTDContainer .uiPopup [class^="uiIconWiki"] {
-  color: #999999;
+  color: #578dc9;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .actionIcon:hover > i > [class^="uiIconWiki"],

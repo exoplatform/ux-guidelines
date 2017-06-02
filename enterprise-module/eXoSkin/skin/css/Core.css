@@ -2284,9 +2284,9 @@ select:focus:invalid:focus {
 .input-append .add-on:last-child,
 .input-append .btn:last-child,
 .input-append .btn-group:last-child > .dropdown-toggle {
-  -webkit-border-radius: 0 3px 3px 0;
-  -moz-border-radius: 0 3px 3px 0;
-  border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }
 .input-prepend.input-append input,
 .input-prepend.input-append select,
@@ -4001,6 +4001,7 @@ input[type="submit"].btn.btn-mini {
 .btn-toolbar > .btn-group + .btn,
 .btn-toolbar > .btn + .btn-group {
   margin-left: 5px;
+  margin-right: 5px;
 }
 .btn-group > .btn {
   position: relative;
@@ -4010,6 +4011,7 @@ input[type="submit"].btn.btn-mini {
 }
 .btn-group > .btn + .btn {
   margin-left: -1px;
+  margin-right: 5px;
 }
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
@@ -4025,6 +4027,9 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn-large {
   font-size: 14px;
 }
+.btn-group > .btn:first-child:hover {
+  background-color: #578dc9;
+}
 .btn-group > .btn:first-child {
   margin-left: 0;
   -webkit-border-top-left-radius: 3px;
@@ -4037,7 +4042,7 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn:last-child,
 .btn-group > .dropdown-toggle {
   -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topright: 3px;platf
   border-top-right-radius: 3px;
   -webkit-border-bottom-right-radius: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -5732,7 +5737,8 @@ input[type="submit"].btn.btn-mini {
   margin-top: -10px;
 }
 .popover.right {
-  margin-left: 10px;
+  margin-left: 30px;
+  margin-top: -5px;
 }
 .popover.bottom {
   margin-top: 10px;
@@ -10138,7 +10144,7 @@ body {
 }
 .uiTabGrayInPage .nav-tabs {
   margin: 0px;
-  background-color: #e6e6e6;
+  background-color: inherit;
   border: 1px solid #e1e8ee;
   padding: 5px 5px 0px 5px;
   -webkit-border-radius: 3px 3px 0 0;
@@ -10147,15 +10153,11 @@ body {
 }
 .uiTabGrayInPage .nav-tabs > .active > a,
 .uiTabGrayInPage .nav-tabs > .active > a:hover {
-  background-color: #f0f0f0;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(56%, #f0f0f0), to(#f0f0f0));
-  background-image: -webkit-linear-gradient(#ffffff, #f0f0f0 56%, #f0f0f0);
-  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0 56%, #f0f0f0);
-  background-image: -o-linear-gradient(#ffffff, #f0f0f0 56%, #f0f0f0);
-  background-image: linear-gradient(#ffffff, #f0f0f0 56%, #f0f0f0);
+  background-color: #578dc9;
+  background-image: none;
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid;
 }
 .uiTabGrayInPage .tab-content {
   padding: 0px;
@@ -27437,7 +27439,7 @@ hr {
 .uiTreeExplorer .emptyIcon:before {
   content: "\f371";
   font-family: IONIC-FONT;
-  color: #ffffff;
+  color: #f8f8f8;
   font-size: 14px;
   border-radius: 2px;
   border: 2px solid #e1e8ee;
@@ -27691,9 +27693,11 @@ hr {
 /*            TOOLBAR                  */
 #UIToolbarContainer.UIToolbarContainerLight .NormalContainerBlock .VIEW-CONTAINER.VIEW-BLOCK {
   background: #FFFFFF;
+  height: 52px;
 }
 #UIToolbarContainer.UIToolbarContainerDark .NormalContainerBlock .VIEW-CONTAINER.VIEW-BLOCK {
   background: #2D3138;
+  height: 52px;
 }
 .UIToolbarContainer #HomeLink:before {
   font-family: IONIC-FONT;
@@ -27702,7 +27706,7 @@ hr {
   color: #a8b3c5;
 }
 #PlatformAdminToolbarContainer {
-  position: fixed;
+  position: relative;
   left: 0;
   right: 0;
   width: 100%;
@@ -27824,7 +27828,7 @@ hr {
 .UIToolbarContainerDark .uiDropdownWithIcon > a:hover,
 .UIToolbarContainerDark .uiDropdownWithIcon.open > a {
   border-bottom: solid 3px #ffffff;
-  height: 54px;
+  height: 42px;
 }
 .UIToolbarContainerLight .NormalContainerBlock .ToolbarContainer {
   -webkit-box-shadow: 3px -1px 1px 2px rgba(0, 0, 0, 0.15);
@@ -27918,9 +27922,9 @@ hr {
 .btn {
   font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
   font-size: 15px;
-  padding: 9px 20px;
+  padding: 5px 20px;
   color: #4d5466;
-  border: none;
+  border: 2px solid #e1e8ee;
   -webkit-box-shadow: 0px 0px 5px 0px #e1e8ee;
   -moz-box-shadow: 0px 0px 5px 0px #e1e8ee;
   box-shadow: 0px 0px 5px 0px #e1e8ee;
@@ -27977,7 +27981,14 @@ hr {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border: solid 1px #578dc9;
+  border: none;
+  margin-right: 5px;
+}
+.btn-group .active > i {
+  color: #ffffff;
+  background: none;
+  background-image: none;
+  margin-top: 1px;
 }
 .btn-group > .btn:focus a,
 .btn-group > .btn.active a {
@@ -27994,6 +28005,7 @@ hr {
 /* Enterprise skin-btn group dropdown */
 .btn-group .btn.dropdown-toggle {
   color: #000000;
+  height: 22px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -28023,12 +28035,10 @@ input[disabled],
 .uiSearchInput input[type="text"],
 .input-append input[type="text"],
 .uiPassword input[type="password"] {
-  font-size: 15px;
-  height: 42px;
-  padding: 0 10px;
-  border: Solid 2px #e1e8ee;
-  border-radius: 7px;
+  height: 32px;
+  border-radius: 5px 0 0 5px;
   box-shadow: none;
+  margin-right: 5px;
 }
 input[type="text"]:active,
 input[disabled]:active,
@@ -28307,7 +28317,7 @@ p {
 }
 .uiIconArrowRightMini:before,
 .uiIconMiniArrowRight:before {
-  content: "\f10a";
+  content: "\f125";
   color: #000000;
   font-family: IONIC-FONT;
 }
@@ -28427,5 +28437,9 @@ p {
   padding: 16px 15px;
   text-align: left;
 }
-
+.uiVote .avgRatingImages .unvoted:before, .uiVoteForm .voteFormContainer .uiRatingInfoContainer [class^="uiIcon"]:before {
+  content: "\f2fc";
+  font-family: IONIC-FONT;
+  color: #eaeaec;
+}
 
