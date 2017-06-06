@@ -20838,9 +20838,8 @@ input[type=password]::-ms-reveal {
   margin-top: 4px;
 }
 .uiMention {
-  background: none repeat scroll 0 0 #578dc9;
-  border: 1px solid #476a9c;
-  border-radius: 3px;
+  background: none repeat scroll 0 0 #96a3b4;
+  border-radius: 12px;
   font-size: 14px;
   color: #ffffff;
   display: inline-block;
@@ -28366,11 +28365,14 @@ p {
 }
 /* Enterprise skin-uiMention */
 .uiMention {
-  border-radius: 3px;
+  border-radius: 12px;
   font-size: 14px;
   font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
   border: none;
   padding: 5px 10px;
+}
+.uiMention .uiIconClose::before {
+  color: #ffffff;
 }
 .uiIconClose::before {
   font-size: 8px;
