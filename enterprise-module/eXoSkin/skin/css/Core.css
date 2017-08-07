@@ -4009,10 +4009,7 @@ input[type="submit"].btn.btn-mini {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-.btn-group > .btn + .btn {
-  margin-left: -1px;
-  margin-right: 5px;
-}
+
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
@@ -4027,9 +4024,7 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn-large {
   font-size: 14px;
 }
-.btn-group > .btn:first-child:hover {
-  background-color: #578dc9;
-}
+
 .btn-group > .btn:first-child {
   margin-left: 0;
   -webkit-border-top-left-radius: 3px;
@@ -15341,15 +15336,7 @@ h4 .btn + .btn {
   min-width: 0;
   background-color: #f0f4f7;
 }
-.btn-group .btn:active,
-.btn-group .btn:focus {
-  background-color: inherit;
-  color: #ffffff;
-  border: 1px solid #578dc9;
-}
-.btn-group .btn-small.dropdown-toggle .uiIconMiniArrowDown {
-  margin: -1px -2px 0 0;
-}
+
 .btn-group.normal-group .btn a {
   color: #333333;
 }
@@ -15386,8 +15373,8 @@ input[type="color"],
   -moz-box-sizing: border-box;
   /* Firefox, other Gecko */
   box-sizing: border-box;
-  height: 28px;
-  border: 1px solid #e1e8ee;
+  height: 40px;
+  border: 2px solid #e1e8ee;
 }
 select:focus,
 textarea:focus,
@@ -15464,6 +15451,7 @@ input[type="color"],
 }
 select {
   padding: 0 0 0 6px;
+  box-shadow: none;
 }
 select option {
   padding: 6px 9px 4px;
@@ -15604,6 +15592,7 @@ textarea {
 }
 .uiCheckbox input[type="checkbox"]:checked + span:before {
   background: #578dc9;
+  top: 2px;
 }
 .uiCheckbox input[type="checkbox"] + span:before {
   background: #e1e8ee;
@@ -16210,7 +16199,7 @@ label.switchBtnLabelOff {
   margin-right: 1px;
 }
 label.switchBtnLabelOff span {
-  line-height: 19px;
+  line-height: 1;
   padding-right: 14px;
 }
 .switchBtnHandle {
@@ -23316,41 +23305,25 @@ input[type=password]::-ms-reveal {
 }
 /*============== Action With Label================*/
 .uiActionWithLabel {
-  border: 1px solid transparent;
+  border: 2px solid #e1e8ee;
   cursor: pointer;
   display: inline-block;
-  padding: 3px 8px;
+  padding: 8px 10px;
   line-height: 20px;
-  color: #333333;
+  color: #4d5466;
+  box-shadow: none;
 }
 .uiActionWithLabel:hover {
-  background-color: #f9f9f9;
-  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
-  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
-  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
-  border: 1px solid #e1e8ee;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
-  -moz-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
-  box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
-  color: #333333;
+  color: #4d5466;
+  border: 2px solid #e1e8ee;
+  background: #e1e8ee;
+  box-shadow: none;
 }
 .uiActionWithLabel:hover:active,
 .uiActionWithLabel:hover:focus {
-  -webkit-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
-  -moz-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
-  border: 1px solid #c7c7c7;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  background-color: #f0f0f0;
+  border: 2px solid #e1e8ee;
+  background: #e1e8ee;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.11);
 }
 .uiActionWithLabel .uiIconMiniArrowDown {
   margin-left: 5px;
@@ -27921,12 +27894,10 @@ hr {
 .btn {
   font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
   font-size: 15px;
-  padding: 5px 20px;
+  padding: 8px 20px;
   color: #4d5466;
   border: 2px solid #e1e8ee;
-  -webkit-box-shadow: 0px 0px 5px 0px #e1e8ee;
-  -moz-box-shadow: 0px 0px 5px 0px #e1e8ee;
-  box-shadow: 0px 0px 5px 0px #e1e8ee;
+  box-sizing: border-box;
 }
 .btn:hover,
 .btn:active {
@@ -27945,6 +27916,35 @@ hr {
 .btn[disabled] {
   border: Solid 2px #f2f2f2;
   color: #c6c6c6;
+  box-shadow: none;
+}
+/* Enterprise skin-btn small */
+.btn.btn-small,
+.btn.btn-small.active {
+  font-size: 12px;
+  height: 26px;
+  padding-top: 2px;
+}
+.btn.dropdown-toggle.btn-small.btn-primary,
+.btn.dropdown-toggle.btn-small {
+  font-size: 12px;
+  height: 20px;
+  padding-top: 6px;
+}
+/* Enterprise skin-btn mini */
+.btn.btn-mini {
+  font-size: 11px;
+  height: 22px;
+  padding: 0 20px;
+}
+a.connect.btn-primary.btn.btn-mini {
+  height: 15px;
+}
+.btn.dropdown-toggle.btn-mini.btn-primary,
+.btn.dropdown-toggle.btn-mini {
+  font-size: 11px;
+  height: 20px;
+  padding-top: 4px;
 }
 /* Enterprise skin-btn primary */
 .btn .btn-primary,
@@ -27968,26 +27968,34 @@ hr {
   box-shadow: inset 0px 0px 0px 2px #476a9c;
 }
 /* Enterprise skin-btn group */
+.btn-group {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  white-space: nowrap;
+}
 .btn-group > .btn,
 .btn-group > .btn {
-  border: none;
+  border: 1px solid #e1e8ee;
   box-shadow: none;
+  padding: 9px 20px;
+}
+.btn-group > .btn + .btn {
+  margin-left: -1px;
 }
 .btn-group > .btn:focus,
 .btn-group > .btn.active {
   background-color: #578dc9;
-  background-image: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  margin-right: 5px;
-}
-.btn-group .active > i {
+  border: solid 1px #578dc9;
   color: #ffffff;
-  background: none;
-  background-image: none;
-  margin-top: 1px;
+}
+.btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active {
+  border: 1px solid #e1e8ee;
+  z-index: 0;
+}
+.btn-group > .btn > i, .btn-group > .btn:hover > i {
+  color: inherit;
 }
 .btn-group > .btn:focus a,
 .btn-group > .btn.active a {
@@ -28026,16 +28034,18 @@ hr {
 }
 .input-append .btn {
   color: #ffffff;
-  margin-left: -5px;
-  border: 1px solid #578dc9;
+  margin-left: -8px;
+  border: 2px solid #578dc9;
+  z-index: 99;
+  position: relative;
 }
 input[type="text"],
 input[disabled],
 .uiSearchInput input[type="text"],
 .input-append input[type="text"],
 .uiPassword input[type="password"] {
-  height: 32px;
-  border-radius: 5px 0 0 5px;
+  height: 40px;
+  border-radius: 5px;
   box-shadow: none;
   margin-right: 5px;
 }
@@ -28046,9 +28056,7 @@ input[disabled]:active,
 .uiPassword input[type="password"]:active,
 textarea:active,
 select:active {
-  -webkit-box-shadow: 0px 0px 15px 15px #e1e8ee;
-  -moz-box-shadow: 0px 0px 15px 15px #e1e8ee;
-  box-shadow: 0px 0px 15px 15px #e1e8ee;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.11);
 }
 .control-group.error input,
 .control-group.error select,
@@ -28322,8 +28330,7 @@ p {
 }
 .actionIcon:hover,
 .actionIconSmall:hover {
-  background-image: none;
-  border: none;
+  background: none;
 }
 /* Enterprise skin-Message */
 .uiPopup .popupMessage > li span.errorIcon:before,
@@ -28378,7 +28385,6 @@ p {
   font-size: 8px;
 }
 /* Enterprise skin-Tree */
-[class^="uiIcon"],
 .LeftNavigationTDContainer .uiPopup [class^="uiIcon"] {
   padding-left: 15px;
 }

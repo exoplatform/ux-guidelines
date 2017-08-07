@@ -183,25 +183,25 @@ div.button .dropdown-menu {
     box-sizing: border-box;
     color: #333333;
     font-size: 18px;
-    height: 33px;
+    height: 40px;
     margin-bottom: 4px;
     width: 100%;
 }
 .uiUsername input[type="text"] {
-    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -6px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -3px #ffffff;
     margin: 0;
     padding-left: 47px;
 }
 .uiUsername input[type="text"]:hover {
-    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -47px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -44px #ffffff;
 }
 .uiPassword input[type="password"] {
-    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -6px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -3px #ffffff;
     margin: 0;
     padding-left: 47px;
 }
 .uiPassword input[type="password"]:hover {
-    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -47px #ffffff;
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -44px #ffffff;
 }
 .uiLargeButton {
     background-color: #567ab6;
