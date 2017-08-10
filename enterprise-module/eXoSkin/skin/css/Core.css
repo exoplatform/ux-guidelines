@@ -16431,8 +16431,6 @@ input[type=password]::-ms-reveal {
 }
 .uiGrid.table td.empty,
 .uiGrid.table th.empty {
-  color: #999999;
-  background-color: #f6f7fa;
   text-align: center;
 }
 .uiGrid.table td .text,
@@ -16465,17 +16463,13 @@ input[type=password]::-ms-reveal {
 .uiGrid.table tr.disabled td {
   color: #999999;
 }
+
+
 .table-striped tbody tr:nth-child(odd) td {
-  background-color: #f6f7fa;
+  background-color: #fff;
 }
 .table-striped tbody tr:nth-child(even) td {
-  background-color: #ffffff;
-}
-.table-striped tr:nth-child(odd) td {
   background-color: #f6f7fa;
-}
-.table-striped tr:nth-child(even) td {
-  background-color: #ffffff;
 }
 .uiGrid.rounded-corners {
   border-collapse: separate;
