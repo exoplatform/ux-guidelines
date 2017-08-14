@@ -27656,11 +27656,11 @@ hr {
 /*            TOOLBAR                  */
 #UIToolbarContainer.UIToolbarContainerLight .NormalContainerBlock .VIEW-CONTAINER.VIEW-BLOCK {
   background: #FFFFFF;
-  height: 52px;
+  height: 57px;
 }
 #UIToolbarContainer.UIToolbarContainerDark .NormalContainerBlock .VIEW-CONTAINER.VIEW-BLOCK {
   background: #2D3138;
-  height: 52px;
+  height: 57px;
 }
 .UIToolbarContainer #HomeLink:before {
   font-family: IONIC-FONT;
@@ -27715,7 +27715,7 @@ hr {
   content: "\f129";
   font-size: 16px;
 }
-.UIToolbarContainer .uiDropdownWithIcon > a {
+.UIToolbarContainer .uiDropdownWithIcon > a, .UIToolbarContainer.UIToolbarContainerLight .uiDropdownWithIcon > a {
   line-height: 57px;
   height: 57px;
   font-size: 14px;
@@ -27778,11 +27778,6 @@ hr {
   margin-left: 20px;
   vertical-align: baseline;
 }
-.UIToolbarContainerDark .NormalContainerBlock .ToolbarContainer {
-  -webkit-box-shadow: 3px 0px 2px 2px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 3px 0px 2px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 3px 0px 2px 2px rgba(0, 0, 0, 0.15);
-}
 .UIToolbarContainerDark .uiDropdownWithIcon {
   line-height: 57px;
   height: 57px;
@@ -27791,13 +27786,9 @@ hr {
 .UIToolbarContainerDark .uiDropdownWithIcon > a:hover,
 .UIToolbarContainerDark .uiDropdownWithIcon.open > a {
   border-bottom: solid 3px #ffffff;
-  height: 42px;
+  height: 47px;
 }
-.UIToolbarContainerLight .NormalContainerBlock .ToolbarContainer {
-  -webkit-box-shadow: 3px -1px 1px 2px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 3px -1px 1px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 3px -1px 1px 2px rgba(0, 0, 0, 0.15);
-}
+
 .UIToolbarContainerLight .uiDropdownWithIcon > a:hover,
 .UIToolbarContainerLight .uiDropdownWithIcon.open > a {
   background: none;
@@ -27835,6 +27826,11 @@ hr {
 }
 .uiNotificationPopoverToolbarPortlet .displayItems > li:hover .uiIconLightGray {
   color: #578dc9;
+}
+.UIToolbarContainerLight .NormalContainerBlock .ToolbarContainer {
+  background: none;
+  border: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
 }
 /*              end Toolbar            */
 /*=====================================*/
@@ -28413,17 +28409,55 @@ p {
   height: 20px;
 }
 /*Tabs*/
-.uiTabNormal .nav-tabs,
 .uiTabNormal .nav-tabs > .active > a,
-.uiTabNormal .nav-tabs > .active > a:hover,
 .uiTabNormal .nav-tabs > li:first-child > a,
 .uiTabNormal .nav-tabs > li:last-child > a,
 .uiTabNormal .nav-tabs > li.last > a {
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  border-radius: 0px;
-  border-top-right-radius: 0px;
+  border-radius: 0;
+}
+.uiTabNormal .nav-tabs,
+.uiTabInPage .nav-tabs,
+.uiTabGrayInPage .nav-tabs {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #e1e8ee;
+  padding: 0;
+}
+.uiTabNormal .nav-tabs > li,
+.uiTabInPage .nav-tabs > li,
+.uiTabGrayInPage .nav-tabs > li {
+  margin: 0;
+}
+.uiTabNormal .nav-tabs > li > a,
+.uiTabInPage .nav-tabs > li > a,
+.uiTabGrayInPage .nav-tabs > li > a {
+  border: none;
+  border-left: 2px solid #e1e8ee;
+  padding: 10px 15px;
+}
+.uiTabNormal .nav-tabs > li > a:hover,
+.uiTabInPage .nav-tabs > li > a:hover,
+.uiTabGrayInPage .nav-tabs > li > a:hover {
+  border-bottom: none;
+  border-left: 2px solid #e1e8ee;
+}
+.uiTabNormal .nav-tabs > li.active a,
+.uiTabInPage .nav-tabs > li.active a,
+.uiTabGrayInPage .nav-tabs > li.active a,
+.uiTabNormal .nav-tabs > li.active a:hover,
+.uiTabInPage .nav-tabs > li.active a:hover,
+.uiTabGrayInPage .nav-tabs > li.active a:hover {
+  border: none;
+}
+.uiTabNormal .nav-tabs > li.active + li a,
+.uiTabInPage .nav-tabs > li.active + li a,
+.uiTabGrayInPage .nav-tabs > li.active + li a {
+  border-left: none;
+}
+.uiTabNormal .nav-tabs > li.active:first-child:before,
+.uiTabInPage .nav-tabs > li.active:first-child:before,
+.uiTabGrayInPage .nav-tabs > li.active:first-child:before {
+  display: none;
 }
 /*table*/
 .table-responsive,
