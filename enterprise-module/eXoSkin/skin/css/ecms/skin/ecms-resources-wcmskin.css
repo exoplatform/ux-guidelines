@@ -176,21 +176,7 @@
     margin-left: 16px;
   }
 }
-/* Blue icons with optional class, or on hover/active states of certain elements */
-.uiActionWithLabel:hover > [class^="uiIconEcms"],
-.actionIcon:hover > [class^="uiIconEcms"],
-.nav-pills > .active > a > [class^="uiIconEcms"],
-.nav-list > .active > a > [class^="uiIconEcms"],
-.navbar-inverse .nav > .active > a > [class^="uiIconEcms"],
-.dropdown-menu > li > a:hover > [class^="uiIconEcms"],
-.dropdown-menu > .active > a > [class^="uiIconEcms"],
-.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconEcms"],
-.btn:hover [class^="uiIconEcms"],
-a:hover [class^="uiIconEcms"],
-[class^="uiIconEcms"]:hover,
-.uiIconEcmsBlue {
-  color: #2f5e92;
-}
+
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconEcms"],
 .dropdown-menu > .active > a > [class^="uiIconEcms"],

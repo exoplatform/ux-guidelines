@@ -4762,9 +4762,6 @@ input[type="submit"].btn.btn-mini {
   border-right: 1px solid #ffffff;
 }
 .navbar .btn,
-.navbar .btn-group {
-  margin-top: 5px;
-}
 .navbar .btn-group .btn,
 .navbar .input-prepend .btn,
 .navbar .input-append .btn,
@@ -27892,20 +27889,12 @@ hr {
   color: #4d5466;
   border: 2px solid #e1e8ee;
   box-sizing: border-box;
+  box-shadow: none;
 }
-.btn:hover,
-.btn:active {
-  color: #4d5466;
-  -webkit-box-shadow: 0px 0px 5px 0px #e1e8ee;
-  -moz-box-shadow: 0px 0px 5px 0px #e1e8ee;
-  box-shadow: 0px 0px 5px 0px #e1e8ee;
+.btn:active, .btn:focus, .uiActionWithLabel:active, .uiActionWithLabel:focus {
+    color: #4d5466;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.11);
 }
-/*.btn:focus {
-  font-family: @sansFontFamily;
-  -webkit-box-shadow: inset 0px 0px 0px 2px rgba(225,232,238,1);
-  -moz-box-shadow: inset 0px 0px 0px 2px rgba(225,232,238,1);
-  box-shadow: inset 0px 0px 0px 2px rgba(225,232,238,1);
-}*/
 .btn.disabled,
 .btn[disabled] {
   border: Solid 2px #f2f2f2;
@@ -27916,8 +27905,7 @@ hr {
 .btn.btn-small,
 .btn.btn-small.active {
   font-size: 12px;
-  height: 26px;
-  padding-top: 2px;
+  padding: 2px 10px;
 }
 .btn.dropdown-toggle.btn-small.btn-primary,
 .btn.dropdown-toggle.btn-small {
@@ -27928,8 +27916,7 @@ hr {
 /* Enterprise skin-btn mini */
 .btn.btn-mini {
   font-size: 11px;
-  height: 22px;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 a.connect.btn-primary.btn.btn-mini {
   height: 15px;
@@ -27951,16 +27938,6 @@ a.connect.btn-primary.btn.btn-mini {
   -moz-box-shadow: inset 0px 0px 0px 2px #578dc9;
   box-shadow: inset 0px 0px 0px 2px #578dc9;
 }
-.btn.btn-primary:active,
-.btn-primary:active,
-.btn.btn-primary:hover,
-.btn-primary:hover {
-  color: #ffffff;
-  border: none;
-  -webkit-box-shadow: inset 0px 0px 0px 2px #476a9c;
-  -moz-box-shadow: inset 0px 0px 0px 2px #476a9c;
-  box-shadow: inset 0px 0px 0px 2px #476a9c;
-}
 /* Enterprise skin-btn group */
 .btn-group {
   position: relative;
@@ -27972,8 +27949,6 @@ a.connect.btn-primary.btn.btn-mini {
 .btn-group > .btn,
 .btn-group > .btn {
   border: 1px solid #e1e8ee;
-  box-shadow: none;
-  padding: 9px 20px;
 }
 .btn-group > .btn + .btn {
   margin-left: -1px;
@@ -27985,8 +27960,9 @@ a.connect.btn-primary.btn.btn-mini {
   color: #ffffff;
 }
 .btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active {
-  border: 1px solid #e1e8ee;
+  border: 1px solid #578dc9;
   z-index: 0;
+  box-shadow: none;
 }
 .btn-group > .btn > i, .btn-group > .btn:hover > i {
   color: inherit;
@@ -28013,12 +27989,11 @@ a.connect.btn-primary.btn.btn-mini {
   border: none;
 }
 /* Enterprise skin-btn primary group dropdown */
-.btn-group .btn .btn-primary .dropdown-toggle {
-  color: #ffffff;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border: none;
+.btn-group .btn.btn-primary, .btn-group .btn.btn-primary.dropdown-toggle {
+    color: #ffffff;
+    background: #578dc9;
+    border: none;
+    box-sizing: content-box;
 }
 /* Enterprise skin-Form*/
 .form-search,
@@ -28032,6 +28007,36 @@ a.connect.btn-primary.btn.btn-mini {
   border: 2px solid #578dc9;
   z-index: 99;
   position: relative;
+}
+.input-append .add-on,
+.input-prepend .add-on {
+  border: 2px solid #e1e8ee;
+  background: none;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.input-append .btn {
+  color: #ffffff;
+  margin-left: -8px;
+  border: 2px solid #578dc9;
+  position: relative;
+  z-index: 99;
+}
+.input-append .add-on {
+  border-left-width: 0;
+}
+.input-append input[type="text"] {
+  border-right-width: 1px;
+  border-radius: 5px 0 0 5px;
+}
+.input-prepend .add-on {
+  border-right-width: 0;
+}
+.input-prepend input[type="text"] {
+  border-left-width: 1px;
+  border-radius: 0 5px 5px 0;
 }
 input[type="text"],
 input[disabled],
@@ -28430,13 +28435,13 @@ p {
   color: #4d5466;
   font-size: 16px;
   font-weight: bold;
-  padding: 19px 15px;
+  padding: 10px 15px;
 }
 .uiGrid.table td,
 .uiGrid.table th {
   color: #4d5466;
   font-size: 16px;
-  padding: 16px 15px;
+  padding: 5px 15px;
   text-align: left;
 }
 .uiVote .avgRatingImages .unvoted:before, .uiVoteForm .voteFormContainer .uiRatingInfoContainer [class^="uiIcon"]:before {

@@ -42,49 +42,7 @@
   }
 }
 
-/* Blue icons with optional class, or on hover/active states of certain elements */
-.uiActionWithLabel:hover > [class^="uiIconAns"],
-.actionIcon:hover > [class^="uiIconAns"],
-.nav-pills > .active > a > [class^="uiIconAns"],
-.nav-list > .active > a > [class^="uiIconAns"],
-.navbar-inverse .nav > .active > a > [class^="uiIconAns"],
-.dropdown-menu > li > a:hover > [class^="uiIconAns"],
-.dropdown-menu > .active > a > [class^="uiIconAns"],
-.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconAns"],
-.actionIcon.active [class^="uiIconAns"],
-.btn:hover [class^="uiIconAns"],
-a:hover > [class^="uiIconAns"],
-[class^="uiIconAns"]:hover,
-.uiActionBar [class^="uiIconAns"]:hover,
-.uiIconAnsBlue {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsPrimary.png");
-}
-/* light grey icons with optional class, or on  */
-.dropdown-menu > li > a > [class^="uiIconAns"],
-.dropdown-menu > .active > a > [class^="uiIconAns"],
-.uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconAns"],
-.uiDropDownCal li a [class^="uiIconAns"],
-.uiActionBar [class^="uiIconAns"],
-.answerToolbar [class^="uiIconAns"],
-.uiIconAnsLightGray {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsDefault.png");
-}
-.uiIconAnsExtra, .uiIconAnsDarkGray,
-.LeftNavigationTDContainer [class^="uiIconAns"] {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsExtra.png");
-}
-/* White icons with optional class, or on hover/active states of Drop down with Icons */
-.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconAns"],
-.uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconAns"],
-.uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconAns"],
-.uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconAns"],
-.uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconAns"],
-.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconAns"],
-.btn-primary [class^="uiIconAns"],
-.btn-primary:hover [class^="uiIconAns"],
-.uiIconAnsWhite {
-  background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnsSecondary.png");
-}
+
 [class^="uiIconAnwserColor"] {
   background-image: url("../../../../../../eXoSkin/skin/images/themes/default/forum/portlets/answers/Icons/uiIconsAnswerColor.png");
 }
