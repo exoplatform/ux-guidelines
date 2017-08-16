@@ -14472,35 +14472,35 @@ a:hover [class^="uiIconApp"],
 .uiLoadingIconMini {
   width: 16px;
   height: 16px;
-  background: url("/eXoSkin/skin/images/themes/default/Loading/loading16x16Light.png") no-repeat 0 0;
+  background: url("../images/themes/default/Loading/loading16x16Light.png") no-repeat 0 0;
   -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconSmall {
   width: 24px;
   height: 24px;
-  background: url("/eXoSkin/skin/images/themes/default/Loading/loading24x24Light.png") no-repeat 0 0;
+  background: url("../images/themes/default/Loading/loading24x24Light.png") no-repeat 0 0;
   -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconMedium {
   width: 32px;
   height: 32px;
-  background: url("/eXoSkin/skin/images/themes/default/Loading/loading32x32Light.png") no-repeat 0 0;
+  background: url("../images/themes/default/Loading/loading32x32Light.png") no-repeat 0 0;
   -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconLarge {
   width: 48px;
   height: 48px;
-  background: url("/eXoSkin/skin/images/themes/default/Loading/loading48x48Light.png") no-repeat 0 0;
+  background: url("../images/themes/default/Loading/loading48x48Light.png") no-repeat 0 0;
   -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 .uiLoadingIconXLarge {
   width: 64px;
   height: 64px;
-  background: url("/eXoSkin/skin/images/themes/default/Loading/loading64x64Light.png") no-repeat 0 0;
+  background: url("../images/themes/default/Loading/loading64x64Light.png") no-repeat 0 0;
   -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
@@ -16950,7 +16950,7 @@ input[type=password]::-ms-reveal {
 .uiTrees .treeContainer .node {
   line-height: 19px;
   margin-left: 10px;
-  padding-top: 7px;
+  padding-top: 10px;
   white-space: nowrap;
 }
 .uiTrees .treeContainer .node .node {
@@ -27386,7 +27386,7 @@ hr {
   font-size: 14px;
   border-radius: 2px;
   text-align: center;
-  border: 1px solid #e1e8ee;
+  border: 2px solid #e1e8ee;
 }
 .uiTrees .collapseIcon:before {
   content: "\f2c7";
@@ -27394,12 +27394,12 @@ hr {
   font-size: 14px;
   border-radius: 2px;
   text-align: center;
-  border: 1px solid #e1e8ee;
+  border: 2px solid #e1e8ee;
 }
 .uiTreeExplorer .emptyIcon:before {
   content: "\f371";
   font-family: IONIC-FONT;
-  color: #f8f8f8;
+  color: #fff;
   font-size: 14px;
   border-radius: 2px;
   border: 2px solid #e1e8ee;
@@ -27649,6 +27649,15 @@ hr {
 }
 /*             end ICONS               */
 /*=====================================*/
+.badgeDefault.badgePrimary {
+  background-color: #ff5335;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.versionFile.badgeDefault.badgePrimary {
+  background-color: #578dc9;
+}
 /*=====================================*/
 /*            TOOLBAR                  */
 #UIToolbarContainer.UIToolbarContainerLight .NormalContainerBlock .VIEW-CONTAINER.VIEW-BLOCK {
@@ -28188,10 +28197,17 @@ p {
 }
 /* Enterprise skin-popover */
 .popover-content {
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 15px 0px #d5d5d5;
-  -moz-box-shadow: 0px 0px 15px 0px #d5d5d5;
-  box-shadow: 0px 0px 15px 0px #d5d5d5;
+  padding: 20px;
+}
+.popover {
+  border-radius: 7px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.popover.right .arrow {
+  left: -10px;
+}
+.popover.left .arrow {
+  right: -10px;
 }
 /* Enterprise skin-mention */
 .uiMention a,
@@ -28263,22 +28279,17 @@ p {
 .uiMiniCalendar table tr td {
   line-height: 27px;
 }
-.uiMiniCalendar table.weekDays tr.currentWeek td.selected {
-  border-radius: 50px;
-  -webkit-border-radius: none;
-  -moz-border-radius: none;
-  border-radius: none;
+.uiMiniCalendar table.weekDays tr.currentWeek td.selected,
+.uiCalendarComponent table.weekDays tr td .selected {
+  border-radius: 50%;
   color: #ffffff;
   font-size: 12px;
 }
 .uiMiniCalendar table.weekDays tr.currentWeek td:hover {
-  border-radius: 50px;
+  border-radius: 50%;
   color: #333333;
   font-size: 12px;
-}
-.uiMiniCalendar table.weekDays tr td:hover {
-  border-radius: 50px;
-  font-size: 12px;
+  background: #f0f0f0;
 }
 .uiMiniCalendar h5.title {
   position: static;
@@ -28291,15 +28302,14 @@ p {
 }
 .uiMiniCalendar table.weekList {
   padding: 7px 9px;
+  border-top: 1px solid #ffffff;
 }
-.uiMiniCalendar table.weekDays tr td.today {
-  border: none;
-  font-size: 12px;
-}
-.uiMiniCalendar table.weekDays tr td.today {
-  background-color: #578dc9;
-  color: #ffffff;
-  border-radius: 50px;
+.uiMiniCalendar table.weekDays tr td.today:not(.selected),
+.uiCalendarComponent table.weekDays tr td a.today:not(.selected) {
+  background-color: #eceaea;
+  color: #333333;
+  border: 2px solid #eceaea;
+  border-radius: 50%;
   font-size: 12px;
 }
 .uiMiniCalendar table.weekDays tr.currentWeek td:hover {
@@ -28307,7 +28317,6 @@ p {
   font-size: 12px;
 }
 .uiMiniCalendar table.weekDays tr {
-  color: #578dc9;
   font-size: 12px;
 }
 .uiMiniCalendar .actionIconSmall:hover {
@@ -28317,7 +28326,7 @@ p {
 .uiIconArrowLeftMini:before,
 .uiIconMiniArrowLeft:before {
   content: "\f124";
-  color: #ffffff;
+  color: #000000;
   font-family: IONIC-FONT;
 }
 .uiIconArrowRightMini:before,
@@ -28325,10 +28334,37 @@ p {
   content: "\f125";
   color: #000000;
   font-family: IONIC-FONT;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .actionIcon:hover,
 .actionIconSmall:hover {
   background: none;
+}
+.uiMiniCalendar .actionIconSmall > .uiIconArrowLeftMini:before,
+.uiMiniCalendar .actionIconSmall > .uiIconMiniArrowLeft:before,
+.uiMiniCalendar .actionIconSmall > .uiIconArrowRightMini:before,
+.uiMiniCalendar .actionIconSmall > .uiIconMiniArrowRight:before {
+  color: #ffffff;
+}
+.uiMiniCalendar table.weekDays tr td,
+.uiCalendarComponent table.weekDays tr td a,
+.uiCalendarComponent table.weekDays tr.currentWeek tr td a {
+  border: 2px solid #ffffff;
+}
+.uiMiniCalendar table.weekDays tr td:hover,
+.uiMiniCalendar table.weekDays tr.currentWeek td:hover,
+.uiCalendarComponent table.weekDays tr td a:hover,
+.uiCalendarComponent table.weekDays tr.currentWeek td a:hover {
+  cursor: pointer;
+  border: 2px solid #578dc9;
+  background: #ffffff;
+  color: #578dc9;
+  font-weight: normal;
+  border-radius: 50%;
+}
+.calendarCheckboxBlock .checkbox {
+  top: -7px;
 }
 /* Enterprise skin-Message */
 .uiPopup .popupMessage > li span.errorIcon:before,
@@ -28352,6 +28388,25 @@ p {
 /* Enterprise skin-Alert */
 .alert {
   border-width: 2px;
+  box-shadow: none;
+  padding: 12px 15px;
+}
+.alert i {
+  margin-right: 15px;
+  top: 1px;
+  vertical-align: baseline;
+}
+.alert-warning {
+  color: #8f5804;
+}
+.alert-success {
+  color: #084130;
+}
+.alert-info {
+  color: #193e67;
+}
+.alert-error {
+  color: #771414;
 }
 /* Enterprise skin-Dropdown */
 .dropdown-menu li > a {
@@ -28387,17 +28442,18 @@ p {
 }
 /* Enterprise skin-uiMention */
 .uiMention {
-  border-radius: 12px;
-  font-size: 14px;
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
+  background: #578dc9;
+  border-radius: 3px;
   border: none;
-  padding: 5px 10px;
+  padding: 4px 10px;
 }
 .uiMention .uiIconClose::before {
-  color: #ffffff;
+  color: #476a9c;
 }
 .uiIconClose::before {
-  font-size: 8px;
+  color: #578dc9;
+  content: "\f12a";
+  font-family: 'IONIC-FONT';
 }
 /* Enterprise skin-Tree */
 .LeftNavigationTDContainer .uiPopup [class^="uiIcon"] {
@@ -28409,9 +28465,12 @@ p {
   font-family: IONIC-FONT;
   font-size: 15px;
   width: 20px;
-  height: 20px;
+  height: 12px;
   color: #4d5466;
   text-align: center;
+  top: -3px;
+  padding-top: 2px;
+  padding-bottom: 6px;
 }
 .uiTrees .expandIcon:before,
 .uiTreeExplorer .collapseIcon:before {
@@ -28419,14 +28478,28 @@ p {
   font-family: IONIC-FONT;
   font-size: 15px;
   width: 20px;
-  height: 20px;
+  height: 12px;
   color: #4d5466;
   text-align: center;
+  top: -3px;
+  padding-top: 2px;
+  padding-bottom: 6px;
 }
 .uiTreeExplorer .emptyIcon:before {
   font-size: 15px;
   width: 20px;
-  height: 20px;
+  height: 12px;
+  text-align: center;
+  top: -3px;
+  padding-top: 2px;
+  padding-bottom: 6px;
+}
+.uiTreeExplorer .emptyIcon,
+.uiTreeExplorer .expandIcon,
+.uiTreeExplorer .collapseIcon,
+.uiTrees .treeContainer .node .uiIconNode,
+.uiTrees .treeContainer .node .nodeSelected {
+  padding-left: 30px;
 }
 /*Tabs*/
 .uiTabNormal .nav-tabs > .active > a,

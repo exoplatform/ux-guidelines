@@ -72,7 +72,8 @@ div.button .dropdown-menu {
     width: 128px;
 }
 .attachmentContentImage .imageAttachmentBox .actionAttachImg p {
-    margin: 45px 0 0;
+    margin: 55px 10px 0;
+    display: inline-block;
 }
 .attachmentContentImage .imageAttachmentBox .actionAttachImg p + p {
     margin-top: 0;
