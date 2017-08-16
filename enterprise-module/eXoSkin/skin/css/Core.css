@@ -5342,7 +5342,7 @@ input[type="submit"].btn.btn-mini {
 }
 .pagination ul > li:first-child > a,
 .pagination ul > li:first-child > span {
-  border-left-width: 1px;
+  border-left-width: 2px;
   -webkit-border-top-left-radius: 3px;
   -moz-border-radius-topleft: 3px;
   border-top-left-radius: 3px;
@@ -16583,10 +16583,6 @@ input[type=password]::-ms-reveal {
 .uiGrid.table-hover tbody tr:hover th {
   background-color: #e6e6e6;
 }
-.table-responsive {
-  overflow: auto ;
-  border-radius: 7px;
-}
 .tooltip {
   font-size: 13px !important;
   text-shadow: none!important;
@@ -27616,13 +27612,13 @@ hr {
   content: "\f2ad";
 }
 .uiIconPrevArrow:before {
-  content: "\f3d2";
+  content: "\f124";
   font-family: IONIC-FONT;
   color: black;
   font-size: 14px;
 }
 .uiIconNextArrow:before {
-  content: "\f3d3";
+  content: "\f125";
   font-family: IONIC-FONT;
   color: black;
   font-size: 14px;
@@ -27863,7 +27859,7 @@ hr {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border: 2px solid #ffffff;
+  border: 2px solid #578dc9;
   background-position: 0 -30px;
 }
 /*            end pagination           */
@@ -27873,13 +27869,8 @@ hr {
 .breadcrumb [class^="uiIcon"] {
   color: #505154;
 }
-.breadcrumb,
-.breadcrumb .active {
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
-  font-size: 12px;
-}
 .breadcrumb .uiIconMiniArrowRight {
-  margin: 7px 10px 5px 0px;
+  margin: 7px 0 5px 5px;
 }
 /*            end breadcrumb           */
 /*=====================================*/
@@ -28440,6 +28431,9 @@ p {
   height: 10px;
   box-shadow: none;
 }
+.progressBarFrame .progress {
+  margin-top: 8px;
+}
 /* Enterprise skin-uiMention */
 .uiMention {
   background: #578dc9;
@@ -28553,7 +28547,6 @@ p {
   display: none;
 }
 /*table*/
-.table-responsive,
 .table {
   margin-bottom: 0px;
   border: 1px solid #e1e8ee;
@@ -28577,3 +28570,23 @@ p {
   color: #eaeaec;
 }
 
+/* Enterprise skin-navigation */
+.uiPageIterator ul > .active > a,
+.uiPageIterator ul > .active > a:hover,
+.uiPageIterator ul > .active > span,
+.uiPageIterator ul > .active > span:hover,
+.uiPageIterator ul > li > a,
+.uiPageIterator ul > li > a:hover,
+.uiPageIterator ul > li.disabled > a,
+.uiPageIterator ul > li.disabled > a:hover {
+  min-width: 40px;
+  height: 38px;
+  line-height: 31px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin: 0 2.5px;
+  box-sizing: border-box;
+}
+.uiPageIterator ul li a i:before {
+  margin: 0;
+}
