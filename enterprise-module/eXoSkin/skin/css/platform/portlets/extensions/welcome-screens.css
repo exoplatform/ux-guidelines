@@ -1,0 +1,403 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+body {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/login_texture.jpg") repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  overflow: auto;
+  height: auto;
+}
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px 0 0;
+}
+a {
+  color: #2f5e92;
+}
+.backLight {
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -webkit-box-shadow: 0 0 200px #ffffff;
+  -moz-box-shadow: 0 0 200px #ffffff;
+  box-shadow: 0 0 200px #ffffff;
+  width: 280px;
+  height: 280px;
+  margin: 140px auto 0;
+}
+.accountSetupError {
+  color: #333333;
+  padding-bottom: 10px;
+}
+.uiWelcomeBox {
+  background-color: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px #333333;
+  -moz-box-shadow: 0 1px 3px #333333;
+  box-shadow: 0 1px 3px #333333;
+  margin: -380px auto 0;
+  width: 512px;
+}
+.uiWelcomeBox .header {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4f4f4f;
+  background-image: -moz-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#474747), to(#5b5b5b));
+  background-image: -webkit-linear-gradient(top, #474747, #5b5b5b);
+  background-image: -o-linear-gradient(top, #474747, #5b5b5b);
+  background-image: linear-gradient(to bottom, #474747, #5b5b5b);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474747', endColorstr='#ff5b5b5b', GradientType=0);
+  border-color: #5b5b5b #5b5b5b #353535;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border: 1px solid #333333;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  width: 511px;
+  line-height: 22px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #999999;
+}
+.uiWelcomeBox .content {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 10px 30px;
+  position: static;
+  width: auto;
+}
+.uiWelcomeBox input {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1) inset;
+  color: #333333;
+  height: 28px;
+  padding: 0 6px;
+  outline: none;
+  font-size: 13px;
+}
+.uiWelcomeBox input::-webkit-input-placeholder {
+  color: #999999;
+}
+.uiWelcomeBox input:-moz-placeholder {
+  color: #999999;
+}
+.uiWelcomeBox input::-moz-placeholder {
+  color: #999999;
+}
+.uiWelcomeBox input:-ms-input-placeholder {
+  color: #999999;
+}
+.uiWelcomeBox input:focus {
+  border-color: #84abe8;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(29,75,159,.6);
+  color: #333333;
+}
+.uiWelcomeBox input.disable {
+  background-color: #e6e6e6;
+}
+.uiWelcomeBox .bottom {
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/extensions/bottomBG.png") no-repeat center bottom;
+  text-align: center;
+  padding: 25px 0;
+  border-radius: 8px;
+}
+.uiWelcomeBox .btn {
+  font-size: 16px;
+  line-height: 41px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  width: 100px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 5px;
+  color: #333333;
+  text-shadow: none;
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
+  border-color: #f0f0f0 #f0f0f0 #cacaca;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #f0f0f0;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+.uiWelcomeBox .btn:hover,
+.uiWelcomeBox .btn:focus,
+.uiWelcomeBox .btn:active,
+.uiWelcomeBox .btn.active,
+.uiWelcomeBox .btn.disabled,
+.uiWelcomeBox .btn[disabled] {
+  color: #333333;
+  background-color: #f0f0f0;
+  *background-color: #e3e3e3;
+}
+.uiWelcomeBox .btn:active,
+.uiWelcomeBox .btn.active {
+  background-color: #d7d7d7 \9;
+}
+.uiWelcomeBox .btn:hover,
+.uiWelcomeBox .btn:focus {
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+.uiWelcomeBox .btn-primary,
+.uiWelcomeBox #Greetings button,
+.uiWelcomeBox .btn:first-child {
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #477ab3;
+  background-image: -moz-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#2f5e92));
+  background-image: -webkit-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -o-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: linear-gradient(to bottom, #578dc9, #2f5e92);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff2f5e92', GradientType=0);
+  border: 1px solid #224469;
+  *background-color: #2f5e92;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+.uiWelcomeBox .btn-primary:hover,
+.uiWelcomeBox #Greetings button:hover,
+.uiWelcomeBox .btn:first-child:hover,
+.uiWelcomeBox .btn-primary:focus,
+.uiWelcomeBox #Greetings button:focus,
+.uiWelcomeBox .btn:first-child:focus,
+.uiWelcomeBox .btn-primary:active,
+.uiWelcomeBox #Greetings button:active,
+.uiWelcomeBox .btn:first-child:active,
+.uiWelcomeBox .btn-primary.active,
+.uiWelcomeBox #Greetings button.active,
+.uiWelcomeBox .btn:first-child.active,
+.uiWelcomeBox .btn-primary.disabled,
+.uiWelcomeBox #Greetings button.disabled,
+.uiWelcomeBox .btn:first-child.disabled,
+.uiWelcomeBox .btn-primary[disabled],
+.uiWelcomeBox #Greetings button[disabled],
+.uiWelcomeBox .btn:first-child[disabled] {
+  color: #ffffff;
+  background-color: #2f5e92;
+  *background-color: #29527f;
+}
+.uiWelcomeBox .btn-primary.disabled,
+.uiWelcomeBox #Greetings button.disabled,
+.uiWelcomeBox .btn:first-child.disabled,
+.uiWelcomeBox .btn-primary[disabled],
+.uiWelcomeBox #Greetings button[disabled],
+.uiWelcomeBox .btn:first-child[disabled] {
+  color: #999999;
+}
+.uiWelcomeBox .btn-primary:hover,
+.uiWelcomeBox #Greetings button:hover,
+.uiWelcomeBox .btn:first-child:hover {
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+.uiWelcomeBox .form-horizontal .control-group:before,
+.uiWelcomeBox .form-horizontal .control-group:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.uiWelcomeBox .form-horizontal .control-group {
+  margin-bottom: 12px;
+}
+.uiWelcomeBox .form-horizontal .control-label {
+  float: left;
+  padding-top: 7px;
+  text-align: right;
+  width: 75px;
+}
+.uiWelcomeBox .form-horizontal .controls {
+  margin-left: 85px;
+}
+.uiWelcomeBox .form-horizontal .controls .inputFieldMedium:first-child,
+.uiWelcomeBox .form-horizontal .controls .inputFieldMini:first-child {
+  margin-right: 10px;
+}
+.uiWelcomeBox .inputFieldMini {
+  width: 123px;
+}
+.uiWelcomeBox .inputFieldMedium {
+  width: 155px;
+}
+.uiWelcomeBox .inputFieldLarge {
+  width: 334px;
+}
+.uiWelcomeBox .confirmLabel {
+  padding: 0 10px 0 5px;
+}
+.uiWelcomeBox .desc {
+  font-size: 12px;
+  color: #999999;
+  margin: 10px 0 15px;
+}
+.uiWelcomeBox .screenShot {
+  padding: 20px 0 30px;
+  text-align: center;
+}
+.uiWelcomeBox .screenShot a {
+  background-color: #ffffff;
+  background-repeat: repeat-x;
+  border: 1px solid #f8f8f8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px rgba(13, 13, 13, 0.27);
+  -moz-box-shadow: 0 2px 4px rgba(13, 13, 13, 0.27);
+  box-shadow: 0 2px 4px rgba(13, 13, 13, 0.27);
+  padding: 7px;
+  display: inline-block;
+}
+.uiWelcomeBox .screenShot a img {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+.uiWelcomeBox .uiIconError {
+  background: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat scroll left top transparent;
+  padding-left: 20px;
+}
+.uiWelcomeBox .uiIconWarning {
+  background: url("/eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png") no-repeat -20px top transparent;
+  padding-left: 20px;
+}
+input::-ms-clear,
+input[type=password]::-ms-reveal {
+  display: none;
+}
+@media (max-width: 640px) {
+  .backLight {
+    display: none;
+  }
+  .uiWelcomeBox {
+    margin: 0 15px;
+    width: auto;
+  }
+  .uiWelcomeBox .header {
+    width: auto;
+  }
+  .uiWelcomeBox .content {
+    padding: 10px 20px;
+  }
+  .uiWelcomeBox .form-horizontal .control-label {
+    width: 100%;
+    text-align: left;
+  }
+  .uiWelcomeBox .form-horizontal .confirmLabel {
+    display: block;
+    margin-top: 12px;
+    padding: 0;
+  }
+  .uiWelcomeBox .form-horizontal .controls {
+    margin: 0;
+  }
+  .uiWelcomeBox .form-horizontal .controls input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .uiWelcomeBox .form-horizontal .controls .inputFieldMedium:first-child {
+    margin: 0 0 5px 0;
+  }
+  .uiWelcomeBox .bottom {
+    background: none;
+    text-align: left;
+    padding: 20px;
+  }
+  .uiWelcomeBox .bottom .btn {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0;
+  }
+}

@@ -1,0 +1,126 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/**************** variables *********************/
+/**************** mixin *************************/
+/*************** less *******************/
+.uiCompanyNavigationPortlet .title {
+  text-transform: uppercase;
+  color: #2f5e92;
+  background-color: #f1f1f1;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
+  height: 40px;
+  line-height: 41px;
+  padding: 0 15px;
+  margin: 0;
+  -webkit-box-shadow: inset 0 1px 0 @baseBackground,0 1px 0 @baseBackground;
+  -moz-box-shadow: inset 0 1px 0 @baseBackground,0 1px 0 @baseBackground;
+  box-shadow: inset 0 1px 0 @baseBackground,0 1px 0 @baseBackground;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  text-shadow: none;
+}
+.uiCompanyNavigationPortlet .title a {
+  color: #2f5e92;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0px;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations .navItem {
+  padding: 5px 25px;
+  display: block;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations .navItemSelected {
+  padding: 7px 25px;
+  position: relative;
+  background: #ffffff;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations .navItemSelected:after {
+  background: #578dc9;
+  border: 1px solid #224469;
+  border-left: 0;
+  -webkit-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.14);
+  -moz-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.14);
+  box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.14);
+  content: "";
+  height: 34px;
+  left: 0;
+  top: -1px;
+  position: absolute;
+  width: 5px;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations .navItemSelected > a {
+  font-weight: bold;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations > li > a {
+  display: block;
+  width: auto;
+  color: #808080;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations > li > a > i {
+  margin-right: 8px;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations > li.navItemSelected > a {
+  color: #808080;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations > li > a:hover {
+  color: #2f5e92;
+}

@@ -1,0 +1,2239 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+[class^="uiIconSoc"],
+.LeftNavigationTDContainer .uiPopup [class^="uiIconSoc"] {
+  color: #999999;
+}
+/* Blue icons with optional class, or on hover/active states of certain elements */
+.uiActionWithLabel:hover > [class^="uiIconSoc"],
+.actionIcon:hover > [class^="uiIconSoc"],
+.nav-pills > .active > a > [class^="uiIconSoc"],
+.nav-list > .active > a > [class^="uiIconSoc"],
+.navbar-inverse .nav > .active > a > [class^="uiIconSoc"],
+.dropdown-menu > li > a:hover > [class^="uiIconSoc"],
+.dropdown-menu > .active > a > [class^="uiIconSoc"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconSoc"],
+.btn:hover [class^="uiIconSoc"],
+a:hover [class^="uiIconSoc"],
+[class^="uiIconSoc"]:hover,
+.uiIconSocBlue {
+  color: #2f5e92;
+}
+/* light grey icons with optional class, or on  */
+.dropdown-menu > li > a > [class^="uiIconSoc"],
+.dropdown-menu > .active > a > [class^="uiIconSoc"],
+.uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconSoc"],
+.uiDropDownCal li a [class^="uiIconSoc"],
+.uiIconSocLightGray {
+  color: #999999;
+}
+.uiIconSocDarkGray,
+.uiIconSocExtra,
+.LeftNavigationTDContainer [class^="uiIconSoc"] {
+  color: #626262;
+}
+/* White icons with optional class, or on hover/active states of Drop down with Icons */
+.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconSoc"],
+.uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconSoc"],
+.uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconSoc"],
+.uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconSoc"],
+.uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconSoc"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconSoc"],
+.btn-primary [class^="uiIconSoc"],
+.btn-primary:hover [class^="uiIconSoc"],
+.btn-primary:hover [class^="uiIconSoc"]:hover,
+.uiDropDownCal a:hover [class^="uiIconSoc"],
+.uiDropDownCal .active a:hover [class^="uiIconSoc"],
+.eventAllDay [class^="uiIconSoc"],
+.eventDayContainer [class^="uiIconSoc"],
+.uiIconSocWhite {
+  color: #ffffff;
+}
+.activityTimeLine [class^="uiIcon"],
+.activityTimeLine [class^="uiIcon"]:hover {
+  color: #ffffff;
+}
+.uiIconSocAddFile:before {
+  content: "\e6b7";
+}
+.uiIconSocLastestReply:before {
+  content: "\e774";
+}
+.uiIconSocRotateToRight:before,
+.uiIconSocTotateToRight:before {
+  content: "\e757";
+}
+.uiIconSocTotateToLeft:before {
+  content: "\e758";
+}
+.uiIconSocZoomIn:before {
+  content: "\e74c";
+}
+.uiIconSocZoomOut:before {
+  content: "\e74d";
+}
+.uiIconSocSimplePlus:before {
+  content: "\e74b";
+}
+.btn .uiIconSocSimplePlus {
+  font-size: 11px;
+  margin-right: 5px;
+}
+.uiIconSocCalendarMini:before {
+  content: "\e68c";
+}
+.uiIconSocAnswersMini:before {
+  content: "\e68b";
+}
+.uiIconSocFileSharing:before {
+  content: "\e6b3";
+}
+.uiIconSocForumMini:before {
+  content: "\e68d";
+}
+.uiIconSocLinkMini:before {
+  content: "\e793";
+}
+.uiIconSocPoll:before {
+  content: "\e73e";
+}
+.uiIconSocSpaceMini:before {
+  content: "\e6e1";
+}
+.uiIconSocWikiMini:before {
+  content: "\e695";
+  /*position: relative; // !important to center the icon (Not anymore with font-size: 12px;)
+  	top: -1px;*/
+
+}
+.uiIconSocVote:before {
+  content: "\e77e";
+}
+/* Icons that we cant change their name */
+.uiIconSocUIDocActivityComposer:before {
+  content: "\e6ba";
+}
+.uiIconSocUIDocActivityComposer:hover,
+.actionIcon:hover .uiIconSocUIDocActivityComposer {
+  color: #2f5e92;
+}
+.uiIconSocUILinkActivityComposer:before {
+  content: "\e793";
+}
+.uiIconSocUILinkActivityComposer:hover,
+.actionIcon:hover .uiIconSocUILinkActivityComposer {
+  color: #2f5e92;
+}
+.uiIconSocConnectUser:before {
+  content: "\e6c9";
+}
+.uiIconSocCancelConnectUser:before {
+  content: "\e6c3";
+}
+.uiIconSocAcceptConnectUser:before {
+  content: "\e6c2";
+}
+.uiProfileUserSearch .uiGrayLightBox input {
+  width: 220px;
+}
+.uiFilterList {
+  padding: 10px 0;
+}
+.uiFilterList .result .number {
+  color: #2f5e92;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+  float: left;
+}
+.uiFilterList .letterList {
+  margin: 10px 0;
+}
+.uiFilterList .letterList li {
+  display: inline-block;
+  padding: 5px 0;
+}
+.uiFilterList .letterList li a {
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 8px;
+  line-height: 20px;
+  border: 1px solid #cccccc;
+  color: #333333;
+  width: 23px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  padding: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.uiFilterList .letterList li a:hover {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  -moz-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  color: #333333;
+}
+.uiFilterList .letterList li a:hover:active,
+.uiFilterList .letterList li a:hover:focus {
+  -webkit-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  border: 1px solid #c7c7c7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+.uiFilterList .letterList li a .uiIconMiniArrowDown {
+  margin-left: 5px;
+}
+.uiFilterList .letterList li a.selected {
+  -webkit-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  border: 1px solid #c7c7c7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  color: #2f5e92;
+  font-weight: bold;
+}
+.uiFilterList .letterList li a.allSpace,
+.uiFilterList .letterList li a#searchAll {
+  width: auto;
+  padding: 0px 3px;
+}
+/*=================uiComposer =================*/
+.uiComposer.uiGrayLightBox {
+  margin: 0 0 30px 0;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(13, 13, 13, 0.27);
+  -moz-box-shadow: 0 2px 4px -1px rgba(13, 13, 13, 0.27);
+  box-shadow: 0 2px 4px -1px rgba(13, 13, 13, 0.27);
+}
+.uiComposer.uiGrayLightBox .textarea {
+  width: 100%;
+  resize: none;
+  height: 60px !important;
+}
+.uiComposer.uiGrayLightBox .blastInputPeople,
+.uiComposer.uiGrayLightBox .uiComposerLink,
+.uiComposer.uiGrayLightBox .blastInputSpace {
+  margin: 0 0 10px 0;
+}
+.uiComposer.uiGrayLightBox .inputLink {
+  overflow: hidden;
+}
+.uiComposer.uiGrayLightBox .inputLink input[type="text"] {
+  width: 100%;
+  height: 28px;
+}
+.uiComposer.uiGrayLightBox .btn {
+  margin-left: 10px;
+  min-width: 82px;
+}
+.uiComposer.uiGrayLightBox .blastShare .uiContentBox {
+  padding: 5px;
+}
+.uiComposer.uiGrayLightBox .attachMents .actionIcon {
+  margin: 0;
+  float: right;
+}
+body.phoneDisplay .uiComposer.uiGrayLightBox {
+  position: relative;
+  margin-top: 45px;
+}
+body.phoneDisplay .uiComposer.uiGrayLightBox .button-group {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 15px;
+  right: 0;
+}
+.uiLinkShareDisplay {
+  position: relative;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0px 1px 0 @componentBackground ,0px 1px 0 @componentBackground;
+  -moz-box-shadow: inset 0px 1px 0 @componentBackground ,0px 1px 0 @componentBackground;
+  box-shadow: inset 0px 1px 0 @componentBackground ,0px 1px 0 @componentBackground;
+  border: 1px solid #cccccc;
+  background: #f0f0f0;
+  margin: 0 0 10px 0;
+  padding: 10px;
+}
+.uiLinkShareDisplay .thumbnailContainer .thumbnailLeft {
+  float: left;
+  width: 130px;
+  height: 140px;
+  margin-bottom: 0;
+}
+.uiLinkShareDisplay .thumbnailContainer .thumbnailLeft + .contentRight {
+  margin-left: 140px;
+}
+.uiLinkShareDisplay .thumbnailContainer .thumbnailLeft + .contentRight.resetMargin {
+  margin-left: 0;
+}
+.uiLinkShareDisplay .thumbnailContainer .uiContentBox {
+  padding: 6px;
+}
+.uiLinkShareDisplay .thumbnailContainer .uiContentBox .thumbnailInner {
+  height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiLinkShareDisplay .thumbnailContainer .uiContentBox .thumbnailInner img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiLinkShareDisplay .thumbnailContainer .thumbnailAction {
+  margin: 4px 0 0 0;
+}
+.uiLinkShareDisplay .thumbnailContainer .thumbnailAction .stats {
+  text-align: center;
+}
+.uiLinkShareDisplay .thumbnailHidden {
+  display: none;
+}
+.uiLinkShareDisplay .contentRight {
+  padding: 0 20px 0 0;
+}
+.uiLinkShareDisplay .contentRight .title {
+  color: #2f5e92;
+  margin: 0px;
+}
+.uiLinkShareDisplay .contentRight .source {
+  margin: 10px 0;
+  color: #2f5e92;
+}
+.uiLinkShareDisplay .contentRight .source + label {
+  margin: 0;
+}
+.uiLinkShareDisplay .contentRight textarea,
+.uiLinkShareDisplay .contentRight input[type="text"] {
+  width: 90%;
+}
+.uiLinkShareDisplay .uiIconClose {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+/*==============ActivityStream====================*/
+.uiActivityStream,
+.uiActivitiesLoader {
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/time-line-top.png") no-repeat 14px 0;
+  margin-top: 3px;
+  padding-top: 31px;
+  position: relative;
+}
+.uiActivityStream.clearBG,
+.uiActivitiesLoader.clearBG {
+  background: none;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.uiUserActivitiesDisplay.notSeen .uiActivityStream,
+.uiUserActivitiesDisplay.notSeen .uiActivitiesLoader,
+.uiUserActivitiesDisplay.notSeen .boxLoadMore {
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/time-line-top-active.png") no-repeat 14px 0;
+}
+.uiUserActivitiesDisplay .composerHintCont {
+  background: #d1ddf7;
+  border: 1px solid #215ab2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: -20px 0 20px;
+  padding: 10px 30px 10px 15px;
+  position: relative;
+}
+.uiUserActivitiesDisplay .composerHintCont .arrowLeft {
+  border-bottom: 15px solid #215ab2;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 100%;
+  display: block;
+  position: absolute;
+  right: 24px;
+}
+.uiUserActivitiesDisplay .composerHintCont .arrowLeft:after {
+  border-bottom: 16px solid #d1ddf7;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  content: "";
+  display: block;
+  left: -16px;
+  position: absolute;
+  top: 1px;
+}
+.uiUserActivitiesDisplay .composerHintCont .iconBorder {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  padding: 0px 5px;
+  line-height: 20px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+}
+.uiUserActivitiesDisplay .composerHintCont .iconBorder .uiIconClose {
+  top: -1px;
+}
+.uiUserActivitiesDisplay .composerHintCont .hint {
+  font-size: 16px;
+  color: #333333;
+}
+.uiUserActivitiesDisplay .description {
+  padding: 30px 16px;
+}
+.uiUserActivitiesDisplay .description .img {
+  margin: 0 20px 20px 0;
+  text-align: center;
+  width: 47.2%;
+}
+/*==============activityStreamStatus=============== */
+.activityStreamStatus {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #f0f0f0;
+  border: 1px solid #cccccc;
+  padding: 5px 18px;
+  position: relative;
+}
+.activityStreamStatus .arrowBottom {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #cccccc;
+  display: block;
+  left: 16px;
+  position: absolute;
+  top: 100%;
+}
+.activityStreamStatus .arrowBottom:after {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #f0f0f0;
+  bottom: 1px;
+  content: "";
+  display: block;
+  left: -9px;
+  position: absolute;
+}
+.uiUserActivitiesDisplay.notSeen .activityStreamStatus {
+  background: #e6e6e6;
+  border: 1px solid #cccccc;
+}
+.uiUserActivitiesDisplay.notSeen .activityStreamStatus .arrowBottom:after {
+  border-top-color: #e6e6e6;
+}
+/*activityTimeLine */
+.activityTimeLine .activityType {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 1px solid #b1b1b1;
+  padding: 5px;
+  margin: 8px 12px;
+  padding: 2px;
+  line-height: 22px;
+  -webkit-box-shadow: 0px 2px 4px rgba(13, 13, 13, 0.27);
+  -moz-box-shadow: 0px 2px 4px rgba(13, 13, 13, 0.27);
+  box-shadow: 0px 2px 4px rgba(13, 13, 13, 0.27);
+}
+.activityTimeLine .activityType img {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  width: 22px;
+  height: 22px;
+}
+.activityTimeLine .activityType span {
+  -webkit-box-shadow: inset 0px 1px 1px  rgba(0,0,0,0.35) ,0px 1px 1px @baseBackground;
+  -moz-box-shadow: inset 0px 1px 1px  rgba(0,0,0,0.35) ,0px 1px 1px @baseBackground;
+  box-shadow: inset 0px 1px 1px  rgba(0,0,0,0.35) ,0px 1px 1px @baseBackground;
+  display: block;
+  background: #578dc9;
+  color: #ffffff;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-align: center;
+}
+.activityTimeLine .activityType span span {
+  position: relative;
+  top: -4px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.activityTimeLine .activityType.loadMore {
+  margin-top: 0;
+}
+/* activitiBottom */
+.activityBottom {
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/time-line-bottom.png") no-repeat 13px -2px;
+  display: block;
+  height: 27px;
+}
+/*common  activityStreams*/
+.activityStream {
+  padding-bottom: 30px;
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/time-line.png") repeat-y 24px 0px;
+}
+.activityStream.updatedActivity {
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/time-line-active.png") repeat-y 24px 0;
+}
+.activityStream.boxLoadMore {
+  padding: 30px 0 0 ;
+}
+.activityStream .boxContainer {
+  margin: 0px 0px 0px 65px;
+}
+.activityStream .statusAction.pull-right a {
+  color: #333333;
+}
+.activityStream .contentForum span,
+.activityStream .dataInfor a,
+.activityStream .dataInfor span,
+.activityStream .statusAction.pull-left a,
+.activityStream .commentItem .viewComment,
+.activityStream .author span,
+.activityStream .introBox .text span,
+.activityStream .linkSources span,
+.activityStream .listLikedBox p,
+.activityStream .theContent a,
+.activityStream .theContent span {
+  color: #999999;
+  font-size: 12px;
+}
+.activityStream .heading,
+.activityStream .description,
+.activityStream .actionBar {
+  padding: 16px;
+}
+.activityStream .description,
+.activityStream .theContent,
+.activityStream .viewComment,
+.activityStream .contentAnswer,
+.activityStream .calendarBox,
+.activityStream .titleWiki,
+.activityStream a {
+  word-wrap: break-word;
+}
+.activityStream .contentComment {
+  margin-bottom: 0;
+}
+.activityStream .contentComment,
+.activityStream .linkSource {
+  word-wrap: break-word;
+}
+.activityStream .textBold {
+  font-weight: bold;
+}
+.activityStream .linkTitle,
+.activityStream .author a,
+.activityStream .sumaryPoint > div {
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.activityStream .author a + span {
+  margin-left: 10px;
+}
+.activityStream .author span {
+  font-size: 12px;
+}
+.activityStream .arrowBottom {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  display: block;
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/arrows.png") no-repeat -21px 0;
+  top: 17px;
+  left: -8px;
+}
+.activityStream .arrowLeft {
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #cccccc;
+  border-top: 8px solid transparent;
+  height: auto;
+  left: -9px;
+  position: absolute;
+  width: auto;
+}
+.activityStream .arrowLeft:after {
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #ffffff;
+  border-top: 8px solid transparent;
+  content: "";
+  display: block;
+  height: auto;
+  left: 1px;
+  position: absolute;
+  top: -8px;
+  width: auto;
+  z-index: 2;
+}
+.activityStream .contentForum .text {
+  padding: 0 0 0 16px;
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/text-forum.png") repeat-y left top;
+  margin-top: 10px;
+}
+.activityStream .titleWiki {
+  clear: both;
+}
+/*heading  activityStreams*/
+.activityStream .heading {
+  position: relative;
+}
+.activityStream .heading .actLink {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  display: none;
+}
+.activityStream .heading .actLink [class^="uiIcon"]:before {
+  vertical-align: middle;
+}
+.activityStream .heading .actLink [class^="uiIcon"] {
+  margin-left: 5px;
+}
+.activityStream .heading .actLink .uiIconLink {
+  top: -1px;
+}
+.activityStream .heading:hover .actLink {
+  display: block;
+}
+.activityStream .heading .dataInfor span,
+.activityStream .heading .dataInfor a {
+  margin: 0 10px 0 0;
+  font-size: 12px;
+}
+.activityStream .heading .tooltip-inner {
+  white-space: nowrap;
+}
+/*=============contentBox  activityStreams==================*/
+.activityStream .contentBox {
+  position: relative;
+  padding-bottom: 15px;
+  margin: 0px ;
+}
+.activityStream .contentBox .commentBox.noneCommentOrLike {
+  border: none;
+  border-top: 1px solid #cccccc;
+}
+.activityStream .contentBox .commentBlockBoundNone {
+  display: none;
+}
+.activityStream .contentBox .commentBlockBound {
+  display: block;
+}
+.activityStream .contentBox .actionBar,
+.activityStream .contentBox .listLikedBox,
+.activityStream .contentBox .description,
+.activityStream .contentBox .commentBox {
+  border-top: 1px solid #cccccc;
+}
+.activityStream .contentBox .actionBar + .listLikedBox,
+.activityStream .contentBox .actionBar + .commentBox {
+  border-top: none;
+}
+.activityStream .contentBox .actionBar {
+  background: #f0f0f0;
+  border-bottom: 1px solid #cccccc;
+  padding: 8px 18px;
+}
+.activityStream .contentBox .actionBar .statusAction {
+  list-style: none;
+  margin: 0;
+}
+.activityStream .contentBox .actionBar .statusAction li {
+  display: inline;
+  margin: 0 5px;
+}
+.activityStream .contentBox .actionBar .statusAction li a:hover {
+  color: #2f5e92;
+}
+.activityStream .contentBox .listLikedBox {
+  padding: 16px 0px 16px 16px;
+}
+.activityStream .contentBox .listLikedBox .listLiked {
+  margin-top: 10px;
+}
+.activityStream .contentBox .listLikedBox .listLiked a {
+  margin: 0 8px 8px 0;
+  display: inline-block;
+}
+.activityStream .contentBox .listLikedBox .listLiked .btn {
+  background: #f0f0f0;
+  border: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: none;
+  color: #999999;
+  font-size: 22px;
+  padding: 0 0 10px;
+  width: 36px;
+  height: 36px;
+  display: none;
+}
+.activityStream .contentBox .listLikedBox p {
+  margin: 0;
+}
+.activityStream .contentBox .introBox + .actionBar {
+  border-top: none;
+}
+/*introBox  activityStreams*/
+.activityStream .introBox {
+  padding: 18px;
+  margin: 0 -8px 0 -8px;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(13, 13, 13, 0.27);
+  -moz-box-shadow: 0px 2px 4px -1px rgba(13, 13, 13, 0.27);
+  box-shadow: 0px 2px 4px -1px rgba(13, 13, 13, 0.27);
+  background-color: #fefefe;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(94%, #ffffff), to(#f8f8f8));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 94%, #f8f8f8);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 94%, #f8f8f8);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 94%, #f8f8f8);
+  background-image: linear-gradient(#ffffff, #ffffff 94%, #f8f8f8);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+}
+.activityStream .introBox .pull-left {
+  margin-right: 10px;
+}
+.activityStream .introBox .pull-left a.avatarXMedium img {
+  height: 75px;
+  width: 75px;
+}
+.activityStream .introBox .pull-left + .text {
+  overflow: hidden;
+}
+.activityStream .introBox .descriptionText {
+  word-wrap: break-word;
+  min-height: 30px;
+}
+.activityStream .introBox .isPreviewable {
+  position: relative;
+}
+.activityStream .introBox .isPreviewable .mediaContent {
+  max-width: 300px;
+}
+.activityStream .introBox .isPreviewable .versionFile {
+  color: #999999;
+  font-size: 12px;
+}
+.activityStream .introBox:before,
+.activityStream .introBox:after {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  border-top: medium none;
+  top: -7px;
+}
+.activityStream .introBox:before {
+  border-bottom: 6px solid #999999;
+  border-left: 7px solid transparent;
+  left: -1px;
+}
+.activityStream .introBox:after {
+  border-bottom: 6px solid #999999;
+  border-right: 6px solid transparent;
+  right: 0px;
+}
+.activityStream .introBox .content {
+  word-wrap: break-word;
+}
+/*comment area*/
+.activityStream .commentListInfo {
+  padding: 10px 15px;
+}
+.activityStream .commentListInfo + .commentList {
+  padding-top: 0;
+}
+.activityStream .commentList {
+  padding: 10px 10px 0 10px ;
+}
+.activityStream .commentList > div {
+  padding: 5px;
+}
+.activityStream .commentList > div + div {
+  margin-top: 4px;
+}
+.activityStream .commentList > div.focus {
+  background-color: #f8f8f8;
+}
+.activityStream .commentList .commentItem {
+  position: relative;
+}
+.activityStream .commentList .commentItem + .commentItem {
+  margin: 15px 0 0 0;
+}
+.activityStream .commentList .commentItem .ContentBlock {
+  word-wrap: break-word;
+}
+.activityStream .commentList .commentItem .actLink {
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  display: none;
+}
+.activityStream .commentList .commentItem .actLink .tooltip {
+  -moz-pointer-events: none;
+  -webkit-pointer-events: none;
+  -ms-pointer-events: none;
+  pointer-events: none;
+}
+.activityStream .commentList .commentItem .uiIconClose:hover,
+.activityStream .commentList .commentItem .viewComment:hover,
+.activityStream .commentList .commentItem .uiIconLink:hover {
+  color: #2f5e92;
+}
+.activityStream .commentList .commentItem .uiIconClose {
+  top: -1px;
+}
+.activityStream .commentList .commentItem [class^="uiIcon"] {
+  margin-left: 5px;
+}
+.activityStream .commentList .commentItem .uiIconClose + .viewComment {
+  right: 25px;
+}
+.activityStream .commentList .commentItem:hover .actLink {
+  display: block;
+}
+.activityStream .commentList .commentItem .commmentLeft {
+  float: left;
+}
+.activityStream .commentList .commentItem .commmentLeft + .commentRight {
+  margin-left: 45px;
+}
+.activityStream .commentList .commentItem .commmentLeft .avatarXSmall {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.activityStream .commentList .commentItem .commentInputBox {
+  padding: 3px 0 0 ;
+}
+.activityStream .commentList .commentItem .commentInputBox .btn {
+  margin-left: 10px;
+  position: relative;
+  z-index: 1;
+}
+.activityStream .commentList .commentItem .commentInputBox .commentInput textarea {
+  width: 100%;
+  height: 28px;
+  resize: none;
+  max-height: 28px;
+}
+.activityStream .commentList .commentItemFirst {
+  padding-top: 15px;
+}
+.activityStream .inputContainer {
+  display: none;
+  padding-top: 0;
+}
+.activityStream .inputContainer .commentItem {
+  padding-bottom: 15px;
+}
+.activityStream .noCommentFormBox {
+  padding-top: 15px;
+}
+.activityStream .tooltip {
+  white-space: nowrap;
+}
+.uiUserActivityDetail .activityStream .commentList .commentItem .actLink {
+  right: 0;
+}
+.uiUserActivityDetail .activityStream .heading .actLink {
+  right: 15px;
+}
+/*================uiAnswerActivity=======================*/
+.uiAnswerActivity .contentAnswer .clearfix {
+  margin: 15px 0;
+}
+.uiAnswerActivity .sumaryPoint {
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #f0f0f0;
+  padding: 5px 2px;
+}
+.uiAnswerActivity .sumaryPoint.pull-left {
+  width: 50px;
+  margin: 0 10px 5px 0;
+  padding: 5px 10px;
+}
+/*================uiCalendarActivity=======================*/
+.uiCalendarActivity .introBox .clearfix .calendarBox {
+  width: 50px;
+}
+.uiCalendarActivity .introBox .clearfix .calendarBox + .text {
+  margin-left: 65px;
+}
+.uiCalendarActivity p {
+  margin-bottom: 5px;
+}
+.uiCalendarActivity .introBox .clearfix .statusTask {
+  width: 40px;
+}
+.uiCalendarActivity .introBox .clearfix .statusTask + .text {
+  margin-left: 55px;
+}
+.uiCalendarActivity .calendarBox .heading {
+  padding: 0;
+}
+/*================uiWikiActivity=======================*/
+.uiWikiActivity .headingContainer {
+  border-bottom: 1px dotted #cccccc;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+}
+.uiWikiActivity .headingContainer .versionLabel {
+  color: #999999;
+}
+/*================uiContentActivity=======================*/
+.uiContentActivity .introBox.contentShare .pull-left {
+  margin-right: 10px;
+}
+.uiContentActivity .introBox.contentShare .pull-left + .text {
+  overflow: hidden;
+}
+.boxLoadMore {
+  background: url("/eXoSkin/skin/images/themes/default/social/skin/Activity/time-line.png") repeat-y 24px 0px;
+  padding-left: 65px;
+}
+.boxLoadMore .showMore {
+  text-align: center;
+  background-color: #ececec;
+  background-image: -moz-linear-gradient(top, #f0f0f0, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f0f0), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f0f0f0, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f0f0f0, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0f0f0', endColorstr='#ffe6e6e6', GradientType=0);
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 2px -1px rgba(35, 44, 48, 0.18);
+  -moz-box-shadow: 0px 2px 2px -1px rgba(35, 44, 48, 0.18);
+  box-shadow: 0px 2px 2px -1px rgba(35, 44, 48, 0.18);
+  padding: 5px 0;
+}
+.boxLoadMore .showMore a {
+  color: #333333;
+}
+/*=======Space activity==========*/
+.uiSpaceActivity .spaceMembers {
+  color: #999999;
+  font-size: 12px;
+}
+/*=======fileActivity activity==========*/
+.fileActivity .introBox .isPreviewable .pull-left {
+  margin-right: 10px;
+}
+.fileActivity .introBox .isPreviewable .pull-left + .text {
+  overflow: hidden;
+}
+.fileActivity .introBox .isPreviewable .fileTypeContent {
+  float: left;
+  margin-right: 10px;
+}
+.fileActivity .introBox .isPreviewable .fileTypeContent + .text {
+  overflow: hidden;
+}
+.fileActivity .introBox .isPreviewable .PlayerContianer {
+  width: 330px;
+  height: auto;
+}
+.fileActivity .introBox .isPreviewable .PlayerContianer + .text {
+  overflow: hidden;
+}
+.fileActivity .introBox .isPreviewable .PlayerContent {
+  padding: 0;
+  height: 200px;
+  width: 330px;
+}
+.fileActivity .fileShare .linkTitle {
+  margin-top: -3px;
+}
+.fileActivity .fileShare .videoContent {
+  width: 100%;
+}
+.userProfileShare .userGender {
+  margin: 0 0 0 20px;
+}
+.userProfileShare p {
+  margin-bottom: 5px;
+}
+.userProfileShare .userPosition {
+  color: #2f5e92;
+}
+.userProfileShare .userContact [class^="uiIcon"]:hover {
+  color: #999999;
+}
+.userProfileShare .userContact [class^="uiIconSoc"]:hover {
+  color: #999999;
+}
+/*=======Poll activity==========*/
+.activityStream .pollShare .pollTitle {
+  margin-bottom: 10px;
+}
+.activityStream .pollShare .pollTitle .numberVoted {
+  color: #999999;
+}
+.activityStream .pollShare h5 {
+  margin: 0;
+}
+.activityStream .infoVote .titleVote {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 290px;
+}
+.activityStream .infoVote .progressing {
+  color: #999999;
+  float: right;
+  text-align: right;
+  width: 100px;
+}
+.activityStream .infoVote .progressBar {
+  margin: 0 100px 0 300px;
+}
+.activityStream .infoVote .progressBar .progress {
+  margin-bottom: 10px;
+}
+/*=======activityTop==========*/
+.activityTop .uiDropdownWithIcon a.OptionItem {
+  padding: 5px 9px;
+}
+.activityTop .uiDropdownWithIcon a.OptionItem .icon-play {
+  display: none;
+  visibility: hidden;
+}
+/*======= User Profile Popup ==========*/
+#tipName .name {
+  font-weight: bold;
+  color: #2f5e92;
+}
+#tipName + blockquote {
+  margin-top: 5px;
+}
+#tipName + #connectMessge {
+  margin-top: 30px;
+}
+#tipName + .connectAction {
+  margin-top: 35px;
+}
+.connectAction {
+  text-align: center;
+  background: #f0f0f0;
+  margin: -10px;
+  padding: 10px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+/* TipTip CSS - Version 1.2 */
+#tiptip_holder {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 240px;
+}
+#tiptip_holder.tip_top {
+  padding-bottom: 5px;
+}
+#tiptip_holder.tip_bottom {
+  padding-top: 5px;
+}
+#tiptip_holder.tip_right {
+  padding-left: 5px;
+}
+#tiptip_holder.tip_left {
+  padding-right: 5px;
+}
+#tiptip_content {
+  font-size: 12px;
+  color: #999999;
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+}
+.profile-popup #loading-indicator {
+  background: #ffffff;
+  position: relative;
+  width: 30px;
+  height: 37px;
+  margin: 2px auto;
+  display: block;
+}
+.profile-popup #loading-text {
+  padding: 12px;
+  text-align: center;
+}
+.profile-popup .blockG {
+  position: absolute;
+  background-color: #ffffff;
+  width: 3px;
+  height: 12px;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -webkit-transform: scale(0.4);
+  -webkit-animation-name: fadeG;
+  -webkit-animation-duration: 0.5599999999999999s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -moz-transform: scale(0.4);
+  -moz-animation-name: fadeG;
+  -moz-animation-duration: 0.5599999999999999s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  border-radius: 4px 4px 0 0;
+  -o-transform: scale(0.4);
+  -o-animation-name: fadeG;
+  -o-animation-duration: 0.5599999999999999s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  -ms-transform: scale(0.4);
+  -ms-animation-name: fadeG;
+  -ms-animation-duration: 0.5599999999999999s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+}
+.profile-popup #rotateG_01 {
+  left: 0;
+  top: 13px;
+  -webkit-animation-delay: 0.20999999999999996s;
+  -webkit-transform: rotate(-90deg);
+  -moz-animation-delay: 0.20999999999999996s;
+  -moz-transform: rotate(-90deg);
+  -o-animation-delay: 0.20999999999999996s;
+  -o-transform: rotate(-90deg);
+  -ms-animation-delay: 0.20999999999999996s;
+  -ms-transform: rotate(-90deg);
+}
+.profile-popup #rotateG_02 {
+  left: 4px;
+  top: 5px;
+  -webkit-animation-delay: 0.27999999999999997s;
+  -webkit-transform: rotate(-45deg);
+  -moz-animation-delay: 0.27999999999999997s;
+  -moz-transform: rotate(-45deg);
+  -o-animation-delay: 0.27999999999999997s;
+  -o-transform: rotate(-45deg);
+  -ms-animation-delay: 0.27999999999999997s;
+  -ms-transform: rotate(-45deg);
+}
+.profile-popup #rotateG_03 {
+  left: 13px;
+  top: 1px;
+  -webkit-animation-delay: 0.35s;
+  -webkit-transform: rotate(0deg);
+  -moz-animation-delay: 0.35s;
+  -moz-transform: rotate(0deg);
+  -o-animation-delay: 0.35s;
+  -o-transform: rotate(0deg);
+  -ms-animation-delay: 0.35s;
+  -ms-transform: rotate(0deg);
+}
+.profile-popup #rotateG_04 {
+  right: 4px;
+  top: 5px;
+  -webkit-animation-delay: 0.41999999999999993s;
+  -webkit-transform: rotate(45deg);
+  -moz-animation-delay: 0.41999999999999993s;
+  -moz-transform: rotate(45deg);
+  -o-animation-delay: 0.41999999999999993s;
+  -o-transform: rotate(45deg);
+  -ms-animation-delay: 0.41999999999999993s;
+  -ms-transform: rotate(45deg);
+}
+.profile-popup #rotateG_05 {
+  right: 0;
+  top: 13px;
+  -webkit-animation-delay: 0.48999999999999994s;
+  -webkit-transform: rotate(90deg);
+  -moz-animation-delay: 0.48999999999999994s;
+  -moz-transform: rotate(90deg);
+  -o-animation-delay: 0.48999999999999994s;
+  -o-transform: rotate(90deg);
+  -ms-animation-delay: 0.48999999999999994s;
+  -ms-transform: rotate(90deg);
+}
+.profile-popup #rotateG_06 {
+  right: 4px;
+  bottom: 3px;
+  -webkit-animation-delay: 0.5599999999999999s;
+  -webkit-transform: rotate(135deg);
+  -moz-animation-delay: 0.5599999999999999s;
+  -moz-transform: rotate(135deg);
+  -o-animation-delay: 0.5599999999999999s;
+  -o-transform: rotate(135deg);
+  -ms-animation-delay: 0.5599999999999999s;
+  -ms-transform: rotate(135deg);
+}
+.profile-popup #rotateG_07 {
+  bottom: 0;
+  left: 13px;
+  -webkit-animation-delay: 0.63s;
+  -webkit-transform: rotate(180deg);
+  -moz-animation-delay: 0.63s;
+  -moz-transform: rotate(180deg);
+  -o-animation-delay: 0.63s;
+  -o-transform: rotate(180deg);
+  -ms-animation-delay: 0.63s;
+  -ms-transform: rotate(180deg);
+}
+.profile-popup #rotateG_08 {
+  left: 4px;
+  bottom: 3px;
+  -webkit-animation-delay: 0.7s;
+  -webkit-transform: rotate(-135deg);
+  -moz-animation-delay: 0.7s;
+  -moz-transform: rotate(-135deg);
+  -o-animation-delay: 0.7s;
+  -o-transform: rotate(-135deg);
+  -ms-animation-delay: 0.7s;
+  -ms-transform: rotate(-135deg);
+}
+@-webkit-keyframes fadeG {
+  0% {
+    background-color: #000000;
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+@-moz-keyframes fadeG {
+  0% {
+    background-color: #000000;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+@-o-keyframes fadeG {
+  0% {
+    background-color: #000000;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+@-ms-keyframes fadeG {
+  0% {
+    background-color: #000000;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+#tiptip_arrow,
+#tiptip_arrow_inner {
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#tiptip_holder #tiptip_arrow_inner {
+  z-index: -1;
+}
+#tiptip_holder.tip_left_top #tiptip_arrow,
+#tiptip_holder.tip_left_bottom #tiptip_arrow {
+  display: none;
+}
+#tiptip_holder #tiptip_arrow {
+  right: -4px;
+  margin-top: -10px;
+  border-width: 10px 0 10px 10px;
+  border-left-color: #ffffff;
+}
+#tiptip_holder #tiptip_arrow #tiptip_arrow_inner {
+  border-width: 11px 0 11px 11px;
+  border-left-color: #cccccc;
+  bottom: -11px;
+  right: -1px;
+}
+/*
+
+blockquote {
+    background: url("@{images-path}/social/skin/Activity/right-quote.png") no-repeat right bottom;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: @baseColorLight;
+    border-left: medium none;
+    width:75%;
+    word-wrap:break-word;
+  position: relative;
+}
+
+blockquote:after {
+  background: url("@{images-path}/social/skin/Activity/left-quote.png") no-repeat left top;
+  .size(13px,15px);
+  position:absolute;
+  top:2px;
+  left: 0;
+}
+*/
+#tipName img {
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#connectMessge {
+  background: #f0f0f0;
+  margin: -10px;
+  padding: 10px 20px;
+  color: #999999;
+  font-weight: bold;
+}
+#tiptip_holder .detail {
+  margin-left: 45px;
+}
+/*======= End of User Profile Popup ==========*/
+.uiActivityFileAttachment {
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 0 2px 1px -2px rgba(255,255,255,1), 0 3px 1px -2px rgba(255,255,255,0.6) inset;
+  -moz-box-shadow: 0 2px 1px -2px rgba(255,255,255,1), 0 3px 1px -2px rgba(255,255,255,0.6) inset;
+  box-shadow: 0 2px 1px -2px rgba(255,255,255,1), 0 3px 1px -2px rgba(255,255,255,0.6) inset;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 8px;
+  color: #333333;
+}
+.uiUserActivityStreamPortlet .uiPopup {
+  z-index: 100;
+}
+.noActivity {
+  margin: 15px 0;
+}
+.activityTimeLine [class^="uiIcon"] {
+  font-size: 12px;
+}
+.introBox .tooltip-inner {
+  white-space: normal;
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 1024px) {
+  .activityStream .arrowLeft {
+    display: none;
+  }
+  #DisplayModesDropDown .dropdown-menu {
+    left: auto;
+    right: 0;
+    min-width: 164px;
+  }
+  .attachMents .uidocactivitycomposer {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 899px) {
+  .tabletLDisplay .activityStream .boxContainer {
+    margin-left: 0;
+  }
+  .tabletLDisplay .activityBottom,
+  .tabletLDisplay .activityTimeLine {
+    display: none!important;
+  }
+  .tabletLDisplay:not(.hidden-right-bar) .uiActivityStream,
+  .tabletLDisplay:not(.hidden-right-bar) .uiActivitiesLoader,
+  .tabletLDisplay:not(.hidden-right-bar) .activityStream {
+    background: none;
+  }
+  .activityStreamStatus {
+    margin-right: 10px;
+    padding: 2px 9px;
+  }
+  .hidden-right-bar .activityStreamStatus {
+    float: left;
+    padding: 2px 18px;
+  }
+  .hidden-right-bar .activityBottom,
+  .hidden-right-bar .activityTimeLine {
+    display: block!important;
+  }
+  .hidden-right-bar .activityStream .boxContainer {
+    margin-left: 65px;
+  }
+  .open-right-bar .activityStreamStatus {
+    float: left;
+  }
+  .open-right-bar .activityStream .introBox:before,
+  .open-right-bar .activityStream .introBox:after {
+    display: none;
+  }
+  .open-right-bar .activityStream .introBox {
+    background: 0;
+    border-left: medium none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-right: medium none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+  }
+  .hidden-right-bar .activityStream .introBox {
+    margin: 0 -7px;
+    -webkit-box-shadow: 0px 2px 4px -1px rgba(13, 13, 13, 0.27);
+    -moz-box-shadow: 0px 2px 4px -1px rgba(13, 13, 13, 0.27);
+    box-shadow: 0px 2px 4px -1px rgba(13, 13, 13, 0.27);
+    background-color: #fefefe;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(94%, #ffffff), to(#f8f8f8));
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 94%, #f8f8f8);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff 94%, #f8f8f8);
+    background-image: -o-linear-gradient(#ffffff, #ffffff 94%, #f8f8f8);
+    background-image: linear-gradient(#ffffff, #ffffff 94%, #f8f8f8);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  }
+  .activityStreamStatus .arrowBottom {
+    display: none;
+  }
+  .hidden-right-bar .activityStreamStatus .arrowBottom {
+    display: block;
+    left: 16px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .activityStream .author span {
+    font-size: 16px;
+  }
+  .btn-group.uiDropdownWithIcon .btn .uiIconMiniArrowDown {
+    margin: 0 0px 0 1px;
+  }
+  .activityType [class^="uiIcon"] {
+    font-size: 14px;
+  }
+  .activityStream .exo-mentions .replaceTextArea {
+    min-height: 26px;
+  }
+  .activityStream .introBox .isPreviewable .mediaContent {
+    max-width: 50%;
+  }
+  .activityTop .uiDropdownWithIcon a.OptionItem {
+    padding: 12px 15px 12px 15px;
+  }
+  .uiMyConnections .uiTabNormal .nav-tabs > li > a {
+    padding: 10px 15px;
+  }
+  .uiUserActivitiesDisplay .composerHintCont .iconBorder .uiIconClose {
+    top: -3px;
+  }
+}
+@media (max-width: 768px) {
+  .uiProfileUserSearch input {
+    display: block;
+    margin: 5px 0;
+    width: 100% !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .activityStream .heading .actLink .uiIconClose:before {
+    font-size: 10px;
+    position: relative;
+    top: -2px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    height: 100%;
+  }
+  .activityDisplay .showMore {
+    display: none;
+  }
+  .activityTimeLine.pull-left {
+    display: none;
+  }
+  .UISocialConfirmation {
+    min-height: 180px;
+  }
+  .UISocialConfirmation .contentMessage {
+    white-space: nowrap;
+  }
+  .footComment {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-top: solid 1px #cccccc;
+    background-color: #f0f0f0;
+  }
+  .footComment .commmentLeft {
+    display: none;
+  }
+  .footComment .commentRight button {
+    margin: 0px 5px;
+  }
+  .footComment .commentRight .commentInput {
+    margin: 11px 100px 10px 10px;
+  }
+  .activityStreamStatus .arrowBottom {
+    display: none;
+  }
+  .activityStream.block-activity .inputContainer {
+    display: none !important;
+  }
+  .activityStream .arrowLeft {
+    display: none;
+  }
+  .activityStream .boxContainer {
+    margin: 0;
+  }
+  .uiActivityStream,
+  .uiActivitiesLoader {
+    background: none;
+  }
+  .activityStream {
+    background: none;
+  }
+  .activityBottom {
+    background: none;
+  }
+  .activityStream .contentBox {
+    padding-bottom: 0px;
+  }
+  .activityStream .contentBox .actionBar {
+    border-bottom: none;
+  }
+  .activityStream .contentBox .listLikedBox {
+    border: medium none;
+    display: none;
+    padding: 0;
+  }
+  .activityStream .contentBox .commentBox {
+    border: medium none;
+    display: none;
+  }
+  .activityStream.block-activity .contentBox .actionBar {
+    border-bottom: 1px solid #cccccc;
+  }
+  .activityStream.block-activity .contentBox {
+    padding-bottom: 15px;
+  }
+  .activityStream.block-activity .contentBox .listLikedBox {
+    display: block;
+    padding: 16px 0px 16px 16px;
+  }
+  .activityStream.block-activity .contentBox .commentBox {
+    border-top: 1px solid #cccccc;
+    display: block;
+  }
+  .uiActivitiesDisplay .pull-right #DisplayModesDropDown {
+    margin-left: 10px;
+  }
+  .activityStreamStatus {
+    float: right;
+    padding: 3px 5px;
+  }
+  .activityStream.block-activity .contentBox .actionBar {
+    border-bottom: none;
+  }
+  .uiUserActivityStreamPortlet .shareStt .dropdown-menu {
+    padding: 10px;
+    position: relative;
+    top: 0;
+    float: none;
+  }
+  .uiUserActivityStreamPortlet .shareStt .dropdown-menu:before {
+    border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    left: 9px;
+    position: absolute;
+    top: -7px;
+  }
+  .uiUserActivityStreamPortlet .shareStt .dropdown-menu:after {
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    left: 10px;
+    position: absolute;
+    top: -6px;
+  }
+  .uiUserActivityStreamPortlet .shareStt .dropdown-menu textarea {
+    border-radius: 0;
+    resize: none;
+    width: 100%;
+  }
+  /* comment page*/
+  .uiCommentBox {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 0;
+  }
+  .uiCommentBox .highlightBox {
+    background: none repeat scroll 0 0 #fff;
+    padding: 10px 10px 20px;
+  }
+  .uiCommentBox .highlightBox .profile .rightBlock {
+    margin-left: 60px;
+  }
+  .uiCommentBox .highlightBox .profile .rightBlock a {
+    font-weight: bold;
+  }
+  .uiCommentBox .highlightBox .profile .rightBlock p.dateTime {
+    color: #999;
+    font-size: 11px;
+  }
+  .uiCommentBox .highlightBox .profile .rightBlock .descript {
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  .uiCommentBox .actionBar {
+    border-top: 1px solid #ccc;
+    padding: 5px 0;
+  }
+  .uiCommentBox .actionBar ul > li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .uiCommentBox .actionBar ul > li a {
+    color: #333;
+  }
+  .uiCommentBox .actionBar ul > li a:hover {
+    color: #2f5e92;
+  }
+  .uiCommentBox .commentList {
+    background: none repeat scroll 0 0 #fff;
+    max-height: 485px;
+    overflow: auto;
+    padding: 8px 0;
+  }
+  .uiCommentBox .commentList li {
+    padding: 8px 10px;
+  }
+  .uiCommentBox .commentList li .close {
+    display: none;
+    position: absolute;
+    right: -19px;
+    top: 3px;
+  }
+  .uiCommentBox .commentList li:hover .close {
+    display: block;
+  }
+  .uiCommentBox .commentList .avatarXSmall {
+    margin-top: 5px;
+  }
+  .uiCommentBox .commentList .rightBlock {
+    margin-left: 45px;
+    margin-right: 15px;
+    position: relative;
+  }
+  .uiCommentBox .commentList .rightBlock .tit a {
+    color: #2f5e92;
+    font-weight: bold;
+  }
+  .uiCommentBox .commentList .rightBlock .tit .dateTime {
+    color: #999;
+    font-size: 11px;
+  }
+  .uiCommentBox .commentList .rightBlock .cont {
+    margin: 0;
+    word-wrap: break-word;
+  }
+  .uiCommentBox .noComment {
+    background: none repeat scroll 0 0 #fff;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    text-align: center;
+  }
+  .uiCommentBox .noComment .info {
+    background: url("/eXoSkin/skin/images/system/no_comment.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    color: #999;
+    font-size: 14px;
+    padding: 80px 0 0;
+  }
+  .uiCommentBox .commentInputBox {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 20px 10px;
+  }
+  .uiCommentBox .commentInputBox textarea {
+    height: 28px;
+    margin: 4px 0 4px 9px;
+    resize: none;
+    width: 210px;
+  }
+  .activityStream .introBox {
+    background: 0;
+    border-left: medium none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-right: medium none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+  }
+  .open-right-bar .activityStreamStatus {
+    float: right;
+  }
+  .activityStream .introBox:before,
+  .activityStream .introBox:after {
+    display: none;
+  }
+  .uiActivityStream {
+    padding-top: 10px;
+  }
+  .uiActivityStream.clearBG,
+  .uiActivitiesLoader.clearBG {
+    padding-top: 10px;
+  }
+  .uiActivitiesDisplay .iconReturn {
+    font-size: 20px;
+    color: #999999;
+  }
+  .uiActivitiesDisplay .iconReturn:before {
+    content: "\e74f";
+  }
+  .exo-mentions .replaceTextArea {
+    min-height: 20px;
+  }
+  .uiUserActivitiesDisplay .composerHintCont {
+    margin: 20px 0;
+  }
+  .uiUserActivitiesDisplay .composerHintCont .arrowLeft {
+    display: none;
+  }
+  .activityStream .introBox .isPreviewable .mediaContent {
+    float: left;
+    margin-right: 10px;
+    max-width: 30%;
+  }
+  .activityStream .pull-left.statusAction a {
+    font-size: 0;
+  }
+  .introBox embed,
+  .introBox object,
+  .introBox iframe,
+  .introBox video {
+    max-width: 100%;
+  }
+  .fileActivity .introBox .isPreviewable .pull-left {
+    float: none;
+  }
+  .fileActivity .introBox .isPreviewable .pull-left + .text {
+    overflow: visible;
+  }
+  .fileActivity .introBox .isPreviewable .mediaContent {
+    max-width: 100%;
+    margin: 0 0 10px;
+  }
+  .fileActivity .introBox .isPreviewable .PlayerContianer,
+  .fileActivity .introBox .isPreviewable .PlayerContent {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .activityStream .introBox .pull-left {
+    display: block;
+    float: none;
+    margin: 0 0 10px 0 !important;
+  }
+  .fileActivity .introBox .isPreviewable .PlayerContent,
+  .fileActivity .introBox .isPreviewable .PlayerContianer {
+    width: auto;
+  }
+  .exo-mentions .replaceTextArea {
+    min-height: 18px;
+  }
+  .footComment .exo-mentions .replaceTextArea {
+    min-height: 18px;
+  }
+  .fileActivity .introBox .isPreviewable .fileTypeContent + .text {
+    overflow: visible;
+  }
+  .uiCalendarActivity .introBox .clearfix .calendarBox + .text,
+  .uiCalendarActivity .introBox .clearfix .statusTask + .text {
+    margin-left: 0;
+    overflow: visible;
+  }
+  .uiUserActivitiesDisplay .uiDropdownWithIcon .btn {
+    padding: 1px 6px 3px 10px;
+  }
+}
+/* .uiSwitchBtn {
+   -webkit-transform: translate3d(0, 0, 0);
+   position: relative;
+   height: 21px;
+   cursor: pointer;
+   overflow: hidden;
+   display: inline-block;
+   vertical-align: middle;
+   padding-top: 1px;
+}
+
+.uiSwitchBtn input {
+   position: absolute;
+   top: 5px;
+   left: 30px;
+   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 0);
+   opacity: 0;
+}
+
+.uiSwitchBtn label {
+   white-space: nowrap;
+   font-size: 11px;
+   line-height: 16px;
+   font-weight: bold;
+   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+   cursor: pointer;
+   display: block;
+   height: 18px;
+   position: absolute;
+   width: auto;
+   top: 1;
+   overflow: hidden;
+}
+
+.uiSwitchBtn, .uiSwitchBtn label {
+   user-select: none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+}
+
+.switchBtnDisabled {
+   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 50);
+   opacity: 0.5;
+}
+
+label.switchBtnLabelOn {
+   color: @baseBackground;
+   text-shadow: none;
+   left: 1px;
+   min-width: 9px;
+   top: 1px;
+   #gradient > .vertical(@primaryLightColor,@primaryColor);
+   .box-shadow(inset 0px 3px 5px @primaryDarkColor);
+   .border-top-left-radius (9px);
+   .border-bottom-left-radius(9px);
+}
+
+label.switchBtnLabelOn span {
+   line-height: 19px;
+    padding: 0 8px 0 4px;
+}
+
+label.switchBtnLabelOff {
+   color: @baseColorLight;
+   background-color: @primaryBackgroundHover;
+   #gradient > .vertical(rgba(0,0,0,0),rgba(0,0,0,0.09));
+   .box-shadow(inset 0px 1px 1px rgba(0, 0, 0, 0.43));
+   text-shadow: none;
+   text-align: right;
+   .border-top-right-radius (9px);
+   .border-bottom-right-radius(9px);
+   height: 17px;
+   top: 1px;
+   right: 0;
+   margin-right: 1px;
+}
+
+label.switchBtnLabelOff span {
+   line-height: 19px;
+    padding-right: 17px;
+}
+
+.switchBtnHandle {
+   display: block;
+   cursor: pointer;
+   position: absolute;
+   top: 1px;
+   left: 1px;
+   .square (18px);
+	#gradient > .vertical(@btnBackground,@btnBackgroundHighlight);
+	.border-radius(50%); 
+	.box-shadow(0 1px 2px rgba(0, 0, 0, 0.8));
+}
+ */
+.blastContainer .exo-mentions {
+  background: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.activityStream .exo-mentions .replaceTextArea {
+  padding: 3px 10px;
+}
+.activityStream .exo-mentions .placeholder {
+  top: 3px;
+  left: 6px;
+}
+div.suggestions {
+  border: 1px solid #cccccc;
+  position: absolute;
+  background: #ffffff;
+  color: #333333;
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+div.suggestions div.resultItem.hover {
+  background-color: #578dc9;
+  color: #ffffff;
+}
+div.suggestions div.resultItem {
+  margin: 0px;
+  padding: 5px;
+  position: relative;
+  height: auto;
+  cursor: pointer;
+}
+div.suggestions div.resultItem:first-child {
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+}
+div.suggestions div.resultItem:last-child {
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+}
+div.suggestions div.resultItem p {
+  margin: 0px;
+  padding: 0px;
+}
+.uiSocApplication {
+  padding: 20px;
+}
+.uiSocApplication .uiProfileUserSearch {
+  margin-bottom: 10px;
+}
+.uiSocApplication .uiProfileUserSearch .uiGrayLightBox .LabelProfileUserSearch {
+  margin-top: 4px;
+}
+.uiSocApplication .uiProfileUserSearch .uiGrayLightBox .contentProfileUserSearch {
+  overflow: hidden;
+  padding-right: 5px;
+}
+.uiSocApplication .uiProfileUserSearch .uiGrayLightBox .contentProfileUserSearch .inputProfileUserSearch {
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.uiSocApplication .uiProfileUserSearch .uiGrayLightBox .contentProfileUserSearch .inputProfileUserSearch input {
+  width: 100%;
+}
+.uiSocApplication .uiSpaceSearch {
+  margin-bottom: 10px;
+}
+.uiSocApplication .itemContainer {
+  width: 300px;
+  max-width: 400px;
+  min-width: 280px;
+  margin-bottom: 9px;
+  padding: 0px;
+}
+.uiSocApplication .itemContainer .spaceBox {
+  border: 1px solid #cccccc;
+  background: #f0f0f0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  margin-right: 10px;
+}
+.uiSocApplication .itemContainer .spaceBox label {
+  display: inline-block;
+}
+.uiSocApplication .itemContainer .spaceBox input {
+  margin-bottom: 0px;
+}
+.uiSocApplication .itemContainer .spaceBox .avatarLarge img {
+  border: 1px solid #cccccc;
+}
+.uiSocApplication .itemContainer .spaceBox .contentBox {
+  margin-left: 110px;
+  height: 112px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.uiSocApplication .itemContainer .spaceBox .contentBox .spaceTitle {
+  max-height: 42px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+.uiSocApplication .itemContainer .spaceBox .contentBox .ellipsis {
+  /* Truncate text in the case the value's length over that it's expecting length,
+				*  then append '...' dots at the end of text to show.
+				*/
+
+  white-space: nowrap;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.uiSocApplication .itemContainer .spaceBox .contentBox .email a {
+  font-size: 12px;
+}
+.uiSocApplication .itemContainer .spaceBox .contentBox .content {
+  margin-top: 3px;
+  line-height: 16px;
+  max-height: 55px;
+  overflow: hidden;
+}
+.uiSocApplication .itemContainer .spaceBox .connectionBtn {
+  line-height: 28px;
+  min-height: 29px;
+}
+.uiSocApplication .itemContainer .spaceBox .connectionBtn .statusLabel {
+  text-align: right;
+  margin-top: -25px;
+  line-height: 25px;
+  min-height: 24px;
+  display: block;
+  font-size: 13px;
+}
+.uiSocApplication .itemContainer .spaceBox .connectionBtn .btn {
+  margin: 1px 0 0 10px;
+}
+.uiSocApplication .itemContainer .checkedBox {
+  background-image: url("/eXoSkin/skin/images/themes/default/social/skin/SpaceBox/checked.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.uiSocApplication .spaceList .itemContainer .spaceBox .contentBox {
+  height: 125px;
+}
+.uiSocApplication .uiGrayLightBox label {
+  line-height: 18px;
+  margin: 0;
+  vertical-align: middle;
+}
+.uiSocApplication .uiTableProfileUserSearch {
+  display: table;
+}
+.uiSocApplication .uiTableProfileUserSearch .column {
+  display: table-cell;
+  vertical-align: top;
+  width: 1%;
+}
+.uiSocApplication .uiTableProfileUserSearch .column label {
+  white-space: nowrap;
+  padding-top: 5px;
+}
+.uiSocApplication .uiTableProfileUserSearch .column input {
+  width: 100%!important;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.uiSocApplication .uiTableProfileUserSearch .column.input-wrap {
+  padding: 0 5px;
+  width: 20%;
+}
+.uiSocApplication .uiTableProfileUserSearch .column:last-child {
+  padding-left: 5px;
+}
+.uiSocApplication .uiTableProfileUserSearch .has-suggestions {
+  position: relative;
+}
+.uiSocApplication .uiTableProfileUserSearch .has-suggestions .suggestions {
+  min-width: 100%;
+}
+.uiAvatarUploadContent .resizable {
+  max-height: 120px;
+}
+.avatarLargeWithBorder + .avatarInfo .control-label {
+  width: 100px;
+  margin-right: 10px;
+}
+.avatarLargeWithBorder + .avatarInfo .control-label + .controls {
+  margin-left: 120px;
+}
+#socialMainLayout table.UITableColumn {
+  width: auto;
+}
+#socialMainLayout table.UITableColumn .CenterColumnContainerTDContainer {
+  width: 100%;
+}
+#socialMainLayout table.UITableColumn .uiMiniConnectionsPortlet,
+#socialMainLayout table.UITableColumn .uiBasicProfilePortlet {
+  max-width: 280px;
+  min-width: 200px;
+}
+@media (max-width: 768px) {
+  body #socialMainLayout {
+    padding: 0  15px;
+  }
+  body #socialMainLayout table tr,
+  body #socialMainLayout table td {
+    display: block;
+    width: 100%;
+  }
+  .uiSearchInput.searchWithIcon.pull-right {
+    float: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .uiTabNormal .nav-tabs > li > a {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+  #SpaceSearch {
+    width: 100%;
+  }
+  .uiUserActivitiesContainer {
+    margin-top: -8px;
+  }
+  .uiSocApplication .uiProfileUserSearch .uiGrayLightBox {
+    position: relative;
+    padding-bottom: 50px;
+  }
+  .uiSocApplication .uiProfileUserSearch .uiGrayLightBox .contentProfileUserSearch {
+    width: 100%;
+  }
+  .uiSocApplication .uiProfileUserSearch .uiGrayLightBox .contentProfileUserSearch .inputProfileUserSearch {
+    padding: 0;
+  }
+  .uiSocApplication .uiProfileUserSearch .uiGrayLightBox .LabelProfileUserSearch {
+    width: 100%;
+  }
+  .uiSocApplication .uiProfileUserSearch .uiGrayLightBox .btn {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .activityStream .commentList .commentItem .actLink {
+    right: -10px !important;
+    top: -10px;
+  }
+  .uiSocApplication .uiProfileUserSearch .uiGrayLightBox .contentProfileUserSearch .inputProfileUserSearch {
+    width: 100%;
+  }
+}

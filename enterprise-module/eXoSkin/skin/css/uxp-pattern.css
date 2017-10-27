@@ -1,0 +1,394 @@
+/*!
+ * This CSS is defined to make the dynamic demo for UXP pattern sample
+ * Copyright 2012 eXo PLatform
+*/
+
+.hover-action a {display: none}
+.hover-action div.button {display: none}
+.hover-action:hover {background:#f7f7f7}
+.hover-action:hover .actionIcon {display: inline-block; font-size:13;margin: 6px 6px 0 0;}
+.hover-action:hover .actionHover {display: inline-block; font-size:13;margin: 4px 4px 0 0;}
+.hover-action:hover div.button {display: block}
+.td-hover { 
+  vertical-align: top;
+  height: 40px;
+  width: 200px;
+}
+
+.td-right-align{ 
+  vertical-align: top;
+  height: 40px;
+  width: 200px;
+  text-align: right;
+}
+
+
+.table-hover
+{
+background-color:#FFFFF;
+}
+.content-sample {
+  font-size: 16px;
+  color: #CCCCCC;
+  width: 200px;
+}
+
+.td-text{
+  font-size: 13px;
+}
+
+div.button .dropdown-menu {
+	text-align: left;
+}
+
+.hover-action:hover div.button a {
+	display: block;
+}
+
+
+.attachmentContentImage .imageAttachmentBox {
+    display: inline-block;
+    height: 128px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    width: 128px;
+}
+.attachmentContentImage .imageAttachmentBox .imgAttach {
+    line-height: 125px;
+}
+.attachmentContentImage .imageAttachmentBox .imgAttach img {
+    max-height: 128px;
+    max-width: 128px;
+}
+.attachmentContentImage .imageAttachmentBox .actionAttachImg {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: none;
+    height: 128px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 128px;
+}
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p {
+    margin: 55px 10px 0;
+    display: inline-block;
+}
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p + p {
+    margin-top: 0;
+}
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p a {
+    color: #ffffff;
+}
+.attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover {
+    font-weight: bold;
+}
+.attachmentContentImage .imageAttachmentBox:hover .actionAttachImg {
+    display: block;
+}
+.uiThumbnailsView {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox {
+    cursor: pointer;
+    float: left;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0 !important;
+    width: 148px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox:hover .nodeLabel {
+    background: none repeat scroll 0 0 #f0f0f0;
+}
+.uiThumbnailsView .actionIconsContainer .selectedBox .nodeLabel {
+    background: none repeat scroll 0 0 #cfcfcf;
+}
+.uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel {
+    background: none repeat scroll 0 0 #2f5e92;
+}
+.uiThumbnailsView .actionIconsContainer .selectedBox .actionIconLabel > a {
+    color: #ffffff;
+}
+.uiThumbnailsView .actionIconsContainer .bgThumbnailImage {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 1px 1px 3px 1px rgba(25, 44, 48, 0.2);
+    display: inline-block;
+    padding: 5px;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon {
+    background: url("/ecmexplorer/skin/webui/component/explorer/UIJCRExplorer/DefaultSkin/background/LoadingProgress.gif") no-repeat scroll center center rgba(0, 0, 0, 0);
+    height: 64px;
+    margin: auto;
+    position: relative;
+    width: 64px;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon img {
+    margin: auto;
+    max-height: 116px;
+    max-width: 116px;
+}
+.uiThumbnailsView .actionIconsContainer .nodeLabel {
+    border-radius: 3px;
+    height: 148px;
+    margin-bottom: 5px;
+    width: 148px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIcon {
+    height: 50px;
+    margin: 9px auto 0;
+    width: 50px;
+}
+.uiThumbnailsView .actionIconsContainer .thumbnailImage {
+    border: medium none;
+    display: table-cell;
+    height: 128px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 128px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconLabel {
+    border-radius: 3px;
+    line-height: 15px;
+    margin: auto;
+    max-height: 28px;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconLabel > a {
+    color: #333333;
+}
+.uiThumbnailsView [class^="uiIcon64x64"] {
+    margin: auto;
+    position: relative;
+}
+.uiThumbnailsView .Link, .uiThumbnailsView .IconLocked {
+    background: url("/ecmexplorer/skin/images/Icons/IconBigLink.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    bottom: 0;
+    height: 32px;
+    position: absolute;
+    right: -5px;
+    width: 32px;
+}
+.uiThumbnailsView .IconLocked {
+    background: url("/ecmexplorer/skin/images/Icons/IconBigLock.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    top: 0;
+}
+
+
+.uiLargeTextField input {
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+.uiUsername input[type="text"] {
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -3px #ffffff;
+    margin: 0;
+    padding-left: 47px;
+}
+.uiUsername input[type="text"]:hover {
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/username.png") no-repeat scroll left -44px #ffffff;
+}
+.uiPassword input[type="password"] {
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -3px #ffffff;
+    margin: 0;
+    padding-left: 47px;
+}
+.uiPassword input[type="password"]:hover {
+    background: url("../../../eXoSkin/skin/images/themes/default/platform/portlets/extensions/password.png") no-repeat scroll left -44px #ffffff;
+}
+.uiLargeButton {
+    background-color: #567ab6;
+    background-image: linear-gradient(to bottom, #638acd, #426393);
+    background-repeat: repeat-x;
+    border: 1px solid #224886;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: white;
+    cursor: pointer;
+    font-family: "Helvetica Neue Bold",Helvetica,Lucida,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 43px;
+    outline: medium none;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0 -2px 0 rgba(23, 33, 37, 0.25);
+    width: 270px;
+}
+
+.uiAddressBar {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.uiAddressBar .tblAddressBar {
+    table-layout: fixed;
+    width: 100%;
+}
+.uiAddressBar .detailViewIcon {
+    padding-right: 20px;
+}
+.btn-group .active > i {
+    background-image: url("../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsDefault.png");
+}
+.uiAddressBar .right {
+    width: 180px;
+}
+.uiAddressBar .right .advance {
+    position: relative;
+    width: 180px;
+}
+.uiAddressBar .right .advance input {
+    margin: 0;
+    width: 100%;
+}
+.uiAddressBar .right .advance .searchBtn {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButtonBox {
+    height: 18px;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    width: 18px;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButtonBox .uiIconArrowDown {
+    cursor: pointer;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButtonBox .tooltip {
+    white-space: nowrap;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButton {
+    cursor: pointer;
+    margin: 6px auto auto;
+}
+.uiAddressBar .uiAddressBarAction .inputContainer {
+    margin: 0 4px 0 0;
+}
+.uiAddressBar .uiAddressBarAction .inputContainer input {
+    margin: 0;
+    width: 100%;
+}
+.uiAddressBar .block .iconFileExplorer {
+    width: 28px;
+}
+.uiAddressBar .uiSelectContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 white;
+    border-color: -moz-use-text-color #c1c1c1 #c1c1c1;
+    border-image: none;
+    border-right: 1px solid #c1c1c1;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: none;
+    height: 150px;
+    left: -1px;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+}
+.uiAddressBar .uiSelectContent .addressItem {
+    cursor: pointer;
+    line-height: 18px;
+    margin: 2px;
+    padding: 0 5px;
+}
+.uiAddressBar .uiSelectContent .selectedAddressItem {
+    background-color: #316ac5;
+    color: white;
+    cursor: pointer;
+    line-height: 18px;
+    margin: 2px;
+    padding: 0 5px;
+}
+.uiAddressBar .detailViewIcon .btn-group .btn {
+    margin-left: -1px;
+    padding: 4px 7px;
+}
+.uiAddressBar .detailViewIcon .btn-group .btn:nth-last-child(2):hover {
+    border-radius: 0 3px 3px 0;
+}
+.uiAddressBar .blockMiddle, .uiAddressBar .blockMiddle1, .uiAddressBar .blockMiddle2, .uiAddressBar .blockMiddle3, .uiAddressBar .blockMiddle4 {
+    position: relative;
+}
+.uiAddressBar .viewIcon {
+    height: 25px;
+    margin: 0 1px 0 0;
+    width: 28px;
+}
+.uiAddressBar .backAndRefreshBlock {
+    margin-left: 3px;
+    width: 55px;
+}
+.uiAddressBar .detailMoreViewIcon {
+    width: 17px;
+}
+.uiAddressBar .listExtendedView {
+    background: none repeat scroll 0 0 #f7f7f7;
+    border: 1px solid #b7b7b7;
+    padding: 5px;
+    position: absolute;
+}
+.uiAddressBar .ExtendedView {
+    float: left;
+    position: relative;
+}
+.uiAddressBar .HomeLabel {
+    color: #515151;
+    float: left;
+    margin: 0 0 0 4px;
+}
+.wcmAlertSuccess {
+    left: 50%;
+    position: absolute;
+}
+
+.dropdown > a:hover > [class^="uiIconColor"], [class^="uiIconColor"]:hover, a:hover > [class^="uiIconColor"], i:hover [class^="uiIconColor"] {
+    background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsColor.png");
+}
+.uiIconColorError {
+    background-position: 0 0;
+}
+.uiIconColorWarning {
+    background-position: -20px 0;
+}
+.uiIconColorInfo {
+    background-position: -40px 0;
+}
+.uiIconColorValidate {
+    background-position: -60px 0;
+}
+.uiIconColorQuestion {
+    background-position: -80px 0;
+}
+.uiIconColorMiniSquareBlank {
+    background-position: -100px 0;
+}
+.uiIconColorMiniSquarePlus {
+    background-position: -120px 0;
+}
+.uiIconColorMiniSquareMinus {
+    background-position: -140px 0;
+}
+.uiIconColorBell {
+    background-position: -160px 0;
+}
+.uiIconColorStarGray {
+    background-position: 0 -20px;
+}
+.uiIconColorStarYellow {
+    background-position: -20px -20px;
+}
+

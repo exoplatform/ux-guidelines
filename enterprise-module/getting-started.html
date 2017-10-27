@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Getting Started-eXo UX Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="eXoSkin/skin/css/Core.css" rel="stylesheet">
+    <link href="eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+    <link href="eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="eXoSkin/skin/css/docs.css" rel="stylesheet">
+    <link href="eXoSkin/skin/css/responsive.css" rel="stylesheet">
+
+    <!-- syntaxhighlighter -->
+    <link href="js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+
+</head>
+
+<body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top ">
+        <div class="navbar-inner clearfix">
+            <button class="toggle-left-bar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./index.html" class="brand"><img src="img/global.logo.png" /></a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li class="active"><a href="getting-started.html">Getting Started</a></li>
+                    <li><a href="Components.html">Components</a></li>
+                    <li><a href="Patterns.html">Patterns</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 0px;">
+                    <div class="btn-group">
+                        <div class="btn btn-small active"><a href="../index.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="index.html">Enterprise Theme</a></div>
+                    </div>
+                </div>
+                <div class="btn-group-download pull-right">
+                    <a href="http://community.exoplatform.com/downloads" class="btn btn-primary" target="_blank"><i class="uiIconDownload"></i> <span>Download eXo Platform</span></a>
+                    <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> <span>Learn more about eXo Platform</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- Subhead -->
+        <div class="hero-unit">
+            <div class="container">
+                <h1>Getting Started</h1>
+                <p>Overview of eXo UX Guidelines, its structure and how to get started with eXo UX templates.</p>
+            </div>
+        </div>
+        <div class="container">
+
+            <!-- Docs nav -->
+            <div class="row">
+                <div class="span3 bs-docs-sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top">
+                        <li class="active"><a href="#download-bootstrap"><i class="icon-chevron-right"></i>Download source</a></li>
+                        <li><a href="#file-structure"><i class="icon-chevron-right"></i>File structure</a></li>
+                        <li><a href="#contents"><i class="icon-chevron-right"></i>What's included?</a></li>
+                        <li><a href="#html-template"><i class="icon-chevron-right"></i>HTML template</a></li>
+                        <li><a href="#eXo-skin"><i class="icon-chevron-right"></i>eXo Skin Customization</a>
+                            <li>
+                                <li><a href="#what-next"><i class="icon-chevron-right"></i>What's next?</a></li>
+                    </ul>
+                </div>
+                <div class="span9">
+
+                    <!-- Download -->
+                    <section id="download-bootstrap">
+                        <div class="page-header">
+                            <h2>Download source</h2>
+                        </div>
+                        <p class="lead">The latest version of eXo UI Guidelines project can be downloaded directly from GitHub.</p>
+                        <div class="row-fluid">
+                            <p><a class="btn btn-large btn-primary" href="https://github.com/exoplatform/ux-guidelines/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download eXo UX Guidelines</a></p>
+                        </div>
+                        <p>After downloading, you can use code editors, such as Notepad++, Text Editor, Quanta Plus or Sublime Text, to modify files. Also, you are required to have some knowledge of CSS and HTML.</p>
+                    </section>
+
+
+                    <!-- File structure -->
+                    <section id="file-structure">
+                        <div class="page-header">
+                            <h2>File structure</h2>
+                        </div>
+                        <p class="lead">eXo UX Guidelines contains eXo Skin, web content and other extra folders.</p>
+                        <p>After downloading, you need to unzip the compressed folder. The structure of eXo UX Guidelines is displayed below:</p>
+                        <pre class="prettyprint"><span class="pln">  exo-ux-guidelines</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">├──</span><span class="pln"> eXoSkin</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> skin</span><span class="pun">/</span><span class="pln">
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> <b>css</b>/</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> Core.css</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> docs.css</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> uxp-pattern.css</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> product css</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> <b>images</b>/</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> themes</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> default</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> blue</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> green</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> orange</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> pink</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span> <span class="pln"></span><span class="pln">  </span><span class="pun">├──</span><span class="pln"> red</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> PSD</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln"> </span><span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> system</span>
+  <span class="pun">│</span> <span class="pln">  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> <b>bootstrap</b></span>
+  <span class="pun">├──</span><span class="pln"> js</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> table</span><span class="pun">.</span><span class="pln">js
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> </span>track<span class="pun">.</span><span class="pln">js
+  </span><span class="pun">├──</span><span class="pln"> img</span><span class="pun">/</span><span class="pln">
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> icon</span><span class="pun">_</span><span class="pln">start</span><span class="pun">.</span><span class="pln">png
+  </span><span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> icon</span><span class="pun">_</span><span class="pln">pattern</span><span class="pun">.</span><span class="pln">png
+  </span><span class="pun">└──</span><span class="pln"> skin-module/</span>
+  <span class="pun">│</span><span class="pln">
+  </span><span class="pun">└──</span><span class="pln"> README</span><span class="pun">.</span><span class="pln">md</span></pre>
+                        <p>The main folder is <b>eXoSkin</b> which has the same folder structure of <b>platform-ui</b> project. It includes 3 main sub-folders: <b>css</b>, <b>images</b> and <b>bootstrap</b>.</p>
+                        <h4>css</h4>
+                        <p> This folder contains the main css of the Platform.</p>
+                        <p><i class="uiIconEcmsDottedArrow"></i> <code>Core.css</code> is customized basing on Bootstrap to define the main style of eXo Platform. </p>
+                        <p><i class="uiIconEcmsDottedArrow"></i> <code>docs.css</code> and <code>uxp-pattern.css</code> are to define some advanced style for UX Guidelines website.</p>
+                        <p>There is common css folder and each product has each own css that is located in its corresponding folder e.g ecms, forum, calendar...</p>
+
+                        <h4>images</h4>
+                        <p><i class="uiIconEcmsDottedArrow"></i><b>themes</b> contains images/icons that define the Platform color style that includes <b>default</b> and 5 alternative collections in <b>red</b>, <b>green</b>, <b>blue</b>, <b>pink</b> and <b>orange</b>. These color folders are able to be used for adding new theme add-ons.</p>
+                        <p><i class="uiIconEcmsDottedArrow"></i><b>PSD</b> contains all PSD files that ease users to create more customization in advance.</p>
+                        <p><i class="uiIconEcmsDottedArrow"></i><b>system</b> contains all common images/icons. In next version, all common images/icons will be moved to this folder.</p>
+                        <h4>bootstrap</h4>
+                        <p>This folder contains main css and js of Bootstrap that eXo Platform's style based on.
+                            <p>
+                                <p>Besides, there are some extra folders:</p>
+                                <p><i class="uiIconEcmsDottedArrow"></i><b>js</b> contains customized js for UX Guidelines website. </p>
+                                <p><i class="uiIconEcmsDottedArrow"></i><b>img</b> contains customized images for UX Guidelines website. </p>
+                                <p><i class="uiIconEcmsDottedArrow"></i><b>skin-module</b> is a similar UX Guidelines project that its interface is customized following eXo Skin Customization feature.</p>
+
+                    </section>
+
+
+                    <!-- Contents -->
+                    <section id="contents">
+                        <div class="page-header">
+                            <h2>What's included?</h2>
+                        </div>
+                        <p class="lead">eXo UX Guidelines is completely based on Bootstrap that is customized by the eXo Platform style with the main content below:</p>
+                        <h4><a href="getting-started.html">Getting Started</a></h4>
+                        <p>Overview of eXo UX Guidelines, its structure and how to get started with eXo UX templates.</p>
+                        <h4><a href="Components.html">Components</a></h4>
+                        <p>Usage of eXo Platform components and best practices for customizing eXo Platform.</p>
+                        <h4><a href="Patterns.html">Patterns</a></h4>
+                        <p>Patterns used for specific functions or objects that follow the eXo Platform style. With this topic, you can understand and adopt in your developments.</p>
+
+                    </section>
+
+                    <!-- HTML template -->
+                    <section id="html-template">
+                        <div class="page-header">
+                            <h2>HTML template</h2>
+                        </div>
+                        <p class="lead">eXo UX Guidelines uses a basic HTML template provided by Bootstrap.</p>
+                        <p><strong>Here is a typical HTML file</strong>:</p>
+<pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Bootstrap Template&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, world!&lt;/h1&gt;
+        &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                        <p>To make this <strong>a Bootstrapped template with the eXo Platform style</strong>, just include the appropriate CSS and JavaScript files of Bootstrap and the customized CSS that is provided by eXo Platform Team.</p>
+                        <p>
+<pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Bootstrap Template&lt;/title&gt;
+        &lt;!-- Bootstrap --&gt;
+        &lt;link href="css/bootstrap.css" rel="stylesheet"&gt;
+        &lt;!-- eXo Platform CSS --&gt;
+        &lt;link href="css/exo-platform.css" rel="stylesheet"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, world!&lt;/h1&gt;
+        &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
+        &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                    </section>
+
+                    <section id="eXo-skin">
+                        <div class="page-header">
+                            <h2>eXo Skin Customization</h2>
+                        </div>
+                        <div class="alert alert-info" id="">
+                            <i class="uiIconInfo"></i>eXo Skin can be customized. It is possible to build only one package in order to deploy a new skin. <a href="http://docs.exoplatform.com/">There is  a set of dedicated variables that can be customized in order to re-configure all our main colors/backgrounds. </a>
+                        </div>
+
+                        <p class="lead">The latest update of eXo Skin (platform-ui) can be downloaded directly from GitHub.</p>
+                        <div class="row-fluid">
+                            <p><a class="btn btn-large btn-primary" href="https://github.com/exodev/platform-ui/archive/develop.zip" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download platform ui</a> <a class="btn btn-large btn-primary" href="skin-module/getting-started.html" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">eXo Skin Customization Demo</a></p>
+                        </div>
+                    </section>
+                    <!-- Next -->
+                    <section id="what-next">
+                        <div class="page-header">
+                            <h2>What's next?</h2>
+                        </div>
+                        <p class="lead">Based on the Bootstrap development and eXo Platform new design trend, the eXo Platform style and eXo UX Guidelines will be updated accordingly. More patterns will be added and customized following Bootstrap and the eXo Platform style.</p>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        Copyright ©2017. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+    </div>
+    <!-- Footer-->
+
+    <div class="mobile-offcanvas">
+        <div class="menu-main-menu-container">
+            <ul class="menu" id="primary-menu">
+                <li>
+                    <div>
+                        <div class="btn-group">
+                            <a href="../index.html" class="btn btn-small active">Default Theme</a>
+                            <a href="index.html" class="btn btn-small">Enterprise Theme</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="http://community.exoplatform.com/downloads" target="_blank" class="btn btn-primary"><i class="uiIconDownload"></i> Download eXo Platform</a>
+                        <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> Learn more about eXo Platform</a>
+                    </div>
+                </li>
+                <li class="active"><a href="getting-started.html">Getting Started</a></li>
+                <li class="has-sub">
+                    <a href="Components.html">Components</a>
+                    <ul class="sub-menu">
+                        <li><a href="Typography/Typography.html">Typography</a></li>
+                        <li><a href="Button/Button.html">Button</a></li>
+                        <li><a href="Tables/Tables.html">Table</a></li>
+                        <li><a href="Avatar/Avatar.html">Avatar</a></li>
+                        <li><a href="Icons/Icons.html">Icon</a></li>
+                        <li><a href="Navigation/Navigation.html">Navigation</a></li>
+                        <li><a href="Dropdown/Dropdown.html">Dropdown</a></li>
+                        <li><a href="MiniCalendar/MiniCalendar.html">Mini Calendar</a></li>
+                        <li><a href="ProgressBars/ProgressBars.html">Progress bar</a></li>
+                        <li><a href="Alerts/Alerts.html">Alert</a></li>
+                        <li><a href="TooltipandPopover/TooltipandPopover.html">Tooltip and Popover</a></li>
+                        <li><a href="Thumbnail/Thumbnail.html">Thumbnail</a></li>
+                        <li><a href="Mention/Mention.html">Mention</a></li>
+                        <li><a href="Color/Color.html">Color</a></li>
+                        <li><a href="Trees/Trees.html">Trees</a></li>
+                        <li><a href="BadgeAndLoading/BadgeAndLoading.html">Badge and Loading</a></li>
+                        <li><a href="Classes/Classes.html">CSS Classes</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="Patterns.html">Patterns</a>
+                    <ul class="sub-menu">
+                        <li><a href="BreadcrumbPattern/BreadcrumbPattern.html">Breadcrumb</a></li>
+                        <li><a href="HoverrevealActionsPattern/HoverrevealActionsPattern.html">Hover-reveal</a></li>
+                        <li><a href="MessagesPattern/MessagesPattern.html">Message</a></li>
+
+                        <li><a href="Pop-upWindowPattern/PopupWindowPattern.html">Popup</a></li>
+                        <li><a href="PaginationPattern/PaginationPattern.html">Pagination</a></li>
+                        <li><a href="TabPattern/Tabs.html">Tabs</a></li>
+
+                        <li><a href="TabPattern/Tabs.html">Sort by Column</a></li>
+                        <li><a href="TabPattern/Tabs.html">Table Filter</a></li>
+                        <li><a href="TabPattern/Tabs.html">Rating</a></li>
+
+                        <li><a href="TabPattern/Tabs.html">Uploading</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/widgets.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
+    <script src="js/application-update.js"></script>
+
+    <!-- syntaxhighlighter -->
+    <script type="text/javascript" src="js/google-code-prettify/prettify.js"></script>
+
+    <!-- Analytics -->
+    <script>
+        var _gauges = _gauges || [];
+        (function() {
+            var t = document.createElement('script');
+            t.type = 'text/javascript';
+            t.async = true;
+            t.id = 'gauges-tracker';
+            t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+            t.src = '//secure.gaug.es/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+        })(); < /script -->
+
+        < script >
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-1292368-34', 'exoplatform.github.io');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>

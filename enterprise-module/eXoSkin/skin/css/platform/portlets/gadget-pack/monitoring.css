@@ -1,0 +1,148 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+body,
+td,
+div,
+span,
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+/** Memory Graph **/
+.uiGadgetThemes .gadContent {
+  padding-top: 0px;
+}
+.chart-container {
+  clear: both;
+  text-transform: capitalize;
+}
+.chart-container .list-memory {
+  width: 168px;
+  margin: 0px 0 30px 0px;
+  float: left;
+  border: 1px solid #cccccc;
+}
+.chart-container .list-memory .table-striped tbody td:first-child {
+  border-right: 1px solid #cccccc;
+}
+.chart-container .list-memory td {
+  padding: 5px;
+}
+.chart-container .list-memory .memory-label {
+  color: #2f5e92;
+}
+.chart-container h6 {
+  font-size: 13px;
+  margin: 20px 0 10px 0;
+}
+.graph-memory-zone {
+  width: 0;
+  height: 160px;
+  width: 100%;
+  margin-right: 0;
+  float: left;
+}
+.graph-memory-zone .chart-content {
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  width: 100%;
+  height: 135px;
+  margin: 0;
+  border: 1px solid #cccccc;
+  padding: 0;
+  position: relative;
+}
+.graph-memory-zone .chart-content .chart-canvas {
+  position: absolute;
+  top: 0px;
+  left: 14px;
+}
+.graph-memory-zone .center,
+.graph-memory-zone .title {
+  text-align: center;
+}
+.graph-memory-zone .memory-label {
+  color: #2f5e92;
+}
+.graph-memory-zone table.jqplot-table-legend,
+.graph-memory-zone table.jqplot-cursor-legend {
+  border: none;
+  width: auto !important;
+  top: 40px !important;
+}
+.graph-memory-zone td.jqplot-table-legend > div {
+  border: none;
+}
+.graph-memory-zone div.jqplot-table-legend-swatch {
+  border-radius: 2px;
+  border-width: 8px;
+}
+.graph-memory-zone .table th,
+.graph-memory-zone .table td {
+  border: none;
+}
+.uiBox {
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 2px 4px -1px rgba(35, 44, 48, 0.18);
+  margin: 0 0 20px;
+}
+.uiBox .title {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #cccccc;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 1px 2px rgba(13, 13, 13, 0.2);
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+  padding: 8px 10px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.uiBox .templates {
+  overflow: auto;
+  padding: 0 20px 20px;
+}

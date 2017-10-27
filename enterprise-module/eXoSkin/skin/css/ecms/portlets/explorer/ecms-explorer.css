@@ -1,0 +1,2538 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/*############################## -- Begin UISideBar   -- ##############################*/
+.uiSideBar .uiBox {
+  margin: 0px;
+}
+.uiSideBar .uiTreeExplorer {
+  padding: 0px;
+  margin: -10px -10px 0px -10px;
+}
+.uiSideBar #UIAllItems {
+  margin-bottom: 20px;
+}
+.uiSideBar .uiBox .title .sideGeneratal {
+  cursor: pointer;
+  float: right;
+  height: 16px;
+  width: 16px;
+  display: block;
+}
+.uiSideBar .uiBox .uiContentBox {
+  padding: 10px;
+}
+.uiSideBar .uiSelectContent {
+  background: #f0f0f0;
+  border-top: 1px solid #cccccc;
+  height: 30px;
+  line-height: 16px;
+  padding: 0px 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+}
+.uiSideBar .uiSelectContent .normalItem {
+  cursor: pointer;
+  padding: 8px 8px 0px 8px;
+  width: 14px;
+  height: 23px;
+  float: left;
+  margin-top: -1px;
+}
+.uiSideBar .uiSelectContent .normalItem:hover [class^="uiIconEcms"] {
+  color: #2f5e92;
+}
+.uiSideBar .uiSelectContent .normalItem:hover .uiIconEcmsTagExplorerMini {
+  color: #2f5e92;
+}
+.uiSideBar .uiSelectContent .selectedItem {
+  cursor: pointer;
+  padding: 8px 8px 0px 8px;
+  width: 14px;
+  height: 23px;
+  background: #ffffff;
+  float: left;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  margin-top: -1px;
+}
+.uiSideBar .uiSelectContent .selectedItem [class^="uiIconEcms"] {
+  color: #2f5e92;
+}
+.uiSideBar .uiSelectContent .selectedItem .uiIconEcmsTagExplorerMini {
+  color: #2f5e92;
+}
+.uiSideBar .uiSelectContent .MoreItem {
+  line-height: 26px;
+  cursor: pointer;
+  padding: 8px;
+  float: left;
+  width: 14px;
+  margin-top: -1px;
+}
+.uiSideBar .uiSelectContent .itemIcon {
+  margin: auto;
+  width: 16px;
+  height: 15px;
+  display: block;
+}
+.uiSideBar .selectItem {
+  overflow: auto;
+}
+.uiSideBar .resizeTreeExplorer {
+  height: 18px;
+  text-align: center;
+  /*cursor: row-resize;*/
+
+}
+.uiSideBar .resizeTreeExplorer .uiIconArrowDown {
+  cursor: pointer;
+}
+.uiSideBar .DriversButton {
+  cursor: pointer;
+  float: right;
+  height: 20px;
+  margin-top: 2px;
+  width: 33px;
+}
+.uiSideBar .SideGeneratal {
+  cursor: pointer;
+  float: right;
+  height: 17px;
+  margin-top: 4px;
+  width: 17px;
+}
+.uiSideBar .ListExtendedItem {
+  background: none repeat scroll 0 0 #f8f8f8;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  position: absolute;
+}
+.uiSideBar .ListExtendedItem .IconPopup {
+  display: block;
+  margin: 4px 0;
+  padding: 2px 6px;
+}
+/*############################## -- End UISideBar   -- ##############################*/
+/*############################## -- UITagExplorer   -- ##############################*/
+.uiSideBar .UITagExplorer {
+  text-align: left;
+  line-height: 22px;
+}
+.uiSideBar .UITagExplorer .title .actionIcon {
+  margin: -3px;
+}
+.uiSideBar .UITagExplorer .tagContainer a {
+  color: #333333;
+  margin: 0px 15px 7px 0px;
+}
+.uiSideBar .UITagExplorer .tagContainer a:hover {
+  color: #2f5e92;
+}
+/*############################## -- UISavedSearches   -- ##############################*/
+.advancedSearchIcon {
+  margin: -3px;
+}
+/*############################## -- uiViewRelationList   -- ##############################*/
+.uiViewRelationList .frameContent {
+  color: #999999;
+}
+.uiViewRelationList .frameContent a {
+  color: #333333;
+}
+.uiViewRelationList .frameContent a:hover {
+  color: #2f5e92;
+}
+.uiAddressBar {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.uiAddressBar .tblAddressBar {
+  table-layout: fixed;
+  width: 100%;
+  _width: auto;
+}
+.uiAddressBar .detailViewIcon {
+  padding-right: 20px;
+}
+.uiAddressBar .detailViewIcon .btn-group .active > i {
+  color: #2f5e92;
+}
+.uiAddressBar .right {
+  width: 180px;
+}
+.uiAddressBar .right .advance {
+  width: 180px;
+  position: relative;
+}
+.uiAddressBar .right .advance input {
+  width: 100%;
+  margin: 0px;
+}
+.uiAddressBar .right .advance .searchBtn {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButtonBox {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButtonBox .uiIconArrowDown {
+  cursor: pointer;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButtonBox .tooltip {
+  white-space: nowrap;
+}
+.uiAddressBar .uiAddressBarAction .dropDownButton {
+  cursor: pointer;
+  margin: auto;
+  margin-top: 6px;
+}
+.uiAddressBar .uiAddressBarAction .inputContainer {
+  margin: 0 4px 0 0;
+}
+.uiAddressBar .uiAddressBarAction .inputContainer input {
+  width: 100%;
+  margin: 0px;
+}
+.uiAddressBar .block .iconFileExplorer {
+  width: 28px;
+}
+.uiAddressBar .uiSelectContent {
+  border: solid 1px #cccccc;
+  border-top: none;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  overflow: auto;
+  background: #ffffff;
+  left: -1px;
+  display: none;
+}
+.uiAddressBar .uiSelectContent .addressItem {
+  line-height: 18px;
+  margin: 2px;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+.uiAddressBar .uiSelectContent .selectedAddressItem {
+  line-height: 18px;
+  margin: 2px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #578dc9;
+  padding: 0px 5px;
+}
+.uiAddressBar .detailViewIcon .btn-group .btn {
+  margin-left: -1px;
+  padding: 2px 6px ;
+}
+.uiAddressBar .detailViewIcon .btn-group .btn:nth-last-child(2):hover {
+  border-radius: 0 3px 3px 0;
+}
+.uiAddressBar .blockMiddle,
+.uiAddressBar .blockMiddle1,
+.uiAddressBar .blockMiddle2,
+.uiAddressBar .blockMiddle3,
+.uiAddressBar .blockMiddle4 {
+  position: relative;
+}
+.uiAddressBar .viewIcon {
+  height: 25px;
+  width: 28px;
+  margin: 0px 1px 0px 0px;
+}
+.uiAddressBar .backAndRefreshBlock {
+  margin-left: 3px;
+  width: 55px;
+}
+/*---------------------*/
+/*********** Icon ***********/
+.uiAddressBar .detailMoreViewIcon {
+  width: 17px;
+}
+.uiAddressBar .listExtendedView {
+  position: absolute;
+  background: #f8f8f8;
+  border: 1px solid #cccccc;
+  padding: 5px;
+}
+.uiAddressBar .ExtendedView {
+  float: left;
+  position: relative;
+}
+.uiAddressBar .HomeLabel {
+  float: left;
+  margin: 0px 0px 0px 4px;
+  color: #333333;
+}
+/* ======== Multi Upload  ==========*/
+.uiMultiUpload {
+  margin: 10px 0;
+  position: relative;
+  font-size: 12px;
+}
+.uiMultiUpload a {
+  color: #2f5e92;
+  text-decoration: none;
+}
+.uiMultiUpload .multiUploadDragFileBackground {
+  position: absolute;
+  background: rgba(235, 235, 235, 0.8);
+  border: 4px dashed #cccccc;
+  right: 0px;
+  top: 0px;
+  width: 644px;
+  height: 99%;
+  z-index: 1;
+  display: none;
+  margin: -4px 0px 0px 0px;
+}
+.uiMultiUpload .multiUploadDragFileBackground .multiUploadDragFile {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+.uiMultiUpload .uiBox {
+  margin: 0px;
+}
+@media (min-width: 1265px) {
+  .uiMultiUpload .uiBox {
+    width: 680px;
+    float: right;
+  }
+}
+.uiMultiUpload .uploadIconContainer {
+  float: left;
+  width: 30px;
+}
+.uiMultiUpload .uploadIconContainer img {
+  width: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.uiMultiUpload .multiUploadAbortAll {
+  margin-left: 8px;
+}
+.uiMultiUpload .multiUploadAbortAll .action {
+  cursor: pointer;
+  color: #333333;
+}
+.uiMultiUpload .multiUploadAbortAll .action:hover {
+  color: #2f5e92;
+}
+.uiMultiUpload .loadContent {
+  padding: 10px !important;
+}
+.uiMultiUpload .loadContent:hover {
+  background: #f8f8f8;
+}
+.uiMultiUpload .loadContent .fileName {
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uiMultiUpload .loadContent .fileName a {
+  color: #333333;
+}
+.uiMultiUpload .loadContent .fileSize {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+}
+.uiMultiUpload .loadContent .warningContainer {
+  margin-right: 10px;
+}
+.uiMultiUpload .loadContent .action {
+  margin-left: 5px;
+}
+.uiMultiUpload .loadContent .loaddingPercent {
+  width: 270px;
+  height: 15px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  position: relative;
+}
+.uiMultiUpload .loadContent .loadding {
+  background: #f0f0f0;
+  height: 15px;
+  display: block;
+}
+.uiMultiUpload .loadContent .cancelStatus {
+  font-weight: normal;
+  font-style: normal;
+}
+.uiMultiUpload .loadContent .percent {
+  position: absolute;
+  z-index: 10;
+  top: -3px;
+  left: 40%;
+}
+.uiMultiUpload .loadContent .progress {
+  width: 270px;
+  position: relative;
+  margin: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiMultiUpload .loadContent .progress .textPercent {
+  left: 5px;
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  text-shadow: none;
+}
+.uiMultiUpload .loadContent .actionIcon {
+  margin-left: 10px;
+  margin-top: -2px;
+}
+.uiMultiUpload .loadContent .uiIconRemove {
+  cursor: pointer;
+}
+.uiMultiUpload .multiUploadListSeperator {
+  border-top: 1px solid #cccccc;
+  display: block;
+}
+.uiMultiUpload .multiUploadFileList {
+  overflow-y: auto;
+  max-height: 163px;
+}
+.uiMultiUpload .multiUploadFileList .loadContent .Action {
+  color: #2f5e92;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.uiMultiUpload .multiUploadFilesShortInfo [class^="uiIcon"] {
+  margin: 2px 0px 0px 8px;
+}
+.uiMultiUpload .uiIconWarning {
+  color: #edad00;
+}
+.uiMultiUpload .uiIconMultiUploadClose:before {
+  content: "\e76d";
+  color: #c72222;
+}
+.uiMultiUpload .uiIconNoneClose:before {
+  content: "\e76d";
+}
+.noShow {
+  display: none;
+}
+/**************** uiFileView ****************/
+.uiFileView,
+.MoveItem {
+  margin: -4px;
+}
+.uiFileView .columnCheckbox,
+.MoveItem .columnCheckbox {
+  padding: 3px 10px;
+  float: right;
+}
+.uiFileView .columnCheckbox .uiCheckbox,
+.MoveItem .columnCheckbox .uiCheckbox {
+  width: 16px;
+}
+.uiFileView .columnArrow,
+.MoveItem .columnArrow {
+  width: 35px;
+  min-height: 30px;
+  float: left;
+  text-align: center;
+}
+.uiFileView .columnArrow [class^="uiIconArrow"],
+.MoveItem .columnArrow [class^="uiIconArrow"] {
+  margin-top: 5px;
+}
+.uiFileView .columnNodeType,
+.MoveItem .columnNodeType {
+  width: 30px;
+  float: left;
+}
+.uiFileView .columnText,
+.MoveItem .columnText {
+  margin: 0px 45px 0px 75px;
+}
+.uiFileView .sortByLabel,
+.MoveItem .sortByLabel {
+  margin-right: 5px;
+  line-height: 27px;
+}
+.uiFileView .fileViewRowView,
+.MoveItem .fileViewRowView {
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0px;
+}
+.uiFileView .fileViewRowView .nodeName,
+.MoveItem .fileViewRowView .nodeName {
+  font-weight: bold;
+  color: #333333;
+}
+.uiFileView .fileViewRowView .nodeLabel,
+.MoveItem .fileViewRowView .nodeLabel {
+  color: #999999;
+}
+.uiFileView .fileViewRowView .fileInfoBottom,
+.MoveItem .fileViewRowView .fileInfoBottom {
+  color: #999999;
+  font-size: 12px;
+}
+.uiFileView .fileViewRowView .fileInfoVersion,
+.MoveItem .fileViewRowView .fileInfoVersion {
+  background-color: #333333;
+  border-radius: 4px 4px 4px 4px;
+  color: #ffffff;
+  display: inline;
+  font-size: 9px;
+  font-weight: bold;
+  width: auto;
+  padding: 2px 5px;
+}
+.uiFileView .fileViewRowView .columnCheckbox,
+.MoveItem .fileViewRowView .columnCheckbox {
+  position: relative;
+  padding-top: 10px;
+}
+.uiFileView .uiListGrid .titleTable,
+.MoveItem .uiListGrid .titleTable {
+  font-weight: lighter;
+  padding: 5px 0px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #cccccc;
+  font-weight: normal;
+  height: auto;
+}
+.uiFileView .uiListGrid .titleTable .breadcrumbLink,
+.MoveItem .uiListGrid .titleTable .breadcrumbLink {
+  margin-right: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 28px;
+  padding-left: 15px;
+  text-overflow: ellipsis;
+}
+.uiFileView .uiListGrid .titleTable .breadcrumbLink .uiIconTree,
+.MoveItem .uiListGrid .titleTable .breadcrumbLink .uiIconTree {
+  margin: 0px;
+}
+.uiFileView .uiListGrid .titleTable .breadcrumbLink .nodeLabel,
+.MoveItem .uiListGrid .titleTable .breadcrumbLink .nodeLabel {
+  color: #333333;
+}
+.uiFileView .uiListGrid .titleTable .breadcrumbLink .nodeLabel:hover,
+.MoveItem .uiListGrid .titleTable .breadcrumbLink .nodeLabel:hover {
+  color: #2f5e92;
+}
+.uiFileView .uiListGrid .titleTable .breadcrumbLink .nodeLabel:last-child,
+.MoveItem .uiListGrid .titleTable .breadcrumbLink .nodeLabel:last-child {
+  color: #2f5e92;
+}
+.uiFileView .uiListGrid .titleTable .btn-group .btn,
+.MoveItem .uiListGrid .titleTable .btn-group .btn,
+.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu a,
+.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu a {
+  font-size: 12px;
+}
+.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a,
+.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a,
+.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover,
+.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover {
+  color: #ffffff;
+}
+.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a i,
+.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a i,
+.uiFileView .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i,
+.MoveItem .uiListGrid .titleTable .btn-group .dropdown-menu .active a:hover i {
+  color: #ffffff;
+  margin: 0px 0px 0px 7px;
+}
+.uiFileView .fileViewPageIterator,
+.MoveItem .fileViewPageIterator {
+  margin-left: 10px;
+}
+.uiFileView .fileViewPageIterator .nextPageIcon,
+.MoveItem .fileViewPageIterator .nextPageIcon,
+.uiFileView .fileViewPageIterator .prevPageIcon,
+.MoveItem .fileViewPageIterator .prevPageIcon {
+  color: #333333;
+}
+.uiFileView .fileViewPageIterator .nextPageIcon:hover,
+.MoveItem .fileViewPageIterator .nextPageIcon:hover,
+.uiFileView .fileViewPageIterator .prevPageIcon:hover,
+.MoveItem .fileViewPageIterator .prevPageIcon:hover {
+  color: #2f5e92;
+}
+.uiFileView .caret,
+.MoveItem .caret {
+  margin-left: 4px;
+}
+.uiFileView .MoreButton {
+  color: #2f5e92;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/**************** ActionMenuPlaceHolder ****************/
+.ActionMenuPlaceHolder {
+  position: relative;
+  z-index: 8;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar {
+  background: #f0f0f0;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  -moz-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;
+  height: 36px;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer {
+  margin: 0px;
+  padding: 0px 10px;
+  float: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li {
+  float: left;
+  padding: 4px 0px;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li a {
+  padding: 4px 6px;
+  border: 1px solid transparent;
+  line-height: 18px;
+  cursor: pointer;
+  background: none;
+  color: #333333;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li a .uiIconOpenOnDesktop:before {
+  content: "\e785";
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover {
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #333333;
+  padding: 4px 6px;
+  background-color: none;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover > i {
+  color: #2f5e92;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover > .uiIconMiniArrowDown {
+  color: #2f5e92;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsEditDocument,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsDelete,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsMoveNode,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsRestoreFromTrash,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsUpload,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsViewInfo,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer li > a:hover .uiIconEcmsShareDocuments {
+  color: #2f5e92;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer.dropdown-menu li > a:hover .uiIconOpenOnDesktop {
+  color: #2f5e92;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a:hover,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a:focus,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active > a,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active > a:hover,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active > a:focus {
+  background: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15) inset;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #333333;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a > .uiIconMiniArrowDown,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a:hover > .uiIconMiniArrowDown,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .open > a:focus > .uiIconMiniArrowDown,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active > a > .uiIconMiniArrowDown,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active > a:hover > .uiIconMiniArrowDown,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .active > a:focus > .uiIconMiniArrowDown {
+  color: #2f5e92;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .RightClickCustomItem {
+  padding: 0px;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .RightClickCustomItem a:hover .uiIconDownload {
+  color: #2f5e92;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li {
+  float: none;
+  padding: 0px;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a {
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  line-height: 20px;
+  padding: 5px 10px;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsViewInfo,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsDelete {
+  color: #999999;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsViewInfo:before {
+  content: "\e767";
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a .uiIconEcmsDelete:before {
+  content: "\e799";
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover {
+  background-color: #487eb8;
+  background-image: -moz-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#3367a0));
+  background-image: -webkit-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -o-linear-gradient(top, #578dc9, #3367a0);
+  background-image: linear-gradient(to bottom, #578dc9, #3367a0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff3367a0', GradientType=0);
+  color: #ffffff;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover > i {
+  color: #ffffff;
+}
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsDelete,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconDownload,
+.ActionMenuPlaceHolder .uiFileViewActionBar .uiRightPopupMenuContainer .dropdown-menu li a:hover .uiIconEcmsViewInfo {
+  color: #ffffff;
+}
+.ActionMenuPlaceHolder .fileViewStatus {
+  position: absolute;
+  right: 0px;
+  line-height: 27px;
+  padding: 5px 10px 0px 0px;
+}
+.ActionMenuPlaceHolder .fileViewStatus .text {
+  margin: 0px 5px;
+}
+.ActionMenuPlaceHolder .fileViewStatus .fileViewItemCount {
+  font-weight: bold;
+}
+.MoveItem {
+  padding: 0px;
+}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsDownload :before {
+  content: "\e784";
+}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsDownload {
+  color: #ffffff;
+}
+.UIJCRExplorerPortlet {
+  padding: 25px;
+  background: none !important;
+}
+.UIJCRExplorerPortlet .uiActionBarAlone {
+  height: 38px;
+}
+.UIJCRExplorerPortlet .uiActionBarAlone .tab-content {
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  border: 1px solid #cccccc;
+  background-color: #e6e6e6;
+  min-height: 36px;
+}
+.UIJCRExplorerPortlet .uiActionBarAlone .tab-content .nav-pills {
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+}
+.UIJCRExplorerPortlet .UIDocumentWorkspace .FileContent .Content .FlashViewer {
+  text-align: center;
+}
+.uiActionBar .tab-content {
+  position: relative;
+  z-index: 3;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.uiActionBar .listHiddenActionsContainer .actionIcon {
+  margin: 0px;
+  border: none;
+}
+.uiActionBar .listHiddenActionsContainer .actionIcon:hover {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+.uiActionBar .listHiddenActionsContainer .actionIcon:hover > [class^="uiIcon"] {
+  color: #ffffff;
+}
+.uiActionBar .listHiddenActionsContainer .actionIcon:hover > [class^="uiIconEcms"] {
+  color: #ffffff;
+}
+.uiActionBar .uiViewBarContainer {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}
+.uiActionBar .uiViewBarContainer .noneDrivesButton {
+  padding: 3px 6px;
+  color: #333333;
+}
+.uiActionBar .uiViewBarContainer .actionIcon {
+  margin-left: 2px;
+}
+.uiActionBar .uiViewBarContainer .showDrivesButton {
+  padding: 3px 6px;
+  color: #333333;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15) inset;
+  background-color: #e6e6e6;
+  border: 1px solid #cccccc;
+  border-radius: 3px 3px 3px 3px;
+}
+.uiActionBar .uiViewBarContainer .showDrivesButton > [class^="uiIcon"] {
+  color: #2f5e92;
+}
+.uiActionBar .uiViewBarContainer .showDrivesButton > [class^="uiIconEcms"] {
+  color: #2f5e92;
+}
+.uiTabGrayInPage .tab-content .nav-pills > li.dropdown {
+  margin-right: 200px;
+}
+/******** uiItemList ********/
+.uiItemList li {
+  padding: 2px 0px 2px 15px;
+  font-size: 12px;
+}
+.uiItemList li > a {
+  color: #2f5e92;
+}
+.uiItemList li > a:hover {
+  color: #2f5e92;
+}
+.uiItemList li .selectedNode {
+  color: #2f5e92;
+}
+.uiItemList li > [class^="uiIcon"] {
+  float: left;
+  margin: 2px 0px 0px -21px;
+}
+/********Resize Content********/
+.uiWorkingArea {
+  width: 100%;
+  /*// changing icons for Sites Management
+  	.leftContainer, .rightContainer {
+	  [class^="uiIcon"][class*="FileDefault"]:before {
+		content: "\e722";
+	  }
+	  [class^="uiIcon"][class*="textcss"]:before {
+		content: "\e730";
+	  }
+	  [class^="uiIcon"][class*="applicationoctet-stream"]:before {
+		content: "\e731";
+	  }
+	  [class^="uiIcon"][class*="applicationx-javascript"]:before {
+		content: "\e738";
+	  }
+	  [class^="uiIcon"][class*="textplain"]:before {
+		content: "\e731";
+	  }
+	  [class^="uiIcon"][class*="texthtml"]:before {
+		content: "\e732";
+	  }
+	}*/
+
+}
+.uiWorkingArea .leftContainer {
+  float: left;
+  width: 240px;
+  overflow: hidden;
+  min-width: 240px;
+}
+.uiWorkingArea .rightContainer {
+  float: left;
+}
+.uiWorkingArea .UIDocumentWorkspace {
+  margin-left: 0px;
+  overflow: auto;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-top: none;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 4px;
+}
+.uiWorkingArea .UIDocumentWorkspace .UITabContent ul li {
+  list-style: disc outside none;
+}
+.uiWorkingArea .UIDocumentWorkspace .UITabContent ol li {
+  list-style-type: decimal;
+}
+.uiWorkingArea .UIDocumentWorkspace .UITabContent ul {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+.uiWorkingArea .UIDocumentWorkspace .UITabContent ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+.uiWorkingArea .UIDocumentWorkspace blockquote {
+  background: none;
+  border-left: 5px solid #999;
+  margin: 0 0 20px;
+  padding: 0 0 0 15px;
+  width: auto;
+}
+.uiWorkingArea .UIDocumentWorkspace blockquote:after {
+  display: none;
+}
+.uiWorkingArea .uiDocumentWorkspaceBox {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.uiWorkingArea .uiDocumentWorkspaceBox .uiDialogAction {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #cccccc;
+  border-radius: 4px 4px 0 0;
+  line-height: 20px;
+  padding: 8px 20px;
+  word-wrap: break-word;
+  margin: -20px -20px 20px -20px;
+}
+/*=============================== UIListView ===================================*/
+.uiListView {
+  padding: 15px;
+  border-top: 0px;
+  position: relative;
+}
+.uiListGrid {
+  -moz-user-select: none;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.uiListGrid .titleTable {
+  font-weight: bold;
+  height: 34px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #cccccc;
+}
+.uiListGrid .lineLeft {
+  border-left: 1px solid #cccccc;
+  width: 2px;
+  height: 34px;
+  float: left;
+  cursor: col-resize;
+}
+.uiListGrid .columnName .uiIconArrowDown {
+  margin-top: 7px;
+}
+.uiListGrid .odd {
+  background: #f8f8f8;
+}
+.uiListGrid .even {
+  background: #ffffff;
+}
+.uiListGrid .OverHeader {
+  background: #f0f0f0;
+  font-weight: bold;
+  line-height: 19px;
+  height: 19px;
+}
+.uiListGrid .nodeLabel {
+  overflow: hidden;
+  cursor: pointer;
+  -moz-outline: none;
+  -moz-user-select: none;
+}
+.uiListGrid .columnIcon,
+.uiListGrid .columnName,
+.uiListGrid .columnAuditing,
+.uiListGrid .columnVersion,
+.uiListGrid .columnowner,
+.uiListGrid .columndateModified,
+.uiListGrid .columndateCreated,
+.uiListGrid .column {
+  float: left;
+  height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 7px 7px 7px 12px;
+  color: #333333;
+}
+.uiListGrid .columnIcon {
+  padding: 7px;
+  text-align: center;
+}
+.uiListGrid .FileDrag {
+  background: #f0f0f0;
+}
+.uiListGrid .ResizeHandle {
+  cursor: col-resize;
+  width: 1px;
+  height: 190px;
+  /* default height */
+
+  border-right: 1px dashed #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.uiListGrid .rowView {
+  line-height: 20px;
+  background: #ffffff !important;
+}
+.uiListGrid .rowView:hover {
+  background: #e6e6e6 !important;
+}
+.uiListGrid .rowView.active,
+.uiListGrid .rowView.selected {
+  background: #f0f0f0 !important;
+}
+.uiListGrid .rowView .columnIcon,
+.uiListGrid .rowView .columnName,
+.uiListGrid .rowView .columnAuditing,
+.uiListGrid .rowView .columnVersion,
+.uiListGrid .rowView .columndateModified,
+.uiListGrid .rowView .columnDatetime,
+.uiListGrid .rowView .columndateCreated,
+.uiListGrid .rowView .columnOwner,
+.uiListGrid .rowView .columnModified,
+.uiListGrid .rowView .columnCreated {
+  padding: 7px 7px 7px 12px;
+}
+.uiListGrid .rowView .columnIcon {
+  padding: 7px;
+  text-align: center;
+}
+.uiListGrid .rowView .lineLeftItem {
+  width: 2px;
+  height: 34px;
+  float: left;
+  border-left: 1px solid #cccccc;
+}
+.uiListGrid .rowView .ResizeColumn .NodeLabel {
+  width: 95%;
+  overflow: hidden;
+}
+/*############################## -- Begin UIThumbnailsView -- ##############################*/
+.uiThumbnailsView {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox {
+  width: 148px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  padding: 0px !important;
+  overflow: hidden;
+  cursor: pointer;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox .thumbnailImage {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox .nodeLabel {
+  background: none!important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox:hover {
+  background: none!important;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox:hover .thumbnailImage {
+  background: #f8f8f8 !important;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox.selectedBox:hover .thumbnailImage,
+.uiThumbnailsView .actionIconsContainer .actionIconBox.selectedBox .thumbnailImage {
+  background: #dedede !important;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox.selectedBox .actionIconLabel {
+  background: #2f5e92;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconBox.selectedBox .actionIconLabel > a {
+  color: #ffffff;
+}
+.uiThumbnailsView .actionIconsContainer .bgThumbnailImage {
+  padding: 5px;
+  background: none;
+  visibility: hidden;
+  display: inline-block;
+}
+.uiThumbnailsView .actionIconsContainer .hidden-loading .bgThumbnailImage {
+  visibility: visible;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  margin: auto;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon.hidden-loading:after {
+  display: none;
+  background: none;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon:after {
+  background: url("/eXoSkin/skin/images/themes/default/Loading/loading32x32Light.png") no-repeat center center;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -16px 0 0 -16px;
+  content: "";
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+.uiThumbnailsView .actionIconsContainer .loadingProgressIcon img {
+  display: none;
+  max-width: 116px;
+  max-height: 116px;
+  margin: auto;
+  border: 1px solid #cccccc;
+}
+.uiThumbnailsView .actionIconsContainer .nodeLabel {
+  width: 148px;
+  height: 148px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIcon {
+  width: 50px;
+  height: 50px;
+  margin: 9px auto 0px auto;
+}
+.uiThumbnailsView .actionIconsContainer .thumbnailImage {
+  width: 128px;
+  height: 128px;
+  border: none;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconLabel {
+  line-height: 15px;
+  max-height: 28px;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiThumbnailsView .actionIconsContainer .actionIconLabel > a {
+  color: #333333;
+}
+/*############################## -- End UIThumbnailsView -- ##############################*/
+/*=============================== UIDrivesArea ===================================*/
+.uiDrivesArea {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-top: none;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 4px;
+}
+.uiDrivesArea .uiDriversAreaContainer {
+  padding: 15px;
+  color: #333333;
+  overflow: hidden;
+}
+.uiDrivesArea .uiDriversAreaContainer .info {
+  margin-bottom: 12px;
+}
+.uiDrivesArea .uiDriversAreaContainer .uiIconBlueInformation:before {
+  content: "\e767";
+  color: #215ab2;
+}
+.uiDrivesArea .rowDrives {
+  border-bottom: dotted 1px #cccccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.uiDrivesArea .rowNormal {
+  padding-bottom: 15px;
+}
+.uiDrivesArea .titleDriver {
+  font-size: 13px;
+  color: #333333;
+}
+.uiDrivesArea .drive {
+  margin: 5px;
+  float: left;
+  width: 150px;
+  line-height: 19px;
+  height: 50px;
+}
+.uiDrivesArea .driveLabel {
+  color: #333333;
+  padding-left: 33px;
+  word-wrap: break-word;
+  display: block;
+}
+.uiDrivesArea .driveLabel:hover {
+  color: #2f5e92;
+}
+.uiDrivesArea .rowDrivesGroups .drive {
+  height: 70px;
+}
+.uiDrivesArea .driveIcon {
+  float: left;
+}
+.uiDrivesArea [class^="uiIconEcms24x24"] {
+  margin: 0px 0px 0px -33px;
+  float: left;
+}
+/***** ResizeBar *****/
+.uiWorkingArea .resizeBar {
+  float: left;
+  width: 40px;
+}
+.uiWorkingArea .resizeBar .resizeBarContent {
+  width: 22px;
+  cursor: col-resize;
+  position: relative;
+}
+.uiWorkingArea .resizeBar .resizeBarContent:hover {
+  border-right: solid 1px #cccccc;
+}
+.uiWorkingArea .resizeBar .resizeBarContent:hover .resizeButton {
+  display: block;
+}
+.uiWorkingArea .resizeBar .resizeButton {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
+  -webkit-border-radius: 3px 0px 0px 3px;
+  -moz-border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0px 0px 3px;
+  width: 16px;
+  height: 24px;
+  float: right;
+  margin: auto;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  border-right: none;
+  display: none;
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  padding-top: 3px;
+}
+.uiWorkingArea .resizeBar .resizeButton [class^="uiIcon"] {
+  width: 11px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.uiWorkingArea .resizeBarDisplay .resizeBarContent {
+  border-right: solid 1px #cccccc;
+  cursor: col-resize;
+}
+.uiWorkingArea .resizeBarDisplay .resizeButton {
+  display: block;
+}
+.uiWorkingArea .resizeNoneBorder {
+  width: 0px;
+}
+.uiWorkingArea .resizeNoneBorder .resizeBarContent {
+  width: 0px;
+}
+.uiWorkingArea .resizeNoneBorder .resizeBarContent:hover {
+  border: none;
+  cursor: default;
+}
+.uiWorkingArea .resizeNoneBorder .resizeButton {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 0px 3px 3px 0px;
+  -moz-border-radius: 0px 3px 3px 0px;
+  border-radius: 0px 3px 3px 0px;
+  display: block;
+  right: 8px;
+  border-left: none;
+}
+.UIBrowseContentPortlet .TagmapHolder .Icon {
+  float: left;
+  width: 19px;
+  height: 16px;
+  margin: 2px 5px 0px 5px;
+}
+/******** UIDocumentFormController **************/
+.uiDocumentFormController {
+  min-width: 500px;
+  padding: 15px;
+}
+.uiDocumentFormController .form-horizontal .control-label {
+  margin-bottom: 0px;
+  width: 120px;
+}
+.uiDocumentFormController .form-horizontal .controls {
+  margin-left: 135px;
+}
+.uiDocumentFormController .form-horizontal .controls .textInfo {
+  line-height: 18px;
+  color: gray;
+}
+.uiDocumentFormController .form-horizontal .controls .nameInfo {
+  line-height: 18px;
+  color: #333333;
+  font-weight: bold;
+}
+.uiDocumentFormController .form-horizontal .controls a [class^="uiIcon"] {
+  color: #999999;
+}
+.uiDocumentFormController .form-horizontal .controls a:hover [class^="uiIcon"] {
+  color: #2f5e92;
+}
+.uiDocumentFormController .form-horizontal .controls textarea {
+  font-size: 13px;
+  height: 175px;
+  width: 90%;
+  vertical-align: top;
+}
+.uiDocumentFormController .form-horizontal .controls > div > span {
+  width: 100% !important;
+  margin-right: 5px;
+}
+.uiDocumentFormController .form-horizontal .controls > div.clearfix {
+  float: left;
+  margin-right: 5px;
+  width: 90%;
+}
+.uiDocumentFormController .form-horizontal .controls .uiUploadInput {
+  width: 90%;
+  float: left;
+  margin-right: 5px;
+}
+.uiDocumentFormController .helpBlock {
+  display: inline-block;
+  background: #f0f0f0;
+  border: 1px solid #cccccc;
+  color: #333333;
+  padding: 15px 15px 15px 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 155px;
+  margin-left: 10px;
+}
+.uiDocumentFormController .helpBlock .uiIconHelp {
+  margin: 3px 0px 0px -25px;
+  float: left;
+}
+.uiDocumentFormController .helpBlock .uiIconHelp:before {
+  content: "\e767";
+  color: #215ab2;
+}
+.uiDocumentFormController .helpBlock .form-horizontal .textarea {
+  vertical-align: top;
+}
+.uiDocumentFormController .helpBlockTitle {
+  display: block;
+  width: auto;
+}
+/******** View1 **************/
+.fileContent,
+.mediaContent {
+  padding: 15px;
+}
+.fileContent .title,
+.mediaContent .title {
+  padding: 0 0 10px;
+}
+.fileContent .title a.pull-right,
+.mediaContent .title a.pull-right {
+  color: #333333;
+  padding: 4px 6px;
+  line-height: 18px;
+  border: 1px solid transparent;
+  margin: 0px;
+  cursor: pointer;
+}
+.fileContent .title a.pull-right:hover,
+.mediaContent .title a.pull-right:hover {
+  color: #333333;
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
+  line-height: 18px;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.fileContent .title a.pull-right:active,
+.mediaContent .title a.pull-right:active,
+.fileContent .title a.pull-right:focus,
+.mediaContent .title a.pull-right:focus,
+.fileContent .title a.pull-right.active,
+.mediaContent .title a.pull-right.active {
+  -webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.15) inset;
+  border: 1px solid #c7c7c7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+.fileContent .content,
+.mediaContent .content {
+  text-align: center;
+}
+.fileContent .textContent,
+.mediaContent .textContent {
+  overflow: auto;
+}
+.fileContent .textContent pre,
+.mediaContent .textContent pre {
+  min-height: 150px;
+}
+.fileContent .textContent .ECMIframe,
+.mediaContent .textContent .ECMIframe {
+  width: 100%;
+  background-color: white;
+}
+.webContentContainer .webContentInformation {
+  padding: 10px;
+}
+.UIDocumentWorkspace .row {
+  margin: 0;
+}
+/******** uiDialogAction **************/
+.uiDialogAction .uiDialogTitle {
+  font-size: 13px;
+}
+.uiDialogAction .dialogAction {
+  margin: -4px 0px;
+}
+.uiDialogAction .dialogAction .btn {
+  margin-left: 10px;
+}
+.uiDialogAction .dialogAction .actionIcon {
+  margin: 0px 0px 0px 10px !important;
+  cursor: pointer;
+}
+/******** UITaggingForm **************/
+.UIJCRExplorerPortlet .UITaggingForm {
+  padding: 0px;
+}
+.tagSet .actionField {
+  background: #e0e8f5;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #2f5e92;
+  border: 1px solid #578dc9;
+  padding: 1px 0px 1px 5px;
+  margin: 5px 0px 0px 0px;
+  display: inline-block;
+}
+.tagSet .uiMention {
+  margin: 3px 5px 2px 0;
+}
+.tagSet .uiMention .uiIconClose {
+  top: -1px;
+}
+/******** uiPreferencesForm **************/
+.uiPreferencesForm {
+  width: auto !important;
+}
+.uiPreferencesForm .UIPreferencesForm {
+  width: auto !important;
+}
+.uiPreferencesForm .control-group {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+.uiPreferencesForm .sortByContent {
+  margin-top: 5px;
+}
+.uiPreferencesForm .sortByContent .uiSelectbox {
+  width: 146px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.uiPreferencesForm .sortByContent .uiSelectbox .selectbox {
+  width: 146px;
+}
+.uiPreferencesForm .checkBoxContent {
+  width: 180px;
+}
+.uiPreferencesForm .checkBoxContent .uiCheckbox {
+  margin: 2px 0px 0px 10px;
+}
+.uiPreferencesForm .checkBoxContent .control-label {
+  float: left;
+  max-width: 150px;
+}
+.uiPreferencesForm .advanceContent .span6 {
+  white-space: nowrap;
+}
+.uiPreferencesForm .control-label {
+  display: inline-block;
+  margin: 0;
+}
+.uiPreferencesForm .nodesContent {
+  margin-left: 10px;
+}
+.uiPreferencesForm .nodesContent .uiSelectbox {
+  width: 60px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.uiPreferencesForm .nodesContent .uiSelectbox .selectbox {
+  width: 60px;
+}
+.uiPreferencesForm .advancePreferences {
+  font-weight: bold;
+  color: #333333;
+}
+.uiPreferencesForm .advanceContent .row-fluid {
+  margin: 0px 0px 10px 10px;
+}
+.uiPreferencesForm .advanceContent .row-fluid .span6 .control-label {
+  width: 200px;
+}
+.uiPreferencesForm .advanceContent .row-fluid .span12 .uiSelectbox {
+  width: 80px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.uiPreferencesForm .advanceContent .row-fluid .span12 .uiSelectbox .selectbox {
+  width: 80px;
+}
+/******** wcm-notice **************/
+.wcmAlertSuccess {
+  left: 50%;
+  position: absolute;
+}
+/******** UIViewInfoManager **************/
+.UIViewInfoManager .name {
+  font-weight: bold;
+}
+/******** UIVersionInfo **************/
+.uiVersionInfo .uiGrid label {
+  display: inline;
+  margin: 0px;
+}
+.uiVersionInfo .UIFormWithTitle {
+  width: 100%;
+}
+/******** uiThumbnailForm **************/
+.uiThumbnailForm .uploadButton {
+  text-align: center;
+}
+/******** uiPropertyTab **************/
+.uiPropertyTab table th {
+  white-space: nowrap;
+}
+.uiPropertyTab .text {
+  word-break: break-all;
+}
+/******** Export and Import a node **************/
+.uiImportNode .form-horizontal .uiSelectbox {
+  width: 150px;
+}
+.uiImportNode .form-horizontal .uiSelectbox .selectbox {
+  width: 153px;
+}
+/******** UIVersionInfo **************/
+.uiVersionInfo .fileContent,
+.uiVersionInfo .mediaContent {
+  padding: 0px 0px 15px 0px;
+}
+/******** UIViewMetadataManager **************/
+.UIViewMetadataManager .header {
+  margin: 10px;
+}
+.UIViewMetadataManager ul li.contentBlock {
+  border-bottom: 1px dotted #333333;
+  padding: 5px 0px;
+  margin: 0px 10px;
+}
+.UIViewMetadataManager ul li.contentBlock:last-child {
+  border: none;
+}
+.UIViewMetadataManager ul li.contentBlock .title {
+  font-weight: bold;
+}
+/******** UIOneTaxonomySelector **************/
+.uiOneTaxonomySelector .breadcrumb {
+  background: #f8f8f8;
+  padding: 5px 15px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+}
+/******** UIAddFolder **************/
+.uiAddFolder .controls-full input {
+  width: 100%;
+}
+.uiAddFolder .actionLabel {
+  padding-top: 10px;
+}
+.uiAddFolder .actionLabel > .checkbox {
+  padding: 0px;
+  height: 33px;
+}
+.uiAddFolder .actionLabel .uiSelectbox {
+  width: 140px;
+  float: right;
+}
+.uiAddFolder .actionLabel .uiSelectbox .selectbox {
+  width: 143px;
+}
+.uiAddFolder .actionLabel .controls {
+  margin: 0px;
+  width: 28px;
+}
+.uiAddFolder .actionLabel .control-label {
+  width: 200px;
+  text-align: left;
+  padding: 0px;
+}
+/******** uiClipboard **************/
+.uiClipboard {
+  margin: -10px;
+  padding-bottom: 20px;
+}
+.uiClipboard .table {
+  border: none;
+  border-bottom: 1px solid #cccccc;
+}
+.uiClipboard .table td:first-child,
+.uiClipboard .table th:first-child {
+  border-left: none;
+}
+.uiClipboard .text {
+  word-break: break-all;
+}
+/******** UIPermissionManager **************/
+.uiPermissionForm .permission .form-inline .checkbox {
+  margin-right: 15px;
+}
+.uiPermissionForm .permission .controls {
+  margin-bottom: 10px;
+}
+.uiPermissionForm .permission .controls input {
+  margin: 0px;
+}
+.uiPermissionForm .permission .controls .actionIcon {
+  margin-left: 5px;
+}
+.uiPermissionForm .permission .controls .btn {
+  margin-left: 10px;
+}
+/******** uiViewMetadataForm **************/
+.uiViewMetadataForm #UIViewMetadataForm {
+  border: none !important;
+}
+/***** New Content *****/
+.selectTemplateTitle {
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  border-radius: 4px 4px 0 0;
+  line-height: 20px;
+  margin: 0;
+  padding: 5px 20px;
+  word-wrap: break-word;
+}
+.selectTemplateTitle .templateTitle {
+  margin: 4px 130px 0px 0px;
+}
+.selectTemplateTitle .btn-group .btn {
+  padding: 5px 8px 4px 8px;
+}
+.selectTemplateTitle .btn-group .active [class^="uiIconEcms"] {
+  color: #2f5e92;
+}
+.selectTemplateTitle .btn-group:nth-child(2n+2) .btn {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.selectTemplateTitle .btn-group > .btn:first-child:hover {
+  border-radius: 3px 0 0 3px;
+  margin-right: -1px;
+}
+.selectTemplateTitle .uiIconClose {
+  margin: 7px 0px 0px 10px;
+  cursor: pointer;
+}
+.selectTemplateArea {
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: -19px -19px 0px -19px;
+}
+.selectTemplateArea .templateBox {
+  height: auto;
+  width: 120px;
+  float: left;
+  overflow: hidden;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  cursor: pointer;
+}
+.selectTemplateArea .templateBox .templateIconContainer {
+  width: 64px;
+  height: 70px;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.selectTemplateArea .templateBox .templateLabel {
+  height: 40px;
+  width: 100px;
+  line-height: 14px;
+  text-align: center;
+  padding: 0px 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.selectTemplateArea .templateBox .templateLabel > a {
+  color: #333333;
+}
+.selectTemplateArea .templateBox:hover {
+  background-color: #e6e6e6;
+}
+.selectTemplateArea .itemDocumentListView {
+  border-bottom: 1px solid #cccccc;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.selectTemplateArea .itemDocumentListView > a {
+  margin-left: 15px;
+  color: #333333;
+  vertical-align: middle;
+}
+.selectTemplateArea .itemDocumentListView:hover {
+  background-color: #e6e6e6;
+}
+/******** uiRenameForm **************/
+.uiRenameForm .popupContent {
+  background: none;
+}
+.uiRenameForm .popupContent input {
+  margin-bottom: 0px;
+}
+.uiRenameForm .popupContent button {
+  margin-left: 5px;
+}
+/******** uiVersionInfo **************/
+.UIRemoveLabelForm .form-horizontal,
+.UILabelForm .form-horizontal {
+  padding: 0px;
+}
+.UIRemoveLabelForm .form-horizontal .control-group,
+.UILabelForm .form-horizontal .control-group {
+  margin: 0px;
+}
+.UIRemoveLabelForm .form-horizontal .control-group .control-label,
+.UILabelForm .form-horizontal .control-group .control-label {
+  width: auto;
+  margin-right: 10px;
+}
+.UIRemoveLabelForm .form-horizontal .control-group .controls,
+.UILabelForm .form-horizontal .control-group .controls {
+  margin: 0px;
+}
+.UIRemoveLabelForm .form-horizontal .uiSelectbox,
+.UILabelForm .form-horizontal .uiSelectbox {
+  vertical-align: top;
+}
+.UIRemoveLabelForm .form-horizontal .btn,
+.UILabelForm .form-horizontal .btn {
+  margin-left: 5px;
+}
+.uiDiff .contentEmpty {
+  text-align: center;
+  color: #999999;
+}
+.uiDiff .uiGrid .diffDelete {
+  background: #fce8d4;
+}
+.uiDiff .uiGrid .diffModify {
+  background: #fffdd3;
+}
+.uiDiff .uiGrid .diffAdd {
+  background: #e7f9c8;
+}
+/******** uiUnEditable **************/
+.uiUnEditable {
+  margin: 0px auto;
+}
+.uiUnEditable .iconContainer {
+  text-align: center;
+}
+.uiUnEditable .iconContainer .nameDoc {
+  display: block;
+  color: #999999;
+  margin: 15px 0;
+}
+.uiUnEditable .detailContainer {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.uiUnEditable .detailContainer h4 {
+  color: #999999;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-shadow: none;
+}
+.uiUnEditable .detailContainer button,
+.uiUnEditable .detailContainer .btn {
+  margin: 0 7px 0 0;
+}
+.uiUnEditable .detailContainer button [class^="uiIcon"],
+.uiUnEditable .detailContainer .btn [class^="uiIcon"] {
+  margin-right: 7px;
+}
+/******** uiExportNode **************/
+.uiExportNode .uiInputInfo {
+  line-height: 30px;
+}
+/******** uiSearchResult **************/
+.uiSearchResult {
+  min-height: 100px;
+  max-height: 400px;
+  margin: -10px;
+  overflow: auto;
+  padding: 10px;
+}
+.uiSearchResult .title {
+  font-weight: normal;
+  color: #333333;
+  margin: 0px 0px 5px 0px;
+}
+.uiSearchResult .text {
+  color: #999999;
+  margin: 0px;
+}
+.uiSearchResult .uiGrid th a {
+  color: #333333;
+}
+.uiSearchResult .uiGrid td {
+  vertical-align: top;
+}
+.uiSavedQuery {
+  min-height: 120px;
+  max-height: 400px;
+}
+.UIJCRAdvancedSearch {
+  min-height: 250px;
+  max-height: 400px;
+}
+.uiSimpleSearch .resizable {
+  min-height: 245px;
+  max-height: 400px;
+}
+.UIContentNameSearch {
+  min-height: 160px;
+  max-height: 400px;
+}
+/******** uiAddTranslationForm **************/
+.uiAddTranslationForm .titleLabel {
+  margin: 0 0 15px 45px;
+}
+.uiAddTranslationForm .control-label {
+  width: 140px;
+}
+.uiAddTranslationForm .controls {
+  margin-left: 160px;
+}
+.uiAddTranslationForm .controls .input-append input {
+  width: 200px;
+}
+/******** uiTreeNodePageIterator **************/
+.uiTreeNodePageIterator {
+  margin: 0px;
+}
+.uiTreeNodePageIterator ul > li > a,
+.uiTreeNodePageIterator ul > li.disabled > a,
+.uiTreeNodePageIterator ul > li.disabled > a:hover {
+  width: 20px;
+  height: 20px;
+  line-height: 20px !important;
+  font-size: 11px;
+}
+/******** UISimpleSearch **************/
+.uiSimpleSearch .form-horizontal .control-label {
+  width: 170px;
+}
+.uiSimpleSearch .form-horizontal .controls {
+  margin-left: 190px;
+}
+.uiSimpleSearch .constrainLink {
+  color: #333333;
+  font-weight: bold;
+  cursor: pointer;
+}
+.uiSimpleSearch .constrainLink:hover {
+  color: #2f5e92;
+}
+.uiSimpleSearch .constrainLink [class^="uiIcon"] {
+  margin-top: 2px;
+}
+.uiSimpleSearch .constraintsForm {
+  padding: 20px 0px 10px 0px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption:first-child {
+  margin-left: 31px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption {
+  margin-bottom: 15px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption input {
+  width: 120px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption .uiCalendarComponent .calendarTimeInput input {
+  width: 28px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption .uiSelectbox {
+  width: 120px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption .uiSelectbox .selectbox {
+  width: 123px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption .label-inline {
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+.uiSimpleSearch .constraintsForm .constraintOption .uiCheckbox input {
+  width: auto;
+}
+.uiSimpleSearch .constraintsForm .constraintOption .help-inline {
+  line-height: 26px;
+  color: #333333;
+}
+.UISaveQueryForm .control-label {
+  width: 120px;
+}
+.UISaveQueryForm .controls {
+  margin-left: 140px;
+}
+.UISaveQueryForm .controls input,
+.UISaveQueryForm .controls select {
+  width: 200px;
+}
+.permissionInfo .uiGrid .uiCheckbox {
+  width: 16px;
+}
+.anyPermission .form-horizontal .control-group .controls-nowrap {
+  margin: 0px;
+}
+/******** uiAddActionForm **************/
+.uiAddActionForm {
+  margin: 0px -15px;
+  padding: 0 15px;
+  border-top: 1px solid #cccccc;
+}
+.uiAddActionForm .controls input,
+.uiAddActionForm .controls select,
+.uiAddActionForm .controls textarea {
+  vertical-align: top;
+}
+.uiAddActionForm .multiValueContainer {
+  display: inline-block;
+}
+#UIActionManager .uiAddActionForm .actionIcon {
+  vertical-align: top;
+}
+/******** UINodeTypeSelector **************/
+.uiNodeTypeList .uiSearchBox {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0 0 14px;
+  padding: 8px;
+}
+.uiNodeTypeList .allDocument {
+  text-align: right;
+  margin-bottom: 15px;
+}
+/******** Comments **************/
+.comments {
+  padding: 20px 0px;
+  color: #333333;
+}
+.comments .avatarBox .avatarMedium {
+  display: block;
+}
+.comments .uiBox {
+  padding: 10px;
+}
+.comments .uiBox .arrowLeft {
+  background: url("/eXoSkin/skin/images/themes/default/ecms/portlets/explorer/arrows.png") no-repeat scroll -21px 0;
+  display: block;
+  height: 16px;
+  left: -8px;
+  position: absolute;
+  top: 17px;
+  width: 8px;
+}
+.comments .commentBar .showComment {
+  margin-top: 10px;
+}
+.comments .commentBar .viewLabel {
+  margin-right: 140px;
+  font-weight: bold;
+}
+.comments .commentBar .LabelPostedComment {
+  margin-right: 140px;
+}
+.comments .commentBox {
+  margin-left: 85px;
+  padding: 10px 20px;
+  position: relative;
+}
+.comments .commentBox .commentInfo {
+  margin-bottom: 5px;
+}
+/******** UINodeTypeSelectForm **************/
+.UINodeTypeSelectForm .control-label {
+  width: 200px;
+}
+.UINodeTypeSelectForm .controls {
+  margin-left: 220px;
+}
+/******** UIRightClickPopupMenu **************/
+.uiRightClickPopupMenu {
+  display: none;
+  position: absolute;
+}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer {
+  display: block;
+  position: static;
+  cursor: pointer;
+}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover > [class^="uiIconEcms"] {
+  color: #ffffff;
+}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsEditDocument,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsDelete,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsMoveNode,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsRestoreFromTrash,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a .uiIconEcmsViewInfo {
+  color: #999999;
+}
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsEditDocument,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsDelete,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsMoveNode,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsRestoreFromTrash,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsUpload,
+.uiRightClickPopupMenu .uiRightPopupMenuContainer > li > a:hover .uiIconEcmsViewInfo {
+  color: #ffffff;
+}
+.RightClickCustomItem .menuItem a:hover [class^="uiIcon"] {
+  color: #ffffff;
+}
+.RightClickCustomItem .menuItem a:hover [class^="uiIconEcms"] {
+  color: #ffffff;
+}
+/******** iFrameUpload **************/
+.iFrameUpload {
+  border: none;
+}
+/*==========Icon Small=============*/
+.iconLinkSmall,
+.iconLockedsmall {
+  color: #edad00;
+  font-style: normal;
+  font-size: 10px;
+  position: absolute;
+  left: 6px;
+  top: -2px;
+}
+.iconLinkSmall {
+  bottom: -2px;
+  left: auto;
+  right: -2px;
+  top: auto;
+}
+.iconLinkSmall:before {
+  content: "\e793";
+}
+.iconLockedsmall:before {
+  content: "\e794";
+}
+.UITaggingForm .dropdown-menu .active > a,
+.UITaggingForm .dropdown-menu .active > a:hover {
+  color: #ffffff;
+  background: #578dc9;
+}
+/*========== UIDocumentWorkspace =============*/
+.dropdown-menu li > a:hover {
+  color: #ffffff;
+}
+.dropdown-menu li > .menuItemSelected {
+  background-color: #487eb8;
+  background-image: -moz-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#3367a0));
+  background-image: -webkit-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -o-linear-gradient(top, #578dc9, #3367a0);
+  background-image: linear-gradient(to bottom, #578dc9, #3367a0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff3367a0', GradientType=0);
+  color: #ffffff;
+}
+.dropdown-menu li > .menuItemSelected .uiIconEcmsCopyUrlToClipboard {
+  color: #ffffff;
+}
+.UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li > .menuItemSelected {
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border: 1px solid #cccccc;
+  border-radius: 3px 3px 3px 3px;
+  color: #333333;
+  padding: 4px 6px;
+}
+.UIJCRExplorerPortlet .uiFileViewActionBar .uiRightPopupMenuContainer li > .menuItemSelected .uiIconEcmsCopyUrlToClipboard {
+  color: #2f5e92;
+}
+.UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li > .menuItemSelected {
+  background-color: #487eb8;
+  background-image: -moz-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#3367a0));
+  background-image: -webkit-linear-gradient(top, #578dc9, #3367a0);
+  background-image: -o-linear-gradient(top, #578dc9, #3367a0);
+  background-image: linear-gradient(to bottom, #578dc9, #3367a0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff3367a0', GradientType=0);
+  color: #ffffff;
+}
+.UIJCRExplorerPortlet .dropdown-menu #hiddenMoreButton li > .menuItemSelected .uiIconEcmsCopyUrlToClipboard {
+  color: #ffffff;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer .UIDocumentWorkspace {
+  min-height: auto;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer .UIDocumentWorkspace .UIDocumentInfo {
+  min-height: auto;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer .dropdown-menu {
+  margin: 2px 0 0;
+  padding: 5px 0;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer .nav {
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer .nav-tabs,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer .pagination ul,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer .breadcrumb {
+  margin: 0;
+  padding: 0;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ul,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ol,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer dl {
+  padding: 0 0 0 40px;
+  margin: 15px 0;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ul ul,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ol ul,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer dl ul,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ul ol,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ol ol,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer dl ol,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ul dl,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ol dl,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer dl dl {
+  margin: 0;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ul li,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ol li,
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer dl li {
+  list-style-type: disc;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ol li {
+  list-style-type: decimal;
+}
+.UIJCRExplorerPortlet .UIJCRExplorer div#UIDocumentContainer ol li ul li {
+  list-style-type: disc;
+}
+/*========== changeTypeLink =============*/
+.changeTypeLink {
+  font-weight: normal;
+  cursor: pointer;
+}
+.changeTypeLink:hover {
+  text-decoration: none;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent .dropdown-menu {
+  margin: 2px 0 0;
+  padding: 5px 0;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent .nav {
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent .nav-tabs,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent .pagination ul,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent .breadcrumb {
+  margin: 0;
+  padding: 0;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ul,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ol,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent dl {
+  padding: 0 0 0 40px;
+  margin: 15px 0;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ul ul,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ol ul,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent dl ul,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ul ol,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ol ol,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent dl ol,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ul dl,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ol dl,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent dl dl {
+  margin: 0;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ul li,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ol li,
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent dl li {
+  list-style-type: disc;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ol li {
+  list-style-type: decimal;
+}
+.UIJCRExplorer .UIDocumentWorkspace .UITabContent ol li ul li {
+  list-style-type: disc;
+}
+/******************/
+.UIWCMDashboardPortlet {
+  padding: 0px 25px 25px 25px;
+}
+.UIWCMDashboardPortlet .UIDashboardDraft .uiIconEcmsDottedArrow {
+  margin: 8px 8px 0 0;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard {
+  padding: 20px 0px;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .element a {
+  color: #333333;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .element a .uiIconEcmsDottedArrow {
+  margin-top: 2px;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .element a:hover {
+  color: #2f5e92;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .alignLeft {
+  margin: 10px;
+}
+@media (min-width: 980px) {
+  .UIWCMDashboardPortlet .uiAuthoringDashboard .alignLeft {
+    float: left;
+    width: 30%;
+    margin: 0 0 15px 20px;
+    min-width: 225px;
+  }
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .elements {
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+  font-size: 12px;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .total {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.37) inset;
+  color: #2f5e92;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 3px 0px 0px 5px;
+  min-width: 30px;
+  text-align: center;
+  display: inline-block;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .noContent {
+  color: #999999;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .uiPageIterator {
+  margin: 10px -10px 0px -10px;
+  padding: 10px 10px 0px 10px;
+  border-top: 1px solid #cccccc;
+}
+.UIWCMDashboardPortlet .uiAuthoringDashboard .refresh {
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+.UIJCRExplorer #UIDocumentWorkspace {
+  background: #ffffff !important;
+}
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .UIWCMDashboardPortlet .uiAuthoringDashboard .elements,
+  .uiItemList li {
+    font-size: inherit;
+  }
+}
+@media (max-width: 768px) {
+  .uiWorkingArea .resizeBar {
+    display: none;
+  }
+  .uiWorkingArea .leftContainer,
+  .uiWorkingArea .rightContainer {
+    float: none;
+    margin: 10px 0;
+    width: 100%!important;
+    height: auto!important;
+  }
+}
+@media (max-width: 480px) {
+  body .tblAddressBar table,
+  body .tblAddressBar tr,
+  body .tblAddressBar td {
+    display: block;
+    margin: 5px 0 !important;
+    width: 100%!important;
+    min-height: 22px;
+  }
+  body .tblAddressBar .right .advance,
+  body .tblAddressBar .uiAddressBar .right {
+    width: 100%!important;
+  }
+  .uiAddressBar .uiAddressBarAction .inputContainer {
+    margin: 0;
+  }
+  .pull-right > #ListHideContainer.dropdown-menu {
+    right: auto;
+  }
+  .uiTabGrayInPage .tab-content .nav-pills > li.dropdown {
+    margin-right: 172px!important;
+    float: none;
+  }
+  .uiTabGrayInPage .tab-content .nav-pills > li.dropdown a {
+    display: inline-block;
+  }
+  .UIJCRExplorerPortlet {
+    padding: 15px;
+  }
+  .uiPreferencesForm .sortByContent {
+    padding: 0;
+  }
+  .uiPreferencesForm .sortByContent .uiSelectbox {
+    width: 100%;
+    margin-left: 0;
+  }
+  .uiPreferencesForm .sortByContent .uiSelectbox .selectbox {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .uiPreferencesForm .checkBoxContent {
+    text-align: right;
+    float: none;
+    width: 175px;
+  }
+  .uiPreferencesForm .nodesContent {
+    margin: 0;
+  }
+}
+.UIDocumentInfo .IconLocked,
+.UIDocumentInfo .Link {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+.UIDocumentInfo .IconLocked:before {
+  content: "\e794";
+}
+.UIDocumentInfo .uiListGrid [class^="uiIcon24x24"] {
+  position: relative;
+}
+.UIDocumentInfo .uiListGrid .LinkSmall,
+.UIDocumentInfo .uiListGrid .IconLocked {
+  font-size: 12px;
+  color: #edad00;
+  bottom: -4px;
+  right: 0px;
+  position: absolute;
+}
+.UIDocumentInfo .uiListGrid .LinkSmall:before {
+  content: "\e793";
+}
+.UIDocumentInfo .uiListGrid .IconLocked {
+  top: 0px;
+  bottom: auto;
+}
+.UIDocumentInfo .LinkSmall:before,
+.UIDocumentInfo .IconLocked:before,
+.UIDocumentInfo .iconLinkSmall:before,
+.UIDocumentInfo .iconLockedsmall:before,
+.UIDocumentInfo .thumbnailImage .Link:before {
+  text-shadow: 0 0px 1px #000000;
+  color: #edad00;
+}
+.UIDocumentInfo .thumbnailImage .IconLocked:before,
+.UIDocumentInfo .thumbnailImage .Link:before {
+  font-size: 22px;
+}
+.UIDocumentInfo .uiThumbnailsView [class^="uiIcon64x64"] {
+  margin: auto;
+  position: relative;
+}
+.UIDocumentInfo .uiThumbnailsView [class^="uiIcon64x64"] .Link {
+  right: 34px;
+}
+.UIDocumentInfo .uiThumbnailsView [class^="uiIcon64x64"] .Link:before {
+  font-size: 22px;
+}
+.UIDocumentInfo .uiThumbnailsView .Link,
+.UIDocumentInfo .uiThumbnailsView .IconLocked {
+  position: absolute!important;
+  right: 25px;
+  bottom: 0!important;
+  top: auto!important;
+}
+.UIDocumentInfo .uiThumbnailsView .IconLocked {
+  top: 10px;
+  bottom: auto;
+}
+.UIDocumentInfo .uiThumbnailsView .IconLocked:before {
+  content: "\e794";
+  font-size: 22px;
+}
+.UIDocumentInfo .thumbnailImage .loadingProgressIcon .IconLocked,
+.UIDocumentInfo .thumbnailImage .loadingProgressIcon .Link {
+  right: -4px;
+}
+.UIDocumentInfo .thumbnailImage .IconLocked,
+.UIDocumentInfo .thumbnailImage .Link {
+  position: absolute ;
+  right: 26px ;
+  top: 12px ;
+}
+.UIDocumentInfo .thumbnailImage .Link {
+  top: auto;
+  bottom: 0;
+}
+.iconLinkSmall:before,
+.iconLockedsmall:before {
+  text-shadow: 0 0px 1px #000000;
+}

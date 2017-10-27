@@ -1,0 +1,142 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.ClearFix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.FL {
+  float: left;
+}
+.FR {
+  float: right;
+}
+/******* UIGadget ********/
+.UIGadget {
+  font-size: 11px;
+  width: 100%;
+}
+.TopGadget {
+  padding: 10px;
+}
+.TopGadget table {
+  width: 442px;
+}
+.TopGadget table td.Text {
+  width: 105px;
+}
+.TopGadget table td.Description {
+  background: #f8f8f8;
+  padding: 8px;
+  font-style: italic;
+}
+.TopGadget table td.Description p {
+  background: url("/eXoSkin/skin/images/themes/default/platform/gadget-pack/ServicesManagement/DesIcon.png") no-repeat left 2px;
+  padding-left: 20px;
+  margin: 0px;
+}
+.TitleGadget {
+  padding: 0px 5px;
+}
+.TitleGadget div {
+  background: #ffffff;
+  padding: 4px 10px 0px 10px;
+  line-height: 22px;
+  color: #333333;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 12px;
+  float: left;
+  cursor: pointer;
+}
+.TitleGadget .TabSelected {
+  background: #f8f8f8;
+  color: #333333;
+}
+.GadgetGrid {
+  background: #f8f8f8;
+  padding: 5px 0px;
+  margin: 0px 5px 5px 5px;
+  overflow-x: auto;
+}
+.GadgetGrid .table {
+  table-layout: auto;
+}
+.GadgetGrid .UIGrid .SkinID {
+  background: #e6e6e6;
+  padding: 0px 5px;
+  -moz-border-radius: 2px 2px 2px 2px;
+}
+/******* GadgetGmCanvas *******/
+.GadgetGrid .UIGrid .SkinID input {
+  width: 125px;
+}
+/********* GadgetGmCanvasMessage ************/
+.GadgetGmCanvasMessage {
+  margin-bottom: 20px;
+  display: none;
+}
+.GadgetGmCanvasMessage .UIGrid .SkinID input {
+  width: 130px;
+}
+.ContentSelected {
+  display: block;
+}
+.mmlib_xlink {
+  background: url('/eXoSkin/skin/images/themes/default/platform/gadget-pack/ServicesManagement/IconClose_Gadget.gif') no-repeat left top;
+  cursor: pointer;
+  width: 14px;
+  display: block;
+  height: 14px;
+}
+.mmlib_table {
+  background-color: #ffffff;
+  border-collapse: separate;
+  border-spacing: 0;
+  font: bold 9px arial, sans-serif;
+  padding: 1px 0;
+  width: 100%;
+}

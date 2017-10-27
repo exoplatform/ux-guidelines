@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Navigation-eXo UX Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/platform/skin/platform.css" rel="stylesheet">
+    <link href="..//eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/responsive.css" rel="stylesheet">
+
+    <!-- syntaxhighlighter -->
+    <link href="../js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <script src="../js/track.js" data-site-id="4f0dc9fef5a1f55508000013" id="gauges-tracker" async="" type="text/javascript"></script>
+    <script src="../js/ga.js" async="" type="text/javascript"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-146052-10']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+
+<body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top ">
+        <div class="navbar-inner clearfix">
+            <button class="toggle-left-bar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="brand"><img src="../img/global.logo.png" /></a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li class="active"><a href="../Components.html">Components</a></li>
+                    <li><a href="../Patterns.html">Patterns</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 0px;">
+                    <div class="btn-group">
+                        <div class="btn btn-small active"><a href="../../Navigation/Navigation.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="Navigation.html">Enterprise Theme</a></div>
+                    </div>
+                </div>
+                <div class="btn-group-download pull-right">
+                    <a href="http://community.exoplatform.com/downloads" class="btn btn-primary" target="_blank"><i class="uiIconDownload"></i> <span>Download eXo Platform</span></a>
+                    <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> <span>Learn more about eXo Platform</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- Subhead -->
+        <header class="jumbotron subhead" id="overview">
+            <div class="container">
+                <h1>Navigation</h1>
+                <p class="lead">Basic CSS for a site navigation.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="row">
+                <div class="span3 bs-docs-sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top">
+                        <li class="active"><a href="#S1"><i class="icon-chevron-right"></i>Basic navigation</a></li>
+                        <li class=""><a href="#S2"><i class="icon-chevron-right"></i>Accordion menu</a></li>
+                        <li class=""><a href="#S3"><i class="icon-chevron-right"></i>Navbar</a></li>
+                    </ul>
+                </div>
+                <div class="span9">
+                    <!-- Headings -->
+                    <section id="S1">
+                        <div class="page-header">
+                            <h2>Basic navigation</h2>
+                        </div>
+                        <p>
+                            <h3>Basic tabs</h3></p>
+                        <p>Take a regular <code>&lt;ul&gt;</code> of links and add <code>uiTabPane</code>, <code>uiTabNormal</code>.</p>
+                        <div class="bs-docs-example">
+                            <div id="" class="uiTabPane uiTabNormal">
+                                <ul id="myTab" class="nav nav-tabs">
+                                    <li class="active">
+                                        <a href="#tab-home" data-toggle="tab">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab-properties" data-toggle="tab">Properties</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab-settings" data-toggle="tab">Settings</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+<pre class="prettyprint linenums">
+    &lt;div id="" class="uiTabPane uiTabNormal"&gt;
+        &lt;ul id="myTab" class="nav nav-tabs"&gt;
+            &lt;li class="active"&gt;
+                &lt;a href="#tab-home" data-toggle="tab"&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="#tab-properties" data-toggle="tab"&gt;Properties&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="#tab-settings" data-toggle="tab"&gt;Settings&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+</pre>
+                        <p>
+                            <h3>Basic pill</h3></p>
+                        <p>Use <code>NaviContent</code> for the basic pill.</p>
+                        <div class="bs-docs-example">
+                            <div class="NaviContent clearfix">
+                                <a class="LogoeXo pull-left" href="#"></a>
+                                <ul class="NaviLeft">
+                                    <li><a class="nav-button selected" href="#platform">The Platform</a></li>
+                                    <li><a class="nav-button" href="#solutions">Solutions</a></li>
+                                    <li><a class="nav-button" href="#features">Features</a></li>
+                                    <li><a class="nav-button" href="#mobile">Mobile</a></li>
+                                    <li><a class="nav-button" href="#pricing">Pricing</a></li>
+                                    <li><a class="nav-button" href="#customers">Customers</a></li>
+                                    <li><a class="nav-button" href="#learnmore">Learn More</a></li>
+                                </ul>
+                            </div>
+                        </div>
+<pre class="prettyprint linenums">
+&lt;div class="NaviContent clearfix"&gt;
+    &lt;a class="LogoeXo pull-left" href="#"&gt;&lt;/a&gt;
+    &lt;ul class="NaviLeft"&gt;
+        &lt;li&gt;&lt;a class="nav-button selected" href="#platform"&gt;The Platform&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="nav-button" href="#solutions"&gt;Solutions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="nav-button" href="#features"&gt;Features&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="nav-button" href="#mobile"&gt;Mobile&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="nav-button" href="#pricing"&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="nav-button" href="#customers"&gt;Customers&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="nav-button" href="#learnmore"&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+
+
+                        <section id="S2">
+                            <div class="page-header">
+                                <h2> Accordion menu</h2>
+                            </div>
+                            <p> Accordion menu is a kind of navigation list.</p>
+
+                            <div class="bs-docs-example">
+                                <div id="accordion" class="accordion" style="width: 233px;">
+                                    <h5 class="menuHeader">Manage ECM Main Functions</h5>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <div href="#0" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle expaned">
+                                                <a data-toggle="tab" href="#modals"><i class="uiIconSelected pull-right"></i>Templates</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-body collapse  in" id="0">
+                                            <a href="" class="functionItem selected">
+                                                <i class="uiIconEcmsTemplatesManager"></i>Documents
+                                            </a>
+                                            <a href="" class="functionItem">
+                                                <i class="uiIconEcmsCLVTemplatesManager"></i>List
+                                            </a>
+                                            <a href="" class="functionItem">
+                                                <i class="uiIconEcmsMetadataManager"></i>Metadata
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <div class="accordion-toggle collapsed">
+                                                <a data-toggle="tab" href="#modals"><i class="uiIconSelected pull-right"></i>Explorer</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <div class="accordion-toggle collapsed">
+                                                <a data-toggle="tab" href="#modals"><i class="uiIconSelected pull-right"></i>Repository</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <div class="accordion-toggle collapsed">
+                                                <a data-toggle="tab" href="#modals"><i class="uiIconSelected pull-right"></i>Advanced</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+<pre class="prettyprint linenums">
+&lt;div id="accordion" class="accordion"&gt;
+    &lt;h5 class="menuHeader"&gt;Manage ECM Main Functions&lt;/h5&gt;
+    &lt;div class="accordion-group"&gt;
+        &lt;div class="accordion-heading"&gt;
+            &lt;div href="#0" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle expaned"&gt;
+                &lt;a data-toggle="tab" href="#modals"&gt;&lt;i class="uiIconSelected pull-right"&gt;&lt;/i&gt;Templates&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="accordion-body collapse  in" id="0"&gt;
+            &lt;a href="" class="functionItem selected"&gt;
+                &lt;i class="uiIconEcmsTemplatesManager"&gt;&lt;/i&gt;Documents
+            &lt;/a&gt;
+            &lt;a href="" class="functionItem"&gt;
+                &lt;i class="uiIconEcmsCLVTemplatesManager"&gt;&lt;/i&gt;List
+            &lt;/a&gt;
+            &lt;a href="" class="functionItem"&gt;
+                &lt;i class="uiIconEcmsMetadataManager"&gt;&lt;/i&gt;Metadata
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="accordion-group"&gt;
+        &lt;div class="accordion-heading"&gt;
+            &lt;div class="accordion-toggle collapsed"&gt;
+                &lt;a data-toggle="tab" href="#modals"&gt;&lt;i class="uiIconSelected pull-right"&gt;&lt;/i&gt;Explorer&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="accordion-group"&gt;
+        &lt;div class="accordion-heading"&gt;
+            &lt;div class="accordion-toggle collapsed"&gt;
+                &lt;a data-toggle="tab" href="#modals"&gt;&lt;i class="uiIconSelected pull-right"&gt;&lt;/i&gt;Repository&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="accordion-group"&gt;
+        &lt;div class="accordion-heading"&gt;
+            &lt;div class="accordion-toggle collapsed"&gt;
+                &lt;a data-toggle="tab" href="#modals"&gt;&lt;i class="uiIconSelected pull-right"&gt;&lt;/i&gt;Advanced&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                        </section>
+
+                        <section id="S3">
+                            <div class="page-header">
+                                <h2>Navbar</h2>
+                            </div>
+
+                            <h3>Gray navbar</h3>
+                            <p>
+                                <h7>The gray navigation bar is defined by <code>UIToolbarContainer</code>.</h7>
+                            </p>
+                            <div class="bs-docs-example">
+
+                                <div id="UIToolbarContainer" class="UIContainer UIToolbarContainer UIToolbarContainerLight   ">
+                                    <div class="NormalContainerBlock">
+                                        <div class="LeftContainerBlock">
+                                            <div class="RightContainerBlock UIComponentBlock">
+                                                <div class="VIEW-CONTAINER ToolbarContainer VIEW-BLOCK">
+                                                    <div>
+                                                        <div style="margin: 0px auto; " class="UITableColumnContainer">
+                                                            <div style="zoom: 100%;" class="TRContainer ClearFix">
+                                                                <div class="HomeLinkTDContainer pull-left">
+                                                                    <div id="HomeLink">
+                                                                        <a class="HomeLink" href="">
+                                                                            <img alt="Home" src="../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/HomeIcon.png">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="UIHelpPlatformToolbarPortletTDContainer pull-left">
+                                                                    <div id="UIHelpPlatformToolbarPortlet" class="UIContainer ">
+                                                                        <div class="NormalContainerBlock UIComponentBlock">
+                                                                            <div class="VIEW-CONTAINER VIEW-BLOCK">
+                                                                                <div>
+                                                                                    <div class="UIRowContainer ">
+                                                                                        <div id="60091e47-1e60-4eeb-af49-3f7c988d020a">
+                                                                                            <div style="" class="PORTLET-FRAGMENT">
+
+                                                                                                <div class="uiHelpPLFToolbarPortlet uiDropdownWithIcon">
+                                                                                                    <a class="dropdown-toggle" target="_blank" href="http://docs.exoplatform.com/PLF40/PLFUG.html">
+                                                                                                        <i title="Help" rel="Help" class="uiIconPLF24x24Help"></i>
+                                                                                                    </a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="UserInfoPortletTDContainer pull-left">
+                                                                    <div id="UserInfoPortlet" class="UIContainer ">
+                                                                        <div class="NormalContainerBlock UIComponentBlock">
+                                                                            <div class="VIEW-CONTAINER VIEW-BLOCK">
+                                                                                <div>
+                                                                                    <div class="UIRowContainer ">
+                                                                                        <div id="00b3ff87-1d6e-40c7-b43c-546c08cb439a">
+                                                                                            <div style="" class="PORTLET-FRAGMENT">
+                                                                                                <div id="UIUserPlatformToolBarPortlet" class="uiUserToolBarPortlet uiDropdownWithIcon dropdown pull-right">
+                                                                                                    <a data-toggle="dropdown" class="dropdown-toggle">
+                                                                                                        <img alt="avatar" src="../eXoSkin/skin/images/themes/default/social/skin/ShareImages/UserAvtDefault.png"> Root Root
+                                                                                                    </a>
+                                                                                                    <ul class="dropdown-menu">
+
+                                                                                                        <li class="divider">&nbsp;</li>
+                                                                                                        <li>
+                                                                                                            <a href=""><i class="uiIconSetting"></i>Settings</a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <a href=""><i class="uiIconFlags"></i>Change Language</a>
+                                                                                                        </li>
+                                                                                                        <li class="divider">&nbsp;</li>
+                                                                                                        <li onclick="eXo.portal.logout();">
+                                                                                                            <a href="#"><i class="uiIconPLFLogout"></i>Logout</a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="SearchPortletTDContainer FL">
+                                                                    <div id="SearchPortlet" class="UIContainer ">
+                                                                        <div class="NormalContainerBlock UIComponentBlock">
+                                                                            <div class="VIEW-CONTAINER VIEW-BLOCK">
+                                                                                <div>
+                                                                                    <div class="UIRowContainer ">
+                                                                                        <div id="d5113a45-2161-4739-a735-674cd39235f8">
+                                                                                            <div style="" class="PORTLET-FRAGMENT">
+                                                                                                <div tabindex="0" id="ToolBarSearch" class="uiSearchPlatformToolBarPortlet uiDropdownWithIcon dropdown">
+                                                                                                    <input type="text" style="display: none;" value="Search:" name="adminkeyword" id="adminkeyword-357304">
+                                                                                                    <a class="dropdown-toggle" id="adminSearchLink-357304" href="#">
+                                                                                                        <i class="uiIconPLF24x24Search"></i>
+                                                                                                    </a>
+                                                                                                    <div class="uiQuickSearchResult" id="quickSearchResult-357304" style="display: none;"></div>
+                                                                                                </div>
+                                                                                                <script>
+                                                                                                    initQuickSearch(357304, "See All Search Results", "No result for", "searching..");
+                                                                                                </script>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="UICreatePlatformToolBarPortletIDTDContainer FL">
+                                                                    <div id="UICreatePlatformToolBarPortletID" class="UIContainer ">
+                                                                        <div class="NormalContainerBlock UIComponentBlock">
+                                                                            <div class="VIEW-CONTAINER VIEW-BLOCK">
+                                                                                <div>
+                                                                                    <div class="UIRowContainer ">
+                                                                                        <div id="e6fc6586-50d9-42de-b925-db8593a08e97">
+                                                                                            <div style="" class="PORTLET-FRAGMENT">
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="UISetupPlatformToolBarPortletIDTDContainer FL">
+                                                                    <div id="UISetupPlatformToolBarPortletID" class="UIContainer ">
+                                                                        <div class="NormalContainerBlock UIComponentBlock">
+                                                                            <div class="VIEW-CONTAINER VIEW-BLOCK">
+                                                                                <div>
+                                                                                    <div class="UIRowContainer ">
+                                                                                        <div id="293cdcc0-562b-41c3-8cc1-ab7e80292d4d">
+                                                                                            <div style="" class="PORTLET-FRAGMENT">
+                                                                                                <div id="UISetupPlatformToolBarPortlet" class="uiSetupPlatformToolBarPortlet uiDropdownWithIcon dropdown pull-left">
+                                                                                                    <a data-toggle="dropdown" class="dropdown-toggle">
+                                                                                                        <i class="uiIconPLF24x24Setup"></i>Administration
+                                                                                                    </a>
+                                                                                                    <ul class="dropdown-menu">
+                                                                                                        <li class="dropdown-submenu">
+                                                                                                            <a href="">Users</a>
+                                                                                                            <ul class="dropdown-menu">
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Add Users</a>
+                                                                                                                </li>
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Groups and Roles</a>
+                                                                                                                </li>
+                                                                                                            </ul>
+                                                                                                        </li>
+                                                                                                        <li class="">
+                                                                                                            <a href="">Applications</a>
+                                                                                                        </li>
+                                                                                                        <li class="dropdown-submenu">
+                                                                                                            <a href="">Content</a>
+                                                                                                            <ul class="dropdown-menu">
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Sites Explorer</a>
+                                                                                                                </li>
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Content Administration</a>
+                                                                                                                </li>
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Search</a>
+                                                                                                                </li>
+                                                                                                            </ul>
+                                                                                                        </li>
+                                                                                                        <li class="dropdown-submenu">
+                                                                                                            <a href="">Portal</a>
+                                                                                                            <ul class="dropdown-menu">
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Pages</a>
+                                                                                                                </li>
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Sites</a>
+                                                                                                                </li>
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Group Sites</a>
+                                                                                                                </li>
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Branding</a>
+                                                                                                                </li>
+                                                                                                            </ul>
+                                                                                                        </li>
+                                                                                                        <li class="dropdown-submenu">
+                                                                                                            <a href="">Administration</a>
+                                                                                                            <ul class="dropdown-menu">
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Management</a>
+                                                                                                                </li>
+                                                                                                                <li class="">
+                                                                                                                    <a href="">Monitoring</a>
+                                                                                                                </li>
+                                                                                                            </ul>
+                                                                                                        </li>
+                                                                                                        <li class="">
+                                                                                                            <a href="">IDE</a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="AdminToolBarPortletTDContainer FL">
+                                                                    <div id="AdminToolBarPortlet" class="UIContainer ">
+                                                                        <div class="NormalContainerBlock UIComponentBlock">
+                                                                            <div class="VIEW-CONTAINER VIEW-BLOCK">
+                                                                                <div>
+                                                                                    <div class="UIRowContainer ">
+                                                                                        <div id="0a68dae3-a3db-46d5-8c8a-1e44a246f943">
+                                                                                            <div style="" class="PORTLET-FRAGMENT">
+                                                                                                <div class="UIAdminToolbarPortlet" id="UIAdminToolbarPortlet">
+                                                                                                    <div id="UIAdminToolbarContainer" class="uiAdminToolbarPortlet uiDropdownWithIcon dropdown pull-left">
+                                                                                                        <a data-toggle="dropdown" class="dropdown-toggle">
+                                                                                                            <i class="uiIconPLF24x24Edit"></i>Edit
+                                                                                                        </a>
+                                                                                                        <ul class="dropdown-menu">
+                                                                                                            <li>
+                                                                                                                <a href="">
+																								Content
+																								<i class="quickEditUnchecked"></i>
+																							</a>
+                                                                                                            </li>
+                                                                                                            <li class="divider">&nbsp;</li>
+                                                                                                            <li class="dropdown-submenu">
+                                                                                                                <a tabindex="-1" href="#">
+																								Page
+																							</a>
+                                                                                                                <ul class="dropdown-menu">
+                                                                                                                    <li>
+                                                                                                                        <a href="">
+																										Edit Layout
+																									</a>
+                                                                                                                    </li>
+                                                                                                                    <li>
+                                                                                                                        <div class="seoImgBlock">
+                                                                                                                            <script type="text/javascript">
+                                                                                                                                function openSEOForm(event, command) {
+                                                                                                                                    var evt = event || window.event;
+                                                                                                                                    var mouse_cordinate = evt.clientY + "," + evt.clientX;
+                                                                                                                                    command = command.replace('str', mouse_cordinate);
+                                                                                                                                    command = command.replace(/~/g, "'");
+                                                                                                                                    eval(command);
+                                                                                                                                }
+                                                                                                                            </script>
+                                                                                                                            <div class="UISEOToolbarPorlet">
+                                                                                                                                <form method="post" action="" id="UISEOToolbarForm" class="UIForm">
+                                                                                                                                    <div>
+                                                                                                                                        <input type="hidden" value="" name="formOp">
+                                                                                                                                        <input type="hidden" value="BE9D6294052742B34F75BA49DE7056AF" name="gtn:csrf">
+                                                                                                                                    </div>
+                                                                                                                                    <div class="SEOToolbar">
+                                                                                                                                        <div data-placement="bottom" rel="tooltip" class="Disable" data-original-title="SEO Management"><span>SEO</span><img src="/seo/skin/webui/seo/DefaultSkin/icons/Disabled.png" alt="SEO Management"> </div>
+                                                                                                                                    </div>
+                                                                                                                                </form>
+                                                                                                                            </div>
+                                                                                                                    </li>
+                                                                                                                    <li class="divider">&nbsp;</li>
+                                                                                                                    <li>
+                                                                                                                        <a href="">
+																										Add Page
+																									</a>
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </li>
+                                                                                                            <li class="dropdown-submenu">
+                                                                                                                <a tabindex="-1" href="#">
+																								Site
+																							</a>
+                                                                                                                <ul class="dropdown-menu">
+                                                                                                                    <li>
+                                                                                                                        <a href="">
+																										Layout
+																									</a>
+                                                                                                                    </li>
+                                                                                                                    <li>
+                                                                                                                        <a href="">
+																										Navigation
+																									</a>
+                                                                                                                    </li>
+                                                                                                                    <li class="divider">&nbsp;</li>
+                                                                                                                    <li>
+                                                                                                                        <a onclick="" href="javascript:void(0);">
+																										Add Site
+																									</a>
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <span id="UISEOToolbarFormPopupContainer" class="UISEOToolbarFormPopupContainer"></span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+<pre class="prettyprint linenums">
+&lt;div id="UIToolbarContainer" class="UIContainer UIToolbarContainer UIToolbarContainerLight"&gt;
+    &lt;div class="VIEW-CONTAINER ToolbarContainer VIEW-BLOCK"&gt;
+        &lt;div style="zoom: 100%;" class="TRContainer ClearFix"&gt;
+            &lt;div class="HomeLinkTDContainer pull-left"&gt;
+                &lt;div id="HomeLink"&gt;
+                    &lt;a class="HomeLink" href=""&gt;
+                        &lt;img alt="Home" src="../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/HomeIcon.png"&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="UIHelpPlatformToolbarPortletTDContainer pull-left"&gt;
+                &lt;div class="uiHelpPLFToolbarPortlet uiDropdownWithIcon"&gt;
+                    &lt;a class="dropdown-toggle" target="_blank" href="http://docs.exoplatform.com/PLF40/PLFUG.html"&gt;
+                        &lt;i title="Help" rel="Help" class="uiIconPLF24x24Help"&gt;&lt;/i&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="UserInfoPortletTDContainer pull-left"&gt;
+                &lt;div id="UIUserPlatformToolBarPortlet" class="uiUserToolBarPortlet uiDropdownWithIcon dropdown pull-right"&gt;
+                    &lt;a data-toggle="dropdown" class="dropdown-toggle"&gt;
+                        &lt;img alt="avatar" src="../eXoSkin/skin/images/themes/default/social/skin/ShareImages/UserAvtDefault.png"&gt; Root Root
+                    &lt;/a&gt;
+                    &lt;ul class="dropdown-menu"&gt;
+
+                        &lt;li class="divider"&gt;&nbsp;&lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href=""&gt;&lt;i class="uiIconSetting"&gt;&lt;/i&gt;Settings&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href=""&gt;&lt;i class="uiIconFlags"&gt;&lt;/i&gt;Change Language&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="divider"&gt;&nbsp;&lt;/li&gt;
+                        &lt;li onclick="eXo.portal.logout();"&gt;
+                            &lt;a href="#"&gt;&lt;i class="uiIconPLFLogout"&gt;&lt;/i&gt;Logout&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="SearchPortletTDContainer FL"&gt;
+                &lt;div tabindex="0" id="ToolBarSearch" class="uiSearchPlatformToolBarPortlet uiDropdownWithIcon dropdown"&gt;
+                    &lt;input type="text" style="display: none;" value="Search:" name="adminkeyword" id="adminkeyword-357304"&gt;
+                    &lt;a class="dropdown-toggle" id="adminSearchLink-357304" href="#"&gt;
+                        &lt;i class="uiIconPLF24x24Search"&gt;&lt;/i&gt;
+                    &lt;/a&gt;
+                    &lt;div class="uiQuickSearchResult" id="quickSearchResult-357304" style="display: none;"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                                <p>
+                                    <h3>Dark navbar</h3></p>
+                                <p>The dark navigation bar is defined by <code>UIToolbarContainerDark</code>.</p>
+                                <div class="bs-docs-example">
+                                    <div id="PlatformAdminToolbarContainer">
+
+                                        <div id="UIToolbarContainer" class="UIContainer UIToolbarContainer UIToolbarContainerDark  ">
+                                            <div class="NormalContainerBlock">
+                                                <div class="LeftContainerBlock">
+                                                    <div class="RightContainerBlock UIComponentBlock">
+
+
+                                                        <div class="VIEW-CONTAINER ToolbarContainer VIEW-BLOCK">
+
+                                                            <div>
+
+                                                                <div style="margin: 0px auto; " class="UITableColumnContainer">
+                                                                    <div style="zoom: 100%;" class="TRContainer clearfix">
+
+                                                                        <div class="left-topNavigation-containerTDContainer pull-left">
+                                                                            <div id="left-topNavigation-container" class="UIContainer left-topNavigation-container ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="HomeLinkTDContainer pull-left">
+
+                                                                            <div id="HomeLink">
+                                                                                <a class="HomeLink" href="/portal/intranet/">
+                                                                                    <img alt="Home" src="../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/HomeIcon.png">
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="right-topNavigation-containerTDContainer pull-left">
+                                                                            <div id="right-topNavigation-container" class="UIContainer right-topNavigation-container ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="UIHelpPlatformToolbarPortletTDContainer pull-left">
+                                                                            <div id="UIHelpPlatformToolbarPortlet" class="UIContainer ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                                <div id="b377e323-06bf-474c-bc36-e163ec847c6b">
+                                                                                                    <div style="" class="PORTLET-FRAGMENT">
+
+
+                                                                                                        <div class="uiHelpPLFToolbarPortlet uiDropdownWithIcon">
+                                                                                                            <a data-original-title="Help" rel="tooltip" data-placement="bottom" class="dropdown-toggle" target="_blank" href="http://docs.exoplatform.com/PLF41/PLFUserGuide.GettingStarted.SocialIntranetHomepage.html">
+                                                                                                                <i rel="Help" class="uiIconPLF24x24Help"></i>
+                                                                                                            </a>
+                                                                                                        </div>
+
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="UserInfoPortletTDContainer pull-left">
+                                                                            <div id="UserInfoPortlet" class="UIContainer ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                                <div id="c5e5082f-46a4-4973-a531-eaed01b8be35">
+                                                                                                    <div style="" class="PORTLET-FRAGMENT">
+
+
+                                                                                                        <div id="UIUserPlatformToolBarPortlet" class="uiUserToolBarPortlet uiDropdownWithIcon dropdown pull-right">
+
+                                                                                                            <a data-toggle="dropdown" class="dropdown-toggle">
+
+                                                                                                                <img alt="avatar" src="../eXoSkin/skin/images/themes/default/social/skin/ShareImages/UserAvtDefault.png"> Root Root
+                                                                                                            </a>
+                                                                                                            <ul class="dropdown-menu">
+
+
+                                                                                                                <li>
+                                                                                                                    <a href="/portal/intranet/profile/root"><i class="uiIconPLFProfile"></i>My Profile</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a href="/portal/intranet/activities/root"><i class="uiIconPLFActivityStream"></i>My Activities</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a href="/portal/intranet/connections/network/root"><i class="uiIconPLFMyConnection"></i>My Connections</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a href="/portal/intranet/wiki/user/root/WikiHome"><i class="uiIconWikiMyWiki"></i>My Wiki</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a href="/portal/u/root/Tab_Default"><i class="uiIconPLFDashboard"></i>My Dashboard</a>
+                                                                                                                </li>
+
+                                                                                                                <li>
+                                                                                                                    <a href="/portal/intranet/notifications/root"><i class="uiIconPLFNotifications"></i>My Notifications</a>
+                                                                                                                </li>
+
+
+                                                                                                                <li class="divider">&nbsp;</li>
+                                                                                                                <li>
+                                                                                                                    <a onclick="javascript:if(document.getElementById('UIMaskWorkspace')) ajaxGet(eXo.env.server.createPortalURL('UIPortal', 'AccountSettings', true));" href="javascript:void(0);"><i class="uiIconSetting"></i>Settings</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a onclick="javascript:if(document.getElementById('UIMaskWorkspace')) ajaxGet(eXo.env.server.createPortalURL('UIPortal', 'ChangeLanguage', true));" href="javascript:void(0);"><i class="uiIconFlags"></i>Change Language</a>
+                                                                                                                </li>
+                                                                                                                <li class="divider">&nbsp;</li>
+                                                                                                                <li onclick="eXo.portal.logout();">
+                                                                                                                    <a href="javascript:void(0);"><i class="uiIconPLFLogout"></i>Logout</a>
+                                                                                                                </li>
+                                                                                                            </ul>
+
+                                                                                                        </div>
+
+
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="SearchPortletTDContainer pull-left">
+                                                                            <div id="SearchPortlet" class="UIContainer ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                                <div id="5df0d826-aa52-43e1-954f-830626723121">
+                                                                                                    <div style="" class="PORTLET-FRAGMENT">
+
+
+                                                                                                        <div tabindex="0" id="ToolBarSearch" class="uiSearchPlatformToolBarPortlet uiDropdownWithIcon dropdown">
+                                                                                                            <input type="hidden" value="906874" name="portletId" id="portletIdQuickSearch">
+                                                                                                            <input type="hidden" value="See All Search Results" name="seeAll" id="seeAllQuickSearch">
+                                                                                                            <input type="hidden" value="No result for" name="noResults" id="noResultsQuickSearch">
+                                                                                                            <input type="hidden" value="searching.." name="searching" id="searchingQuickSearch">
+                                                                                                            <input type="text" style="display: none;" value="Search:" name="adminkeyword" id="adminkeyword-906874">
+                                                                                                            <a class="dropdown-toggle" id="adminSearchLink-906874" href="#">
+                                                                                                                <i class="uiIconPLF24x24Search"></i>
+                                                                                                            </a>
+                                                                                                            <div class="uiQuickSearchResult" id="quickSearchResult-906874" style="display: none;"></div>
+                                                                                                        </div>
+
+                                                                                                        <script>
+                                                                                                            window.require(["PORTLET/unified-search/QuicksearchPortlet"], function() {
+                                                                                                                initQuickSearch("906874", "See All Search Results", "No result for", "searching..", 5, "all", true, false);
+                                                                                                            });
+                                                                                                        </script>
+
+
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="UICreatePlatformToolBarPortletIDTDContainer pull-left">
+                                                                            <div id="UICreatePlatformToolBarPortletID" class="UIContainer ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                                <div id="a613c0bb-6e9c-4c26-a91b-094df494d4cd">
+                                                                                                    <div style="" class="PORTLET-FRAGMENT">
+
+
+
+
+
+                                                                                                        <div id="UICreatePlatformToolBarPortlet" class="uiCreateToolBarPortlet uiDropdownWithIcon dropdown pull-right">
+                                                                                                            <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="uiIconPLF24x24Add"></i></a>
+
+
+                                                                                                            <span style="display:none;white-space:nowrap;" class="dropdown-menu"></span>
+                                                                                                            <ul class="dropdown-menu" id="UICreateList">
+
+
+                                                                                                                <li>
+                                                                                                                    <a class="ToolBarActivityIcon" onclick="javascript:ajaxGet('/portal/intranet/?portal:componentId=a613c0bb-6e9c-4c26-a91b-094df494d4cd&amp;interactionstate=JBPNS_rO0ABXdSAAJvcAAAAAEACEFkZEV2ZW50AAhvYmplY3RJZAAAAAEACEFkZEV2ZW50AAt1aWNvbXBvbmVudAAAAAEADFVJQ3JlYXRlTGlzdAAHX19FT0ZfXw**&amp;portal:type=action&amp;ajaxRequest=true')" href="javascript:void(0);"><i class="uiIconPLFEventTask"></i>Event/Task</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a class="ToolBarActivityIcon" onclick="javascript:ajaxGet('/portal/intranet/?portal:componentId=a613c0bb-6e9c-4c26-a91b-094df494d4cd&amp;interactionstate=JBPNS_rO0ABXdKAAJvcAAAAAEABFBvbGwACG9iamVjdElkAAAAAQAEcG9sbAALdWljb21wb25lbnQAAAABAAxVSUNyZWF0ZUxpc3QAB19fRU9GX18*&amp;portal:type=action&amp;ajaxRequest=true')" href="javascript:void(0);"><i class="uiIconPoll"></i>Poll</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a class="ToolBarActivityIcon" onclick="javascript:ajaxGet('/portal/intranet/?portal:componentId=a613c0bb-6e9c-4c26-a91b-094df494d4cd&amp;interactionstate=JBPNS_rO0ABXdMAAJvcAAAAAEABVRvcGljAAhvYmplY3RJZAAAAAEABXRvcGljAAt1aWNvbXBvbmVudAAAAAEADFVJQ3JlYXRlTGlzdAAHX19FT0ZfXw**&amp;portal:type=action&amp;ajaxRequest=true')" href="javascript:void(0);"><i class="uiIconUIForms"></i>Topic</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a class="ToolBarActivityIcon" onclick="javascript:ajaxGet('/portal/intranet/?portal:componentId=a613c0bb-6e9c-4c26-a91b-094df494d4cd&amp;interactionstate=JBPNS_rO0ABXdOAAJvcAAAAAEABlVwbG9hZAAIb2JqZWN0SWQAAAABAAZVcGxvYWQAC3VpY29tcG9uZW50AAAAAQAMVUlDcmVhdGVMaXN0AAdfX0VPRl9f&amp;portal:type=action&amp;ajaxRequest=true')" href="javascript:void(0);"><i class="uiIconUpload"></i>Upload a File</a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                    <a class="ToolBarActivityIcon" onclick="javascript:ajaxGet('/portal/intranet/?portal:componentId=a613c0bb-6e9c-4c26-a91b-094df494d4cd&amp;interactionstate=JBPNS_rO0ABXdKAAJvcAAAAAEABFdpa2kACG9iamVjdElkAAAAAQAEV2lraQALdWljb21wb25lbnQAAAABAAxVSUNyZWF0ZUxpc3QAB19fRU9GX18*&amp;portal:type=action&amp;ajaxRequest=true')" href="javascript:void(0);"><i class="uiIconWikiWiki"></i>Wiki Page</a>
+                                                                                                                </li>
+
+
+                                                                                                            </ul>
+
+                                                                                                        </div>
+
+                                                                                                        <span id="CreatePortletPopUPContainer" class="CreatePortletPopUPContainer"></span>
+
+
+
+
+
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="UISetupPlatformToolBarPortletIDTDContainer pull-left">
+                                                                            <div id="UISetupPlatformToolBarPortletID" class="UIContainer ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                                <div id="eae8a89e-066b-44de-825d-9fdf000b65f8">
+                                                                                                    <div style="" class="PORTLET-FRAGMENT">
+
+
+                                                                                                        <div id="UISetupPlatformToolBarPortlet" class="uiSetupPlatformToolBarPortlet uiDropdownWithIcon dropdown pull-left">
+                                                                                                            <a data-toggle="dropdown" class="dropdown-toggle">
+                                                                                                                <i class="uiIconPLF24x24Setup"></i>Administration
+                                                                                                            </a>
+                                                                                                            <ul class="dropdown-menu">
+                                                                                                                <li class="dropdown-submenu">
+
+                                                                                                                    <a href="/portal/g/:platform:administrators/administration/newStaff">Users</a>
+
+                                                                                                                    <ul class="dropdown-menu">
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/administration/newStaff">Add Users</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/administration/management">Groups and Roles</a>
+
+                                                                                                                        </li>
+
+
+                                                                                                                    </ul>
+
+                                                                                                                </li>
+                                                                                                                <li class="">
+
+                                                                                                                    <a href="/portal/g/:platform:administrators/administration/registry">Applications</a>
+
+                                                                                                                </li>
+                                                                                                                <li class="dropdown-submenu">
+
+                                                                                                                    <a href="/portal/g/:platform:web-contributors/siteExplorer">Content</a>
+
+                                                                                                                    <ul class="dropdown-menu">
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:web-contributors/siteExplorer">Sites Explorer</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:web-contributors/wcmAdmin">Content Administration</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/search">Search</a>
+
+                                                                                                                        </li>
+
+
+                                                                                                                    </ul>
+
+                                                                                                                </li>
+                                                                                                                <li class="dropdown-submenu">
+
+                                                                                                                    <a href="/portal/g/:platform:administrators/administration/pageManagement">Portal</a>
+
+                                                                                                                    <ul class="dropdown-menu">
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/administration/pageManagement">Pages</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/portalnavigation">Sites</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/groupnavigation">Group Sites</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/branding">Branding</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/notification">Email Notifications</a>
+
+                                                                                                                        </li>
+
+
+                                                                                                                    </ul>
+
+                                                                                                                </li>
+                                                                                                                <li class="dropdown-submenu">
+
+                                                                                                                    <a href="/portal/g/:platform:administrators/servicesManagement">Administration</a>
+
+                                                                                                                    <ul class="dropdown-menu">
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/servicesManagement">Management</a>
+
+                                                                                                                        </li>
+                                                                                                                        <li class="">
+
+                                                                                                                            <a href="/portal/g/:platform:administrators/monitoring">Monitoring</a>
+
+                                                                                                                        </li>
+
+
+                                                                                                                    </ul>
+
+                                                                                                                </li>
+
+
+                                                                                                            </ul>
+                                                                                                        </div>
+
+
+
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="AdminToolBarPortletTDContainer pull-left">
+                                                                            <div id="AdminToolBarPortlet" class="UIContainer ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                                <div id="7d116e0f-a459-454d-b6e0-f588d7b84d17">
+                                                                                                    <div style="" class="PORTLET-FRAGMENT">
+                                                                                                        <div class="UIAdminToolbarPortlet" id="UIAdminToolbarPortlet">
+
+                                                                                                            <div id="UIAdminToolbarContainer" class="uiAdminToolbarPortlet uiDropdownWithIcon dropdown pull-left">
+                                                                                                                <a data-toggle="dropdown" class="dropdown-toggle">
+                                                                                                                    <i class="uiIconPLF24x24Edit"></i>Edit
+                                                                                                                </a>
+
+                                                                                                                <ul class="dropdown-menu">
+
+                                                                                                                    <li>
+                                                                                                                        <a onclick="javascript:ajaxGet('/portal/intranet/?portal:componentId=7d116e0f-a459-454d-b6e0-f588d7b84d17&amp;interactionstate=JBPNS_rO0ABXdKAAJvcAAAAAEADUNoYW5nZUVkaXRpbmcAC3VpY29tcG9uZW50AAAAAQAXVUlBZG1pblRvb2xiYXJDb250YWluZXIAB19fRU9GX18*&amp;portal:type=action&amp;ajaxRequest=true')" href="javascript:void(0);">
+					Content
+					<i class="quickEditUnchecked"></i>
+				</a>
+                                                                                                                    </li>
+                                                                                                                    <li class="divider">&nbsp;</li>
+
+
+                                                                                                                    <li class="dropdown-submenu">
+                                                                                                                        <a tabindex="-1" href="#">
+					Page
+				</a>
+                                                                                                                        <ul class="dropdown-menu">
+
+                                                                                                                            <li>
+                                                                                                                                <a onclick="javascript:ajaxGet(eXo.env.server.createPortalURL('1198554115', 'EditCurrentPage', true))" href="javascript:void(0);">
+							Edit Layout
+						</a>
+                                                                                                                            </li>
+                                                                                                                            <li>
+                                                                                                                                <div class="seoImgBlock">
+                                                                                                                                    <script type="text/javascript">
+                                                                                                                                        function openSEOForm(event, command) {
+                                                                                                                                            var evt = event || window.event;
+                                                                                                                                            var mouse_cordinate = evt.clientY + "," + evt.clientX;
+                                                                                                                                            command = command.replace('str', mouse_cordinate);
+                                                                                                                                            command = command.replace(/~/g, "'");
+                                                                                                                                            eval(command);
+                                                                                                                                        }
+                                                                                                                                    </script>
+                                                                                                                                    <div class="UISEOToolbarPorlet">
+
+                                                                                                                                        <form method="post" action="/portal/intranet/?portal:componentId=7d116e0f-a459-454d-b6e0-f588d7b84d17&amp;interactionstate=JBPNS_rO0ABXcsAAt1aWNvbXBvbmVudAAAAAEAEFVJU0VPVG9vbGJhckZvcm0AB19fRU9GX18*&amp;portal:type=action" id="UISEOToolbarForm" class="UIForm">
+                                                                                                                                            <div>
+                                                                                                                                                <input type="hidden" value="" name="formOp">
+                                                                                                                                                <input type="hidden" value="E6D80F71C063C86A028CBCF65BC41370" name="gtn:csrf">
+                                                                                                                                            </div>
+                                                                                                                                            <div class="SEOToolbar">
+
+                                                                                                                                                <div onclick="openSEOForm(event, 'javascript:eXo.webui.UIForm.submitEvent(~7d116e0f-a459-454d-b6e0-f588d7b84d17#UISEOToolbarForm~,~AddSEO~,~&amp;objectId=str~)')" title="" data-placement="bottom" rel="tooltip" class="Enable" data-original-title="SEO Management"><span>SEO </span><img src="/seo/skin/webui/seo/DefaultSkin/icons/Empty.png" style="margin-top: -5px;" alt="SEO Management"></div>
+
+                                                                                                                                            </div>
+                                                                                                                                        </form>
+                                                                                                                                    </div>
+
+                                                                                                                                </div>
+                                                                                                                            </li>
+                                                                                                                            <li class="divider">&nbsp;</li>
+                                                                                                                            <li>
+                                                                                                                                <a onclick="ajaxGet(eXo.env.server.createPortalURL('UIWorkingWorkspace', 'PageCreationWizard', true))" href="javascript:void(0);">
+							Add Page
+						</a>
+                                                                                                                            </li>
+                                                                                                                        </ul>
+                                                                                                                    </li>
+
+
+                                                                                                                    <li class="dropdown-submenu">
+                                                                                                                        <a tabindex="-1" href="#">
+					Site
+				</a>
+                                                                                                                        <ul class="dropdown-menu">
+
+                                                                                                                            <li>
+                                                                                                                                <a onclick="ajaxGet(eXo.env.server.createPortalURL('UIWorkingWorkspace', 'EditInline', true))" href="javascript:void(0);">
+							Layout
+						</a>
+                                                                                                                            </li>
+
+
+                                                                                                                            <li>
+                                                                                                                                <a onclick="javascript:ajaxGet('/portal/intranet/?portal:componentId=7d116e0f-a459-454d-b6e0-f588d7b84d17&amp;interactionstate=JBPNS_rO0ABXdLAAJvcAAAAAEADkVkaXROYXZpZ2F0aW9uAAt1aWNvbXBvbmVudAAAAAEAF1VJQWRtaW5Ub29sYmFyQ29udGFpbmVyAAdfX0VPRl9f&amp;portal:type=action&amp;ajaxRequest=true')" href="javascript:void(0);">
+							Navigation
+						</a>
+                                                                                                                            </li>
+
+
+                                                                                                                            <li class="divider">&nbsp;</li>
+                                                                                                                            <li>
+                                                                                                                                <a onclick="javascript:ajaxGet(eXo.env.server.createPortalURL('UIWorkingWorkspace', 'CreatePortal', true))" href="javascript:void(0);">
+							Add Site
+						</a>
+                                                                                                                            </li>
+
+                                                                                                                        </ul>
+                                                                                                                    </li>
+
+                                                                                                                </ul>
+
+                                                                                                            </div>
+                                                                                                            <span id="UISEOToolbarFormPopupContainer" class="UISEOToolbarFormPopupContainer"></span>
+                                                                                                        </div>
+
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="middle-topNavigation-containerTDContainer pull-left">
+                                                                            <div id="middle-topNavigation-container" class="UIContainer middle-topNavigation-container ">
+
+                                                                                <div class="NormalContainerBlock UIComponentBlock">
+
+                                                                                    <div class="VIEW-CONTAINER VIEW-BLOCK">
+
+
+                                                                                        <div>
+                                                                                            <div class="UIRowContainer ">
+
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+<pre class="prettyprint linenums">
+&lt;div id="UIToolbarContainer" class="UIContainer UIToolbarContainer UIToolbarContainerDark"&gt;
+    &lt;div class="VIEW-CONTAINER ToolbarContainer VIEW-BLOCK"&gt;
+        &lt;div style="zoom: 100%;" class="TRContainer ClearFix"&gt;
+            &lt;div class="HomeLinkTDContainer pull-left"&gt;
+                &lt;div id="HomeLink"&gt;
+                    &lt;a class="HomeLink" href=""&gt;
+                        &lt;img alt="Home" src="../eXoSkin/skin/images/themes/default/platform/skin/ToolbarContainer/HomeIcon.png"&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="UIHelpPlatformToolbarPortletTDContainer pull-left"&gt;
+                &lt;div class="uiHelpPLFToolbarPortlet uiDropdownWithIcon"&gt;
+                    &lt;a class="dropdown-toggle" target="_blank" href="http://docs.exoplatform.com/PLF40/PLFUG.html"&gt;
+                        &lt;i title="Help" rel="Help" class="uiIconPLF24x24Help"&gt;&lt;/i&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="UserInfoPortletTDContainer pull-left"&gt;
+                &lt;div id="UIUserPlatformToolBarPortlet" class="uiUserToolBarPortlet uiDropdownWithIcon dropdown pull-right"&gt;
+                    &lt;a data-toggle="dropdown" class="dropdown-toggle"&gt;
+                        &lt;img alt="avatar" src="../eXoSkin/skin/images/themes/default/social/skin/ShareImages/UserAvtDefault.png"&gt; Root Root
+                    &lt;/a&gt;
+                    &lt;ul class="dropdown-menu"&gt;
+
+                        &lt;li class="divider"&gt;&nbsp;&lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href=""&gt;&lt;i class="uiIconSetting"&gt;&lt;/i&gt;Settings&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href=""&gt;&lt;i class="uiIconFlags"&gt;&lt;/i&gt;Change Language&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="divider"&gt;&nbsp;&lt;/li&gt;
+                        &lt;li onclick="eXo.portal.logout();"&gt;
+                            &lt;a href="#"&gt;&lt;i class="uiIconPLFLogout"&gt;&lt;/i&gt;Logout&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="SearchPortletTDContainer FL"&gt;
+                &lt;div tabindex="0" id="ToolBarSearch" class="uiSearchPlatformToolBarPortlet uiDropdownWithIcon dropdown"&gt;
+                    &lt;input type="text" style="display: none;" value="Search:" name="adminkeyword" id="adminkeyword-357304"&gt;
+                    &lt;a class="dropdown-toggle" id="adminSearchLink-357304" href="#"&gt;
+                        &lt;i class="uiIconPLF24x24Search"&gt;&lt;/i&gt;
+                    &lt;/a&gt;
+                    &lt;div class="uiQuickSearchResult" id="quickSearchResult-357304" style="display: none;"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+                        </section>
+
+                        </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.main-content -->
+
+        <div id="footer">
+            Copyright ©2017. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+        </div>
+
+        <div class="mobile-offcanvas">
+            <div class="menu-main-menu-container">
+                <ul class="menu" id="primary-menu">
+                    <li>
+                        <div>
+                            <div class="btn-group">
+                                <a href="../skin-module/Navigation/Navigation.html" class="btn btn-small active">Default Theme</a>
+                                <a href="Navigation.html" class="btn btn-small">Enterprise Theme</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="http://community.exoplatform.com/downloads" target="_blank" class="btn btn-primary"><i class="uiIconDownload"></i> Download eXo Platform</a>
+                            <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> Learn more about eXo Platform</a>
+                        </div>
+                    </li>
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li class="has-sub active">
+                        <a href="../Components.html">Components</a>
+                        <ul class="sub-menu">
+                            <li><a href="../Typography/Typography.html">Typography</a></li>
+                            <li><a href="../Form/Form.html">Form</a></li>
+                            <li><a href="../Button/Button.html">Button</a></li>
+                            <li><a href="../Tables/Tables.html">Table</a></li>
+                            <li><a href="../Avatar/Avatar.html">Avatar</a></li>
+                            <li><a href="../Icons/Icons.html">Icon</a></li>
+                            <li class="active"><a href="../Navigation/Navigation.html">Navigation</a></li>
+                            <li><a href="../Dropdown/Dropdown.html">Dropdown</a></li>
+                            <li><a href="../MiniCalendar/MiniCalendar.html">Mini Calendar</a></li>
+                            <li><a href="../ProgressBars/ProgressBars.html">Progress bar</a></li>
+                            <li><a href="../Alerts/Alerts.html">Alert</a></li>
+                            <li><a href="../TooltipandPopover/TooltipandPopover.html">Tooltip and Popover</a></li>
+                            <li><a href="../Thumbnail/Thumbnail.html">Thumbnail</a></li>
+                            <li><a href="../Mention/Mention.html">Mention</a></li>
+                            <li><a href="../Color/Color.html">Color</a></li>
+                            <li><a href="../Trees/Trees.html">Trees</a></li>
+                            <li><a href="../BadgeAndLoading/BadgeAndLoading.html">Badge and Loading</a></li>
+                            <li><a href="../Classes/Classes.html">CSS Classes</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub">
+                        <a href="../Patterns.html">Patterns</a>
+                        <ul class="sub-menu">
+                            <li><a href="../BreadcrumbPattern/BreadcrumbPattern.html">Breadcrumb</a></li>
+                            <li><a href="../HoverrevealActionsPattern/HoverrevealActionsPattern.html">Hover-reveal</a></li>
+                            <li><a href="../MessagesPattern/MessagesPattern.html">Message</a></li>
+
+                            <li><a href="../Pop-upWindowPattern/PopupWindowPattern.html">Popup</a></li>
+                            <li><a href="../PaginationPattern/PaginationPattern.html">Pagination</a></li>
+                            <li><a href="../TabPattern/Tabs.html">Tabs</a></li>
+
+                            <li><a href="../TabPattern/Tabs.html">Sort by Column</a></li>
+                            <li><a href="../TabPattern/Tabs.html">Table Filter</a></li>
+                            <li><a href="../TabPattern/Tabs.html">Rating</a></li>
+
+                            <li><a href="../TabPattern/Tabs.html">Uploading</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Le javascript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script type="text/javascript" src="../js/widgets.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/prettify.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
+        <script src="../js/application-update.js"></script>
+        <!-- syntaxhighlighter -->
+        <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+
+        <!-- Analytics -->
+        <script>
+            var _gauges = _gauges || [];
+            (function() {
+                var t = document.createElement('script');
+                t.type = 'text/javascript';
+                t.async = true;
+                t.id = 'gauges-tracker';
+                t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+                t.src = '//secure.gaug.es/track.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(t, s);
+            })();
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("[rel=tooltip]").tooltip();
+            });
+        </script>
+</body>
+
+</html>

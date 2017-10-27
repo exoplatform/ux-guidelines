@@ -1,0 +1,146 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/**************** variables *********************/
+/**************** mixin *************************/
+/*************** less *******************/
+.uiGroupsNavigationPortlet .title {
+  text-transform: uppercase;
+  color: #2f5e92;
+  background-color: #f1f1f1;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
+  height: 40px;
+  line-height: 41px;
+  padding: 0 15px;
+  margin: 0;
+  -webkit-box-shadow: inset 0 1px 0 @baseBackground,0 1px 0 @baseBackground;
+  -moz-box-shadow: inset 0 1px 0 @baseBackground,0 1px 0 @baseBackground;
+  box-shadow: inset 0 1px 0 @baseBackground,0 1px 0 @baseBackground;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  text-shadow: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.uiGroupsNavigationPortlet .title a {
+  color: #2f5e92;
+}
+.uiGroupsNavigationPortlet .groupNavigation {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0 15px 0;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem > div {
+  padding: 8px 10px 0;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem > div .groupIcon {
+  margin-left: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem > div i + .groupIcon {
+  margin-left: 4px;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem > div .uiIconArrowDown {
+  background-position: 2px -118px;
+  cursor: pointer;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem .groupItem .groupIcon {
+  margin-left: 35px;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem .active {
+  margin: 8px 0 0 ;
+  padding: 7px 10px;
+  position: relative;
+  background: #ffffff;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.11);
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem .active:after {
+  background: #578dc9;
+  border: 1px solid #224469;
+  border-left: 0;
+  -webkit-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.14);
+  -moz-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.14);
+  box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.14);
+  content: "";
+  height: 34px;
+  left: 0;
+  top: -1px;
+  position: absolute;
+  width: 5px;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupItem .active > a {
+  font-weight: bold;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupIcon {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: #808080;
+}
+.uiGroupsNavigationPortlet .groupNavigation .groupIcon:hover {
+  color: #2f5e92;
+}

@@ -1,0 +1,1635 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+[class^="uiIconCal"],
+.LeftNavigationTDContainer .uiPopup [class^="uiIconCal"] {
+  color: #999999;
+}
+/* Blue icons with optional class, or on hover/active states of certain elements */
+.nav-pills > .active > a > [class^="uiIconCal"],
+.nav-list > .active > a > [class^="uiIconCal"],
+.navbar-inverse .nav > .active > a > [class^="uiIconCal"],
+.dropdown-menu > li > a:hover > [class^="uiIconCal"],
+.dropdown-menu > .active > a > [class^="uiIconCal"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconCal"],
+.btn:hover [class^="uiIconCal"],
+a:hover [class^="uiIconCal"],
+.UICalendarPortlet .actionIcon:hover [class^="uiIconCal"],
+.uiCalendarPortlet .actionIcon:hover [class^="uiIconCal"],
+.uiIconCalBlue {
+  color: #2f5e92;
+}
+/* light grey icons with optional class, or on  */
+.dropdown-menu li a > [class^="uiIconCal"],
+.dropdown-menu .active a > [class^="uiIconCal"],
+.uiDropdownWithIcon .dropdown-submenu a [class^="uiIconCal"],
+.uiDropDownCal li a [class^="uiIconCal"],
+.uiDropDownCal .active a [class^="uiIconCal"],
+.uiIconCalLightGray {
+  color: #999999;
+}
+.LeftNavigationTDContainer [class^="uiIconCal"] {
+  color: #626262;
+}
+/* White icons with optional class, or on hover/active states of Drop down with Icons */
+.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconCal"],
+.uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconCal"],
+.uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconCal"],
+.uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconCal"],
+.uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconCal"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconCal"],
+.btn-primary [class^="uiIconCal"],
+.btn-primary:hover [class^="uiIconCal"],
+.uiDropDownCal > li > a:hover > [class^="uiIconCal"],
+.uiDropDownCal > .active > a > [class^="uiIconCal"],
+[class^="uiIconCal"].uiIconWhite,
+.uiDayView [class^="uiIconCal"],
+.uiWeekView [class^="uiIconCal"],
+.uiMonthView [class^="uiIconCal"],
+.btn-primary:hover [class^="uiIconCal"],
+.btn-primary:hover [class^="uiIconCal"]:hover,
+.uiIconCalWhite {
+  color: #ffffff;
+}
+.dropdown-menu > li > a > .uiIconCalDarkGray,
+.breadcrumb .uiIconCalDarkGray,
+.dropdown-menu > .active > a > .uiIconCalDarkGray,
+.uiDropdownWithIcon .dropdown-submenu > a > .uiIconCalDarkGray,
+.uiIconCalExtra,
+.uiIconCalDarkGray {
+  color: #626262;
+}
+.uiIconCalnullPriority,
+.uiIconCalnonePriority {
+  display: none;
+}
+.uiIconCalWatchMini:before {
+  content: "\e79b";
+}
+.uiIconCalSettingMini:before {
+  content: "\e78b";
+}
+.uiIconCalInviteUser:before {
+  content: "\e6c4";
+}
+.uiIconCalRejectUser:before {
+  content: "\e6c5";
+}
+.uiIconCalPlus:before,
+.uiIconCalSimplePlus:before {
+  content: "\e74b";
+}
+.uiIconCalRefresh:before {
+  content: "\e797";
+}
+.uiIconCalTaskMini:before {
+  content: "\e611";
+}
+.uiIconCalClockMini:before {
+  content: "\e742";
+}
+.uiIconCalCheckinMini:before {
+  content: "\e782";
+}
+.uiIconCalFlagHigh:before,
+.uiIconCalhighPriority:before,
+.uiIconCalFlagNormal:before,
+.uiIconCalnormalPriority:before,
+.uiIconCalFlagLow:before,
+.uiIconCallowPriority:before {
+  content: "\e746";
+}
+.uiIconCalFlagHigh,
+.uiIconCalhighPriority {
+  color: #c72222;
+}
+.uiIconCalFlagNormal,
+.uiIconCalnormalPriority {
+  color: #ff9916;
+}
+.uiIconCalFlagLow,
+.uiIconCallowPriority {
+  color: #39c522;
+}
+.eventContainerBar [class^="uiIconCal"],
+.eventSummary [class^="uiIconCal"] {
+  width: 14px;
+  font-size: 10px;
+}
+.eventContainerBar .uiIconCalClockMini,
+.eventContainerBar .uiIconCalTaskMini {
+  margin-left: 4px;
+}
+.uiIconCalSimplePlus {
+  font-size: 9px;
+}
+/*============== ContentContainer uiCalendars ================*/
+.uiCalendars {
+  margin-top: 24px;
+}
+.uiCalendars .title {
+  padding-right: 7px;
+}
+.uiCalendars .myCalendar {
+  margin: 0 0 5px 0;
+}
+.uiCalendars .contentContainer {
+  padding: 7px;
+  margin: 0px;
+}
+.uiCalendars .contentContainer a {
+  line-height: 12px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  float: left;
+  margin: 1px 4px 0 0;
+  color: #333333;
+}
+.uiCalendars .calendarTitle {
+  background-color: #f0f0f0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  line-height: 26px;
+  padding: 0 14px;
+  margin: 0px;
+  font-weight: normal;
+}
+.uiCalendars .myCalendarContainer li {
+  height: 14px;
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
+  padding: 3px 3px 3px 6px;
+  margin: 3px 0;
+}
+.uiCalendars .myCalendarContainer li .uiIconCalSettingMini {
+  display: none;
+}
+.uiCalendars .myCalendarContainer li:hover {
+  background-color: #f8f8f8;
+  border: solid 1px #f0f0f0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiCalendars .myCalendarContainer li:hover .uiIconCalSettingMini {
+  display: inline-block;
+  cursor: pointer;
+}
+.uiCalendars .myCalendarContainer .colorOpacity {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  width: 12px;
+  height: 12px;
+}
+.uiCalendars .myCalendarContainer .calendarName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 130px;
+  height: 18px;
+}
+.uiCalendars .myCalendarContainer .uiVTabContent {
+  padding: 4px 0 4px 9px;
+}
+.defaultCalendarTab .myCalendarContainer .calendarName {
+  width: 95%;
+}
+.uiCalendarSharedForm .calendarName {
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 10px 5px;
+}
+.calendarWorkingWorkspace {
+  padding: 20px 20px 0 20px;
+}
+.calendarWorkingWorkspace .uiActionBar {
+  margin: 0 0 15px 0;
+}
+/**=========================calNotification===========================*/
+.uiCalNotification {
+  min-width: 250px;
+  position: absolute;
+  right: 30px;
+  top: 124px;
+  z-index: 2;
+}
+.uiCalNotification .pull-left + .text,
+.uiCalNotification .title {
+  margin-left: 32px;
+  line-height: 18px;
+}
+.uiCalNotification i {
+  width: 16px;
+  height: 16px;
+}
+.uiCalNotification .description {
+  color: #808080;
+}
+.uiCalendars.defaultCalendarTab {
+  margin-top: 0;
+}
+.uiCalendars.defaultCalendarTab .settingNotice {
+  margin: 0 0 10px 0;
+}
+.calendarCheckboxBlock .checkbox {
+  left: 2px;
+  padding: 0;
+  top: -4px;
+}
+/*============== TableView ================*/
+.uiCalendarViewContainer .table {
+  margin-bottom: 0;
+}
+.uiCalendarViewContainer .uiGrid.table .colsTime .displayBorderTop {
+  border-top: solid 1px #e6e6e6;
+}
+.uiCalendarViewContainer .uiGrid.table .colsTime .noDisplayBorderTop {
+  border-top: solid 1px #ffffff;
+}
+.uiCalendarViewContainer .uiGrid.table td {
+  padding: 0;
+  border-left: 1px solid #e6e6e6;
+  line-height: 19px;
+}
+.uiCalendarViewContainer .uiGrid.table .tdDotLine {
+  border-top: dotted 1px #e6e6e6;
+}
+.uiCalendarViewContainer .uiGrid.table .tdLine {
+  border-top: solid 1px #e6e6e6;
+}
+.uiCalendarViewContainer .uiGrid.table .tdTime {
+  border-top: solid 1px #e6e6e6;
+}
+.uiCalendarViewContainer .uiGrid.table tr {
+  line-height: 19px;
+}
+.uiCalendarViewContainer .uiGrid.table tr:first-child,
+.uiCalendarViewContainer .uiGrid.table tr th:first-child {
+  border-top: none;
+}
+.uiCalendarViewContainer .uiGrid .title {
+  padding: 0;
+}
+.uiCalendarViewContainer .uiGrid.table {
+  border: none;
+}
+.colorBox {
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.eventDescription {
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.uiCalPopover .popover-content .description {
+  padding: 0 0 0 20px;
+  color: #999999;
+}
+.uiCalPopover .popover-content .title {
+  font-weight: bold;
+}
+.uiCalPopover .popover-content .text {
+  margin: 0 0 8px 20px;
+  word-wrap: break-word;
+  line-height: 16px;
+}
+.uiCalPopover .popover-content .pull-left i {
+  position: relative;
+  top: -2px;
+  font-size: 10px;
+}
+/*============== uiCalendarView ================*/
+.DummyDNDClass {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+}
+.uiCalendarViewContainer .uiBox .uiGrid.table tr td:first-child {
+  border-left: none;
+}
+.uiCalendarViewContainer .uiBox .title {
+  position: relative;
+  padding: 5px 10px;
+}
+.eventAllDay .eventContainerBorder,
+.eventAlldayContainer .eventContainerBorder {
+  border-top: solid 2px #ffffff;
+}
+.eventAllDay .eventContainerBorder:last-child,
+.eventAlldayContainer .eventContainerBorder:last-child {
+  border-bottom: solid 2px #ffffff;
+}
+.moreEventLabel {
+  text-align: right;
+  padding-right: 5px;
+  color: #2f5e92;
+  cursor: pointer;
+  font-size: 12px;
+}
+.leftContinueEvent,
+.rightContinueEvent {
+  height: 16px;
+  line-height: 16px;
+}
+.leftBorderControl,
+.leftContinueEvent {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.rightBorderControl,
+.rightContinueEvent {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+.leftContinueEvent {
+  border-right: solid 1px #ffffff;
+}
+.rightContinueEvent {
+  border-left: solid 1px #ffffff;
+}
+.eventContainer {
+  overflow: hidden;
+  padding-left: 5px;
+  color: #ffffff;
+  line-height: 16px;
+}
+.eventAlldayBoard .eventContainer {
+  padding-left: 0;
+}
+.eventDayContent .eventContainerBorder,
+.eventWeekContent .eventContainerBorder {
+  position: absolute;
+  color: #ffffff;
+}
+.eventDayContent .eventContainerBorder:hover .resizeEventContainer,
+.eventWeekContent .eventContainerBorder:hover .resizeEventContainer {
+  display: block;
+}
+.eventDayContent .eventContainerBar,
+.eventWeekContent .eventContainerBar {
+  -moz-user-select: none;
+  cursor: move;
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 5px;
+}
+.eventDayContent .resizeEventContainer,
+.eventWeekContent .resizeEventContainer {
+  background: none;
+  cursor: n-resize;
+  height: 5px;
+  width: 100%;
+  display: none;
+  position: absolute;
+  bottom: 0px;
+}
+.eventDayContent .resizeEventContainer span,
+.eventWeekContent .resizeEventContainer span {
+  display: block;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  cursor: n-resize;
+  height: 1px;
+  margin: auto;
+  max-width: 13px;
+  width: 20%;
+}
+.eventDayContent .eventContainer + .resizeEventContainer,
+.eventWeekContent .eventContainer + .resizeEventContainer {
+  margin-top: 0;
+}
+.uiDayView .WorkOffTime,
+.uiWeekView .WorkOffTime {
+  background-color: #f0f0f0;
+}
+/*==============weekview================*/
+.uiWeekView .today {
+  background: #f0f0f0;
+}
+.uiWeekView .today a {
+  line-height: 32px;
+  font-size: 12px;
+}
+.uiWeekView .eventAlldayContent {
+  padding: 0 0 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uiWeekView .leftContinueEvent + .rightContinueEvent + .eventAlldayContent {
+  padding: 0 0 0 20px;
+}
+.eventWeekBar > table {
+  background: #f8f8f8;
+}
+.eventWeekBar > table tr td {
+  border-bottom: solid 1px #e6e6e6;
+}
+.eventWeekBar > table tr td.today {
+  background: #f0f0f0;
+}
+.eventWeekBar > table tr td a {
+  color: #333333;
+}
+.eventTitle {
+  background: rgba(0, 0, 0, 0.2);
+}
+.UICalendarViewContainer .uiGrid.table tr td,
+.uiCalendarViewContainer .uiGrid.table tr td {
+  font-size: 12px;
+}
+.UICalendarViewContainer .uiBox.uiWeekView,
+.uiCalendarViewContainer .uiBox.uiWeekView,
+.UICalendarViewContainer .uiBox.uiDayView,
+.uiCalendarViewContainer .uiBox.uiDayView,
+.UICalendarViewContainer .uiBox.uiMonthView,
+.uiCalendarViewContainer .uiBox.uiMonthView,
+.UICalendarViewContainer .uiBox.uiListContainer,
+.uiCalendarViewContainer .uiBox.uiListContainer {
+  margin-bottom: 0;
+}
+.UICalendarViewContainer .resizeButton,
+.uiCalendarViewContainer .resizeButton {
+  height: 16px;
+  top: 50%;
+  margin-top: -8px;
+  left: -18px;
+  position: absolute;
+  cursor: pointer;
+}
+.UICalendarViewContainer .resizeButton:hover .uiIconMiniArrowLeft,
+.uiCalendarViewContainer .resizeButton:hover .uiIconMiniArrowLeft {
+  color: #2f5e92;
+}
+.UserSelectionBlock,
+.userSelectionBlock {
+  -moz-user-select: none;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: absolute;
+  background: #cccccc;
+}
+.moreEventTitleBar {
+  cursor: pointer;
+}
+/*===============uiWeekView====================*/
+/*move to new forder later*/
+.uiWeekView .uiGrid.table tr,
+.uiWeekView .uiGrid.table tr td,
+.uiWeekView .td div {
+  height: 19px;
+  /*fix bug for javasript weekview */
+
+}
+/*============== uiHeaderBar ================*/
+.uiHeaderBar {
+  min-height: 27px;
+}
+.uiHeaderBar table {
+  margin: auto;
+  width: auto;
+}
+.uiHeaderBar .titleHeader {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 216px;
+  line-height: 24px;
+  text-align: center;
+}
+.uiHeaderBar .titleBar {
+  line-height: 24px;
+  vertical-align: middle;
+}
+.uiHeaderBar > .actionIcon.pull-left i {
+  top: 1px!important;
+}
+/*============== uiActionBar ================*/
+.uiActionBar .UIForm {
+  float: right;
+}
+.uiActionBar .uiSearchInput input[type="text"] {
+  width: 180px;
+}
+.uiActionBar .settingActionBar {
+  margin: 2px 15px 0 10px;
+}
+.uiActionBar .leftActionBar {
+  margin-right: 260px;
+}
+.uiActionBar .separatorLine {
+  background: #cccccc;
+  -webkit-box-shadow: 1px 0 0 #ffffff;
+  -moz-box-shadow: 1px 0 0 #ffffff;
+  box-shadow: 1px 0 0 #ffffff;
+  width: 1px;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+.uiActionBar .separatorLine.pull-right {
+  top: 1px;
+  position: relative;
+}
+.uiActionBar .alignBtnGroup {
+  text-align: center;
+}
+.uiActionBar .alignBtnGroup .btn a {
+  color: #333333;
+}
+.uiActionBar .alignBtnGroup .btn a:active {
+  color: #2f5e92;
+}
+.uiActionBar .alignBtnGroup .btn.active a {
+  color: #2f5e92;
+}
+.uiActionBar .alignBtnGroup .moreItem {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+.uiActionBar .alignBtnGroup .moreItem .uiIconMiniArrowDown {
+  margin-left: 5px;
+}
+.uiActionBar .alignBtnGroup .moreItem:first-child {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiActionBar .alignBtnGroup .dropdown-menu {
+  text-align: left;
+}
+.uiActionBar .alignBtnGroup .dropdown-menu a {
+  text-shadow: none;
+}
+.uiActionBar .alignBtnGroup .dropdown-menu a:hover {
+  color: #ffffff;
+}
+.uiActionBar .alignBtnGroup .dropdown-menu li.active a {
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15) inset;
+}
+.uiActionBar .alignBtnGroup .dropdown-menu li.active a:hover {
+  color: #333333;
+}
+.uiActionBar .dropdownMore {
+  text-align: left;
+  right: 0;
+  left: auto;
+}
+.uiActionBar .pull-left .btn-primary {
+  margin-right: 8px;
+}
+.uiActionBar .pull-left .btn-primary + .btn-primary {
+  margin-right: 43px;
+}
+.uiActionBar .pull-left .todayActionBar {
+  margin: 0 15px 0 10px;
+  color: #333333;
+  vertical-align: middle;
+}
+/*============== uiFormColorPicker ================*/
+.iconCheckBox {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  min-height: 0;
+}
+.iconCheckBox:before {
+  content: "\e76f";
+  color: white;
+  font-size: 9px;
+}
+.form-horizontal .control-group .controls .uiFormColorPicker {
+  padding-top: 6px;
+}
+.uiFormColorPicker {
+  position: static;
+  display: inline-block;
+}
+.uiFormColorPicker .calendarTableColor {
+  padding: 10px;
+  min-width: 130px;
+  left: -30px;
+  margin-top: 8px;
+}
+.uiFormColorPicker .calendarTableColor:after,
+.uiFormColorPicker .calendarTableColor:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+.uiFormColorPicker .calendarTableColor:after {
+  left: 36px;
+  top: -6px;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+.uiFormColorPicker .calendarTableColor:before {
+  border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  left: 35px;
+  top: -7px;
+}
+.uiFormColorPicker .displayValue {
+  width: 28px;
+  height: 18px;
+  cursor: pointer;
+  display: block;
+  text-align: right;
+  -webkit-border-radius: 1.5px;
+  -moz-border-radius: 1.5px;
+  border-radius: 1.5px;
+}
+.uiFormColorPicker .displayValue span {
+  margin: 9px 1px 0 0;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);
+  line-height: 8px;
+}
+.uiFormColorPicker .displayValue span .caret {
+  margin: 3px 1px 0 0;
+  border-left: 3px solid transparent;
+  border-top: 3px solid #999999;
+  border-right: 3px solid transparent;
+}
+/*============== uiMiniCalendar ================*/
+.uiMiniCalendar .highLight {
+  font-weight: bold;
+}
+.uiMiniCalendar hr {
+  margin: 0;
+}
+.uiMiniCalendar h5.title {
+  text-align: center;
+}
+.uiMiniCalendar h5.title span a {
+  color: #333333;
+}
+.uiMiniCalendar table {
+  border-collapse: separate;
+}
+.uiMiniCalendar table tr td {
+  border: 1px solid transparent;
+  text-align: center;
+}
+.uiMiniCalendar table.weekList {
+  padding: 0 9px;
+  margin: 2px 0;
+  font-size: 11px;
+}
+.uiMiniCalendar table.weekDays {
+  padding: 0 9px 9px 9px;
+  font-size: 12px;
+}
+.uiMiniCalendar table.weekDays tr {
+  line-height: 22px;
+}
+.uiMiniCalendar table.weekDays tr td:hover {
+  background-color: #f0f0f0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiMiniCalendar table.weekDays tr td.otherMonth {
+  color: #999999;
+}
+.uiMiniCalendar table.weekDays tr td.today {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.uiMiniCalendar table.weekDays tr.currentWeek td {
+  background-color: #f0f0f0;
+}
+.uiMiniCalendar table.weekDays tr.currentWeek td:hover {
+  border: 1px solid #cccccc;
+}
+.uiMiniCalendar table.weekDays tr.currentWeek td.selected {
+  background-color: #2f5e92;
+  color: #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+}
+.uiMiniCalendar table.weekDays tr.currentWeek td.activeToday {
+  background-color: #2f5e92;
+  color: #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiMiniCalendar table.weekDays tr.currentWeek td:first-child {
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+}
+.uiMiniCalendar table.weekDays tr.currentWeek td:last-child {
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
+}
+.UICalendarPortlet .UICalendarContainer .title .actionIcon + .tooltip {
+  white-space: nowrap;
+}
+/*============== uiListView ================*/
+.uiListView,
+.uiTaskView {
+  padding: 11px;
+}
+.uiListView .uiGrid.table,
+.uiTaskView .uiGrid.table {
+  border: solid 1px #cccccc;
+}
+.uiListView .uiGrid.table th,
+.uiTaskView .uiGrid.table th {
+  padding: 5px 10px;
+}
+.uiListView .uiGrid.table th .uiIconMiniArrowDown,
+.uiTaskView .uiGrid.table th .uiIconMiniArrowDown,
+.uiListView .uiGrid.table th .uiIconMiniArrowUp,
+.uiTaskView .uiGrid.table th .uiIconMiniArrowUp {
+  margin-top: 3px;
+}
+.uiListView .uiGrid.table th a,
+.uiTaskView .uiGrid.table th a {
+  color: #333333;
+}
+.uiListView .uiGrid.table th a:hover,
+.uiTaskView .uiGrid.table th a:hover,
+.uiListView .uiGrid.table th a:active,
+.uiTaskView .uiGrid.table th a:active {
+  color: #2f5e92;
+}
+.uiListView .uiGrid.table td,
+.uiTaskView .uiGrid.table td {
+  padding: 10px;
+}
+.uiListView .pagination,
+.uiTaskView .pagination {
+  overflow: hidden;
+}
+.uiListContainer .thumbnail,
+.UIEventPreview .thumbnail {
+  border-radius: 0;
+  padding: 0;
+  display: inline;
+  -webkit-box-shadow: 0 0 0 transparent;
+  -moz-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  border: none;
+}
+.uiListContainer .thumbnailContainer,
+.UIEventPreview .thumbnailContainer {
+  float: left;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  position: relative;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+}
+.uiListContainer .thumbnailContainer .viewIconContainer,
+.UIEventPreview .thumbnailContainer .viewIconContainer {
+  display: none;
+  overflow: hidden;
+  line-height: 16px;
+}
+.uiListContainer .thumbnailContainer .viewIconContainer > div:hover .view,
+.UIEventPreview .thumbnailContainer .viewIconContainer > div:hover .view {
+  font-weight: bold;
+}
+.uiListContainer .thumbnailContainer:hover .viewIconContainer,
+.UIEventPreview .thumbnailContainer:hover .viewIconContainer {
+  background: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.uiListContainer .thumbnailContainer:hover .viewIconContainer > div,
+.UIEventPreview .thumbnailContainer:hover .viewIconContainer > div {
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  cursor: pointer;
+  top: 30%;
+}
+.uiListContainer .thumbnailContainer:hover .viewIconContainer > div span,
+.UIEventPreview .thumbnailContainer:hover .viewIconContainer > div span {
+  display: block;
+  color: white;
+  font-size: 12px;
+}
+.uiListContainer .thumbnailContainer:hover .viewIconContainer > div span.uiIconSearch,
+.UIEventPreview .thumbnailContainer:hover .viewIconContainer > div span.uiIconSearch {
+  margin-left: 2px;
+}
+.uiListContainer .imagePreviewContainer,
+.UIEventPreview .imagePreviewContainer {
+  position: relative;
+  display: inline-block;
+  margin: 7px 0;
+}
+.uiListContainer .imagePreviewContainer .closeButton,
+.UIEventPreview .imagePreviewContainer .closeButton {
+  position: absolute;
+  cursor: pointer;
+  right: 4px;
+  top: 4px;
+  padding: 0;
+  line-height: 10px;
+  -webkit-box-shadow: 0 0 0 transparent;
+  -moz-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+}
+.uiListContainer .imagePreviewContainer .closeButton:hover,
+.UIEventPreview .imagePreviewContainer .closeButton:hover {
+  border: 1px solid #808080;
+}
+.uiListContainer .uiPreview,
+.UIEventPreview .uiPreview {
+  -webkit-box-shadow: 0 0 0 transparent;
+  -moz-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+}
+.uiListContainer .uiPreview,
+.UIEventPreview .uiPreview,
+.uiListContainer .viewContainer,
+.UIEventPreview .viewContainer {
+  margin: 11px;
+}
+.uiListContainer .viewContainer .columnRight,
+.UIEventPreview .viewContainer .columnRight,
+.uiListContainer .viewContainer .columnLeft,
+.UIEventPreview .viewContainer .columnLeft {
+  padding: 15px 15px 0 15px;
+}
+.uiListContainer .viewContainer .columnLeft,
+.UIEventPreview .viewContainer .columnLeft {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #f8f8f8;
+  width: 190px;
+}
+.uiListContainer .viewContainer .columnLeft .text,
+.UIEventPreview .viewContainer .columnLeft .text {
+  margin: 0 0 4px 0;
+}
+.uiListContainer .viewContainer .columnLeft .text span,
+.UIEventPreview .viewContainer .columnLeft .text span {
+  color: #2f5e92;
+}
+.uiListContainer .viewContainer .columnLeft .text.last,
+.UIEventPreview .viewContainer .columnLeft .text.last {
+  margin: 0 0 7px 0;
+}
+.uiListContainer .viewContainer .uiActionContainer,
+.UIEventPreview .viewContainer .uiActionContainer {
+  border-top: 1px dotted #cccccc;
+  padding: 10px 0 0  0;
+  margin: 40px  0 0 0;
+}
+.uiListContainer .viewContainer .titleList,
+.UIEventPreview .viewContainer .titleList {
+  border-bottom: 1px dotted #cccccc;
+  padding: 0 0 10px 0;
+  margin: 0 0 20px 0;
+}
+.uiListContainer .viewContainer .titleList strong,
+.UIEventPreview .viewContainer .titleList strong {
+  line-height: 18px;
+  vertical-align: text-bottom;
+}
+.uiListContainer .tableListEvent td,
+.UIEventPreview .tableListEvent td {
+  padding: 5px;
+}
+.uiListContainer .tableListEvent .right,
+.UIEventPreview .tableListEvent .right {
+  text-align: right;
+  width: 110px;
+  vertical-align: top;
+}
+.uiListContainer .tableListEvent .right + td,
+.UIEventPreview .tableListEvent .right + td {
+  padding-left: 10px;
+}
+.uiCalendarViewContainer .uiListContainer .result {
+  min-height: 28px;
+  padding: 5px 10px;
+}
+.uiCalendarViewContainer .uiListContainer .result center {
+  padding: 5px 0 0;
+}
+.uiCalendarViewContainer .uiListContainer .actionBottom {
+  overflow: hidden;
+}
+.uiCalendarViewContainer .uiListContainer .actionBottom .btn {
+  margin: 20px 0;
+}
+.popupContent .uiPreview {
+  border: none;
+}
+/*============== uiMonthView ================*/
+.uiMonthView .dayTitleBar {
+  background: #f8f8f8;
+}
+.uiMonthView .dayTitleBar .uiGrid.table tr td {
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+}
+.uiMonthView .eventMonthContent .dayContent {
+  text-align: right;
+  margin-top: -8px;
+}
+.uiMonthView .eventMonthContent .dayContent a {
+  color: #999999;
+  padding-right: 10px;
+}
+.uiMonthView .eventMonthContent .disableDay {
+  text-align: right;
+  padding-top: 10px;
+}
+.uiMonthView .eventMonthContent .eventBoxes {
+  position: absolute;
+  padding: 1px 0;
+  background: transparent;
+}
+.uiMonthView .eventMonthContent .moreEvent {
+  position: absolute;
+}
+.uiMonthView .eventMonthContent .moreEvent .moreEventContainer {
+  display: none;
+  width: 100%;
+  line-height: 12px;
+  -webkit-box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  z-index: 1;
+}
+.uiMonthView .eventMonthContent .moreEvent .moreEventContainer .uiIconArrowUp {
+  height: 10px;
+}
+.uiMonthView .eventMonthContent .moreEvent .moreEventContainer .eventBoxes {
+  padding: 1px 0px 0px 0px;
+}
+.uiMonthView .eventMonthContent .moreEvent .eventBoxes {
+  position: static;
+  left: 0;
+  width: 100%;
+}
+.uiMonthView .eventMonthContent .rowContainerDay .calendarContentDisable {
+  background: #f0f0f0;
+  padding: 0;
+}
+.uiMonthView .eventMonthContent .rowContainerDay .tdToday {
+  background: #f8f8f8;
+}
+.uiMonthView .eventMonthContent .rowContainerDay .dayBox {
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+.uiMonthView .eventMonthContent .rowContainerDay .dayBox a {
+  color: #333333;
+}
+.uiMonthView .eventMonthContent .table tr {
+  border-top: 1px solid #e6e6e6;
+}
+.uiMonthView .eventMonthContent .table tr td {
+  vertical-align: top;
+  height: 96px;
+}
+.uiMonthView .eventMonthContent .eventOnDayBorder {
+  height: 16px;
+}
+.uiMonthView .eventMonthContent .eventOnDayBorder .eventCheckbox {
+  height: 16px;
+}
+.uiMonthView .eventMonthContent .eventSummary {
+  color: #ffffff;
+  line-height: 16px;
+  font-size: 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uiMonthView .eventMonthContent .eventSummary .uiIconCalClockMini,
+.uiMonthView .eventMonthContent .eventSummary .uiIconCalTaskMini {
+  margin-left: 2px;
+}
+.uiMonthView .eventOnDayContent .uiCheckbox {
+  width: 5px;
+  min-width: 5px;
+}
+.uiMonthView .eventOnDayContent .uiCheckbox input[type="checkbox"] + span:before {
+  opacity: 0.5;
+  top: 3px;
+  width: 9px;
+  height: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset, 0px 1px 0px rgba(255, 255, 255, 0.73);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset, 0px 1px 0px rgba(255, 255, 255, 0.73);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset, 0px 1px 0px rgba(255, 255, 255, 0.73);
+}
+.uiMonthView .eventOnDayContent .uiCheckbox input[type="checkbox"] + span {
+  text-indent: 0;
+}
+.uiMonthView .eventOnDayContent .uiCheckbox input[type="checkbox"]:checked + span:after {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  content: "\e76f";
+  color: white;
+  font-size: 9px;
+  left: 0px;
+  top: -2px;
+  border: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+/*=================UIEventAttenderTab========================*/
+.uiPopup .uiGrid.table tr td,
+.uiPopup .uiGrid.table tr th {
+  padding: 8px 18px;
+}
+.newEventAttendee .uiGrid {
+  table-layout: fixed;
+}
+.newEventAttendee .uiGrid tr td {
+  border: 1px solid #cccccc;
+  height: 26px;
+  padding: 2px 0;
+  -moz-user-select: none;
+}
+.newEventAttendee .uiGrid tr.titleBar td,
+.newEventAttendee .uiGrid tr td.freeTime {
+  background: #f0f0f0;
+}
+.newEventAttendee .uiGrid tr.titleBar td {
+  padding: 2px;
+}
+.newEventAttendee .uiGrid tr.titleBar td.timeNumber {
+  font-size: 12px;
+}
+.newEventAttendee .uiGrid tr td.busyDotTime {
+  background: #ff0000;
+}
+.newEventAttendee .uiGrid tr td.busyTime {
+  background: #ff7f7f;
+}
+.newEventAttendee .uiGrid tr td.userSelection {
+  background: #a7b838;
+}
+.newEventAttendee .uiGrid tr td.busySelected {
+  background: #d35c1c;
+}
+.newEventAttendee .dateTimeContainer .applySelectedDate {
+  margin: 2px 0 0 0;
+}
+.newEventAttendee .dateTimeContainer .fromTo .title {
+  margin: 2px 4px 0 0;
+}
+.newEventAttendee .dateTimeContainer .fromTo input[type=text] {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 transparent;
+  height: 24px;
+  color: #333333;
+}
+.newEventAttendee .dateTimeContainer .fromTo .allDay {
+  margin: 2px 0 15px 0;
+}
+.newEventAttendee .dateTimeContainer .fromTo .allDay .uiCheckbox {
+  margin-right: -5px;
+  margin-right: 15px \9;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .newEventAttendee .dateTimeContainer .fromTo .allDay .uiCheckbox {
+    margin-right: 15px;
+  }
+}
+.newEventAttendee .dateTimeContainer .fromTo > .timeField {
+  margin: 0 15px 0 0;
+}
+.newEventAttendee .dateTimeContainer .fromTo > .timeField > .pull-left + .pull-left {
+  margin: 0 0 0 15px;
+}
+.newEventAttendee .thiefBox {
+  margin: 10px 2px 0 0;
+  text-align: right;
+}
+.newEventAttendee .thiefBox span span {
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  -webkit-box-shadow: -1px 1px 2px rgba(0,0,0,0.17)inset;
+  -moz-box-shadow: -1px 1px 2px rgba(0,0,0,0.17)inset;
+  box-shadow: -1px 1px 2px rgba(0,0,0,0.17)inset;
+}
+.newEventAttendee .thiefBox .freeTime span {
+  background: #f0f0f0;
+}
+.newEventAttendee .thiefBox .busyTime {
+  margin: 0 0 0 15px;
+}
+.newEventAttendee .thiefBox .busyTime span {
+  background: #ff0000;
+}
+/*=================Participants==================*/
+.eventShare .uiFormGrid tbody > tr > td {
+  padding: 6px 0;
+}
+.eventShare .uiFormGrid tbody > tr > td + td {
+  padding-left: 20px;
+}
+.eventShare .uiFormGrid .uiRadio {
+  min-width: 70px;
+}
+.eventShare .uiFormGrid .right {
+  text-align: right;
+}
+/*===================UIEventRemindersTab===========================*/
+.reminderByPopup .selectboxSmall,
+.reminderByEmail .selectboxSmall {
+  padding: 5px 0;
+}
+.reminderByPopup .mailReminder + div,
+.reminderByEmail .mailReminder + div,
+.reminderByPopup .popupReminder + div,
+.reminderByEmail .popupReminder + div {
+  margin: 0 0 0 30px;
+}
+.reminderByPopup a,
+.reminderByEmail a {
+  color: #333333;
+}
+.reminderByPopup .checkBoxRepeat .uiCheckbox,
+.reminderByEmail .checkBoxRepeat .uiCheckbox {
+  margin-left: 0;
+}
+.reminderByPopup .uiEmailInput span,
+.reminderByEmail .uiEmailInput span {
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+.reminderByEmail {
+  border-bottom: 1px solid #cccccc;
+  margin: 0 -15px 15px;
+  padding: 0 15px 15px;
+}
+/*====================UIEventDetailTab======================*/
+.eventDetail,
+.taskDetailTab {
+  width: 78%;
+  margin: 0 auto;
+}
+.eventDetail .date,
+.taskDetailTab .date,
+.uiQuickAddEvent .date {
+  margin: 0 10px 0 0;
+}
+/*====================SettingTab======================*/
+.setting .workingTime {
+  margin-left: 7px;
+}
+/*======================uiRepeatEventForm=======================*/
+.uiRepeatEventForm .inputMini input[type="text"] {
+  width: 30px;
+}
+.uiRepeatEventForm .selectboxMini .uiSelectbox {
+  width: 50px;
+}
+.uiRepeatEventForm .selectboxMini .uiSelectbox .selectbox {
+  width: 53px;
+}
+.uiRepeatEventForm .weeklyByDay .controls {
+  font-size: 12px;
+  width: 190px;
+}
+.uiRepeatEventForm .weeklyByDay .controls .checkBoxArea > .pull-left + .pull-left {
+  margin-left: 8px;
+}
+.uiRepeatEventForm .weeklyByDay .controls .checkBoxArea > .pull-left.item3 + .pull-left {
+  margin-left: 0!important;
+}
+/*=============================UIEventCategoryManager===========================*/
+.uiEventCategoryManager .uiEventCategoryForm .controlLabelSmall {
+  width: 115px;
+}
+.uiEventCategoryManager .uiEventCategoryForm .controlLabelSmall + .controls {
+  margin-left: 125px;
+}
+/*=============================UIImportForm===========================*/
+.uiImportForm textarea {
+  height: 78px;
+}
+/*=============================UIExportForm===========================*/
+.uiExportForm .uiCheckbox,
+.uiExportForm .uiInputInfo {
+  margin-top: 6px;
+}
+.uiExportForm .calendarName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*=============================UIGroupCalendarTab===========================*/
+.addGroup input[type=text] {
+  margin-top: 8px;
+}
+/*=============================UIFeed===========================*/
+.feedTab .table {
+  margin-bottom: 0;
+}
+.inputLarge .uiSelectbox {
+  width: 210px;
+}
+.inputLarge .uiSelectbox select.selectbox {
+  width: 213px;
+}
+/*=============================UIAttachFileForm===========================*/
+.UICalendarPortlet .uiImportForm .uploadButton {
+  text-align: left;
+}
+/*==============================.uiQuickAddEvent=========================*/
+.uiQuickAddEvent .quickAddEventContainer .form-horizontal {
+  padding: 15px;
+}
+/*==============================.uiConfirmForm=========================*/
+.uiConfirmForm .confirm {
+  padding: 10px 0 0 0;
+}
+.uiConfirmForm .uiRadio input[type="radio"] + span {
+  margin-left: 9px;
+}
+.uiConfirmForm .media .uiIconQuestion {
+  margin: 2px 15px 0  5px;
+}
+.ie8 .uiConfirmForm .uiRadio input[type="radio"] + span {
+  margin-left: 0px;
+}
+/*==============================.settingCalendarTab=========================*/
+.settingCalendarTab .form-horizontal .control-group {
+  margin-bottom: 10px;
+}
+.settingCalendarTab .form-horizontal .workingTime {
+  margin-left: 25px;
+}
+.workingTimeCheck {
+  line-height: 10px;
+}
+/*============================== uiShareForm =========================*/
+#PermissionOwnerInput {
+  color: #999999;
+}
+/*============================== uiConfirmForm =========================*/
+.confirmRadio > div {
+  margin: 8px 0 8px 30px;
+}
+.confirmRadio .actionLinks {
+  display: none;
+}
+/*========================== Place Holder =============================*/
+input.placeholder {
+  color: #999999;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList {
+  z-index: 9;
+  position: absolute;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxContainer,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxContainer {
+  background: #ffffff;
+  position: absolute;
+  display: none;
+  border: solid 1px #cccccc;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItemContainer,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItemContainer {
+  overflow-y: auto ;
+  height: 150px ;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxLabel,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxLabel {
+  margin-left: 10px ;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #477ab3;
+  background-image: -moz-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#2f5e92));
+  background-image: -webkit-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -o-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: linear-gradient(to bottom, #578dc9, #2f5e92);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff2f5e92', GradientType=0);
+  border-color: #2f5e92 #2f5e92 #1c3958;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f5e92;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  text-shadow: none;
+  color: #ffffff;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:hover,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:hover,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:focus,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:focus,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:active,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem.active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem.active,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem.disabled,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem.disabled,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem[disabled],
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem[disabled] {
+  color: #ffffff;
+  background-color: #2f5e92;
+  *background-color: #29527f;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem:active,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem.active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxList .UIComboboxSelectedItem.active {
+  background-color: #23456b \9;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem {
+  display: block ;
+  line-height: 22px;
+  color: #333333;
+  outline: none;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #477ab3;
+  background-image: -moz-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#2f5e92));
+  background-image: -webkit-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -o-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: linear-gradient(to bottom, #578dc9, #2f5e92);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff2f5e92', GradientType=0);
+  border-color: #2f5e92 #2f5e92 #1c3958;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f5e92;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  text-shadow: none;
+  color: #ffffff;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:hover,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:hover,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:focus,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:focus,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:active,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover.active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover.active,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover.disabled,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover.disabled,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover[disabled],
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover[disabled] {
+  color: #ffffff;
+  background-color: #2f5e92;
+  *background-color: #29527f;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover:active,
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:hover.active,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:hover.active {
+  background-color: #23456b \9;
+}
+.UICalendarPortlet .UIComboboxComponent .UIComboboxItem:visit,
+.uiCalendarPortlet .UIComboboxComponent .UIComboboxItem:visit {
+  background: #ffffff;
+  color: #333333;
+}
+.UICalendarPortlet .UIComboboxComponent iframe,
+.uiCalendarPortlet .UIComboboxComponent iframe {
+  position: absolute ;
+  top: 0px ;
+  left: 0px ;
+  z-index: -1;
+  height: 150px ;
+}
+/*============== uiCalendars actionIcon ================*/
+.UICalendarContainer {
+  float: left;
+  width: 225px;
+  height: 100%;
+  position: relative;
+}
+.uiArrowCalDropdown {
+  display: none;
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-right: 7px solid #cccccc;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+  content: '';
+}
+.uiArrowCalDropdown:after {
+  border-left: 7px solid transparent;
+  border-right: 7px solid #ffffff;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -7px;
+}
+.lineSplit {
+  background: #cccccc;
+  height: 1px;
+  margin: 10px 0 0 0;
+}
+.selectboxMini .uiSelectbox {
+  width: 84px;
+  vertical-align: middle;
+}
+.selectboxMini .uiSelectbox .selectbox {
+  width: 87px;
+}
+.selectboxSmall .uiSelectbox .selectbox {
+  width: 103px;
+  margin-bottom: 0;
+}
+.eventCategory .uiSelectbox .selectbox {
+  width: 103px;
+  margin-bottom: 0;
+}
+.descriptionArea textarea {
+  height: 78px;
+}
+.UICalendarComponent {
+  z-index: 1;
+}
+.UICalendarComponent {
+  z-index: 1;
+}
+.checkBoxArea .checkboxContainer {
+  width: 18px;
+}
+.checkBoxArea .textLabel {
+  margin-left: 18px;
+}
+.checkBoxArea .textLabel span {
+  margin-right: 5px;
+}
+.uiBox .title .actionIcon [class^="uiIcon"],
+.uiBox .title .actionIconSmall [class^="uiIcon"] {
+  top: -1px;
+}
+@media (max-width: 480px) {
+  .uiCalendars .contentContainer {
+    height: auto!important;
+  }
+  .uiRightClickPopupMenu.CalendarMainPopupMenu {
+    right: 0;
+    left: 14px !important;
+    max-width: 206px;
+  }
+  .uiRightClickPopupMenu.CalendarMainPopupMenu .arrowLeft {
+    display: none;
+  }
+  .uiEventCategoryManager .uiEventCategoryForm .controlLabelSmall + .controls {
+    margin-left: 0;
+  }
+  .uiEventCategoryManager .uiEventCategoryForm .controlLabelSmall + .controls input[type="text"] {
+    max-width: 164px;
+  }
+  .UISubscribeForm .form-horizontal .control-group .control-label {
+    width: 100%!important;
+  }
+  .UISubscribeForm .form-horizontal .control-group .controls {
+    margin-left: 0!important;
+  }
+}

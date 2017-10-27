@@ -1,0 +1,326 @@
+/**
+ * Copyright ( C ) 2012 eXo Platform SAS.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+ */
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.calendarPortlet .calendarPortletData a {
+  color: #333333;
+}
+.calendarPortlet .calendarPortletData .currentDateContainer {
+  overflow: hidden;
+}
+.calendarPortlet .calendarPortletData .uiContentBox {
+  padding: 15px;
+}
+.calendarPortlet .calendarPortletData .title .actionIcon {
+  line-height: 14px;
+  padding: 1px;
+  margin: 0;
+}
+.calendarPortlet .calendarPortletData .taskTitle {
+  background-color: #f8f8f8;
+}
+.calendarPortlet .calendarPortletData .eventsList li {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  margin: 0 0 10px 0;
+}
+.calendarPortlet .calendarPortletData .eventsList li > div {
+  padding: 0 4px 0 0;
+  -webkit-border-radius: 4px 3px 3px 4px;
+  -moz-border-radius: 4px 3px 3px 4px;
+  border-radius: 4px 3px 3px 4px;
+}
+.calendarPortlet .calendarPortletData .eventsList li .itemColor {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  background-color: #f0f0f0;
+  padding: 4px 4px 4px 8px;
+}
+.calendarPortlet .calendarPortletData .eventsList li.pastEvent {
+  opacity: 0.45;
+  filter: alpha(opacity=45);
+}
+.calendarPortlet .calendarPortletData .eventsList li.pastEvent .itemColor {
+  background-color: #e6e6e6;
+}
+.calendarPortlet .calendarPortletData .eventsList li.pastEvent .itemColor a,
+.calendarPortlet .calendarPortletData .eventsList li.pastEvent .itemColor .time span {
+  color: #999999;
+}
+.calendarPortlet .calendarPortletData .eventsList li:hover {
+  border: 1px solid #cccccc;
+}
+.calendarPortlet .calendarPortletData .eventsList li:last-child {
+  margin-bottom: 0;
+}
+.calendarPortlet .calendarPortletData .eventsList .eventSummary {
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space: normal;
+  max-height: 40px;
+}
+.calendarPortlet .calendarPortletData .eventsList .time {
+  width: 50%;
+  text-align: right;
+  font-size: 12px;
+}
+.calendarPortlet .calendarPortletData .tasksList li {
+  padding: 0 0 0 20px;
+  margin: 0 0 5px 0;
+  cursor: pointer;
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space: normal;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/homepage/calendar/calendar-porlet.png") no-repeat;
+}
+.calendarPortlet .calendarPortletData .tasksList a {
+  color: #333333;
+}
+.calendarPortlet .calendarPortletData .tasksList .taskCompleted {
+  background-position: 0 5px;
+  text-decoration: line-through;
+}
+.calendarPortlet .calendarPortletData .tasksList .taskNotCompleted {
+  background-position: 0 -43px;
+}
+.calendarPortlet .calendarPortletData .tasksList .taskLateNotCompleted {
+  background-position: 0 -91px;
+}
+.calendarPortlet .calendarPortletData .settingsContainerPage {
+  margin: 0px 10px 10px 10px ;
+}
+.calendarName {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 11px;
+  padding: 0px 10px;
+  margin: 0 5px 5px 0;
+  max-width: 92%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.asparagus {
+  background-color: #909958;
+}
+.munsell_blue {
+  background-color: #319AB3;
+}
+.navy_blue {
+  background-color: #4273C8;
+}
+.purple {
+  background-color: #774EA9;
+}
+.red {
+  background-color: #FF5933;
+}
+.brown {
+  background-color: #BB8E62;
+}
+.laurel_green {
+  background-color: #BED67E;
+}
+.sky_blue {
+  background-color: #4DBED9;
+}
+.blue_gray {
+  background-color: #8EB0EA;
+}
+.light_purple {
+  background-color: #BC99E7;
+}
+.hot_pink {
+  background-color: #F97575;
+}
+.light_brown {
+  background-color: #C5B294;
+}
+.moss_green {
+  background-color: #98CC81;
+}
+.powder_blue {
+  background-color: #9EE4F5;
+}
+.light_blue {
+  background-color: #B3CFFF;
+}
+.pink {
+  background-color: #FFC8F0;
+}
+.orange {
+  background-color: #FDB519;
+}
+.gray {
+  background-color: #A39594;
+}
+.green {
+  background-color: #89D4B3;
+}
+.baby_blue {
+  background-color: #B2E2FF;
+}
+.light_gray {
+  background-color: #CDCDCD;
+}
+.beige {
+  background-color: #FFE1BE;
+}
+.yellow {
+  background-color: #FFE347;
+}
+.plum_purple,
+.plum {
+  background-color: #CEA6AC;
+}
+/*setting calendar */
+.settingsCalContainer .DisplayedCalendarContainer .calendarName {
+  padding: 0 4px;
+  margin: 0 5px 4px 0;
+}
+.settingsCalContainer .DisplayedCalendarContainer .calendarName span {
+  display: inline-block;
+  height: 20px;
+  max-width: 92%;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.settingsCalContainer .DisplayedCalendarContainer .uiIconDel {
+  cursor: pointer;
+  color: white;
+  font-size: 10px;
+  height: 14px;
+  vertical-align: middle;
+}
+.settingsCalContainer .DisplayedCalendarContainer .uiIconDel:before {
+  content: "\e76d";
+}
+.settingsCalContainer .uiBox .uiContentBox {
+  padding: 15px;
+}
+.settingsCalContainer .PLFcalendarSearchKey {
+  width: 100%;
+  color: #999999;
+}
+.settingsCalContainer .settingValidationButton {
+  text-align: right;
+  margin: 5px 0 0 0;
+}
+.settingsCalContainer .settingValidationButton .btn {
+  font-size: 11px;
+  padding: 1px 8px;
+}
+.settingsCalContainer .calendarItems {
+  margin: 0 -15px;
+}
+.settingsCalContainer .calendarItems .calendarItem {
+  padding: 0px 15px;
+  height: 24px;
+  line-height: 24px;
+}
+.settingsCalContainer .calendarItems .calendarItem a {
+  color: #333333;
+}
+.settingsCalContainer .calendarItems .calendarItem .addButton {
+  display: none;
+}
+.settingsCalContainer .calendarItems .calendarItem:hover {
+  background: #e6e6e6;
+}
+.settingsCalContainer .calendarItems .calendarItem:hover .addButton {
+  display: block;
+}
+.settingsCalContainer .calendarItems .calendarItem .uiIconAdd {
+  width: 14px;
+  height: 14px;
+  background: url("/eXoSkin/skin/images/themes/default/platform/portlets/homepage/calendar/add.png") no-repeat 2px 2px;
+}
+.settingsCalContainer .calendarItems .calendarItem .calName {
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.settingsCalContainer .calendarItems .calendarItem .colorBox {
+  width: 12px;
+  height: 12px;
+  display: block;
+  margin: 6px 5px 0 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.settingsCalContainer .NonDisplayedCalendar {
+  max-height: 350px;
+  overflow-y: auto;
+}

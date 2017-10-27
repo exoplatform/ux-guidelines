@@ -1,0 +1,310 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.spaceChooserPopup {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  left: 0px;
+  min-width: 250px;
+  position: absolute;
+  top: 28px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: hidden;
+}
+.spaceChooserPopup a {
+  max-width: 100%;
+  float: none;
+  padding: 5px 10px;
+  display: block;
+  color: #333333;
+}
+.spaceChooserPopup a:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+.spaceChooserPopup .title {
+  line-height: 30px;
+  border-bottom: 1px solid #cccccc;
+  background-color: #f1f1f1;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
+  padding: 0px 5px 0px 10px;
+  font-weight: bold;
+  color: #333333;
+  border-radius: 4px 4px 0 0;
+  height: 31px;
+}
+.spaceChooserPopup .title .uiIconClose {
+  margin: 7px 2px 0;
+  cursor: pointer;
+}
+.spaceChooserPopup .spaceOption {
+  line-height: 20px;
+  color: #333333;
+}
+.spaceChooserPopup .spaceTitle {
+  color: #333333;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f8f8f8, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffe6e6e6', GradientType=0);
+  padding: 5px 0 5px 9px;
+}
+.spaceChooserPopup .noSpace {
+  text-align: center;
+  padding: 5px 10px;
+  color: #999999;
+}
+.spaceChooserPopup .spaceSearch {
+  line-height: 20px;
+  padding: 10px 10px 5px 10px;
+}
+.spaceChooserPopup .spaceList {
+  overflow-y: auto;
+  min-height: 30px;
+}
+.spaceChooserPopup .spaceList img {
+  width: 19px;
+  height: 19px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin-right: 6px;
+  vertical-align: -4px;
+}
+.spaceChooserPopup .spaceList a {
+  white-space: nowrap;
+}
+.spaceChooserPopup .hover:hover {
+  background-color: #2f5e92;
+  background-image: linear-gradient(to bottom, #578dc9, #2f5e92);
+  background-repeat: repeat-x;
+  color: #ffffff;
+  text-shadow: none;
+}
+.spaceSwitcher {
+  line-height: 29px;
+  padding: 0 15px;
+}
+.spaceList > ul > li > a {
+  height: 20px;
+}
+.spaceList > ul > li:last-child,
+.spaceList > ul > li:last-child > a {
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+@media (max-width: 767px) {
+  .spaceChooserPopup .spaceList {
+    height: auto !important;
+    min-height: 30px;
+    overflow-y: auto;
+  }
+}
+@font-face {
+  font-family: 'PLF-FONT-ICONS';
+  src: url('../../../fonts/PLF-FONT-ICONS.eot?-m9uidt');
+  src: url('../../../fonts/PLF-FONT-ICONS.eot?#iefix-m9uidt') format('embedded-opentype'), url('../../../fonts/PLF-FONT-ICONS.ttf?-m9uidt') format('truetype'), url('../../../fonts/PLF-FONT-ICONS.woff?-m9uidt') format('woff'), url('../../../fonts/PLF-FONT-ICONS.svg?-m9uidt#PLF-FONT-ICONS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.BrowseLink [class^="uiIcon"] {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+.uiDocumentSelector .breadcrumb > a.uiIconTree {
+  margin-top: 4px;
+}
+.uiDocumentSelector .center {
+  margin-bottom: 10px;
+}
+.uiDocumentSelector .center .uiDropdownWithIcon {
+  text-align: left;
+  background: none;
+}
+.uiDocumentSelector .btn .caret {
+  margin-left: 8px;
+  display: inline-block;
+}
+.uiDocumentSelector .actionIcon [class^="uiIcon"] {
+  margin-right: 0;
+}
+.uiDocumentSelector .progressBarFrame .fileNameLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uiDocumentSelector iframe {
+  width: 30px;
+  height: 30px;
+}
+.uiDocumentSelector .listContainer {
+  background: #f8f8f8;
+  border: 1px solid #cccccc;
+  list-style: none outside none;
+  margin: 5px 0 0;
+  padding: 5px 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  max-height: 250px;
+  overflow: auto;
+}
+.uiDocumentSelector .listContainer li {
+  display: block;
+  padding: 3px 10px;
+}
+.uiDocumentSelector .listContainer a {
+  color: #333333;
+}
+.uiDocumentSelector .listContainer a:hover {
+  color: #2f5e92;
+}
+.uiDocumentSelector .TRNoContent {
+  color: #999999;
+  text-align: center;
+}
+.uiDocumentSelector [class^="uiIcon"] {
+  margin-right: 8px;
+}
+.uiDocumentSelector .btn.dropdown-toggle .uiIconArrowDown.uiIconLightGray {
+  margin-right: 0;
+}
+.uiDocumentSelector .btn.dropdown-toggle span {
+  vertical-align: top;
+}
+.BrowseDiv {
+  position: relative;
+}
+.FileHidden {
+  overflow: hidden;
+  position: absolute;
+  height: 26px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.BrowseLink {
+  text-decoration: none;
+  border: 1px solid transparent;
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+.BrowseLink .uiIconUpload {
+  margin-top: 4px;
+  display: block;
+}
+.BrowseLink .uiIconUpload:before {
+  content: "\e78d";
+}
+.BrowseLink:hover {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff0f0f0', GradientType=0);
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  -moz-box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 2px 0px rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.BrowseLink:hover:active,
+.BrowseLink:hover:focus {
+  -webkit-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+  border: 1px solid #c7c7c7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+.BrowseLink:hover .uiIconUpload {
+  color: #2f5e92;
+}

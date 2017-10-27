@@ -1,0 +1,179 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.onlineHeader {
+  background: #f8f8f8;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #333333;
+  line-height: 25px;
+  padding: 0 5px 0 8px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#OnlinePortlet {
+  margin-right: 3px;
+}
+#OnlinePortlet ul {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+#OnlinePortlet .gallery li {
+  display: inline;
+  list-style: none;
+  width: 30px;
+  height: 40px;
+  margin: 0 5px 5px 0;
+  text-align: center;
+}
+#OnlinePortlet .gallery li img {
+  margin-bottom: 10px;
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#tipName .name {
+  font-weight: bold;
+  color: #2f5e92;
+}
+#tipName + blockquote {
+  margin-top: 5px;
+}
+#tipName + #connectMessge {
+  margin-top: 30px;
+}
+#tipName + .connectAction {
+  margin-top: 35px;
+}
+.connectAction {
+  text-align: center;
+  background: #f0f0f0;
+  margin: -10px;
+  padding: 10px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+/* TipTip CSS - Version 1.2 */
+#tiptip_holder {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 240px;
+}
+#tiptip_holder.tip_top {
+  padding-bottom: 5px;
+}
+#tiptip_holder.tip_bottom {
+  padding-top: 5px;
+}
+#tiptip_holder.tip_right {
+  padding-left: 5px;
+}
+#tiptip_holder.tip_left {
+  padding-right: 5px;
+}
+#tiptip_content {
+  font-size: 12px;
+  color: #999999;
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+}
+#tiptip_arrow,
+#tiptip_arrow_inner {
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#tiptip_holder #tiptip_arrow_inner {
+  z-index: -1;
+}
+#tiptip_holder.tip_left_top #tiptip_arrow,
+#tiptip_holder.tip_left_bottom #tiptip_arrow {
+  display: none;
+}
+#tiptip_holder #tiptip_arrow {
+  right: -4px;
+  border-width: 9px 0 9px 10px;
+  border-left-color: #ffffff;
+}
+#tiptip_holder #tiptip_arrow #tiptip_arrow_inner {
+  border-width: 11px 0 11px 11px;
+  border-left-color: #cccccc;
+  bottom: -11px;
+  right: -1px;
+}
+#tipName img {
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#connectMessge {
+  background: #f0f0f0;
+  margin: -10px;
+  padding: 10px 20px;
+  color: #999999;
+  font-weight: bold;
+}
+#tiptip_holder .detail {
+  margin-left: 45px;
+}

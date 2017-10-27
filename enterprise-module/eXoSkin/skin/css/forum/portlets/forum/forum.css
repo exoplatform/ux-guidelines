@@ -1,0 +1,1035 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+}
+.loading-action {
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+[class^="uiIconForum"],
+.LeftNavigationTDContainer .uiPopup [class^="uiIconForum"] {
+  color: #999999;
+}
+/* Blue icons with optional class, or on hover/active states of certain elements */
+.nav-pills > .active > a > [class^="uiIconForum"],
+.node > .lastNode > a:hover > [class^="uiIconForum"],
+.nav-list > .active > a > [class^="uiIconForum"],
+.navbar-inverse .nav > .active > a > [class^="uiIconForum"],
+.dropdown-menu > li > a:hover > [class^="uiIconForum"],
+.dropdown-menu > .active > a > [class^="uiIconForum"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconForum"],
+.btn:hover [class^="uiIconForum"],
+.actionIcon:hover > [class^="uiIconForum"],
+.actionIcon:hover > div > [class^="uiIconForum"],
+.uiIconForumBlue,
+a:hover > [class^="uiIconForum"],
+a:hover [class^="uiIconForum"] {
+  color: #2f5e92;
+}
+/* light grey icons with optional class, or on  */
+.dropdown-menu > li > a > [class^="uiIconForum"],
+.dropdown-menu > .active > a > [class^="uiIconForum"],
+.uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconForum"],
+.uiIconForumLightGray {
+  color: #999999;
+}
+.uiIconForumDarkGray,
+.uiIconForumExtra,
+.LeftNavigationTDContainer [class^="uiIconForum"] {
+  color: #626262;
+}
+/* White icons with optional class, or on hover/active states of Drop down with Icons */
+.uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconForum"],
+.uiDropdownWithIcon .nav-list > .active > a > [class^="uiIconForum"],
+.uiDropdownWithIcon .navbar-inverse .nav > .active > a > [class^="uiIconForum"],
+.uiDropdownWithIcon .dropdown-menu > li > a:hover > [class^="uiIconForum"],
+.uiDropdownWithIcon .dropdown-menu > .active > a > [class^="uiIconForum"],
+.uiDropdownWithIcon .dropdown-submenu:hover > a > [class^="uiIconForum"],
+.nav-pills > .active > a > [class^="uiIconForum"],
+.nav-list > .active > a > [class^="uiIconForum"],
+.navbar-inverse .nav > .active > a > [class^="uiIconForum"],
+.dropdown-menu > li > a:hover > [class^="uiIconForum"],
+.dropdown-menu > .active > a > [class^="uiIconForum"],
+.dropdown-submenu:hover > a > [class^="uiIconForum"],
+.btn-primary [class^="uiIconForum"],
+.btn-primary:hover [class^="uiIconForum"],
+.uiIconForumWhite {
+  color: #ffffff;
+}
+[class^="uiIconForumColor"] {
+  /*display: inline-block;
+  width: 16px;
+  height: 16px;
+  .ie7-restore-right-whitespace();
+  line-height: 16px;
+  vertical-align: text-bottom;
+  background-image: url("@{images-path}/forum/portlets/forum/Icons/uiIconsForumColor.png");
+  background-repeat: no-repeat;*/
+
+  margin-right: 3px;
+  position: relative;
+  top: 0;
+}
+.uiIconForumPlay:before {
+  content: "\e775";
+}
+.uiIconForumColorCloseTiny:before {
+  content: "\e768";
+  font-size: 10px;
+}
+.uiIconForumViewStatistic:before {
+  content: "\e73f";
+}
+.uiIconForumBan:before {
+  content: "\e6e5";
+}
+.uiIconForumSort:before {
+  content: "\e759";
+}
+.uiIconForumAddCategory:before {
+  content: "\e6a7";
+}
+.uiIconForumManageCategory:before {
+  content: "\e6aa";
+}
+.uiIconForumForward:before {
+  content: "\e774";
+}
+.uiIconForumPending:before {
+  content: "\e749";
+}
+.uiIconForumHide:before {
+  content: "\e792";
+}
+.uiIconForumStar:before {
+  content: "\e779";
+}
+.uiIconForumColorLockTiny:before {
+  content: "\e794";
+  font-size: 10px;
+}
+.forumContains [class^="uiIconForum"] {
+  top: -1px;
+}
+.uiIconForumStatus:before,
+.uiIconForumColorOffline:before,
+.uiIconForumColorUnread:before,
+.uiIconForumColorOnline:before,
+.uiIconForumColorAway:before,
+.uiIconForumColorBusy:before {
+  content: "\e76e";
+  font-size: 10px;
+}
+.uiIconForumColorOffline,
+.uiIconForumColorOffline:hover {
+  color: #999999;
+}
+.uiIconForumColorUnread,
+.uiIconForumColorUnread:hover {
+  color: #215ab2;
+}
+.uiIconForumColorOnline,
+.uiIconForumColorOnline:hover {
+  color: #39c522;
+}
+.uiIconForumColorAway,
+.uiIconForumColorAway:hover {
+  color: #edad00;
+}
+.uiIconForumColorBusy,
+.uiIconForumColorBusy:hover {
+  color: #c72222;
+}
+a:hover .uiIconForumColorOffline {
+  color: #999999;
+}
+a:hover .uiIconForumColorUnread {
+  color: #215ab2;
+}
+a:hover .uiIconForumColorOnline {
+  color: #39c522;
+}
+a:hover .uiIconForumColorAway {
+  color: #edad00;
+}
+a:hover .uiIconForumColorBusy {
+  color: #c72222;
+}
+.uiForumPortlet {
+  background: none;
+  padding: 20px;
+}
+.uiForumPortlet .pagination {
+  margin: 0;
+}
+.uiForumPortlet .uiBox {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.uiForumPortlet .uiCategories .uiGrid.table .noticeEmpty,
+.uiForumPortlet .uiCategory .uiGrid.table .noticeEmpty {
+  color: #999999;
+}
+.uiForumPortlet .uiCategories .uiGrid.table td,
+.uiForumPortlet .uiCategory .uiGrid.table td,
+.uiForumPortlet .forumContainer .uiGrid.table td,
+.uiForumPortlet .uiCategories .uiGrid.table th,
+.uiForumPortlet .uiCategory .uiGrid.table th,
+.uiForumPortlet .forumContainer .uiGrid.table th {
+  padding: 10px 5px;
+  vertical-align: top;
+}
+.uiForumPortlet blockquote {
+  background: none;
+  border-left: 5px solid #aac5e3;
+  margin: 0 0 20px;
+  padding: 0 0 0 15px;
+  width: auto;
+}
+.uiForumPortlet blockquote:after {
+  display: none;
+}
+/******************************************** UIForumActionBar ****************************************/
+.uiForumActionBar {
+  background: #ffffff;
+  padding: 4px 10px;
+}
+.uiForumActionBar .ToolbarActionsTag {
+  float: right;
+  margin: 2px 6px 0px 0px;
+  cursor: pointer;
+}
+/******************************************** UIForumDescription ****************************************/
+.uiForumDescription {
+  padding: 8px 10px;
+}
+.uiForumDescription .forumLabel {
+  color: #333333;
+}
+.uiForumDescription .nameForum {
+  color: #333333;
+  font-famaly: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+}
+.uiForumDescription .description {
+  color: #999999;
+  margin-left: 5px;
+}
+.uiForumPortlet {
+  /******************************************** uiCategories ****************************************/
+
+}
+.uiForumPortlet .uiFormInputWithActions .mySubscriptions .control-label {
+  width: 190px;
+  text-align: left;
+}
+.uiForumPortlet .menuMore .forumSeparatorLine + .forumSeparatorLine {
+  background: none;
+}
+.uiForumPortlet .menuMore .defaultStyle {
+  float: none;
+}
+.uiForumPortlet .menuMore .defaultStyle .uiDropdownWithIcon {
+  padding: 5px 12px;
+}
+.uiForumPortlet .menuMore .defaultStyle .actionIcon:hover {
+  border: 1px solid #578dc9;
+}
+.uiForumPortlet .menuMore .defaultStyle .actionIcon.uiDropdownWithIcon:hover {
+  border: 1px solid #cccccc;
+}
+.uiForumPortlet .menuMore .defaultStyle a:hover {
+  color: #ffffff;
+}
+.uiForumPortlet .defaultStyle {
+  cursor: pointer;
+  float: left;
+  padding: 0 8px;
+  white-space: nowrap;
+}
+.uiForumPortlet .forumToolbar {
+  margin: 4px 0;
+}
+.uiForumPortlet .forumSeparatorLine + .forumSeparatorLine {
+  background: url("/eXoSkin/skin/images/themes/default/forum/portlets/forum/background/SeparatorLine.png") no-repeat left -4px;
+}
+.uiForumPortlet .uiForumIconState .forumContains {
+  padding: 12px 15px;
+}
+.uiForumPortlet .uiForumIconState .forumContains i + i {
+  margin-left: 20px;
+}
+.uiForumPortlet .uiForumIconState .forumContains span {
+  margin-right: 20px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .uiForumPortlet .uiForumIconState .forumContains {
+    padding: 0px 0px 0px 48px;
+  }
+}
+.uiForumPortlet .searchAdvance {
+  padding: 10px;
+}
+.uiForumPortlet .searchAdvance input {
+  width: 120px;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.uiForumPortlet .dateTimeForum {
+  color: #999999;
+  padding-left: 20px;
+}
+.uiForumPortlet .uiCategoryInfo .uiGrid.table th {
+  padding: 0;
+}
+.uiForumPortlet .uiCategoryInfo .textInfo {
+  padding: 0 32px;
+}
+.uiForumPortlet .textTitleCategories {
+  padding-left: 20px;
+  line-height: 36px;
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  color: #2f5e92;
+  font-weight: bold;
+}
+.textHotTopic {
+  color: #c72222;
+}
+.actionExpandCollapse {
+  margin: 8px 10px 8px 0;
+}
+.emptyForum {
+  margin: 15px 0px;
+  color: #999999;
+}
+/******************************************** Forum Edit Mode ****************************************/
+.uiSettingEditMode .node .nodeGroup .uiIconEmpty {
+  background-position: center center;
+}
+.uiSettingEditMode .showHiddenConten {
+  border: 1px solid #cccccc;
+}
+.uiSettingEditMode .showHiddenConten .form-horizontal .control-label {
+  width: 400px;
+}
+.uiSettingEditMode .showHiddenConten .form-horizontal .controls {
+  margin-left: 410px;
+}
+@media (max-width: 1024px) {
+  #uiRightActionBar {
+    width: auto!important;
+  }
+}
+@media (max-width: 480px) {
+  .forumToolbar {
+    float: none;
+  }
+  .forumToolbar .forumSeparatorLine + .forumSeparatorLine {
+    background: none;
+  }
+  .forumToolbar > .defaultStyle {
+    float: none;
+  }
+  .forumToolbar > .defaultStyle > a {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .forumToolbar > .defaultStyle .dropdown {
+    float: none;
+    display: block;
+  }
+  .forumToolbar > .defaultStyle .dropdown .dropdown-menu {
+    left: auto;
+    right: auto;
+  }
+}
+.uiForumBreadCrumb {
+  margin-bottom: 10px;
+}
+.uiForumBreadCrumb .breadcrumb {
+  padding-left: 10px;
+  margin-top: 3px;
+}
+.uiForumBreadCrumb .permaLink {
+  line-height: 27px;
+  margin-left: 10px;
+}
+.uiForumContainer .forumLabel {
+  font-famaly: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+}
+.forumContainer {
+  margin: 10px 0;
+}
+.forumContainer .table {
+  margin-bottom: 0;
+}
+.uiForumInfos {
+  margin-top: 10px;
+}
+.uiForumInfos .rightStartsList {
+  float: none;
+}
+@media (min-width: 640px) {
+  .uiForumInfos .rightStartsList {
+    width: 300px;
+    float: right;
+  }
+  .uiForumInfos .leftStartsList {
+    margin: 0 310px 0 0;
+  }
+}
+.titleBold {
+  font-weight: bold;
+}
+.uiForumModerator .forumList {
+  padding: 10px;
+}
+.uiTopicDetail .divTable {
+  table-layout: fixed;
+}
+.divTable {
+  display: table;
+  width: 100%;
+}
+.divRow {
+  display: table-row;
+}
+.divCell {
+  display: table-cell;
+}
+.postViewContainer {
+  padding-left: 10px;
+  width: 100%;
+}
+.postViewHeader {
+  background: #f8f8f8;
+  padding: 10px 15px;
+  min-height: 20px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.postViewHeader .postViewTitle {
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.postViewHeader > .pull-right {
+  margin-left: 20px;
+}
+.postViewHeader .uiCheckbox {
+  width: 13px;
+  margin-right: 0;
+}
+.postViewHeader .postTime {
+  color: #999999;
+  margin-right: 10px;
+}
+.postContent {
+  word-wrap: break-word;
+  min-height: 167px;
+}
+.postContent br {
+  display: block;
+  margin-top: 10px;
+}
+.postContent .uiWikiPortlet {
+  background: none;
+}
+.postContent .contentQuote {
+  font-style: italic;
+  padding: 15px 15px 15px 20px;
+  background: #eff4fa;
+  margin: 10px 0 10px 15px;
+  word-wrap: break-word;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.postContent .contentQuote .textContent {
+  border-left: none;
+  padding-left: 0;
+  margin-top: 10px;
+  color: #333333;
+}
+.postContent .contentQuote .textContent .contentQuote {
+  border-left: solid 5px #aac5e3;
+  padding: 0px 0px 0px 20px;
+  margin-top: 15px;
+}
+.postContent .contentQuote .textContent .contentQuote .titleQuote {
+  line-height: 8px;
+  height: 13px;
+  color: #333333;
+}
+.postContent .contentQuote .textContent .singleQuote {
+  padding: 5px 0px 5px 20px;
+  margin: 5px 0px;
+}
+.postContent .contentQuote .titleQuote {
+  font-weight: bold;
+  color: #333333;
+}
+.postContent .textContent {
+  word-wrap: break-word;
+}
+.postContent .textContent .contentQuote {
+  font-style: italic;
+  padding-left: 0;
+  margin: 0;
+}
+.postContent .textContent .contentQuote .titleQuote {
+  font-weight: bold;
+}
+.postContent ul,
+.postContent ol {
+  padding: 0;
+  margin: 0px 0px 10px 25px;
+}
+.postContent ul li {
+  list-style: disc outside none;
+}
+.postContent ol li {
+  list-style-type: decimal;
+}
+.uiTopicDetail .tagsContainer {
+  line-height: 28px;
+}
+.uiTopicDetail .tagsContainer .tagItem {
+  display: inline-block;
+  color: #2f5e92;
+  background: #d1ddf7;
+  border: 1px solid #215ab2;
+  padding: 1px 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.uiTopicDetail .tagsContainer .titleTag {
+  margin-left: 10px;
+}
+.uiTopicDetail .tagsContainer .txtTags {
+  display: inline-block;
+}
+.uiTopicDetail .tagsContainer .txtTags li {
+  display: inline-block;
+  margin: 0px 5px 0px 0px;
+}
+.uiTopicDetail .tagsContainer .txtTags li.moreItem > div {
+  padding: 1px 5px;
+  margin-top: 2px;
+  line-height: 20px;
+}
+.uiTopicDetail .tagsContainer .txtTags .menuMore {
+  min-width: 100px;
+}
+.uiTopicDetail .tagsContainer .txtTags .menuMore li {
+  display: block;
+  padding: 2px 6px 2px 10px;
+}
+.uiTopicDetail .uiBox.uiPostRules {
+  margin-top: 10px;
+}
+.uiTopicDetail .containerTopicDetail {
+  margin-top: 10px;
+}
+.uiTopicDetail .line {
+  margin: 10px -10px;
+  background: #cccccc;
+  height: 1px;
+  display: block;
+}
+.uiTopicDetail .divRow:last-child .line {
+  margin: 0;
+  background: none;
+  height: 0;
+}
+.uiTopicDetail .forumQuickReply {
+  margin-top: 10px;
+}
+.uiTopicDetail .forumQuickReply .textQuickReply textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 5px;
+}
+.uiTopicPoll .textTitlePoll {
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  color: #2f5e92;
+  font-weight: bold;
+  font-size: 14px;
+}
+.uiTopicPoll .actionExpandCollapse {
+  margin-top: 3px;
+}
+.uiTopicPoll .pollTime {
+  background: #f0f0f0;
+  text-align: center;
+  min-height: 20px;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.uiTopicPoll .progressBar {
+  width: 84%;
+}
+.uiTopicPoll .progressBar .progress {
+  margin-bottom: 0;
+}
+.uiTopicPoll .tableVoted {
+  width: 65%;
+  margin: 0 auto;
+}
+.uiTopicPoll .tableVoting {
+  width: 25.5%;
+  margin: 0 auto;
+}
+.uiTopicPoll .tableVoting .contentVoting label {
+  margin-left: 15px;
+}
+.uiTopicPoll .tableVoting .contentVoting label span {
+  padding-left: 10px;
+}
+.uiTopicPoll .tableVoting .contentVoting .uiCheckbox {
+  margin-left: 15px;
+}
+.uiTopicPoll .totalVotes {
+  text-align: right;
+  width: 82.5%;
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.uiTopicPoll .uiContentBox table.tableVoted thead tr th,
+.uiTopicPoll .uiContentBox table.tableVoted tbody tr td {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.uiForumListSearch .searchResult table > caption {
+  text-align: center;
+  padding: 5px 5px 5px 15px;
+}
+.uiForumListSearch .searchResult table > caption .txtTitleResult {
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+}
+.uiForumListSearch .searchResult table > caption .uiSelectbox,
+.uiForumListSearch .searchResult table > caption .selectbox {
+  width: auto;
+}
+.uiAdvancedSearchForm .title.titleAdvancedForm {
+  padding-left: 20px;
+}
+.uiAdvancedSearchForm .dateTimeAnd {
+  padding: 0px 20px;
+}
+.uiAdvancedSearchForm .status .uiCheckbox + .uiCheckbox {
+  margin-left: 15px;
+}
+.uiAdvancedSearchForm .state .uiCheckbox + .uiCheckbox {
+  margin-left: 26px;
+}
+/********* 	Slide	********/
+.uiFormSliderInput .slideSearch {
+  padding-top: 14px;
+}
+.uiFormSliderInput .slideSearch .slide {
+  width: 300px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.uiFormSliderInput .slideSearch .slideContainer {
+  background: url("/eXoSkin/skin/images/themes/default/forum/portlets/forum/background/slideContainer.png") repeat-x left top;
+  height: 5px;
+}
+.uiFormSliderInput .slideSearch .slideRange {
+  background-position: 0 0;
+  display: block;
+  position: absolute;
+  top: -1px;
+  z-index: 1;
+}
+.uiFormSliderInput .slideSearch .sllideHeader {
+  background-color: #477ab3;
+  background-image: -moz-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#578dc9), to(#2f5e92));
+  background-image: -webkit-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: -o-linear-gradient(top, #578dc9, #2f5e92);
+  background-image: linear-gradient(to bottom, #578dc9, #2f5e92);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff578dc9', endColorstr='#ff2f5e92', GradientType=0);
+  height: 7px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.uiFormSliderInput .slideSearch .circleDefault {
+  background: url("/eXoSkin/skin/images/themes/default/forum/portlets/forum/background/circle.png") no-repeat left top;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -7px;
+  z-index: 2;
+  margin-left: -9px;
+}
+.uiFormSliderInput .boxNumber {
+  padding-left: 20px;
+}
+.uiFormSliderInput .boxNumber .uiSliderInput {
+  background: #ffffff;
+  text-align: center;
+  width: 50px;
+}
+/*********	DateInput	********/
+.dateTimeInputContainer > input {
+  width: 120px;
+}
+.uiViewPost .viewContainer {
+  padding-left: 0;
+}
+.uiViewPost .viewContainer h6 {
+  border-bottom: dashed 1px #cccccc;
+  padding-bottom: 10px;
+}
+.uiViewPost .attachmentBox {
+  float: left;
+  padding: 10px;
+}
+.memberContainer {
+  width: 184px;
+  background: #f0f0f0;
+  padding: 10px 15px 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: top;
+}
+.memberContainer .infoMember {
+  margin-top: 10px;
+}
+.textTitleProfile {
+  color: #2f5e92;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Helvetica Neue Bold", Helvetica, Lucida, Arial, sans-serif;
+}
+.profileContainer {
+  vertical-align: top;
+  padding: 10px 8px 8px 8px;
+}
+.profileContainer .labelText {
+  line-height: 20px;
+  padding-right: 6px;
+  text-align: right;
+  width: 150px;
+  vertical-align: top;
+}
+.profileContainer .labelProfile {
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+}
+/****** Popup select Category in User Manager  *******/
+.uiSelectCategoryForm .uiTrees {
+  background: #ffffff;
+}
+.uiSelectCategoryForm .uiTrees .nodeGroup .node .lastNode {
+  margin-left: 22px;
+}
+.uiSelectCategoryForm .uiTrees .nodeGroup .node .uiCheckbox {
+  margin-right: -2px;
+  margin-left: 0;
+}
+.uiSelectCategoryForm .uiTrees .nodeGroup .node .spaceItem {
+  margin: 0 6px;
+}
+.uiPrivateMessageForm .uiListSentPrivate table,
+.uiPrivateMessageForm .uiListInboxMessage table {
+  margin: 0;
+}
+.uiPrivateMessageForm .form-horizontal .control-label {
+  width: 100px;
+}
+.uiPrivateMessageForm .form-horizontal .controls {
+  margin-left: 115px;
+}
+.uiActionDashed {
+  border-top: dashed 1px #999999;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+.uiNotification {
+  display: none;
+  position: absolute;
+  right: 1.5%;
+  padding: 10px 10px 15px 15px;
+  background: #fff4c4;
+  border: solid 1px #edad00;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.uiNotification .popupTitle {
+  margin-bottom: 5px;
+}
+.uiNotification .nameMessage,
+.uiNotification .title,
+.uiNotification .from,
+.uiNotification .content,
+.uiNotification .link {
+  margin: 2px 0;
+}
+.uiNotification .closePopup {
+  cursor: pointer;
+}
+.uiModeratorManagementForm .managementContent .form-horizontal .control-group .actionIcon {
+  margin-left: 5px;
+}
+.uiModeratorManagementForm .uiSearchInput {
+  margin-bottom: 15px;
+}
+.uiBanIPForumManagerForm .typeInputIp td input {
+  width: 85%;
+}
+.uiBanIPForumManagerForm .uiGridFilter {
+  margin-bottom: 8px;
+}
+.uiBanIPForumManagerForm .uiGridFilter .td-label,
+.uiBanIPForumManagerForm .uiGridFilter .controls {
+  vertical-align: top;
+}
+.uiBanIPForumManagerForm .uiGridFilter .td-label {
+  width: 38px;
+}
+.uiBanIPForumManagerForm .uiGridFilter .td-label .control-label {
+  white-space: nowrap;
+  text-align: left;
+  margin-top: 4px;
+}
+.uiBanIPForumManagerForm .uiGridFilter .controls > input {
+  width: 100%;
+}
+.uiBanIPForumManagerForm .uiGrid .control-action {
+  width: 95px;
+}
+.popupContent .contentContainer {
+  padding: 10px;
+}
+.emptyData {
+  color: #999999;
+}
+.uiAddPollForm .form-horizontal .control-label {
+  width: 190px;
+}
+.uiAddPollForm .form-horizontal .controls {
+  margin-left: 200px;
+}
+.uiAddPollForm .form-horizontal .controls .multiValueContainer + .multiValueContainer {
+  margin-top: 10px;
+}
+.uiPageIterator + table {
+  margin-top: 10px;
+}
+.uiExportForm .horizontalLayout table {
+  margin-bottom: 0;
+}
+.uiExportForm .horizontalLayout .form-horizontal .control-label {
+  width: 120px;
+}
+.uiExportForm .horizontalLayout .form-horizontal .controls {
+  margin-left: 140px;
+}
+.uiPostForm .form-horizontal .control-label {
+  width: 100px;
+}
+.uiPostForm .form-horizontal .controls {
+  margin-left: 120px;
+}
+.form-horizontal .control-group .controls iframe {
+  float: left;
+}
+.txtPermissionGrid {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100px;
+}
+.uiNotificationForm .form-horizontal .control-group .control-label {
+  width: 185px;
+}
+.uiNotificationForm .form-horizontal .control-group .controls {
+  margin-left: 210px;
+}
+/************ Popup Import **********/
+.uiImportForm .uploadButton {
+  text-align: center;
+}
+.uiImportForm .uploadButton .noFile {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+/************ Auto Prune **********/
+.uiAutoPruneSettingForm .form-horizontal .control-group .control-label {
+  width: 240px;
+}
+.uiAutoPruneSettingForm .form-horizontal .control-group .controls {
+  margin-left: 255px;
+}
+.uiFormForum .table + div {
+  margin-top: 15px;
+}
+.uiNotificationForm .controls .clearfix {
+  width: 94%;
+  float: left;
+}
+.uiNotificationForm .controls .clearfix > span {
+  width: 100%!important;
+}
+.rounded-corners-top {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  background: #f0f0f0;
+  line-height: 20px;
+  border: 1px solid #cccccc;
+  border-bottom: none;
+  text-align: left;
+  min-height: 38px;
+}
+.uiForumPortlet .uiGrid.table caption + thead tr th {
+  background-color: #f8f8f8;
+  border-bottom: solid 1px #e6e6e6;
+}
+.uiForumInfos .title [class^="uiIconMini"][class*="Arrow"],
+.forumQuickReply .title [class^="uiIconMini"][class*="Arrow"],
+.uiPostRules .title [class^="uiIconMini"][class*="Arrow"],
+.uiForumInfos .title [class^="uiIconMini"],
+.forumQuickReply .title [class^="uiIconMini"],
+.uiPostRules .title [class^="uiIconMini"],
+.uiForumInfos .title [class^="uiIconArrow"],
+.forumQuickReply .title [class^="uiIconArrow"],
+.uiPostRules .title [class^="uiIconArrow"] {
+  top: 2px;
+}
+.rounded-corners-top .actionIcon .uiIconMiniArrowDown,
+.rounded-corners-top .actionIconSmall .uiIconMiniArrowDown,
+.rounded-corners-top .uiActionWithLabel .uiIconMiniArrowDown,
+.uiForumActionBar .actionIcon .uiIconMiniArrowDown,
+.uiForumActionBar .actionIconSmall .uiIconMiniArrowDown,
+.uiForumActionBar .uiActionWithLabel .uiIconMiniArrowDown {
+  margin-left: 0;
+}
+.rounded-corners-top .actionExpandCollapse + .forumToolbar > li:last-child {
+  padding: 0 8px 0 0;
+}
+.uiForumPortlet .forumContainer .uiGrid.table td:first-child,
+.uiForumPortlet .forumContainer .uiGrid.table th:first-child {
+  padding-left: 8px;
+  padding-right: 3px;
+}
+.dropBan {
+  display: inline-block;
+}
+.dropBan .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.forumContains [class^="uiIcon"] {
+  margin: 0 5px 0 0;
+}
+.uiPostForm .ThreadContent .controls span i[class^="uiIcon"] {
+  margin-right: 4px;
+}
+.uiNotificationForm .cke_reset {
+  margin-right: 4px;
+}
+@media (max-width: 955px) {
+  .rounded-corners-top .actionExpandCollapse {
+    display: none;
+  }
+  #UIForumActionBar .forumSeparatorLine .dropdown-menu {
+    border: medium none;
+    box-shadow: none;
+    display: block;
+    min-width: auto;
+    position: static;
+    margin: 6px 0 0 6px;
+  }
+  .uiForumPortlet .menuMore .defaultStyle .uiDropdownWithIcon {
+    padding: 5px 12px;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .divCell {
+    display: block;
+  }
+  .memberContainer,
+  .postViewContainer {
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    margin: 10px 0;
+  }
+  #UITopicContent .table td:nth-child(6),
+  #UITopicContent .table th:nth-child(6),
+  #UITopicContent .table td:nth-child(5),
+  #UITopicContent .table th:nth-child(5) {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .uiForumActionBar #uiRightActionBar .privateMessage {
+    font-size: 0;
+  }
+}
