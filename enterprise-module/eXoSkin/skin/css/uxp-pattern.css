@@ -235,9 +235,6 @@ div.button .dropdown-menu {
 .uiAddressBar .detailViewIcon {
     padding-right: 20px;
 }
-.btn-group .active > i {
-    background-image: url("../../../eXoSkin/skin/images/themes/default/ecms/skin/Icons/uiIconsEcmsDefault.png");
-}
 .uiAddressBar .right {
     width: 180px;
 }

@@ -9907,6 +9907,24 @@ body {
 .uiIconWatch:before {
   content: "\e79b";
 }
+.uiIconAbort:before {
+  content: "\e76d";
+}
+.uiIconSpaceNavigation:before {
+  content: "\e648";
+}
+.uiIconAlignLeft:before {
+  content: "\e906";
+}
+.uiIconAlignCenter:before {
+  content: "\e907";
+}
+.uiIconAlignRight:before {
+  content: "\e908";
+}
+.uiIconCamera:before {
+  content: "\e90a";
+}
 .uiTabNormal .nav-tabs {
   margin: 0px;
   height: auto;
@@ -14772,7 +14790,8 @@ a:hover [class^="uiIconApp"],
 .uiIconUnlockMini:before {
   content: "\e79a";
 }
-.uiIconLockMedium:before {
+.uiIconLockMedium:before,
+.uiIconLockMini:before {
   content: "\e794";
 }
 .uiIconArrowDownMini:before,
@@ -26982,4 +27001,43 @@ hr {
     font-size: 12px;
     margin-right: 5px !important;
   }
+}
+/* uiSwitcher */
+.uiSwitcher {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 10px;
+  margin-bottom: 0;
+}
+.uiSwitcher input {
+  display: none;
+}
+.uiSwitcher input:focus + .switcher-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+.uiSwitcher input:checked + .switcher-slider:before {
+  transform: translateX(18px);
+  background: #2f5e92;
+}
+.uiSwitcher .switcher-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d8dadd;
+  border-radius: 8px;
+}
+.uiSwitcher .switcher-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 5px;
+  bottom: -4px;
+  background: #9ea6b2;
+  border-radius: 50%;
+  transition: transform .4s;
 }

@@ -9993,6 +9993,24 @@ body {
 .uiIconWatch:before {
   content: "\e79b";
 }
+.uiIconAbort:before {
+  content: "\e76d";
+}
+.uiIconSpaceNavigation:before {
+  content: "\e648";
+}
+.uiIconAlignLeft:before {
+  content: "\e906";
+}
+.uiIconAlignCenter:before {
+  content: "\e907";
+}
+.uiIconAlignRight:before {
+  content: "\e908";
+}
+.uiIconCamera:before {
+  content: "\e90a";
+}
 .uiTabNormal .nav-tabs {
   margin: 0px;
   height: auto;
@@ -14867,7 +14885,8 @@ a:hover [class^="uiIconApp"],
 .uiIconUnlockMini:before {
   content: "\e79a";
 }
-.uiIconLockMedium:before {
+.uiIconLockMedium:before,
+.uiIconLockMini:before {
   content: "\e794";
 }
 .uiIconArrowDownMini:before,
@@ -15584,10 +15603,6 @@ textarea {
   position: absolute;
   top: 4px;
 }
-.uiCheckbox input[type="checkbox"]:checked + span:before {
-  background: #578dc9;
-  top: 2px;
-}
 .uiCheckbox input[type="checkbox"] + span:before {
   background: #e1e8ee;
   -webkit-border-radius: 3px;
@@ -16193,8 +16208,10 @@ label.switchBtnLabelOff {
   margin-right: 1px;
 }
 label.switchBtnLabelOff span {
-  line-height: 1;
   padding-right: 14px;
+}
+label.switchBtnLabelOn span, label.switchBtnLabelOff span {
+  line-height: 1;
 }
 .switchBtnHandle {
   display: block;
@@ -27223,22 +27240,6 @@ hr {
 /* uiBox */
 /* Alert */
 @font-face {
-  font-family: 'OpenSansRegular';
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
-}
-@font-face {
-  font-family: 'OpenSansExtraBold';
-  src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf');
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
-}
-@font-face {
-  font-family: 'OpenSansLight';
-  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
-}
-@font-face {
   font-family: 'IONIC-FONT';
   src: url('../fonts/Ionic/ionicons.eot');
   src: url('../fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('../fonts/Ionic/ionicons.ttf') format('truetype'), url('../fonts/Ionic/ionicons.woff') format('woff'), url('../fonts/Ionic/ionicons.svg') format('svg');
@@ -27276,29 +27277,7 @@ hr {
 /* Enterprise skin-hero unit */
 /* Enterprise skin-Badge */
 /* Enterprise skin-Calendar */
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
-}
-@font-face {
-  font-family: 'OpenSansExtraBold';
-  src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf');
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
-}
-@font-face {
-  font-family: 'OpenSansLight';
-  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
-}
-@font-face {
-  font-family: 'IONIC-FONT';
-  src: url('../fonts/Ionic/ionicons.eot');
-  src: url('../fonts/Ionic/ionicons.eot') format('embedded-opentype'), url('../fonts/Ionic/ionicons.ttf') format('truetype'), url('../fonts/Ionic/ionicons.woff') format('woff'), url('../fonts/Ionic/ionicons.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 /*======================================*/
 /*              Badges                  */
 /*======================================*/
@@ -27721,7 +27700,7 @@ hr {
   line-height: 57px;
   height: 57px;
   font-size: 14px;
-  font-family: "OpenSansBold", OpenSans Bold, Lucida, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .UIToolbarContainer .uiDropdownWithIcon > .dropdown-menu {
   margin-top: 12px;
@@ -27820,7 +27799,7 @@ hr {
   overflow-y: auto;
 }
 .uiNotificationPopoverToolbarPortlet .displayItems .user-name {
-  font-family: "OpenSansBold";
+  font-family: Helvetica, Arial, sans-serif;
 }
 .uiNotificationPopoverToolbarPortlet .displayItems > li:hover {
   /*#gradient > .vertical(@dropdownLinkBackgroundHover, darken(@dropdownLinkBackgroundHover, 15%));*/
@@ -27876,7 +27855,7 @@ hr {
 /*=====================================*/
 /* Enterprise skin-default btn */
 .btn {
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
   padding: 8px 20px;
   color: #4d5466;
@@ -27894,44 +27873,47 @@ hr {
   color: #c6c6c6;
   box-shadow: none;
 }
-/* Enterprise skin-btn small */
-.btn.btn-small,
-.btn.btn-small.active,
-.btn-group .btn.dropdown-toggle.btn-small {
-  font-size: 12px;
-  padding: 2px 10px;
+/* Enterprise skin-btn primary */
+.btn.btn-primary,
+.btn-primary {
+  font-family: Helvetica, arial, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  padding: 10px 20px;
 }
-/* Enterprise skin-btn mini */
+.btn.btn-primary[disabled],
+.btn-primary[disabled],
+.btn.btn-primary.disabled,
+.btn-primary.disabled {
+  border-color: #afc9e5;
+  color: #ffffff;
+}
+.btn.btn-primary[disabled]:hover,
+.btn-primary[disabled]:hover,
+.btn.btn-primary.disabled:hover,
+.btn-primary.disabled:hover {
+  background: #afc9e5;
+}
+/* Enterprise skin-btn group */
 .btn.btn-mini,
 .btn-group .btn.dropdown-toggle.btn-mini {
   font-size: 11px;
   padding: 0 10px;
 }
-/* Enterprise skin-btn primary */
-.btn .btn-primary,
-.btn-primary {
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
-  font-weight: normal;
-  color: #ffffff;
-  border: none;
-  -webkit-box-shadow: inset 0px 0px 0px 2px #578dc9;
-  -moz-box-shadow: inset 0px 0px 0px 2px #578dc9;
-  box-shadow: inset 0px 0px 0px 2px #578dc9;
-}
 /* Enterprise skin-btn group */
-.btn-group {
-  position: relative;
-  display: inline-block;
-  font-size: 0;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-.btn-group > .btn,
 .btn-group > .btn {
   border: 1px solid #e1e8ee;
+  box-shadow: none;
+  padding: 9px 20px;
 }
-.btn-group > .btn + .btn {
-  margin-left: -1px;
+.btn-group > .btn:hover,
+.btn-group > .btn:focus,
+.btn-group > .btn:active,
+.btn-group > .btn.active {
+  border: 1px solid #e1e8ee;
+  z-index: 0;
 }
 .btn-group > .btn:focus,
 .btn-group > .btn.active {
@@ -27939,17 +27921,14 @@ hr {
   border: solid 1px #578dc9;
   color: #ffffff;
 }
-.btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active {
-  border: 1px solid #578dc9;
-  z-index: 0;
-  box-shadow: none;
-}
-.btn-group > .btn > i, .btn-group > .btn:hover > i {
-  color: inherit;
-}
-.btn-group > .btn:focus a,
-.btn-group > .btn.active a {
+.btn-group > .btn:not(.dropdown-toggle):focus a,
+.btn-group > .btn:not(.dropdown-toggle).active a {
   color: #ffffff;
+}
+.btn-group > .btn > i,
+.btn-group > .btn:hover > i,
+.btn-group > .btn:focus > i {
+  color: inherit;
 }
 .uiActionBar .alignBtnGroup .btn.active a {
   color: #ffffff;
@@ -27987,6 +27966,7 @@ hr {
   color: #ffffff;
   background: #578dc9;
   border-color: #578dc9;
+  padding: 8px 15px;
 }
 /* Enterprise skin-btn large */
 .btn.btn-large,
@@ -27994,11 +27974,24 @@ hr {
 .btn.dropdown-toggle.btn-large {
   padding: 12px 20px;
 }
+/* Enterprise skin-btn small */
+.btn.btn-small,
+.btn.btn-small.active,
+.btn-group .btn.dropdown-toggle.btn-small {
+  font-size: 12px;
+  padding: 2px 10px;
+}
+/* Enterprise skin-btn mini */
+.btn.btn-mini,
+.btn-group .btn.dropdown-toggle.btn-mini {
+  font-size: 11px;
+  padding: 0 10px;
+}
 /* Enterprise skin-Form*/
 .form-search,
 .form-inline,
 .form-horizontal {
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .input-append .btn {
   color: #ffffff;
@@ -28101,24 +28094,41 @@ textarea[disabled] {
   height: 2px;
   box-shadow: none;
   left: 5px;
-  top: 7px;
+  top: 9px;
+}
+.uiCheckbox input[type="checkbox"]:disabled + span:before {
+  background: #999999;
+  opacity: .3;
+}
+.uiCheckbox input[type="checkbox"]:disabled + span:after {
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
 }
 .uiCheckbox input[type="checkbox"] + span:before {
+  background: #578dc9;
   box-shadow: none;
   width: 16px;
   height: 16px;
 }
 .uiRadio input[type="radio"]:checked + span:after {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   box-shadow: none;
-  left: 3px;
+  left: 4px;
   top: 7px;
+  background: #578dc9;
 }
 .uiRadio input[type="radio"] + span:before {
   box-shadow: none;
+  background: none;
+  border: 2px solid #578dc9;
+  box-sizing: border-box;
   width: 14px;
   height: 14px;
+  top: 3px;
+}
+.uiRadio input[type="radio"]:checked + span:before {
+  background: none;
 }
 label.switchBtnLabelOn,
 label.switchBtnLabelOff {
@@ -28139,34 +28149,37 @@ textarea {
 }
 /* Enterprise skin-heading */
 h1 {
-  font-family: "OpenSansExtraBold", OpenSans Bold, Lucida, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #4d5466;
 }
 h2 {
-  font-family: "OpenSansBold", OpenSans Bold, Lucida, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #4d5466;
 }
 h3 {
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #4d5466;
 }
 h4 {
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #4d5466;
 }
 h5 {
-  font-family: "OpenSansLight", OpenSans Light, Lucida, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serifpHelvetica, Arial, sans-serif;
   color: #4d5466;
 }
 /* Enterprise skin-page title */
 h4.titleWithBorder {
-  font-family: "OpenSansLight", OpenSans Light, Lucida, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #4d5466;
   font-size: 24px;
 }
+h4.titleWithBorder {
+  padding-bottom: 5px;
+}
 /* Enterprise skin-hero-unit */
 .hero-unit h1 {
-  font-family: "OpenSansBold", OpenSans Bold, Lucida, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 48px;
 }
 .hero-unit p {
@@ -28175,12 +28188,12 @@ h4.titleWithBorder {
 /* Enterprise skin-paragraph */
 p {
   font-size: 15px;
-  font-family: "OpenSansLight", OpenSans Light, Lucida, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* Enterprise skin-Lead body copy */
 .lead {
   font-size: 18px;
-  font-family: "OpenSansRegular", OpenSans Regular, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* Enterprise skin-jumbotron */
 .jumbotron h1 {
@@ -28222,40 +28235,31 @@ p {
   margin: 0px;
   color: #ffffff;
   font-size: 12px;
+  border-top: 1px solid #ffffff;
+  padding: 7px 9px;
+}
+.uiCalendarComponent table.weekList td font {
+  color: #ffffff;
 }
 .uiCalendarComponent table tr td {
   line-height: 27px;
 }
-.uiCalendarComponent table.weekList {
-  padding: 7px 9px;
+.uiCalendarComponent table.weekDays tr td a {
+  font-size: 12px;
 }
 .uiCalendarComponent table.weekDays tr td .today {
-  border-radius: 15px;
-  -webkit-border-radius: none;
-  -moz-border-radius: none;
-  border-radius: none;
-  color: #ffffff;
-  font-size: 12px;
+  font-weight: bold;
+}
+.uiCalendarComponent table.weekDays tr td .selected {
+  border: none;
 }
 .uiCalendarComponent h5.title {
-  position: static;
-  font-size: 12px;
-}
-.uiCalendarComponent table.weekDays tr.currentWeek td a:hover {
-  border-radius: 15px;
-  color: #333333;
-  font-size: 12px;
-}
-.uiCalendarComponent table.weekDays tr td a:hover {
-  border-radius: 15px;
-  font-size: 12px;
-}
-.uiCalendarComponent table.weekDays tr td a {
-  color: #578dc9;
+  position: relative;
   font-size: 12px;
 }
 .uiCalendarComponent h5.title span {
   font-size: 12px;
+  display: inline-block;
 }
 .uiMiniCalendar {
   -webkit-box-shadow: 1px 1px 3px 0px rgba(255, 255, 255, 0.15);
@@ -28275,6 +28279,7 @@ p {
   border-radius: 50%;
   color: #ffffff;
   font-size: 12px;
+  border-color: #578dc9;
 }
 .uiMiniCalendar table.weekDays tr.currentWeek td:hover {
   border-radius: 50%;
@@ -28317,13 +28322,13 @@ p {
 .uiIconArrowLeftMini:before,
 .uiIconMiniArrowLeft:before {
   content: "\f124";
-  color: #000000;
+  color: #fff;
   font-family: IONIC-FONT;
 }
 .uiIconArrowRightMini:before,
 .uiIconMiniArrowRight:before {
   content: "\f125";
-  color: #000000;
+  color: #fff;
   font-family: IONIC-FONT;
   margin-left: 5px;
   margin-right: 5px;
@@ -28353,6 +28358,14 @@ p {
   color: #578dc9;
   font-weight: normal;
   border-radius: 50%;
+}
+.uiCalendarComponent .title .uiIconMiniArrowLeft:before {
+  content: "\f361";
+  font-size: 18px;
+}
+.uiCalendarComponent .title .uiIconMiniArrowRight:before {
+  content: "\f363";
+  font-size: 18px;
 }
 .calendarCheckboxBlock .checkbox {
   top: -7px;
@@ -28398,6 +28411,11 @@ p {
 }
 .alert-error {
   color: #771414;
+}
+.alert-success .uiIconSuccess:before {
+  content: "\f122";
+  font-family: IONIC-FONT;
+  color: #084130;
 }
 /* Enterprise skin-Dropdown */
 .dropdown-menu li > a {
@@ -28513,20 +28531,22 @@ p {
 .uiTabNormal .nav-tabs > li,
 .uiTabInPage .nav-tabs > li,
 .uiTabGrayInPage .nav-tabs > li {
-  margin: 0;
+  margin-bottom: -2px;
+}
+.uiTabNormal .nav-tabs > li > a,
+.uiTabInPage .nav-tabs > li > a,
+.uiTabGrayInPage .nav-tabs > li > a,
+.uiTabNormal .nav-tabs > li a:hover,
+.uiTabInPage .nav-tabs > li a:hover,
+.uiTabGrayInPage .nav-tabs > li a:hover {
+  border: 2px solid #e1e8ee;
+  border-right-color: transparent;
+  /*border-bottom: none;*/
 }
 .uiTabNormal .nav-tabs > li > a,
 .uiTabInPage .nav-tabs > li > a,
 .uiTabGrayInPage .nav-tabs > li > a {
-  border: none;
-  border-left: 2px solid #e1e8ee;
-  padding: 10px 15px;
-}
-.uiTabNormal .nav-tabs > li > a:hover,
-.uiTabInPage .nav-tabs > li > a:hover,
-.uiTabGrayInPage .nav-tabs > li > a:hover {
-  border-bottom: none;
-  border-left: 2px solid #e1e8ee;
+  padding: 9px 15px;
 }
 .uiTabNormal .nav-tabs > li.active a,
 .uiTabInPage .nav-tabs > li.active a,
@@ -28534,17 +28554,32 @@ p {
 .uiTabNormal .nav-tabs > li.active a:hover,
 .uiTabInPage .nav-tabs > li.active a:hover,
 .uiTabGrayInPage .nav-tabs > li.active a:hover {
-  border: none;
+  border-color: #578dc9;
+  border-width: 2px;
+  /*border-bottom: none;*/
 }
 .uiTabNormal .nav-tabs > li.active + li a,
 .uiTabInPage .nav-tabs > li.active + li a,
 .uiTabGrayInPage .nav-tabs > li.active + li a {
-  border-left: none;
+  border-left-color: transparent;
 }
 .uiTabNormal .nav-tabs > li.active:first-child:before,
 .uiTabInPage .nav-tabs > li.active:first-child:before,
 .uiTabGrayInPage .nav-tabs > li.active:first-child:before {
   display: none;
+}
+.uiTabNormal .nav-tabs > li .uiIconClose:before,
+.uiTabInPage .nav-tabs > li .uiIconClose:before,
+.uiTabGrayInPage .nav-tabs > li .uiIconClose:before {
+  color: #ffffff;
+}
+.uiTabNormal .nav-tabs > li:not(.active):not(.pull-right):last-child a,
+.uiTabInPage .nav-tabs > li:not(.active):not(.pull-right):last-child a,
+.uiTabGrayInPage .nav-tabs > li:not(.active):not(.pull-right):last-child a,
+.uiTabNormal .nav-tabs > li:not(.active).last a,
+.uiTabInPage .nav-tabs > li:not(.active).last a,
+.uiTabGrayInPage .nav-tabs > li:not(.active).last a {
+  border-right: 2px solid #e1e8ee;
 }
 /*table*/
 .table {
@@ -28589,4 +28624,43 @@ p {
 }
 .uiPageIterator ul li a i:before {
   margin: 0;
+}
+/* uiSwitcher */
+.uiSwitcher {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 10px;
+  margin-bottom: 0;
+}
+.uiSwitcher input {
+  display: none;
+}
+.uiSwitcher input:focus + .switcher-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+.uiSwitcher input:checked + .switcher-slider:before {
+  transform: translateX(18px);
+  background: #578dc9;
+}
+.uiSwitcher .switcher-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d8dadd;
+  border-radius: 8px;
+}
+.uiSwitcher .switcher-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 5px;
+  bottom: -4px;
+  background: #9ea6b2;
+  border-radius: 50%;
+  transition: transform .4s;
 }

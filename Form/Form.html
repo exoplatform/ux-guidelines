@@ -84,8 +84,8 @@
                 </ul>
                 <div class="pull-right" style="margin-top: 0px;">
                     <div class="btn-group">
-                        <div class="btn btn-small active"><a href="Classes.html">Default Theme</a> </div>
-                        <div class="btn btn-small"><a href="../enterprise-module/Classes/Classes.html">Enterprise Theme</a></div>
+                        <div class="btn btn-small active"><a href="Form.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="../enterprise-module/Form/Form.html">Enterprise Theme</a></div>
                     </div>
                 </div>
                 <div class="btn-group-download pull-right">
@@ -360,7 +360,7 @@
 </pre>
                     <p>
                         <h4>Switch Radio</h4></p>
-                    <p> By using the <code>iphone-style-checkboxes.js</code> provided by eXo Platform Team, there is a nice switch radio:
+                    <p> By using the <code>iphone-style-checkboxes.js</code> provided by eXo Platform Team, there is a nice switch radio:</p>
                         <form class="bs-docs-example">
                             <div class="uiSwitchBtn" style="width: 60px;">
                                 <input type="checkbox" name="NewUserPlugin" checked="checked" class="providerAction yesno enable" data-no="NO" data-yes="YES">
@@ -402,6 +402,19 @@
                                     });
                             </script>
                         </form>
+                        <p>Switch button without label using only css:</p>
+                        <form class="bs-docs-example">
+                          <label class="uiSwitcher">
+                            <input type="checkbox" checked="checked" />
+                            <span class="switcher-slider"></span>
+                          </label>
+                        </form>
+<pre class="prettyprint linenums">
+&lt;label class="uiSwitcher"&gt;
+  &lt;input type="checkbox" checked="checked" /&gt;
+  &lt;span class="switcher-slider">&lt;/span&gt;
+&lt;/label&gt;
+</pre>
                         <p>
                             <h3>Selects</h3></p>
                         <p>The default or <code>multiple="multiple"</code> options can be selected at once.</p>
