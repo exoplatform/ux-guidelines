@@ -173,31 +173,33 @@
 &lt;/div&gt;
 </pre>
                             <div class="bs-docs-example">
-                                <p>
-                                    <div class="input-xlarge">
-                                        <div class="uiLargeTextField">
-                                            <div class="uiUsername">
-                                                <input type="text" placeholder="Username">
+                                <div style="width:270px;">
+                                    <p>
+                                        <div class="input-xlarge">
+                                            <div class="uiLargeTextField">
+                                                <div class="uiUsername">
+                                                    <input type="text" placeholder="Username">
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </p>
-                                <p>
-                                    <div class="input-xlarge">
-                                        <div class="uiLargeTextField">
-                                            <div class="uiPassword">
-                                                <input type="password" placeholder="Password">
+                                    </p>
+                                    <p>
+                                        <div class="input-xlarge">
+                                            <div class="uiLargeTextField">
+                                                <div class="uiPassword">
+                                                    <input type="password" placeholder="Password">
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </p>
-                                <p>
-                                    <span class="uiCheckbox">
-                                       <input type="checkbox" class="checkbox">
-                                       <span>Remember me</span>
-                                   </span>
-                               </p>
-                               <button type="submit" class="uiLargeButton">Sign in</button>
+                                    </p>
+                                    <p>
+                                        <span class="uiCheckbox">
+                                           <input type="checkbox" class="checkbox">
+                                           <span>Remember me</span>
+                                       </span>
+                                   </p>
+                                   <button type="submit" class="btn btn-block btn-primary">Sign in</button>
+                               </div>
                             </div>
 <pre class="prettyprint linenums">
 &lt;div class="controls "&gt;
@@ -402,6 +404,25 @@
                                     });
                             </script>
                         </form>
+<pre class="prettyprint linenums">
+&lt;div class="uiSwitchBtn" style="width: 60px;"&gt;
+  &lt;div class="iPhoneCheckContainer"&gt;
+    &lt;input type="checkbox" checked="checked" class="providerAction yesno enable" data-no="NO" data-yes="YES" value="true"&gt;
+    &lt;label class="switchBtnLabelOff"&gt;
+      &lt;span>NO&lt;/span>
+    &lt;/label>
+    &lt;label class="switchBtnLabelOn">
+      &lt;span>YES&lt;/span>
+    &lt;/label>
+    &lt;div class="switchBtnHandle">
+      &lt;div class="switchBtnHandleRight">
+        &lt;div class="switchBtnHandleCenter">&lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre>                     
+
                         <p>Switch button without label using only css:</p>
                         <form class="bs-docs-example">
                           <label class="uiSwitcher">

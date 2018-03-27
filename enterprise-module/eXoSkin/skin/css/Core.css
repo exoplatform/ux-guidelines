@@ -23782,16 +23782,10 @@ table {
   padding: 5px;
 }
 .avatarCircle img {
-  max-height: 40px;
-  max-width: 40px;
-  margin: 0;
+  max-height: 50px;
+  max-width: 50px;
+  margin: -5px!important;
   padding: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
   border-radius: 100px;
 }
 .avatarSmallCircle {
@@ -27833,13 +27827,16 @@ hr {
 .uiPageIterator ul > .active > a:hover,
 .uiPageIterator ul > .active > span,
 .uiPageIterator ul > .active > span:hover {
-  color: #ffffff;
+  color: #4d5466;
   background-image: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
   border: 2px solid #578dc9;
   background-position: 0 -30px;
+}
+.uiPageIterator ul > .active > a {
+  color: #ffffff;
 }
 /*            end pagination           */
 /*=====================================*/
@@ -28328,7 +28325,7 @@ p {
 .uiIconArrowRightMini:before,
 .uiIconMiniArrowRight:before {
   content: "\f125";
-  color: #fff;
+  color: #000;
   font-family: IONIC-FONT;
   margin-left: 5px;
   margin-right: 5px;

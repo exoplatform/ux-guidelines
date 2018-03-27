@@ -86,9 +86,6 @@ div.button .dropdown-menu {
 .attachmentContentImage .imageAttachmentBox:hover .actionAttachImg {
     display: block;
 }
-.attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconSearch, .attachmentContentImage .imageAttachmentBox .actionAttachImg p a:hover .uiIconDownload {
-    background-image: url("../../../eXoSkin/skin/images/themes/default/Icons/uiIconsSecondary.png");
-}
 .uiThumbnailsView {
     overflow-x: hidden;
     overflow-y: auto;

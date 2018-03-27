@@ -27041,3 +27041,6 @@ hr {
   border-radius: 50%;
   transition: transform .4s;
 }
+.uiIconPLF24x24Bell:before {
+  content: "\e73a";
+}

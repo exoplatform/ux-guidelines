@@ -121,34 +121,27 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><i class="uiIconTrash uiIconLightGray"></i> <i class="uiIconClock uiIconLightGray"></i></td>
-                                        <td>Light Gray Icon</td>
+                                        <td><i class="uiIconTrash"></i> <i class="uiIconClock"></i></td>
+                                        <td>Default Icon</td>
                                         <td><code>#578dc9</code></td>
                                         <td>Default color for repeated action icons, action list having dark gray labels. For example: Delete or Edit action in table, dropdown menu with dark gray text.</td>
                                     </tr>
                                     <tr>
-                                        <td><i class="uiIconTrash uiIconDarkGray"></i> <i class="uiIconClock  uiIconDarkGray"></i></td>
-                                        <td>Dark Gray Icon</td>
-                                        <td><code>#578dc9</code></td>
-                                        <td>Default color for action icons having light or medium gray labels.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="uiIconTrash uiIconWhite"></i> <i class="uiIconClock  uiIconWhite"></i></td>
+                                        <td style="width: 150px;">
+                                            <a class="btn btn-primary">
+                                                <i class="uiIconTrash uiIconWhite"></i>
+                                                <span>Delete</span>
+                                            </a>
+                                        </td>
                                         <td>White</td>
                                         <td><code>#FFFFFF</code></td>
                                         <td>Hover icon in dropdown menu, icons in primary button or black/gray bar.</td>
                                     </tr>
                                     <tr>
-                                        <td><i class="uiIconTrash uiIconBlue"></i> <i class="uiIconClock  uiIconBlue"></i></td>
-                                        <td>Electric Blue</td>
-                                        <td><code>#578dc9</code></td>
-                                        <td>Default color icon for hovered/pressed/selected effect on light or dark gray icon.</td>
-                                    </tr>
-                                    <tr>
                                 </tbody>
                             </table>
                         </div>
-                        <p>The eXo Platform icons are located in sprites. Each sprite has 4 color versions. For example, an icon in the general sprite has 4 colors that are defined by 4 classes: <code>uiIconLightGray</code>, <code>uiIconDarkGray</code>, <code>uiIconWhite</code>, <code>uiIconBlue</code>.</p>
+                        <p>The eXo Platform icons are located in sprites. For white icon, we must add <code>uiIconWhite</code>.</p>
                         <h3>Size</h3>
                         <div class="table-responsive">
                           <table class="table table-bordered table-striped">
@@ -210,10 +203,8 @@
                         </p>
 
 <pre class="prettyprint linenums">
-&lt;i class="uiIconTrash uiIconLightGray">&lt;/i&gt;
-&lt;i class="uiIconTrash uiIconDarkGray">&lt;/i&gt;
+&lt;i class="uiIconTrash">&lt;/i&gt;
 &lt;i class="uiIconTrash uiIconWhite">&lt;/i&gt;
-&lt;i class="uiIconTrash uiIconBlue">&lt;/i&gt;
 </pre>
                     </section>
                     <section id="S3">
