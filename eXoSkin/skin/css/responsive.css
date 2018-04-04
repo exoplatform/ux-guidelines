@@ -1,0 +1,199 @@
+/*
+#--------------------------------------------------
+# RESPONSIVE
+#--------------------------------------------------
+*/
+.bs-docs-example .btn-group + .btn-group{
+	margin-left: 0;
+}
+.bs-docs-example .btn-group {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+/*
+# Mobile First
+#--------------------------------------------------
+*/
+/* Only Desktop */
+@media(min-width: 980px) {
+	.toggle-left-bar {
+		display: none;
+	}
+}
+
+/* From Tablet to desktop */
+@media(min-width: 768px) {
+	.bs-docs-example .uiPopup {
+		max-width: 560px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*
+# Desktop First
+#--------------------------------------------------
+*/
+@media (min-width: 1200px) {
+}
+
+/* Portrait tablet */
+@media(max-width: 1200px) {
+	.btn-group-download .btn span {
+		display: none;
+	}
+	.bs-docs-example .NaviContent .NaviLeft {
+	  display: none;
+	}
+}
+/*@media (max-width: 1024px) and (min-width: 481px) {
+	[class^="uiIcon"], .LeftNavigationTDContainer .uiPopup [class^="uiIcon"] {
+	    font-size: 22px;
+	}
+	.input-append .add-on, .input-prepend .add-on {
+		height: 24px;
+	}
+}*/
+@media (max-width: 1024px) and (min-width: 481px){
+	body .toggle-left-bar {
+	    margin-right: 0px;
+	}
+}
+@media(max-width: 979px) {
+	.input-append .add-on, .input-prepend .add-on .input-xxxlarge,
+	.inputXxxlarge input[type="text"], .inputXxxlarge input[type="password"] {
+		width: 100%;
+	}
+	.the-icons li {
+		width: 50%;
+	}
+	.navbar-fixed-top {
+		z-index: 1050;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom {
+		position: fixed !important;
+	}
+	.navbar-fixed-top .nav > li + li {
+		background: none;
+		padding: 12px 6px 10px;
+	}
+  .main-content,
+  .navbar {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .mobile-offcanvas,
+  .main-content,
+  .navbar {
+    -webkit-transition: all 150ms ease-in-out 0s;
+    -moz-transition: all 150ms ease-in-out 0s;
+    -ms-transition: all 150ms ease-in-out 0s;
+    -o-transition: all 150ms ease-in-out 0s;
+    transition: all 150ms ease-in-out 0s;
+  }
+  body.open-offcanvas {
+    overflow: hidden;
+  }
+  body.open-offcanvas .UINavigationPortlet .LogoeXo,
+  body.open-offcanvas .uiNavigationFloatMenu .LogoeXo {
+    margin-left: 0;
+  }
+  body.open-offcanvas .mobile-offcanvas {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  body.open-offcanvas .main-content,
+  body.open-offcanvas .navbar {
+    -webkit-transform: translate(240px, 0);
+    -moz-transform: translate(240px, 0);
+    -ms-transform: translate(240px, 0);
+    -o-transform: translate(240px, 0);
+    transform: translate(240px, 0);
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.nav-collapse .pull-right {
+		float: none;
+		text-align: center;
+	}
+	.main-content .hero-unit {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	body {
+		padding-top: 44px;
+	}
+	body > .navbar .brand {
+		padding: 2px 0;
+	}
+	.navbar-fixed-top .navbar-inner {
+		min-height: 33px;
+	}
+	.toggle-left-bar {
+		padding-top: 7px;
+		padding-bottom: 5px;
+		margin-right: 0!important;
+	}
+	[href*="javascript:image()"] .btn {
+		max-width: 100%;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.homeOverview  {
+		text-align: center;
+	}
+	.the-icons li {
+		width: 100%;
+	}
+	.bs-docs-example .uiLargeButton {
+		width: 100%;
+	}
+	.input-append > input {
+		width: auto;
+	}
+	#overview h1, .hero-unit h1 {
+		font-size: 24px;
+	}
+	#overview.jumbotron p {
+		font-size: 16px;
+	}
+	.uiTabGrayInPage .tab-content .nav-pills > li {
+		display: none;
+	}
+	.uiTabGrayInPage .tab-content .nav-pills > li.listHiddenActionsContainer {
+		display: block;
+	}
+}

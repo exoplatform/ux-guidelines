@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 .loading-action {
-  -webkit-animation: fa-spin 1s infinite linear;
+  -webkit-animation: loading 1s infinite linear;
   animation: loading 1s infinite linear;
 }
 @-webkit-keyframes loading {
@@ -129,7 +129,7 @@
   font-weight: bold;
 }
 .uiWikiSelectPageForm .uiTreeExplorer .nodeSelected:hover i[class^="uiIconWiki"] {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiPrimary.png");
+  color: #2f5e92;
 }
 .uiWikiSelectPageForm .uiSpaceSwitcher_UIWikiSelectPageForm {
   cursor: pointer;
@@ -142,13 +142,13 @@
   left: 0px;
 }
 .uiWikiSelectPageForm .uiSpaceSwitcher_UIWikiSelectPageForm .spaceChooserPopup .uiIconWikiWiki:hover {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiSecondary.png");
+  color: #ffffff;
 }
 .uiWikiSpaceSwitcher_CreateWiki .spaceChooserPopup a:hover i,
 .uiSpaceSwitcher_UIWikiSelectPageForm .spaceChooserPopup a:hover i,
 .uiSpaceSwitcher_UIWikiMovePageForm .spaceChooserPopup a:hover i,
 .uiSpaceSwitcher_BreadCrumb .spaceChooserPopup a:hover i {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiSecondary.png");
+  color: #ffffff;
 }
 .uiWikiSpaceSwitcher_CreateWiki .spaceChooserPopup a i,
 .uiSpaceSwitcher_UIWikiSelectPageForm .spaceChooserPopup a i,
@@ -161,7 +161,7 @@
   background: #ffffff;
 }
 .uiScrollTop {
-  background: url("../../../../eXoSkin/skin/images/themes/default/ShareImages/Background/uiScrollTop.png") repeat-x top center;
+  background: url("/eXoSkin/skin/images/themes/default/ShareImages/Background/uiScrollTop.png") repeat-x top center;
   position: absolute;
   content: "";
   z-index: 1;
@@ -170,7 +170,7 @@
   top: 0px;
 }
 .uiScrollBottom {
-  background: url("../../../../eXoSkin/skin/images/themes/default/ShareImages/Background/uiScrollBottom.png") repeat-x center;
+  background: url("/eXoSkin/skin/images/themes/default/ShareImages/Background/uiScrollBottom.png") repeat-x center;
   position: absolute;
   content: "";
   z-index: 1;
@@ -203,31 +203,128 @@
 }
 .warningmessage,
 .notemessage {
-  background: #fff4c4 url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/warningIcon.png") no-repeat 15px 6px;
+  background: #fff4c4;
   border: 1px solid #edad00;
   color: #333;
+  position: relative;
+}
+.warningmessage:before,
+.notemessage:before {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  display: block;
+  left: 22px;
+  top: 9px;
+  position: absolute;
+  color: #edad00;
+  content: "\e771";
 }
 .tipmessage {
-  background: #d7f8d5 url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/successIcon.png") no-repeat 15px 6px;
+  background: #d7f8d5;
   border: 1px solid #39c522;
   color: #333;
+  position: relative;
+}
+.tipmessage:before {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  display: block;
+  left: 22px;
+  top: 9px;
+  position: absolute;
+  content: "\e770";
+  color: #39c522;
 }
 .infomessage {
-  background: #d1ddf7 url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/infoIcon.png") no-repeat 15px 6px;
+  background: #d1ddf7;
   border: 1px solid #215ab2;
   color: #333;
+  position: relative;
+}
+.infomessage:before {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  display: block;
+  left: 22px;
+  top: 9px;
+  position: absolute;
+  content: "\e767";
+  color: #215ab2;
 }
 .errormessage {
-  background: #ed9c95 url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/errorIcon.png") no-repeat 15px 6px;
+  background: #ed9c95;
   border: 1px solid #c72222;
   color: #333;
+  position: relative;
+}
+.errormessage:before {
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  display: block;
+  left: 22px;
+  top: 9px;
+  position: absolute;
+  content: "\e76d";
+  color: #c72222;
 }
 .uiWikiPageVersionsCompare .comparedForm {
   border-bottom: 1px solid #e6e6e6;
   padding-bottom: 20px;
 }
 .uiWikiPageVersionsCompare .comparedForm pre {
-  background-color: #f7f7f7;
+  background-color: #f8f8f8;
   border: 1px solid #e6e6e6;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -247,9 +344,11 @@
 .uiWikiPageVersionsCompare .comparedForm pre > span.lineRemoved {
   background-color: #ed9c95;
   text-decoration: line-through;
+  color: #333;
 }
 .uiWikiPageVersionsCompare .comparedForm pre > span.lineAdded {
   background-color: #d7f8d5;
+  color: #333;
 }
 .uiWikiPageVersionsCompare .comparedForm pre > a.changes {
   color: #2f5e92;
@@ -325,7 +424,6 @@
 
   box-sizing: border-box;
   margin-bottom: 4px;
-  color: #333333;
   font-size: 18px;
 }
 .uiWikiPageEditForm .uiWikiSidePanelArea {
@@ -432,25 +530,35 @@
   height: 28px;
 }
 .EditSection [class^="wikimodel-freestanding"] {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
   background-position: -40px 0px;
-  *margin-right: .3em;
-  line-height: 16px;
-  vertical-align: text-top;
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/Icons/uiIconExtra.png");
-  background-repeat: no-repeat;
   margin-top: 12px;
+  font-family: "PLF-FONT-ICONS";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  color: #999999;
+  font-size: 14px;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+.EditSection [class^="wikimodel-freestanding"]:before {
+  content: "\e791";
 }
 .EditSection [class^="wikimodel-freestanding"]:hover {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
+  color: #2f5e92;
 }
 .uiWikiPageContentArea span.EditSection {
   display: none;
 }
 .uiWikiPageContentArea .section-container .EditSectionHover {
-  background-color: #f7f7f7;
+  background-color: #f8f8f8;
   margin: 0 -15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -501,7 +609,7 @@
 }
 .popupContenRelated {
   border: solid 1px #cccccc;
-  background: #f7f7f7;
+  background: #f8f8f8;
   margin: 15px 0 0;
 }
 .uiWikiAdvanceSearchResult > .resultInfo {
@@ -587,7 +695,7 @@
 }
 .uiWikiMovePageForm .sideBarContent .sideContent {
   border: 1px solid #e6e6e6;
-  background: #f7f7f7;
+  background: #f8f8f8;
   height: 270px;
   overflow: auto;
 }
@@ -598,8 +706,9 @@
   width: 122px;
   padding-top: 4px;
 }
-[class^="uiIconWiki"] {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiDefault.png");
+[class^="uiIconWiki"],
+.LeftNavigationTDContainer .uiPopup [class^="uiIconWiki"] {
+  color: #999999;
 }
 /* Blue icons with optional class, or on hover/active states of certain elements */
 .actionIcon:hover > i > [class^="uiIconWiki"],
@@ -614,23 +723,21 @@
 .btn:hover [class^="uiIconWiki"],
 a:hover [class^="uiIconWiki"],
 [class^="uiIconWiki"]:hover,
-.uiActionBar [class^="uiIconWiki"]:hover,
 .uiIconWikiBlue {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiPrimary.png");
+  color: #2f5e92;
 }
 /* light grey icons with optional class, or on  */
 .dropdown-menu > li > a > [class^="uiIconWiki"],
 .dropdown-menu > .active > a > [class^="uiIconWiki"],
 .breadcrumb [class^="uiIconWiki"],
 .uiDropdownWithIcon .dropdown-submenu > a > [class^="uiIconWiki"],
-.uiDropDownCal li a [class^="uiIconWiki"],
-.uiActionBar [class^="uiIconWiki"],
-.uiIconWikiLightGray {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiDefault.png");
+.uiDropDownCal li a [class^="uiIconWiki"] {
+  color: #999999;
 }
-.uiIconWikiExtra, .uiIconWikiDarkGray,
+.uiIconWikiDarkGray,
+.uiIconWikiExtra,
 .LeftNavigationTDContainer [class^="uiIconWiki"] {
-  background-image: url("../../../../eXoSkin/skin/images/themes/blue/wiki/Icons/uiIconsWikiExtra.png");
+  color: #626262;
 }
 /* White icons with optional class, or on hover/active states of Drop down with Icons */
 .uiDropdownWithIcon .nav-pills > .active > a > [class^="uiIconWiki"],
@@ -646,25 +753,13 @@ a:hover [class^="uiIconWiki"],
 .eventAllDay [class^="uiIconWiki"],
 .eventDayContainer [class^="uiIconWiki"],
 .uiIconWikiWhite {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/uiIconsWikiSecondary.png");
+  color: #ffffff;
 }
-.uiIconWikiWiki {
-  background-position: 0px 0px;
+.uiCompanyNavigationPortlet .uiIconWiki {
+  top: 2px;
 }
-.uiIconWikiRickText {
-  background-position: -20px 0px;
-}
-.uiIconWikiHelp {
-  background-position: -40px 0px;
-}
-.uiIconWikiMyWiki {
-  background-position: -60px 0px;
-}
-.uiIconWikiRevision {
-  background-position: -80px 0px;
-}
-.uiIconWikiRestrictedFile {
-  background-position: -100px 0px;
+.uiIconWikiRestrictedFile:before {
+  content: "\e6b2";
 }
 .uiWikiPageContentArea .uiWikiContentDisplay {
   padding: 10px 0;
@@ -675,10 +770,6 @@ a:hover [class^="uiIconWiki"],
 }
 .uiWikiPageContentArea .uiWikiContentDisplay .EditSectionHover span.EditSection {
   visibility: visible;
-  background: url("../../../../eXoSkin/skin/images/themes/default/Icons/uiIconsDefault.png") -40px 0;
-}
-.uiWikiPageContentArea .uiWikiContentDisplay .EditSectionHover span.EditSection:hover {
-  background: url("../../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png") -40px 0;
 }
 .uiWikiPageContentArea .uiWikiContentDisplay span.EditSection {
   visibility: hidden;
@@ -707,10 +798,7 @@ a:hover [class^="uiIconWiki"],
   overflow: auto;
 }
 .uiWikiPageContentArea .EditSectionHover {
-  background-color: #f7f7f7;
-}
-.uiWikiPageContentArea .EditSectionHover span.EditSection a {
-  background-position: -40px 0;
+  background-color: #f8f8f8;
 }
 .uiWikiContentDisplay ul,
 .uiWikiPagePreview ul {
@@ -748,14 +836,14 @@ a:hover [class^="uiIconWiki"],
 }
 .uiWikiContentDisplay dd,
 .uiWikiPagePreview dd {
-  background: url("../../../../eXoSkin/skin/images/themes/default/wiki/Icons/bullet-3.png") no-repeat scroll 0 0.3em transparent;
+  background: url("/eXoSkin/skin/images/themes/default/wiki/Icons/bullet-3.png") no-repeat scroll 0 0.3em transparent;
   font-style: italic;
   margin-left: 0;
   padding-left: 1em;
 }
 .uiWikiContentDisplay blockquote,
 .uiWikiPagePreview blockquote {
-  background: #f7f7f7;
+  background: #f8f8f8;
   border-left: 2px solid #cccccc;
   display: block;
   margin: 0.3ex 1em;
@@ -787,9 +875,6 @@ a:hover [class^="uiIconWiki"],
 .UIWikiToolBar {
   float: right;
   width: 100px;
-}
-.uiWikiSearchBox .uiSearchInput input[type="text"] {
-  background: none;
 }
 .uiWikiSearchBox.pull-right > .dropdown-menu {
   right: auto;
@@ -939,9 +1024,10 @@ a:hover [class^="uiIconWiki"],
   width: 15px;
   cursor: col-resize;
   position: relative;
+  margin-left: 5px;
 }
 .uiWikiMiddleArea .resizeBar .resizeBarContent:hover {
-  border-right: solid 1px #e6e6e6;
+  border-right: solid 1px #cccccc;
 }
 .uiWikiMiddleArea .resizeBar .resizeBarContent:hover .resizeButton {
   display: block;
@@ -958,42 +1044,47 @@ a:hover [class^="uiIconWiki"],
   -webkit-border-radius: 3px 0px 0px 3px;
   -moz-border-radius: 3px 0px 0px 3px;
   border-radius: 3px 0px 0px 3px;
-  width: 10px;
+  width: 14px;
   height: 24px;
   float: right;
   margin: auto;
   cursor: pointer;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #cccccc;
   border-right: none;
   display: none;
   margin-top: 7px;
+  padding-top: 2px;
 }
 .uiWikiMiddleArea .resizeBar .resizeButton [class^="uiIcon"] {
-  margin: 2px 0px 0px -2px;
+  margin: 2px 0px 0px 2px;
   width: 10px;
 }
 .uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowLeft {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
+  color: #2f5e92;
 }
 .uiWikiMiddleArea .resizeBar .resizeButton:hover .uiIconMiniArrowRight {
-  background-image: url("../../../../eXoSkin/skin/images/themes/default/Icons/uiIconsPrimary.png");
+  color: #2f5e92;
 }
 .uiWikiMiddleArea .resizeBar .showLeftContent {
   display: block;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #cccccc;
+  border-left: none;
   -webkit-border-radius: 0px 3px 3px 0px;
   -moz-border-radius: 0px 3px 3px 0px;
   border-radius: 0px 3px 3px 0px;
   float: left;
 }
 .uiWikiMiddleArea .resizeBarDisplay .resizeBarContent {
-  border-right: solid 1px #e6e6e6;
+  border-right: solid 1px #cccccc;
 }
 .uiWikiMiddleArea .resizeBarDisplay .resizeButton {
   display: block;
 }
 .uiWikiMiddleArea .resizeNoneBorder {
   width: 20px;
+}
+.uiWikiMiddleArea .resizeNoneBorder .resizeBarContent {
+  margin-left: 0;
 }
 .uiWikiMiddleArea .resizeNoneBorder:hover {
   cursor: default;
@@ -1108,12 +1199,6 @@ a:hover [class^="uiIconWiki"],
 .uiWikiHistorySpaceArea {
   padding: 8px 15px 15px;
 }
-.uiIconEditTemplate {
-  background-position: -40px 0px;
-}
-.uiIconDeleteTemplate {
-  background-position: -20px 0px;
-}
 /******* wiki space-switcher ************/
 .uiWikiPortlet .uiSpaceSwitcher_BreadCrumb {
   float: left;
@@ -1192,17 +1277,21 @@ a:hover [class^="uiIconWiki"],
 }
 .diffaddword {
   background: #b5ffbf;
+  color: #333;
 }
 .diffremoveword {
   background: #ffd8da;
   text-decoration: line-through;
+  color: #333;
 }
 .prediffaddword {
   background: #b5ffbf;
+  color: #333;
   margin: 0;
 }
 .prediffremoveword {
   background: #ffd8da;
+  color: #333;
   margin: 0;
 }
 /*====== page not found =========*/
@@ -1212,7 +1301,7 @@ a:hover [class^="uiIconWiki"],
   width: 614px;
 }
 .uiWikiPageNotFound .errorBlock {
-  background: url("../../../../eXoSkin/skin/images/themes/default/wiki/warningIcon.png") no-repeat center top;
+  background: url("/eXoSkin/skin/images/themes/default/wiki/warningIcon.png") no-repeat center top;
   display: block;
   height: 160px;
   margin: 0 auto;
@@ -1251,9 +1340,49 @@ a:hover [class^="uiIconWiki"],
 .uiWikiContentDisplay .readOnly {
   display: block;
 }
-.uiWikiSearchBox.uiSearchInput input[type="text"] {
-  background-image: none;
+@media (max-width: 768px) {
+  #UIWikiMiddleArea {
+    height: auto !important;
+    overflow: visible !important;
+  }
+  #UIWikiMiddleArea #UITreeExplorer {
+    height: auto !important;
+    max-height: 300px!important;
+    min-height: 200px;
+  }
+  body .uiWikiMiddleArea .resizeBar {
+    display: none!important;
+  }
+  .uiLeftContainerArea,
+  .uiRightContainerArea {
+    float: none !important;
+    height: auto !important;
+    margin: 10px 0;
+    width: 100% !important;
+    min-height: 200px;
+  }
+  .uiWikiPageControlArea .uiPageToolBar {
+    float: none;
+    margin: 0;
+  }
+  .uiWikiPageControlArea .uiWikiPageTitle {
+    clear: both;
+  }
+  .UIWikiToolBar {
+    float: none;
+    width: auto;
+  }
+  .uiWikiBreadCrumb {
+    clear: both;
+    margin-top: 20px;
+  }
+  .uiWikiSearchBox.uiSearchInput input[type="text"] {
+    max-width: 100%;
+  }
 }
-.uiWikiSearchBox.uiSearchInput input[type="text"]:hover {
-  background-image: none;
+@media (max-width: 480px) {
+  #UIWikiUpperArea > .uiGrayLightBox > .uiSearchInput {
+    width: 65%;
+    z-index: 2;
+  }
 }

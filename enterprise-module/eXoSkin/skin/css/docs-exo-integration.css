@@ -1,0 +1,29 @@
+.hero-unit {
+    background: url("../../../img/bg_banner_top.png") repeat scroll 0 0 #354c71;
+    border-radius: 0;
+    box-shadow: 0 -2px 5px rgba(36, 44, 48, 0.22) inset;
+    color: #fff;
+    padding: 65px 20px 55px;
+}
+.hero-unit h1 {
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 3px rgba(71, 71, 71, 0.25);
+}
+.hero-unit p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.bs-docs-example .table,
+.bs-docs-example .progress,
+.bs-docs-example .well,
+.bs-docs-example .alert,
+.bs-docs-example .hero-unit,
+.bs-docs-example .pagination,
+.bs-docs-example .navbar,
+.bs-docs-example > .nav,
+.bs-docs-example blockquote {
+  margin-bottom: 5px;
+}

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Pagination</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +10,16 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-       <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
-       <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/Core.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/bootstrap/css/responsive.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/uxp-pattern.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/ecms/skin/ecms-resources-wcmskin.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/docs.css" rel="stylesheet">
+    <link href="../eXoSkin/skin/css/responsive.css" rel="stylesheet">
 
-	 
-	 <link href="../syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
-	 <link href="../syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-	 <script type="text/javascript" src="../syntaxhighlighter_3.0.83/scripts/shAutoLoader.js"></script>
+    <!-- syntaxhighlighter -->
+    <link href="../js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -27,420 +27,524 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    
-  </head>
 
-  <body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+</head>
 
-    <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner clearfix">
-        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="../index.html"><img src="../img/global.logo.png"></a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li><a href="../getting-started.html">Getting Started</a></li>
-            <li><a href="../Components.html">Components</a></li>
-            <li class="active"><a href="../Patterns.html">Patterns</a></li>
-          </ul>
-        </div>
-        
-        <div class="pull-right" style="margin-top: 0px;">
-        <div class="btn-group">
-          <div  class="btn btn-small active"><a href="PaginationPattern.html">Default Theme</a> </div>
-          <div  class="btn btn-small" ><a href="../skin-module/PaginationPattern/PaginationPattern.html">Dark Theme</a></div>
-        </div>
-      </div>
+<body data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
 
-        <div class="pull-right" style="margin-top: 11px; margin-right: 60px">
-        <a class="btnDownloadTop" target="_blank" href="http://community.exoplatform.com/downloads"></a>
-        <a class="btnLearMore" href="http://www.exoplatform.com"></a>
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top ">
+        <div class="navbar-inner clearfix">
+            <button class="toggle-left-bar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="brand"><img src="../img/global.logo.png" /></a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li><a href="../Components.html">Components</a></li>
+                    <li class="active"><a href="../Patterns.html">Patterns</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 0px;">
+                    <div class="btn-group">
+                        <div class="btn btn-small active"><a href="PaginationPattern.html">Default Theme</a> </div>
+                        <div class="btn btn-small"><a href="../enterprise-module/PaginationPattern/PaginationPattern.html">Enterprise Theme</a></div>
+                    </div>
+                </div>
+                <div class="btn-group-download pull-right">
+                    <a href="http://community.exoplatform.com/downloads" class="btn btn-primary" target="_blank"><i class="uiIconDownload"></i> <span>Download eXo Platform</span></a>
+                    <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> <span>Learn more about eXo Platform</span></a>
+                </div>
+            </div>
         </div>
-      </div>
-      </div>
     </div>
 
-<!-- Masthead
-================================================== -->
+    <!-- Masthead -->
 
-<header class="jumbotron subhead" id="overview">
-<div class="container">
-  <h1><span>Pagination</span></h1>
-  <p class="lead">Two options to paginate a content: Full Pagination and More Pagination</p>
-</div>
-</header>
+    <div class="main-content">
 
-<div class="container">
-    <div class="row">
-      <div class="span3 bs-docs-sidebar">
-        <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
-          <li><a href="#full-pagination"><i class="icon-chevron-right"></i>Full pagination</a></li>
-          <li><a href="#more-mode-pagination"><i class="icon-chevron-right"></i>More pagination</a></li>
-        </ul>
-      </div>
-    <div class="span9">
-      <section id="overview">
-          <div class="page-header">
-            <h2>Overview</h2>
-          </div>
-      <p><h7>Pagination refers to numbering pages in a document.
-	  This function is used for displaying a limited number of results on search engine, or showing a limited number of posts when viewing a forum thread or a wall. 
-	  Also, pagination is used in some forms in web applications to divide and display returned data on multiple pages.<br>
-	  There are 2 pagination types, including:<br>
-       <i class="uiIconEcmsDottedArrow"></i><a href="PaginationPattern.html#full-pagination">Full pagination</a><br>
-       <i class="uiIconEcmsDottedArrow"></i><a href="PaginationPattern.html#more-mode-pagination">More pagination</a></h7></p>
-		<p><h5>When to use?</h5></p>
-        <p><h7>If all data are displayed on one page at once, loading may become very slow.
-		Pagination is a good solution that limits quantity of data displayed and also make easy to view and control. 
-		Using pagination is really necessary when a page or form has a large number of data to be displayed. Pagination is often selected when:<br>
-        <i class="uiIconEcmsDottedArrow"></i>Content is too long to display at once.<br>
-        <i class="uiIconEcmsDottedArrow"></i>Content needs to be displayed on first pages.</h7></p>
-    </section>
-    <section id="full-pagination">
-          <div class="page-header">
-            <h2>Full pagination</h2>
-          </div>
-      <p><h7>In the full mode, data are grouped by pages. Each page contains a number of items that are defined by the user's setting preferences or configured by administrators.</h7></p>
-      <p><h3>Template</h3></p>
-      <p>
-      <div class="pagination uiPageIterator">
-		<ul>
-		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page" title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
-		  <li class="active"><a href="">1</a></li>
-		  <li><a href="">2</a></li>
-		  <li><a href="">3</a></li>
-		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page" title="Next Page"><i class="uiIconNextArrow"></i></a></li>
-		</ul>
-	  </div>
-	<div class="pagination uiPageIterator">
-		<ul>
-		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
-		  <li class="active"><a href="">1</a></li>
-		  <li><a href="">2</a></li>
-		  <li><a href="">3</a></li>
-		  <li class="disabled"><a href="#">...</a></li>
-		  <li><a href="">20</a></li>
-		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
-		</ul>
-	  </div>
-	
-      <p><b>Stateful page links</b></p>
-      <p>Links are customizable and work in a number of circumstances with the right class: <code>.disabled</code> for unclickable links and <code>.active</code> for current page.</p>
-      <p><b>Flexible alignment</b></p>
-      <p>Add either of two optional classes to change the alignment of pagination links: <code>.pagination-centered</code> and <code>.pagination-right</code>.</p>
+        <header class="jumbotron subhead" id="overview">
+            <div class="container">
+                <h1><span>Pagination</span></h1>
+                <p class="lead">Two options to paginate a content: Full Pagination and More Pagination</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="span3 bs-docs-sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top">
+                        <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+                        <li><a href="#full-pagination"><i class="icon-chevron-right"></i>Full pagination</a></li>
+                        <li><a href="#more-mode-pagination"><i class="icon-chevron-right"></i>More pagination</a></li>
+                    </ul>
+                </div>
+                <div class="span9">
+                    <section id="overview">
+                        <div class="page-header">
+                            <h2>Overview</h2>
+                        </div>
+                        <p>
+                            <h7>Pagination refers to numbering pages in a document. This function is used for displaying a limited number of results on search engine, or showing a limited number of posts when viewing a forum thread or a wall. Also, pagination is used in some forms in web applications to divide and display returned data on multiple pages.
+                                <br> There are 2 pagination types, including:
+                                <br>
+                                <i class="uiIconEcmsDottedArrow"></i><a href="PaginationPattern.html#full-pagination">Full pagination</a>
+                                <br>
+                                <i class="uiIconEcmsDottedArrow"></i><a href="PaginationPattern.html#more-mode-pagination">More pagination</a></h7>
+                        </p>
+                        <p>
+                            <h5>When to use?</h5></p>
+                        <p>
+                            <h7>If all data are displayed on one page at once, loading may become very slow. Pagination is a good solution that limits quantity of data displayed and also make easy to view and control. Using pagination is really necessary when a page or form has a large number of data to be displayed. Pagination is often selected when:
+                                <br>
+                                <i class="uiIconEcmsDottedArrow"></i>Content is too long to display at once.
+                                <br>
+                                <i class="uiIconEcmsDottedArrow"></i>Content needs to be displayed on first pages.</h7>
+                        </p>
+                    </section>
+                    <section id="full-pagination">
+                        <div class="page-header">
+                            <h2>Full pagination</h2>
+                        </div>
+                        <p>
+                            <h7>In the full mode, data are grouped by pages. Each page contains a number of items that are defined by the user's setting preferences or configured by administrators.</h7>
+                        </p>
+                        <p>
+                            <h3>Template</h3></p>
+                        <p>
+                            <div class="pagination uiPageIterator">
+                                <ul>
+                                    <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page" title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+                                    <li class="active"><a href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page" title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pagination uiPageIterator">
+                                <ul>
+                                    <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+                                    <li class="active"><a href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li class="disabled"><a href="#">...</a></li>
+                                    <li><a href="">20</a></li>
+                                    <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <p><b>Stateful page links</b></p>
+                            <p>Links are customizable and work in a number of circumstances with the right class: <code>.disabled</code> for unclickable links and <code>.active</code> for current page.</p>
+                            <p><b>Flexible alignment</b></p>
+                            <p>Add either of two optional classes to change the alignment of pagination links: <code>.pagination-centered</code> and <code>.pagination-right</code>.</p>
+                            <p><h3>Markup</h3></p>
+<pre class="prettyprint linenums">
+&lt;div class="pagination uiPageIterator"&gt;
+    &lt;ul&gt;
+        &lt;li class="disabled"&gt;&lt;a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"&gt;&lt;i class="uiIconPrevArrow"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="active"&gt;&lt;a href=""&gt;1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;3&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="disabled"&gt;&lt;a href="#"&gt;...&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;20&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"&gt;&lt;i class="uiIconNextArrow"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+                            <p>
+                                <h3>Status</h3></p>
+                            <p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Status</th>
+                                            <th>Sample</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Previous/next button (disabled)</td>
+                                            <td>
+                                                <div class="pagination uiPageIterator">
+                                                    <ul>
+                                                        <li class="disabled"><a><i class="uiIconPrevArrow"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>Previous/next button is disabled with light gradient background and icon when the active page is the first/last one.Tooltip: No tooltip.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Standard page selector</td>
+                                            <td>
+                                                <div class="pagination uiPageIterator">
+                                                    <ul>
+                                                        <li><a href="">3</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>Standard page selector buttons are enabled when they are not selected.Tooltip: No tooltip</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hover page</td>
+                                            <td>
+                                                <div class="pagination uiPageIterator">
+                                                    <ul>
+                                                        <li><a href="">3</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>Hover effect on a specific page button.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Current active page</td>
+                                            <td>
+                                                <div class="pagination uiPageIterator">
+                                                    <ul>
+                                                        <li class="active"><a href="">3</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>Current active button is disabled with dark gradient background when it is selected (being viewed).Tooltip: No tooltip</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Previous/Next button (enabled)</td>
+                                            <td>
+                                                <div class="pagination uiPageIterator">
+                                                    <ul>
+                                                        <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>Previous/Next button is enabled when the active page is not the first/last one. Previous/Next button is to select the previous/next page of the current active page. Tooltip: Previous/ Next</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+
+                            <p>
+                                <h3>Rules</h3></p>
+                            <p>
+                                <table class="table table-bordered table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>FPR-01</td>
+                                            <td>No pagination in case of one-page content.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>FPR-02</td>
+                                            <td>Pagination is put at the right corner.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>FR-03</td>
+                                            <td>The minimum number of button is 4.
+                                                <p>
+                                                    <div class="pagination uiPageIterator">
+                                                        <ul>
+                                                            <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+                                                            <li class="active"><a href="">1</a></li>
+                                                            <li><a href="">2</a></li>
+                                                            <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FPR04</td>
+                                            <td>The maximum number of button is 7.
+                                                <div class="pagination uiPageIterator">
+                                                    <ul>
+                                                        <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+                                                        <li class="active"><a href="">1</a></li>
+                                                        <li><a href="">2</a></li>
+                                                        <li><a href="">3</a></li>
+                                                        <li class="disabled"><a href="#">...</a></li>
+                                                        <li><a href="">20</a></li>
+                                                        <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="pagination uiPageIterator">
+                                                    <ul>
+                                                        <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
+                                                        <li class="active"><a href="">1</a></li>
+                                                        <li><a href="">2</a></li>
+                                                        <li><a href="">3</a></li>
+                                                        <li><a href="">4</a></li>
+                                                        <li><a href="">5</a></li>
+                                                        <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FPR05</td>
+                                            <td>Same number of items per page.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>FPR06</td>
+                                            <td>Same rules for displaying pagination buttons.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                            <p>
+                                <h3><a name="S1.5"></a><span>Items per page</span></h3></p>
+                            <p>
+                                <h7>The default number of items per page of each product should be displayed fully on the screen to avoid redundant blank spaces. The default number may be fixed with 10 or 20 items per page. However, this default number can be changed with the <b>Page size</b> option below.</h7>
+                            </p>
+                            <p>
+                                <div class="pagination uiPageIterator clearfix">
+                                    <table>
+                                        <tr>
+                                            <td width='90px'><font size="2">Page size:</font></td>
+                                            <td>
+                                                <select id="" onchange="window.location.href=this.options[this.selectedIndex].value; return false;" class="selectbox pull-left">
+
+                                                    <option selected="" value="">5</option>
+
+                                                    <option value="">10</option>
+
+                                                    <option value="">15</option>
+
+                                                    <option value="">20</option>
+
+                                                    <option value="">30</option>
+
+                                                    <option value="">60</option>
+
+                                                    <option value="">100</option>
+
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </p>
+<pre class="prettyprint linenums">
+&lt;div class="pagination uiPageIterator clearfix"&gt;
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;td width='90px'&gt;&lt;font size="2"&gt;Page size:&lt;/font&gt;&lt;/td&gt;
+            &lt;td&gt;
+            &lt;select id="" onchange="window.location.href=this.options[this.selectedIndex].value; return false;" class="selectbox pull-left"&gt;
+                &lt;option selected="" value=""&gt;5&lt;/option&gt;
+                    &lt;option value=""&gt;10&lt;/option&gt;
+                    &lt;option value=""&gt;15&lt;/option&gt;
+                    &lt;option value=""&gt;20&lt;/option&gt;
+                    &lt;option value=""&gt;30&lt;/option&gt;
+                    &lt;option value=""&gt;60&lt;/option&gt;
+                    &lt;option value=""&gt;100&lt;/option&gt;
+                &lt;/select&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+</pre>
+
+                            <p><b>Note:</b>
+                                <br>
+                                <i class="uiIconEcmsDottedArrow"></i>Defining one maximum number of items per page should be based on characteristics of the content display.
+                                <br>
+                                <i class="uiIconEcmsDottedArrow"></i>The number of items per page will be loaded depending on the value of the Maximum selected page size.
+                                <br>
+                                <i class="uiIconEcmsDottedArrow"></i>The number of pagination buttons will be changed depending on the number of items per page.</h7>
+                            </p>
+                    </section>
+                    <section id="more-mode-pagination">
+                        <div class="page-header">
+                            <h2>More pagination</h2>
+                        </div>
+                        <p>
+                            <h7>In the <b>More</b> mode, all data can be displayed in 1 page. However, to avoid overloading, only a certain number of items are loaded by default. If users want more data to be displayed, they can click the <b>Show More...</b> button or scroll down towards the page bottom.</h7>
+                        </p>
+                        <p>
+                            <h3>Template</h3></p>
+                        <p>
+                            <h7>The <b>Show More...</b> button is displayed when more another items can be displayed. More 10 items will be loaded per <b>Show More...</b>click.</h7>
+                        </p>
+                        <center>
+                            <a name="GoUp"><img src="images/More.jpg"></a>
+                            <div id="image"></div>
+                            <br>
+                            <div>
+                                <a href="javascript:image();">
+                                    <button class="btn" style="width: 686px;"><b></b>Show More...</b>
+                                    </button>
+                                </a>
+                        </center>
+                        <br>
+                        <p>In case all content is loaded, the <b>Show More...</b> button is auto-hidden and the <b>Go Up</b> link may be displayed.</p>
+                        <center href="#GoUp">
+                            <a href="javascript:void(0);" class="btn" onclick="" rel="tooltip" data-original-title="">
+                                <i class="uiIconGoUp uiIconLightGray"></i>
+                            </a>
+                        </center>
 
 
-      <p><h3>Markup</h3></p>
-    <div class="prettyprint linenums">
-		<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-	
-	  <div class="pagination uiPageIterator">
-		<ul>
-		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
-		  <li class="active"><a href="">1</a></li>
-		  <li><a href="">2</a></li>
-		  <li><a href="">3</a></li>
-		  <li class="disabled"><a href="#">...</a></li>
-		  <li><a href="">20</a></li>
-		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
-		</ul>
-	  </div>
-	
-		]]></script>
-	</div>
+                        <p>
+                            <h3>Status</h3></p>
+                        <p>
+                            <table class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Status</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Show More</td>
+                                        <td>The <b>Show More...</b> button displays at the page bottom in case the number of displayed items are greater than the current ones.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Go up</td>
+                                        <td>The <b>Go Up</b> link displays at the page bottom if the <b>Show More...</b> button is clicked at least once and all items are loaded in page.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                        <p>
+                            <h3>Rules</h3></p>
+                        <p>
+                            <table class="table table-bordered table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td>MPR-01</td>
+                                        <td>No pagination in case all content is loaded by default.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MPR-02</td>
+                                        <td>The <b>Show More...</b> button is put at the center bottom of a page.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MPR-03</td>
+                                        <td>The same number of items per <b>Show More...</b> click or scroll-down.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MPR-04</td>
+                                        <td>The <b>Go Up</b> link is displayed if users click the <b>Show More...</b> button or scroll down at least once.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
 
-      <p><h3>Status</h3></p>
-      <p>
-      <table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Status</th>
-               <th>Sample</th>
-               <th>Description</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Previous/next button (disabled)</td>
-               <td><div class="pagination uiPageIterator">
-    <ul>
-      <li class="disabled"><a><i class="uiIconPrevArrow"></i></a></li>
-      </ul>
-    </div></td>
-               <td>Previous/next button is disabled with light gradient background and icon when the active page is the first/last one.Tooltip: No tooltip.</td>
-            </tr>
-            <tr>
-               <td>Standard page selector</td>
-               <td><div class="pagination uiPageIterator">
-    <ul>      
-      <li><a href="">3</a></li>
-    </ul>
-    </div></td>
-               <td>Standard page selector buttons are enabled when they are not selected.Tooltip: No tooltip</td> 
-            </tr>    
-            <tr>
-               <td>Hover page</td>
-               <td><div class="pagination uiPageIterator">
-    <ul>     
-      <li><a href="">3</a></li>      
-    </ul>
-    </div></td>
-               <td>Hover effect on a specific page button.</td> 
-            </tr>  
-            <tr>
-               <td>Current active page</td>
-               <td><div class="pagination uiPageIterator">
-    <ul>   
-      <li class="active"><a href="">3</a></li>      
-    </ul>
-    </div></td>
-            <td>Current active button is disabled with dark gradient background when it is selected (being viewed).Tooltip: No tooltip</td> 
-            </tr>  
-            <tr>
-               <td>Previous/Next button (enabled)</td>
-               <td><div class="pagination uiPageIterator">
-    <ul>
-          <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
-    </ul>
-    </div></td>
-               <td>Previous/Next button is enabled when the active page is not the first/last one. Previous/Next button is to select the previous/next page of the current active page. Tooltip: Previous/ Next</td> 
-            </tr>      
-         </tbody>
-      </table>
-     </p>
+                        <p>
+                            <h3>Items per load</h3></p>
+                        <p>
+                            <h7>With the <b>Show More...</b> pagination, all items are loaded in one page. Each click or scroll-down shows more items.
+                                <br> The number of items per click on the <b>Show More...</b> button can be fixed in code or defined in Settings.
+                                <br> Selecting 10 or 20 items per click or scroll-down is ideal, depending on your item feature.</h7>
+                        </p>
+                    </section>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <p><h3>Rules</h3></p>
-      <p><table class="table table-bordered table-striped">
-           <tbody>
-            <tr>
-               <td>FPR-01</td>
-               <td>No pagination in case of one-page content.</td>
-            </tr>
-            <tr>
-               <td>FPR-02</td>
-               <td>Pagination is put at the right corner.</td> 
-            </tr>
-            <tr>
-               <td>FR-03</td>
-               <td>The minimum number of button is 4.<p> <div class="pagination uiPageIterator">
-				<ul>
-				  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
-				  <li class="active"><a href="">1</a></li>
-				  <li><a href="">2</a></li>
-				  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
-				</ul>
-			  </div></p></td>
-            </tr>
-            <tr>
-               <td>FPR04</td>
-               <td>The maximum number of button is 7.<div class="pagination uiPageIterator">
-		<ul>
-		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
-		  <li class="active"><a href="">1</a></li>
-		  <li><a href="">2</a></li>
-		  <li><a href="">3</a></li>
-		  <li class="disabled"><a href="#">...</a></li>
-		  <li><a href="">20</a></li>
-		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
-		</ul>
-	  </div>
-	  <div class="pagination uiPageIterator">
-		<ul>
-		  <li class="disabled"><a data-placement="bottom" rel="tooltip" data-original-title="Previous Page"><i class="uiIconPrevArrow"></i></a></li>
-		  <li class="active"><a href="">1</a></li>
-		  <li><a href="">2</a></li>
-		  <li><a href="">3</a></li>
-			<li><a href="">4</a></li>
-		  <li><a href="">5</a></li>
-		  <li><a data-placement="bottom" rel="tooltip" href="" data-original-title="Next Page"><i class="uiIconNextArrow"></i></a></li>
-		</ul>
-	  </div>
-	  </td>
-            </tr>
-            <tr>
-               <td>FPR05</td>
-               <td>Same number of items per page.</td>
-            </tr>
-            <tr>
-               <td>FPR06</td>
-               <td>Same rules for displaying pagination buttons.</td>
-            </tr>
-         </tbody>
-      </table></p>
-      <p><h3><a name="S1.5"></a><span>Items per page</span></h3></p>
-      <p><h7>The default number of items per page of each product should be displayed fully on the screen to avoid redundant blank spaces. The default number may be fixed with 10 or 20 items per page. 
-	  However, this default number can be changed with the <b>Page size</b> option below.</h7></p>
-      <p>
-	  <div class="pagination uiPageIterator clearfix">
-		  <table><tr><td width='90px'><font size="2">Page size:</font></td>
-			<td>
-				<select id="" onchange="window.location.href=this.options[this.selectedIndex].value; return false;" class="selectbox pull-left">
-		
-				  <option selected="" value="">5</option>
-				
-				  <option value="">10</option>
-				
-				  <option value="">15</option>
-				
-				  <option value="">20</option>
-				
-				  <option value="">30</option>
-				
-				  <option value="">60</option>
-				
-				  <option value="">100</option>
-		
-				</select>
-			</td>
-			</tr>
-		   </table>
-		</div>
-	</p>
-    <div class="prettyprint linenums">
-		<script type="syntaxhighlighter" class="brush: html"><![CDATA[
-		
-		<div class="pagination uiPageIterator clearfix">
-		  <table>
-			<tr>
-				<td width='90px'><font size="2">Page size:</font></td>
-				<td>
-					<select id="" onchange="window.location.href=this.options[this.selectedIndex].value; return false;" class="selectbox pull-left">
-			
-					  <option selected="" value="">5</option>
-					
-					  <option value="">10</option>
-					
-					  <option value="">15</option>
-					
-					  <option value="">20</option>
-					
-					  <option value="">30</option>
-					
-					  <option value="">60</option>
-					
-					  <option value="">100</option>
-			
-					</select>
-				</td>
-			</tr>
-		  </table>
-		</div>
-		
-		]]></script>
-	</div>
-	
-      <p><b>Note:</b><br>
-	  <i class="uiIconEcmsDottedArrow"></i>Defining one maximum number of items per page should be based on characteristics of the content display.<br>
-      <i class="uiIconEcmsDottedArrow"></i>The number of items per page will be loaded depending on the value of the Maximum selected page size.<br>
-      <i class="uiIconEcmsDottedArrow"></i>The number of pagination buttons will be changed depending on the number of items per page.</h7></p>
-</section>
-<section id="more-mode-pagination">
-	<div class="page-header">
-        <h2>More pagination</h2>
-    </div>
-      <p><h7>In the <b>More</b> mode, all data can be displayed in 1 page. 
-	  However, to avoid overloading, only a certain number of items are loaded by default. 
-	  If users want more data to be displayed, they can click the <b>Show More...</b> button or scroll down towards the page bottom.</h7></p>
-      <p><h3>Template</h3></p>
-      <p><h7>The <b>Show More...</b> button is displayed when more another items can be displayed. More 10 items will be loaded per <b>Show More...</b>click.</h7></p>
-	<center>
-	<a name="GoUp"><img src="images/More.jpg"></a>
-	<div id="image"></div><br>
-	<div><a href="javascript:image();"><button class="btn" style="width: 686px;" ><b></b>Show More...</b></button></a>
-	</center><br>
-       <p>In case all content is loaded, the <b>Show More...</b> button is auto-hidden and the <b>Go Up</b> link may be displayed.</p>
-       <center  href="#GoUp"><a href="javascript:void(0);" class="btn" onclick="" rel="tooltip" data-original-title="">
-		 <i class="uiIconGoUp uiIconLightGray"></i>
-		</a></center>
-	   
-      
-      <p><h3>Status</h3></p>
-      <p><table class="table table-bordered table-striped">
-         <thead>
-            <tr>
-               <th>Status</th>
-               <th>Description</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Show More</td>
-               <td>The <b>Show More...</b> button displays at the page bottom in case the number of displayed items are greater than the current ones.</td>
-            </tr>
-            <tr>
-               <td>Go up</td>
-               <td>The <b>Go Up</b> link displays at the page bottom if the <b>Show More...</b> button is clicked at least once and all items are loaded in page.</td>
-            </tr>
-         </tbody>
-      </table></p>
-      <p><h3>Rules</h3></p>
-      <p><table class="table table-bordered table-striped">
-           <tbody>
-            <tr>
-               <td>MPR-01</td>
-               <td>No pagination in case all content is loaded by default.</td>
-            </tr>
-            <tr>
-               <td>MPR-02</td>
-               <td>The <b>Show More...</b> button is put at the center bottom of a page.</td>
-            </tr>
-            <tr>
-               <td>MPR-03</td>
-               <td>The same number of items per <b>Show More...</b> click or scroll-down.</td>
-            </tr>
-            <tr>
-               <td>MPR-04</td>
-               <td>The <b>Go Up</b> link is displayed if users click the <b>Show More...</b> button or scroll down at least once.</td>
-            </tr>
-         </tbody>
-      </table></p>
-      
-      <p><h3>Items per load</h3></p>
-      <p><h7>With the <b>Show More...</b> pagination, all items are loaded in one page. Each click or scroll-down shows more items.<br>
-         The number of items per click on the <b>Show More...</b> button can be fixed in code or defined in Settings.<br>
-         Selecting 10 or 20 items per click or scroll-down is ideal, depending on your item feature.</h7></p>
-</section>
-<div id="footer">
-	Copyright ©2015. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
-</div>
-<!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="../js/widgets.js"></script>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/prettify.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
-    <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
-    <script src="../js/application-update.js"></script>
-	  <script src="../js/syntaxhighlighter_autoloader.js"></script>
-<script type="text/javascript">
+        <div id="footer">
+            Copyright ©2017. All rights reserved. <a href="http://www.exoplatform.com">eXo Platform SAS</a>
+        </div>
 
-      function image() {
-	var img = document.createElement("IMG");
-	img.src = "images/More.jpg";
-	document.getElementById('image').appendChild(img);
-}
-</script>
-<script type="text/javascript">
-      $(document).ready(function () {
-    $("[rel=tooltip]").tooltip();
-  });
-</script>
-</body></html>
+        <div class="mobile-offcanvas">
+            <div class="menu-main-menu-container">
+                <ul class="menu" id="primary-menu">
+                    <li>
+                        <div>
+                            <div class="btn-group">
+                                <a href="PaginationPattern.html" class="btn btn-small active">Default Theme</a>
+                                <a href="../enterprise-module/PaginationPattern/PaginationPattern.html" class="btn btn-small">Enterprise Theme</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="http://community.exoplatform.com/downloads" target="_blank" class="btn btn-primary"><i class="uiIconDownload"></i> Download eXo Platform</a>
+                            <a href="http://www.exoplatform.com" class="btn btn-default"><i class="uiIconEcmsPlayMedia"></i> Learn more about eXo Platform</a>
+                        </div>
+                    </li>
+                    <li><a href="../getting-started.html">Getting Started</a></li>
+                    <li class="has-sub">
+                        <a href="../Components.html">Components</a>
+                        <ul class="sub-menu">
+                            <li><a href="../Typography/Typography.html">Typography</a></li>
+                            <li><a href="../Button/Button.html">Button</a></li>
+                            <li><a href="../Tables/Tables.html">Table</a></li>
+                            <li><a href="../Avatar/Avatar.html">Avatar</a></li>
+                            <li><a href="../Icons/Icons.html">Icon</a></li>
+                            <li><a href="../Navigation/Navigation.html">Navigation</a></li>
+                            <li><a href="../Dropdown/Dropdown.html">Dropdown</a></li>
+                            <li><a href="../MiniCalendar/MiniCalendar.html">Mini Calendar</a></li>
+                            <li><a href="../ProgressBars/ProgressBars.html">Progress bar</a></li>
+                            <li><a href="../Alerts/Alerts.html">Alert</a></li>
+                            <li><a href="../TooltipandPopover/TooltipandPopover.html">Tooltip and Popover</a></li>
+                            <li><a href="../Thumbnail/Thumbnail.html">Thumbnail</a></li>
+                            <li><a href="../Mention/Mention.html">Mention</a></li>
+                            <li><a href="../Color/Color.html">Color</a></li>
+                            <li><a href="../Trees/Trees.html">Trees</a></li>
+                            <li><a href="../BadgeAndLoading/BadgeAndLoading.html">Badge and Loading</a></li>
+                            <li><a href="../Classes/Classes.html">CSS Classes</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub active">
+                        <a href="../Patterns.html">Patterns</a>
+                        <ul class="sub-menu">
+                            <li><a href="../BreadcrumbPattern/BreadcrumbPattern.html">Breadcrumb</a></li>
+                            <li><a href="../MessagesPattern/MessagesPattern.html">Hover-reveal</a></li>
+                            <li><a href="../MessagesPattern/MessagesPattern.html">Message</a></li>
+
+                            <li><a href="../Pop-upWindowPattern/PopupWindowPattern.html">Popup</a></li>
+                            <li class="active"><a href="../PaginationPattern/PaginationPattern.html">Pagination</a></li>
+                            <li><a href="../TabPattern/Tabs.html">Tabs</a></li>
+
+                            <li><a href="../SortByColumn/SortByColumn.html">Sort by Column</a></li>
+                            <li><a href="../TableFilters/TableFilters.html">Table Filter</a></li>
+                            <li><a href="../RatePattern/RatePattern.html">Rating</a></li>
+
+                            <li><a href="../UploadPattern/UploadPattern.html">Uploading</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Le javascript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script type="text/javascript" src="../js/widgets.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/prettify.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-transition.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-alert.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-modal.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-dropdown.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-scrollspy.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tab.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-tooltip.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-popover.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-button.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-collapse.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-carousel.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-typeahead.js"></script>
+        <script src="../eXoSkin/skin/bootstrap/js/bootstrap-affix.js"></script>
+        <script src="../js/application-update.js"></script>
+
+        <!-- syntaxhighlighter -->
+        <script type="text/javascript" src="../js/google-code-prettify/prettify.js"></script>
+
+        <script type="text/javascript">
+            function image() {
+                var img = document.createElement("IMG");
+                img.src = "images/More.jpg";
+                document.getElementById('image').appendChild(img);
+            }
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("[rel=tooltip]").tooltip();
+            });
+        </script>
+</body>
+
+</html>
