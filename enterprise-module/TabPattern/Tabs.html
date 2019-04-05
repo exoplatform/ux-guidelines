@@ -331,7 +331,9 @@
                             <h2>White tab in page</h2>
                         </div>
                         <p>
-                            <h7>This kind of tab is used in page with white color style.</h7>
+                        <h3>Basic tabs</h3></p>
+                        <p>
+                            <h7>This kind of basic tab is used in page with white color style.</h7>
                         </p>
                         <div class="bs-docs-example">
                             <div id="UITabPane" class="uiTabNormal uiTabInPage">
@@ -361,6 +363,63 @@
                         </div>
 <pre class="prettyprint linenums">
 &lt;div id="UITabPane" class="uiTabNormal uiTabInPage"&gt;
+    &lt;ul class="nav nav-tabs"&gt;
+        &lt;li class="active"&gt;
+            &lt;a data-target="#tab1" data-toggle="tab"&gt;Tab 1&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a data-target="#tab2" data-toggle="tab"&gt;Tab 2&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a data-target="#tab3" data-toggle="tab"&gt;Tab 3&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="tab-content"&gt;
+        &lt;div class="tab-pane fade in active" id="tab1"&gt;
+            The Content of Tab 1 ...
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="tab2"&gt;
+            The Content of Tab 2 ...
+        &lt;/div&gt;
+        &lt;div class="tab-pane fade" id="tab3"&gt;
+            The Content of Tab 3 ...
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+                        <h3>Advanced tabs</h3></p>
+                        <p>
+                            <h7>This kind of advanced tab is used in page with white color style.</h7>
+                        </p>
+                        <div class="bs-docs-example">
+                            <div id="UITabPane" class="uiTabAdvanced">
+                                <ul class="nav nav-tabs">
+                                    <li class="active">
+                                        <a data-target="#advtab1" data-toggle="tab">Tab 1</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="#advtab2" data-toggle="tab">Tab 2</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="#advtab3" data-toggle="tab">Tab 3</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="advtab1">
+                                        The Content of Tab 1 ...
+                                    </div>
+                                    <div class="tab-pane fade" id="advtab2">
+                                        The Content of Tab 2 ...
+                                    </div>
+                                    <div class="tab-pane fade" id="advtab3">
+                                        The Content of Tab 3 ...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <pre class="prettyprint linenums">
+&lt;div id="UITabPane" class="uiTabAdvanced"&gt;
     &lt;ul class="nav nav-tabs"&gt;
         &lt;li class="active"&gt;
             &lt;a data-target="#tab1" data-toggle="tab"&gt;Tab 1&lt;/a&gt;

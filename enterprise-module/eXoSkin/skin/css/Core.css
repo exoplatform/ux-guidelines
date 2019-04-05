@@ -10143,6 +10143,26 @@ body {
 .uiTabNormal .dropdown-menu .active > a:hover {
   color: #ffffff;
 }
+/** Advanced Tab**/
+.uiTabAdvanced .nav-tabs > .active > a,
+.uiTabAdvanced .nav-tabs > .active > a:hover {
+  color: #578dc9;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-bottom: 3px solid #578dc9;
+}
+.uiTabAdvanced .nav-tabs > li > a {
+  background-color: white;
+  border: none;
+  color: #9aa2a7
+}
+.uiTabAdvanced .nav-tabs > li > a:hover {
+  color: #578dc9;
+  border: none;
+}
+
+
 .uiTabInPage .nav-tabs {
   margin: 0px;
   background-color: #e6e6e6;
