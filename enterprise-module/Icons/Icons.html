@@ -212,6 +212,19 @@
                             <h2>Icon library</h2>
                         </div>
 
+                        <h3>Icons font</h3>
+                        <p>
+                            The icons which can be used in eXo Platform are packaged in a font (PLF-FONT-ICONS). It contains more than 1000 icons.
+                            In order to use one of them you can either use the related CSS class if it exists (see chapter <b>General icons</b> below),
+                            or browse <b><a href="../../Icons/icons-demo/demo.html" target="_blank">the available icons</a></b> and use its code directly in your CSS:
+<pre class="prettyprint linenums">
+.uiIconNew::before {
+    content: "\e600";
+}
+</pre>
+                        The CSS class must start with <code>uiIcon</code> to automatically use the icons font.
+                        </p>
+
                         <p>
                             <h3>General icons</h3></p>
                         <p>These icons are located in the general sprite that are used commonly in eXo Platform with 4 color classes: <code>uiIconLightGray</code>, <code>uiIconDarkGray</code>, <code>uiIconWhite</code>, <code>uiIconBlue</code>. </p>
