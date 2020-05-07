@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'PLF-FONT-ICONS';
-  src:  url('fonts/PLF-FONT-ICONS.eot?f9w7u2');
-  src:  url('fonts/PLF-FONT-ICONS.eot?f9w7u2#iefix') format('embedded-opentype'),
-    url('fonts/PLF-FONT-ICONS.ttf?f9w7u2') format('truetype'),
-    url('fonts/PLF-FONT-ICONS.woff?f9w7u2') format('woff'),
-    url('fonts/PLF-FONT-ICONS.svg?f9w7u2#PLF-FONT-ICONS') format('svg');
+  src:  url('fonts/PLF-FONT-ICONS.eot?ucylap');
+  src:  url('fonts/PLF-FONT-ICONS.eot?ucylap#iefix') format('embedded-opentype'),
+    url('fonts/PLF-FONT-ICONS.ttf?ucylap') format('truetype'),
+    url('fonts/PLF-FONT-ICONS.woff?ucylap') format('woff'),
+    url('fonts/PLF-FONT-ICONS.svg?ucylap#PLF-FONT-ICONS') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -3663,4 +3663,51 @@
 }
 .icon-ios-videocam:before {
   content: "\e9100";
+}
+.icon-google-drive:before {
+  content: "\e909";
+}
+.icon-onedrive:before {
+  content: "\ebef";
+}
+.icon-drive:before {
+  content: "\ebf0";
+}
+.icon-save:before {
+  content: "\ebf0";
+}
+.icon-hdd:before {
+  content: "\ebf0";
+}
+.icon-hard-disk:before {
+  content: "\ebf0";
+}
+.icon-EcmsDriveGDrive:before {
+  content: "\ebf1";
+}
+.icon-EcmsDriveOneDrive:before {
+  content: "\ebf2";
+}
+.icon-FolderGDrive .path1:before {
+  content: "\ebf3";
+  color: rgb(0, 0, 0);
+}
+.icon-FolderGDrive .path2:before {
+  content: "\ebf5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-FolderOneDrive .path1:before {
+  content: "\ebf4";
+  color: rgb(0, 0, 0);
+}
+.icon-FolderOneDrive .path2:before {
+  content: "\ebf6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-FolderOneDrive .path3:before {
+  content: "\ebf7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
 }
