@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'PLF-FONT-ICONS';
-  src:  url('fonts/PLF-FONT-ICONS.eot?f9w7u2');
-  src:  url('fonts/PLF-FONT-ICONS.eot?f9w7u2#iefix') format('embedded-opentype'),
-    url('fonts/PLF-FONT-ICONS.ttf?f9w7u2') format('truetype'),
-    url('fonts/PLF-FONT-ICONS.woff?f9w7u2') format('woff'),
-    url('fonts/PLF-FONT-ICONS.svg?f9w7u2#PLF-FONT-ICONS') format('svg');
+  src:  url('fonts/PLF-FONT-ICONS.eot?m95bln');
+  src:  url('fonts/PLF-FONT-ICONS.eot?m95bln#iefix') format('embedded-opentype'),
+    url('fonts/PLF-FONT-ICONS.ttf?m95bln') format('truetype'),
+    url('fonts/PLF-FONT-ICONS.woff?m95bln') format('woff'),
+    url('fonts/PLF-FONT-ICONS.svg?m95bln#PLF-FONT-ICONS') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -3663,4 +3663,16 @@
 }
 .icon-ios-videocam:before {
   content: "\e9100";
+}
+.icon-EcmsDriveOneDrive:before {
+  content: "\ebf0";
+}
+.icon-EcmsDriveGDrive:before {
+  content: "\ebf1";
+}
+.icon-google-drive:before {
+  content: "\e909";
+}
+.icon-onedrive:before {
+  content: "\ebef";
 }
