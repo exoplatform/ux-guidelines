@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'PLF-FONT-ICONS';
-  src:  url('fonts/PLF-FONT-ICONS.eot?n6cy68');
-  src:  url('fonts/PLF-FONT-ICONS.eot?n6cy68#iefix') format('embedded-opentype'),
-    url('fonts/PLF-FONT-ICONS.ttf?n6cy68') format('truetype'),
-    url('fonts/PLF-FONT-ICONS.woff?n6cy68') format('woff'),
-    url('fonts/PLF-FONT-ICONS.svg?n6cy68#PLF-FONT-ICONS') format('svg');
+  src:  url('../fonts/PLF-FONT-ICONS.eot?n6cy68');
+  src:  url('../fonts/PLF-FONT-ICONS.eot?n6cy68#iefix') format('embedded-opentype'),
+    url('../fonts/PLF-FONT-ICONS.ttf?n6cy68') format('truetype'),
+    url('../fonts/PLF-FONT-ICONS.woff?n6cy68') format('woff'),
+    url('../fonts/PLF-FONT-ICONS.svg?n6cy68#PLF-FONT-ICONS') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
