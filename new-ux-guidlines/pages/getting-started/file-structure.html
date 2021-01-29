@@ -14,6 +14,8 @@
 
   <link rel="stylesheet" href="../../css/bootstrap.min.css">
 
+  <link rel="stylesheet" href="../../css/animate.min.css">
+
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -816,10 +818,85 @@
     <div class="page-title px-5 py-4">
       <h1 class="title-text font-weight-normal">File structure</h1>
     </div>
-     <div class="page-content p-5">
-        <p>
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        </p>
+     <div class="page-content p-5 wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
+      <p class="text-style big-text">
+        eXo UX Guidelines contains eXo Skin, web content and other extra folders.
+      </p>
+      <p class="text-style mt-4">
+        After downloading, you need to unzip the compressed folder. The structure of eXo UX Guidelines is displayed below :
+      </p>
+      <div class="exo-ux-guidlines-data-structure p-4">
+        <pre class=" language-markup">
+          <code class=" directory-markup language-markup">
+exo-ux-guidelines/
+|--eXoSkin/
+│  |--skin/
+│  │  |--css/
+│  │  │  |-- Core.css
+│  │  │  |-- docs.css
+│  │  │  |-- uxp-pattern.css
+│  │  │  |-- product css
+│  │  |--images/
+│  │  │  |--themes
+│  │  │  │  |-- default
+│  │  │  │  |-- blue
+│  │  │  │  |-- green
+│  │  │  │  |-- orange
+│  │  │  │  |-- pink
+│  │  │  │  |-- red
+│  │  │  |--PSD
+│  │  │  |--system
+│  │  |--bootstrap
+|--js/
+│  |--table.js
+│  |--track.js
+|-- img/
+│   |--icon_start.png
+│   |--icon_pattern.png
+|--skin-module/
+│
+|--README.md
+        </code>
+      </pre>
+      </div>
+      <p class="text-style">
+        The main folder is <strong>eXoSkin</strong> which has the same folder structure of <strong>platform-ui</strong> project. It includes 3 main sub-folders: <storng>css</storng>, <strong>images</strong> and <strong>bootstrap</strong>.
+      </p>
+      <div class="exo-skin-mini-section">
+        <h4 class="exo-skin-page-subtitle mt-4">css</h4>
+        <p class="text-style">This folder contains the main css of the Platform.</p>
+        <ul class="exo-list-items text-style">
+          <li class="exo-list-items"> <code>Core.css</code> is customized basing on Bootstrap to define the main style of eXo Platform.</li>
+          <li class="exo-list-items"> <code>docs.css</code> and <code>uxp-pattern.css</code> uxp-pattern.css are to define some advanced style for UX Guidelines website.</li>
+        </ul>
+        <p class="text-style">There is common css folder and each product has each own css that is located in its corresponding folder e.g ecms, forum, calendar...</p>
+      </div>
+
+      <div class="exo-skin-mini-section">
+        <h4 class="exo-skin-page-subtitle mt-4">Images</h4>
+        <ul class="exo-list-items text-style">
+          <li class="exo-list-items"> <code>themes</code> contains images/icons that define the Platform color style that includes <strong>default</strong>and 5 alternative collections in  
+            <span class="strong-text red">red</span>
+            <span class="strong-text green">green</span>
+            <span class="strong-text blue">blue</span>
+            <span class="strong-text pink">pink</span>. These color folders are able to be used for adding new theme add-ons.
+          </li>
+          <li class="exo-list-items"> <code>PSD</code> contains all PSD files that ease users to create more customization in advance.</li>
+          <li class="exo-list-items"> <code>system</code> contains all common images/icons. In next version, all common images/icons will be moved to this folder.</li>
+        </ul>
+      </div>
+
+      <div class="exo-skin-mini-section">
+        <h4 class="exo-skin-page-subtitle mt-4">bootstrap</h4>
+        <p class="text-style">This folder contains main css and js of Bootstrap that eXo Platform's style based on.</p>
+        <p class="text-style">Besides, there are some extra folders :</p>
+        <ul class="exo-list-items text-style">
+          <li class="exo-list-items"> <code>js</code> contains customized js for UX Guidelines website.</li>
+          <li class="exo-list-items"> <code>img</code> contains customized images for UX Guidelines website.</li>
+          <li class="exo-list-items"> <code>skin-module</code> is a similar UX Guidelines project that its interface is customized following eXo Skin Customization feature.</li>
+        </ul>
+      </div>
+
     </div>
     <div class="page-footer pl-5">
       <p>Copyright ©2021. All rights reserved. <a href="https://www.exoplatform.com/" target="_blank">eXo Platform SAS</a></p>
@@ -834,7 +911,9 @@
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
 <script src="../../js/exoScript.js"></script>
-
-
+<script src="../../js/wow.js"></script>
+    <script>
+    new WOW().init();
+ </script>
 </body>
 </html>
