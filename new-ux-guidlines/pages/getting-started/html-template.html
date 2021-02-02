@@ -14,10 +14,13 @@
 
   <link rel="stylesheet" href="../../css/bootstrap.min.css">
 
+  <link rel="stylesheet" href="../../css/animate.min.css">
+  <link rel="stylesheet" href="../../css/prism.css">
+
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed ">
+<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed language-markup">
 <div class="wrapper">
 
   <!-- Main Sidebar Container -->
@@ -813,17 +816,27 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <div class="page-title px-5 py-4">
+    <div class="page-title  p-x-6 py-4">
       <h1 class="title-text font-weight-normal">HTML template</h1>
     </div>
-     <div class="page-content p-5">
-        <p>
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        </p>
+     <div class="page-content p-x-6 py-5 wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
+      <p class="text-style big-text">
+        eXo UX Guidelines is completely based on Bootstrap that is customized by the eXo Platform style with the main content below:
+      </p>
+      <div class="exo-ux-guidlines-data-structure p-4">
+        <pre class="language-markup">
+          <code>
+          <xmp>
+          <h1>Test</h1>
+          </xmp>
+          </code>
+          </pre>
+      </div>
     </div>
     <div class="page-footer pl-5">
       <p>Copyright ©2021. All rights reserved. <a href="https://www.exoplatform.com/" target="_blank">eXo Platform SAS</a></p>
     </div>
+
   </div>
   <!-- /.content-wrapper -->
 
@@ -834,7 +847,15 @@
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
 <script src="../../js/exoScript.js"></script>
-
+<script>
+  window.Prism = window.Prism || {};
+  window.Prism.manual = true;
+  </script>
+  <script src="../../prism.js"></script>
+<script src="../../js/wow.js"></script>
+    <script>
+    new WOW().init();
+ </script>
 
 </body>
 </html>

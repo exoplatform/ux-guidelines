@@ -104,6 +104,38 @@ a:hover{
   color: #578DC9;
 }
 
+.exo-skin-page-subtitle {
+  color: #616161;
+}
+
+.p-x-6 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.exo-skin-btn {
+  border: none;
+  border-radius: 25px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-decoration: none;
+  color: #333;
+  background-color: #ffcb08;
+  border: 1px solid #ffcb08;
+  text-align: center;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.exo-skin-btn:hover {
+  background-color: transparent;
+  color: #ffcb08;
+}
+
 
 @supports not (-webkit-touch-callout: none) {
   .layout-fixed .wrapper .sidebar {
